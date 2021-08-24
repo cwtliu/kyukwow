@@ -1,7 +1,7 @@
     import React, {Component} from 'react';
     import './App.css';
     import { NavLink, Switch, Route } from 'react-router-dom';
-    import { Home } from './components/Home.js';
+    import Home from './components/Home.js';
     import Video from './components/Video.js';
     import 'semantic-ui-css/semantic.min.css'
 
@@ -32,7 +32,7 @@
       render() {
         return(
         <div className='app'>
-          <h1>React Router Demo</h1>
+          <h1>KYUK</h1>
           <Navigation />
           <Main />
         </div>

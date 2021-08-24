@@ -30,6 +30,10 @@ html {
   left: 0;
 }
 
+.yugtatun {
+  color: #D58E3E;
+}
+
 nav ul {
   list-style: none;
   display: flex;
