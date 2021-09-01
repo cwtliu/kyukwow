@@ -4,6 +4,8 @@
     import Home from './components/Home.js';
     import Video from './components/Video.js';
     import 'semantic-ui-css/semantic.min.css'
+    
+    export const API_URL = "https://yugtun-api.herokuapp.com";
 
     const Navigation = () => (
       <nav>
