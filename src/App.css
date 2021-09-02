@@ -16,7 +16,12 @@ html {
 }
 
 .about {
-  width:50%;
+  width:100%;
+}
+
+.reader {
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .player-wrapper {

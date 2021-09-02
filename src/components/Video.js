@@ -161,15 +161,92 @@ class Video extends Component {
       endingrule: [],
       getCall:false,
       definitions:[],
+      audioPlayerPlaying:false,
+      currentSentence: 1,
+      nextSentenceStart: subtitles[2].startTime,
+      currentTime:0,
+      previousSentenceEnd:-1,
     }
     this.audio = new Audio(this.state.audioURL);
+  }
+
+  componentDidMount() {
+    this.intervalID = setInterval(
+      () => this.tick(),
+      200
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
+  }
+
+  tick() {
+    if (this.rap !== null) {
+      this.setState({
+        currentTime : this.rap.audioEl.current.currentTime,
+      });
+    } 
   }
 
   componentDidUpdate(prevState) {
     if (this.state.endTime < this.audio.currentTime) {
        this.audio.pause();
     }
+
+    if (this.state.nextSentenceStart < this.state.currentTime) {
+      let current = this.state.currentSentence;
+      let i = 0;
+      while (subtitles[current+1+i].startTime < this.state.currentTime) {
+        i=i+1;
+      }
+      this.setState({
+        currentSentence: current+i,
+        nextSentenceStart: subtitles[current+1+i].startTime,
+        previousSentenceEnd: subtitles[current-1+i].endTime,
+      });
+    }
+
+    if (this.state.previousSentenceEnd > this.state.currentTime) {
+      let current = this.state.currentSentence;
+      let i = 0;
+      while (current-1+i !== 0 && subtitles[current-1+i].endTime > this.state.currentTime) {
+        i=i-1;
+      }
+        this.setState({
+          currentSentence: current+i,
+          nextSentenceStart: subtitles[current+1+i].startTime,
+        });        
+      if (current-1+i === 0) {
+        this.setState({
+          previousSentenceEnd: 0,
+        });
+      } else {
+        this.setState({
+          previousSentenceEnd: subtitles[current-1+i].endTime,
+        });
+      }
+    }
+
+    // if (this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying && this.rap !== null) {
+    //   console.log(this.state.audioPlayerPlaying)
+    //   if (this.state.audioPlayerPlaying) {
+    //     null
+    //     // if (this.state.nextSentenceStart < this.rap.audioEl.current.currentTime) {
+    //     //   this.setState({
+    //     //     currentSentence: this.state.currentSentence+1,
+    //     //     nextSentenceStart: subtitles[this.state.currentSentence+2].startTime,
+    //     //   });
+    //     // }
+    //   } else {
+    //     console.log('hit')
+    //     clearInterval(this.k)
+    //     this.k = 0;
+    //   }
+    // }
   }
+
+
 
   getParse = (word) => {
     if (word === "") {
@@ -409,7 +486,18 @@ class Video extends Component {
 
 
   render() {
-    // console.log(this.state, this.audio.currentTime)
+    // console.log(this.state)
+    // var audio = document.getElementById("hello");
+    // if (this.rap !== undefined) {
+    //   if (!this.rap.audioEl.current.paused) {
+    //     setInterval(()=>{console.log(this.rap.audioEl.current.currentTime);}, 5000);
+    //   }
+    // }
+    // if (audio !== null) {
+    //   if (!audio.paused) {
+    //     setInterval(()=>{console.log(audio.currentTime);}, 5000);
+    //   }
+    // }
     return (
       <div className='about'>
         <h1>About Me</h1>
@@ -430,15 +518,22 @@ class Video extends Component {
         <ReactAudioPlayer
           src="https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/YugtunAnnotateTest.mp3"
           controls
+          style={{width:'100%'}}
+          ref={(element)=>{this.rap=element;}}
+          onPlay={()=>{this.setState({audioPlayerPlaying:true})}}
+          onPause={()=>{this.setState({audioPlayerPlaying:false})}}
         />
-
-
+        <div class='reader'>
+        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Reader </div>
         {Object.keys(subtitles).map((i, index) => (
-          <div>
-          <button onClick={() => this.playSection(i)}>
-          Play
-          </button>
-          <p style={{fontWeight:(i === this.state.currentSection ? 'bold' : 'normal' )}}>
+          <span style={{fontSize:'25px',lineHeight:'45px'}}>
+          <Icon name='play circle outline' style={{color:'#d4d4d4'}} onClick={() => {
+            this.playSection(i);
+            this.rap.audioEl.current.pause();
+            this.setState({audioPlayerPlaying:false});
+          }} />
+
+          <span style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? 'blue' : 'black' ), textDecoration:(i === this.state.currentSection ? 'underline' : 'none' )}}>
 
           {subtitles[i].transcript.split(' ').map(j => (
             <Popup
@@ -484,7 +579,7 @@ class Video extends Component {
             />
             )
           )}
-          </p>
+          </span>
 
           {i === this.state.showTranslation ? 
             <p>{subtitles[i].translation}</p>
@@ -492,14 +587,17 @@ class Video extends Component {
             null
           }
           <Popup
-            trigger={<button>Translate</button>}
+            trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} name='comment alternate outline' />}
             on='click'
             content={subtitles[i].translation}
             position='bottom left'
           />
-          </div>
+          </span>
           )
         )}
+      </div>
+
+
       <div>
         {/* Show state of song on website */}
         <p />
