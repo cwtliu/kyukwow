@@ -197,15 +197,24 @@ class Video extends Component {
     if (this.state.nextSentenceStart < this.state.currentTime) {
       let current = this.state.currentSentence;
       let i = 0;
-      while (subtitles[current+1+i].startTime < this.state.currentTime) {
+      while (current+1+i !== Object.keys(subtitles).length+1 && subtitles[current+1+i].startTime < this.state.currentTime) {
         i=i+1;
       }
-      this.setState({
-        currentSentence: current+i,
-        nextSentenceStart: subtitles[current+1+i].startTime,
-        previousSentenceEnd: subtitles[current-1+i].endTime,
-      });
+      if (current+1+i === Object.keys(subtitles).length+1) {
+        this.setState({
+          currentSentence: current+i,
+          nextSentenceStart: this.rap.audioEl.current.duration,
+          previousSentenceEnd: subtitles[current-1+i].endTime,
+        });
+      } else {
+        this.setState({
+          currentSentence: current+i,
+          nextSentenceStart: subtitles[current+1+i].startTime,
+          previousSentenceEnd: subtitles[current-1+i].endTime,
+        });        
+      }
     }
+
 
     if (this.state.previousSentenceEnd > this.state.currentTime) {
       let current = this.state.currentSentence;
@@ -535,7 +544,7 @@ class Video extends Component {
 
           <span style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? 'blue' : 'black' ), textDecoration:(i === this.state.currentSection ? 'underline' : 'none' )}}>
 
-          {subtitles[i].transcript.split(' ').map(j => (
+          {subtitles[i].translation.split(' ').map(j => (
             <Popup
               trigger={<span onClick={() => {
                 this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
@@ -582,14 +591,14 @@ class Video extends Component {
           </span>
 
           {i === this.state.showTranslation ? 
-            <p>{subtitles[i].translation}</p>
+            <p>{subtitles[i].transcript}</p>
             :
             null
           }
           <Popup
             trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} name='comment alternate outline' />}
             on='click'
-            content={subtitles[i].translation}
+            content={subtitles[i].transcript}
             position='bottom left'
           />
           </span>

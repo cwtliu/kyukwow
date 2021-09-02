@@ -1,4 +1,4 @@
-export const subtitles = {
+{
     "1": {
         "endTime": 2.0,
         "startTime": 0.0,
@@ -1409,4 +1409,4 @@ export const subtitles = {
         "transcript": "They said that if we look away from him,\n[we] won\u2019t know what he\u2019s talking about anymore.",
         "translation": "Atam-gguq uluqaqumteggu imna qalartellra uunguciirrniar[tukut]."
     }
-};
+}
