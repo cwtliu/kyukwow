@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Popup } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Popup, Loader } from 'semantic-ui-react';
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
 import { API_URL } from '../App.js';
 import {subtitles} from './transcription/cpb-aacip-127-00ns1t6z.h264.js';
+import {scroller} from "react-scroll";
 
 const endingToEnglishTerms = {
   "[Ind]":"Indicative (Statement Form)",
@@ -173,7 +174,7 @@ class Video extends Component {
   componentDidMount() {
     this.intervalID = setInterval(
       () => this.tick(),
-      200
+      20000
     );
   }
 
@@ -194,12 +195,32 @@ class Video extends Component {
        this.audio.pause();
     }
 
+    // if (this.state.getCall !== prevState.getCall) {
+    //   console.log(this.state.getCall)
+    // }
+
     if (this.state.nextSentenceStart < this.state.currentTime) {
       let current = this.state.currentSentence;
       let i = 0;
       while (current+1+i !== Object.keys(subtitles).length+1 && subtitles[current+1+i].startTime < this.state.currentTime) {
         i=i+1;
       }
+      // this.reference.current.scrollIntoView({
+      // behavior: 'smooth',
+      // block: 'center',
+      // inline: 'center',
+      // });       
+      // console.log(elmnt.offsetWidth > 0 && elmnt.offsetHeight > 0)
+      // console.log(document.getElementById('sentence'+(current+i)).offsetHeight)
+      // if (document.getElementById('sentence'+(current+i)).offsetHeight) {
+      // var elmnt = document.getElementById('sentence'+(current+i));
+      // }
+
+      if (i > 1) {
+        var elmnt = document.getElementById('sentence'+(current+i));
+        elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+      }
+
       if (current+1+i === Object.keys(subtitles).length+1) {
         this.setState({
           currentSentence: current+i,
@@ -222,10 +243,18 @@ class Video extends Component {
       while (current-1+i !== 0 && subtitles[current-1+i].endTime > this.state.currentTime) {
         i=i-1;
       }
+
+      if (i < -1) {
+        var elmnt = document.getElementById('sentence'+(current+i));
+        elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+      }
+
+
         this.setState({
           currentSentence: current+i,
           nextSentenceStart: subtitles[current+1+i].startTime,
         });        
+
       if (current-1+i === 0) {
         this.setState({
           previousSentenceEnd: 0,
@@ -254,7 +283,6 @@ class Video extends Component {
     //   }
     // }
   }
-
 
 
   getParse = (word) => {
@@ -288,17 +316,25 @@ class Video extends Component {
           var definitions = [];
           for (let i = 0; i < firstParse.length; i++) {
             parse = this.getLinks(i,firstParse);
-            console.log(parse)
+            console.log(firstParse,this.state.endingrule[0][0])
             if (i !== this.state.endingrule[0][0]) {
             axios
               .get(API_URL + "/word/" + parse)
               .then(response => {
-                this.setState({definitions:this.state.definitions.concat(response.data[1].definition)})
+                console.log(response.data[1].definition)
+                this.setState({definitions:this.state.definitions.concat(response.data[1].definition)}, ()=>{
+
+                  if ((i === firstParse.length-1 && this.state.endingrule[0][0]==='')||(i === firstParse.length-2 && this.state.endingrule[0][0]!=='')||(i === firstParse.length-1 && this.state.endingrule[0][0]!=='')) {
+                    this.setState({getCall:false})  
+                  }
+                  
+                })
               });
             } 
           }
+        } else {
+          this.setState({getCall:false})  
         }
-        this.setState({getCall:false})
       });
 
 
@@ -495,7 +531,7 @@ class Video extends Component {
 
 
   render() {
-    // console.log(this.state)
+    console.log(this.state)
     // var audio = document.getElementById("hello");
     // if (this.rap !== undefined) {
     //   if (!this.rap.audioEl.current.paused) {
@@ -527,9 +563,13 @@ class Video extends Component {
         <ReactAudioPlayer
           src="https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/YugtunAnnotateTest.mp3"
           controls
-          style={{width:'100%'}}
+          style={{position:'fixed','bottom':10,width:'100%'}}
           ref={(element)=>{this.rap=element;}}
-          onPlay={()=>{this.setState({audioPlayerPlaying:true})}}
+          onPlay={()=>{
+            this.setState({audioPlayerPlaying:true})
+            var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
+            elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+        }}
           onPause={()=>{this.setState({audioPlayerPlaying:false})}}
         />
         <div class='reader'>
@@ -542,7 +582,7 @@ class Video extends Component {
             this.setState({audioPlayerPlaying:false});
           }} />
 
-          <span style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? 'blue' : 'black' ), textDecoration:(i === this.state.currentSection ? 'underline' : 'none' )}}>
+          <span id={'sentence'+i}style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? 'blue' : 'black' ), textDecoration:(i === this.state.currentSection ? 'underline' : 'none' )}}>
 
           {subtitles[i].translation.split(' ').map(j => (
             <Popup
@@ -560,27 +600,48 @@ class Video extends Component {
                 // getCall:false,
               })}
               content={
+                !this.state.getCall ? 
+                (
                 this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
                   <div>
+                  <Icon name='window close outline' style={{position:'absolute',top:5,right:5,color:'grey',fontSize:'15px'}} />
                   <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
                   {this.state.parses[0].split('-').map((q,qindex) => 
                     (qindex === this.state.endingrule[0][0] ?
                       this.endingToEnglish(q,0,qindex)
                       :
-                      <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                          <div>
-                          <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                          <div>
-                          {q}
-                          </div>
-                          </div>                  
-                          {this.state.definitions[qindex]}
-                          </div>
-                      </div>
+                      (qindex > this.state.endingrule[0][0] ?
+                        <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                            <div>
+                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                            <div>
+                            {this.state.firstParse[qindex]}
+                            </div>
+                            </div>                  
+                            {this.state.definitions[qindex-1]}
+                            </div>
+                        </div>
+                        :
+                        <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                            <div>
+                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                            <div>
+                            {q}
+                            </div>
+                            </div>                  
+                            {this.state.definitions[qindex]}
+                            </div>
+                        </div>
+                        )
                     ))}
                   </div>
                 :
-                'No Results'
+                <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                )
+                :
+                <div style={{height:'70px',width:'60px'}}>
+                <Loader active>Loading</Loader>
+                </div>
               }
               mouseEnterDelay={800}
               mouseLeaveDelay={800}
@@ -598,7 +659,7 @@ class Video extends Component {
           <Popup
             trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} name='comment alternate outline' />}
             on='click'
-            content={subtitles[i].transcript}
+            content={<div style={{fontSize:'16px'}}>{subtitles[i].transcript}</div>}
             position='bottom left'
           />
           </span>
