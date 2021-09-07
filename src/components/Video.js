@@ -4,8 +4,9 @@ import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
 import { API_URL } from '../App.js';
-import {subtitles} from './transcription/cpb-aacip-127-00ns1t6z.h264.js';
+import {subtitles} from './transcription/cpb-aacip-127-558czhn9.h264.js';
 import {scroller} from "react-scroll";
+import PopupExamplePopperDependencies from './PopupExamplePopperDependencies.js';
 
 const endingToEnglishTerms = {
   "[Ind]":"Indicative (Statement Form)",
@@ -149,7 +150,7 @@ class Video extends Component {
     super(props);
     this.state = {
       show: false,
-      audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/YugtunAnnotateTest.mp3",
+      audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/ElizaChaseDemo.mp3",
       isPlaying: false,
       startTime: null,
       endTime: null,
@@ -167,6 +168,7 @@ class Video extends Component {
       nextSentenceStart: subtitles[2].startTime,
       currentTime:0,
       previousSentenceEnd:-1,
+      clickedWordIndex:[-1,-1],
     }
     this.audio = new Audio(this.state.audioURL);
   }
@@ -550,7 +552,7 @@ class Video extends Component {
         <ReactPlayer 
        	  className='react-player'
        	  controls
-          url='https://youtu.be/o-5RbyLwOtU' 
+          url='https://www.youtube.com/watch?v=XQOOVeK578g' 
           width='100%'
           height='100%'
     //       config={{ file: {
@@ -561,7 +563,7 @@ class Video extends Component {
         />
         </div>
         <ReactAudioPlayer
-          src="https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/YugtunAnnotateTest.mp3"
+          src="https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/ElizaChaseDemo.mp3"
           controls
           style={{position:'fixed','bottom':10,width:'100%'}}
           ref={(element)=>{this.rap=element;}}
@@ -572,11 +574,12 @@ class Video extends Component {
         }}
           onPause={()=>{this.setState({audioPlayerPlaying:false})}}
         />
+        
         <div class='reader'>
         <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Reader </div>
         {Object.keys(subtitles).map((i, index) => (
           <span style={{fontSize:'25px',lineHeight:'45px'}}>
-          <Icon name='play circle' style={{color:'#d4d4d4'}} onClick={() => {
+          <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
             this.playSection(i);
             this.rap.audioEl.current.pause();
             this.setState({audioPlayerPlaying:false});
@@ -584,29 +587,32 @@ class Video extends Component {
 
           <span id={'sentence'+i}style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
 
-          {subtitles[i].transcript.split(' ').map(j => (
+          {subtitles[i].transcript.split(' ').map((j,jindex) => (
             <Popup
-              trigger={<span onClick={() => {
-                this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                this.setState({getCall:true});
+              trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}}onClick={() => {
+              	console.log(this.state.getCall);
+              	if (!this.state.getCall) {
+                	this.setState({getCall:true,clickedWordIndex:[index,jindex]});
+              		this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+              	}
               }
               }>{j+'\n'}</span>}
-              on='click'
-              onUnmount={()=>this.setState({
+              onClose={()=>this.setState({
+              	clickedWordIndex:[-1,-1],
                 definitions:[],
                 parses: [],
                 segments: [],
-                endingrule: [],
+                // endingrule: [],
                 // getCall:false,
               })}
+              on='click'
               content={
                 !this.state.getCall ? 
                 (
                 this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
                   <div>
-                  <Icon name='window close outline' style={{position:'absolute',top:5,right:5,color:'grey',fontSize:'15px'}} />
                   <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                  {this.state.parses[0].split('-').map((q,qindex) => 
+                  {this.state.parses[0].split('-').map((q,qindex) =>
                     (qindex === this.state.endingrule[0][0] ?
                       this.endingToEnglish(q,0,qindex)
                       :
@@ -657,7 +663,7 @@ class Video extends Component {
             null
           }
           <Popup
-            trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} name='comment alternate outline' />}
+            trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} link name='comment alternate outline' />}
             on='click'
             content={<div style={{fontSize:'16px'}}>{subtitles[i].translation}</div>}
             position='bottom left'
