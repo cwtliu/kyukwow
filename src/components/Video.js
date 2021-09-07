@@ -174,7 +174,7 @@ class Video extends Component {
   componentDidMount() {
     this.intervalID = setInterval(
       () => this.tick(),
-      20000
+      500
     );
   }
 
@@ -297,7 +297,7 @@ class Video extends Component {
     axios
       .get(API_URL + "/parse/" + word)
       .then(response => {
-        // console.log(response.data.parses)  
+        console.log(response.data.parses)  
         if (response.data.parses.length !== 0) {
         var firstParse = response.data.parses[0].split('-');
         this.setState({
@@ -316,12 +316,12 @@ class Video extends Component {
           var definitions = [];
           for (let i = 0; i < firstParse.length; i++) {
             parse = this.getLinks(i,firstParse);
-            console.log(firstParse,this.state.endingrule[0][0])
+            // console.log(firstParse,this.state.endingrule[0][0])
             if (i !== this.state.endingrule[0][0]) {
             axios
               .get(API_URL + "/word/" + parse)
               .then(response => {
-                console.log(response.data[1].definition)
+                // console.log(response.data[1].definition)
                 this.setState({definitions:this.state.definitions.concat(response.data[1].definition)}, ()=>{
 
                   if ((i === firstParse.length-1 && this.state.endingrule[0][0]==='')||(i === firstParse.length-2 && this.state.endingrule[0][0]!=='')||(i === firstParse.length-1 && this.state.endingrule[0][0]!=='')) {
@@ -576,15 +576,15 @@ class Video extends Component {
         <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Reader </div>
         {Object.keys(subtitles).map((i, index) => (
           <span style={{fontSize:'25px',lineHeight:'45px'}}>
-          <Icon name='play circle outline' style={{color:'#d4d4d4'}} onClick={() => {
+          <Icon name='play circle' style={{color:'#d4d4d4'}} onClick={() => {
             this.playSection(i);
             this.rap.audioEl.current.pause();
             this.setState({audioPlayerPlaying:false});
           }} />
 
-          <span id={'sentence'+i}style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? 'blue' : 'black' ), textDecoration:(i === this.state.currentSection ? 'underline' : 'none' )}}>
+          <span id={'sentence'+i}style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
 
-          {subtitles[i].translation.split(' ').map(j => (
+          {subtitles[i].transcript.split(' ').map(j => (
             <Popup
               trigger={<span onClick={() => {
                 this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
@@ -652,14 +652,14 @@ class Video extends Component {
           </span>
 
           {i === this.state.showTranslation ? 
-            <p>{subtitles[i].transcript}</p>
+            <p>{subtitles[i].translation}</p>
             :
             null
           }
           <Popup
             trigger={<Icon style={{paddingRight:'50px',color:'#d4d4d4'}} name='comment alternate outline' />}
             on='click'
-            content={<div style={{fontSize:'16px'}}>{subtitles[i].transcript}</div>}
+            content={<div style={{fontSize:'16px'}}>{subtitles[i].translation}</div>}
             position='bottom left'
           />
           </span>
@@ -667,7 +667,7 @@ class Video extends Component {
         )}
       </div>
 
-
+r
       <div>
         {/* Show state of song on website */}
         <p />
