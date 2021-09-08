@@ -48,6 +48,19 @@ html {
   line-height:45px;
 }
 
+/*.categoryButton {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.categoryText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}*/
+
 @media only screen and (max-width: 600px) {
   .reader {
     margin-left:1%;
