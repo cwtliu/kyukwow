@@ -39,6 +39,22 @@ html {
   color: #D58E3E;
 }
 
+.reader-text {
+  font-size:25px;
+  line-height:45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .reader {
+    margin-left:1%;
+    margin-right:1%;
+  }
+  .reader-text {
+    font-size:20px;
+    line-height:35px;
+  }
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -64,5 +80,6 @@ h1 {
 }
 
 p {
-  margin-bottom: 15px;
+  white-space:nowrap;
+  /*margin-bottom: 15px;*/
 }
