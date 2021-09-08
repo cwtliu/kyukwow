@@ -4,17 +4,20 @@ import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
 import { API_URL } from '../App.js';
-import {subtitles} from './transcription/cpb-aacip-127-558czhn9.h264.js';
+// import {subtitles} from './transcription/cpb-aacip-127-558czhn9.h264.js';
 import {scroller} from "react-scroll";
 import {summaries} from './info/summaries.js';
-import {endingToEnglishTerms, endingEnglishDescriptions} from './info/endingTerms.js'
+import {endingToEnglishTerms, endingEnglishDescriptions} from './info/endingTerms.js';
+import {YouTubeLinks} from './info/YouTubeLinks.js';
 
 class Video extends Component {
   constructor(props) {
     super(props);
+    this.videoID = props.location.state.currentVideoId;
     this.state = {
       show: false,
-      audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/ElizaChaseDemo.mp3",
+      audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
+      videoURL: YouTubeLinks[this.videoID],
       isPlaying: false,
       startTime: null,
       endTime: null,
@@ -30,18 +33,23 @@ class Video extends Component {
       audioPlayerPlaying:false,
       currentSentence: 1,
       summaries:summaries,
-      nextSentenceStart: subtitles[2].startTime,
+      subtitles:{},
+      nextSentenceStart: 0,
       currentTime:0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
-      currentVideoId: props.location.state === undefined ? false : props.location.state.currentVideoId,
+      currentVideoId: props.location.state === undefined ? false : this.videoID,
     }
     this.audio = new Audio(this.state.audioURL);
   }
 
   componentDidMount() {
-  	console.log(this.state.currentCPBID)
-  	this.setState({ updateSearchEntry: false });
+  	// console.log(this.state.currentCPBID)
+  	var circle = require('./transcription/'+this.videoID);
+  	this.setState({ subtitles: circle.subtitles });
+  	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
+  	// console.log(subtitles,circle.subtitles)
+
     this.intervalID = setInterval(
       () => this.tick(),
       50000
@@ -72,7 +80,7 @@ class Video extends Component {
     if (this.state.nextSentenceStart < this.state.currentTime) {
       let current = this.state.currentSentence;
       let i = 0;
-      while (current+1+i !== Object.keys(subtitles).length+1 && subtitles[current+1+i].startTime < this.state.currentTime) {
+      while (current+1+i !== Object.keys(this.state.subtitles).length+1 && this.state.subtitles[current+1+i].startTime < this.state.currentTime) {
         i=i+1;
       }
       // this.reference.current.scrollIntoView({
@@ -91,17 +99,17 @@ class Video extends Component {
         elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
       }
 
-      if (current+1+i === Object.keys(subtitles).length+1) {
+      if (current+1+i === Object.keys(this.state.subtitles).length+1) {
         this.setState({
           currentSentence: current+i,
           nextSentenceStart: this.rap.audioEl.current.duration,
-          previousSentenceEnd: subtitles[current-1+i].endTime,
+          previousSentenceEnd: this.state.subtitles[current-1+i].endTime,
         });
       } else {
         this.setState({
           currentSentence: current+i,
-          nextSentenceStart: subtitles[current+1+i].startTime,
-          previousSentenceEnd: subtitles[current-1+i].endTime,
+          nextSentenceStart: this.state.subtitles[current+1+i].startTime,
+          previousSentenceEnd: this.state.subtitles[current-1+i].endTime,
         });        
       }
     }
@@ -110,7 +118,7 @@ class Video extends Component {
     if (this.state.previousSentenceEnd > this.state.currentTime) {
       let current = this.state.currentSentence;
       let i = 0;
-      while (current-1+i !== 0 && subtitles[current-1+i].endTime > this.state.currentTime) {
+      while (current-1+i !== 0 && this.state.subtitles[current-1+i].endTime > this.state.currentTime) {
         i=i-1;
       }
 
@@ -122,7 +130,7 @@ class Video extends Component {
 
         this.setState({
           currentSentence: current+i,
-          nextSentenceStart: subtitles[current+1+i].startTime,
+          nextSentenceStart: this.state.subtitles[current+1+i].startTime,
         });        
 
       if (current-1+i === 0) {
@@ -131,7 +139,7 @@ class Video extends Component {
         });
       } else {
         this.setState({
-          previousSentenceEnd: subtitles[current-1+i].endTime,
+          previousSentenceEnd: this.state.subtitles[current-1+i].endTime,
         });
       }
     }
@@ -143,7 +151,7 @@ class Video extends Component {
     //     // if (this.state.nextSentenceStart < this.rap.audioEl.current.currentTime) {
     //     //   this.setState({
     //     //     currentSentence: this.state.currentSentence+1,
-    //     //     nextSentenceStart: subtitles[this.state.currentSentence+2].startTime,
+    //     //     nextSentenceStart: this.state.subtitles[this.state.currentSentence+2].startTime,
     //     //   });
     //     // }
     //   } else {
@@ -381,10 +389,10 @@ class Video extends Component {
 
   playSection = (i) => {
     this.setState({
-      endTime: subtitles[i].endTime,
+      endTime: this.state.subtitles[i].endTime,
       currentSection: i,
     });
-    this.audio.currentTime = subtitles[i].startTime;
+    this.audio.currentTime = this.state.subtitles[i].startTime;
     this.audio.play();
     const timer = setTimeout(() => {
       this.audio.pause();
@@ -394,7 +402,7 @@ class Video extends Component {
         currentSection: null,
       });
 
-    }, (subtitles[i].endTime-subtitles[i].startTime)*1000+1000); // added a second trailing
+    }, (this.state.subtitles[i].endTime-this.state.subtitles[i].startTime)*1000+1000); // added a second trailing
     // clearTimeout(timer);
   };
 
@@ -420,18 +428,18 @@ class Video extends Component {
         <ReactPlayer 
        	  className='react-player'
        	  controls
-          url='https://www.youtube.com/watch?v=XQOOVeK578g' 
+          url={this.state.videoURL} 
           width='100%'
           height='100%'
     //       config={{ file: {
 		  //   tracks: [
-		  //     {kind: 'subtitles', src: 'subs/chinese.vtt', srcLang: 'zh'},
+		  //     {kind: 'this.state.subtitles', src: 'subs/chinese.vtt', srcLang: 'zh'},
 		  //   ]
 		  // }}}
         />
         </div>
         <ReactAudioPlayer
-          src="https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/ElizaChaseDemo.mp3"
+          src={this.state.audioURL}
           controls
           style={{position:'fixed','bottom':10,width:'100%',zIndex:10}}
           ref={(element)=>{this.rap=element;}}
@@ -445,7 +453,7 @@ class Video extends Component {
         
         <div class='reader'>
         <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Reader </div>
-        {Object.keys(subtitles).map((i, index) => (
+        {Object.keys(this.state.subtitles).map((i, index) => (
           <span class='reader-text'>
           <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
             this.playSection(i);
@@ -453,7 +461,7 @@ class Video extends Component {
             this.setState({audioPlayerPlaying:false});
           }} />
           <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
-          {subtitles[i].transcript.split(' ').map((j,jindex) => (
+          {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
             <Popup
               trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}}onClick={() => {
               	console.log(this.state.getCall);
@@ -524,14 +532,14 @@ class Video extends Component {
           </span>
 
           {i === this.state.showTranslation ? 
-            <p>{subtitles[i].translation}</p>
+            <p>{this.state.subtitles[i].translation}</p>
             :
             null
           }
           <Popup
             trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
-            content={<div style={{fontSize:'16px'}}>{subtitles[i].translation}</div>}
+            content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
             position='bottom left'
           />
           {'\n\n\n'}
