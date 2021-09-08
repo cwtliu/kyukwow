@@ -29,18 +29,22 @@ class Video extends Component {
       definitions:[],
       audioPlayerPlaying:false,
       currentSentence: 1,
+      summaries:summaries,
       nextSentenceStart: subtitles[2].startTime,
       currentTime:0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
+      currentVideoId: props.location.state === undefined ? false : props.location.state.currentVideoId,
     }
     this.audio = new Audio(this.state.audioURL);
   }
 
   componentDidMount() {
+  	console.log(this.state.currentCPBID)
+  	this.setState({ updateSearchEntry: false });
     this.intervalID = setInterval(
       () => this.tick(),
-      500
+      50000
     );
   }
 

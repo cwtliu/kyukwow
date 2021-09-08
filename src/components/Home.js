@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import React, { Component } from 'react';
 import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 
 const categories = _.times(6, (i) => (
@@ -41,6 +42,7 @@ class Home extends Component {
 		}
 	}
 	render() {
+		const ID = 'cpb-aacip-127-558czhn9.h264';
 		return (
 			<div className='home'>
 				<Container className='home-header'>
@@ -50,6 +52,9 @@ class Home extends Component {
 						<h1 className='yugtatun'>Waves of Wisdom</h1>
 					</div>
 				</Container>
+				<Link to={{pathname: '/video/'+ID, state: { currentVideoId: ID}}}>
+				<Button>{'Hi'}</Button>
+				</Link>
 				<Divider />
 				<Container className='featured-video'>
 					<h2>Suurarkat / Featured Videos</h2>

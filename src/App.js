@@ -19,7 +19,7 @@
     const Main = () => (
       <Switch>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/video' component={Video}></Route>
+        <Route exact path='/video/:word' component={Video}></Route>
       </Switch>
     );
 
