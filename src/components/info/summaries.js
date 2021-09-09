@@ -1,5 +1,5 @@
 export const summaries = {
-    "cpb-aacip-127-009w0z0q.h264": {
+    "1": {
         "english": {
             "summary": [
                 "Joshua Phillip (Ac'urunaq; nicknamed Maqista) of Tuluksak talks in the interview about the preservation of the Yup'ik language, the reverence of others with compassion and truth, and taking care of the land and water from pollution. He also talks about child rearing, taking in a son-in-law, qanrucunalriit (people who adhere to instructions), instructions not to bring a child places, and admonishments not to steal from others."
@@ -20,20 +20,21 @@ export const summaries = {
                 "56:52 - Footage of Togiak; and Nasaurlormiut Yupiit Elders Kasgiat."
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
             "Tuulkessaq -- Tuluksak",
             "Yugtun Qalarcaraq -- Yup'ik Langauge",
-            "Kencikiyaraq -- Reverence",
-            "Naklekiyaraq -- Compassion",
-            "Piciuyaraq -- Truthfulness",
-            "Uqlaneq -- Pollution",
-            "Anglicarilleq -- Child Rearing",
+            "20.9",
+            "20.12",
+            "20.5.1",
+            "4.9.1",
+            "23.2",
             "Nengauk -- Son-in-law",
             "Alerquun -- Admonishment",
-            "Teglegyaraq -- Stealing",
-            "Kevgiurturyaraq -- Serving Others"
+            "20.13.1",
+            "20.11"
         ],
+        "videoID": "cpb-aacip-127-009w0z0q.h264",
         "yugtun": {
             "summary": [
                 "Ac'urunaq (nickname-aqluku Maqista) (Kass'atun Joshua Phillip) Tuulkessarmiu qallatellruuq interview-ami Yugtun qalarcaram tamanritlerkaanek, yuum kencikiyaraanek naklekiyarakun piciuyarakun, nunam mer'em-llu auluklerkaagnek uqlanermek. Cali-llu qallatellruuq irniam anglicallerkaanek, nengaungellermek, qanrucunarqellrianek, irniam ayagatesqenritellranek, teglenritlerkamek-llu."
@@ -55,378 +56,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-00ns1t6z.h264": {
-        "english": {
-            "summary": [
-                "Nick Lupie (Ackiar) of Tuntutuliak in the interview talked about how people got ready for the fall. He talked about the many types of fish traps, fish skins and aging urine, preparing grass, and admonishments for traveling in the fall."
-            ],
-            "timestamps": [
-                "01:09 - How people got ready for the fall; how people got ready for what they would need to use for the winter; fall camp",
-                "05:29 - Large fish traps",
-                "09:08 - Possessions made of wood",
-                "11:29 - Preparing fish skins; aging urine",
-                "14:18 - Fish traps for black fish; containers made of grass",
-                "15:28 - Preparing grass",
-                "18:04 - Fish traps for mink and otter",
-                "20:01 - Store-bought items",
-                "21:51 - Admonishments for traveling in the fall; don't be noisy in the wilderness; telling others where they are traveling; knowledge of place names",
-                "29:33 - \"We use to talk about everything\""
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Tuntutuliaq -- Tuntutuliak",
-            "Uksuaq/uksuilleq -- Fall/fall Camp",
-            "Taluyaq -- Fish Trap",
-            "Can'giiq -- Black Fish",
-            "Imarmiutaq -- Mink",
-            "Cuignilnguq -- Otter",
-            "Murak -- Wood",
-            "Neqa/neqet -- Fish",
-            "Amiq -- Skin",
-            "Canek/can'get -- Grass",
-            "Inerquutet -- Admonishments",
-            "Qanruyutet -- Wise Words/traditional Wisdom"
-        ],
-        "yugtun": {
-            "summary": [
-                "Ackiar (Nick Lupie) Tuntutuliarmiu interview-ami qalartellruuq uksuarmi up'ngelallratnek. Qalarutekluki taluyat ayuqenrilngurnek, neqet qeciit teq'uciriyaraatnek, canegnek uptetullritnek, ayagaaqameng-llu inerquutnek uksuarmi."
-            ],
-            "timestamps": [
-                "01:09 - Uksuarmi up'ngelallrat; uksum atu'urkanek upcilallrat; uksuilleq",
-                "05:29 - Taluyarpiit (qamut)",
-                "09:08 - Muragnek aklut",
-                "11:29 - Amiragkiuryaraq neqet qeciit (neqairiluteng); teq'iciriluteng",
-                "14:18 - Taluyat can'giircuutet; caqut canegnek",
-                "15:28 - Canegnek uptetullruut",
-                "18:04 - Taluyat imarmiutarcuutet cuignilngurcuutet-llu",
-                "20:01 - Kass'artat",
-                "21:51 - Ayagaaqameng inerquutet ukusarmi; neplirasqevkenaki yuilqumi; qanerluteng tamatum nuniinun ayakatarniluteng; nunam qaingit atrit nalluvkenaki",
-                "29:33 - \"Ca tamalkuan qanruyutek'lallruyaaqaput\""
-            ]
-        }
-    },
-    "cpb-aacip-127-010p2r15.h264": {
-        "english": {
-            "summary": [
-                "Lucy Beaver and Joe Andrew from Bethel talk about showing love to children. Lucy talks about eating habits, how eating habits have changed, child rearing, and giving birth. And Joe talks about teaching and admonishing children."
-            ],
-            "timestamps": [
-                "00:00 - How women love children",
-                "02:20 - Eating habits; not being frivilous with food; changing eating habits",
-                "05:46 - Child rearing; first pregnancy",
-                "09:03 - \"Admonish him/her without raising your voice\"; \"Everything had traditional wisdom connected to it for us\"",
-                "11:31 - Changing eating habits",
-                "13:04 - Story of giving birth",
-                "16:31 - Teaching and admonishing children from the beginning"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
-            "Kenkiyaraq -- Showing Love",
-            "Neryaraq -- Eating Habits",
-            "Irniam Aulukellra -- Child Rearing",
-            "Irniyaraq -- Giving Birth"
-        ],
-        "yugtun": {
-            "summary": [
-                "Lucy Beaver, Joe Andrew-llu Mamterillermi qalartellruuk mikelngurnek kenkiyaramek. Tua-llu Lucy-m qalarutekluki neryaraq, neryaram cimillra, irniam aulukellra, irnillrani-llu. Tua-llu Joe-am qalarutekluku irniam elicungcaralallra inerqulallra-llu."
-            ],
-            "timestamps": [
-                "00:00 - Arnam mikelngurnek kenkiyaraa",
-                "02:20 - Neryaraq; neqkaq anglanitekevkallrunritaa; neryaram cimillra",
-                "05:46 - Irniam aulukellra; qingaqerraalleq",
-                "09:03 - \"Inerqulaqiu erinan tapirpek'naku\"; \"Ca tamalkuan qanruyutengqellrulria wangkutni\"",
-                "11:31 - Neryaram piciryarallrem cimiutii",
-                "13:04 - Irnillermek qanemciq",
-                "16:31 - Irniani piqarraami elicungcaralaraa inerquulluki-llu"
-            ]
-        }
-    },
-    "cpb-aacip-127-03cz8zdq.h264": {
-        "english": {
-            "summary": [
-                "James Guy from Kwethluk began by first talking about stories in the qasgiq and then admonishments against stealing from others. He also talked about Aavaaq being treated by a shaman. Then he talked about reindeer herding and marking in Akiachak and also about reindeer and wolves and the government. He then talked about these: trapping and getting lumber for money, teenagers losing our Yup'ik language, and the importance of using a walking stick/cane."
-            ],
-            "timestamps": [
-                "00:10 - In the qasgiq",
-                "01:46 - Do not steal; if someone takes something because they are in need, they should write a note with their name",
-                "05:51 - Aavaaq being treated by a shaman",
-                "07:03 - Reindeer herding and marking in Akiachak; Akulikutaq Corral",
-                "12:06 - Reindeer and wolves; reindeer and the governement",
-                "15:09 - Trapping and getting lumber for money",
-                "16:33 - Rowdy teenagers; losing our Yup'ik language; losing our knowledge of how to travel",
-                "19:49 - The most important traditional wisdom; do not steal; keep a walking stick/cane with you at all times"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Kuiggluk -- Kwethluk",
-            "Qasgiq -- Qasgiq",
-            "Teglegyaraq -- Stealing",
-            "Angalkuk -- Shaman",
-            "Tuntu -- Reindeer",
-            "Tunciuryaraq -- Reindeer Herding",
-            "Kegluneq -- Wolf",
-            "Melqulek -- Trapping",
-            "Yugtun Qalarcaraq -- Yup'ik Language",
-            "Ayaruq -- Walking Stick/cane"
-        ],
-        "yugtun": {
-            "summary": [
-                "James Guy Kuigglugmiu qalartellruuq ciumek qasgimi qanengssallernek tua-i-llu tegleksaitesqelluki yuut. Cali-llu Aavaa-m yuungcallranek angalkugmek qallalluni. Tua-llu tunciuryaramek tuntunek-llu maagillratnek Akiacuarmi qallatellruuq cali-llu keglunernek anguyagten\u0304ek-llu tuntut pitekluki. Tua-llu cali qallalluni ukunek: yuilqumi akiikangengnaqurallermek melqulegteggun muriuryaratgun-llu, ayagyuat Yugtun qalarcaraput cagmangluku, ayarum atullerkaa arcaqerluku."
-            ],
-            "timestamps": [
-                "00:10 - Qasgimi",
-                "01:46 - Teglegyaqunak; enulliskuni teguskuni camek at'ni igauskili",
-                "05:51 - Aavaaq-am yuungcaraullra",
-                "07:03 - Tuntunek maagilleq Akiacuarmi; Akulikutaq Corral",
-                "12:06 - Tuntut keglunret-llu; tuntut anguyagtet-llu",
-                "15:09 - Akiikangengnaquralleq melqulegteggun muriuryaratgun-llu",
-                "16:33 - Ayagyuat akusrartengut; Yugtun qalarcaraput cagmangluku; ayagayarateng cagmangluku",
-                "19:49 - Qanruyun angenqurrat; teglegyaqunak; ayaruq tegumiaqurluku"
-            ]
-        }
-    },
-    "cpb-aacip-127-06g1jzz6.h264": {
-        "english": {
-            "summary": [
-                "In this conference, these men talked: Paul Gregory began the conference and then [Person1 - Peter], on behalf of the Search and Rescue team, thanked a helper that was always helping out. After that, James Peter instructed about what to do when someone falls into water and other words of wisdom, then Fred Evan thanked the searchers. Lastly [Person2] talked about dogs and dog mushing along with a story of when he had a supernatural experience with a cold draft, and then after Paul Gregory again talked about dogs, he adjourned the conference."
-            ],
-            "timestamps": [
-                "00:00 - [Paul Gregory] Beginning the conference",
-                "00:41 - [Person1 - Peter] Search and rescue thanks a helper",
-                "03:55 - [James Peter] Instructions for when a person falls into the water; \"A self-confident person only comes upon misfortune.\"",
-                "08:11 - [Fred Evan] - Thanking the searchers",
-                "10:05 - [Person2] Dogs and dog mushing; supernatural experience with a cold draft",
-                "19:48 - [Paul Gregory] Dogs; adjourning the conference"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Yuartet -- Search And Rescue",
-            "Anangnaqsaraq -- Survival",
-            "Qimugta -- Dog",
-            "Qimugciryaraq -- Dog Mushing",
-            "Alangru -- Ghost"
-        ],
-        "yugtun": {
-            "summary": [
-                "Quyurtellratni ukut angutet qalartellruut: Paul Gregory quyurtellrat ayagnillrua tua-llu [Yuk1 - Peter], yuartet pitekluki, quyavikellrua kevgaq ikayuutelallruan. Taum kinguani James Peter ayuqucirturillruuq kitellriamun alerquutnek allanek-llu qanruyutnek, tua-llu Fred Evan quyavikellrui yuartet. Nangnermek [Yuk2] qimugten\u0304ek qimugciryaramek-llu qalartellruuq qanemciluni-llu alangrullerminek iternerkun tua-llu Paul Gregory cali qimugten\u0304ek qalartenqigterraarluni quyurtellrat arulaircetaa."
-            ],
-            "timestamps": [
-                "00:00 - [Paul Gregory] Quyurtellrat ayagnirluni",
-                "00:41 - [Yuk1 - Peter] Yuartet quyavikaat kevgaq",
-                "03:55 - [James Peter] Yuk kiskan ayuqucirtuutet; \"Cacetulria-gguq arenqiallugtellerkaminun tau\u0361gaam tekitaatuuq.\"",
-                "08:11 - [Fred Evan] - Quyavikluki yuartet",
-                "10:05 - [Yuk2] Qimugtet qimugciryaraq-llu; alangru iternerkun",
-                "19:48 - [Paul Gregory] Qimugtet; Quyurtellrat arulairluni"
-            ]
-        }
-    },
-    "cpb-aacip-127-06g1k008.h264": {
-        "english": {
-            "summary": [
-                "In the conference, these people talked: [Person1] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Person1], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Larissa encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
-            ],
-            "timestamps": [
-                "00:00 - [Person1] The custom of wiping the saliva of the brown or black bear on their faces",
-                "01:22 - [Kurt Bell, Person1, Person2] - The boy who was taken away by the bladders; seal bladders",
-                "08:19 - [Edward Weiss] - The custom of wiping the saliva of the brown or black bear on their faces",
-                "10:37 - [Kurt Bell] - Admonishment to not shoot baby birds and birds with babies",
-                "13:56 - [Person3] - Reverence of their catch",
-                "14:43 - [Larissa] - \"It would be beneficial if you let them talk and teach us on KYUK\"",
-                "16:07 - [Edward Weiss] - Keep ahold of a walking stick for when a black bear attacks",
-                "17:36 - [Phillip Moses, Person3] - Shamans; seal parties in the spring for the first bearded seal"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Cugtun -- In Cup'ik",
-            "Taqukaq -- Brown Bear",
-            "Tan'gerliq -- Black Bear",
-            "Nakacuut -- Bladders",
-            "Piyagaq -- Baby Animal",
-            "Ayaruq -- Walking Stick/cane",
-            "Angalkuq -- Shaman",
-            "Uqiquryaraq -- Seal Party"
-        ],
-        "yugtun": {
-            "summary": [
-                "Quyurtellratni ukut yuut qalartellruut: [Yuk1] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Yuk1] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Larissa-m, qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet\u2019laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
-            ],
-            "timestamps": [
-                "00:00 - [Yuk1] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
-                "01:22 - [Kurt Bell, Yuk2, Yuk1] - Tan'gaurluq nakacuut ayautellrat; nakacuut",
-                "08:19 - [Edward Weiss] - Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
-                "10:37 - [Kurt Bell] - Inerqurluki tengmiat piyagat-llu piyagauluki pissusqevkenaki",
-                "13:56 - [Yuk3] - Pitateng kencikluki",
-                "14:43 - [Larissa] - \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
-                "16:07 - [Edward Weiss] - Ayaruq tegumiaqesqelluku tan'gerlim curukaqaku",
-                "17:36 - [Phillip Moses, Yuk3] - Angalkut; up'nerkami pitqerraarqan maklagmek uqiqurluteng"
-            ]
-        }
-    },
-    "cpb-aacip-127-09w0vx3c.h264": {
-        "english": {
-            "summary": [
-                "Martha Sarah (Uliggaq), and Matthew (Kumangulria) from the Yukon and Bethel talked about the spring time and preparing for spring camp. They also talked about the ice, snow, and floods of spring, Avgarutaaryaraq (Sharing Festival), and natural freezers."
-            ],
-            "timestamps": [
-                "00:08 - [Uliggaq Martha Sarah] Self introduction",
-                "00:35 - Preparing for spring camp; ice, snow, and floods in the spring; returning home",
-                "05:12 - Avgarutaaryaraq (Sharing Festival)",
-                "06:50 - [Kumangulria Matthew] Self introduction",
-                "08:16 - Springtime in the Yukon; to drive rabbits; ice, snow, and floods in teh spring",
-                "11:59 - Time of no fish in the Yukon; preparing for spring camp; making a natural freezer",
-                "14:40 - Extreme flooding",
-                "17:14 - [Person1] - Woman *no sound*"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
-            "Kuigpak -- Yukon",
-            "Up'nerkaq -- Spring",
-            "Up'nerkilleq -- Spring Camp",
-            "Ciku -- Ice",
-            "Qanikcaq -- Snow",
-            "Ulerpak -- Flood",
-            "Avgarutaaryaraq -- Sharing Festival",
-            "Kumlivik -- Freezer"
-        ],
-        "yugtun": {
-            "summary": [
-                "Uliggaq (Martha Sarah), Kumangulria (Matthew)-llu Kuigpagmiunguluni Mamterillermiunguluni-llu qalartellruuk up'nerkamek up'nerkiyallerkamek-llu. Cali-llu cikunek qanikcamek ulerpagmek-llu up'nerkami, Avgarutaaryaramek, kumlillranek-llu qalarrlutek."
-            ],
-            "timestamps": [
-                "00:08 - [Uliggaq Martha Sarah] Kituucia",
-                "00:35 - Up'nerkiyallerkaq; ciku qanikcaq ulerpak-llu up'nerkami; utertaqata",
-                "05:12 - Avgarutaaryaraq",
-                "06:50 - [Kumangulria Mathew] Kituucia",
-                "08:16 - Up'nerkami Kuigpagmi; maqaruanek unguluteng; ciku qanikcaq ulerpak-llu up'nerkami",
-                "11:59 - Neqaitellrani Kuigpagmi; up'nerkiyallerkaq; kumlivililleq",
-                "14:40 - Ulenkacagallrani",
-                "17:14 - [Yuk1] - Arnaq *nepaunani*"
-            ]
-        }
-    },
-    "cpb-aacip-127-10jsxpvr.h264": {
-        "english": {
-            "summary": [
-                "Paul G. Nichoali (Cialuq) and Lucy Nicholai (Neviar; originally named Qakvaralria and raised in Eek) from Kwethluk (Kuiggluk) talked about many different things. They talked about having to always have a walking stick or ice spud/pick/chisel; to follow the admonishments and rules; the teachings of traditional abstinence practices; possessions on a grave; teenagers becoming mischievous; and other topics."
-            ],
-            "timestamps": [
-                "00:59 - [Cialuq Paul G. Nicholai] - Admonishment for the springtime - \"They would tell us to always have an ice spud because it's our eyes.\"",
-                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Walking stick; \"They told us to be quiet.\"",
-                "03:50 - [Cialuq Paul G. Nicholai] - Spring time; ground squirrels; fish traps and steel traps",
-                "05:33 - Giving water to seals",
-                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Traditional abstinence practices for girls who has recently menstruated for the first time and women who miscarried",
-                "10:32 - [Cialuq Paul G. Nicholai] - Months; possessions on graves",
-                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Rules for girls; \"A woman leads to death.\"",
-                "13:59 - [Cialuq Paul G. Nicholai] - Ice spud/pick/chisel; \"And if he's sedentary, he won't have anything.\"",
-                "15:57 - Teenagers becoming mischievous; alcohol; suicide",
-                "18:03 - Subsistence; fish traps",
-                "19:26 - Respect for elders; Yup'ik language; how Kwethluk was back then"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Kuiggluk -- Kwethluk",
-            "Up'nerkaq -- Spring",
-            "Up'nerkilleq -- Spring Camp",
-            "Ayaruq -- Walking Stick/cane",
-            "Cikuliurun -- Ice Spud/pick/chisel",
-            "Qanganaq -- Ground Squirrel",
-            "Unkumiutaq/puga -- Seal",
-            "Merr'icaraq -- Giving Water To Animals",
-            "Aglenraraq -- Girl Who Has Menstruated For The First Time",
-            "Irnicualleq -- Miscarriage",
-            "Eyagyaraq -- Traditional Abstinence Practice",
-            "Iraluq -- Month",
-            "Qunguq -- Burial",
-            "Akluq -- Clothing/possession",
-            "Calirpagyaraq -- Hard Work",
-            "Ayagyuaq -- Teenager",
-            "Taangaq -- Alcohol",
-            "Ellminek Tuqutellerkaq -- Suicide",
-            "Nerangnaqsaraq -- Subsistence",
-            "Taluyaq -- Fish Trap",
-            "Takaqiyaraq -- Respect",
-            "Tegganeq -- Elder",
-            "Yugtun Qalarcaraq -- Yup'ik Language"
-        ],
-        "yugtun": {
-            "summary": [
-                "Cialuq (Paul G. Nicholai) and Neviar-llu (atpiara Qakvaralria ellangluni-llu Iigmi; Lucy Nicholai) Kuigglugmiungulutek (from Kwethluk) amllernek ayuqenrilngurnek qalartellruuk. Ayaruq wall'u cikuliurun up'nerkami nantesqevkenaku; inerquutet alerquutet-llu maliggluki; eyagyaram alerquutainek; qungumi akiutnek; ayagyuat akusrartellratnek; canek-llu allanek qalartellruuk."
-            ],
-            "timestamps": [
-                "00:59 - [Cialuq Paul G. Nicholai] - Inerquun up'nerkami - \"Cikuliurutraq nantesqevkenaku iinguan.\"",
-                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Ayaruq; \"Nepaunata pilaasqelluta.\"",
-                "03:50 - [Cialuq Paul G. Nicholai] - Up'nerkiyalleq; qanganaat; taluyat kapkaanat-llu;",
-                "05:33 - Merr'illuki unkumiutaat",
-                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Aglenraraat irnicuallret-llu eyagyarait",
-                "10:32 - [Cialuq Paul G. Nicholai] - Iralut; qungumi akluit",
-                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Nasaurluut alerquutait; \"Arnaq-gguq tuquuguq.\"",
-                "13:59 - [Cialuq Paul G. Nicholai] - Cikuliurun; \"Uitayukuni-ll' tua-i camek piinani.\"",
-                "15:57 - Ayagyuat akusrarneruut; taangaq; ellminek tuqutellerkaq",
-                "18:03 - Nerangnaqsaraq; taluyat",
-                "19:26 - Takaqluki tegganret; Yugcetun qaneryararput; Kuiggluum ayuqucillranek"
-            ]
-        }
-    },
-    "cpb-aacip-127-10jsxpwg.h264": {
-        "english": {
-            "summary": [
-                "Person1 and Lucy Beaver talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
-            ],
-            "timestamps": [
-                "00:54 - [Person1] - Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours",
-                "06:54 - [Person1] \"When the water suddenly gets foggy, we say, 'So, someone has caught something in the ocean.'\"",
-                "07:45 - [Lucy Beaver] Reverence of the land and land animals; \"There was no mess in all of the land.\"",
-                "10:32 - [Lucy Beaver] \"Truly, I do not leave behind anything when I pick berries.\"",
-                "11:47 - [Person1] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\"",
-                "15:41 - [Person1] Taking care of birds; baby birds",
-                "18:38 - [Person1] Taking care of bird eggs",
-                "10:05 = [Kurt Bell] Giving water to animals; when catching his first bearded seal"
-            ]
-        },
-        "keywords": [
-            "Yugtun -- In Yup'ik",
-            "Cugtun -- In Cup'ik",
-            "Mamterilleq -- Bethel",
-            "Alerquun -- Rules/instructions",
-            "Yuilqurmiutaq -- Wild Animals",
-            "Kencikiyaraq -- Reverence",
-            "Nuna -- Land",
-            "Nunamiutaq -- Land Animals",
-            "Iqvaryaraq -- Picking Berries",
-            "Aulukiyaraq -- Taking Care",
-            "Yaqulek -- Bird",
-            "Negaq -- Snare/trap",
-            "Qangqiiq -- Ptarmigan",
-            "Kayanguq -- Egg",
-            "Piyagaq -- Baby Animal",
-            "Merr'iciyaraq -- Giving Water To Animals"
-        ],
-        "yugtun": {
-            "summary": [
-                "Yuk1, Lucy Beaver-llu qalartellruuk Mamterillermi alerquutnek yuilqurmiutarnek, kenciksaraanek nunam, cali-llu aulukiyaramek yaqulegnek kayangunek-llu. Kinguakun Kurt Bell merr'iciyaramek pitanek qalarrluni."
-            ],
-            "timestamps": [
-                "00:54 - [Yuk1] Alerquutet yuilqurmiutaat; qigcikluki caanguaqevkekenaki pitarkat; yuum allam pikenrilkiinek tegutevkenata",
-                "06:54 - [Yuk1] \"Meq taicingareskan qanlartukut, 'Iliit-gguq-am imarpigmi pitliniuq.'\"",
-                "07:45 - [Lucy Beaver] Kencikluki nuna nunamiutaat-llu; \"sagtelriartaitellruuq nunam qainga tamarmi\"",
-                "10:32 - [Lucy Beaver] \"Uniciyuunii wiinga iqvatuunga ilumun\"",
-                "11:47 - [Yuk1] Yaqulget up'nerkami; kuvyallret; negarluki qangqiiret; kayangut; \"Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai\"",
-                "15:41 - [Yuk1] Aulukiyaraq yaqulegnek; yaqulget piyagaat",
-                "18:38 - [Yuk1] Aulukiyaraq kayangunek",
-                "10:05 = [Kurt Bell] Merr'iciyaraq; pitaqeqarraaraqaku maklagmeng"
-            ]
-        }
-    },
-    "cpb-aacip-127-10jsxpx6.h264": {
+    "10": {
         "english": {
             "summary": [
                 "Person1, originally from Urucaraq, talked about what Bethel was like when he was growing up. Then he talked about a lot of traditional wisdom such as: to revere our land, to help ones who are unable, and how it seems our traditional wisdom is one."
@@ -443,17 +73,18 @@ export const summaries = {
                 "20:05 - When he worked in the church"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
+            "2.2.5",
             "Qasgiq -- Community House",
-            "Kencikiyaraq -- Reverence",
-            "Aipanglleq -- Getting A Spouse",
-            "Taangaq -- Alcohol",
+            "20.9",
+            "15.3",
+            "23.5",
             "Qanruyun -- Traditional Wisdom",
             "Kass'artaq -- Manufactured Items",
             "Sun'aq -- Ship/barge"
         ],
+        "videoID": "cpb-aacip-127-10jsxpx6.h264",
         "yugtun": {
             "summary": [
                 "Yuk1 Urucararmiungullruluni qalartellruuq Mamterillrem ayuqucianek anglillermini. Tua-i-llu amllernek qanruyutnek qalarrluni ukut ilakluki: nunavut kencikesqelluku, pisciigalnguut ikayuasqelluki, qanruyutvut-llu atauciuyaaqngatliniluni."
@@ -471,7 +102,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-14nk9d19.h264": {
+    "11": {
         "english": {
             "summary": [
                 "Johnny K. Guy (Qavarliaq), from Kwethluk, talks in the interview about reindeer, a community house (qasgiq) in Kwthluk, walking stick/canes, great hunters, and the Yup'ik langauge."
@@ -489,10 +120,10 @@ export const summaries = {
                 "19:17 - \"Parents must admonsih their children against doing [bad] things.\"; Yup'ik language"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Kuiggluk -- Kwethluk",
-            "Tuntu -- Reindeer",
+            "2.2.1",
+            "6.3.1",
             "Tuntuciuryaraq -- Reindeer Herding",
             "Qasgi -- Community Building",
             "Yuraq -- Dance",
@@ -500,10 +131,11 @@ export const summaries = {
             "Ayaruq -- Walking Stick/cane",
             "Yugtun Qalarcaraq -- Yup'ik Language",
             "Bible -- Bible",
-            "Nukalpiaq -- Great Hunter",
+            "5.3",
             "Nerangnaqsaraq -- Subsistence",
-            "Elitnaurvik -- School"
+            "17.3"
         ],
+        "videoID": "cpb-aacip-127-14nk9d19.h264",
         "yugtun": {
             "summary": [
                 "Qavarliaq (Johnny K. Guy), Kuigglugmiu, qalartuq tuntunek, qasgimek Kuigglugmi, ayarunek, nukalpianek, Yugtun-llu qalarcaramek."
@@ -522,7 +154,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-15p8d31m.h264": {
+    "12": {
         "english": {
             "summary": [
                 "In this conference, three men talked. First, Person1 encouraged the people listening to keep talking to the youth about the traditional wisdom and the Yup'ik language. Next, Alciq talked about showing respect to our traditional teachings because they are our support. Lastly, Person2 talked about how we can live a long life."
@@ -538,16 +170,17 @@ export const summaries = {
                 "18:56 - [Person2] - Pollution; living a long life"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
+            "2.2.5",
             "Qanruyun -- Traditional Wisdom",
             "Yugtun Qalarcaraq -- Yup'ik Language",
             "Ayuqucirtuun -- Traditional Teaching / Instruction",
-            "Aviukaqsaraq -- Food And Water Offering",
-            "Ellam Yua -- Spirit Of The Universe",
-            "Uqlaneq -- Pollution"
+            "9.6",
+            "9.2",
+            "4.9.1"
         ],
+        "videoID": "cpb-aacip-127-15p8d31m.h264",
         "yugtun": {
             "summary": [
                 "Wani quyurrvigmi pingayun angutet qalartellruut. Ciumek Yuk1 niicugnilriit cingumallrui qalaruqu'uraasqelluuki ayagyuat qanruyutnek Yugtun-llu qalarcaramek. Tua-i-llu kinguani Alciq qalartellruuq waten, takaqluki ayuqucirtuutet teggutekngamteki. Nangnermi Yuk2 qalartellruuq qaillun akaarnun unguvamayugngacimten\u0304ek."
@@ -564,7 +197,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-16pzgr3f.h264": {
+    "13": {
         "english": {
             "summary": [
                 "Person1 talked about the condition and governance of our land. He also talked about the traditional way of life through the elders and traditional wisdom."
@@ -575,15 +208,16 @@ export const summaries = {
                 "17:04 - Cut out scenes *silent*"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Nunavut -- Our Land",
+            "4.9",
             "Yuungnaqsaraq -- Subsistence",
             "Native Allotment -- Native Allotment",
-            "Yup'ik Nation -- Yup'ik Nation",
+            "24.2",
             "Yuuyaraq -- Traditional Way Of Life",
             "Qanruyun -- Traditional Wisdom"
         ],
+        "videoID": "cpb-aacip-127-16pzgr3f.h264",
         "yugtun": {
             "summary": [
                 "Yuk1 qalartellruuq nunamta ayuqucianek atanirtuucianek-llu. Cali-llu yuuyaramek ciulirnerteggun qanruyutetgun qalarrluni."
@@ -595,7 +229,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-18rbp380.h264": {
+    "14": {
         "english": {
             "summary": [
                 "At the conference, Lucy Beaver talked about caring for men's clothes and catch and about pollution. Then [Person1] talked about admonishments for old food and about berries and plants."
@@ -610,13 +244,14 @@ export const summaries = {
                 "21:19 - [Person1] - Mouse food"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Uqlaneq -- Pollution",
+            "4.9.1",
             "Neqkaq -- Food",
             "Atsat -- Berry",
             "Naunraq -- Plant"
         ],
+        "videoID": "cpb-aacip-127-18rbp380.h264",
         "yugtun": {
             "summary": [
                 "Quyurtellratni Lucy Beaver qalartellruuq angutet akluita unakellrita-llu aulukellritnek uqlanermek-llu. Tua-i-llu Yuk1 qalartellruuq neqkallernek inerquutnek cali-llu atsanek naunranek-llu."
@@ -632,7 +267,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-20fttjr7.h264": {
+    "15": {
         "english": {
             "summary": [
                 "Person1 and Person2 speak to school kids about the springtime traditional wisdom. They encouraged the kids to follow the traditional wisdom. They talked about the providing in the ocean, subsistence, and seal hunting with spears."
@@ -649,18 +284,19 @@ export const summaries = {
                 "18:36 - Striving in the ocean (using their arms)"
             ]
         },
-        "keywords": [
+        "tags": [
             "Cugtun -- Cup'ik",
             "Qanruyun/qanruyutet -- Traditional Wisdom",
-            "Cingumalleq -- Encouragement",
-            "Pingnatugyaraq -- Providing",
+            "20.2",
+            "10.2",
             "Nerangnaqsaraq -- Subsistence",
-            "Pissuryaraq -- Hunting",
-            "Narulkaq -- Spear",
+            "10.1",
+            "18.3.1",
             "Imarpik -- Ocean",
             "Maklak/makliit -- Bearded Seal",
             "Nayiq/nayiit -- Ringed Seal"
         ],
+        "videoID": "cpb-aacip-127-20fttjr7.h264",
         "yugtun": {
             "summary": [
                 "Yuk1 Yuk2 qanertuk ayagyugarnun elitnaurvigmi up'nerkameng qanruyutmeng. Cingumaakek ayagyugat qaneryaramegteggun. Tau\u0361ga-llu cali pingnatugyaramek imarpigmi, nerangnaqsaramek, pissunermek-llu narulkakun qanertuk."
@@ -678,7 +314,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-25k98x78.h264": {
+    "16": {
         "english": {
             "summary": [
                 "Dick Andrew (Apaqutaq) from Kayalivik interviewed by John Active (Aqumgaciq) tells stories of strange things and when he first encountered Western people. The he talks about dance festivals, masks, Yup'ik songs, and the two large qasgiq (\"communiy houses\") at Kayalivik. He also sings a song about the Qasgirpagmiut."
@@ -692,18 +328,19 @@ export const summaries = {
                 "15:09 -Yup'ik songs; the two large qasgiq (\"community houses\") at Kayalivik; song about the Qasgirpagmiut"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Kayalivik -- Kayalivik",
+            "2.2.4",
             "Qanemciq -- Story",
-            "Kass'at Tekiteqerraallratni -- Early Western Contact",
-            "Yuuyaraq -- Way Of Life",
+            "17.2",
+            "20.8",
             "Yuraq -- Yuraq (\"eskimo Dance\")",
-            "Kegginaquq -- Mask",
-            "Ayagyuat -- Youth",
-            "Yuarun -- Song",
+            "21.2.3",
+            "5.1",
+            "21.2.2",
             "Qasgiq -- Community House"
         ],
+        "videoID": "cpb-aacip-127-25k98x78.h264",
         "yugtun": {
             "summary": [
                 "Apaqutaq (Dick Andrew) Kayalivigmiu interview-ami Aqumgacimek (John Active) qanemciuq irr'inarqelriamek cali-llu Kass'anek tangerqerraallerminek. Tua-i-llu qalarrluni yurarpatullratnek, kegginaqunek, yuarutnek, qasgirpagnek-llu Kayalivigmi. Cali-llu yuarutmek Qasgirpagmiutarnek aturpagluni."
@@ -718,7 +355,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-25x69tk3.h264": {
+    "17": {
         "english": {
             "summary": [
                 "In the conference, Person1 first spoke about how people should live good lives and be obedient. Then Person2 talked about how the fish are eating pollution. And then Person3 talked about sickness, death, alcohol, and how people should not steal."
@@ -729,16 +366,17 @@ export const summaries = {
                 "18:09 - [Person3] - Sickness; death; alcohol; do not steal"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
             "Maligtaqucaraq -- Obedience",
             "Neqpik -- Fish",
-            "Uqlaneq -- Pollution",
+            "4.9.1",
             "Naulluun -- Sickness",
             "Yuunrilleq -- Death",
-            "Taangaq -- Alcohol",
-            "Teglegyaraq -- Stealing"
+            "23.5",
+            "20.13.1"
         ],
+        "videoID": "cpb-aacip-127-25x69tk3.h264",
         "yugtun": {
             "summary": [
                 "Quyurtellratni ciumek Yuk1 qanertuq assirluteng yuusqelluki maligtaquurautesqelluki. Tua-i-llu Yuk2 qanertuq neqpiat nerlauciitnek, uqlautnek. Tua-i-llu Yuk3 qanerluni naullutnek yuunrillermek taangamek teglegesqenrilucimek-llu."
@@ -750,7 +388,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-26xwdh7k.h264": {
+    "18": {
         "english": {
             "summary": [
                 "First, Fred Ollie spoke with Person1 translating what he said, and he talked about when he lived in St. Mary's and then opened up the conference in Bethel. Next, Person2 talked in both Yup'ik and English about the importance of our land and how elders should be speaking about our way of life."
@@ -761,13 +399,14 @@ export const summaries = {
                 "13:20 - [Person2] - The importance of our land to us; our elders will teach us our way of life"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
-            "Negeqliq -- St. Mary's",
-            "Yuuyaraq -- Way Of Life",
+            "2.2.5",
+            "2.2.6",
+            "20.8",
             "Nunaput -- Our Land"
         ],
+        "videoID": "cpb-aacip-127-26xwdh7k.h264",
         "yugtun": {
             "summary": [
                 "Ciumek Fred Ollie qalarrluni tua-llu Yuk1 mumiggluki qanellri piuk. Negeqlirmetlerminek qanellruuq tua-i-llu una quyurtellratni Mamterillermi ikirrluku. Kinguani Yuk2 qalartellruuq Yugcetun Kass'acetun-llu nunamta arcaqallranek tegganret-llu qalarutkarkaullratnek yuuyaramten\u0304ek."
@@ -779,7 +418,7 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-27zkh5wz.h264": {
+    "19": {
         "english": {
             "summary": [
                 "(Cuukvak) from Bethel and interviewer Person1 talked about picking berries and about akutaq (\"Eskimo ice cream\")."
@@ -792,18 +431,19 @@ export const summaries = {
                 "12:25 - Ingulak Festival"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Mamterilleq -- Bethel",
-            "Iqvaryaraq -- Picking Berries",
+            "2.2.5",
+            "10.5.3",
             "Atsaq -- Berry",
             "Akutaq -- Akutaq, \"eskimo Ice Cream\"",
             "Qasgiq -- Qasgiq",
             "Qerpertaq -- Qerpertaq",
             "Tenguggluk -- Tenguggluk",
             "Qanemciq -- Story, Factual Account",
-            "Ingulagyagaq -- Ingulak Festival"
+            "21.5"
         ],
+        "videoID": "cpb-aacip-127-27zkh5wz.h264",
         "yugtun": {
             "summary": [
                 "Cuukvak Mamterillermiu cali-llu apqaurta Yuk1 qalarutellruuk iqvaryaramek akutanek-llu."
@@ -817,7 +457,59 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-28ncjzpp.h264": {
+    "2": {
+        "english": {
+            "summary": [
+                "Nick Lupie (Ackiar) of Tuntutuliak in the interview talked about how people got ready for the fall. He talked about the many types of fish traps, fish skins and aging urine, preparing grass, and admonishments for traveling in the fall."
+            ],
+            "timestamps": [
+                "01:09 - How people got ready for the fall; how people got ready for what they would need to use for the winter; fall camp",
+                "05:29 - Large fish traps",
+                "09:08 - Possessions made of wood",
+                "11:29 - Preparing fish skins; aging urine",
+                "14:18 - Fish traps for black fish; containers made of grass",
+                "15:28 - Preparing grass",
+                "18:04 - Fish traps for mink and otter",
+                "20:01 - Store-bought items",
+                "21:51 - Admonishments for traveling in the fall; don't be noisy in the wilderness; telling others where they are traveling; knowledge of place names",
+                "29:33 - \"We use to talk about everything\""
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "2.2.3",
+            "Uksuaq/uksuilleq -- Fall/fall Camp",
+            "18.1.6",
+            "Can'giiq -- Black Fish",
+            "6.3.2",
+            "6.3.4",
+            "18.6",
+            "Neqa/neqet -- Fish",
+            "Amiq -- Skin",
+            "Canek/can'get -- Grass",
+            "20.13",
+            "Qanruyutet -- Wise Words/traditional Wisdom"
+        ],
+        "videoID": "cpb-aacip-127-00ns1t6z.h264",
+        "yugtun": {
+            "summary": [
+                "Ackiar (Nick Lupie) Tuntutuliarmiu interview-ami qalartellruuq uksuarmi up'ngelallratnek. Qalarutekluki taluyat ayuqenrilngurnek, neqet qeciit teq'uciriyaraatnek, canegnek uptetullritnek, ayagaaqameng-llu inerquutnek uksuarmi."
+            ],
+            "timestamps": [
+                "01:09 - Uksuarmi up'ngelallrat; uksum atu'urkanek upcilallrat; uksuilleq",
+                "05:29 - Taluyarpiit (qamut)",
+                "09:08 - Muragnek aklut",
+                "11:29 - Amiragkiuryaraq neqet qeciit (neqairiluteng); teq'iciriluteng",
+                "14:18 - Taluyat can'giircuutet; caqut canegnek",
+                "15:28 - Canegnek uptetullruut",
+                "18:04 - Taluyat imarmiutarcuutet cuignilngurcuutet-llu",
+                "20:01 - Kass'artat",
+                "21:51 - Ayagaaqameng inerquutet ukusarmi; neplirasqevkenaki yuilqumi; qanerluteng tamatum nuniinun ayakatarniluteng; nunam qaingit atrit nalluvkenaki",
+                "29:33 - \"Ca tamalkuan qanruyutek'lallruyaaqaput\""
+            ]
+        }
+    },
+    "20": {
         "english": {
             "summary": [
                 "This video is made of many clips and the people talk about various topics. These clips are taken from other videos that they liked."
@@ -845,35 +537,36 @@ export const summaries = {
                 "49:16 - [Person6] - \"This was the traditional wisdom passed to us: they told us to respect especially the land and water, and to treat it as if it were our dinner plate or soup bowl.\""
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
             "Cugtun -- In Cup'ik",
-            "Qercuaneq, Qercualleq -- Frostbite",
-            "Ellavut -- Weather, Climate",
-            "Ellassuun -- Weather Device",
-            "Akerta -- Sun",
-            "Ingriq -- Mountain",
-            "Qanganaq -- Ground Squirrel",
+            "12.1",
+            "4",
+            "4.2.1",
+            "4.7",
+            "2.3",
+            "6.3.8",
             "Yaaruin -- Storyknife",
             "Airraq -- String Game",
             "Inuguaq -- Doll",
             "Yuraq -- Yuraq (\"eskimo Dance\")",
             "Uingelleq, Nuliangelleq, Aipanglleq -- Getting A Husband, Wife, Partner",
             "Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple",
-            "Avvucaraq -- Divorce",
-            "Taangaq -- Alcohol",
+            "15.4",
+            "23.5",
             "Eyagyaraq -- Abstinence Practices, Taboos",
             "Qasgiq, Qaygiq -- Community House",
-            "Maqi -- Steambath",
+            "22.2.1",
             "Anglicarillerkaq -- Child Rearing",
-            "Mamterilleq -- Bethel",
-            "Ilakucaraq, Ilakellriit, Ilakelriit -- Family",
-            "Nepiaq -- Sod-house",
-            "Qanikcaq -- Snow",
-            "Up'nerkilleq -- Spring Camp",
-            "Kencikiyaraq -- Reverence",
-            "Yuuyaraq -- Way Of Life"
+            "2.2.5",
+            "22.4",
+            "22.3",
+            "4.5",
+            "10.7",
+            "20.9",
+            "20.8"
         ],
+        "videoID": "cpb-aacip-127-28ncjzpp.h264",
         "yugtun": {
             "summary": [
                 "Una tangercetaaq amllernek tangercetaacuarnek imangqertuq yuut-llu qalarrluteng canek ayuqenrilngurnek. Ukut-llu tangercetaacuaraat tegumaut allanek tangercetaarnek assikekngaitnek."
@@ -902,23 +595,23 @@ export const summaries = {
             ]
         }
     },
-    "cpb-aacip-127-33rv1b2m.h264": {
+    "21": {
         "english": {
             "summary": [
                 "Ayagina'ar in the interview talks about the rules of winter travel when falling through the ice, travelling by snowmachine, and getting lost."
             ],
             "timestamps": [
                 "00:00 - Walking stick in the fall",
-                "01:48 - Falling through the ice;lining his body with grass; if he is cold and he drinks urine, he will not freeze to death",
+                "01:48 - Falling through the ice; lining his body with grass; if he is cold and he drinks urine, he will not freeze to death",
                 "04:44 - \"If a person is going to travel somewhere, he can tell his family that he is going there.\"",
                 "05:39 - Do not forget the rules of the river; walking stick; travelling with snowmachine; the conditions of the ice and open holes; getting lost"
             ]
         },
-        "keywords": [
+        "tags": [
             "Yugtun -- In Yup'ik",
-            "Uksuaq -- Fall",
+            "4.1.2",
             "Ayaruq -- Walking Stick",
-            "Ciku -- Ice",
+            "4.4",
             "Kit'elleq -- Falling Into Water",
             "Canek -- Grass",
             "Teq'uq -- Urine",
@@ -926,6 +619,7 @@ export const summaries = {
             "Kianeq -- Open Hole In River Ice In Winter",
             "Pellaalleq -- Getting Lost"
         ],
+        "videoID": "cpb-aacip-127-33rv1b2m.h264",
         "yugtun": {
             "summary": [
                 "Ayagina'ar interview-ami qalartuq uskumi ayagayaram alerquutiinek cikukun kiskuni, snukuukun ayagakuni, cali-llu pellaakuni."
@@ -935,6 +629,333 @@ export const summaries = {
                 "01:48 - Cikukun kiskuni; canegnek ekiirluku qaini; qerruskuni teq'umek meq'uni qerrusngaituq",
                 "04:44 - \"Yuk cali natmun ayakataquni qanrucugngayaaqekai ilani tamaatmun ayagciqniluni\"",
                 "05:39 - Kuigem alerquutii nalluvkenaki; ayaruq; snuukuukun ayagayaraq; cikum kianrem-llu ayuqucia; pellaakuni"
+            ]
+        }
+    },
+    "3": {
+        "english": {
+            "summary": [
+                "Lucy Beaver and Joe Andrew from Bethel talk about showing love to children. Lucy talks about eating habits, how eating habits have changed, child rearing, and giving birth. And Joe talks about teaching and admonishing children."
+            ],
+            "timestamps": [
+                "00:00 - How women love children",
+                "02:20 - Eating habits; not being frivilous with food; changing eating habits",
+                "05:46 - Child rearing; first pregnancy",
+                "09:03 - \"Admonish him/her without raising your voice\"; \"Everything had traditional wisdom connected to it for us\"",
+                "11:31 - Changing eating habits",
+                "13:04 - Story of giving birth",
+                "16:31 - Teaching and admonishing children from the beginning"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "2.2.5",
+            "20.10",
+            "20.6.2",
+            "Irniam Aulukellra -- Child Rearing",
+            "23.1.2"
+        ],
+        "videoID": "cpb-aacip-127-010p2r15.h264",
+        "yugtun": {
+            "summary": [
+                "Lucy Beaver, Joe Andrew-llu Mamterillermi qalartellruuk mikelngurnek kenkiyaramek. Tua-llu Lucy-m qalarutekluki neryaraq, neryaram cimillra, irniam aulukellra, irnillrani-llu. Tua-llu Joe-am qalarutekluku irniam elicungcaralallra inerqulallra-llu."
+            ],
+            "timestamps": [
+                "00:00 - Arnam mikelngurnek kenkiyaraa",
+                "02:20 - Neryaraq; neqkaq anglanitekevkallrunritaa; neryaram cimillra",
+                "05:46 - Irniam aulukellra; qingaqerraalleq",
+                "09:03 - \"Inerqulaqiu erinan tapirpek'naku\"; \"Ca tamalkuan qanruyutengqellrulria wangkutni\"",
+                "11:31 - Neryaram piciryarallrem cimiutii",
+                "13:04 - Irnillermek qanemciq",
+                "16:31 - Irniani piqarraami elicungcaralaraa inerquulluki-llu"
+            ]
+        }
+    },
+    "4": {
+        "english": {
+            "summary": [
+                "James Guy from Kwethluk began by first talking about stories in the qasgiq and then admonishments against stealing from others. He also talked about Aavaaq being treated by a shaman. Then he talked about reindeer herding and marking in Akiachak and also about reindeer and wolves and the government. He then talked about these: trapping and getting lumber for money, teenagers losing our Yup'ik language, and the importance of using a walking stick/cane."
+            ],
+            "timestamps": [
+                "00:10 - In the qasgiq",
+                "01:46 - Do not steal; if someone takes something because they are in need, they should write a note with their name",
+                "05:51 - Aavaaq being treated by a shaman",
+                "07:03 - Reindeer herding and marking in Akiachak; Akulikutaq Corral",
+                "12:06 - Reindeer and wolves; reindeer and the governement",
+                "15:09 - Trapping and getting lumber for money",
+                "16:33 - Rowdy teenagers; losing our Yup'ik language; losing our knowledge of how to travel",
+                "19:49 - The most important traditional wisdom; do not steal; keep a walking stick/cane with you at all times"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "2.2.1",
+            "Qasgiq -- Qasgiq",
+            "20.13.1",
+            "Angalkuk -- Shaman",
+            "6.3.1",
+            "17.2.3",
+            "6.3.3",
+            "Melqulek -- Trapping",
+            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "Ayaruq -- Walking Stick/cane"
+        ],
+        "videoID": "cpb-aacip-127-03cz8zdq.h264",
+        "yugtun": {
+            "summary": [
+                "James Guy Kuigglugmiu qalartellruuq ciumek qasgimi qanengssallernek tua-i-llu tegleksaitesqelluki yuut. Cali-llu Aavaa-m yuungcallranek angalkugmek qallalluni. Tua-llu tunciuryaramek tuntunek-llu maagillratnek Akiacuarmi qallatellruuq cali-llu keglunernek anguyagten\u0304ek-llu tuntut pitekluki. Tua-llu cali qallalluni ukunek: yuilqumi akiikangengnaqurallermek melqulegteggun muriuryaratgun-llu, ayagyuat Yugtun qalarcaraput cagmangluku, ayarum atullerkaa arcaqerluku."
+            ],
+            "timestamps": [
+                "00:10 - Qasgimi",
+                "01:46 - Teglegyaqunak; enulliskuni teguskuni camek at'ni igauskili",
+                "05:51 - Aavaaq-am yuungcaraullra",
+                "07:03 - Tuntunek maagilleq Akiacuarmi; Akulikutaq Corral",
+                "12:06 - Tuntut keglunret-llu; tuntut anguyagtet-llu",
+                "15:09 - Akiikangengnaquralleq melqulegteggun muriuryaratgun-llu",
+                "16:33 - Ayagyuat akusrartengut; Yugtun qalarcaraput cagmangluku; ayagayarateng cagmangluku",
+                "19:49 - Qanruyun angenqurrat; teglegyaqunak; ayaruq tegumiaqurluku"
+            ]
+        }
+    },
+    "5": {
+        "english": {
+            "summary": [
+                "In this conference, these men talked: Paul Gregory began the conference and then [Person1 - Peter], on behalf of the Search and Rescue team, thanked a helper that was always helping out. After that, James Peter instructed about what to do when someone falls into water and other words of wisdom, then Fred Evan thanked the searchers. Lastly [Person2] talked about dogs and dog mushing along with a story of when he had a supernatural experience with a cold draft, and then after Paul Gregory again talked about dogs, he adjourned the conference."
+            ],
+            "timestamps": [
+                "00:00 - [Paul Gregory] Beginning the conference",
+                "00:41 - [Person1 - Peter] Search and rescue thanks a helper",
+                "03:55 - [James Peter] Instructions for when a person falls into the water; \"A self-confident person only comes upon misfortune.\"",
+                "08:11 - [Fred Evan] - Thanking the searchers",
+                "10:05 - [Person2] Dogs and dog mushing; supernatural experience with a cold draft",
+                "19:48 - [Paul Gregory] Dogs; adjourning the conference"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "24.1",
+            "Anangnaqsaraq -- Survival",
+            "18.4.1",
+            "18.4.1.1",
+            "9.5"
+        ],
+        "videoID": "cpb-aacip-127-06g1jzz6.h264",
+        "yugtun": {
+            "summary": [
+                "Quyurtellratni ukut angutet qalartellruut: Paul Gregory quyurtellrat ayagnillrua tua-llu [Yuk1 - Peter], yuartet pitekluki, quyavikellrua kevgaq ikayuutelallruan. Taum kinguani James Peter ayuqucirturillruuq kitellriamun alerquutnek allanek-llu qanruyutnek, tua-llu Fred Evan quyavikellrui yuartet. Nangnermek [Yuk2] qimugten\u0304ek qimugciryaramek-llu qalartellruuq qanemciluni-llu alangrullerminek iternerkun tua-llu Paul Gregory cali qimugten\u0304ek qalartenqigterraarluni quyurtellrat arulaircetaa."
+            ],
+            "timestamps": [
+                "00:00 - [Paul Gregory] Quyurtellrat ayagnirluni",
+                "00:41 - [Yuk1 - Peter] Yuartet quyavikaat kevgaq",
+                "03:55 - [James Peter] Yuk kiskan ayuqucirtuutet; \"Cacetulria-gguq arenqiallugtellerkaminun tau\u0361gaam tekitaatuuq.\"",
+                "08:11 - [Fred Evan] - Quyavikluki yuartet",
+                "10:05 - [Yuk2] Qimugtet qimugciryaraq-llu; alangru iternerkun",
+                "19:48 - [Paul Gregory] Qimugtet; Quyurtellrat arulairluni"
+            ]
+        }
+    },
+    "6": {
+        "english": {
+            "summary": [
+                "In the conference, these people talked: [Person1] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Person1], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Larissa encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
+            ],
+            "timestamps": [
+                "00:00 - [Person1] The custom of wiping the saliva of the brown or black bear on their faces",
+                "01:22 - [Kurt Bell, Person1, Person2] - The boy who was taken away by the bladders; seal bladders",
+                "08:19 - [Edward Weiss] - The custom of wiping the saliva of the brown or black bear on their faces",
+                "10:37 - [Kurt Bell] - Admonishment to not shoot baby birds and birds with babies",
+                "13:56 - [Person3] - Reverence of their catch",
+                "14:43 - [Larissa] - \"It would be beneficial if you let them talk and teach us on KYUK\"",
+                "16:07 - [Edward Weiss] - Keep ahold of a walking stick for when a black bear attacks",
+                "17:36 - [Phillip Moses, Person3] - Shamans; seal parties in the spring for the first bearded seal"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "Cugtun -- In Cup'ik",
+            "Taqukaq -- Brown Bear",
+            "6.3.6",
+            "21.3.1",
+            "6.5",
+            "Ayaruq -- Walking Stick/cane",
+            "Angalkuq -- Shaman",
+            "21.6"
+        ],
+        "videoID": "cpb-aacip-127-06g1k008.h264",
+        "yugtun": {
+            "summary": [
+                "Quyurtellratni ukut yuut qalartellruut: [Yuk1] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Yuk1] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Larissa-m, qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet\u2019laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
+            ],
+            "timestamps": [
+                "00:00 - [Yuk1] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
+                "01:22 - [Kurt Bell, Yuk2, Yuk1] - Tan'gaurluq nakacuut ayautellrat; nakacuut",
+                "08:19 - [Edward Weiss] - Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
+                "10:37 - [Kurt Bell] - Inerqurluki tengmiat piyagat-llu piyagauluki pissusqevkenaki",
+                "13:56 - [Yuk3] - Pitateng kencikluki",
+                "14:43 - [Larissa] - \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
+                "16:07 - [Edward Weiss] - Ayaruq tegumiaqesqelluku tan'gerlim curukaqaku",
+                "17:36 - [Phillip Moses, Yuk3] - Angalkut; up'nerkami pitqerraarqan maklagmek uqiqurluteng"
+            ]
+        }
+    },
+    "7": {
+        "english": {
+            "summary": [
+                "Martha Sarah (Uliggaq), and Matthew (Kumangulria) from the Yukon and Bethel talked about the spring time and preparing for spring camp. They also talked about the ice, snow, and floods of spring, Avgarutaaryaraq (Sharing Festival), and natural freezers."
+            ],
+            "timestamps": [
+                "00:08 - [Uliggaq Martha Sarah] Self introduction",
+                "00:35 - Preparing for spring camp; ice, snow, and floods in the spring; returning home",
+                "05:12 - Avgarutaaryaraq (Sharing Festival)",
+                "06:50 - [Kumangulria Matthew] Self introduction",
+                "08:16 - Springtime in the Yukon; to drive rabbits; ice, snow, and floods in teh spring",
+                "11:59 - Time of no fish in the Yukon; preparing for spring camp; making a natural freezer",
+                "14:40 - Extreme flooding",
+                "17:14 - [Person1] - Woman *no sound*"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "2.2.5",
+            "Kuigpak -- Yukon",
+            "4.1.1",
+            "10.7",
+            "4.4",
+            "4.5",
+            "4.10",
+            "Avgarutaaryaraq -- Sharing Festival",
+            "Kumlivik -- Freezer"
+        ],
+        "videoID": "cpb-aacip-127-09w0vx3c.h264",
+        "yugtun": {
+            "summary": [
+                "Uliggaq (Martha Sarah), Kumangulria (Matthew)-llu Kuigpagmiunguluni Mamterillermiunguluni-llu qalartellruuk up'nerkamek up'nerkiyallerkamek-llu. Cali-llu cikunek qanikcamek ulerpagmek-llu up'nerkami, Avgarutaaryaramek, kumlillranek-llu qalarrlutek."
+            ],
+            "timestamps": [
+                "00:08 - [Uliggaq Martha Sarah] Kituucia",
+                "00:35 - Up'nerkiyallerkaq; ciku qanikcaq ulerpak-llu up'nerkami; utertaqata",
+                "05:12 - Avgarutaaryaraq",
+                "06:50 - [Kumangulria Mathew] Kituucia",
+                "08:16 - Up'nerkami Kuigpagmi; maqaruanek unguluteng; ciku qanikcaq ulerpak-llu up'nerkami",
+                "11:59 - Neqaitellrani Kuigpagmi; up'nerkiyallerkaq; kumlivililleq",
+                "14:40 - Ulenkacagallrani",
+                "17:14 - [Yuk1] - Arnaq *nepaunani*"
+            ]
+        }
+    },
+    "8": {
+        "english": {
+            "summary": [
+                "Paul G. Nichoali (Cialuq) and Lucy Nicholai (Neviar; originally named Qakvaralria and raised in Eek) from Kwethluk (Kuiggluk) talked about many different things. They talked about having to always have a walking stick or ice spud/pick/chisel; to follow the admonishments and rules; the teachings of traditional abstinence practices; possessions on a grave; teenagers becoming mischievous; and other topics."
+            ],
+            "timestamps": [
+                "00:59 - [Cialuq Paul G. Nicholai] - Admonishment for the springtime - \"They would tell us to always have an ice spud because it's our eyes.\"",
+                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Walking stick; \"They told us to be quiet.\"",
+                "03:50 - [Cialuq Paul G. Nicholai] - Spring time; ground squirrels; fish traps and steel traps",
+                "05:33 - Giving water to seals",
+                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Traditional abstinence practices for girls who has recently menstruated for the first time and women who miscarried",
+                "10:32 - [Cialuq Paul G. Nicholai] - Months; possessions on graves",
+                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Rules for girls; \"A woman leads to death.\"",
+                "13:59 - [Cialuq Paul G. Nicholai] - Ice spud/pick/chisel; \"And if he's sedentary, he won't have anything.\"",
+                "15:57 - Teenagers becoming mischievous; alcohol; suicide",
+                "18:03 - Subsistence; fish traps",
+                "19:26 - Respect for elders; Yup'ik language; how Kwethluk was back then"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "2.2.1",
+            "4.1.1",
+            "10.7",
+            "Ayaruq -- Walking Stick/cane",
+            "Cikuliurun -- Ice Spud/pick/chisel",
+            "6.3.8",
+            "Unkumiutaq/puga -- Seal",
+            "Merr'icaraq -- Giving Water To Animals",
+            "Aglenraraq -- Girl Who Has Menstruated For The First Time",
+            "23.1.1",
+            "Eyagyaraq -- Traditional Abstinence Practice",
+            "4.6",
+            "Qunguq -- Burial",
+            "Akluq -- Clothing/possession",
+            "10.6",
+            "Ayagyuaq -- Teenager",
+            "23.5",
+            "23.4",
+            "Nerangnaqsaraq -- Subsistence",
+            "18.1.6",
+            "20.14",
+            "5.2",
+            "Yugtun Qalarcaraq -- Yup'ik Language"
+        ],
+        "videoID": "cpb-aacip-127-10jsxpvr.h264",
+        "yugtun": {
+            "summary": [
+                "Cialuq (Paul G. Nicholai) and Neviar-llu (atpiara Qakvaralria ellangluni-llu Iigmi; Lucy Nicholai) Kuigglugmiungulutek (from Kwethluk) amllernek ayuqenrilngurnek qalartellruuk. Ayaruq wall'u cikuliurun up'nerkami nantesqevkenaku; inerquutet alerquutet-llu maliggluki; eyagyaram alerquutainek; qungumi akiutnek; ayagyuat akusrartellratnek; canek-llu allanek qalartellruuk."
+            ],
+            "timestamps": [
+                "00:59 - [Cialuq Paul G. Nicholai] - Inerquun up'nerkami - \"Cikuliurutraq nantesqevkenaku iinguan.\"",
+                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Ayaruq; \"Nepaunata pilaasqelluta.\"",
+                "03:50 - [Cialuq Paul G. Nicholai] - Up'nerkiyalleq; qanganaat; taluyat kapkaanat-llu;",
+                "05:33 - Merr'illuki unkumiutaat",
+                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Aglenraraat irnicuallret-llu eyagyarait",
+                "10:32 - [Cialuq Paul G. Nicholai] - Iralut; qungumi akluit",
+                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Nasaurluut alerquutait; \"Arnaq-gguq tuquuguq.\"",
+                "13:59 - [Cialuq Paul G. Nicholai] - Cikuliurun; \"Uitayukuni-ll' tua-i camek piinani.\"",
+                "15:57 - Ayagyuat akusrarneruut; taangaq; ellminek tuqutellerkaq",
+                "18:03 - Nerangnaqsaraq; taluyat",
+                "19:26 - Takaqluki tegganret; Yugcetun qaneryararput; Kuiggluum ayuqucillranek"
+            ]
+        }
+    },
+    "9": {
+        "english": {
+            "summary": [
+                "Person1 and Lucy Beaver talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
+            ],
+            "timestamps": [
+                "00:54 - [Person1] - Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours",
+                "06:54 - [Person1] \"When the water suddenly gets foggy, we say, 'So, someone has caught something in the ocean.'\"",
+                "07:45 - [Lucy Beaver] Reverence of the land and land animals; \"There was no mess in all of the land.\"",
+                "10:32 - [Lucy Beaver] \"Truly, I do not leave behind anything when I pick berries.\"",
+                "11:47 - [Person1] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\"",
+                "15:41 - [Person1] Taking care of birds; baby birds",
+                "18:38 - [Person1] Taking care of bird eggs",
+                "10:05 = [Kurt Bell] Giving water to animals; when catching his first bearded seal"
+            ]
+        },
+        "tags": [
+            "Yugtun -- In Yup'ik",
+            "Cugtun -- In Cup'ik",
+            "2.2.5",
+            "Alerquun -- Rules/instructions",
+            "Yuilqurmiutaq -- Wild Animals",
+            "20.9",
+            "Nuna -- Land",
+            "Nunamiutaq -- Land Animals",
+            "10.5.3",
+            "Aulukiyaraq -- Taking Care",
+            "Yaqulek -- Bird",
+            "Negaq -- Snare/trap",
+            "6.2.1",
+            "10.5.2.1",
+            "6.5",
+            "Merr'iciyaraq -- Giving Water To Animals"
+        ],
+        "videoID": "cpb-aacip-127-10jsxpwg.h264",
+        "yugtun": {
+            "summary": [
+                "Yuk1, Lucy Beaver-llu qalartellruuk Mamterillermi alerquutnek yuilqurmiutarnek, kenciksaraanek nunam, cali-llu aulukiyaramek yaqulegnek kayangunek-llu. Kinguakun Kurt Bell merr'iciyaramek pitanek qalarrluni."
+            ],
+            "timestamps": [
+                "00:54 - [Yuk1] Alerquutet yuilqurmiutaat; qigcikluki caanguaqevkekenaki pitarkat; yuum allam pikenrilkiinek tegutevkenata",
+                "06:54 - [Yuk1] \"Meq taicingareskan qanlartukut, 'Iliit-gguq-am imarpigmi pitliniuq.'\"",
+                "07:45 - [Lucy Beaver] Kencikluki nuna nunamiutaat-llu; \"sagtelriartaitellruuq nunam qainga tamarmi\"",
+                "10:32 - [Lucy Beaver] \"Uniciyuunii wiinga iqvatuunga ilumun\"",
+                "11:47 - [Yuk1] Yaqulget up'nerkami; kuvyallret; negarluki qangqiiret; kayangut; \"Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai\"",
+                "15:41 - [Yuk1] Aulukiyaraq yaqulegnek; yaqulget piyagaat",
+                "18:38 - [Yuk1] Aulukiyaraq kayangunek",
+                "10:05 = [Kurt Bell] Merr'iciyaraq; pitaqeqarraaraqaku maklagmeng"
             ]
         }
     }

@@ -3,6 +3,7 @@
     import { NavLink, Switch, Route } from 'react-router-dom';
     import Home from './components/Home.js';
     import Collections from './components/Collections.js';
+    import Category from './components/Category.js';
     import Video from './components/Video.js';
     import 'semantic-ui-css/semantic.min.css'
     
@@ -22,6 +23,7 @@
       <Switch>
         <Route exact path='/' component={Home}></Route>
         <Route exact path='/collections' component={Collections}></Route>
+        <Route exact path='/category/:word' component={Category}></Route>
         <Route exact path='/video/:word' component={Video}></Route>
       </Switch>
     );
