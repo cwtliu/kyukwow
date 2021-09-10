@@ -81,7 +81,7 @@ class Category extends Component {
 						<div style={{marginLeft:(20*(this.state.parentCategories.length+1))}}>{categories[this.state.currentCategory].name.replace("--","—")}</div>
 
 						{this.state.childrenCategories.map((j) => (
-						  	<Link className='categoryButton' onClick={()=>{
+						  	<Link onClick={()=>{
 						  		
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
