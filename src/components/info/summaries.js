@@ -985,7 +985,7 @@ export const summaries = {
                 "11:47 - [Person1] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\"",
                 "15:41 - [Person1] Taking care of birds; baby birds",
                 "18:38 - [Person1] Taking care of bird eggs",
-                "10:05 = [Kurt Bell] Giving water to animals; when catching his first bearded seal"
+                "10:05 - [Kurt Bell] Giving water to animals; when catching his first bearded seal"
             ]
         },
         "tags": [
@@ -1022,7 +1022,7 @@ export const summaries = {
                 "11:47 - [Yuk1] Yaqulget up'nerkami; kuvyallret; negarluki qangqiiret; kayangut; \"Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai\"",
                 "15:41 - [Yuk1] Aulukiyaraq yaqulegnek; yaqulget piyagaat",
                 "18:38 - [Yuk1] Aulukiyaraq kayangunek",
-                "10:05 = [Kurt Bell] Merr'icaraq; pitaqeqarraaraqaku maklagmeng"
+                "10:05 - [Kurt Bell] Merr'icaraq; pitaqeqarraaraqaku maklagmeng"
             ]
         }
     }

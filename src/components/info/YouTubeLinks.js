@@ -1,5 +1,24 @@
 export const YouTubeLinks = {
-  "cpb-aacip-127-558czhn9.h264":"https://youtu.be/XQOOVeK578g", //Eliza Chase
-  "cpb-aacip-127-00ns1t6z.h264":"https://youtu.be/o-5RbyLwOtU", //Tuntutuliarmiu
+"cpb-aacip-127-009w0z0q.h264":"https://youtu.be/8xXt8R-OOac",
+"cpb-aacip-127-00ns1t6z.h264":"https://youtu.be/o-5RbyLwOtU",
+"cpb-aacip-127-010p2r15.h264":"https://youtu.be/VZ-q5QeRl40",
+"cpb-aacip-127-10jsxpvr.h264":"https://youtu.be/aQPg6ft7HZ0",
+"cpb-aacip-127-10jsxpwg.h264":"https://youtu.be/7F32VlbY7DE",
+"cpb-aacip-127-10jsxpx6.h264":"https://youtu.be/hkV0z1rR-XI",
+"cpb-aacip-127-14nk9d19.h264":"https://youtu.be/8IWHRX33s_8",
+"cpb-aacip-127-15p8d31m.h264":"https://youtu.be/NTWJaLti83I",
+"cpb-aacip-127-16pzgr3f.h264":"https://youtu.be/tEw6JOWW8Q4",
+"cpb-aacip-127-18rbp380.h264":"https://youtu.be/_o6MCDAMG9Y",
+"cpb-aacip-127-20fttjr7.h264":"https://youtu.be/MlMly6NYM-s",
+"cpb-aacip-127-25k98x78.h264":"https://youtu.be/xTVVOVsf7E8",
+"cpb-aacip-127-25x69tk3.h264":"https://youtu.be/sOr4yGTHH9E",
+"cpb-aacip-127-26xwdh7k.h264":"https://youtu.be/0_GBkfreYxo",
+"cpb-aacip-127-27zkh5wz.h264":"https://youtu.be/LzEDgBwvPg4",
+"cpb-aacip-127-33rv1b2m.h264":"https://youtu.be/AvjTM6JTnPs",
+"cpb-aacip-127-28ncjzpp.h264":"https://youtu.be/Sxkr9I4xcdg",
+"cpb-aacip-127-09w0vx3c.h264":"https://youtu.be/8qFSOgLivKM",
+"cpb-aacip-127-06g1k008.h264":"https://youtu.be/OqvUNnHf8d4",
+"cpb-aacip-127-06g1jzz6.h264":"https://youtu.be/KdD8Hff1-P4",
+"cpb-aacip-127-03cz8zdq.h264":"https://youtu.be/QvtKpgZHHbg",
 };
 

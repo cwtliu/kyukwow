@@ -62,7 +62,7 @@ class Video extends Component {
 
     this.intervalID = setInterval(
       () => this.tick(),
-      50000
+      500
     );
   }
 

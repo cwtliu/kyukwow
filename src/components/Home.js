@@ -2,6 +2,8 @@ import _ from 'lodash'
 import React, { Component } from 'react';
 import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import {YouTubeLinks} from './info/YouTubeLinks.js';
+import {summaries} from './info/summaries.js';
 
 
 const categories = _.times(6, (i) => (
@@ -42,7 +44,6 @@ class Home extends Component {
 		}
 	}
 	render() {
-		const ID = '2';
 		return (
 			<div className='home'>
 				<Container className='home-header'>
@@ -52,9 +53,19 @@ class Home extends Component {
 						<h1 className='yugtatun'>Waves of Wisdom</h1>
 					</div>
 				</Container>
-				<Link to={{pathname: '/video/'+ID, state: { currentVideoId: ID}}}>
-				<Button>{'Hi'}</Button>
-				</Link>
+
+				<Grid container columns={4}>
+				{Array.from({length: 21}, (_, i) => i + 1).map((y) => (
+					  <Grid.Column id={y}>
+						<Link style={{width:'100px',borderRadius:'10px'}} to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
+							<Image style={{width:'250px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+							YouTubeLinks[summaries[y].videoID].split(".be/")[1]
+							+"/hqdefault.jpg"} />
+						</Link>
+					  </Grid.Column>
+				))}
+				</Grid>
+
 				<Divider />
 				<Container className='featured-video'>
 					<h2>Suurarkat / Featured Videos</h2>
