@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 import {categoriesUrlLookup} from './info/categoriesUrlLookup.js';
+import {YouTubeLinks} from './info/YouTubeLinks.js';
 
 
 class Category extends Component {
@@ -64,6 +65,7 @@ class Category extends Component {
 				<Button>{'Hi'}</Button>
 				</Link>*/}
 				<Container>
+					<div style={{fontSize:'20px',lineHeight:'25px'}}>
 					<Link to={{pathname:'/collections'}}>
 						<div>{'All Categories'}</div>
 					</Link>
@@ -72,24 +74,39 @@ class Category extends Component {
 						  		this.setState({currentCategory:j});
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-							    <div style={{marginLeft:(20*(jindex+1))}} >{categories[j].name}</div>
+							    <div style={{marginLeft:(20*(jindex+1))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
 						))}
 
-						<div style={{marginLeft:(20*(this.state.parentCategories.length+1))}}>{categories[this.state.currentCategory].name}</div>
+						<div style={{marginLeft:(20*(this.state.parentCategories.length+1))}}>{categories[this.state.currentCategory].name.replace("--","—")}</div>
 
 						{this.state.childrenCategories.map((j) => (
 						  	<Link className='categoryButton' onClick={()=>{
 						  		
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name}</div>
+							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
 						))}
-					<div>{'Videos to Display by ID'}</div>
-					<div>{categories[this.state.currentCategory].videoNumbers}</div>
+					</div>
+					<Divider />
+
+					<div style={{fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingBottom:'20px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos about "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
+				
+					<Grid container columns={4}>
+						{categories[this.state.currentCategory].videoNumbers.map((y) => (
+							  <Grid.Column id={y}>
+								<Link style={{width:'100px',borderRadius:'10px'}} to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
+									<Image style={{width:'250px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+									YouTubeLinks[summaries[y].videoID].split(".be/")[1]
+									+"/hqdefault.jpg"} />
+								</Link>
+							  </Grid.Column>
+						))}
+					</Grid>
+
+
 				</Container>
-				<Divider />
 
 			</div>
 		);
