@@ -28,34 +28,35 @@ class Collections extends Component {
 		return (
 			<div className='collections'>
 				<Container>
-					<h1 className='yugtun'>QQ-am Suut Allakaryarat</h1>
 					<Button.Group>
-				      <Button active={this.state.gridMode} onClick={()=>{this.setState({gridMode:true})}} icon>
-				        <Icon name='grid layout' />
-				      </Button >
-				      <Button active={!this.state.gridMode}  onClick={()=>{this.setState({gridMode:false})}} icon>
-				        <Icon name='list' />
-				      </Button>
-				    </Button.Group>
+			      <Button active={this.state.gridMode} onClick={()=>{this.setState({gridMode:true})}} icon>
+			        <Icon name='grid layout' />
+			      </Button >
+			      <Button active={!this.state.gridMode}  onClick={()=>{this.setState({gridMode:false})}} icon>
+			        <Icon name='list' />
+			      </Button>
+				  </Button.Group>
+					<h1 className='yugtun'>QQ-am Suut Allakaryarat</h1>
 					<h1 className='yugtatun'>WoW Video Categories</h1>
 					{this.state.gridMode ?
-					<Grid container columns={2}>
+					<div className='categoryGrid'>
 						{this.state.categoriesDisplayed.map((j) => (
-						  <Grid.Column id={j}>
-						  	<Link className='categoryButton' to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-"), state: { currentCategory: j}}}>
-							    <Image src='/images/categories1.jpg' />
+							<div className='categoryButton'>
+						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
+							    <Image className='categoryImage' src='/images/categories1.jpg' />
 							    <div className='categoryText'>
-							    <div className='yugtun'>{categories[j].name}</div>
+							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
+							    	<div>{categories[j].name.split(' -- ')[1]}</div>
 							    </div>
 							  </Link>
-						  </Grid.Column>
+							</div>
 						))}
-					</Grid>
+					</div>
 					:
 					(this.state.categoriesDisplayed.map((j) => (
-					  	<Link className='categoryButton' to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-"), state: { currentCategory: j}}}>
-						    <div className='categoryText'>
-						    <div className='yugtun'>{categories[j].name}</div>
+					  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
+						    <div>
+						    <div>{categories[j].name}</div>
 						    </div>
 						  </Link>
 					)))
