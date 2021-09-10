@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Popup, Loader } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Popup, Loader, Grid } from 'semantic-ui-react';
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
@@ -39,12 +39,15 @@ class Video extends Component {
       summaries:summaries,
       summary:summaries[this.ID].yugtun.summary[0],
       tags:summaries[this.ID].tags,
+      title:summaries[this.ID].title,
+      date:summaries[this.ID].date,
       subtitles:{},
       nextSentenceStart: 0,
       currentTime:0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
       clickedSummaryIndex:-1,
+      clickedChapterIndex:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
     }
     this.audio = new Audio(this.state.audioURL);
@@ -413,6 +416,23 @@ class Video extends Component {
     // clearTimeout(timer);
   };
 
+  moveToTime = (i) => {
+    console.log(i) 
+    var seconds = 0;
+    var time = i.split(':');
+    if (time.length === 2) {
+      seconds = parseInt(time[0]*60) + parseInt(time[1]);
+    } else {
+      seconds = parseInt(time[0]*60*60) + parseInt(time[1]*60) + parseInt(time[2]);
+    }
+    this.setState({
+      currentTime : seconds,
+    });
+    this.rap.audioEl.current.currentTime = seconds;
+    this.rap.audioEl.current.play();
+
+  }
+
 
 
   render() {
@@ -430,7 +450,8 @@ class Video extends Component {
     // }
     return (
       <div className='about'>
-        <h1 class='reader'>Title Placeholder</h1>
+        <div class='reader' style={{fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}>{this.state.title}</div>
+        <div class='reader' style={{paddingBottom:'10px'}}>{'Recorded: '+this.state.date}</div>
         <div className='player-wrapper'>
         <ReactPlayer 
        	  className='react-player'
@@ -457,7 +478,7 @@ class Video extends Component {
         }}
           onPause={()=>{this.setState({audioPlayerPlaying:false})}}
         />
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Summary-q </div>
+        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Summary-q </div>
 
           <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
           {this.state.summary.split(" ").map((k,kindex) => (
@@ -534,12 +555,12 @@ class Video extends Component {
             position='bottom left'
           />
 
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Tag-at </div>
+        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Tag-at </div>
 
           {this.state.tags.map((y) => (
             y in categories ?
             <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-              <Button style={{marginTop:'3px'}}>
+              <Button basic compact style={{marginTop:'3px'}}>
               {categories[y].name.replaceAll('--','—')}
               </Button>
             </Link>
@@ -549,16 +570,100 @@ class Video extends Component {
           </div>
 
 
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Chapter-aat </div>
+        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Chapter-aat </div>
 
-          {summaries[this.ID].yugtun.timestamps.map((y) => (
-            <div>
-              {y}
+          {summaries[this.ID].yugtun.timestamps.map((y,yindex) => (
+            <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
+            <Grid>
+            <Grid.Row columns={2}>
+              <Grid.Column width={3}>
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y.split(' - ')[0])}>
+                {y.split(' - ')[0]}
+                </div>
+              </Grid.Column>
+              <Grid.Column width={13}>
+
+              {y.split(' - ')[1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\n'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].english.timestamps[yindex].split(' - ')[1]}</div>}
+                position='bottom left'
+              />
+
+              </Grid.Column>
+            </Grid.Row>
+            </Grid>
             </div>
           ))}
 
         <div class='reader'>
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}> Reader-aq </div>
+        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Reader-aaq </div>
         {Object.keys(this.state.subtitles).map((i, index) => (
           <span class='reader-text'>
           <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
@@ -655,26 +760,7 @@ class Video extends Component {
       </div>
 
       <div>
-        {/* Show state of song on website */}
-        <p />
-        <p>
-          {this.state.isPlaying ? 
-            "Song is Playing " : 
-            "Song is Paused "}
-          {this.audio.currentTime}
-        </p>
 
-        {/* Button to call our main function */}
-        <button onClick={() => this.playPause()}>
-          Play | Pause
-        </button>
-        <button onClick={() => this.skip()}>
-          skip
-        </button>
-
-        <button onClick={()=> this.getParse("pissurtuq".split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase())}>
-        parse
-        </button>
       </div>
 
       </div>

@@ -14,7 +14,6 @@
         <ul>
           <li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
           <li><NavLink exact activeClassName="current" to='/collections'>Collections</NavLink></li>
-          <li><NavLink exact activeClassName="current" to='/video'>Video</NavLink></li>
         </ul>
       </nav>
     );

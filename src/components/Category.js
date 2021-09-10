@@ -4,13 +4,17 @@ import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-
 import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
+import {categoriesUrlLookup} from './info/categoriesUrlLookup.js';
 
 
 class Category extends Component {
 	constructor(props) {
 		super(props);
+		this.ID = decodeURI(props.match.params.word);
+		this.categoryID = categoriesUrlLookup[this.ID];
+
 		this.state = {
-			currentCategory: props.location.state === undefined ? false : props.location.state.currentCategory,
+			currentCategory: props.location.state === undefined ? this.categoryID : props.location.state.currentCategory,
 			childrenCategories:[],
 			parentCategories:[],
 		}
