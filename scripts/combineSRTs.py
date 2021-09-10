@@ -1,11 +1,11 @@
-# python3 convertDocx2Txt.py YupikFolder EnglishFolder
+# python3 convertDocx2Txt.py YupikFolder EnglishFolder CombinedSRTFolder JsFolder
 # input:
 # 	YupikFolder with srt files
 #   EnglishFolder with srt files (same name as YupikFolder)
 
 # output:
-#	yugtunEnglishSRT/videoID.srt
-# 	yugtunEnglishJS/videoID.js
+#	CombinedSRTFolder/videoID.srt
+# 	JsFolder/videoID.js
 
 # videoID.js:
 #	{ lineNum: {startTime: 1, endTime: 2, transcription: '', translation: '' }
@@ -31,8 +31,8 @@ from mvyskoc_merge import mvyskoc_merge
 if __name__ == '__main__':
 	esuFolder = sys.argv[1]
 	engFolder = sys.argv[2]
-	esuengSRTFolder = 'yugtunEnglishSRT'
-	jsFolder = 'yugtunEnglishJS'
+	esuengSRTFolder = sys.argv[3]
+	jsFolder = sys.argv[4]
 
 	# create folders if not exist
 	Path(esuengSRTFolder).mkdir(parents=True, exist_ok=True)
