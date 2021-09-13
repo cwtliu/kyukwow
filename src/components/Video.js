@@ -583,7 +583,7 @@ class Video extends Component {
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y.split(' - ')[1].split(" ").map((k,kindex) => (
+              {y.split(/(?<=\d) - /)[1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
