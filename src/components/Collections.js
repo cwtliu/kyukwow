@@ -10,7 +10,6 @@ class Collections extends Component {
 		super(props);
 		this.state = {
 			categoriesDisplayed:[],
-			gridMode:true,
 		}
 	}
 	componentDidMount() {
@@ -29,16 +28,17 @@ class Collections extends Component {
 			<div className='collections'>
 				<Container>
 					<Button.Group>
-			      <Button active={this.state.gridMode} onClick={()=>{this.setState({gridMode:true})}} icon>
+			      <Button active={true} icon>
 			        <Icon name='grid layout' />
 			      </Button >
-			      <Button active={!this.state.gridMode}  onClick={()=>{this.setState({gridMode:false})}} icon>
+			      <Link to={{pathname: '/category/all', state: { currentCategory: 'all'}}}>
+			      <Button active={false} icon>
 			        <Icon name='list' />
 			      </Button>
+			      </Link>
 				  </Button.Group>
 					<h1 className='yugtun'>QQ-am Suut Allakaryarat</h1>
 					<h1 className='yugtatun'>WoW Video Categories</h1>
-					{this.state.gridMode ?
 					<div className='categoryGrid'>
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
@@ -52,15 +52,6 @@ class Collections extends Component {
 							</div>
 						))}
 					</div>
-					:
-					(this.state.categoriesDisplayed.map((j) => (
-					  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-						    <div>
-						    <div>{categories[j].name}</div>
-						    </div>
-						  </Link>
-					)))
-					}
 				</Container>
 				<Divider />
 

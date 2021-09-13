@@ -12,17 +12,30 @@ class Category extends Component {
 	constructor(props) {
 		super(props);
 		this.ID = decodeURI(props.match.params.word);
-		this.categoryID = categoriesUrlLookup[this.ID];
-
+		if (this.ID !== 'all') {
+			this.categoryID = categoriesUrlLookup[this.ID];
+		} else {
+			this.categoryID = 'all';
+		}
+		
 		this.state = {
 			currentCategory: props.location.state === undefined ? this.categoryID : props.location.state.currentCategory,
 			childrenCategories:[],
 			parentCategories:[],
+			categoriesDisplayed:[],
 		}
 		this.initialize = this.initialize.bind(this);
 	}
 	componentDidMount() {
 		this.initialize();
+  		window.scrollTo(0, 0)
+		const categoriesDisplayed = [];
+		for (var key of Object.keys(categories)) {
+			if (!key.includes(".") && !key.includes('unsorted')) {
+				categoriesDisplayed.push(key)
+			}   
+		}
+		this.setState({ categoriesDisplayed: categoriesDisplayed });
 	}
 
 	// componentDidUpdate(prevState) {
@@ -35,7 +48,9 @@ class Category extends Component {
 	// }
 
 	initialize() {
-		this.retrieveFamilyCategories(this.state.currentCategory);
+		if (this.ID !== 'all') {
+		this.retrieveFamilyCategories(this.state.currentCategory);			
+		}
 	}
 
 	retrieveFamilyCategories(j) {
@@ -61,14 +76,43 @@ class Category extends Component {
 		console.log(this.state)
 		return (
 			<div className='collections'>
-{/*				<Link to={{pathname: '/video/'+ID, state: { currentVideoId: ID}}}>
-				<Button>{'Hi'}</Button>
-				</Link>*/}
 				<Container>
+					<Button.Group>
+				<Link to='/collections'>
+			      <Button active={false} icon>
+			        <Icon name='grid layout' />
+			      </Button >\
+			    </Link>
+			      <Button active={true} icon>
+			        <Icon name='list' />
+			      </Button>
+				  </Button.Group>
+				{this.state.currentCategory === 'all' ?
 					<div style={{fontSize:'20px',lineHeight:'25px'}}>
-					<Link to={{pathname:'/collections'}}>
 						<div>{'All Categories'}</div>
-					</Link>
+						{this.state.categoriesDisplayed.map((j) => (
+						  	<Link onClick={()=>{
+						  		this.retrieveFamilyCategories(j);
+						  		}} to={{pathname: '/category/'+categories[j].url}}>
+							    <div style={{marginLeft:20}}>{categories[j].name}</div>
+							  </Link>
+						))}
+					</div>
+					:
+					<div>
+					<div style={{fontSize:'20px',lineHeight:'25px'}}>
+
+						<Link onClick={()=>{
+							  		this.setState({
+							  			currentCategory:'all',
+										childrenCategories: [],
+										parentCategories: [],						  			
+							  		});
+							  	}}
+							 to={{pathname:'/category/all'}}>
+							<div>{'All Categories'}</div>
+						</Link>
+
 						{this.state.parentCategories.map((j,jindex) => (
 						  	<Link onClick={()=>{
 						  		this.setState({currentCategory:j});
@@ -88,11 +132,14 @@ class Category extends Component {
 							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
 						))}
+
 					</div>
+
 					<Divider />
 
+
+					<div>
 					<div style={{fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingBottom:'20px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos about "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
-				
 					<Grid container columns={4}>
 						{categories[this.state.currentCategory].videoNumbers.map((y) => (
 							  <Grid.Column id={y}>
@@ -104,7 +151,9 @@ class Category extends Component {
 							  </Grid.Column>
 						))}
 					</Grid>
-
+					</div>
+					</div>
+					}
 
 				</Container>
 
