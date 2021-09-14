@@ -23,8 +23,8 @@ export const summaries = {
         },
         "tags": [
             "23.1",
-            "Yugtun -- In Yup'ik",
-            "Tuulkessaq -- Tuluksak",
+            "1.1.1",
+            "2.2.7",
             "Yugtun Qalarcaraq -- Yup'ik Langauge",
             "19.9",
             "19.12",
@@ -78,15 +78,15 @@ export const summaries = {
             ]
         },
         "tags": [
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
-            "Qasgiq -- Community House",
+            "21.2",
             "19.9",
             "14.3",
             "22.5",
-            "Qanruyun -- Traditional Wisdom",
+            "19.5",
             "7.2",
-            "Sun'aq -- Ship/barge"
+            "16.2.4"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-10jsxpx6.h264",
@@ -128,12 +128,12 @@ export const summaries = {
         },
         "tags": [
             "23.16",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.1",
             "5.3.1",
-            "Tuntuciuryaraq -- Reindeer Herding",
-            "Qasgi -- Community Building",
-            "Yuraq -- Dance",
+            "15.2.1",
+            "21.2",
+            "20.2",
             "15.1.1",
             "17.1.1",
             "1",
@@ -169,21 +169,21 @@ export const summaries = {
                 "In this conference, three men talked. First, Person1 encouraged the people listening to keep talking to the youth about the traditional wisdom and the Yup'ik language. Next, Alciq talked about showing respect to our traditional teachings because they are our support. Lastly, Person2 talked about how we can live a long life."
             ],
             "timestamps": [
-                "00:00 - [Person1] - He tells a story with this meaning, \"They're skinny because you don't instruct them. You are fat in your knowledge.\"",
-                "02:21 - [Person1] - \"They're becoming Westernized, and some don't understand Yup'ik anymore.\"",
+                "00:00 - [Person1] He tells a story with this meaning, \"They're skinny because you don't instruct them. You are fat in your knowledge.\"",
+                "02:21 - [Person1] \"They're becoming Westernized, and some don't understand Yup'ik anymore.\"",
                 "06:24 - Cut out scenes",
-                "08:26 - [Alciq] - \"We have this extremely ancient instruction as our support.\"; welcoming each other",
-                "13:14 - [Alciq] - \"They must work for the good [of our people].\"",
-                "15:24 - [Person2] - Old men and women with long lives; \"They talked to us because they loved us.\"",
-                "17:10 - [Person2] - Food and water offerings; the Spirit of the Universe and God",
-                "18:56 - [Person2] - Pollution; living a long life"
+                "08:26 - [Alciq] \"We have this extremely ancient instruction as our support.\"; welcoming each other",
+                "13:14 - [Alciq] \"They must work for the good [of our people].\"",
+                "15:24 - [Person2] Old men and women with long lives; \"They talked to us because they loved us.\"",
+                "17:10 - [Person2] Food and water offerings; the Spirit of the Universe and God",
+                "18:56 - [Person2] Pollution; living a long life"
             ]
         },
         "tags": [
             "23.17",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
-            "Qanruyun -- Traditional Wisdom",
+            "19.5",
             "1",
             "19.6",
             "8.6",
@@ -197,14 +197,14 @@ export const summaries = {
                 "Wani quyurrvigmi pingayun angutet qalartellruut. Ciumek Yuk1 niicugnilriit cingumallrui qalaruqu'uraasqelluuki ayagyuat qanruyutnek Yugtun-llu qalarcaramek. Tua-i-llu kinguani Alciq qalartellruuq waten, takaqluki ayuqucirtuutet teggutekngamteki. Nangnermi Yuk2 qalartellruuq qaillun akaarnun unguvamayugngacimten\u0304ek."
             ],
             "timestamps": [
-                "00:00 - [Yuk1] - Qalamciuq waten kangingqerrluni, \"Qalarucuilavteng waniw' kemgitut. Elpet elisngaluten uquriuten.\"",
-                "02:21 - [Yuk1] - \"Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng.\"",
+                "00:00 - [Yuk1] Qalamciuq waten kangingqerrluni, \"Qalarucuilavteng waniw' kemgitut. Elpet elisngaluten uquriuten.\"",
+                "02:21 - [Yuk1] \"Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng.\"",
                 "06:24 - Kepqetaalria",
-                "08:26 - [Alciq] - \"Ak'allarpall'ermek ayuqucirtuutmek teggutengqertukut.\"; atunem ilaliurutleq",
-                "13:14 - [Alciq] - \"Una assilriim tungiinun caliarteng caliaqerkaugaat.\"",
-                "15:24 - [Yuk2] - Arnassagat angukara'urluut-llu allrakungqellriit; \"Kenekngamegtekut qalarut'lallrukaitkut.\"",
-                "17:10 - [Yuk2] - Aviukaqsaraq; Ellam Yua Agayun-llu",
-                "18:56 - [Yuk2] - Uqlaneq; akaarnun yuuqerciquq / unguvamanaurtuq"
+                "08:26 - [Alciq] \"Ak'allarpall'ermek ayuqucirtuutmek teggutengqertukut.\"; atunem ilaliurutleq",
+                "13:14 - [Alciq] \"Una assilriim tungiinun caliarteng caliaqerkaugaat.\"",
+                "15:24 - [Yuk2] Arnassagat angukara'urluut-llu allrakungqellriit; \"Kenekngamegtekut qalarut'lallrukaitkut.\"",
+                "17:10 - [Yuk2] Aviukaqsaraq; Ellam Yua Agayun-llu",
+                "18:56 - [Yuk2] Uqlaneq; akaarnun yuuqerciquq / unguvamanaurtuq"
             ]
         }
     },
@@ -221,13 +221,13 @@ export const summaries = {
             ]
         },
         "tags": [
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "3.9",
-            "Yuungnaqsaraq -- Subsistence",
+            "9",
             "16.2.1",
-            "Yup'ik Nation -- Yup'ik Nation",
-            "Yuuyaraq -- Traditional Way Of Life",
-            "Qanruyun -- Traditional Wisdom"
+            "24.2",
+            "19.8",
+            "19.5"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-16pzgr3f.h264",
@@ -249,18 +249,18 @@ export const summaries = {
                 "At the conference, Lucy Beaver (Urutaq) talked about caring for men's clothes and catch and about pollution. Then [Person1] talked about admonishments for old food and about berries and plants."
             ],
             "timestamps": [
-                "00:00 - [Urutaq Lucy Beaver] - They washed the men's clothes separately; \"They took care of what the men caught and did not pollute nature with them out of respect.\"",
-                "02:54 - [Urutaq Lucy Beaver] - \"They told us not to go to people's gathering spots out of respect.\"; \"They didn't put what would spoil around fish trap or drift net areas.\"; pollution",
-                "06:05 - [Person1] -\"In the summer, we should never throw old food from last summer or last year into the river.\"",
-                "10:26 - [Person1] - \"They admonished us against using axes on those fish.\"; They give the leftovers to people with dogs.",
-                "13:00 - [Person1, Urutaq Lucy Beaver] - Don't step on the berries; berries they picked among the trees; baneberries; plants; poison water hemlock; wild celery; wild greens; fireweed; yellow pond lily; \"They wouldn't let us gather more than we needed.\"",
-                "20:02 - [Eliza, Person2] -  \"There is so much that you all don't know.\"",
-                "21:19 - [Person1] - Mouse food"
+                "00:00 - [Urutaq Lucy Beaver] They washed the men's clothes separately; \"They took care of what the men caught and did not pollute nature with them out of respect.\"",
+                "02:54 - [Urutaq Lucy Beaver] \"They told us not to go to people's gathering spots out of respect.\"; \"They didn't put what would spoil around fish trap or drift net areas.\"; pollution",
+                "06:05 - [Person1]\"In the summer, we should never throw old food from last summer or last year into the river.\"",
+                "10:26 - [Person1] \"They admonished us against using axes on those fish.\"; They give the leftovers to people with dogs.",
+                "13:00 - [Person1, Urutaq Lucy Beaver] Don't step on the berries; berries they picked among the trees; baneberries; plants; poison water hemlock; wild celery; wild greens; fireweed; yellow pond lily; \"They wouldn't let us gather more than we needed.\"",
+                "20:02 - [Eliza, Person2]  \"There is so much that you all don't know.\"",
+                "21:19 - [Person1] Mouse food"
             ]
         },
         "tags": [
             "23.3",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "3.9.1",
             "Neqkaq -- Food",
             "6.1",
@@ -273,13 +273,13 @@ export const summaries = {
                 "Quyurtellratni Urutaq (Lucy Beaver) qalartellruuq angutet akluita unakellrita-llu aulukellritnek uqlanermek-llu. Tua-i-llu Yuk1 qalartellruuq neqkallernek inerquutnek cali-llu atsanek naunranek-llu."
             ],
             "timestamps": [
-                "00:00 - [Urutaq Lucy Beaver] - Angutet akluit allakarmeng iqailallruit; Angutet unakellrit qigcikluki uqlautevkenaki auluktullruit",
-                "02:54 - [Urutaq Lucy Beaver] - \"Qigcikluku yuum pivianun, yuum piyaraanun pisqumamayuitellruitkut.\"; \"Taluyam nuniini kuvyam-llu nuniini aruarkanek piyuitut.\"; uqlaneq",
-                "06:05 - [Yuk1] - \"Mat'umun kuigmun kiagaqan kiagcetarnek allragnillarnek neqlernek egcivikesqevkanaku watqapik.\"",
-                "10:26 - [Yuk1] - \"Inerquutauluteng piqertuutaq aturluku neqnun taukunun pisqevkenata.\"; Leftover-aat qimugtelegnun tuntuit",
-                "13:00 - [Yuk1, Urutaq Lucy Beaver] - Atsat tutmarluki pisqevkenaki; napat iluatnek iqvatukait; tulukaruut neqait; naunraat; uquutvaguaq; ikiituk; cuassaaq; ciilqaaq; paparnaq; \"Amllerpagmek ciptarkamek avurcecuitellruitkut\"",
-                "20:02 - [Eliza, Yuk2] -  \"Nallukengaci amlleqapiartut.\"",
-                "21:19 - [Yuk1] - Avelngaat neqait"
+                "00:00 - [Urutaq Lucy Beaver] Angutet akluit allakarmeng iqailallruit; Angutet unakellrit qigcikluki uqlautevkenaki auluktullruit",
+                "02:54 - [Urutaq Lucy Beaver] \"Qigcikluku yuum pivianun, yuum piyaraanun pisqumamayuitellruitkut.\"; \"Taluyam nuniini kuvyam-llu nuniini aruarkanek piyuitut.\"; uqlaneq",
+                "06:05 - [Yuk1] \"Mat'umun kuigmun kiagaqan kiagcetarnek allragnillarnek neqlernek egcivikesqevkanaku watqapik.\"",
+                "10:26 - [Yuk1] \"Inerquutauluteng piqertuutaq aturluku neqnun taukunun pisqevkenata.\"; Leftover-aat qimugtelegnun tuntuit",
+                "13:00 - [Yuk1, Urutaq Lucy Beaver] Atsat tutmarluki pisqevkenaki; napat iluatnek iqvatukait; tulukaruut neqait; naunraat; uquutvaguaq; ikiituk; cuassaaq; ciilqaaq; paparnaq; \"Amllerpagmek ciptarkamek avurcecuitellruitkut\"",
+                "20:02 - [Eliza, Yuk2]  \"Nallukengaci amlleqapiartut.\"",
+                "21:19 - [Yuk1] Avelngaat neqait"
             ]
         }
     },
@@ -302,8 +302,8 @@ export const summaries = {
             ]
         },
         "tags": [
-            "Cugtun -- Cup'ik",
-            "Qanruyun/qanruyutet -- Traditional Wisdom",
+            "1.1.2",
+            "19.5",
             "19.2",
             "9.2",
             "Nerangnaqsaraq -- Subsistence",
@@ -350,16 +350,16 @@ export const summaries = {
         "tags": [
             "23.18",
             "23.19",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.4",
-            "Qanemciq -- Story",
+            "15.2",
             "16.2",
             "19.8",
-            "Yuraq -- Yuraq (\"eskimo Dance\")",
+            "20.2",
             "20.2.3",
             "4.1",
             "20.2.2",
-            "Qasgiq -- Community House"
+            "21.2"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-25k98x78.h264",
@@ -384,18 +384,18 @@ export const summaries = {
                 "In the conference, Person1 first spoke about how people should live good lives and be obedient. Then Person2 talked about how the fish are eating pollution. And then Person3 talked about sickness, death, alcohol, and how people should not steal."
             ],
             "timestamps": [
-                "00:00 - [Person1] - \"I want you to become good people, and do not disregard the wisdom passed to you. Become obedient people and see.\"",
-                "07:35 - [Person2] - \"Because our salmon are eating the pollution from those making profit unbeknownst to us.\"",
-                "18:09 - [Person3] - Sickness; death; alcohol; do not steal"
+                "00:00 - [Person1] \"I want you to become good people, and do not disregard the wisdom passed to you. Become obedient people and see.\"",
+                "07:35 - [Person2] \"Because our salmon are eating the pollution from those making profit unbeknownst to us.\"",
+                "18:09 - [Person3] Sickness; death; alcohol; do not steal"
             ]
         },
         "tags": [
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "19.6.1",
             "Neqpik -- Fish",
             "3.9.1",
-            "22.6",
-            "Yuunrilleq -- Death",
+            "13",
+            "8.3",
             "22.5",
             "19.13.1"
         ],
@@ -406,9 +406,9 @@ export const summaries = {
                 "Quyurtellratni ciumek Yuk1 qanertuq assirluteng yuusqelluki maligtaquurautesqelluki. Tua-i-llu Yuk2 qanertuq neqpiat nerlauciitnek, uqlautnek. Tua-i-llu Yuk3 qanerluni naullutnek yuunrillermek taangamek teglegesqenrilucimek-llu."
             ],
             "timestamps": [
-                "00:00 - [Yuk1] - \"Assircaarluci yuusqelluci, qanruyuteci-llu caunrilkevkenaki. Atam maligtaquuraulluci yuusqaqici.\"",
-                "07:35 - [Yuk2] - \"Nallumten\u0304i tamaani akemkut akissulriit uqlautiitnek wangkuta tamakut neqpiput nerlalliniameng.\"",
-                "18:09 - [Yuk3] - Naulluun; yuunrilleq; taangaq; teglegyaqunak"
+                "00:00 - [Yuk1] \"Assircaarluci yuusqelluci, qanruyuteci-llu caunrilkevkenaki. Atam maligtaquuraulluci yuusqaqici.\"",
+                "07:35 - [Yuk2] \"Nallumten\u0304i tamaani akemkut akissulriit uqlautiitnek wangkuta tamakut neqpiput nerlalliniameng.\"",
+                "18:09 - [Yuk3] Naulluun; yuunrilleq; taangaq; teglegyaqunak"
             ]
         }
     },
@@ -419,18 +419,18 @@ export const summaries = {
                 "First, Fred Ollie spoke with Person1 translating what he said, and he talked about when he lived in St. Mary's and then opened up the conference in Bethel. Next, Person2 talked in both Yup'ik and English about the importance of our land and how elders should be speaking about our way of life."
             ],
             "timestamps": [
-                "00:00 - [Fred Ollie, Person1] - When he lived in St. Mary's",
-                "04:54 - [Person2] - Elders should speak about how to continue our way of life or our culture",
-                "13:20 - [Person2] - The importance of our land to us; our elders will teach us our way of life"
+                "00:00 - [Fred Ollie, Person1] When he lived in St. Mary's",
+                "04:54 - [Person2] Elders should speak about how to continue our way of life or our culture",
+                "13:20 - [Person2] The importance of our land to us; our elders will teach us our way of life"
             ]
         },
         "tags": [
             "23.20",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
             "2.2.6",
             "19.8",
-            "Nunaput -- Our Land"
+            "3.9"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-26xwdh7k.h264",
@@ -439,9 +439,9 @@ export const summaries = {
                 "Ciumek Fred Ollie qalarrluni tua-llu Yuk1 mumiggluki qanellri piuk. Negeqlirmetlerminek qanellruuq tua-i-llu una quyurtellratni Mamterillermi ikirrluku. Kinguani Yuk2 qalartellruuq Yugcetun Kass'acetun-llu nunamta arcaqallranek tegganret-llu qalarutkarkaullratnek yuuyaramten\u0304ek."
             ],
             "timestamps": [
-                "00:00 - [Fred Ollie, Yuk1] - Negeqlirmetlerminek",
-                "04:54 - [Yuk2] - Tegganret qalarutkarkaugaat yuuyaraput wall'u wangkuta piciryaraput ayagturallerkaa",
-                "13:20 - [Yuk2] - Nunaput arcaqerluni wangkutni; ciuliamta elitnaurciqakut yuuyaramek"
+                "00:00 - [Fred Ollie, Yuk1] Negeqlirmetlerminek",
+                "04:54 - [Yuk2] Tegganret qalarutkarkaugaat yuuyaraput wall'u wangkuta piciryaraput ayagturallerkaa",
+                "13:20 - [Yuk2] Nunaput arcaqerluni wangkutni; ciuliamta elitnaurciqakut yuuyaramek"
             ]
         }
     },
@@ -461,15 +461,15 @@ export const summaries = {
         },
         "tags": [
             "23.21",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
             "9.5.3",
             "6.1",
             "10.9",
-            "Qasgiq -- Qasgiq",
-            "Qerpertaq -- Qerpertaq",
-            "Tenguggluk -- Tenguggluk",
-            "Qanemciq -- Story, Factual Account",
+            "21.2",
+            "10.9.2",
+            "10.9.1",
+            "15.2",
             "20.5"
         ],
         "title": "Title Placeholder",
@@ -508,9 +508,10 @@ export const summaries = {
         },
         "tags": [
             "23.2",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.3",
-            "Uksuaq/uksuilleq -- Fall/fall Camp",
+            "3.1.2",
+            "9.8",
             "17.1.6",
             "5.1.1",
             "5.3.2",
@@ -520,7 +521,7 @@ export const summaries = {
             "7.4",
             "6.3",
             "19.13",
-            "Qanruyutet -- Wise Words/traditional Wisdom"
+            "19.5"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-00ns1t6z.h264",
@@ -549,47 +550,47 @@ export const summaries = {
                 "This video is made of many clips and the people talk about various topics. These clips are taken from other videos that they liked."
             ],
             "timestamps": [
-                "00:00 - [Person1] - When getting a frostbite",
-                "01:27 - [Person1] - Using the sun and mountains as weather devices; using ground squirrels as weather devices",
-                "06:19 - [Person2] - Storyknife, string games, dolls",
-                "08:58 - [Person2] - When men travel and hunt",
-                "10:26 - [Person2] - Ridiculing visitors with a yuraq (\"Eskimo dance\")",
-                "13:14 - [Person3] - When she got a husband; divorce; alcohol and a married couple; choosing their own husband",
-                "19:50 - [Person4] - They told us to not live loudly",
-                "21:55 - [Person4] - When she followed abstinence practices",
-                "23:15 - [Person5] - The two who brought forth traditional wisdom in the community house",
-                "24:49 - [Person4] - Admonishments for child rearing: do not verbally defend them, do not raise your hand towards them, do not shout at them",
-                "27:09 - [Person6] - Taking a steambath in the qasgiq (\"community house\") in Bethel",
-                "28:38 - [Person4] - Admonishments for married couples: \"even if people say bad things about him, they told me not to tell him\", \"don't suspect him if you haven't seen it with your own eyes\", \"don't say that I have nothing\"",
-                "31:06 - [Person6] - How Bethel was like when there were few white people between Aagurmiut and Urucaraq",
-                "33:48 - [Person4] - Admonishments for children: \"no matter what [others] do, she admonished me against coming home crying\"",
-                "36:20 - [Person6] - \"They also told us to help those who looked destitute and who were unable.\" And do not make fun of them; do not take anything",
-                "37:56 - [Person7] - \"And we lived without making any excuses but were quiet.\"",
-                "39:25 - [Person8] - A family living in a house",
-                "41:18 - [Person9, Person10] - When they made a sod-house like they use to have; fish traps; grass baskets for fish",
-                "45:13 - [Person11, Person12] - When there was lots of snow in the spring; when they went to spring camp",
-                "49:16 - [Person6] - \"This was the traditional wisdom passed to us: they told us to respect especially the land and water, and to treat it as if it were our dinner plate or soup bowl.\""
+                "00:00 - [Person1] When getting a frostbite",
+                "01:27 - [Person1] Using the sun and mountains as weather devices; using ground squirrels as weather devices",
+                "06:19 - [Person2] Storyknife, string games, dolls",
+                "08:58 - [Person2] When men travel and hunt",
+                "10:26 - [Person2] Ridiculing visitors with a yuraq (\"Yup'ik dance\")",
+                "13:14 - [Person3] When she got a husband; divorce; alcohol and a married couple; choosing their own husband",
+                "19:50 - [Person4] They told us to not live loudly",
+                "21:55 - [Person4] When she followed abstinence practices",
+                "23:15 - [Person5] The two who brought forth traditional wisdom in the community house",
+                "24:49 - [Person4] Admonishments for child rearing: do not verbally defend them, do not raise your hand towards them, do not shout at them",
+                "27:09 - [Person6] Taking a steambath in the qasgiq (\"community house\") in Bethel",
+                "28:38 - [Person4] Admonishments for married couples: \"even if people say bad things about him, they told me not to tell him\", \"don't suspect him if you haven't seen it with your own eyes\", \"don't say that I have nothing\"",
+                "31:06 - [Person6] How Bethel was like when there were few white people between Aagurmiut and Urucaraq",
+                "33:48 - [Person4] Admonishments for children: \"no matter what [others] do, she admonished me against coming home crying\"",
+                "36:20 - [Person6] \"They also told us to help those who looked destitute and who were unable.\" And do not make fun of them; do not take anything",
+                "37:56 - [Person7] \"And we lived without making any excuses but were quiet.\"",
+                "39:25 - [Person8] A family living in a house",
+                "41:18 - [Person9, Person10] When they made a sod-house like they use to have; fish traps; grass baskets for fish",
+                "45:13 - [Person11, Person12] When there was lots of snow in the spring; when they went to spring camp",
+                "49:16 - [Person6] \"This was the traditional wisdom passed to us: they told us to respect especially the land and water, and to treat it as if it were our dinner plate or soup bowl.\""
             ]
         },
         "tags": [
-            "Yugtun -- In Yup'ik",
-            "Cugtun -- In Cup'ik",
+            "1.1.1",
+            "1.1.2",
             "11.1",
             "3",
             "3.2.1",
             "3.7",
             "2.3",
             "5.3.8",
-            "Yaaruin -- Storyknife",
+            "18.3",
             "18.2",
             "Irniaruat, Inuguat -- Dolls",
-            "Yuraq -- Yuraq (\"Eskimo Dance\")",
-            "Uingelleq, Nuliangelleq, Aipanglleq -- Getting A Husband, Wife, Partner",
+            "20.2",
+            "14.3",
             "Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple",
             "14.4",
             "22.5",
             "19.7",
-            "Qasgiq, Qaygiq -- Community House",
+            "21.2",
             "21.2.1",
             "22.2",
             "2.2.5",
@@ -607,26 +608,26 @@ export const summaries = {
                 "Una tangercetaaq amllernek tangercetaacuarnek imangqertuq yuut-llu qalarrluteng canek ayuqenrilngurnek. Ukut-llu tangercetaacuaraat tegumaut allanek tangercetaarnek assikekngaitnek."
             ],
             "timestamps": [
-                "00:00 - [Yuk1] - Qercuakuni",
-                "01:27 - [Yuk1] - Akerta ingrit-llu ellassuutekluki; qanganaat ellassutekluki",
-                "06:19 - [Yuk2] - Yaaruin, airraq, inuguat",
-                "08:58 - [Yuk2] - Angutet ayagaaqata pissuraqata",
-                "10:26 - [Yuk2] - Allanret nernerrlugcetaarluki yuraraqata",
-                "13:14 - [Yuk3] - Uingellerminek; avvucaraq; taangaq nulirqellriik-llu; uikameggnek cucuklirluteng",
-                "19:50 - [Yuk4] - Neplirluta yuusqevkenata",
-                "21:55 - [Yuk4] - Eyallrani",
-                "23:15 - [Yuk5] - Qaygimi qaneryarameng egelracilriik",
-                "24:49 - [Yuk4] - Irniani anglicallerkaa inerquutet: eyuqsaunaki, yagiralaasqevkenaki, qatpagatesqevkenaki",
-                "27:09 - [Yuk6] - Maqilriit qasgimi Mamterillermi",
-                "28:38 - [Yuk4] - Aipaqellriignun inerquutet: \"yuut assiinaku qanrutkengraatgu qanrut'laasqevkenaku\", \"kamakelaasqevkenaku iivkun tangenrrilkuvgu\", \"waten qanlaasqevkenii piiturlua\"",
-                "31:06 - [Yuk6] - Mamterillrem ayuqucia kass'at amllerpek'nateng Aagurmiut Urucaram-llu akuliitni",
-                "33:48 - [Yuk4] - Mikelnguut inerquutait: \"[allat] pingraatnga qialua utertelaasqevkenii\"",
-                "36:20 - [Yuk6] - \"Makut-llu tangnerrlugnarqellriit-wa tua-i makut pisciigalnguut-llu ikayuasqelluki pitullruitkut.\" Temciarautekesqevkenaki; teguqautesqevkenii",
-                "37:56 - [Yuk7] - \"Camek-ll' avaliciyunata nepaunata yuuluta\"",
-                "39:25 - [Yuk8] - Ilakelriit nem iluani uitalriit",
-                "41:18 - [Yuk9, Yuk10] - Nepialillratni eneketullritnek; taluyat; naparcilluut",
-                "45:13 - [Yuk11, Yuk12] - Qanikcarpatullrani up'nerkami; up'nerkiyaqata'arqameng",
-                "49:16 - [Yuk6] - \"Man'a qanruyutvut: nunavut arcaqerluku meq-llu kencikesqumaluku pitullruitkut, wangkuta-gguq qantamcetun pitarrluku.\""
+                "00:00 - [Yuk1] Qercuakuni",
+                "01:27 - [Yuk1] Akerta ingrit-llu ellassuutekluki; qanganaat ellassutekluki",
+                "06:19 - [Yuk2] Yaaruin, airraq, inuguat",
+                "08:58 - [Yuk2] Angutet ayagaaqata pissuraqata",
+                "10:26 - [Yuk2] Allanret nernerrlugcetaarluki yuraraqata",
+                "13:14 - [Yuk3] Uingellerminek; avvucaraq; taangaq nulirqellriik-llu; uikameggnek cucuklirluteng",
+                "19:50 - [Yuk4] Neplirluta yuusqevkenata",
+                "21:55 - [Yuk4] Eyallrani",
+                "23:15 - [Yuk5] Qaygimi qaneryarameng egelracilriik",
+                "24:49 - [Yuk4] Irniani anglicallerkaa inerquutet: eyuqsaunaki, yagiralaasqevkenaki, qatpagatesqevkenaki",
+                "27:09 - [Yuk6] Maqilriit qasgimi Mamterillermi",
+                "28:38 - [Yuk4] Aipaqellriignun inerquutet: \"yuut assiinaku qanrutkengraatgu qanrut'laasqevkenaku\", \"kamakelaasqevkenaku iivkun tangenrrilkuvgu\", \"waten qanlaasqevkenii piiturlua\"",
+                "31:06 - [Yuk6] Mamterillrem ayuqucia kass'at amllerpek'nateng Aagurmiut Urucaram-llu akuliitni",
+                "33:48 - [Yuk4] Mikelnguut inerquutait: \"[allat] pingraatnga qialua utertelaasqevkenii\"",
+                "36:20 - [Yuk6] \"Makut-llu tangnerrlugnarqellriit-wa tua-i makut pisciigalnguut-llu ikayuasqelluki pitullruitkut.\" Temciarautekesqevkenaki; teguqautesqevkenii",
+                "37:56 - [Yuk7] \"Camek-ll' avaliciyunata nepaunata yuuluta\"",
+                "39:25 - [Yuk8] Ilakelriit nem iluani uitalriit",
+                "41:18 - [Yuk9, Yuk10] Nepialillratni eneketullritnek; taluyat; naparcilluut",
+                "45:13 - [Yuk11, Yuk12] Qanikcarpatullrani up'nerkami; up'nerkiyaqata'arqameng",
+                "49:16 - [Yuk6] \"Man'a qanruyutvut: nunavut arcaqerluku meq-llu kencikesqumaluku pitullruitkut, wangkuta-gguq qantamcetun pitarrluku.\""
             ]
         }
     },
@@ -645,16 +646,16 @@ export const summaries = {
         },
         "tags": [
             "23.22",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "3.1.2",
             "17.1.1",
             "3.4",
             "11.2",
             "6.3",
             "Teq'uq -- Urine",
-            "Snuukuuq -- Snowmachine, Snowgo, Snowmobile",
+            "17.4.2",
             "3.4.1",
-            "Pellaalleq -- Getting Lost"
+            "11.3"
         ],
         "title": "Title Placeholder",
         "videoID": "cpb-aacip-127-33rv1b2m.h264",
@@ -689,10 +690,11 @@ export const summaries = {
         "tags": [
             "23.3",
             "23.4",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
             "19.10",
             "19.6.2",
+            "15.2",
             "22.2",
             "22.1.2"
         ],
@@ -732,9 +734,9 @@ export const summaries = {
         },
         "tags": [
             "23.5",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.1",
-            "Qasgiq -- Qasgiq",
+            "21.2",
             "19.13.1",
             "8.4",
             "5.3.1",
@@ -772,7 +774,7 @@ export const summaries = {
                 "00:00 - [Paul Gregory] Beginning the conference",
                 "00:41 - [Person1 - Peter] Search and rescue thanks a helper",
                 "03:55 - [James Peter] Instructions for when a person falls into the water; \"A self-confident person only comes upon misfortune.\"",
-                "08:11 - [Fred Evan] - Thanking the searchers",
+                "08:11 - [Fred Evan] Thanking the searchers",
                 "10:05 - [Person2] Dogs and dog mushing; supernatural experience with a cold draft",
                 "19:48 - [Paul Gregory] Dogs; adjourning the conference"
             ]
@@ -781,11 +783,12 @@ export const summaries = {
             "23.6",
             "23.7",
             "23.8",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "24.1",
             "11",
             "17.4.1",
             "17.4.1.1",
+            "15.2",
             "8.5"
         ],
         "title": "Title Placeholder",
@@ -798,7 +801,7 @@ export const summaries = {
                 "00:00 - [Paul Gregory] Quyurtellrat ayagnirluni",
                 "00:41 - [Yuk1 - Peter] Yuartet quyavikaat kevgaq",
                 "03:55 - [James Peter] Yuk kiskan ayuqucirtuutet; \"Cacetulria-gguq arenqiallugtellerkaminun tau\u0361gaam tekitaatuuq.\"",
-                "08:11 - [Fred Evan] - Quyavikluki yuartet",
+                "08:11 - [Fred Evan] Quyavikluki yuartet",
                 "10:05 - [Yuk2] Qimugtet qimugciryaraq-llu; alangru iternerkun",
                 "19:48 - [Paul Gregory] Qimugtet; Quyurtellrat arulairluni"
             ]
@@ -812,22 +815,22 @@ export const summaries = {
             ],
             "timestamps": [
                 "00:00 - [Person1] The custom of wiping the saliva of the brown or black bear on their faces",
-                "01:22 - [Kurt Bell, Person1, Person2] - The boy who was taken away by the bladders; seal bladders",
-                "08:19 - [Edward Weiss] - The custom of wiping the saliva of the brown or black bear on their faces",
-                "10:37 - [Kurt Bell] - Admonishment to not shoot baby birds and birds with babies",
-                "13:56 - [Person3] - Reverence of their catch",
-                "14:43 - [Larissa] - \"It would be beneficial if you let them talk and teach us on KYUK\"",
-                "16:07 - [Edward Weiss] - Keep ahold of a walking stick for when a black bear attacks",
-                "17:36 - [Phillip Moses, Person3] - Shamans; seal parties in the spring for the first bearded seal"
+                "01:22 - [Kurt Bell, Person1, Person2] The boy who was taken away by the bladders; seal bladders",
+                "08:19 - [Edward Weiss] The custom of wiping the saliva of the brown or black bear on their faces",
+                "10:37 - [Kurt Bell] Admonishment to not shoot baby birds and birds with babies",
+                "13:56 - [Person3] Reverence of their catch",
+                "14:43 - [Larissa] \"It would be beneficial if you let them talk and teach us on KYUK\"",
+                "16:07 - [Edward Weiss] Keep ahold of a walking stick for when a black bear attacks",
+                "17:36 - [Phillip Moses, Person3] Shamans; seal parties in the spring for the first bearded seal"
             ]
         },
         "tags": [
             "23.9",
             "23.10",
             "23.11",
-            "Yugtun -- In Yup'ik",
-            "Cugtun -- In Cup'ik",
-            "Taqukaq -- Brown Bear",
+            "1.1.1",
+            "1.1.2",
+            "5.3.7",
             "5.3.6",
             "20.3.1",
             "5.5",
@@ -843,13 +846,13 @@ export const summaries = {
             ],
             "timestamps": [
                 "00:00 - [Yuk1] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
-                "01:22 - [Kurt Bell, Yuk2, Yuk1] - Tan'gaurluq nakacuut ayautellrat; nakacuut",
-                "08:19 - [Edward Weiss] - Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
-                "10:37 - [Kurt Bell] - Inerqurluki tengmiat piyagat-llu piyagauluki pissusqevkenaki",
-                "13:56 - [Yuk3] - Pitateng kencikluki",
-                "14:43 - [Larissa] - \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
-                "16:07 - [Edward Weiss] - Ayaruq tegumiaqesqelluku tan'gerlim curukaqaku",
-                "17:36 - [Phillip Moses, Yuk3] - Angalkut; up'nerkami pitqerraarqan maklagmek uqiqurluteng"
+                "01:22 - [Kurt Bell, Yuk2, Yuk1] Tan'gaurluq nakacuut ayautellrat; nakacuut",
+                "08:19 - [Edward Weiss] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
+                "10:37 - [Kurt Bell] Inerqurluki tengmiat piyagat-llu piyagauluki pissusqevkenaki",
+                "13:56 - [Yuk3] Pitateng kencikluki",
+                "14:43 - [Larissa] \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
+                "16:07 - [Edward Weiss] Ayaruq tegumiaqesqelluku tan'gerlim curukaqaku",
+                "17:36 - [Phillip Moses, Yuk3] Angalkut; up'nerkami pitqerraarqan maklagmek uqiqurluteng"
             ]
         }
     },
@@ -867,13 +870,13 @@ export const summaries = {
                 "08:16 - Springtime in the Yukon; to drive rabbits; ice, snow, and floods in teh spring",
                 "11:59 - Time of no fish in the Yukon; preparing for spring camp; making a natural freezer",
                 "14:40 - Extreme flooding",
-                "17:14 - [Person1] - Woman *no sound*"
+                "17:14 - [Person1] Woman *no sound*"
             ]
         },
         "tags": [
             "23.12",
             "23.13",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.5",
             "2.1.1",
             "3.1.1",
@@ -898,7 +901,7 @@ export const summaries = {
                 "08:16 - Up'nerkami Kuigpagmi; maqaruanek unguluteng; ciku qanikcaq ulerpak-llu up'nerkami",
                 "11:59 - Neqaitellrani Kuigpagmi; up'nerkiyallerkaq; kumlivililleq",
                 "14:40 - Ulenkacagallrani",
-                "17:14 - [Yuk1] - Arnaq *nepaunani*"
+                "17:14 - [Yuk1] Arnaq *nepaunani*"
             ]
         }
     },
@@ -909,14 +912,14 @@ export const summaries = {
                 "Paul G. Nichoali (Cialuq) and Lucy Nicholai (Neviar; originally named Qakvaralria and raised in Eek) from Kwethluk (Kuiggluk) talked about many different things. They talked about having to always have a walking stick or ice spud/pick/chisel; to follow the admonishments and rules; the teachings of traditional abstinence practices; possessions on a grave; teenagers becoming mischievous; and other topics."
             ],
             "timestamps": [
-                "00:59 - [Cialuq Paul G. Nicholai] - Admonishment for the springtime - \"They would tell us to always have an ice spud because it's our eyes.\"",
-                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Walking stick; \"They told us to be quiet.\"",
-                "03:50 - [Cialuq Paul G. Nicholai] - Spring time; ground squirrels; fish traps and steel traps",
+                "00:59 - [Cialuq Paul G. Nicholai] Admonishment for the springtime; \"They would tell us to always have an ice spud because it's our eyes.\"",
+                "02:17 - [Qakvaralria Neviar Lucy Nicholai] Walking stick; \"They told us to be quiet.\"",
+                "03:50 - [Cialuq Paul G. Nicholai] Spring time; ground squirrels; fish traps and steel traps",
                 "05:33 - Giving water to seals",
-                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Traditional abstinence practices for girls who has recently menstruated for the first time and women who miscarried",
-                "10:32 - [Cialuq Paul G. Nicholai] - Months; possessions on graves",
-                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Rules for girls; \"A woman leads to death.\"",
-                "13:59 - [Cialuq Paul G. Nicholai] - Ice spud/pick/chisel; \"And if he's sedentary, he won't have anything.\"",
+                "06:48 - [Qakvaralria Neviar Lucy Nicholai] Traditional abstinence practices for girls who has recently menstruated for the first time and women who miscarried",
+                "10:32 - [Cialuq Paul G. Nicholai] Months; possessions on graves",
+                "12:59 - [Qakvaralria Neviar Lucy Nicholai] Rules for girls; \"A woman leads to death.\"",
+                "13:59 - [Cialuq Paul G. Nicholai] Ice spud/pick/chisel; \"And if he's sedentary, he won't have anything.\"",
                 "15:57 - Teenagers becoming mischievous; alcohol; suicide",
                 "18:03 - Subsistence; fish traps",
                 "19:26 - Respect for elders; Yup'ik language; how Kwethluk was back then"
@@ -925,20 +928,21 @@ export const summaries = {
         "tags": [
             "Cialuq Paul G. Nicholai",
             "23.15",
-            "Yugtun -- In Yup'ik",
+            "1.1.1",
             "2.2.1",
             "3.1.1",
             "9.7",
             "17.1.1",
             "17.1.2",
             "5.3.8",
-            "Unkumiutaq/puga -- Seal",
+            "5.4",
+            "5.4.3",
             "19.4.1",
             "19.7.1.1",
             "22.1.1",
             "19.7",
             "3.6",
-            "Qunguq -- Burial",
+            "13.1.1",
             "7",
             "9.6",
             "4.1",
@@ -957,14 +961,14 @@ export const summaries = {
                 "Cialuq (Paul G. Nicholai) and Neviar-llu (atpiara Qakvaralria ellangluni-llu Iigmi; Lucy Nicholai) Kuigglugmiungulutek (from Kwethluk) amllernek ayuqenrilngurnek qalartellruuk. Ayaruq wall'u cikuliurun up'nerkami nantesqevkenaku; inerquutet alerquutet-llu maliggluki; eyagyaram alerquutainek; qungumi akiutnek; ayagyuat akusrartellratnek; canek-llu allanek qalartellruuk."
             ],
             "timestamps": [
-                "00:59 - [Cialuq Paul G. Nicholai] - Inerquun up'nerkami - \"Cikuliurutraq nantesqevkenaku iinguan.\"",
-                "02:17 - [Qakvaralria Neviar Lucy Nicholai] - Ayaruq; \"Nepaunata pilaasqelluta.\"",
-                "03:50 - [Cialuq Paul G. Nicholai] - Up'nerkiyalleq; qanganaat; taluyat kapkaanat-llu;",
+                "00:59 - [Cialuq Paul G. Nicholai] Inerquun up'nerkami; \"Cikuliurutraq nantesqevkenaku iinguan.\"",
+                "02:17 - [Qakvaralria Neviar Lucy Nicholai] Ayaruq; \"Nepaunata pilaasqelluta.\"",
+                "03:50 - [Cialuq Paul G. Nicholai] Up'nerkiyalleq; qanganaat; taluyat kapkaanat-llu;",
                 "05:33 - Merr'illuki unkumiutaat",
-                "06:48 - [Qakvaralria Neviar Lucy Nicholai] - Aglenraraat irnicuallret-llu eyagyarait",
-                "10:32 - [Cialuq Paul G. Nicholai] - Iralut; qungumi akluit",
-                "12:59 - [Qakvaralria Neviar Lucy Nicholai] - Nasaurluut alerquutait; \"Arnaq-gguq tuquuguq.\"",
-                "13:59 - [Cialuq Paul G. Nicholai] - Cikuliurun; \"Uitayukuni-ll' tua-i camek piinani.\"",
+                "06:48 - [Qakvaralria Neviar Lucy Nicholai] Aglenraraat irnicuallret-llu eyagyarait",
+                "10:32 - [Cialuq Paul G. Nicholai] Iralut; qungumi akluit",
+                "12:59 - [Qakvaralria Neviar Lucy Nicholai] Nasaurluut alerquutait; \"Arnaq-gguq tuquuguq.\"",
+                "13:59 - [Cialuq Paul G. Nicholai] Cikuliurun; \"Uitayukuni-ll' tua-i camek piinani.\"",
                 "15:57 - Ayagyuat akusrarneruut; taangaq; ellminek tuqutellerkaq",
                 "18:03 - Nerangnaqsaraq; taluyat",
                 "19:26 - Takaqluki tegganret; Yugcetun qaneryararput; Kuiggluum ayuqucillranek"
@@ -978,30 +982,29 @@ export const summaries = {
                 "Person1 and Lucy Beaver (Urutaq) talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
             ],
             "timestamps": [
-                "00:54 - [Person1] - Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours",
+                "00:54 - [Person1] Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours",
                 "06:54 - [Person1] \"When the water suddenly gets foggy, we say, 'So, someone has caught something in the ocean.'\"",
                 "07:45 - [Urutaq Lucy Beaver] Reverence of the land and land animals; \"There was no mess in all of the land.\"",
                 "10:32 - [Urutaq Lucy Beaver] \"Truly, I do not leave behind anything when I pick berries.\"",
                 "11:47 - [Person1] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\"",
                 "15:41 - [Person1] Taking care of birds; baby birds",
                 "18:38 - [Person1] Taking care of bird eggs",
-                "10:05 - [Kurt Bell] Giving water to animals; when catching his first bearded seal"
+                "10:05 = [Kurt Bell] Giving water to animals; when catching his first bearded seal"
             ]
         },
         "tags": [
             "23.3",
             "23.9",
-            "Yugtun -- In Yup'ik",
-            "Cugtun -- In Cup'ik",
+            "1.1.1",
+            "1.1.2",
             "2.2.5",
             "19.6",
-            "Yuilqurmiutaq -- Wild Animals",
             "19.9",
-            "Nuna -- Land",
-            "Nunamiutaq -- Land Animals",
+            "3.9",
+            "5.3",
             "9.5.3",
             "22.3",
-            "Yaqulek -- Bird",
+            "5.2",
             "17.1.3",
             "5.2.1",
             "9.5.2.1",

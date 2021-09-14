@@ -8,7 +8,7 @@ Yugtun Qalarcaraq -- Yup'ik Language
 			Upper Kuskokwim
 			Bristol Bay
 			Egegik
-		Cugtun, Yugtun -- Cup'ik & Yup'ik of Chevak & Hooper Bay
+		Cugtun, Yugtun -- Cup'ik & Yup'ik of Hooper Bay & Chevak
 		Cup'ig -- Nunivak Island
 Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 	Mer'et Atrit -- Place Names For Bodies Of Water
@@ -21,6 +21,7 @@ Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 		Kayalivik -- Kayalivik
 		Mamterilleq -- Bethel
 		Negeqliq -- St. Mary's
+		Tuulkessaq -- Tuluksak
 	Ingriq -- Mountain
 Ellavut -- Weather, Climate
 	Allrakum Ellalinqigutai -- Seasons
@@ -51,7 +52,7 @@ Ungungssit Mermiutaat-llu -- Land And Water Animals
 		Neqpik -- Salmon
 	Yaqulek, Yaqulget -- Birds
 		Qangqiiq -- Ptarmigan
-	Ungungssit, Yuilqurmiutaq, Nunamiutaq -- Land, Wilderness Animal
+	Ungungssit, Yuilqurmiutaat, Nunamiutaat -- Land, Wilderness Animals
 		Tuntu -- Reindeer
 		Imarmiutaq -- Mink
 		Kegluneq -- Wolf
@@ -118,6 +119,7 @@ Neqkiuryaraq -- Food Preparation
 Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 	Qercuaneq, Qercualleq -- Frostbite
 	Kit'elleq -- Falling Into Water
+	Pellaalleq -- Getting Lost
 Imarpik -- Ocean, Sea
 	Imarpigmi Anangnaqsaraq -- Survival (Ocean)
 Tuqu Naulluun-llu, Qenan-llu -- Death & Sickness
@@ -135,6 +137,7 @@ Qulirat & Qanemcit -- Legends & Stories
 	Ak'allaat Qanemcit -- Old Stories
 		Anguyallret -- Old Wars
 	Ukaqvallaat Qanemcit -- Recent Stories
+		Tuntuciuryaraq -- Reindeer Herding
 Kass'artaat -- Manufactured Items,  Western Stuff
 	Kass'at Tekipailgata -- Before Western Contact
 		Nepiaq, Enepiaq -- Sod-house
@@ -158,6 +161,7 @@ Pissuutet, Cassuutet, Piliat, Saskut, Agayassuutet -- Tools, Crafts, Weapons
 	Ayagassuutet -- Transportation
 		Qimugta -- Dog
 			Qimugciryaraq -- Dog Mushing
+		Snuukuuq -- Snowmachine, Snowgo, Snowmobile
 	Tupigyaraq -- Grass Weaving
 	Murak -- Wood
 		Canaryaraq, Canayaraq -- Wood Carving

@@ -4,23 +4,83 @@ export const categories = {
         "name": "Yugtun Qalarcaraq -- Yup'ik Language",
         "url": "Yugtun-Qalarcaraq",
         "videoNumbers": [
-            "11",
+            "1",
+            "7",
+            "20",
+            "2",
+            "21",
+            "4",
+            "6",
+            "16",
             "8",
             "12",
-            "4"
+            "13",
+            "10",
+            "3",
+            "14",
+            "18",
+            "15",
+            "11",
+            "9",
+            "19",
+            "5",
+            "17"
         ]
     },
     "1.1": {
         "children": 3,
         "name": "Qalarcarat -- Dialects",
         "url": "Qalarcarat",
-        "videoNumbers": []
+        "videoNumbers": [
+            "1",
+            "7",
+            "20",
+            "2",
+            "21",
+            "4",
+            "6",
+            "16",
+            "8",
+            "12",
+            "13",
+            "10",
+            "3",
+            "14",
+            "18",
+            "15",
+            "11",
+            "9",
+            "19",
+            "5",
+            "17"
+        ]
     },
     "1.1.1": {
         "children": 7,
         "name": "Yugtun, Yugcetun -- Yup'ik",
         "url": "Yugtun-Yugcetun",
-        "videoNumbers": []
+        "videoNumbers": [
+            "1",
+            "7",
+            "20",
+            "2",
+            "21",
+            "4",
+            "6",
+            "16",
+            "8",
+            "12",
+            "13",
+            "10",
+            "3",
+            "14",
+            "18",
+            "11",
+            "9",
+            "19",
+            "5",
+            "17"
+        ]
     },
     "1.1.1.1": {
         "children": 0,
@@ -66,9 +126,14 @@ export const categories = {
     },
     "1.1.2": {
         "children": 0,
-        "name": "Cugtun, Yugtun -- Cup'ik & Yup'ik of Chevak & Hooper Bay",
+        "name": "Cugtun, Yugtun -- Cup'ik & Yup'ik of Hooper Bay & Chevak",
         "url": "Cugtun-Yugtun",
-        "videoNumbers": []
+        "videoNumbers": [
+            "6",
+            "20",
+            "9",
+            "15"
+        ]
     },
     "1.1.3": {
         "children": 0,
@@ -81,8 +146,8 @@ export const categories = {
         "name": "Neqkiuryaraq -- Food Preparation",
         "url": "Neqkiuryaraq",
         "videoNumbers": [
-            "7",
-            "19"
+            "19",
+            "7"
         ]
     },
     "10.1": {
@@ -155,22 +220,26 @@ export const categories = {
         "children": 0,
         "name": "Tenguggluk -- Fish Liver Akutaq",
         "url": "Tenguggluk",
-        "videoNumbers": []
+        "videoNumbers": [
+            "19"
+        ]
     },
     "10.9.2": {
         "children": 0,
         "name": "Qerpertaq -- Pike Egg Akutaq",
         "url": "Qerpertaq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "19"
+        ]
     },
     "11": {
-        "children": 2,
+        "children": 3,
         "name": "Anangnaqsaraq Yuilqumi -- Survival (Wilderness)",
         "url": "Anangnaqsaraq-Yuilqumi",
         "videoNumbers": [
-            "21",
             "20",
-            "5"
+            "5",
+            "21"
         ]
     },
     "11.1": {
@@ -185,6 +254,14 @@ export const categories = {
         "children": 0,
         "name": "Kit'elleq -- Falling Into Water",
         "url": "Kitelleq",
+        "videoNumbers": [
+            "21"
+        ]
+    },
+    "11.3": {
+        "children": 0,
+        "name": "Pellaalleq -- Getting Lost",
+        "url": "Pellaalleq",
         "videoNumbers": [
             "21"
         ]
@@ -207,19 +284,26 @@ export const categories = {
         "children": 2,
         "name": "Tuqu Naulluun-llu, Qenan-llu -- Death & Sickness",
         "url": "Tuqu-Naulluun-llu-Qenan-llu",
-        "videoNumbers": []
+        "videoNumbers": [
+            "17",
+            "8"
+        ]
     },
     "13.1": {
         "children": 1,
         "name": "Tungmagciyaraq -- Burial",
         "url": "Tungmagciyaraq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "8"
+        ]
     },
     "13.1.1": {
         "children": 0,
         "name": "Qunguq -- Burial, Grave",
         "url": "Qunguq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "8"
+        ]
     },
     "13.2": {
         "children": 2,
@@ -244,8 +328,8 @@ export const categories = {
         "name": "Aipangyaraq, Aipaqsaraq -- Marriage",
         "url": "Aipangyaraq-Aipaqsaraq",
         "videoNumbers": [
-            "10",
-            "20"
+            "20",
+            "10"
         ]
     },
     "14.1": {
@@ -265,6 +349,7 @@ export const categories = {
         "name": "Aipanglleq -- Getting A Spouse",
         "url": "Aipanglleq",
         "videoNumbers": [
+            "20",
             "10"
         ]
     },
@@ -281,7 +366,11 @@ export const categories = {
         "name": "Qulirat & Qanemcit -- Legends & Stories",
         "url": "Qulirat-Qanemcit",
         "videoNumbers": [
-            "11"
+            "16",
+            "3",
+            "11",
+            "19",
+            "5"
         ]
     },
     "15.1": {
@@ -301,19 +390,34 @@ export const categories = {
         ]
     },
     "15.2": {
-        "children": 0,
+        "children": 1,
         "name": "Ukaqvallaat Qanemcit -- Recent Stories",
         "url": "Ukaqvallaat-Qanemcit",
-        "videoNumbers": []
+        "videoNumbers": [
+            "16",
+            "3",
+            "11",
+            "19",
+            "5"
+        ]
+    },
+    "15.2.1": {
+        "children": 0,
+        "name": "Tuntuciuryaraq -- Reindeer Herding",
+        "url": "Tuntuciuryaraq",
+        "videoNumbers": [
+            "11"
+        ]
     },
     "16": {
         "children": 3,
         "name": "Kass'artaat -- Manufactured Items,  Western Stuff",
         "url": "Kassartaat",
         "videoNumbers": [
-            "13",
-            "11",
             "16",
+            "11",
+            "13",
+            "10",
             "4"
         ]
     },
@@ -334,9 +438,10 @@ export const categories = {
         "name": "Kass'at Tekiteqerraallratni -- Early Western Contact",
         "url": "Kassat-Tekiteqerraallratni",
         "videoNumbers": [
-            "13",
             "16",
-            "4"
+            "4",
+            "10",
+            "13"
         ]
     },
     "16.2.1": {
@@ -365,7 +470,9 @@ export const categories = {
         "children": 0,
         "name": "Sun'aq -- Ship, Barge",
         "url": "Sunaq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "10"
+        ]
     },
     "16.3": {
         "children": 0,
@@ -380,15 +487,15 @@ export const categories = {
         "name": "Pissuutet, Cassuutet, Piliat, Saskut, Agayassuutet -- Tools, Crafts, Weapons",
         "url": "Pissuutet-Cassuutet-Piliat-Saskut-Agayassuutet",
         "videoNumbers": [
+            "6",
+            "8",
+            "11",
+            "9",
             "15",
             "5",
-            "21",
-            "9",
-            "11",
-            "6",
             "2",
-            "4",
-            "8"
+            "21",
+            "4"
         ]
     },
     "17.1": {
@@ -396,13 +503,13 @@ export const categories = {
         "name": "Cassuutet Saskut, Caskut -- Tools",
         "url": "Cassuutet-Saskut-Caskut",
         "videoNumbers": [
-            "21",
-            "9",
-            "11",
             "6",
+            "8",
+            "11",
+            "9",
             "2",
-            "4",
-            "8"
+            "21",
+            "4"
         ]
     },
     "17.1.1": {
@@ -410,11 +517,11 @@ export const categories = {
         "name": "Ayaruq -- Walking Stick, Cane, Staff",
         "url": "Ayaruq",
         "videoNumbers": [
-            "21",
-            "11",
             "6",
-            "4",
-            "8"
+            "8",
+            "11",
+            "21",
+            "4"
         ]
     },
     "17.1.2": {
@@ -450,8 +557,8 @@ export const categories = {
         "name": "Taluyaq -- Fish Trap",
         "url": "Taluyaq",
         "videoNumbers": [
-            "8",
-            "2"
+            "2",
+            "8"
         ]
     },
     "17.2": {
@@ -477,11 +584,12 @@ export const categories = {
         ]
     },
     "17.4": {
-        "children": 1,
+        "children": 2,
         "name": "Ayagassuutet -- Transportation",
         "url": "Ayagassuutet",
         "videoNumbers": [
-            "5"
+            "5",
+            "21"
         ]
     },
     "17.4.1": {
@@ -498,6 +606,14 @@ export const categories = {
         "url": "Qimugciryaraq",
         "videoNumbers": [
             "5"
+        ]
+    },
+    "17.4.2": {
+        "children": 0,
+        "name": "Snuukuuq -- Snowmachine, Snowgo, Snowmobile",
+        "url": "Snuukuuq",
+        "videoNumbers": [
+            "21"
         ]
     },
     "17.5": {
@@ -546,26 +662,29 @@ export const categories = {
         "children": 0,
         "name": "Yaaruin -- Story Knife",
         "url": "Yaaruin",
-        "videoNumbers": []
+        "videoNumbers": [
+            "20"
+        ]
     },
     "19": {
         "children": 14,
         "name": "Ukverput -- Traditional Beliefs",
         "url": "Ukverput",
         "videoNumbers": [
-            "10",
-            "15",
             "17",
-            "9",
-            "1",
-            "16",
-            "2",
             "3",
-            "12",
+            "16",
+            "1",
+            "8",
             "20",
+            "9",
             "18",
-            "4",
-            "8"
+            "12",
+            "15",
+            "13",
+            "2",
+            "10",
+            "4"
         ]
     },
     "19.1": {
@@ -603,10 +722,10 @@ export const categories = {
         "name": "Inerquutet -- Admonishments",
         "url": "Inerquutet",
         "videoNumbers": [
+            "2",
             "17",
-            "1",
             "4",
-            "2"
+            "1"
         ]
     },
     "19.13.1": {
@@ -614,8 +733,8 @@ export const categories = {
         "name": "Teglegyaraq -- Stealing",
         "url": "Teglegyaraq",
         "videoNumbers": [
-            "17",
             "1",
+            "17",
             "4"
         ]
     },
@@ -664,7 +783,12 @@ export const categories = {
         "name": "Qanruyutet -- Traditional Wisdom, Wise Words",
         "url": "Qanruyutet",
         "videoNumbers": [
-            "1"
+            "1",
+            "12",
+            "15",
+            "13",
+            "2",
+            "10"
         ]
     },
     "19.5.1": {
@@ -680,11 +804,11 @@ export const categories = {
         "name": "Alerquutet, Ayuqucirtuutet -- Instructions",
         "url": "Alerquutet-Ayuqucirtuutet",
         "videoNumbers": [
-            "17",
-            "9",
-            "1",
             "3",
-            "12"
+            "1",
+            "9",
+            "12",
+            "17"
         ]
     },
     "19.6.1": {
@@ -733,9 +857,10 @@ export const categories = {
         "name": "Yuuyaraq -- Way Of Life",
         "url": "Yuuyaraq",
         "videoNumbers": [
+            "13",
             "18",
-            "16",
-            "20"
+            "20",
+            "16"
         ]
     },
     "19.9": {
@@ -743,10 +868,10 @@ export const categories = {
         "name": "Kencikiyaraq -- Reverence",
         "url": "Kencikiyaraq",
         "videoNumbers": [
+            "20",
             "1",
             "10",
-            "9",
-            "20"
+            "9"
         ]
     },
     "2": {
@@ -754,19 +879,20 @@ export const categories = {
         "name": "Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water",
         "url": "Nunat-Meret-llu-Atrit",
         "videoNumbers": [
-            "19",
-            "10",
-            "7",
-            "9",
-            "11",
             "16",
             "3",
-            "12",
-            "2",
+            "1",
+            "8",
+            "11",
             "18",
+            "9",
             "20",
-            "4",
-            "8"
+            "7",
+            "12",
+            "19",
+            "2",
+            "10",
+            "4"
         ]
     },
     "2.1": {
@@ -792,23 +918,24 @@ export const categories = {
         "videoNumbers": []
     },
     "2.2": {
-        "children": 6,
+        "children": 7,
         "name": "Nunacuaraat Atrit -- Place Names For Villages",
         "url": "Nunacuaraat-Atrit",
         "videoNumbers": [
-            "19",
-            "10",
-            "7",
-            "9",
-            "11",
             "16",
             "3",
-            "12",
-            "2",
+            "1",
+            "8",
+            "11",
             "18",
+            "9",
             "20",
-            "4",
-            "8"
+            "7",
+            "12",
+            "19",
+            "2",
+            "10",
+            "4"
         ]
     },
     "2.2.1": {
@@ -816,9 +943,9 @@ export const categories = {
         "name": "Kuiggluk -- Kwethluk",
         "url": "Kuiggluk",
         "videoNumbers": [
-            "11",
             "8",
-            "4"
+            "4",
+            "11"
         ]
     },
     "2.2.2": {
@@ -848,14 +975,14 @@ export const categories = {
         "name": "Mamterilleq -- Bethel",
         "url": "Mamterilleq",
         "videoNumbers": [
-            "19",
-            "10",
-            "7",
-            "9",
             "3",
-            "12",
+            "18",
+            "9",
             "20",
-            "18"
+            "12",
+            "7",
+            "19",
+            "10"
         ]
     },
     "2.2.6": {
@@ -864,6 +991,14 @@ export const categories = {
         "url": "Negeqliq",
         "videoNumbers": [
             "18"
+        ]
+    },
+    "2.2.7": {
+        "children": 0,
+        "name": "Tuulkessaq -- Tuluksak",
+        "url": "Tuulkessaq",
+        "videoNumbers": [
+            "1"
         ]
     },
     "2.3": {
@@ -879,10 +1014,12 @@ export const categories = {
         "name": "Kalukat -- Celebrations, Gatherings",
         "url": "Kalukat",
         "videoNumbers": [
-            "7",
-            "19",
             "16",
-            "6"
+            "6",
+            "11",
+            "19",
+            "7",
+            "20"
         ]
     },
     "20.1": {
@@ -896,7 +1033,9 @@ export const categories = {
         "name": "Yuraq -- Yup'ik Dance, Dancing",
         "url": "Yuraq",
         "videoNumbers": [
-            "16"
+            "16",
+            "20",
+            "11"
         ]
     },
     "20.2.1": {
@@ -966,7 +1105,12 @@ export const categories = {
         "name": "Ilaliuryaraq -- Social Structure",
         "url": "Ilaliuryaraq",
         "videoNumbers": [
-            "20"
+            "16",
+            "11",
+            "20",
+            "19",
+            "10",
+            "4"
         ]
     },
     "21.1": {
@@ -980,7 +1124,12 @@ export const categories = {
         "name": "Qasgiq, Qaygiq -- Community, Men's House",
         "url": "Qasgiq-Qaygiq",
         "videoNumbers": [
-            "20"
+            "16",
+            "11",
+            "20",
+            "19",
+            "10",
+            "4"
         ]
     },
     "21.2.1": {
@@ -1012,13 +1161,13 @@ export const categories = {
         "name": "Calricaraq -- Health & Wellness",
         "url": "Calricaraq",
         "videoNumbers": [
-            "10",
             "17",
-            "9",
-            "1",
             "3",
+            "1",
+            "8",
+            "9",
             "20",
-            "8"
+            "10"
         ]
     },
     "22.1": {
@@ -1051,9 +1200,9 @@ export const categories = {
         "name": "Anglicarillerkaq -- Child Rearing",
         "url": "Anglicarillerkaq",
         "videoNumbers": [
-            "1",
+            "20",
             "3",
-            "20"
+            "1"
         ]
     },
     "22.3": {
@@ -1078,8 +1227,8 @@ export const categories = {
         "url": "Taangaq",
         "videoNumbers": [
             "17",
-            "10",
             "20",
+            "10",
             "8"
         ]
     },
@@ -1087,30 +1236,28 @@ export const categories = {
         "children": 0,
         "name": "Naulluun, Qenan -- Sickness",
         "url": "Naulluun-Qenan",
-        "videoNumbers": [
-            "17"
-        ]
+        "videoNumbers": []
     },
     "23": {
         "children": 22,
         "name": "Qalartellret Atrit -- Names of Speakers",
         "url": "Qalartellret-Atrit",
         "videoNumbers": [
-            "19",
-            "5",
-            "7",
-            "21",
-            "9",
-            "18",
-            "11",
-            "1",
-            "8",
+            "6",
+            "3",
             "16",
             "14",
-            "3",
-            "2",
-            "6",
+            "1",
+            "8",
+            "11",
+            "18",
+            "9",
+            "7",
             "12",
+            "19",
+            "5",
+            "2",
+            "21",
             "4"
         ]
     },
@@ -1296,6 +1443,7 @@ export const categories = {
         "name": "Allat -- Uncategorized",
         "url": "Allat",
         "videoNumbers": [
+            "13",
             "5"
         ]
     },
@@ -1311,22 +1459,27 @@ export const categories = {
         "children": 0,
         "name": "Yup'ik Nation",
         "url": "Yupik-Nation",
-        "videoNumbers": []
+        "videoNumbers": [
+            "13"
+        ]
     },
     "3": {
         "children": 10,
         "name": "Ellavut -- Weather, Climate",
         "url": "Ellavut",
         "videoNumbers": [
-            "13",
-            "7",
             "17",
-            "21",
-            "1",
             "14",
+            "13",
+            "1",
+            "8",
+            "18",
+            "9",
+            "7",
             "12",
             "20",
-            "8"
+            "2",
+            "21"
         ]
     },
     "3.1": {
@@ -1334,8 +1487,9 @@ export const categories = {
         "name": "Allrakum Ellalinqigutai -- Seasons",
         "url": "Allrakum-Ellalinqigutai",
         "videoNumbers": [
-            "7",
+            "2",
             "21",
+            "7",
             "8"
         ]
     },
@@ -1353,6 +1507,7 @@ export const categories = {
         "name": "Uksuaq -- Fall",
         "url": "Uksuaq",
         "videoNumbers": [
+            "2",
             "21"
         ]
     },
@@ -1403,8 +1558,8 @@ export const categories = {
         "name": "Ciku -- Ice",
         "url": "Ciku",
         "videoNumbers": [
-            "7",
-            "21"
+            "21",
+            "7"
         ]
     },
     "3.4.1": {
@@ -1420,8 +1575,8 @@ export const categories = {
         "name": "Qanikcaq -- Snow",
         "url": "Qanikcaq",
         "videoNumbers": [
-            "7",
-            "20"
+            "20",
+            "7"
         ]
     },
     "3.6": {
@@ -1451,11 +1606,13 @@ export const categories = {
         "name": "Nunavut -- Our Land",
         "url": "Nunavut",
         "videoNumbers": [
-            "13",
-            "17",
-            "1",
             "14",
-            "12"
+            "1",
+            "18",
+            "9",
+            "12",
+            "13",
+            "17"
         ]
     },
     "3.9.1": {
@@ -1474,10 +1631,10 @@ export const categories = {
         "name": "Yuut -- People",
         "url": "Yuut",
         "videoNumbers": [
-            "11",
-            "1",
             "16",
-            "8"
+            "1",
+            "8",
+            "11"
         ]
     },
     "4.1": {
@@ -1518,11 +1675,11 @@ export const categories = {
         "name": "Ungungssit Mermiutaat-llu -- Land And Water Animals",
         "url": "Ungungssit-Mermiutaat-llu",
         "videoNumbers": [
-            "15",
-            "9",
-            "11",
-            "8",
             "6",
+            "8",
+            "11",
+            "9",
+            "15",
             "20",
             "2",
             "4"
@@ -1568,15 +1725,16 @@ export const categories = {
     },
     "5.3": {
         "children": 8,
-        "name": "Ungungssit, Yuilqurmiutaq, Nunamiutaq -- Land, Wilderness Animal",
-        "url": "Ungungssit-Yuilqurmiutaq-Nunamiutaq",
+        "name": "Ungungssit, Yuilqurmiutaat, Nunamiutaat -- Land, Wilderness Animals",
+        "url": "Ungungssit-Yuilqurmiutaat-Nunamiutaat",
         "videoNumbers": [
-            "11",
             "6",
+            "8",
+            "11",
+            "9",
             "20",
             "2",
-            "4",
-            "8"
+            "4"
         ]
     },
     "5.3.1": {
@@ -1584,8 +1742,8 @@ export const categories = {
         "name": "Tuntu -- Reindeer",
         "url": "Tuntu",
         "videoNumbers": [
-            "11",
-            "4"
+            "4",
+            "11"
         ]
     },
     "5.3.2": {
@@ -1630,7 +1788,9 @@ export const categories = {
         "children": 0,
         "name": "Taqukaq, Carayaq -- Brown Bear",
         "url": "Taqukaq-Carayaq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "6"
+        ]
     },
     "5.3.8": {
         "children": 0,
@@ -1646,6 +1806,7 @@ export const categories = {
         "name": "Imarpigmiutaat, Unkumiutaat -- Marine Animals",
         "url": "Imarpigmiutaat-Unkumiutaat",
         "videoNumbers": [
+            "8",
             "15"
         ]
     },
@@ -1669,7 +1830,9 @@ export const categories = {
         "children": 0,
         "name": "Puga -- Surfaced Seal",
         "url": "Puga",
-        "videoNumbers": []
+        "videoNumbers": [
+            "8"
+        ]
     },
     "5.5": {
         "children": 0,
@@ -1687,8 +1850,8 @@ export const categories = {
         "videoNumbers": [
             "19",
             "21",
-            "14",
-            "2"
+            "2",
+            "14"
         ]
     },
     "6.1": {
@@ -1713,8 +1876,8 @@ export const categories = {
         "name": "Canek, Can'get, Caranglluk -- Grass",
         "url": "Canek-Canget-Caranglluk",
         "videoNumbers": [
-            "21",
-            "2"
+            "2",
+            "21"
         ]
     },
     "7": {
@@ -1722,8 +1885,8 @@ export const categories = {
         "name": "Akluq, Aklut -- Clothing, Possessions",
         "url": "Akluq-Aklut",
         "videoNumbers": [
-            "10",
             "2",
+            "10",
             "8"
         ]
     },
@@ -1772,10 +1935,11 @@ export const categories = {
         "name": "Ukverput, Agayuliyaraq -- Spirituality",
         "url": "Ukverput-Agayuliyaraq",
         "videoNumbers": [
-            "5",
-            "11",
             "6",
+            "11",
             "12",
+            "5",
+            "17",
             "4"
         ]
     },
@@ -1819,7 +1983,9 @@ export const categories = {
         "children": 0,
         "name": "Piunrillret, Yuunrillret, Tuqullret -- Afterlife",
         "url": "Piunrillret-Yuunrillret-Tuqullret",
-        "videoNumbers": []
+        "videoNumbers": [
+            "17"
+        ]
     },
     "8.4": {
         "children": 2,
@@ -1863,13 +2029,15 @@ export const categories = {
         "name": "Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence",
         "url": "Nerangnaqsaraq-Yuungnaqsaraq",
         "videoNumbers": [
+            "8",
             "19",
-            "15",
-            "7",
-            "9",
             "20",
-            "4",
-            "8"
+            "9",
+            "7",
+            "15",
+            "13",
+            "2",
+            "4"
         ]
     },
     "9.1": {
@@ -1955,8 +2123,8 @@ export const categories = {
         "name": "Up'nerkilleq -- Spring Camp",
         "url": "Upnerkilleq",
         "videoNumbers": [
-            "7",
             "20",
+            "7",
             "8"
         ]
     },
@@ -1964,7 +2132,9 @@ export const categories = {
         "children": 0,
         "name": "Uksuilleq -- Fall Camp",
         "url": "Uksuilleq",
-        "videoNumbers": []
+        "videoNumbers": [
+            "2"
+        ]
     },
     "9.9": {
         "children": 0,
@@ -1976,49 +2146,12 @@ export const categories = {
         "tags": [
             "Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple",
             "Cialuq Paul G. Nicholai",
-            "Cugtun -- Cup'ik",
-            "Cugtun -- In Cup'ik",
             "Irniaruat, Inuguat -- Dolls",
             "Neqkaq -- Food",
             "Neqpik -- Fish",
             "Nerangnaqsaraq -- Subsistence",
-            "Nuna -- Land",
-            "Nunamiutaq -- Land Animals",
-            "Nunaput -- Our Land",
-            "Pellaalleq -- Getting Lost",
-            "Qanemciq -- Story",
-            "Qanemciq -- Story, Factual Account",
-            "Qanruyun -- Traditional Wisdom",
-            "Qanruyun/qanruyutet -- Traditional Wisdom",
-            "Qanruyutet -- Wise Words/traditional Wisdom",
-            "Qasgi -- Community Building",
-            "Qasgiq -- Community House",
-            "Qasgiq -- Qasgiq",
-            "Qasgiq, Qaygiq -- Community House",
-            "Qerpertaq -- Qerpertaq",
-            "Qunguq -- Burial",
-            "Snuukuuq -- Snowmachine, Snowgo, Snowmobile",
-            "Sun'aq -- Ship/barge",
-            "Taqukaq -- Brown Bear",
-            "Tenguggluk -- Tenguggluk",
             "Teq'uq -- Urine",
-            "Tuntuciuryaraq -- Reindeer Herding",
-            "Tuulkessaq -- Tuluksak",
-            "Uingelleq, Nuliangelleq, Aipanglleq -- Getting A Husband, Wife, Partner",
-            "Uksuaq/uksuilleq -- Fall/fall Camp",
-            "Unkumiutaq/puga -- Seal",
-            "Yaaruin -- Storyknife",
-            "Yaqulek -- Bird",
-            "Yugtun -- In Yup'ik",
-            "Yugtun Qalarcaraq -- Yup'ik Langauge",
-            "Yuilqurmiutaq -- Wild Animals",
-            "Yup'ik Nation -- Yup'ik Nation",
-            "Yuraq -- Dance",
-            "Yuraq -- Yuraq (\"Eskimo Dance\")",
-            "Yuraq -- Yuraq (\"eskimo Dance\")",
-            "Yuungnaqsaraq -- Subsistence",
-            "Yuunrilleq -- Death",
-            "Yuuyaraq -- Traditional Way Of Life"
+            "Yugtun Qalarcaraq -- Yup'ik Langauge"
         ]
     }
 };
