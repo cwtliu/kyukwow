@@ -470,7 +470,7 @@ class Video extends Component {
         <ReactAudioPlayer
           src={this.state.audioURL}
           controls
-          style={{position:'fixed','bottom':10,width:'100%',zIndex:10}}
+          style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
           ref={(element)=>{this.rap=element;}}
           onPlay={()=>{
             this.setState({audioPlayerPlaying:true})
