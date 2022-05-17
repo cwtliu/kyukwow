@@ -1,98 +1,158 @@
 import _ from 'lodash'
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Image, Grid, Popup } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
 import {summaries} from './info/summaries.js';
+import {categories} from './info/categories.js';
 
 
-const categories = _.times(6, (i) => (
-  <Grid.Column key={i}>
-  	<div>
-	    <Image src='/images/categories1.jpg' />
-	    <h3 className='yugtun'>Ellavut</h3>
-	    Weather, Climate
-	  </div>
-  </Grid.Column>
-))
+// const categories = _.times(6, (i) => (
+//   <Grid.Column key={i}>
+//   	<div>
+// 	    <Image src='/images/categories1.jpg' />
+// 	    <h3 className='yugtun'>Ellavut</h3>
+// 	    Weather, Climate
+// 	  </div>
+//   </Grid.Column>
+// ))
 
-const keywords = _.times(6, (i) => (
-  <Grid.Column key={i}>
-  	<Button basic color='blue' size='mini'>Yugtun<br /><em>inYup'ik</em></Button>
-  </Grid.Column>
-))
+// const keywords = _.times(6, (i) => (
+//   <Grid.Column key={i}>
+//   	<Button basic color='blue' size='mini'>Yugtun<br /><em>inYup'ik</em></Button>
+//   </Grid.Column>
+// ))
 
-const popularVideos = _.times(2, (i) => (
-  <Grid.Row key={i}>
-  	<div>
-  		<h4>Ackiar Nick Lupie - Tuntutuliarmi - #7 / Ackiar Nick Lupie - Tuntutuliak - #7</h4>
-	    <Image src='/images/popularVideo1.png' size='medium'/>
-	    <div className="videoDescription">
-		    <p>Ackiar (Nick Lupie) Tuntutuliarmiu interview-ami qalartellruuq uksuarmi up'ngelallritnek. Qalarutekluki taluyat ayuqenrilngurnek, neqet qeciit teq'uciriyaraatnek, canegnek uptetullritnek, ayagaaqameng-llu inerquutnek uksuarmi.</p>
-				<p>Nick Lupie (Ackiar) of Tuntutuliak (Tuntutuliaq) in the interview talked about how people got ready for the fall. He talked about the many types of fish traps, fish skins and aging urine, preparing grass, and admonishments for traveling in the fall.</p>
-			</div>
-			Keyword-at:<Grid container>{keywords}</Grid>
-	  </div>
-  </Grid.Row>
-))
 
 class Home extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			show: false,
+			showAllElders: false,
+			categoriesDisplayed: ['1','2','3','4','5','6'],
+			featuredVideos:['1','2','4',],
 		}
 	}
+
+	featuredVideos = (featuredVideos) => {
+		return (
+		featuredVideos.map((x,xind) => <Grid.Row  columns={2} key={xind}>
+		  		<Grid.Column width={6}>
+			    	<Image style={{width:'250px',borderRadius:'15px'}} src='/images/popularVideo1.png' />
+			    </Grid.Column>
+			    <Grid.Column width={10}>
+				    <div>
+		  				<h4>{summaries[x].title}</h4>
+					    <span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].yugtun['summary']}</span>
+		          <Popup
+		            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		            on='click'
+		            content={<div style={{fontSize:'16px'}}>{summaries[x].english.summary[0]}</div>}
+		            position='bottom left'
+		          />					    
+						</div>
+					</Grid.Column>
+		  </Grid.Row>		
+			)
+		)
+	}
+
 	render() {
 		return (
 			<div className='home'>
-				<Container className='home-header'>
-					<Image src="/images/home-header.jpg" alt="Snow"/>
-					<div className='header-text'>
-						<h1 className='yugtun'>Qaneryaram Qairi</h1>
-						<h1 className='yugtatun'>Waves of Wisdom</h1>
-					</div>
-				</Container>
 
-				<Grid container columns={4}>
-				{Array.from({length: 21}, (_, i) => i + 1).map((y) => (
-					  <Grid.Column id={y}>
-						<Link style={{width:'100px',borderRadius:'10px'}} to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
-							<Image style={{width:'250px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+				<div style={{display:'flex'}}>
+					<span style={{fontSize:'16px',color:'#333333',fontStyle:'italic',fontFamily:"'Roboto',Arial, Helvetica"}}>
+					{"This website is an archive of translated and transcribed Yup'ik elder interviews. You can click a Yup'ik word to see its translation or click the\xa0\xa0"}
+					<Icon style={{color:'#d4d4d4'}} name='comment alternate outline' />
+					{'icon to see sentence translations.'}
+					</span>
+				</div>
+
+				<Divider />
+
+				<h1 className='yugtatun'>Tegganrem Atrit - <i>Elder Names</i></h1>
+
+				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+				{Array.from({length: 12}, (_, i) => i + 1).map((y) => (
+						<div style={{display:'flex',flexDirection:'column',margin:'10px'}}>
+							<Link to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
+							<Image style={{width:'140px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
 							YouTubeLinks[summaries[y].videoID].split(".be/")[1]
 							+"/hqdefault.jpg"} />
-						</Link>
-					  </Grid.Column>
+							<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>Mik'aq Eliza Chase</div>
+							</Link>
+						</div>
 				))}
-				</Grid>
+				{this.state.showMoreElders ?
+					(Array.from({length: 12}, (_, i) => i + 1).map((y) => (
+							<div style={{display:'flex',flexDirection:'column',margin:'10px'}}>
+								<Link to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
+								<Image style={{width:'140px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+								YouTubeLinks[summaries[y].videoID].split(".be/")[1]
+								+"/hqdefault.jpg"} />
+								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>Mik'aq Eliza Chase</div>
+								</Link>
+							</div>
+					)))
+					:
+					null
+	      }
+				</div>
+
+				{this.state.showMoreElders ?
+					null
+					:
+					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
+		          <div>
+		          {"Cali - Show More"}
+		          <Icon style={{paddingLeft:10}} name='chevron down' />
+		          </div>
+		        </Button>
+	        </div>
+	      }
 
 				<Divider />
+
+				<h1 className='yugtatun'>Suut Allakaryarat - <i>Video Categories</i></h1>
+
+					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+						{this.state.categoriesDisplayed.map((j) => (
+							<div className='categoryButton'>
+						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
+							    <Image className='categoryImage' src='/images/categories1.jpg' />
+							    <div className='categoryText'>
+							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
+							    	<div>{categories[j].name.split(' -- ')[1]}</div>
+							    </div>
+							  </Link>
+							</div>
+						))}
+					</div>
+
+					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
+		          <div>
+		          {"See All Categories"}
+		          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
+		          </div>
+		        </Button>
+	        </div>
+
+				<Divider />
+
+				<h1 className='yugtatun'>Suurarkat - <i>Featured Videos</i></h1>
+
 				<Container className='featured-video'>
-					<h2>Suurarkat / Featured Videos</h2>
+					<Grid container>{this.featuredVideos(this.state.featuredVideos)}</Grid>
 				</Container>
-				<Divider />
-				<Container>
-					<h2 className='yugtun'>Qaneryaram Qairi imangqertuq suunek yuuyaraq pitekluku KYUK-am qemaggvianek tegganret interview-atni.</h2>
-					<h2 className='yugtatun'>The Waves of Wisdom collection comes from the KYUK Archives consisting of elder interviews concerning cultural knowledge.</h2>
-				</Container>
-				<Divider />
-				<Container>
-					<h1 className='yugtun'>QQ-am Suut Allakaryarat</h1>
-					<h1 className='yugtatun'>WoW Video Categories</h1>
-					<Grid container columns={2}>{categories}</Grid>
-					<Button color='orange'>Tamarmeng Allakaryarat<br /><em>All Categories</em></Button>
-				</Container>
-				<Divider />
-				<Container>
-				Black Separator
-				</Container>
-				<Divider />
-				<Container>
-					<h1 className='yugtun'>Suut Assikenrulriit</h1>
-					<h1 className='yugtatun'>Popular (Most Liked) Videos</h1>
-					<Grid container>{popularVideos}</Grid>
-					<Button color='orange'>Cali Allat<br /><em>See More</em></Button>
-				</Container>
+
+				<Divider style={{marginTop:'24px'}} />
+				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
+					This website was made lovingly for our people in the Yukon Kuskokwim Delta.
+				</div>
 
 			</div>
 		);

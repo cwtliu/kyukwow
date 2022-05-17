@@ -61,10 +61,10 @@ class Video extends Component {
   	// console.log(subtitles,circle.subtitles)
     window.scrollTo(0, 0)
 
-    this.intervalID = setInterval(
-      () => this.tick(),
-      500
-    );
+    // this.intervalID = setInterval(
+    //   () => this.tick(),
+    //   500
+    // );
   }
 
   componentWillUnmount() {
@@ -437,7 +437,7 @@ class Video extends Component {
 
 
   render() {
-    console.log(this.state)
+    console.log(this.rep)
     // var audio = document.getElementById("hello");
     // if (this.rap !== undefined) {
     //   if (!this.rap.audioEl.current.paused) {
@@ -458,6 +458,7 @@ class Video extends Component {
        	  className='react-player'
        	  controls
           url={this.state.videoURL} 
+          ref={(element)=>{this.rep=element;}}
           width='100%'
           height='100%'
     //       config={{ file: {
@@ -467,6 +468,7 @@ class Video extends Component {
 		  // }}}
         />
         </div>
+        <Button onClick={()=>{console.log(this.rep)}}></Button>
         <ReactAudioPlayer
           src={this.state.audioURL}
           controls
