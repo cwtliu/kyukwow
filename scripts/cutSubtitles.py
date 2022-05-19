@@ -102,8 +102,8 @@ if __name__ == '__main__':
 	subtitleFolder = '../data/YugtunEnglish'
 	audioFolder = '../data/WoW-mp3'
 	splitFolder = '../data/WoW-split'
-	jsonFilename = '../data/wowSubtitles.js'
-	jsonFilenameNew = '../data/wowSubtitles-new.js'
+	jsonFilename = '../data/wowSubtitles.json'
+	jsonFilenameNew = '../data/wowSubtitles-new.json'
 	
 	# Path(splitFolder).mkdir(parents=True, exist_ok=True)
 

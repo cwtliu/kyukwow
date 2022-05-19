@@ -1,4 +1,4 @@
-﻿# 1 cpb-aacip-127-009w0z0q.h264
+﻿# 01 cpb-aacip-127-009w0z0q.h264
 
 
 ## Title
@@ -90,7 +90,7 @@ Joshua Phillip (Ac'urunaq; nicknamed Maqista) of Tuluksak talks in the interview
 ### Timestamps
 
 
-00:00 - Yup'ik langauge
+00:00 - Yup'ik langauge preservation
 
 
 01:30 - Reverence; compassion; truthfulness
@@ -133,7 +133,7 @@ Joshua Phillip (Ac'urunaq; nicknamed Maqista) of Tuluksak talks in the interview
 
 
 
-# 2 cpb-aacip-127-00ns1t6z.h264
+# 02 cpb-aacip-127-00ns1t6z.h264
 
 
 ## Title
@@ -252,7 +252,7 @@ Nick Lupie (Ackiar) of Tuntutuliak in the interview talked about how people got 
 
 
 
-# 3 cpb-aacip-127-010p2r15.h264
+# 03 cpb-aacip-127-010p2r15.h264
 
 
 ## Title
@@ -347,7 +347,7 @@ Urutaq Lucy Beaver and Joe Andrew from Bethel talk about showing love to childre
 
 
 
-# 4 cpb-aacip-127-03cz8zdq.h264
+# 04 cpb-aacip-127-03cz8zdq.h264
 
 
 ## Title
@@ -451,7 +451,7 @@ James Guy from Kwethluk began by first talking about stories in the qasgiq and t
 
 
 
-# 5 cpb-aacip-127-06g1jzz6.h264
+# 05 cpb-aacip-127-06g1jzz6.h264
 
 
 ## Title
@@ -541,7 +541,7 @@ In this conference, these men talked: Paul Gregory began the conference and then
 
 
 
-# 6 cpb-aacip-127-06g1k008.h264
+# 06 cpb-aacip-127-06g1k008.h264
 
 
 ## Title
@@ -647,7 +647,7 @@ In the conference, these people talked: [Person1] and Edward Weiss talked about 
 
 
 
-# 7 cpb-aacip-127-09w0vx3c.h264
+# 07 cpb-aacip-127-09w0vx3c.h264
 
 
 ## Title
@@ -751,7 +751,7 @@ Martha Sarah (Uliggaq), and Matthew (Kumangulria) from the Yukon and Bethel talk
 
 
 
-# 8 cpb-aacip-127-10jsxpvr.h264
+# 08 cpb-aacip-127-10jsxpvr.h264
 
 
 ## Title
@@ -888,7 +888,7 @@ Paul G. Nichoali (Cialuq) and Lucy Nicholai (Neviar; originally named Qakvaralri
 
 
 
-# 9 cpb-aacip-127-10jsxpwg.h264
+# 09 cpb-aacip-127-10jsxpwg.h264
 
 
 ## Title
@@ -990,7 +990,7 @@ Person1 and Lucy Beaver (Urutaq) talked in Bethel about instructions for animals
 18:38 - [Person1] Taking care of bird eggs
 
 
-10:05 = [Kurt Bell] Giving water to animals; when catching his first bearded seal
+10:05 - [Kurt Bell] Giving water to animals; when catching his first bearded seal
 
 
 
@@ -1677,7 +1677,7 @@ Dick Andrew (Apaqutaq) from Kayalivik interviewed by John Active (Aqumgaciq) tel
 13:48 - The youth were very energetic
 
 
-15:09 -Yup'ik songs; the two large qasgiq ("community houses") at Kayalivik; song about the Qasgirpagmiut
+15:09 - Yup'ik songs; the two large qasgiq ("community houses") at Kayalivik; song about the Qasgirpagmiut
 
 
 

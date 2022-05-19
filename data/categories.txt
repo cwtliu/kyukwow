@@ -25,7 +25,7 @@ Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 	Ingriq -- Mountain
 Ellavut -- Weather, Climate
 	Allrakum Ellalinqigutai -- Seasons
-		Up'nerkaq -- Spring
+		Up'nerkaq, Upenerkaq -- Spring
 		Uksuaq -- Fall
 		Kiak -- Summer
 		Uksuq -- Winter
@@ -35,25 +35,38 @@ Ellavut -- Weather, Climate
 	Ciku -- Ice
 		Kianeq -- Naturally Occurring Holes in Ice
 	Qanikcaq -- Snow
-	Iraluq -- Month
+		Urugyaraa -- Melting
+	Iraluq -- Moon, Month
 	Akerta -- Sun
 	Agyat -- Stars
 	Nunavut -- Our Land
 		Uqlaneq -- Pollution
+			Neqet Cumacitartut -- Fish are Repulsed by Pollution
+		Nunam Auluksaraa -- Taking Care of the Land
+			Menuunani -- Pristine
+		Nunam Ataniuryaraa -- Land Governance
 	Ulerpak -- Flood
+	Ellarrluk -- Good Weather Being Bad
+	Qilagkun Sass’aq -- Measuring Time with the Sky
+		Akerta -- Sun
+		Iraluq -- Moon
 Yuut -- People
 	Ayagyuat -- Youth
 	Tegganeq -- Elder
 	Nukalpiaq -- Great Hunter
 	Nengauk -- Son-in-law
+	Elliraat -- Orphans
 Ungungssit Mermiutaat-llu -- Land And Water Animals
 	Neqa, Neqet -- Fish
-		Can'giiq -- Blackfish
+		Can'giiq, Imangaq -- Blackfish
+			Alungyaraat -- Blackfish Fries
 		Neqpik -- Salmon
-	Yaqulek, Yaqulget -- Birds
+		Meluk, Imlauk - Roe
+	Yaqulek, Yaqulget, Tengmiaq, Tengmiat -- Birds
 		Qangqiiq -- Ptarmigan
+		Ingtaq, Ingtat -- Molted Birds
 	Ungungssit, Yuilqurmiutaat, Nunamiutaat -- Land, Wilderness Animals
-		Tuntu -- Reindeer
+		Tuntu -- Reindeer, Caribou
 		Imarmiutaq -- Mink
 		Kegluneq -- Wolf
 		Cuignilnguq -- Otter
@@ -61,93 +74,171 @@ Ungungssit Mermiutaat-llu -- Land And Water Animals
 		Tan'gerliq -- Black Bear
 		Taqukaq, Carayaq -- Brown Bear
 		Qanganaq -- Ground Squirrel
-	Imarpigmiutaat, Unkumiutaat -- Marine Animals
+		Tuntuvak -- Moose
+		Tuntupik, Tuntupiaq -- Caribou
+	Imarpigmiutaat, Unkumiutaat, Mermiutaat -- Marine Animals
 		Maklak -- Bearded Seal
 		Nayiq -- Ringed Seal
 		Puga -- Surfaced Seal
+		Cetuaq -- Beluga
 	Piyagaq -- Baby Animal
-Naunrat Atsat-llu -- Plants And Berries
+Naunraat Atsat-llu -- Plants And Berries
 	Atsat -- Berries
-	Naunrat -- Plants
-	Canek, Can'get, Caranglluk -- Grass
+	Naunraat -- Plants
+	Canek, Can'get, Caranglluk, Evek -- Grass
+		Tupigyaraq -- Grass Weaving
+		Mingqaat -- Grass Baskets
+		Taperrnaq -- Course Seashore Grass
+		Iitaq -- Tall Cottongrass
+		Kelugkaq -- Course Grass for Weaving Mats
+		Issran -- Grass Backpack
+		Kalngak -- Grass Bag for Fish
+		Naqtat -- Grass Mats
+	Naucetaat -- Crops
+		Naucetaanek Enuqitellriit -- Crop Failure
 Akluq, Aklut -- Clothing, Possessions
 	Maqarqessaraq -- Weather Clothes
 	Kass'artaat -- Manufactured Items
 	Qaralit -- Adornments
 		Nallunailkutet -- Family Crests
-	Amiq, Qecik -- Skin
+	Amiq, Qecik -- Skin, Hide
+		Ivrucit -- Waterproof Skin Boots
 	Allat -- Other Clothes
+		Imarnin -- Seal Gut Rain Parka
 Ukverput, Agayuliyaraq -- Spirituality
 	Agayumayaraq, Agayumaciq -- Christianity
 		Agayuviit -- Churches
 		Agayulirtet -- Priests
 		Qaneryaraq, Qaneryaraqegtaar -- Bible
-	Ellam Yua -- Spirit Of The Universe
-	Piunrillret, Yuunrillret, Tuqullret -- Afterlife
+		Anglluryaraq -- Baptism
+	Ellam Yua, Cellam Yua, Cillam Cua -- Spirit Of The Universe
+	Piunrillret, Yuunrillret, Tuqullret, Catairutellret -- Afterlife
 	Angalkut, Angalkuut -- Shamans
 		Tuunrat -- Spirit Helpers
 		Unatellget -- Healing Hands
-	Alangru -- Ghost
-	Aviukaqsaraq -- Food And Water Offering
+		Tuunriyaraq, Angalkiyaraq -- Shamanistic Acts, Rituals
+	Alangru, Aliurtuq -- Ghost, Haunting
+		Qimugtet Elpegtauciatnek -- Dogs’ Supernatural Sensitivity
+	Aviukaryaraq -- Food And Water Offering
 Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence
 	Pissuryaraq -- Hunting
+		Qamigaryaraq -- Spring Seal Hunting
+			Uurcaq -- Returning Seal Hunter with a Signaling Gaff
+		Yaqulecuarteggun Elitnauryaraq -- Practicing with Small Birds
 	Pingnatugyaraq -- Providing
 	Neqsuryaraq -- Fishing
+		Kuvyat -- Drift Nets
+		Taluyat -- Fish Traps
+		Qalut -- Dipnets
 	Melqulegcuryaraq -- Trapping
 	Makirayaraq -- Gathering
 		Iqvaryaraq -- Picking Berries
 		Kayangussuq, Avuryaraq -- Egg Hunting
 			Kayanguq -- Egg
 		Iqvaryaraq -- Picking Berries
+		Pakissaagyaraq -- Gathering from Vole Caches
 	Calirpagyaraq -- Hard Work
 	Up'nerkilleq -- Spring Camp
-	Uksuilleq -- Fall Camp
+	Uksuilleq -- Winter Camp
 	Neqlilleq, Neqlivik -- Fish Camp
+	Neqkat Kenciksarait -- Reverence for Food Sources
 Neqkiuryaraq -- Food Preparation
 	Keniryaraq, Egayaraq -- Cooking
 	Segyaraq, Cegyaraq -- Fish Cutting
+		Akerciurcecuunaki -- Not Letting Them Stay in the Sun
 	Kinerciriyaraq -- Drying
+		Nakaculiyaraq -- Hanging Small Birds to Dry
 	Puyurciyaraq -- Smoking
 	Qemagciyaraq -- Storage
 		Kumlivik -- Freezer
+		Elagyat, Elliviit, Mamterat -- Food Caches
 	Ak'allaciryaraq -- Fermenting
-	Suluniyaraq, Culuniyaraq -- Salting
+	Suluniyaraq, Culuniyaraq -- Salt Curing
 	Pickling
 	Akutaq -- Akutaq ("Eskimo Ice Cream")
 		Tenguggluk -- Fish Liver Akutaq
 		Qerpertaq -- Pike Egg Akutaq
+		Tunuq -- Tallow
+		Puya -- Moss Soaked in Seal Oil with Berries
+	Ungangkengaita Auluksarait -- Taking Care of Catch
+	Aulukumanrilnguut Assiirutarkauciat -- Neglected Food Will Spoil
+	Neqallret -- Scraps
+		Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod
 Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 	Qercuaneq, Qercualleq -- Frostbite
 	Kit'elleq -- Falling Into Water
 	Pellaalleq -- Getting Lost
+	Neqkaitelleq -- Having No Food
+	Meqsugyaraq -- Thirst
+	Ayagayaraq -- Travel
+		Ayakatalriani Upcaraq -- Preparation for Travels
+			Taquat -- Provisions
+	Ellaliurcuutet -- Rain Gear
+	Pirtuk, Pirta -- Blizzard
+		Uqisvik -- Shelter
+			Qengaruk -- Snowbank
+			Murak Kapulluku Ellvilisqelluku -- Stick a Staff in for Ventilation
+		Uqrem Aarnarqucia -- The Danger of Leeward Sides
+		Qanikcaam Acian Epsalngunarqucia -- Suffocating Under Snow
+		Utetmun Nallunailkuciryaraq -- Marking the Homeward Direction
+	Qerruyaraq -- Freezing to Death
+		Teq’um Urumanarqucia -- Keeping Warm with Urine
+		Qerruqatalriit Puqlamun Pivkenaki -- Do Not Put Hypothermic People Near Heat
 Imarpik -- Ocean, Sea
 	Imarpigmi Anangnaqsaraq -- Survival (Ocean)
+		Elegcik -- Gaff
+		Ket’garyaraq -- Waterproofing a Kayak with a Rain Parka
+		Pugtautet -- Life Vests, Floatation Devices
 Tuqu Naulluun-llu, Qenan-llu -- Death & Sickness
 	Tungmagciyaraq -- Burial
 		Qunguq -- Burial, Grave
 	Cangerlak -- Pandemic, Epidemic
 		Quserpak -- Tuberculosis (TB)
 		Tuqurpalriit -- The Great Death (Measles, Influenza)
+	Kaignaq, Piitnaq -- Time of Hunger, Need
+		Enurnaq -- Scarcity
+		Nallunailkutet -- Preceding Signs
+		Angucaluq -- Late Summer
+		Arnacaluq -- Early Summer
+		Ellam Qupsaraa -- The World, Universe Cracks
+		Ayuquciita Puglauciat -- Their Natures Showing
+	Tuquiyaraq, Nepliayaraq -- Mourning
 Aipangyaraq, Aipaqsaraq -- Marriage
 	Uingyaraq -- How To Work With A Husband
-	Nuliangyaraq -- How To Work With A Wife
-	Aipanglleq -- Getting A Spouse
+		Nengaugicaraq -- Husband Marrying Into Another Village
+	Nuliangyaraq, Nulirturyaraq -- How To Work With A Wife
+		Nuliarkameng Akiliutait -- Brideswealth, Bride Price, Bride Token
+		Ukurricaraq -- Wife Marrying Into Another Village
+	Aipangyaraq -- Getting A Spouse
+		Angayuqrita Cucukekaitnek Aipangyaraq -- Arranged Marriage
 	Avvucaraq -- Divorce
+	Yagirayaram Inerquutngucia -- Admonishments Against Raising Hands
+	Qingaryaraq -- Pregnancy
+		Irniyaraq -- Childbirth
 Qulirat & Qanemcit -- Legends & Stories
 	Ak'allaat Qanemcit -- Old Stories
 		Anguyallret -- Old Wars
 	Ukaqvallaat Qanemcit -- Recent Stories
 		Tuntuciuryaraq -- Reindeer Herding
-Kass'artaat -- Manufactured Items,  Western Stuff
+	Qulirat -- Legends
+		Ircenrraat -- Legendary Little People [Mischievous]
+			Cautaita Ciunerkiurutait -- Their Things Portend the Future
+		Egacuayiit -- Legendary Little People
+		Cingssiiget -- Legendary Little People [Benevolent]
+Kass'artaat -- Manufactured Items,  Western Things
 	Kass'at Tekipailgata -- Before Western Contact
-		Nepiaq, Enepiaq -- Sod-house
+		Nepiaq, Enepiaq, Enpiaq -- Sod-house
+			Qacarneret -- Walls
 	Kass'at Tekiteqerraallratni -- Early Western Contact
 		Yupiit (Allat-llu) Nunautait -- Native Allotment
 		Elitnaurvikarraat -- Boarding Schools
 		Tunciuryaraq -- Reindeer Herding
 		Sun'aq -- Ship, Barge
+		Levaat, Massiinat, Elliqeryarat -- Boat Motors
+	Aklut -- Clothes, Possessions
 	Elitnaurvik -- School
-Pissuutet, Cassuutet, Piliat, Saskut, Agayassuutet -- Tools, Crafts, Weapons
+	Kipusviit -- Trading Posts, Stores
+Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapons
 	Cassuutet Saskut, Caskut -- Tools
 		Ayaruq -- Walking Stick, Cane, Staff
 		Cikuliurun, Tugeq -- Ice Spud, Ice Pick, Ice Chisel
@@ -155,6 +246,7 @@ Pissuutet, Cassuutet, Piliat, Saskut, Agayassuutet -- Tools, Crafts, Weapons
 		Naneryaq -- Deadfall Trap
 		Kapkaanaq -- Conibear, Steel Trap
 		Taluyaq -- Fish Trap
+		Qanikciurun -- Shovel
 	Piliat -- Handmade Crafts
 	Saskut, Caskut -- Weapons
 		Narulkaq -- Spear
@@ -162,61 +254,147 @@ Pissuutet, Cassuutet, Piliat, Saskut, Agayassuutet -- Tools, Crafts, Weapons
 		Qimugta -- Dog
 			Qimugciryaraq -- Dog Mushing
 		Snuukuuq -- Snowmachine, Snowgo, Snowmobile
+		Qayaq - Kayak
+		Egelrun -- Canoe
+		Angyaq -- Boat
 	Tupigyaraq -- Grass Weaving
 	Murak -- Wood
 		Canaryaraq, Canayaraq -- Wood Carving
+		Equgtaryaraq -- Gathering Wood
+	Mingqaat -- Grass Baskets
 Naanguat Aquiyarat-llu -- Toys & Games
 	Irniaruat, Inuguat -- Dolls 
 	Airraq -- String Games
 	Yaaruin -- Story Knife
+	Naumalriit Enenguat -- Households Made of Plants
 Ukverput -- Traditional Beliefs
 	Elluatuuyarat -- Virtues
 	Cingumalleq -- Encouragement
 	Aarcirtuutet -- Warnings, Rules
+		Qavam Qessam-llu Pikaitnarquciak -- Sleep and Laziness Lead to Destitution
+		Akusrarun -- Mischief, Misconduct
+			Nunalgutkenrilkemeggnun Nallunailuciit -- Being Widely Known
+		Aipangvailegmeng Akusrarcaraq -- Premarital Sex
+		Qanrucunailnguut -- Those Who Don’t Heed Advice
+			Unguvamayuitut -- They Don’t Live Long
+		Cacetulriim Arenqiallugtellerkaa -- Misfortune from Overconfidence
+		Cigyak -- Split Spruce Blocking Door During Instruction
+		Caniqerrilin, Caniqerrilitaq -- Woven Grass Belt Blocking Door During Instruction
+		Anelria Taquilluku -- Giving Fate for One Who Goes Out
 	Piciryaraput -- Customs
 		Merr'icaraq -- Giving Water To Animals
-	Qanruyutet -- Traditional Wisdom, Wise Words
+	Qanruyutet, Qaneryarat -- Traditional Wisdom, Wise Words
 		Piciuyaraq -- Truthfulness
+		Qigcikiyaraq -- Respect
+			Qantamitun Pitarrluku -- As Much as One’s Own Bowl
+		Umyuartuyaraq -- Being Sensible
+		Maligtaqustiin Yuunertutucia -- Those Who Heed Advice Live Long
+			Keggukarangelria -- One So Old They Grow a New Set of Teeth
+		Qaskuit Ayuquciit-llu -- Appearance and Nature
 	Alerquutet, Ayuqucirtuutet -- Instructions
-		Maligtaquyaraq -- Obedience
+		Maligtaquyaraq, Niisngayaraq -- Obedience
 		Neryaraq -- Eating Habits
+		Neqem, Neqkam Uqlautenritlkerkaa -- Not to Make a Mess with Food, Food Sources
+		Qessaicaraq -- Not Being Lazy
+		Enem Ilua Carrirturyaraa -- Keeping the House Clean
+			Uqlam Yugmun Nepucuilucia -- Dirt Doesn’t Stick to People
+		Nunat Mer’et-llu Elisngaluki -- Know the Land and Water
+		Tangvagluteng Elicungcaryaraq -- Learning through Observation
+		Cauryaraq -- Keeping Busy, Doing Chores
+			Calrunani Unguvamaniartuq -- To Live a Long and Healthy Life
+		Anelriani Ellam Qukaa Tangerrluku -- Look at the Center of the Universe When Going Out
 	Eyagyaraq -- Abstinence Practices, Taboos
 		Agleryaraq -- Menstruation
 			Aglenraraq -- First Year Of Menstruation
+				Aqumgayaraq -- Abstinence During First Year of Menstruation
+		Essuicaraq -- Spiritual Cleanliness
 	Yuuyaraq -- Way Of Life
+		Ellangyaraq -- Becoming Aware [Childhood]
 	Kencikiyaraq -- Reverence
+		Nuna Meq-llu Kenciklukek -- Revere Land and Water
 	Kenkiyaraq -- Showing Love
+		Kenkucaraq -- Loving Each Other
 	Kevgiurturyaraq -- Serving Others
+		Akingellarkani Umyuaqevkenaku -- Do Not Expect Payment
+		Menuurcuitut -- They Don’t Become Impure
 	Naklekiyaraq -- Compassion
 	Inerquutet -- Admonishments
 		Teglegyaraq -- Stealing
+		Assiilkiurluteng Neresqevkenaki -- Do Not Dislike Food
+		Qessakiluteng Neresqevkenaki -- Do Not Reject Food
+		Akinauresqevkenaki -- Do Not Retaliate
+		Qessayaraq -- Laziness
+		Ellminek Ataneqsaraq, Umyugiuryaraq -- Being Self-Interested
+		Nuyavvliisqevkenaki -- Keep Hair Kempt
+		Erurirraarluteng Neq’liuryaraq -- Handle Food with Clean Hands
+		Qumaqicaraq -- Sex Craze
+		Nepaunani Yuuyaraq -- Living without Commotion
+		Quyigingnaqsaraq -- Pride
+		Kiuyaraq, Kiutaaryaraq -- Talking Back
+		Tan’gaurluut Nasaurluut-llu Allakarluteng -- Boys and Girls Separate
+		Eyurucaraq -- Defending Children
+			Iqlungarituut -- They Become Liars
 	Takaqiyaraq -- Respect
+	Ciunerkiullret -- Future Predictions
+		Ellam Iquklitlerkaa -- The End of the World
+		Yuut Cimillerkaat -- People Will Change
+		Ellarrluk -- Bad Weather
+	Eyat, Eyaryaraq -- Tattoos, Tattooing
+		Tamlurutet -- Women’s Chin Tattoos
+		Anguyalriani Yugtellriit -- Kills During War
 Kalukat -- Celebrations, Gatherings
 	Kevgiq, Kevgiryaraq -- Messenger Feast
+		Kassiyuq -- Kevgiq Dance Festival
 	Yuraq -- Yup'ik Dance, Dancing
 		Yurarpalriit -- Dance Festivals
 		Yuarun -- Song
+			Anqaraun -- Victory Song
 		Kegginaquq -- Mask
+		Cauyaq -- Drum
+			Yuulak -- Pair of Ceremonial Drums
+		Nerukaraat -- Ceremonial Bowls of Food
 	Nakaciuryaraq -- Bladder Festival
 		Nakacuut -- Bladders
 	Avgarutaaryaraq -- Invitation Contest
 	Ingulagyagaq -- Ingulak Festival
 	Uqiquryaraq -- Seal Party
+	Pitqerraallret -- First Catches
+	Itruka’ar -- Inviting-In Feast
 Ilaliuryaraq -- Social Structure
 	Ciuniuryaraq -- Welcoming Guests
-	Qasgiq, Qaygiq -- Community, Men's House
-		Maqi -- Steambath
+	Qasgiq, Qaygiq -- Community or Men's House
+		Maqi -- Steambath, Fire Bath
 	Nepiaq -- Sod-house
 	Ilakucaraq, Ilakellriit, Ilakelriit -- Family
+	Qanertet, Qanrucistet -- Traditional Instructors
+	Ilaliuryaraq -- Socializing
 Calricaraq -- Health & Wellness
 	Qingaryaraq -- Pregnancy
 		Irnicualleq -- Miscarriage
 		Irniyaraq -- Giving Birth
 	Anglicarillerkaq -- Child Rearing
+		Yagiravkenaki -- Do Not Raise a Hand Against Them
+		Qanpautevkenaki -- Do Not Shout at Them
 	Auluksaraq -- Taking Care
 	Ellminek Tuqutellerkaq -- Suicide
 	Taangaq -- Alcohol
-	Naulluun, Qenan -- Sickness
+	Naulluun, Qenan, Nangtequn -- Sickness
+		Pelqevkenaki Ikayurluki -- Help Them Without Fear of Spread
+	Kuingirrluk -- Marijuana
+	Umyuam Calritlerkaa -- Mental Health
+		Qilnganeryaraq -- Grief
+	Nernerrluut -- Food with Adverse Effects
+		Ilussaqercaraq -- Food Poisoning
+	Piunrissiyaayuitellrat Naulluussiyaayuunateng-llu -- Fewer Death and Sickness
+	Yuungcarviit -- Clinics & Hospitals
+	Iinrut -- Medicine
+		Kass’artaat -- Western Medicine
+			Tabasco -- Tabasco Sauce
+		Yugtaat -- Yup’ik Remedies
+			Teq’uq -- Urine
+			Caqlaq -- Rosewort
+			Uquq -- Seal Oil
+			Atsaruaq -- False Chamomile
 Qalartellret Atrit -- Names of Speakers
 	Ac'urunaq Maqista Joshua Phillip
 	Ackiar Nick Lupie
@@ -243,3 +421,4 @@ Qalartellret Atrit -- Names of Speakers
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue
 	Yup'ik Nation
+	Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife
