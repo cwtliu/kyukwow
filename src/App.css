@@ -43,8 +43,15 @@ html {
 
 }
 
+.yugtun {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #333333;
+}
+
 .yugtatun {
-  color: #D58E3E;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  color: #333333;
 }
 
 .reader-text {
@@ -69,6 +76,16 @@ html {
   filter: brightness(80%);
 }
 
+
+.categoryImage {
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px;
+
+  /*position: relative;*/
+  /*text-align: center;*/
+}
+
 .categoryText {
   position: absolute;
   top: 50%;
@@ -81,6 +98,7 @@ html {
   opacity: 90%;
   border-radius: 10px;
 }
+
 
 @media only screen and (min-width: 600px) {
   .categoryGrid {
