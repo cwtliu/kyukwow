@@ -78,7 +78,7 @@ class Category extends Component {
 			<div className='collections'>
 				<Container>
 					<Button.Group>
-				<Link to='/collections'>
+				<Link to='/categorylibrary'>
 			      <Button active={false} icon>
 			        <Icon name='grid layout' />
 			      </Button >\

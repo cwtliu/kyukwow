@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Popup, Loader, Grid } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Popup, Loader, Grid, Checkbox, Image } from 'semantic-ui-react';
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
@@ -20,7 +20,8 @@ class Video extends Component {
     this.videoID = summaries[this.ID].videoID;
     this.state = {
       show: false,
-      audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
+      // audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
+      audioURL: API_URL + "/kyukaudiolibrary/" + this.videoID,
       videoURL: YouTubeLinks[this.videoID],
       isPlaying: false,
       startTime: null,
@@ -37,7 +38,7 @@ class Video extends Component {
       audioPlayerPlaying:false,
       currentSentence: 1,
       summaries:summaries,
-      summary:summaries[this.ID].yugtun.summary[0],
+      // summary:summaries[this.ID].yugtun.summary[0],
       tags:summaries[this.ID].tags,
       title:summaries[this.ID].title,
       date:summaries[this.ID].date,
@@ -46,11 +47,14 @@ class Video extends Component {
       currentTime:0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
-      clickedSummaryIndex:-1,
+      // clickedSummaryIndex:-1,
       clickedChapterIndex:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
+      videoOnly:true,
     }
-    this.audio = new Audio(this.state.audioURL);
+    // this.audio = new Audio(this.state.audioURL);
+    this.audio = new Audio(API_URL + "/kyukaudiolibrary/" +  this.videoID);
+    // console.log(this.audio)
   }
 
   componentDidMount() {
@@ -60,11 +64,10 @@ class Video extends Component {
   	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
   	// console.log(subtitles,circle.subtitles)
     window.scrollTo(0, 0)
-
-    // this.intervalID = setInterval(
-    //   () => this.tick(),
-    //   500
-    // );
+    this.intervalID = setInterval(
+      () => this.tick(),
+      500
+    );
   }
 
   componentWillUnmount() {
@@ -72,17 +75,22 @@ class Video extends Component {
   }
 
   tick() {
-    if (this.rap !== null) {
+    if (this.state.videoOnly) {
+      this.setState({
+        currentTime : this.rep.player.prevPlayed,
+      });
+    } else {
       this.setState({
         currentTime : this.rap.audioEl.current.currentTime,
       });
-    } 
+    }
   }
 
   componentDidUpdate(prevState) {
     if (this.state.endTime < this.audio.currentTime) {
        this.audio.pause();
     }
+
 
     // if (this.state.getCall !== prevState.getCall) {
     //   console.log(this.state.getCall)
@@ -437,7 +445,8 @@ class Video extends Component {
 
 
   render() {
-    console.log(this.rep)
+    // console.log(this.state.currentTime)
+    console.log(this.state)
     // var audio = document.getElementById("hello");
     // if (this.rap !== undefined) {
     //   if (!this.rap.audioEl.current.paused) {
@@ -451,40 +460,64 @@ class Video extends Component {
     // }
     return (
       <div className='about'>
-        <div class='reader' style={{fontSize:'30px',fontWeight:'bold',lineHeight:'45px'}}>{this.state.title}</div>
-        <div class='reader' style={{paddingBottom:'10px'}}>{'Recorded: '+this.state.date}</div>
-        <div className='player-wrapper'>
-        <ReactPlayer 
-       	  className='react-player'
-       	  controls
-          url={this.state.videoURL} 
-          ref={(element)=>{this.rep=element;}}
-          width='100%'
-          height='100%'
-    //       config={{ file: {
-		  //   tracks: [
-		  //     {kind: 'this.state.subtitles', src: 'subs/chinese.vtt', srcLang: 'zh'},
-		  //   ]
-		  // }}}
-        />
+      <div style={{display:'flex',justifyContent:'center',marginBottom:'10px'}}>
+      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px'}}>Audio Only</span>
+      <Checkbox toggle checked={!this.state.videoOnly} onClick={()=>{this.setState({videoOnly:!this.state.videoOnly})}} />
+      </div>
+
+      {this.state.videoOnly ?
+          <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
+            <div className='player-wrapper'>
+            <ReactPlayer 
+           	  className='react-player'
+           	  controls
+              url={this.state.videoURL} 
+              ref={(element)=>{this.rep=element;}}
+              width='100%'
+              height='100%'
+              playIcon
+              onPlay={()=>{
+                this.setState({audioPlayerPlaying:true})
+                var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
+                elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+              }}
+              onPause={()=>{this.setState({audioPlayerPlaying:false})}}
+            />
+            </div>
+          </div>
+        :
+        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
+        <div style={{display:'flex',flexDirection:'row',alignItems:'center',position:'sticky'}}>
+          <Image style={{height:'54px',borderRadius:'30px',filter:"brightness(150%)",marginRight:'10px'}} src={"https://img.youtube.com/vi/"+
+          YouTubeLinks[this.videoID].split(".be/")[1]
+          +"/hqdefault.jpg"} />
+
+          <ReactAudioPlayer
+            src={this.state.audioURL}
+            controls
+            // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
+            style={{width:'100%',zIndex:10}}
+            ref={(element)=>{this.rap=element;}}
+            onPlay={()=>{
+              this.setState({audioPlayerPlaying:true})
+              var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
+              elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+          }}
+            onPause={()=>{this.setState({audioPlayerPlaying:false})}}
+          />
         </div>
-        <Button onClick={()=>{console.log(this.rep)}}></Button>
-        <ReactAudioPlayer
-          src={this.state.audioURL}
-          controls
-          style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
-          ref={(element)=>{this.rap=element;}}
-          onPlay={()=>{
-            this.setState({audioPlayerPlaying:true})
-            var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-            elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
-        }}
-          onPause={()=>{this.setState({audioPlayerPlaying:false})}}
-        />
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Summary-q </div>
+        </div>
+
+
+      }
 
           <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
-          {this.state.summary.split(" ").map((k,kindex) => (
+        
+
+        {/*<div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Summary-q </div>*/}
+
+
+{/*          {this.state.summary.split(" ").map((k,kindex) => (
             <Popup
               trigger={<span style={{color:(kindex === this.state.clickedSummaryIndex ? '#78b7d6' : 'black' )}} onClick={() => {
                 if (!this.state.getCall) {
@@ -549,14 +582,14 @@ class Video extends Component {
               mouseLeaveDelay={800}
               position='bottom left'
             />
-          ))}
+          ))}*/}
 
-          <Popup
+{/*          <Popup
             trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
             content={<div style={{fontSize:'16px'}}>{summaries[this.ID].english.summary[0]}</div>}
             position='bottom left'
-          />
+          />*/}
 
         <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Tag-at </div>
 
@@ -575,18 +608,18 @@ class Video extends Component {
 
         <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Chapter-aat </div>
 
-          {summaries[this.ID].yugtun.timestamps.map((y,yindex) => (
+          {summaries[this.ID].summary.map((y,yindex) => (
             <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
             <Grid>
             <Grid.Row columns={2}>
               <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y.split(' - ')[0])}>
-                {y.split(' - ')[0]}
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
+                {y[0]}
                 </div>
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y.split(" - ")[1].split(" ").map((k,kindex) => (
+              {y[1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
@@ -655,7 +688,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].english.timestamps[yindex].split(' - ')[1]}</div>}
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
                 position='bottom left'
               />
 

@@ -2,13 +2,14 @@
     import { NavLink, Switch, Route, Link } from 'react-router-dom';
     import { Container, Header, Button, Icon, Divider, Image, Grid, Menu } from 'semantic-ui-react';
     import Home from './components/Home.js';
-    import Collections from './components/Collections.js';
+    import CategoryLibrary from './components/CategoryLibrary.js';
     import Category from './components/Category.js';
     import Video from './components/Video.js';
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
     
-    export const API_URL = "https://yugtun-api.herokuapp.com";
+    // export const API_URL = "https://yugtun-api.herokuapp.com";
+    export const API_URL = "http://localhost:5000";
 
     // const customFont = 'var(--secondaryHeadlineFont),Arial,Helvetica,sans-serif;'
 
@@ -31,7 +32,7 @@
     const Main = () => (
       <Switch>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/collections' component={Collections}></Route>
+        <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
         <Route exact path='/category/:word' component={Category}></Route>
         <Route exact path='/video/:word' component={Video}></Route>
       </Switch>
@@ -82,7 +83,7 @@
               active={activeItem === 'categories'}
               onClick={this.handleItemClick}
             >
-            <NavLink style={{color:'white'}} to='/collections'>Categories</NavLink>
+            <NavLink style={{color:'white'}} to='/categorylibrary'>Categories</NavLink>
             </Menu.Item>
           </Menu>
 

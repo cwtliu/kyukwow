@@ -31,11 +31,46 @@ class Home extends Component {
 			show: false,
 			showAllElders: false,
 			categoriesDisplayed: ['1','2','3','4','5','6'],
-			featuredVideos:['1','2','4',],
+			featuredVideos:['cpb-aacip-127-009w0z0q.h264','cpb-aacip-127-00ns1t6z.h264','cpb-aacip-127-010p2r15.h264',],
 		}
 	}
 
 	featuredVideos = (featuredVideos) => {
+		return (
+		featuredVideos.map((x,xind) => <Grid.Row  columns={2} key={xind}>
+		  		<Grid.Column width={6}>
+			    	<Image style={{width:'250px',borderRadius:'15px'}} src='/images/popularVideo1.png' />
+			    </Grid.Column>
+			    <Grid.Column width={10}>
+				    <div>
+		  				<h4>{summaries[x].title}</h4>
+
+          {summaries[x].tags.map((y)=>(
+            y in categories ?
+            <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+              <Button basic compact>
+              {categories[y].name.replaceAll('--','—')}
+              </Button>
+            </Link>
+            :
+            null
+          ))}
+
+					    <span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].summary[0][1]}</span>
+		          <Popup
+		            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		            on='click'
+		            content={<div style={{fontSize:'16px'}}>{summaries[x].summary[0][2]}</div>}
+		            position='bottom left'
+		          />					    
+						</div>
+					</Grid.Column>
+		  </Grid.Row>		
+			)
+		)
+	}
+
+	featuredVideos1 = (featuredVideos) => {
 		return (
 		featuredVideos.map((x,xind) => <Grid.Row  columns={2} key={xind}>
 		  		<Grid.Column width={6}>
@@ -72,29 +107,37 @@ class Home extends Component {
 
 				<Divider />
 
-				<h1 className='yugtatun'>Tegganrem Atrit - <i>Elder Names</i></h1>
+				<h1 className='yugtatun'>Tegganret Qalartellret - <i>Elder Speakers</i></h1>
 
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
-				{Array.from({length: 12}, (_, i) => i + 1).map((y) => (
+				{Object.keys(YouTubeLinks).map((y,yindex) => (
+					(yindex < 12 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px'}}>
 							<Link to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
 							<Image style={{width:'140px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
-							YouTubeLinks[summaries[y].videoID].split(".be/")[1]
+							YouTubeLinks[y].split(".be/")[1]
 							+"/hqdefault.jpg"} />
 							<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>Mik'aq Eliza Chase</div>
 							</Link>
 						</div>
+						:
+						null
+					)
 				))}
 				{this.state.showMoreElders ?
-					(Array.from({length: 12}, (_, i) => i + 1).map((y) => (
+					(Object.keys(YouTubeLinks).map((y,yindex) => (
+						(yindex > 11 ?
 							<div style={{display:'flex',flexDirection:'column',margin:'10px'}}>
 								<Link to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
 								<Image style={{width:'140px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
-								YouTubeLinks[summaries[y].videoID].split(".be/")[1]
+								YouTubeLinks[y].split(".be/")[1]
 								+"/hqdefault.jpg"} />
 								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>Mik'aq Eliza Chase</div>
 								</Link>
 							</div>
+							:
+							null
+						)
 					)))
 					:
 					null
@@ -133,12 +176,14 @@ class Home extends Component {
 					</div>
 
 					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
-		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
-		          <div>
-		          {"See All Categories"}
-		          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
-		          </div>
-		        </Button>
+						<Link to={{pathname: '/categorylibrary'}}>
+			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
+			          <div>
+			          {"See All Categories"}
+			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
+			          </div>
+			        </Button>
+		        </Link>
 	        </div>
 
 				<Divider />

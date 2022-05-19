@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 
-class Collections extends Component {
+class CategoryLibrary extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -59,4 +59,4 @@ class Collections extends Component {
 		);
 	}
 }
-export default Collections;
+export default CategoryLibrary;
