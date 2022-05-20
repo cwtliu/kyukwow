@@ -82,10 +82,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Maqista Joshua Phillip -- Tuluksak"
+            "23.1"
         ],
         "tags": [
-            "23.1",
+            "Ac'urunaq Maqista Joshua Phillip",
             "1.1.1",
             "2.2.7",
             "Yugtun Qalarcaraq -- Yup'ik Langauge",
@@ -168,10 +168,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Ackiar Nick Lupie -- Tuntutuliak"
+            "23.2"
         ],
         "tags": [
-            "23.2",
+            "Ackiar Nick Lupie",
             "1.1.1",
             "2.2.3",
             "3.1.2",
@@ -241,11 +241,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver -- Bethel"
+            "23.3",
+            "Yuk 13"
         ],
         "tags": [
-            "23.3",
-            "23.4",
+            "Urutaq Lucy Beaver",
+            "Joe Andrew",
             "1.1.1",
             "2.2.5",
             "19.10",
@@ -312,9 +313,11 @@ export const summaries = {
                 "The most important traditional wisdom; do not steal; keep a walking stick/cane with you at all times"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 1"
+        ],
         "tags": [
-            "23.5",
+            "James Guy",
             "1.1.1",
             "2.2.1",
             "Qasgiq, Qaygiq -- Community, Men's House",
@@ -377,13 +380,15 @@ export const summaries = {
         ],
         "elderTags": [
             "Cingliaq Paul Gregory -- Bethel",
-            "Itum'aq Billie McCann -- Napakiak/ Bethel ",
-            "Paniguaq Peter Jacob  -- Bethel"
+            "Yuk 2",
+            "Itum'aq Billie McCann -- Napakiak/ Bethel",
+            "Yuk 3",
+            "Paniguaq Peter Jacob -- Bethel"
         ],
         "tags": [
-            "23.6",
-            "23.7",
-            "23.8",
+            "Paul Gregory",
+            "James Peter",
+            "Fred Evan",
             "1.1.1",
             "24.1",
             "11",
@@ -451,12 +456,15 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver  -- Bethel"
+            "Yuk 4",
+            "Yuk 5",
+            "Yuk 6",
+            "23.3"
         ],
         "tags": [
-            "23.9",
-            "23.10",
-            "23.11",
+            "Kurt Bell",
+            "Edward Weiss",
+            "Phillip Moses",
             "1.1.1",
             "1.1.2",
             "5.3.7",
@@ -525,10 +533,13 @@ export const summaries = {
                 "[Person1] Woman *no sound*"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 7",
+            "Yuk 8"
+        ],
         "tags": [
-            "23.12",
-            "23.13",
+            "Uliggaq Martha Sarah",
+            "Kumangulria Matthew",
             "1.1.1",
             "2.2.5",
             "2.1.1",
@@ -613,10 +624,13 @@ export const summaries = {
                 "Respect for elders; Yup'ik language; how Kwethluk was back then"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 9",
+            "Yuk 10"
+        ],
         "tags": [
             "Cialuq Paul G. Nicholai",
-            "23.15",
+            "Neviar Qakvaralria Lucy Nicholai",
             "1.1.1",
             "2.2.1",
             "Up'nerkaq -- Spring",
@@ -702,11 +716,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver  -- Bethel"
+            "Yuk 11",
+            "23.3"
         ],
         "tags": [
-            "23.3",
-            "23.9",
+            "Urutaq Lucy Beaver",
+            "Kurt Bell",
             "1.1.1",
             "1.1.2",
             "2.2.5",
@@ -786,7 +801,9 @@ export const summaries = {
                 "When he worked in the church"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 12"
+        ],
         "tags": [
             "1.1.1",
             "2.2.5",
@@ -866,9 +883,11 @@ export const summaries = {
                 "\"Parents must admonsih their children against doing [bad] things.\"; Yup'ik language"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 14"
+        ],
         "tags": [
-            "23.16",
+            "Qavarliaq Johnny K. Guy",
             "1.1.1",
             "2.2.1",
             "Tuntu -- Reindeer",
@@ -942,10 +961,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Ingallaq George Keene -- Kasigluk "
+            "Yuk 15",
+            "Ingallaq George Keene -- Kasigluk",
+            "Yuk 16"
         ],
         "tags": [
-            "23.17",
+            "Alciq",
             "1.1.1",
             "2.2.5",
             "Qanruyutet -- Traditional Wisdom, Wise Words",
@@ -988,7 +1009,9 @@ export const summaries = {
                 "Cut out scenes *silent*"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 17"
+        ],
         "tags": [
             "1.1.1",
             "3.9",
@@ -1052,10 +1075,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver  -- Bethel"
+            "23.3"
         ],
         "tags": [
-            "23.3",
+            "Urutaq Lucy Beaver",
             "1.1.1",
             "3.9.1",
             "Neqkaq -- Food",
@@ -1125,7 +1148,10 @@ export const summaries = {
                 "Striving in the ocean (using their arms)"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 18",
+            "Yuk 19"
+        ],
         "tags": [
             "1.1.2",
             "Qanruyutet -- Traditional Wisdom, Wise Words",
@@ -1186,10 +1212,12 @@ export const summaries = {
                 "Yup'ik songs; the two large qasgiq (\"community houses\") at Kayalivik; song about the Qasgirpagmiut"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 20"
+        ],
         "tags": [
-            "23.18",
-            "23.19",
+            "Apaqutaq Dick Andrew",
+            "Aqumgaciq John Active",
             "1.1.1",
             "2.2.4",
             "15.2",
@@ -1234,7 +1262,11 @@ export const summaries = {
                 "[Person3] Sickness; death; alcohol; do not steal"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 21",
+            "Yuk 22",
+            "Yuk 23"
+        ],
         "tags": [
             "1.1.1",
             "Maligtaquyaraq -- Obedience",
@@ -1282,7 +1314,7 @@ export const summaries = {
             "Nurataaq Nelson Angapak -- Tuntutuliak/ Anchorage"
         ],
         "tags": [
-            "23.20",
+            "Fred Ollie",
             "1.1.1",
             "2.2.5",
             "2.2.6",
@@ -1332,9 +1364,11 @@ export const summaries = {
                 "Ingulak Festival"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 24"
+        ],
         "tags": [
-            "23.21",
+            "Cuukvak",
             "1.1.1",
             "2.2.5",
             "9.5.3",
@@ -1465,10 +1499,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 25",
             "Possibly Elena Charles -- Bethel",
             "Mik'aq Eliza Chase -- Bethel",
             "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Ilanaq Theresa Moses -- Toksook Bay"
+            "Yuk 26",
+            "Yuk 27",
+            "Ilanaq Theresa Moses -- Toksook Bay",
+            "Yuk 28",
+            "Yuk 29",
+            "Yuk 30",
+            "Yuk 31",
+            "Yuk 32"
         ],
         "tags": [
             "1.1.1",
@@ -1537,9 +1579,11 @@ export const summaries = {
                 "Do not forget the rules of the river; walking stick; travelling with snowmachine; the conditions of the ice and open holes; getting lost"
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 33"
+        ],
         "tags": [
-            "23.22",
+            "Ayagina'ar",
             "1.1.1",
             "3.1.2",
             "17.1.1",
@@ -1597,7 +1641,9 @@ export const summaries = {
                 "Tells a legend about a man’s qualms with his wife who doesn’t know."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 34"
+        ],
         "tags": []
     },
     "cpb-aacip-127-35t76q2k.h264": {
@@ -1644,7 +1690,9 @@ export const summaries = {
                 "Talks about Russian Christmas in his youth, church services in Russian, and the priest’s assistant Nicky from Unalaska."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 35"
+        ],
         "tags": []
     },
     "cpb-aacip-127-37hqc4tk.h264": {
@@ -1738,7 +1786,9 @@ export const summaries = {
                 "Talks about taking care of the land, constant instruction of traditional wisdom, the sense of community, God’s unchanging nature, and teaching youth."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 36"
+        ],
         "tags": []
     },
     "cpb-aacip-127-386hdxkk.h264": {
@@ -1822,7 +1872,10 @@ export const summaries = {
                 "Talks about her instruction before marriage, losing her arm, admonishments about marriage, wisdom on having children, modern parents, and men being instructed on marriage."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 62",
+            "Yuk 63"
+        ],
         "tags": []
     },
     "cpb-aacip-127-386hdz1p.h264": {
@@ -1937,7 +1990,10 @@ export const summaries = {
                 "Mike talks about the results of their gathering: elder teaching meetings, teaching the old way of life in school, alcohol rehabilitation, elder care, continue holding meetings. Mike gives aknowledgements."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 64",
+            "Yuk 65"
+        ],
         "tags": []
     },
     "cpb-aacip-127-38w9gpk2.h264": {
@@ -2129,7 +2185,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver -- Bethel"
+            "23.3"
         ],
         "tags": []
     },
@@ -2213,7 +2269,15 @@ export const summaries = {
                 "Talks about how orphans uphold what their mothers did, and taking good care of food."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 66",
+            "Yuk 67",
+            "Yuk 68",
+            "Yuk 69",
+            "Yuk 70",
+            "Yuk 71",
+            "Yuk 72"
+        ],
         "tags": []
     },
     "cpb-aacip-127-46254fdx.h264": {
@@ -2331,7 +2395,9 @@ export const summaries = {
                 "Talks about the [Christian] origin of Christmas, and light above and darkness below."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 37"
+        ],
         "tags": []
     },
     "cpb-aacip-127-48ffbpfx.h264": {
@@ -2450,7 +2516,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 38",
             "Panigkaq Freda Beaver -- Kwigillingok",
+            "Yuk 39",
+            "Yuk 40",
+            "Yuk 41",
             "Willie Kasayulie -- Akiachuk"
         ],
         "tags": []
@@ -2537,7 +2607,9 @@ export const summaries = {
                 "Talks about her deteriorating body, and listening to instruction now."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 42"
+        ],
         "tags": []
     },
     "cpb-aacip-127-54kkwqvx.h264": {
@@ -2591,7 +2663,9 @@ export const summaries = {
                 "Talks about loving thoughts to people around, how people used to obey wisdom and live long lives, how there was no misfortune, how her husband moved her to Qinaq/Qinarmiut, and wishing youth well."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 43"
+        ],
         "tags": []
     },
     "cpb-aacip-127-54kkwrd6.h264": {
@@ -2742,8 +2816,10 @@ export const summaries = {
         ],
         "elderTags": [
             "Narullgiar Elena Nick -- Nunapitchuk",
-            "Ackiar  Nick Lupie -- Tuntutuliak",
-            "Tam'aq Elizabeth Andrew -- Tuntutuliak"
+            "23.2",
+            "Tam'aq Elizabeth Andrew -- Tuntutuliak",
+            "Yuk 44",
+            "Yuk 45"
         ],
         "tags": []
     },
@@ -2853,7 +2929,9 @@ export const summaries = {
                 "Talks about half seal mermaid depictions."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 46"
+        ],
         "tags": []
     },
     "cpb-aacip-127-59c5b6f6.h264": {
@@ -3003,6 +3081,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 47",
             "Willie Kasayulie -- Akiachuk"
         ],
         "tags": []
@@ -3053,7 +3132,10 @@ export const summaries = {
                 "Talks about a trip there worried about food, Old Man Reed going to Kiillaraliin, and a creature at Kiillaraliin."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 48",
+            "Yuk 49"
+        ],
         "tags": []
     },
     "cpb-aacip-127-60qrfsqn.h264": {
@@ -3137,6 +3219,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 50",
             "Kukuyar Henry Frank -- Kwethluk",
             "Lucy Frank -- Kwethluk"
         ],
@@ -3300,7 +3383,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Ackiar Nick Lupie  -- TuntutuliaK"
+            "Ackiar Nick Lupie -- TuntutuliaK"
         ],
         "tags": [
             "2.1.2",
@@ -3493,9 +3576,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 51",
             "Winifred Beans -- St. Mary's or Mt. Village",
+            "Yuk 52",
+            "Yuk 53",
+            "Yuk 54",
+            "Yuk 55",
             "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Nauyaq  Anna Andrew -- Tuntutuliak"
+            "Nauyaq Anna Andrew -- Tuntutuliak"
         ],
         "tags": [
             "3.8",
@@ -3786,7 +3874,9 @@ export const summaries = {
                 "Talks about learning English, and her descendants."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 56"
+        ],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
         ]
@@ -3955,7 +4045,9 @@ export const summaries = {
                 "Talks about how youth should treat each other with love, and negative effects of alcohol."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 73"
+        ],
         "tags": [
             "2.2.5",
             "4.5",
@@ -4108,8 +4200,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "Yuk 74",
+            "Yuk 75",
             "Nauyaq Anna Andrew -- Tuntutuliak",
             "Possibly Winifred Beans -- St. Mary's or Mountain Village",
+            "Yuk 76",
             "Matthew Frye -- Napakiak",
             "Nauyaq Anna Andrew -- Tuntutuliak",
             "Narullgiar Elena Nick -- Nunapitchuk"
@@ -4183,7 +4278,9 @@ export const summaries = {
                 "Talks about the introduction of alcohol, telling successive generations to live well, and to take care of food."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 57"
+        ],
         "tags": [
             "-- Qemagciyaraq -- Storage",
             "10.11",
@@ -4255,7 +4352,9 @@ export const summaries = {
                 "Talks about belief in the Spirit of the Universe [Ellam Yua], the lack of concept of the devil, how shamans performed their rituals, shamans fixing the weather and healing people, and how people brought gifts to request healing from shamans."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 58"
+        ],
         "tags": [
             "8.1.2",
             "Ellam Yua -- The Spirit of the Universe",
@@ -4334,7 +4433,9 @@ export const summaries = {
                 "Talks about two women who always instructed people, and to help others without expecting payment."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 59"
+        ],
         "tags": [
             "3.9.2",
             "3.9.3",
@@ -4482,7 +4583,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Mumess'aq Peter John  -- Kwigillingok"
+            "Mumess'aq Peter John -- Kwigillingok"
         ],
         "tags": [
             "2.1.2",
@@ -4654,7 +4755,9 @@ export const summaries = {
                 "Talks about Yup’ik land sovriegnty, Yup’ik solidarity despite change, how he would pass on wisdom to the next generations, taking over governence over their school, and teaching one of his grandchildren."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 60"
+        ],
         "tags": [
             "17.5",
             "6.3.8",
@@ -4924,7 +5027,9 @@ export const summaries = {
                 "Talks about how her lover would do her chores for her, how An’arissuun performed a shamanic ritual on her, her lover appearing from the tunnel entrance during the ritual, the shaman sending a decoy woman to distract her lover and a decoy man to stay with her, and how she got better after the ritual."
             ]
         ],
-        "elderTags": [],
+        "elderTags": [
+            "Yuk 61"
+        ],
         "tags": [
             "8.1",
             "8.4",
@@ -4969,7 +5074,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Urutaq Lucy Beaver -- Bethel"
+            "23.3"
         ],
         "tags": [
             "Naunraat Atsat-llu -- Plants and Berries",

@@ -396,28 +396,9 @@ Calricaraq -- Health & Wellness
 			Uquq -- Seal Oil
 			Atsaruaq -- False Chamomile
 Qalartellret Atrit -- Names of Speakers
-	Ac'urunaq Maqista Joshua Phillip
-	Ackiar Nick Lupie
-	Urutaq Lucy Beaver
-	Joe Andrew
-	James Guy
-	Paul Gregory
-	James Peter
-	Fred Evan
-	Kurt Bell
-	Edward Weiss
-	Phillip Moses
-	Uliggaq Martha Sarah
-	Kumangulria Matthew
-	Cialuq Paul G. Nicholai 
-	Neviar Qakvaralria Lucy Nicholai
-	Qavarliaq Johnny K. Guy
-	Alciq
-	Apaqutaq Dick Andrew
-	Aqumgaciq John Active
-	Fred Ollie
-	Cuukvak
-	Ayagina'ar
+	Maqista Joshua Phillip -- Tuluksak
+	Ackiar Nick Lupie -- Tuntutuliak
+	Urutaq Lucy Beaver -- Bethel
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue
 	Yup'ik Nation

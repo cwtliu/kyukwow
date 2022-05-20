@@ -439,7 +439,7 @@ def categoriesXML(filename):
 	# print(etree.tostring(categories, pretty_print=True, encoding='unicode'))
 	return categories
 
-def categoriesDict(categoryMasterTree):
+def categoriesDictFunc(categoryMasterTree):
 	categories = defaultdict(dict)
 
 	# 4 layer deep subcategories, add another layer if more
@@ -448,6 +448,7 @@ def categoriesDict(categoryMasterTree):
 		i_index = str(i)
 		categories[i_index]['name'] = subcategory_i.attrib['name']
 		categories[i_index]['url'] = re.sub(r', | & | ','-', subcategory_i.attrib['name'].split('--')[0].strip().replace("'",""))
+		categories[i_index]['images'] = []
 		categories[i_index]['children'] = len(subcategory_i)
 		categories[i_index]['videoNumbers'] = []
 		for j_0, subcategory_j in enumerate(subcategory_i):
@@ -455,6 +456,7 @@ def categoriesDict(categoryMasterTree):
 			j_index = '.'.join([i_index,str(j)])
 			categories[j_index]['name'] = subcategory_j.attrib['name']
 			categories[j_index]['url'] = re.sub(r', | & | ','-', subcategory_j.attrib['name'].split('--')[0].strip().replace("'",""))
+			categories[j_index]['images'] = []
 			categories[j_index]['children'] = len(subcategory_j)
 			categories[j_index]['videoNumbers'] = []
 			for k_0, subcategory_k in enumerate(subcategory_j):
@@ -462,6 +464,7 @@ def categoriesDict(categoryMasterTree):
 				k_index = '.'.join([j_index,str(k)])
 				categories[k_index]['name'] = subcategory_k.attrib['name']
 				categories[k_index]['url'] = re.sub(r', | & | ','-', subcategory_k.attrib['name'].split('--')[0].strip().replace("'",""))
+				categories[k_index]['images'] = []
 				categories[k_index]['children'] = len(subcategory_k)
 				categories[k_index]['videoNumbers'] = []
 				for l_0, subcategory_l in enumerate(subcategory_k):
@@ -469,38 +472,53 @@ def categoriesDict(categoryMasterTree):
 					l_index = '.'.join([k_index,str(l)])
 					categories[l_index]['name'] = subcategory_l.attrib['name']
 					categories[l_index]['url'] = re.sub(r', | & | ','-', subcategory_l.attrib['name'].split('--')[0].strip().replace("'",""))
+					categories[l_index]['images'] = []
 					categories[l_index]['children'] = len(subcategory_l)
 					categories[l_index]['videoNumbers'] = []
 
 	return categories
 
 
-def addElderIdentification(elderIdentifierFilename, summariesDict):
+def addElderIdentification(elderIdentifierFilename, summariesDict, categoriesDict):
+	elderCat2Images = defaultdict(list)
 
 	with open(elderIdentifierFilename, mode='r') as file:
 		# csvFile = csv.reader(file, delimiter='\t')
 		reader = csv.DictReader(file, delimiter='\t')
+		
+
+		unknownElderNumber = 1
 		for lineDict in reader:
 			#{'Photo of Elder': '', 
 			#'Video #': 'cpb-aacip-127-00ns1t6z.h264.mov', 
 			#'Name ': 'Ackiar', 
 			#'English Name': 'Nick Lupie', 
 			#'Village': 'Tuntutuliak', 
-			#'Notes': ''}
+			#'Notes': '',
+			#'Image': ''
 			#print(lineDict)
 			aapb = lineDict['Video #'].replace('.mov','')
 			if aapb not in summariesDict:
-				print(f'{aapb} - elder identification - missing aapb')
+				print(f'{aapb} - elder identification - missing aapb summary')
 				continue
-			elderString = lineDict['Name ']
-			elderString = elderString+" "+lineDict['English Name'] if elderString else lineDict['English Name']
-			elderString = elderString+" -- "+lineDict['Village'] if elderString else lineDict['Village']
+			elderString = lineDict['Name'].strip()
+			elderString = elderString+" "+lineDict['English Name'].strip() if elderString else lineDict['English Name'].strip()
+			elderString = elderString+" -- "+lineDict['Village'].strip() if elderString else lineDict['Village'].strip()
 			if elderString:		
 				summariesDict[aapb]['elderTags'].append(elderString)
+				elderCat2Images[elderString].append(lineDict['Image'].strip())
+			else:
+				elderString = f"Yuk {unknownElderNumber}"
+				unknownElderNumber += 1
+				summariesDict[aapb]['elderTags'].append(elderString)
+				elderCat2Images[elderString].append(lineDict['Image'].strip())
 
+	# print(elderCat2Images)
+	for cat in categoriesDict:
+		if categoriesDict[cat]["name"] in elderCat2Images.keys():
+			categoriesDict[cat]["images"] = elderCat2Images[categoriesDict[cat]["name"]]
 
-
-	return summariesDict
+	return summariesDict, categoriesDict
 
 
 def mixCategoriesSummaries(categories, summaries):
@@ -555,7 +573,7 @@ if __name__ == '__main__':
 
 	print(f'importing {categoriesFilename}')
 	categoriesXML = categoriesXML(categoriesFilename)
-	categoryDict = categoriesDict(categoriesXML)
+	categoriesDict = categoriesDictFunc(categoriesXML)
 
 
 	print(f'importing {summariesFilename}')
@@ -573,10 +591,10 @@ if __name__ == '__main__':
 	# 	out.write(f"export const summaries = {json.dumps(summariesDict, indent=4)};")
 
 	print(f'adding elder identification data')
-	summariesDict = addElderIdentification(elderIdentifierFilename, summariesDict)
+	summariesDict, categoriesDict = addElderIdentification(elderIdentifierFilename, summariesDict, categoriesDict)
 
 	print(f'mixing categories and summaries')
-	categories, categoriesUrlLookup, summaries = mixCategoriesSummaries(categoryDict, summariesDict)
+	categories, categoriesUrlLookup, summaries = mixCategoriesSummaries(categoriesDict, summariesDict)
 
 
 	# TODO:
