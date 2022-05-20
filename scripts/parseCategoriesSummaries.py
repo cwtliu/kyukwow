@@ -34,6 +34,7 @@ from lxml import etree
 from pathlib import Path
 import glob
 import docx
+import csv
 
 videoDuration = {
 "cpb-aacip-127-009w0z0q.h264":"1:02:35",#"1:02:35.230000",
@@ -245,6 +246,7 @@ def parse_summaries(filepath):
 			english = data[i]["english"]["timestamps"][t].split(" - ",1)[1]
 			new_timestamps.append([time,yugtun,english])
 		restrucutredData[aapb]["summary"] = new_timestamps
+		restrucutredData[aapb]["elderTags"] = []
 		restrucutredData[aapb]["tags"] = data[i]["tags"]
 
 	# return data
@@ -285,6 +287,7 @@ def parseCoreySummaries(files):
 				"Date":"Unknown",
 			},
 			"summary":[],
+			"elderTags":[],
 			"tags":[]
 		}
 
@@ -471,6 +474,35 @@ def categoriesDict(categoryMasterTree):
 
 	return categories
 
+
+def addElderIdentification(elderIdentifierFilename, summariesDict):
+
+	with open(elderIdentifierFilename, mode='r') as file:
+		# csvFile = csv.reader(file, delimiter='\t')
+		reader = csv.DictReader(file, delimiter='\t')
+		for lineDict in reader:
+			#{'Photo of Elder': '', 
+			#'Video #': 'cpb-aacip-127-00ns1t6z.h264.mov', 
+			#'Name ': 'Ackiar', 
+			#'English Name': 'Nick Lupie', 
+			#'Village': 'Tuntutuliak', 
+			#'Notes': ''}
+			#print(lineDict)
+			aapb = lineDict['Video #'].replace('.mov','')
+			if aapb not in summariesDict:
+				print(f'{aapb} - elder identification - missing aapb')
+				continue
+			elderString = lineDict['Name ']
+			elderString = elderString+" "+lineDict['English Name'] if elderString else lineDict['English Name']
+			elderString = elderString+" -- "+lineDict['Village'] if elderString else lineDict['Village']
+			if elderString:		
+				summariesDict[aapb]['elderTags'].append(elderString)
+
+
+
+	return summariesDict
+
+
 def mixCategoriesSummaries(categories, summaries):
 	categories_flipped = {cat_value['name']:cat_key for cat_key, cat_value in categories.items()}
 	tags_unsorted = []
@@ -485,8 +517,17 @@ def mixCategoriesSummaries(categories, summaries):
 			else:
 				tags_new.append(tag)
 				tags_unsorted.append(tag)
-		summary_info['tags']
+		eldertags_new = []
+		for tag in summary_info['elderTags']:
+			if tag in categories_flipped:
+				eldertags_new.append(categories_flipped[tag])
+				categories[categories_flipped[tag]]['videoNumbers'].append(videoNumber)
+			else:
+				eldertags_new.append(tag)
+				tags_unsorted.append(tag)
+		# summary_info['tags']
 		summaries[videoNumber]['tags'] = tags_new
+		summaries[videoNumber]['elderTags'] = eldertags_new
 
 	# add videos from children to parent
 	for cat_key, cat_value in categories.items():
@@ -507,6 +548,7 @@ def mixCategoriesSummaries(categories, summaries):
 if __name__ == '__main__':
 	categoriesFilename = '../data/categories.txt'
 	summariesFilename = '../data/summaries.txt'
+	elderIdentifierFilename = '../data/Elder Identification - Sheet1.tsv'
 	coreyfolder = '../data/WoW-Corey'
 	coreyfiles = sorted(glob.glob('../data/WoW-Corey/*.docx'))
 	# coreyfiles = [x.replace('../data/WoW-Corey/','') for x in coreyfiles]
@@ -529,6 +571,9 @@ if __name__ == '__main__':
 	summariesDict = lonnyDict | coreyDict
 	# with open(os.path.join("",'summaries.js'), 'w') as out:
 	# 	out.write(f"export const summaries = {json.dumps(summariesDict, indent=4)};")
+
+	print(f'adding elder identification data')
+	summariesDict = addElderIdentification(elderIdentifierFilename, summariesDict)
 
 	print(f'mixing categories and summaries')
 	categories, categoriesUrlLookup, summaries = mixCategoriesSummaries(categoryDict, summariesDict)

@@ -81,6 +81,9 @@ export const summaries = {
                 "Footage of Togiak; and Nasaurlormiut Yupiit Elders Kasgiat."
             ]
         ],
+        "elderTags": [
+            "Maqista Joshua Phillip -- Tuluksak"
+        ],
         "tags": [
             "23.1",
             "1.1.1",
@@ -164,6 +167,9 @@ export const summaries = {
                 "\"We use to talk about everything\""
             ]
         ],
+        "elderTags": [
+            "Ackiar Nick Lupie -- Tuntutuliak"
+        ],
         "tags": [
             "23.2",
             "1.1.1",
@@ -234,6 +240,9 @@ export const summaries = {
                 "Teaching and admonishing children from the beginning"
             ]
         ],
+        "elderTags": [
+            "Urutaq Lucy Beaver -- Bethel"
+        ],
         "tags": [
             "23.3",
             "23.4",
@@ -303,6 +312,7 @@ export const summaries = {
                 "The most important traditional wisdom; do not steal; keep a walking stick/cane with you at all times"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.5",
             "1.1.1",
@@ -364,6 +374,11 @@ export const summaries = {
                 "[Paul Gregory] Qimugtet; Quyurtellrat arulairluni",
                 "[Paul Gregory] Dogs; adjourning the conference"
             ]
+        ],
+        "elderTags": [
+            "Cingliaq Paul Gregory -- Bethel",
+            "Itum'aq Billie McCann -- Napakiak/ Bethel ",
+            "Paniguaq Peter Jacob  -- Bethel"
         ],
         "tags": [
             "23.6",
@@ -434,6 +449,9 @@ export const summaries = {
                 "[Phillip Moses, Yuk3] Angalkut; up'nerkami pitqerraarqan maklagmek uqiqurluteng",
                 "[Phillip Moses, Person3] Shamans; seal parties in the spring for the first bearded seal"
             ]
+        ],
+        "elderTags": [
+            "Urutaq Lucy Beaver  -- Bethel"
         ],
         "tags": [
             "23.9",
@@ -507,6 +525,7 @@ export const summaries = {
                 "[Person1] Woman *no sound*"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.12",
             "23.13",
@@ -594,6 +613,7 @@ export const summaries = {
                 "Respect for elders; Yup'ik language; how Kwethluk was back then"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "Cialuq Paul G. Nicholai",
             "23.15",
@@ -681,6 +701,9 @@ export const summaries = {
                 "[Kurt Bell] Giving water to animals; when catching his first bearded seal"
             ]
         ],
+        "elderTags": [
+            "Urutaq Lucy Beaver  -- Bethel"
+        ],
         "tags": [
             "23.3",
             "23.9",
@@ -763,6 +786,7 @@ export const summaries = {
                 "When he worked in the church"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "1.1.1",
             "2.2.5",
@@ -842,6 +866,7 @@ export const summaries = {
                 "\"Parents must admonsih their children against doing [bad] things.\"; Yup'ik language"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.16",
             "1.1.1",
@@ -916,6 +941,9 @@ export const summaries = {
                 "[Person2] Pollution; living a long life"
             ]
         ],
+        "elderTags": [
+            "Ingallaq George Keene -- Kasigluk "
+        ],
         "tags": [
             "23.17",
             "1.1.1",
@@ -960,6 +988,7 @@ export const summaries = {
                 "Cut out scenes *silent*"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "1.1.1",
             "3.9",
@@ -1021,6 +1050,9 @@ export const summaries = {
                 "[Yuk1] Avelngaat neqait",
                 "[Person1] Mouse food"
             ]
+        ],
+        "elderTags": [
+            "Urutaq Lucy Beaver  -- Bethel"
         ],
         "tags": [
             "23.3",
@@ -1093,6 +1125,7 @@ export const summaries = {
                 "Striving in the ocean (using their arms)"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "1.1.2",
             "Qanruyutet -- Traditional Wisdom, Wise Words",
@@ -1153,6 +1186,7 @@ export const summaries = {
                 "Yup'ik songs; the two large qasgiq (\"community houses\") at Kayalivik; song about the Qasgirpagmiut"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.18",
             "23.19",
@@ -1200,6 +1234,7 @@ export const summaries = {
                 "[Person3] Sickness; death; alcohol; do not steal"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "1.1.1",
             "Maligtaquyaraq -- Obedience",
@@ -1242,6 +1277,9 @@ export const summaries = {
                 "[Yuk2] Nunaput arcaqerluni wangkutni; ciuliamta elitnaurciqakut yuuyaramek",
                 "[Person2] The importance of our land to us; our elders will teach us our way of life"
             ]
+        ],
+        "elderTags": [
+            "Nurataaq Nelson Angapak -- Tuntutuliak/ Anchorage"
         ],
         "tags": [
             "23.20",
@@ -1294,6 +1332,7 @@ export const summaries = {
                 "Ingulak Festival"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.21",
             "1.1.1",
@@ -1425,6 +1464,12 @@ export const summaries = {
                 "[Person6] \"This was the traditional wisdom passed to us: they told us to respect especially the land and water, and to treat it as if it were our dinner plate or soup bowl.\""
             ]
         ],
+        "elderTags": [
+            "Possibly Elena Charles -- Bethel",
+            "Mik'aq Eliza Chase -- Bethel",
+            "Nauyaq Anna Andrew -- Tuntutuliak",
+            "Ilanaq Theresa Moses -- Toksook Bay"
+        ],
         "tags": [
             "1.1.1",
             "1.1.2",
@@ -1492,6 +1537,7 @@ export const summaries = {
                 "Do not forget the rules of the river; walking stick; travelling with snowmachine; the conditions of the ice and open holes; getting lost"
             ]
         ],
+        "elderTags": [],
         "tags": [
             "23.22",
             "1.1.1",
@@ -1500,7 +1546,7 @@ export const summaries = {
             "3.4",
             "11.2",
             "Canek, Can'get, Caranglluk -- Grass",
-            "Teq'uq -- Urine",
+            "22.12.2.1",
             "17.4.2",
             "3.4.1",
             "11.3"
@@ -1551,6 +1597,7 @@ export const summaries = {
                 "Tells a legend about a man’s qualms with his wife who doesn’t know."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-35t76q2k.h264": {
@@ -1597,6 +1644,7 @@ export const summaries = {
                 "Talks about Russian Christmas in his youth, church services in Russian, and the priest’s assistant Nicky from Unalaska."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-37hqc4tk.h264": {
@@ -1650,6 +1698,9 @@ export const summaries = {
                 "Talks about the Caucasian Paru, more Caucasians coming in ships with cargo, the Caucasian Neqliyaq, and increased use of Western things."
             ]
         ],
+        "elderTags": [
+            "Angutevialuk Albert Beaver -- Kwigillingok"
+        ],
         "tags": []
     },
     "cpb-aacip-127-37vmd1rq.h264": {
@@ -1687,6 +1738,7 @@ export const summaries = {
                 "Talks about taking care of the land, constant instruction of traditional wisdom, the sense of community, God’s unchanging nature, and teaching youth."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-386hdxkk.h264": {
@@ -1770,6 +1822,7 @@ export const summaries = {
                 "Talks about her instruction before marriage, losing her arm, admonishments about marriage, wisdom on having children, modern parents, and men being instructed on marriage."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-386hdz1p.h264": {
@@ -1884,6 +1937,7 @@ export const summaries = {
                 "Mike talks about the results of their gathering: elder teaching meetings, teaching the old way of life in school, alcohol rehabilitation, elder care, continue holding meetings. Mike gives aknowledgements."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-38w9gpk2.h264": {
@@ -1950,6 +2004,9 @@ export const summaries = {
                 "Talks about the importance of traditional wisdom, how everything requires hard work and its reward, and how mischievous ways changed people and their consequences."
             ]
         ],
+        "elderTags": [
+            "Narr'aq Helen Nelson -- Napakiak"
+        ],
         "tags": []
     },
     "cpb-aacip-127-41mgqv1k.h264": {
@@ -2011,6 +2068,9 @@ export const summaries = {
                 "Talks about how modern children are between Yup’ik and Western, later generations only speaking English, how instruction comes from love, and the gravity of and struggles of childrearing."
             ]
         ],
+        "elderTags": [
+            "Winifred Beans -- St. Mary's or Mountain Village"
+        ],
         "tags": []
     },
     "cpb-aacip-127-42n5thvk.h264": {
@@ -2067,6 +2127,9 @@ export const summaries = {
                 "Qanerluni-llu malkaanek nallullerminek.",
                 "Talks about her lack of knowledge about seals."
             ]
+        ],
+        "elderTags": [
+            "Urutaq Lucy Beaver -- Bethel"
         ],
         "tags": []
     },
@@ -2150,6 +2213,7 @@ export const summaries = {
                 "Talks about how orphans uphold what their mothers did, and taking good care of food."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-46254fdx.h264": {
@@ -2212,6 +2276,9 @@ export const summaries = {
                 "Talks about properly raising children, how they aren’t ignorant, how people aren’t respectful or quiet around others anymore, how alcohol destroys couples, working on alcohol abuse, how peaceful it was in the past, and how to be a good couple."
             ]
         ],
+        "elderTags": [
+            "Ackiar Nick Lupie -- Tuntutukiak"
+        ],
         "tags": []
     },
     "cpb-aacip-127-47rn8x0g.h264": {
@@ -2264,6 +2331,7 @@ export const summaries = {
                 "Talks about the [Christian] origin of Christmas, and light above and darkness below."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-48ffbpfx.h264": {
@@ -2381,6 +2449,10 @@ export const summaries = {
                 "Willie talks about AVCP’s unification issue, plans on education and progress on this issue, and what happened with AFN."
             ]
         ],
+        "elderTags": [
+            "Panigkaq Freda Beaver -- Kwigillingok",
+            "Willie Kasayulie -- Akiachuk"
+        ],
         "tags": []
     },
     "cpb-aacip-127-53wstz0s.h264": {
@@ -2465,6 +2537,7 @@ export const summaries = {
                 "Talks about her deteriorating body, and listening to instruction now."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-54kkwqvx.h264": {
@@ -2518,6 +2591,7 @@ export const summaries = {
                 "Talks about loving thoughts to people around, how people used to obey wisdom and live long lives, how there was no misfortune, how her husband moved her to Qinaq/Qinarmiut, and wishing youth well."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-54kkwrd6.h264": {
@@ -2666,6 +2740,11 @@ export const summaries = {
                 "Talks about divine origin, how one goes down his own path of destruction, how people were good in the past, how people started stealing more, and telling them to live right."
             ]
         ],
+        "elderTags": [
+            "Narullgiar Elena Nick -- Nunapitchuk",
+            "Ackiar  Nick Lupie -- Tuntutuliak",
+            "Tam'aq Elizabeth Andrew -- Tuntutuliak"
+        ],
         "tags": []
     },
     "cpb-aacip-127-558czhn9.h264": {
@@ -2712,6 +2791,9 @@ export const summaries = {
                 "Qanemciluni anglicaragminek, kinguveminek-llu.",
                 "Talks about her foster children, and her descendants."
             ]
+        ],
+        "elderTags": [
+            "Mik'aq Eliza Chase -- Bethel"
         ],
         "tags": []
     },
@@ -2771,6 +2853,7 @@ export const summaries = {
                 "Talks about half seal mermaid depictions."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-59c5b6f6.h264": {
@@ -2842,6 +2925,10 @@ export const summaries = {
                 "Qanemciluni angutngurtellriim qaneryarainek, piitenritengnaqesqelluki, imumi neqkameggnek anglanisciigatellratnek, pissuutnek anglanillrunriluciatnek, iliini-llu kaitullratnek.",
                 "Talks about the old man’s wisdom, to try to keep running out of food and things, how they couldn’t afford to waste any food back then, how they had to work hard for tools, and occasional famines."
             ]
+        ],
+        "elderTags": [
+            "Angut'aq Olinka Nickolai -- Kwethluk",
+            "Quriiciq Nickolai K Nickolai -- Kwethluk"
         ],
         "tags": []
     },
@@ -2915,6 +3002,9 @@ export const summaries = {
                 "Talks about AVCP and AFN, and hopes for the future."
             ]
         ],
+        "elderTags": [
+            "Willie Kasayulie -- Akiachuk"
+        ],
         "tags": []
     },
     "cpb-aacip-127-59q2c3zn.h264": {
@@ -2963,6 +3053,7 @@ export const summaries = {
                 "Talks about a trip there worried about food, Old Man Reed going to Kiillaraliin, and a creature at Kiillaraliin."
             ]
         ],
+        "elderTags": [],
         "tags": []
     },
     "cpb-aacip-127-60qrfsqn.h264": {
@@ -3045,6 +3136,10 @@ export const summaries = {
                 "Henry talks about English replacing Yup’ik, loss of traditional Yup’ik instructions, that they should teach their children the Yup’ik way of life, and that youth believe the Western way over the Yup’ik way."
             ]
         ],
+        "elderTags": [
+            "Kukuyar Henry Frank -- Kwethluk",
+            "Lucy Frank -- Kwethluk"
+        ],
         "tags": []
     },
     "cpb-aacip-127-6341p189.h264": {
@@ -3093,6 +3188,9 @@ export const summaries = {
                 "Qalarrluni ayagyuanun paiciutekaminek, kenkutesqelluki, ilateng cangayugcetaaresqevkenaki, iqlutmun-llu ayagarcukaaranguciatnek.",
                 "Talks about leaving behind advice for youth, how people should treat each other with love, not to affront each other, and how people easily go astray."
             ]
+        ],
+        "elderTags": [
+            "Matthew Frye -- Napakiak"
         ],
         "tags": [
             "7",
@@ -3201,6 +3299,9 @@ export const summaries = {
                 "Talks about recognizing land features, to always observe the land, to observe the stars, using the moon and the land to get their bearings, and their plans while going to Kusquqvak."
             ]
         ],
+        "elderTags": [
+            "Ackiar Nick Lupie  -- TuntutuliaK"
+        ],
         "tags": [
             "2.1.2",
             "Up’nerkaq, Upenerkaq -- Spring",
@@ -3227,7 +3328,7 @@ export const summaries = {
             "12.1",
             "Neryaraq - Eating Habits",
             "19.9",
-            "24.3"
+            "Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife"
         ]
     },
     "cpb-aacip-127-65h9w88k.h264": {
@@ -3391,6 +3492,11 @@ export const summaries = {
                 "Talks about putting herself down too much, not playing with the other girls, not joining in on mischeif, sliding and doing work out in the wilderness, and not to be temped by bad things."
             ]
         ],
+        "elderTags": [
+            "Winifred Beans -- St. Mary's or Mt. Village",
+            "Nauyaq Anna Andrew -- Tuntutuliak",
+            "Nauyaq  Anna Andrew -- Tuntutuliak"
+        ],
         "tags": [
             "3.8",
             "\tTegganeq -- Elder",
@@ -3481,6 +3587,9 @@ export const summaries = {
                 "Talks about how they saved whatever fur they got, how his grandfather told him to catch after seal he sees, how he has no more motivation to talk about the ancestors’ ways, and how his children don’t follow traditional teachings."
             ]
         ],
+        "elderTags": [
+            "Angutevialuk Albert Beaver -- Kwigillingok"
+        ],
         "tags": [
             "Yugtun Qalarcaraq -- Yup’ik Language",
             "Imarpigmiutaat, Unkumkiutaat, Mermiutaat -- Marine Animals",
@@ -3570,6 +3679,9 @@ export const summaries = {
                 "Qanemciluni yuut tamarmeng ellivingqetullratnek, kinercilriit-llu neqet assiirucuitellratnek.",
                 "Talks about how every family had a cache, and how drying fish wouldn’t go bad."
             ]
+        ],
+        "elderTags": [
+            "Possibly Elena Charles -- Bethel"
         ],
         "tags": [
             "5.3.1",
@@ -3674,6 +3786,7 @@ export const summaries = {
                 "Talks about learning English, and her descendants."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
         ]
@@ -3751,6 +3864,9 @@ export const summaries = {
                 "Genre 4 (Location):",
                 "Quality:"
             ]
+        ],
+        "elderTags": [
+            "Tam'aq Elizabeth Andrew -- Tuntutuliak"
         ],
         "tags": [
             "17.5",
@@ -3839,6 +3955,7 @@ export const summaries = {
                 "Talks about how youth should treat each other with love, and negative effects of alcohol."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "2.2.5",
             "4.5",
@@ -3990,6 +4107,13 @@ export const summaries = {
                 "Talks about tending to worry at a young age, agreeing to an arranged marriage, and her early marriage."
             ]
         ],
+        "elderTags": [
+            "Nauyaq Anna Andrew -- Tuntutuliak",
+            "Possibly Winifred Beans -- St. Mary's or Mountain Village",
+            "Matthew Frye -- Napakiak",
+            "Nauyaq Anna Andrew -- Tuntutuliak",
+            "Narullgiar Elena Nick -- Nunapitchuk"
+        ],
         "tags": [
             "3.11",
             "5.1.1.1",
@@ -4000,7 +4124,7 @@ export const summaries = {
             "8.1",
             "Ellam Yua -- Spirit of the Universe",
             "9.3",
-            "12.1.2",
+            "Ket’garyaraq -- Waterproofing a Kayak with a Rain Parka",
             "12.1.3",
             "13.3.1",
             "13.3.2",
@@ -4059,16 +4183,17 @@ export const summaries = {
                 "Talks about the introduction of alcohol, telling successive generations to live well, and to take care of food."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "-- Qemagciyaraq -- Storage",
             "10.11",
-            "10.12.1",
+            "Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod",
             "Kass’at Tekiteqerraallratni -- Early Western Contact",
             "Aglenraraq -- First Year of Menstruation",
             "Yuuyaraq -- Way of Life",
             "19.9",
             "19.13.7",
-            "19.13.8",
+            "Erurirraarluteng Neq’liuryaraq -- Handle Food with Clean Hands",
             "19.13.9",
             "22.5"
         ]
@@ -4130,6 +4255,7 @@ export const summaries = {
                 "Talks about belief in the Spirit of the Universe [Ellam Yua], the lack of concept of the devil, how shamans performed their rituals, shamans fixing the weather and healing people, and how people brought gifts to request healing from shamans."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "8.1.2",
             "Ellam Yua -- The Spirit of the Universe",
@@ -4208,13 +4334,14 @@ export const summaries = {
                 "Talks about two women who always instructed people, and to help others without expecting payment."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "3.9.2",
             "3.9.3",
             "8.1.3",
             "Ellam Yua, Cellam Yua, Cillam Cua -- Spirit of the Universe",
             "16.4",
-            "19.3.4",
+            "Qanrucunailnguut -- Those Who Don’t Heed Advice",
             "19.6",
             "Akingellerkani Umyuaqevkenaku -- Do Not Expect Payment",
             "19.13.10",
@@ -4354,13 +4481,16 @@ export const summaries = {
                 "Talks about how one can survive in the wilderness alone, keeping warm with urine, how he survived with urine when he was lost, to give urine to someone who has been lost in the wilderness, and not to warm up people who are hypothermic."
             ]
         ],
+        "elderTags": [
+            "Mumess'aq Peter John  -- Kwigillingok"
+        ],
         "tags": [
             "2.1.2",
             "3.4",
             "3.5.1",
             "Yaqulek, Yaqulget, Tengmiat, Tengmiat -- Birds",
             "5.4.4",
-            "8.5.1",
+            "Qimugtet Elpegtauciatnek -- Dogs’ Supernatural Sensitivity",
             "9.1.2",
             "9.2",
             "9.5.4",
@@ -4372,7 +4502,7 @@ export const summaries = {
             "Uqren Aarnarqucia -- The Danger of Leeward Sides",
             "11.8.3",
             "11.8.4",
-            "11.9.1",
+            "Teq’um Urumanarqucia -- Keeping Warm with Urine",
             "11.9.2",
             "13.3.1",
             "Enepiaq, Nepiaq -- Sod-House",
@@ -4383,16 +4513,16 @@ export const summaries = {
             "19.5.2",
             "19.5.3",
             "19.6.1",
-            "19.6.6",
+            "Nunat Mer’et-llu Elisngaluki -- Know the Land and Water",
             "19.12",
             "19.13",
             "21.4",
             "22.5",
             "22.7",
-            "22.12.2.1",
+            "Teq’uq -- Urine",
             "22.12.2.2",
             "22.12.2.3",
-            "24.3"
+            "Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife"
         ]
     },
     "cpb-aacip-127-7634tx89.h264": {
@@ -4455,6 +4585,9 @@ export const summaries = {
                 "Qanemciluni melqulegglainarkun kipusvimikun-llu Nick-am akingetullranek, angayuqrita elitnauristeńguciatnek, angayuqamegcetun elliryugngaciatnek, irniami anngaatnun aulukumacimeggnek, eneminek kagiuratullerminek, eruriyaramek-llu keniryaramek-llu.",
                 "Talks about how Nick earned money only through fur hunting and his trading post, how parents are teachers, how children can become like their parents, how her oldest son takes care of them, how she tries to keep the home clean, and washing dishes and cooking."
             ]
+        ],
+        "elderTags": [
+            "Narullgiar Elena Nick -- Nunapitchuk"
         ],
         "tags": [
             "9.4",
@@ -4521,6 +4654,7 @@ export const summaries = {
                 "Talks about Yup’ik land sovriegnty, Yup’ik solidarity despite change, how he would pass on wisdom to the next generations, taking over governence over their school, and teaching one of his grandchildren."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "17.5",
             "6.3.8",
@@ -4530,7 +4664,7 @@ export const summaries = {
             "Kass’at Tekiteqerraallratni -- Early Western Contact",
             "16.4",
             "17.5",
-            "19.3.4.1",
+            "Unguvamayuitut -- They Don’t Live Long",
             "Maligtaqustiin Yuunertucia -- Those Who Heed Advice Live Long",
             "19.11",
             "19.13.11",
@@ -4600,21 +4734,24 @@ export const summaries = {
                 "Talks about how every person struggles, to remember and support those who struggle with mental health, and to keep each other in mind."
             ]
         ],
+        "elderTags": [
+            "Nauyaq Anna Andrew -- Tuntutuliak"
+        ],
         "tags": [
             "3.2",
             "3.12.1",
             "Ellam Yua, Cellam Yua, Cillam Cua -- Spirit of the Universe",
             "9.8",
             "9.9",
-            "10.12.1",
+            "Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod",
             "16.4",
             "16.5",
             "19.5.5",
-            "19.6.5.1",
+            "Uqlam Yugmun Nepucuilucia -- Dirt Doesn’t Stick to People",
             "Calrunani Unguvamaniartuq -- To Live and Long and Healthy Life",
             "19.6.9",
             "19.7.2",
-            "19.11.2",
+            "Menuurcuitut -- They Don’t Become Impure",
             "19.13.12",
             "21.6",
             "22.6.1",
@@ -4702,6 +4839,9 @@ export const summaries = {
                 "Talks about how victory songs were fast, how each kill during war earned a tattoo, how some people including Apanuugpak came across a man from the Kuskokwim with a war tattoo, and closing thanks."
             ]
         ],
+        "elderTags": [
+            "Kunuin Phillip Charlie Sr -- Tuntutuliak"
+        ],
         "tags": [
             "8.1.3",
             "Tuunriyaraq, Angalkiryaraq -- Shamanistic Acts, Rituals",
@@ -4721,7 +4861,7 @@ export const summaries = {
             "20.2.4.1",
             "20.2.5",
             "20.7",
-            "20.8",
+            "Itruka’ar -- Inviting-In Feast",
             "21.2.1"
         ]
     },
@@ -4784,6 +4924,7 @@ export const summaries = {
                 "Talks about how her lover would do her chores for her, how An’arissuun performed a shamanic ritual on her, her lover appearing from the tunnel entrance during the ritual, the shaman sending a decoy woman to distract her lover and a decoy man to stay with her, and how she got better after the ritual."
             ]
         ],
+        "elderTags": [],
         "tags": [
             "8.1",
             "8.4",
@@ -4826,6 +4967,9 @@ export const summaries = {
                 "Qanemciluni allamiaquaqan uqukun iluteng carrilaucimeggnek, irniani-llu tuatnalaucimeggnek, uqumun anarceqaarluteng neqem imarkuaranek yuurqatucimeggnek, iluminek anallmi ayuquciitnek, mumiggluki-llu.",
                 "Talks about clearing out the digestive tract with seal oil once a year, carrying this on with her children, drinking fish broth after defecating from seal oil, the kind of feces that were cleared from her tract, and translation."
             ]
+        ],
+        "elderTags": [
+            "Urutaq Lucy Beaver -- Bethel"
         ],
         "tags": [
             "Naunraat Atsat-llu -- Plants and Berries",

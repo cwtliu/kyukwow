@@ -47,7 +47,7 @@ Ellavut -- Weather, Climate
 		Nunam Ataniuryaraa -- Land Governance
 	Ulerpak -- Flood
 	Ellarrluk -- Good Weather Being Bad
-	Qilagkun Sass’aq -- Measuring Time with the Sky
+	Qilagkun Sass'aq -- Measuring Time with the Sky
 		Akerta -- Sun
 		Iraluq -- Moon
 Yuut -- People
@@ -118,7 +118,7 @@ Ukverput, Agayuliyaraq -- Spirituality
 		Unatellget -- Healing Hands
 		Tuunriyaraq, Angalkiyaraq -- Shamanistic Acts, Rituals
 	Alangru, Aliurtuq -- Ghost, Haunting
-		Qimugtet Elpegtauciatnek -- Dogs’ Supernatural Sensitivity
+		Qimugtet Elpegtauciatnek -- Dogs' Supernatural Sensitivity
 	Aviukaryaraq -- Food And Water Offering
 Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence
 	Pissuryaraq -- Hunting
@@ -163,7 +163,7 @@ Neqkiuryaraq -- Food Preparation
 	Ungangkengaita Auluksarait -- Taking Care of Catch
 	Aulukumanrilnguut Assiirutarkauciat -- Neglected Food Will Spoil
 	Neqallret -- Scraps
-		Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod
+		Tutmarngailngurmun Ciqicarait -- Disposal Where People Won't Trod
 Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 	Qercuaneq, Qercualleq -- Frostbite
 	Kit'elleq -- Falling Into Water
@@ -182,12 +182,12 @@ Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 		Qanikcaam Acian Epsalngunarqucia -- Suffocating Under Snow
 		Utetmun Nallunailkuciryaraq -- Marking the Homeward Direction
 	Qerruyaraq -- Freezing to Death
-		Teq’um Urumanarqucia -- Keeping Warm with Urine
+		Teq'um Urumanarqucia -- Keeping Warm with Urine
 		Qerruqatalriit Puqlamun Pivkenaki -- Do Not Put Hypothermic People Near Heat
 Imarpik -- Ocean, Sea
 	Imarpigmi Anangnaqsaraq -- Survival (Ocean)
 		Elegcik -- Gaff
-		Ket’garyaraq -- Waterproofing a Kayak with a Rain Parka
+		Ket'garyaraq -- Waterproofing a Kayak with a Rain Parka
 		Pugtautet -- Life Vests, Floatation Devices
 Tuqu Naulluun-llu, Qenan-llu -- Death & Sickness
 	Tungmagciyaraq -- Burial
@@ -275,8 +275,8 @@ Ukverput -- Traditional Beliefs
 		Akusrarun -- Mischief, Misconduct
 			Nunalgutkenrilkemeggnun Nallunailuciit -- Being Widely Known
 		Aipangvailegmeng Akusrarcaraq -- Premarital Sex
-		Qanrucunailnguut -- Those Who Don’t Heed Advice
-			Unguvamayuitut -- They Don’t Live Long
+		Qanrucunailnguut -- Those Who Don't Heed Advice
+			Unguvamayuitut -- They Don't Live Long
 		Cacetulriim Arenqiallugtellerkaa -- Misfortune from Overconfidence
 		Cigyak -- Split Spruce Blocking Door During Instruction
 		Caniqerrilin, Caniqerrilitaq -- Woven Grass Belt Blocking Door During Instruction
@@ -286,7 +286,7 @@ Ukverput -- Traditional Beliefs
 	Qanruyutet, Qaneryarat -- Traditional Wisdom, Wise Words
 		Piciuyaraq -- Truthfulness
 		Qigcikiyaraq -- Respect
-			Qantamitun Pitarrluku -- As Much as One’s Own Bowl
+			Qantamitun Pitarrluku -- As Much as One's Own Bowl
 		Umyuartuyaraq -- Being Sensible
 		Maligtaqustiin Yuunertutucia -- Those Who Heed Advice Live Long
 			Keggukarangelria -- One So Old They Grow a New Set of Teeth
@@ -297,8 +297,8 @@ Ukverput -- Traditional Beliefs
 		Neqem, Neqkam Uqlautenritlkerkaa -- Not to Make a Mess with Food, Food Sources
 		Qessaicaraq -- Not Being Lazy
 		Enem Ilua Carrirturyaraa -- Keeping the House Clean
-			Uqlam Yugmun Nepucuilucia -- Dirt Doesn’t Stick to People
-		Nunat Mer’et-llu Elisngaluki -- Know the Land and Water
+			Uqlam Yugmun Nepucuilucia -- Dirt Doesn't Stick to People
+		Nunat Mer'et-llu Elisngaluki -- Know the Land and Water
 		Tangvagluteng Elicungcaryaraq -- Learning through Observation
 		Cauryaraq -- Keeping Busy, Doing Chores
 			Calrunani Unguvamaniartuq -- To Live a Long and Healthy Life
@@ -316,7 +316,7 @@ Ukverput -- Traditional Beliefs
 		Kenkucaraq -- Loving Each Other
 	Kevgiurturyaraq -- Serving Others
 		Akingellarkani Umyuaqevkenaku -- Do Not Expect Payment
-		Menuurcuitut -- They Don’t Become Impure
+		Menuurcuitut -- They Don't Become Impure
 	Naklekiyaraq -- Compassion
 	Inerquutet -- Admonishments
 		Teglegyaraq -- Stealing
@@ -326,12 +326,12 @@ Ukverput -- Traditional Beliefs
 		Qessayaraq -- Laziness
 		Ellminek Ataneqsaraq, Umyugiuryaraq -- Being Self-Interested
 		Nuyavvliisqevkenaki -- Keep Hair Kempt
-		Erurirraarluteng Neq’liuryaraq -- Handle Food with Clean Hands
+		Erurirraarluteng Neq'liuryaraq -- Handle Food with Clean Hands
 		Qumaqicaraq -- Sex Craze
 		Nepaunani Yuuyaraq -- Living without Commotion
 		Quyigingnaqsaraq -- Pride
 		Kiuyaraq, Kiutaaryaraq -- Talking Back
-		Tan’gaurluut Nasaurluut-llu Allakarluteng -- Boys and Girls Separate
+		Tan'gaurluut Nasaurluut-llu Allakarluteng -- Boys and Girls Separate
 		Eyurucaraq -- Defending Children
 			Iqlungarituut -- They Become Liars
 	Takaqiyaraq -- Respect
@@ -340,7 +340,7 @@ Ukverput -- Traditional Beliefs
 		Yuut Cimillerkaat -- People Will Change
 		Ellarrluk -- Bad Weather
 	Eyat, Eyaryaraq -- Tattoos, Tattooing
-		Tamlurutet -- Women’s Chin Tattoos
+		Tamlurutet -- Women's Chin Tattoos
 		Anguyalriani Yugtellriit -- Kills During War
 Kalukat -- Celebrations, Gatherings
 	Kevgiq, Kevgiryaraq -- Messenger Feast
@@ -359,7 +359,7 @@ Kalukat -- Celebrations, Gatherings
 	Ingulagyagaq -- Ingulak Festival
 	Uqiquryaraq -- Seal Party
 	Pitqerraallret -- First Catches
-	Itruka’ar -- Inviting-In Feast
+	Itruka'ar -- Inviting-In Feast
 Ilaliuryaraq -- Social Structure
 	Ciuniuryaraq -- Welcoming Guests
 	Qasgiq, Qaygiq -- Community or Men's House
@@ -388,10 +388,10 @@ Calricaraq -- Health & Wellness
 	Piunrissiyaayuitellrat Naulluussiyaayuunateng-llu -- Fewer Death and Sickness
 	Yuungcarviit -- Clinics & Hospitals
 	Iinrut -- Medicine
-		Kass’artaat -- Western Medicine
+		Kass'artaat -- Western Medicine
 			Tabasco -- Tabasco Sauce
-		Yugtaat -- Yup’ik Remedies
-			Teq’uq -- Urine
+		Yugtaat -- Yup'ik Remedies
+			Teq'uq -- Urine
 			Caqlaq -- Rosewort
 			Uquq -- Seal Oil
 			Atsaruaq -- False Chamomile
@@ -421,4 +421,4 @@ Qalartellret Atrit -- Names of Speakers
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue
 	Yup'ik Nation
-	Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife
+	Neq'liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife
