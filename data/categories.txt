@@ -396,9 +396,7 @@ Calricaraq -- Health & Wellness
 			Uquq -- Seal Oil
 			Atsaruaq -- False Chamomile
 Qalartellret Atrit -- Names of Speakers
-	Maqista Joshua Phillip -- Tuluksak
-	Ackiar Nick Lupie -- Tuntutuliak
-	Urutaq Lucy Beaver -- Bethel
+	INSERTELDERSHERE
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue
 	Yup'ik Nation

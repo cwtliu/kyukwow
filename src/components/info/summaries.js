@@ -82,7 +82,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.1"
+            "23.13"
         ],
         "tags": [
             "Ac'urunaq Maqista Joshua Phillip",
@@ -168,7 +168,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.2"
+            "23.3"
         ],
         "tags": [
             "Ackiar Nick Lupie",
@@ -241,8 +241,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3",
-            "Yuk 13"
+            "23.27",
+            "23.43"
         ],
         "tags": [
             "Urutaq Lucy Beaver",
@@ -314,7 +314,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 1"
+            "23.31"
         ],
         "tags": [
             "James Guy",
@@ -379,11 +379,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Cingliaq Paul Gregory -- Bethel",
-            "Yuk 2",
-            "Itum'aq Billie McCann -- Napakiak/ Bethel",
-            "Yuk 3",
-            "Paniguaq Peter Jacob -- Bethel"
+            "23.6",
+            "23.32",
+            "23.9",
+            "23.33",
+            "23.22"
         ],
         "tags": [
             "Paul Gregory",
@@ -456,10 +456,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 4",
-            "Yuk 5",
-            "Yuk 6",
-            "23.3"
+            "23.34",
+            "23.35",
+            "23.36",
+            "23.27"
         ],
         "tags": [
             "Kurt Bell",
@@ -534,8 +534,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 7",
-            "Yuk 8"
+            "23.37",
+            "23.38"
         ],
         "tags": [
             "Uliggaq Martha Sarah",
@@ -625,8 +625,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 9",
-            "Yuk 10"
+            "23.39",
+            "23.40"
         ],
         "tags": [
             "Cialuq Paul G. Nicholai",
@@ -716,8 +716,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 11",
-            "23.3"
+            "23.41",
+            "23.27"
         ],
         "tags": [
             "Urutaq Lucy Beaver",
@@ -802,7 +802,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 12"
+            "23.42"
         ],
         "tags": [
             "1.1.1",
@@ -884,7 +884,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 14"
+            "23.44"
         ],
         "tags": [
             "Qavarliaq Johnny K. Guy",
@@ -961,9 +961,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 15",
-            "Ingallaq George Keene -- Kasigluk",
-            "Yuk 16"
+            "23.45",
+            "23.8",
+            "23.46"
         ],
         "tags": [
             "Alciq",
@@ -1010,7 +1010,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 17"
+            "23.47"
         ],
         "tags": [
             "1.1.1",
@@ -1075,7 +1075,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3"
+            "23.27"
         ],
         "tags": [
             "Urutaq Lucy Beaver",
@@ -1149,8 +1149,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 18",
-            "Yuk 19"
+            "23.48",
+            "23.49"
         ],
         "tags": [
             "1.1.2",
@@ -1213,7 +1213,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 20"
+            "23.50"
         ],
         "tags": [
             "Apaqutaq Dick Andrew",
@@ -1263,9 +1263,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 21",
-            "Yuk 22",
-            "Yuk 23"
+            "23.51",
+            "23.52",
+            "23.53"
         ],
         "tags": [
             "1.1.1",
@@ -1311,7 +1311,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Nurataaq Nelson Angapak -- Tuntutuliak/ Anchorage"
+            "23.20"
         ],
         "tags": [
             "Fred Ollie",
@@ -1365,7 +1365,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 24"
+            "23.54"
         ],
         "tags": [
             "Cuukvak",
@@ -1499,18 +1499,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 25",
-            "Possibly Elena Charles -- Bethel",
-            "Mik'aq Eliza Chase -- Bethel",
-            "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Yuk 26",
-            "Yuk 27",
-            "Ilanaq Theresa Moses -- Toksook Bay",
-            "Yuk 28",
-            "Yuk 29",
-            "Yuk 30",
-            "Yuk 31",
-            "Yuk 32"
+            "23.55",
+            "23.23",
+            "23.15",
+            "23.19",
+            "23.56",
+            "23.57",
+            "23.7",
+            "23.58",
+            "23.59",
+            "23.60",
+            "23.61",
+            "23.62"
         ],
         "tags": [
             "1.1.1",
@@ -1580,7 +1580,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 33"
+            "23.63"
         ],
         "tags": [
             "Ayagina'ar",
@@ -1642,7 +1642,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 34"
+            "23.64"
         ],
         "tags": []
     },
@@ -1691,7 +1691,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 35"
+            "23.65"
         ],
         "tags": []
     },
@@ -1747,7 +1747,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Angutevialuk Albert Beaver -- Kwigillingok"
+            "23.5"
         ],
         "tags": []
     },
@@ -1787,7 +1787,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 36"
+            "23.66"
         ],
         "tags": []
     },
@@ -1873,8 +1873,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 62",
-            "Yuk 63"
+            "23.92",
+            "23.93"
         ],
         "tags": []
     },
@@ -1991,8 +1991,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 64",
-            "Yuk 65"
+            "23.94",
+            "23.95"
         ],
         "tags": []
     },
@@ -2061,7 +2061,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Narr'aq Helen Nelson -- Napakiak"
+            "23.17"
         ],
         "tags": []
     },
@@ -2125,7 +2125,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Winifred Beans -- St. Mary's or Mountain Village"
+            "23.29"
         ],
         "tags": []
     },
@@ -2185,7 +2185,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3"
+            "23.27"
         ],
         "tags": []
     },
@@ -2270,13 +2270,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 66",
-            "Yuk 67",
-            "Yuk 68",
-            "Yuk 69",
-            "Yuk 70",
-            "Yuk 71",
-            "Yuk 72"
+            "23.96",
+            "23.97",
+            "23.98",
+            "23.99",
+            "23.100",
+            "23.101",
+            "23.102"
         ],
         "tags": []
     },
@@ -2341,7 +2341,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Ackiar Nick Lupie -- Tuntutukiak"
+            "23.1"
         ],
         "tags": []
     },
@@ -2396,7 +2396,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 37"
+            "23.67"
         ],
         "tags": []
     },
@@ -2516,12 +2516,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 38",
-            "Panigkaq Freda Beaver -- Kwigillingok",
-            "Yuk 39",
-            "Yuk 40",
-            "Yuk 41",
-            "Willie Kasayulie -- Akiachuk"
+            "23.68",
+            "23.21",
+            "23.69",
+            "23.70",
+            "23.71",
+            "23.28"
         ],
         "tags": []
     },
@@ -2608,7 +2608,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 42"
+            "23.72"
         ],
         "tags": []
     },
@@ -2664,7 +2664,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 43"
+            "23.73"
         ],
         "tags": []
     },
@@ -2815,11 +2815,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Narullgiar Elena Nick -- Nunapitchuk",
-            "23.2",
-            "Tam'aq Elizabeth Andrew -- Tuntutuliak",
-            "Yuk 44",
-            "Yuk 45"
+            "23.18",
+            "23.3",
+            "23.26",
+            "23.74",
+            "23.75"
         ],
         "tags": []
     },
@@ -2869,7 +2869,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Mik'aq Eliza Chase -- Bethel"
+            "23.15"
         ],
         "tags": []
     },
@@ -2930,7 +2930,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 46"
+            "23.76"
         ],
         "tags": []
     },
@@ -3005,8 +3005,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Angut'aq Olinka Nickolai -- Kwethluk",
-            "Quriiciq Nickolai K Nickolai -- Kwethluk"
+            "23.4",
+            "23.25"
         ],
         "tags": []
     },
@@ -3081,8 +3081,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 47",
-            "Willie Kasayulie -- Akiachuk"
+            "23.77",
+            "23.28"
         ],
         "tags": []
     },
@@ -3133,8 +3133,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 48",
-            "Yuk 49"
+            "23.78",
+            "23.79"
         ],
         "tags": []
     },
@@ -3219,9 +3219,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 50",
-            "Kukuyar Henry Frank -- Kwethluk",
-            "Lucy Frank -- Kwethluk"
+            "23.80",
+            "23.10",
+            "23.12"
         ],
         "tags": []
     },
@@ -3273,7 +3273,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Matthew Frye -- Napakiak"
+            "23.14"
         ],
         "tags": [
             "7",
@@ -3383,7 +3383,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Ackiar Nick Lupie -- TuntutuliaK"
+            "23.2"
         ],
         "tags": [
             "2.1.2",
@@ -3576,14 +3576,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 51",
-            "Winifred Beans -- St. Mary's or Mt. Village",
-            "Yuk 52",
-            "Yuk 53",
-            "Yuk 54",
-            "Yuk 55",
-            "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Nauyaq Anna Andrew -- Tuntutuliak"
+            "23.81",
+            "23.30",
+            "23.82",
+            "23.83",
+            "23.84",
+            "23.85",
+            "23.19",
+            "23.19"
         ],
         "tags": [
             "3.8",
@@ -3676,7 +3676,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Angutevialuk Albert Beaver -- Kwigillingok"
+            "23.5"
         ],
         "tags": [
             "Yugtun Qalarcaraq -- Yup’ik Language",
@@ -3769,7 +3769,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Possibly Elena Charles -- Bethel"
+            "23.23"
         ],
         "tags": [
             "5.3.1",
@@ -3875,7 +3875,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 56"
+            "23.86"
         ],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
@@ -3956,7 +3956,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Tam'aq Elizabeth Andrew -- Tuntutuliak"
+            "23.26"
         ],
         "tags": [
             "17.5",
@@ -4046,7 +4046,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 73"
+            "23.103"
         ],
         "tags": [
             "2.2.5",
@@ -4200,14 +4200,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 74",
-            "Yuk 75",
-            "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Possibly Winifred Beans -- St. Mary's or Mountain Village",
-            "Yuk 76",
-            "Matthew Frye -- Napakiak",
-            "Nauyaq Anna Andrew -- Tuntutuliak",
-            "Narullgiar Elena Nick -- Nunapitchuk"
+            "23.104",
+            "23.105",
+            "23.19",
+            "23.24",
+            "23.106",
+            "23.14",
+            "23.19",
+            "23.18"
         ],
         "tags": [
             "3.11",
@@ -4279,7 +4279,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 57"
+            "23.87"
         ],
         "tags": [
             "-- Qemagciyaraq -- Storage",
@@ -4353,7 +4353,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 58"
+            "23.88"
         ],
         "tags": [
             "8.1.2",
@@ -4434,7 +4434,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 59"
+            "23.89"
         ],
         "tags": [
             "3.9.2",
@@ -4583,7 +4583,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Mumess'aq Peter John -- Kwigillingok"
+            "23.16"
         ],
         "tags": [
             "2.1.2",
@@ -4688,7 +4688,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Narullgiar Elena Nick -- Nunapitchuk"
+            "23.18"
         ],
         "tags": [
             "9.4",
@@ -4756,7 +4756,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 60"
+            "23.90"
         ],
         "tags": [
             "17.5",
@@ -4838,7 +4838,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Nauyaq Anna Andrew -- Tuntutuliak"
+            "23.19"
         ],
         "tags": [
             "3.2",
@@ -4943,7 +4943,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Kunuin Phillip Charlie Sr -- Tuntutuliak"
+            "23.11"
         ],
         "tags": [
             "8.1.3",
@@ -5028,7 +5028,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "Yuk 61"
+            "23.91"
         ],
         "tags": [
             "8.1",
@@ -5074,7 +5074,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3"
+            "23.27"
         ],
         "tags": [
             "Naunraat Atsat-llu -- Plants and Berries",

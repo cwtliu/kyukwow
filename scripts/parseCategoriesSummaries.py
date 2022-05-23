@@ -408,14 +408,23 @@ def parseCoreySummaries(files):
 			
 
 
-def categoriesXML(filename):
+def categoriesXML(filename, elderNames):
+	tempfilename = '../data/categories-temp.txt'
 	stack = []
 	parse_line = re.compile(r'(?P<tabs>\s*)(?P<title>.*)')
 
 	categories = etree.Element("categories")
 	subcategory = None
 	stack.append(categories)
-	with open(filename, 'r') as file:
+
+	# add elderNames
+	elders = sorted(list(elderNames))
+	data = open(filename, "r").read()
+	data = data.replace("INSERTELDERSHERE",'\n\t'.join(elders))
+	with open(tempfilename, 'w') as out:
+		out.write(data)
+
+	with open(tempfilename, 'r') as file:
 		for line in file:
 			if not line.strip():
 				continue
@@ -479,14 +488,14 @@ def categoriesDictFunc(categoryMasterTree):
 	return categories
 
 
-def addElderIdentification(elderIdentifierFilename, summariesDict, categoriesDict):
+def addElderIdentification(elderIdentifierFilename, summariesDict):
+	elderNames = set()
 	elderCat2Images = defaultdict(list)
 
 	with open(elderIdentifierFilename, mode='r') as file:
 		# csvFile = csv.reader(file, delimiter='\t')
 		reader = csv.DictReader(file, delimiter='\t')
 		
-
 		unknownElderNumber = 1
 		for lineDict in reader:
 			#{'Photo of Elder': '', 
@@ -506,22 +515,26 @@ def addElderIdentification(elderIdentifierFilename, summariesDict, categoriesDic
 			elderString = elderString+" -- "+lineDict['Village'].strip() if elderString else lineDict['Village'].strip()
 			if elderString:		
 				summariesDict[aapb]['elderTags'].append(elderString)
+				elderNames.add(elderString)
 				elderCat2Images[elderString].append(lineDict['Image'].strip())
 			else:
-				elderString = f"Yuk {unknownElderNumber}"
+				elderString = f"Yuk {unknownElderNumber:02d}"
 				unknownElderNumber += 1
+				elderNames.add(elderString)
 				summariesDict[aapb]['elderTags'].append(elderString)
 				elderCat2Images[elderString].append(lineDict['Image'].strip())
 
+
+	return summariesDict, elderNames, elderCat2Images
+
+
+def mixCategoriesSummaries(summaries, categories, elderCat2Images):
+
 	# print(elderCat2Images)
-	for cat in categoriesDict:
-		if categoriesDict[cat]["name"] in elderCat2Images.keys():
-			categoriesDict[cat]["images"] = elderCat2Images[categoriesDict[cat]["name"]]
+	for cat in categories:
+		if categories[cat]["name"] in elderCat2Images.keys():
+			categories[cat]["images"] = elderCat2Images[categoriesDict[cat]["name"]]
 
-	return summariesDict, categoriesDict
-
-
-def mixCategoriesSummaries(categories, summaries):
 	categories_flipped = {cat_value['name']:cat_key for cat_key, cat_value in categories.items()}
 	tags_unsorted = []
 
@@ -560,7 +573,9 @@ def mixCategoriesSummaries(categories, summaries):
 	categoriesUrlLookup = {cat_value['url']:cat_key for cat_key, cat_value in categories.items()}
 
 	categories['unsorted']['tags'] = sorted(list(set(tags_unsorted)))
-	return categories, categoriesUrlLookup, summaries
+
+
+	return summaries, categories, categoriesUrlLookup
 
 
 if __name__ == '__main__':
@@ -570,10 +585,6 @@ if __name__ == '__main__':
 	coreyfolder = '../data/WoW-Corey'
 	coreyfiles = sorted(glob.glob('../data/WoW-Corey/*.docx'))
 	# coreyfiles = [x.replace('../data/WoW-Corey/','') for x in coreyfiles]
-
-	print(f'importing {categoriesFilename}')
-	categoriesXML = categoriesXML(categoriesFilename)
-	categoriesDict = categoriesDictFunc(categoriesXML)
 
 
 	print(f'importing {summariesFilename}')
@@ -591,10 +602,15 @@ if __name__ == '__main__':
 	# 	out.write(f"export const summaries = {json.dumps(summariesDict, indent=4)};")
 
 	print(f'adding elder identification data')
-	summariesDict, categoriesDict = addElderIdentification(elderIdentifierFilename, summariesDict, categoriesDict)
+	summariesDict, elderNames, elderCat2Images = addElderIdentification(elderIdentifierFilename, summariesDict)
+
+	print(f'importing {categoriesFilename}')
+	categoriesXML = categoriesXML(categoriesFilename, elderNames)
+	categoriesDict = categoriesDictFunc(categoriesXML)
+
 
 	print(f'mixing categories and summaries')
-	categories, categoriesUrlLookup, summaries = mixCategoriesSummaries(categoriesDict, summariesDict)
+	summaries, categories, categoriesUrlLookup = mixCategoriesSummaries(summariesDict, categoriesDict, elderCat2Images)
 
 
 	# TODO:
