@@ -18,7 +18,7 @@ export const summaries = {
             [
                 "00:00",
                 "Yugtun qalarcaram tamanritlerkaa",
-                "Yup'ik langauge preservation"
+                "Yup'ik language preservation"
             ],
             [
                 "01:30",

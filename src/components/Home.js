@@ -32,7 +32,18 @@ class Home extends Component {
 			showAllElders: false,
 			categoriesDisplayed: ['1','2','3','4','5','6'],
 			featuredVideos:['cpb-aacip-127-009w0z0q.h264','cpb-aacip-127-00ns1t6z.h264','cpb-aacip-127-010p2r15.h264',],
+			eldersList: [],
 		}
+	}
+
+	componentDidMount() {
+		let eldersList = []
+		Object.keys(categories).map((k) => {
+			if (k.includes('23.')) {
+				eldersList.push(k)
+			}
+		})
+		this.setState({eldersList:eldersList})
 	}
 
 	featuredVideos = (featuredVideos) => {
@@ -94,6 +105,8 @@ class Home extends Component {
 	}
 
 	render() {
+		console.log(this.state)
+
 		return (
 			<div className='home'>
 
@@ -110,6 +123,38 @@ class Home extends Component {
 				<h1 className='yugtatun'>Tegganret Qalartellret - <i>Elder Speakers</i></h1>
 
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+				{this.state.eldersList.map((y,yindex) => (
+					(yindex < 12 ?
+						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
+							<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
+							<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+							<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+							</Link>
+						</div>
+						:
+						null
+					)
+				))}
+				{this.state.showMoreElders ?
+					(this.state.eldersList.map((y,yindex) => (
+						(yindex > 11 ?
+							<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
+								<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
+								<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+								</Link>
+							</div>
+							:
+							null
+						)
+					)))
+					:
+					null
+	      }
+				</div>
+
+
+{/*				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 				{Object.keys(YouTubeLinks).map((y,yindex) => (
 					(yindex < 12 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px'}}>
@@ -142,7 +187,7 @@ class Home extends Component {
 					:
 					null
 	      }
-				</div>
+				</div>*/}
 
 				{this.state.showMoreElders ?
 					null
