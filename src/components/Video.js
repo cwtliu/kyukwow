@@ -460,6 +460,13 @@ class Video extends Component {
     // }
     return (
       <div className='about'>
+        <div style={{display:'flex'}}>
+          <span style={{fontSize:'16px',color:'#333333',fontStyle:'italic',fontFamily:"'Roboto',Arial, Helvetica"}}>
+          {"This website is an archive of translated and transcribed Yup'ik elder interviews. You can click a Yup'ik word to see its translation or click the\xa0\xa0"}
+          <Icon style={{color:'#d4d4d4'}} name='comment alternate outline' />
+          {'icon to see sentence translations.'}
+          </span>
+        </div>
       <div style={{display:'flex',justifyContent:'center',marginBottom:'10px'}}>
       <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px'}}>Audio Only</span>
       <Checkbox toggle checked={!this.state.videoOnly} onClick={()=>{this.setState({videoOnly:!this.state.videoOnly})}} />

@@ -31,7 +31,7 @@ class Home extends Component {
 			show: false,
 			showAllElders: false,
 			categoriesDisplayed: ['1','2','3','4','5','6'],
-			featuredVideos:['cpb-aacip-127-009w0z0q.h264','cpb-aacip-127-00ns1t6z.h264','cpb-aacip-127-010p2r15.h264',],
+			featuredVideos:['cpb-aacip-127-009w0z0q.h264','cpb-aacip-127-00ns1t6z.h264','cpb-aacip-127-010p2r15.h264','cpb-aacip-127-65v6x4wh.h264'],
 			eldersList: [],
 		}
 	}
@@ -46,63 +46,89 @@ class Home extends Component {
 		this.setState({eldersList:eldersList})
 	}
 
-	featuredVideos = (featuredVideos) => {
-		return (
-		featuredVideos.map((x,xind) => <Grid.Row  columns={2} key={xind}>
-		  		<Grid.Column width={6}>
-			    	<Image style={{width:'250px',borderRadius:'15px'}} src='/images/popularVideo1.png' />
-			    </Grid.Column>
-			    <Grid.Column width={10}>
-				    <div>
-		  				<h4>{summaries[x].title}</h4>
-
-          {summaries[x].tags.map((y)=>(
-            y in categories ?
-            <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-              <Button basic compact>
-              {categories[y].name.replaceAll('--','—')}
-              </Button>
-            </Link>
-            :
-            null
-          ))}
-
-					    <span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].summary[0][1]}</span>
+	summariesRetrieval = (x, index) => {
+				return (<span> 
+							<span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].summary[index][1]}</span>
 		          <Popup
 		            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
 		            on='click'
-		            content={<div style={{fontSize:'16px'}}>{summaries[x].summary[0][2]}</div>}
+		            content={<div style={{fontSize:'16px'}}>{summaries[x].summary[index][2]}</div>}
 		            position='bottom left'
-		          />					    
-						</div>
-					</Grid.Column>
-		  </Grid.Row>		
+		          />
+		          </span>
 			)
-		)
 	}
 
-	featuredVideos1 = (featuredVideos) => {
+	featuredVideos = (x,xind) => {
+		var stringLengthCounter = 0
+		var upToIndex = 0
+		while (stringLengthCounter < 300 && upToIndex < summaries[x].summary.length) {
+			// if (summaries[x].summary[upToIndex-1][1])
+			// console.log(upToIndex,stringLengthCounter,  summaries[x].summary.length )
+			// console.log(typeof(summaries[x].summary[upToIndex-1][1].length))
+			stringLengthCounter += summaries[x].summary[upToIndex][1].length
+			// stringLengthCounter += 100
+			upToIndex += 1
+			console.log(upToIndex)
+		}
+		console.log(upToIndex)
 		return (
-		featuredVideos.map((x,xind) => <Grid.Row  columns={2} key={xind}>
-		  		<Grid.Column width={6}>
-			    	<Image style={{width:'250px',borderRadius:'15px'}} src='/images/popularVideo1.png' />
-			    </Grid.Column>
+			<Grid container>
+				<Grid.Row columns={2} key={xind}>
+		  		<Grid.Column style={{display:'flex',justifyContent:'center'}} width={6}>
+						<Link to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
+							<Image style={{borderRadius:'10px',maxWidth:'240px'}} src={"https://img.youtube.com/vi/"+
+							YouTubeLinks[x].split(".be/")[1]
+							+"/hqdefault.jpg"} />
+						</Link>			    
+					</Grid.Column>
 			    <Grid.Column width={10}>
 				    <div>
 		  				<h4>{summaries[x].title}</h4>
-					    <span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].yugtun['summary']}</span>
-		          <Popup
-		            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-		            on='click'
-		            content={<div style={{fontSize:'16px'}}>{summaries[x].english.summary[0]}</div>}
-		            position='bottom left'
-		          />					    
+		  				{Array.from({length: upToIndex}, (_, i) => i ).map((y) => this.summariesRetrieval(x,y) )}			    
 						</div>
 					</Grid.Column>
-		  </Grid.Row>		
-			)
+		  	</Grid.Row>		
+		  	<Grid.Row style={{display:'flex',justifyContent:'center'}}>
+			  {summaries[x].tags.map((y)=>(
+          y in categories ?
+          <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+            <Button basic compact>
+            {categories[y].name.replaceAll('--','—')}
+            </Button>
+          </Link>
+          :
+          null
+        ))}
+		  	 </Grid.Row>
+		  </Grid>
 		)
 	}
+
+	// featuredVideos1 = (featuredVideos) => {
+	// 	return (
+	// 	featuredVideos.map((x,xind) => <Grid container>
+	// 			<Grid.Row  columns={2} key={xind}>
+	// 	  		<Grid.Column width={6}>
+	// 		    	<Image style={{width:'250px',borderRadius:'15px'}} src='/images/popularVideo1.png' />
+	// 		    </Grid.Column>
+	// 		    <Grid.Column width={10}>
+	// 			    <div>
+	// 	  				<h4>{summaries[x].title}</h4>
+	// 				    <span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].yugtun['summary']}</span>
+	// 	          <Popup
+	// 	            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+	// 	            on='click'
+	// 	            content={<div style={{fontSize:'16px'}}>{summaries[x].english.summary[0]}</div>}
+	// 	            position='bottom left'
+	// 	          />					    
+	// 					</div>
+	// 				</Grid.Column>
+	// 	  	</Grid.Row>		
+	// 	  </Grid>
+	// 		)
+	// 	)
+	// }
 
 	render() {
 		console.log(this.state)
@@ -110,17 +136,8 @@ class Home extends Component {
 		return (
 			<div className='home'>
 
-				<div style={{display:'flex'}}>
-					<span style={{fontSize:'16px',color:'#333333',fontStyle:'italic',fontFamily:"'Roboto',Arial, Helvetica"}}>
-					{"This website is an archive of translated and transcribed Yup'ik elder interviews. You can click a Yup'ik word to see its translation or click the\xa0\xa0"}
-					<Icon style={{color:'#d4d4d4'}} name='comment alternate outline' />
-					{'icon to see sentence translations.'}
-					</span>
-				</div>
-
-				<Divider />
-
-				<h1 className='yugtatun'>Tegganret Qalartellret - <i>Elder Speakers</i></h1>
+				<div className='yugtatun'>Tegganret Qalartellret</div>
+				<div className='yugtatunsub'>Elder Speakers</div>
 
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 				{this.state.eldersList.map((y,yindex) => (
@@ -204,7 +221,9 @@ class Home extends Component {
 
 				<Divider />
 
-				<h1 className='yugtatun'>Suut Allakaryarat - <i>Video Categories</i></h1>
+				<div className='yugtatun'>Suut Allakaryarat</div>
+				<div className='yugtatunsub'>Video Categories</div>
+
 
 					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 						{this.state.categoriesDisplayed.map((j) => (
@@ -233,10 +252,11 @@ class Home extends Component {
 
 				<Divider />
 
-				<h1 className='yugtatun'>Suurarkat - <i>Featured Videos</i></h1>
+				<div className='yugtatun'>Suurarkat</div>
+				<div className='yugtatunsub'>Featured Videos</div>
 
 				<Container className='featured-video'>
-					<Grid container>{this.featuredVideos(this.state.featuredVideos)}</Grid>
+					{this.state.featuredVideos.map((x,xind)=>this.featuredVideos(x,xind))}
 				</Container>
 
 				<Divider style={{marginTop:'24px'}} />

@@ -50,9 +50,30 @@ html {
 }
 
 .yugtatun {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   color: #333333;
 }
+
+.yugtatunsub {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 10px;
+  font-weight:500;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 28px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+
 
 .reader-text {
   font-size:25px;
