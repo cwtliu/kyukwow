@@ -37,9 +37,11 @@ class CategoryLibrary extends Component {
 			      </Button>
 			      </Link>
 				  </Button.Group>
-					<h1 className='yugtun'>QQ-am Suut Allakaryarat</h1>
-					<h1 className='yugtatun'>WoW Video Categories</h1>
-					<div className='categoryGrid'>
+				<div className='yugtatun'>Suut Allakaryarat</div>
+				<div className='yugtatunsub'>Video Categories</div>
+
+
+					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
@@ -52,6 +54,8 @@ class CategoryLibrary extends Component {
 							</div>
 						))}
 					</div>
+
+
 				</Container>
 				<Divider />
 

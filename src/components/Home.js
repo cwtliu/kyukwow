@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
+import { FeaturedVideos } from './Helpers.js';
 
 
 // const categories = _.times(6, (i) => (
@@ -46,64 +47,114 @@ class Home extends Component {
 		this.setState({eldersList:eldersList})
 	}
 
-	summariesRetrieval = (x, index) => {
-				return (<span> 
-							<span style={{fontFamily:"'Roboto',Arial, Helvetica"}}>{summaries[x].summary[index][1]}</span>
-		          <Popup
-		            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-		            on='click'
-		            content={<div style={{fontSize:'16px'}}>{summaries[x].summary[index][2]}</div>}
-		            position='bottom left'
-		          />
-		          </span>
-			)
-	}
+	// summariesRetrieval = (x, index) => {
+	// 			return (<span> 
+	// 						<span style={{fontFamily:"'Roboto',Arial, Helvetica",fontSize:'14px'}}>{summaries[x].summary[index][1]}</span>
+	// 	          <Popup
+	// 	            trigger={<Icon style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+	// 	            on='click'
+	// 	            content={<div style={{fontSize:'16px'}}>{summaries[x].summary[index][2]}</div>}
+	// 	            position='bottom left'
+	// 	          />
+	// 	          </span>
+	// 		)
+	// }
 
-	featuredVideos = (x,xind) => {
-		var stringLengthCounter = 0
-		var upToIndex = 0
-		while (stringLengthCounter < 300 && upToIndex < summaries[x].summary.length) {
-			// if (summaries[x].summary[upToIndex-1][1])
-			// console.log(upToIndex,stringLengthCounter,  summaries[x].summary.length )
-			// console.log(typeof(summaries[x].summary[upToIndex-1][1].length))
-			stringLengthCounter += summaries[x].summary[upToIndex][1].length
-			// stringLengthCounter += 100
-			upToIndex += 1
-			console.log(upToIndex)
-		}
-		console.log(upToIndex)
-		return (
-			<Grid container>
-				<Grid.Row columns={2} key={xind}>
-		  		<Grid.Column style={{display:'flex',justifyContent:'center'}} width={6}>
-						<Link to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
-							<Image style={{borderRadius:'10px',maxWidth:'240px'}} src={"https://img.youtube.com/vi/"+
-							YouTubeLinks[x].split(".be/")[1]
-							+"/hqdefault.jpg"} />
-						</Link>			    
-					</Grid.Column>
-			    <Grid.Column width={10}>
-				    <div>
-		  				<h4>{summaries[x].title}</h4>
-		  				{Array.from({length: upToIndex}, (_, i) => i ).map((y) => this.summariesRetrieval(x,y) )}			    
-						</div>
-					</Grid.Column>
-		  	</Grid.Row>		
-		  	<Grid.Row style={{display:'flex',justifyContent:'center'}}>
-			  {summaries[x].tags.map((y)=>(
-          y in categories ?
-          <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-            <Button basic compact>
-            {categories[y].name.replaceAll('--','—')}
-            </Button>
-          </Link>
-          :
-          null
-        ))}
-		  	 </Grid.Row>
-		  </Grid>
-		)
-	}
+	// featuredVideos = (x,xind) => {
+	// 	var stringLengthCounter = 0
+	// 	var upToIndex = 0
+	// 	while (stringLengthCounter < 300 && upToIndex < summaries[x].summary.length) {
+	// 		stringLengthCounter += summaries[x].summary[upToIndex][1].length
+	// 		upToIndex += 1
+	// 	}
+	// 	return (
+	//      (window.innerWidth < 480 ?
+	// 			<Grid style={{marginTop:30,marginBottom:30}} container>
+	// 				<Grid.Row key={xind}>
+	// 		  		<Grid.Column style={{display:'flex',justifyContent:'center'}}>
+	// 						<Link style={{maxWidth:'240px'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
+	// 							<Image style={{borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+	// 							YouTubeLinks[x].split(".be/")[1]
+	// 							+"/hqdefault.jpg"} />
+	// 						</Link>			    
+	// 					</Grid.Column>
+	// 		  	</Grid.Row>		
+	// 		  	<Grid.Row>
+	// 			    <Grid.Column>
+	// 				    	<Link style={{display:'flex',justifyContent:'center',color:'black'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
+	// 		  					<div style={{fontSize:'16px',fontWeight:'600',paddingBottom:10}}>{summaries[x].title}</div>
+	// 		  				</Link>
+	// 		  				{Array.from({length: upToIndex}, (_, i) => i ).map((y) => this.summariesRetrieval(x,y) )}
+	// 		  				{'. . .'}    
+	// 					</Grid.Column>
+	// 		  	</Grid.Row>
+	// 		  	<Grid.Row style={{display:'flex',justifyContent:'center'}}>
+	// 		  	<div style={{maxWidth:700,textAlign:'center',lineHeight:'34px'}}>
+	// 			  {summaries[x].tags.map((y)=>(
+	//           y in categories ?
+	//           <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+	//             <Button basic compact>
+	//             {categories[y].name.replaceAll('--','—')}
+	//             {/*{categories[y].name.split(' -- ')[0]}*/}
+	//             </Button>
+	//           </Link>
+	//           :
+	//           null
+	//         ))}
+ //          <Popup
+ //            trigger={<Icon style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+ //            on='click'
+ //            content={<div style={{fontSize:'16px'}}>{''}</div>}
+ //            position='bottom left'
+ //          />
+	// 		  	</div>
+	// 		  	</Grid.Row>
+	// 		  </Grid>
+	// 		  :
+	// 			<Grid style={{marginTop:30,marginBottom:30}} container>
+	// 				<Grid.Row columns={2} key={xind}>
+	// 		  		<Grid.Column style={{display:'flex',justifyContent:'flex-end'}} width={6}>
+	// 						<Link style={{maxWidth:'240px'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
+	// 							<Image style={{borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
+	// 							YouTubeLinks[x].split(".be/")[1]
+	// 							+"/hqdefault.jpg"} />
+	// 						</Link>			    
+	// 					</Grid.Column>
+	// 			    <Grid.Column width={10}>
+	// 				    <div style={{maxWidth:450}}>
+	// 				    	<Link style={{color:'black'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
+	// 		  					<div style={{fontSize:'16px',fontWeight:'600',paddingBottom:10}}>{summaries[x].title}</div>
+	// 		  				</Link>
+	// 		  				{Array.from({length: upToIndex}, (_, i) => i ).map((y) => this.summariesRetrieval(x,y) )}
+	// 		  				{'. . .'}    
+	// 						</div>
+	// 					</Grid.Column>
+	// 		  	</Grid.Row>		
+	// 		  	<Grid.Row style={{display:'flex',justifyContent:'center'}}>
+	// 		  	<div style={{maxWidth:700,textAlign:'center',lineHeight:'34px'}}>
+	// 			  {summaries[x].tags.map((y)=>(
+	//           y in categories ?
+	//           <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+	//             <Button basic compact>
+	//             {/*{categories[y].name.replaceAll('--','—')}*/}
+	//             {categories[y].name.split(' -- ')[0]}
+	//             </Button>
+	//           </Link>
+	//           :
+	//           null
+	//         ))}
+ //          <Popup
+ //            trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+ //            on='click'
+ //            content={summaries[x].tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+ //            position='bottom left'
+ //          />
+	// 		  	</div>
+	// 		  	</Grid.Row>
+	// 		  </Grid>
+	// 		)
+	// 	)
+	// }
 
 	// featuredVideos1 = (featuredVideos) => {
 	// 	return (
@@ -255,9 +306,7 @@ class Home extends Component {
 				<div className='yugtatun'>Suurarkat</div>
 				<div className='yugtatunsub'>Featured Videos</div>
 
-				<Container className='featured-video'>
-					{this.state.featuredVideos.map((x,xind)=>this.featuredVideos(x,xind))}
-				</Container>
+					{this.state.featuredVideos.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
