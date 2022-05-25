@@ -18,7 +18,7 @@ export const summaries = {
             [
                 "00:00",
                 "Yugtun qalarcaram tamanritlerkaa",
-                "Yup'ik language preservation"
+                "Yup'ik langauge preservation"
             ],
             [
                 "01:30",
@@ -82,12 +82,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.13"
+            "23.23"
         ],
         "tags": [
-            "Ac'urunaq Maqista Joshua Phillip",
             "1.1.1",
-            "2.2.7",
             "Yugtun Qalarcaraq -- Yup'ik Langauge",
             "19.9",
             "19.12",
@@ -168,12 +166,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3"
+            "23.1"
         ],
         "tags": [
-            "Ackiar Nick Lupie",
             "1.1.1",
-            "2.2.3",
             "3.1.2",
             "Uksuilleq -- Fall Camp",
             "17.1.6",
@@ -241,14 +237,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.27",
-            "23.43"
+            "23.44",
+            "23.17"
         ],
         "tags": [
-            "Urutaq Lucy Beaver",
-            "Joe Andrew",
             "1.1.1",
-            "2.2.5",
             "19.10",
             "19.6.2",
             "15.2",
@@ -314,12 +307,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.31"
+            "23.16"
         ],
         "tags": [
-            "James Guy",
             "1.1.1",
-            "2.2.1",
             "Qasgiq, Qaygiq -- Community, Men's House",
             "19.13.1",
             "8.4",
@@ -339,10 +330,10 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Quyurtellratni ukut angutet qalartellruut: Paul Gregory quyurtellrat ayagnillrua tua-llu [Yuk1 - Peter], yuartet pitekluki, quyavikellrua kevgaq ikayuutelallruan. Taum kinguani James Peter ayuqucirturillruuq kitellriamun alerquutnek allanek-llu qanruyutnek, tua-llu Fred Evan quyavikellrui yuartet. Nangnermek [Yuk2] qimugten̄ek qimugciryaramek-llu qalartellruuq qanemciluni-llu alangrullerminek iternerkun tua-llu Paul Gregory cali qimugten̄ek qalartenqigterraarluni quyurtellrat arulaircetaa."
+                    "Quyurtellratni ukut angutet qalartellruut: Paul Gregory quyurtellrat ayagnillrua tua-llu [Yuk1 - Peter], yuartet pitekluki, quyavikellrua kevgaq ikayuutelallruan. Taum kinguani Billie McCann ayuqucirturillruuq kitellriamun alerquutnek allanek-llu qanruyutnek, tua-llu Fred Evan quyavikellrui yuartet. Nangnermek [Yuk2] qimugten̄ek qimugciryaramek-llu qalartellruuq qanemciluni-llu alangrullerminek iternerkun tua-llu Paul Gregory cali qimugten̄ek qalartenqigterraarluni quyurtellrat arulaircetaa."
                 ],
                 [
-                    "In this conference, these men talked: Paul Gregory began the conference and then [Person1 - Peter], on behalf of the Search and Rescue team, thanked a helper that was always helping out. After that, James Peter instructed about what to do when someone falls into water and other words of wisdom, then Fred Evan thanked the searchers. Lastly [Person2] talked about dogs and dog mushing along with a story of when he had a supernatural experience with a cold draft, and then after Paul Gregory again talked about dogs, he adjourned the conference."
+                    "In this conference, these men talked: Paul Gregory began the conference and then [Person1 - Peter], on behalf of the Search and Rescue team, thanked a helper that was always helping out. After that, Billie McCann instructed about what to do when someone falls into water and other words of wisdom, then Fred Evan thanked the searchers. Lastly [Person2] talked about dogs and dog mushing along with a story of when he had a supernatural experience with a cold draft, and then after Paul Gregory again talked about dogs, he adjourned the conference."
                 ]
             ]
         },
@@ -359,8 +350,8 @@ export const summaries = {
             ],
             [
                 "03:55",
-                "[James Peter] Yuk kiskan ayuqucirtuutet; \"Cacetulria-gguq arenqiallugtellerkaminun tau͡gaam tekitaatuuq.\"",
-                "[James Peter] Instructions for when a person falls into the water; \"A self-confident person only comes upon misfortune.\""
+                "[Billie McCann] Yuk kiskan ayuqucirtuutet; \"Cacetulria-gguq arenqiallugtellerkaminun tau͡gaam tekitaatuuq.\"",
+                "[Billie McCann] Instructions for when a person falls into the water; \"A self-confident person only comes upon misfortune.\""
             ],
             [
                 "08:11",
@@ -379,16 +370,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.6",
-            "23.32",
-            "23.9",
-            "23.33",
-            "23.22"
+            "23.8",
+            "23.34",
+            "23.15",
+            "23.12",
+            "23.33"
         ],
         "tags": [
-            "Paul Gregory",
-            "James Peter",
-            "Fred Evan",
             "1.1.1",
             "24.1",
             "11",
@@ -406,23 +394,23 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Quyurtellratni ukut yuut qalartellruut: [Yuk1] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Yuk1] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Larissa-m, qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet’laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
+                    "Quyurtellratni ukut yuut qalartellruut: [Joe Andrew] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Joe Andrew] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Mik'am (Eliza Chase), qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet’laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
                 ],
                 [
-                    "In the conference, these people talked: [Person1] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Person1], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Larissa encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
+                    "In the conference, these people talked: [Joe Andrew] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Joe Andrew], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Eliza Chase (Mik'aq) encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
                 ]
             ]
         },
         "summary": [
             [
                 "00:00",
-                "[Yuk1] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
-                "[Person1] The custom of wiping the saliva of the brown or black bear on their faces"
+                "[Joe Andrew] Taqukam tan'gerlim-llu nuaganek kegginateng mingugluku piciryarallrat",
+                "[Joe Andrew] The custom of wiping the saliva of the brown or black bear on their faces"
             ],
             [
                 "01:22",
-                "[Kurt Bell, Yuk2, Yuk1] Tan'gaurluq nakacuut ayautellrat; nakacuut",
-                "[Kurt Bell, Person1, Person2] The boy who was taken away by the bladders; seal bladders"
+                "[Kurt Bell, Joe Andrew, Yuk2] Tan'gaurluq nakacuut ayautellrat; nakacuut",
+                "[Kurt Bell, Joe Andrew, Person2] The boy who was taken away by the bladders; seal bladders"
             ],
             [
                 "08:19",
@@ -441,8 +429,8 @@ export const summaries = {
             ],
             [
                 "14:43",
-                "[Larissa] \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
-                "[Larissa] \"It would be beneficial if you let them talk and teach us on KYUK\""
+                "[Mik'aq Eliza Chase] \"Atawauyartuq qanercet'laquvciki ayuqucirturluta KYUK-mi\"",
+                "[Mik'aq Eliza Chase] \"It would be beneficial if you let them talk and teach us on KYUK\""
             ],
             [
                 "16:07",
@@ -456,15 +444,16 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.34",
+            "23.48",
+            "23.17",
+            "23.21",
+            "23.25",
+            "23.10",
+            "23.49",
             "23.35",
-            "23.36",
-            "23.27"
+            "23.44"
         ],
         "tags": [
-            "Kurt Bell",
-            "Edward Weiss",
-            "Phillip Moses",
             "1.1.1",
             "1.1.2",
             "5.3.7",
@@ -534,15 +523,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.37",
-            "23.38"
+            "23.42",
+            "23.19"
         ],
         "tags": [
-            "Uliggaq Martha Sarah",
-            "Kumangulria Matthew",
             "1.1.1",
-            "2.2.5",
-            "2.1.1",
             "Up'nerkaq -- Spring",
             "9.7",
             "3.4",
@@ -625,14 +610,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.39",
-            "23.40"
+            "23.7",
+            "23.30"
         ],
         "tags": [
-            "Cialuq Paul G. Nicholai",
-            "Neviar Qakvaralria Lucy Nicholai",
             "1.1.1",
-            "2.2.1",
             "Up'nerkaq -- Spring",
             "9.7",
             "17.1.1",
@@ -666,23 +648,23 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Yuk1, Urutaq-llu (Lucy Beaver) qalartellruuk Mamterillermi alerquutnek yuilqurmiutarnek, kenciksaraanek nunam, cali-llu aulukiyaramek yaqulegnek kayangunek-llu. Kinguakun Kurt Bell merr'iciyaramek pitanek qalarrluni."
+                    "Joe Andrew, Urutaq-llu (Lucy Beaver) qalartellruuk Mamterillermi alerquutnek yuilqurmiutarnek, kenciksaraanek nunam, cali-llu aulukiyaramek yaqulegnek kayangunek-llu. Kinguakun Kurt Bell merr'iciyaramek pitanek qalarrluni."
                 ],
                 [
-                    "Person1 and Lucy Beaver (Urutaq) talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
+                    "Joe Andrew and Lucy Beaver (Urutaq) talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
                 ]
             ]
         },
         "summary": [
             [
                 "00:54",
-                "[Yuk1] Alerquutet yuilqurmiutaat; qigcikluki caanguaqevkekenaki pitarkat; yuum allam pikenrilkiinek tegutevkenata",
-                "[Person1] Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours"
+                "[Joe Andrew] Alerquutet yuilqurmiutaat; qigcikluki caanguaqevkekenaki pitarkat; yuum allam pikenrilkiinek tegutevkenata",
+                "[Joe Andrew] Instructions for animals of the wilderness; respect and don't waste their catch; do not take what isn't yours"
             ],
             [
                 "06:54",
-                "[Yuk1] \"Meq taicingareskan qanlartukut, 'Iliit-gguq-am imarpigmi pitliniuq.'\"",
-                "[Person1] \"When the water suddenly gets foggy, we say, 'So, someone has caught something in the ocean.'\""
+                "[Joe Andrew] \"Meq taicingareskan qanlartukut, 'Iliit-gguq-am imarpigmi pitliniuq.'\"",
+                "[Joe Andrew] \"When the water suddenly gets foggy, we say, 'So, someone has caught something in the ocean.'\""
             ],
             [
                 "07:45",
@@ -696,18 +678,18 @@ export const summaries = {
             ],
             [
                 "11:47",
-                "[Yuk1] Yaqulget up'nerkami; kuvyallret; negarluki qangqiiret; kayangut; \"Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai\"",
-                "[Person1] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\""
+                "[Joe Andrew] Yaqulget up'nerkami; kuvyallret; negarluki qangqiiret; kayangut; \"Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai\"",
+                "[Joe Andrew] Birds in the spring; old fish nets; snaring/trapping for ptarmigan; eggs; \"They said that if we pollute nature with them, they will not be given to us aymore.\""
             ],
             [
                 "15:41",
-                "[Yuk1] Aulukiyaraq yaqulegnek; yaqulget piyagaat",
-                "[Person1] Taking care of birds; baby birds"
+                "[Joe Andrew] Aulukiyaraq yaqulegnek; yaqulget piyagaat",
+                "[Joe Andrew] Taking care of birds; baby birds"
             ],
             [
                 "18:38",
-                "[Yuk1] Aulukiyaraq kayangunek",
-                "[Person1] Taking care of bird eggs"
+                "[Joe Andrew] Aulukiyaraq kayangunek",
+                "[Joe Andrew] Taking care of bird eggs"
             ],
             [
                 "10:05",
@@ -716,15 +698,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.41",
-            "23.27"
+            "23.17",
+            "23.44",
+            "23.21"
         ],
         "tags": [
-            "Urutaq Lucy Beaver",
-            "Kurt Bell",
             "1.1.1",
             "1.1.2",
-            "2.2.5",
             "19.6",
             "19.9",
             "3.9",
@@ -802,7 +782,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.42"
+            "23.43"
         ],
         "tags": [
             "1.1.1",
@@ -884,12 +864,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44"
+            "23.39"
         ],
         "tags": [
-            "Qavarliaq Johnny K. Guy",
             "1.1.1",
-            "2.2.1",
             "Tuntu -- Reindeer",
             "15.2.1",
             "Qasgiq, Qaygiq -- Community, Men's House",
@@ -911,23 +889,23 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Wani quyurrvigmi pingayun angutet qalartellruut. Ciumek Yuk1 niicugnilriit cingumallrui qalaruqu'uraasqelluuki ayagyuat qanruyutnek Yugtun-llu qalarcaramek. Tua-i-llu kinguani Alciq qalartellruuq waten, takaqluki ayuqucirtuutet teggutekngamteki. Nangnermi Yuk2 qalartellruuq qaillun akaarnun unguvamayugngacimten̄ek."
+                    "Wani quyurrvigmi pingayun angutet qalartellruut. Ciumek Ingallaq (George Keene) niicugnilriit cingumallrui qalaruqu'uraasqelluuki ayagyuat qanruyutnek Yugtun-llu qalarcaramek. Tua-i-llu kinguani Alciq qalartellruuq waten, takaqluki ayuqucirtuutet teggutekngamteki. Nangnermi Yuk2 qalartellruuq qaillun akaarnun unguvamayugngacimten̄ek."
                 ],
                 [
-                    "In this conference, three men talked. First, Person1 encouraged the people listening to keep talking to the youth about the traditional wisdom and the Yup'ik language. Next, Alciq talked about showing respect to our traditional teachings because they are our support. Lastly, Person2 talked about how we can live a long life."
+                    "In this conference, three men talked. First, George Keene (Ingallaq) encouraged the people listening to keep talking to the youth about the traditional wisdom and the Yup'ik language. Next, Alciq talked about showing respect to our traditional teachings because they are our support. Lastly, Person2 talked about how we can live a long life."
                 ]
             ]
         },
         "summary": [
             [
                 "00:00",
-                "[Yuk1] Qalamciuq waten kangingqerrluni, \"Qalarucuilavteng waniw' kemgitut. Elpet elisngaluten uquriuten.\"",
-                "[Person1] He tells a story with this meaning, \"They're skinny because you don't instruct them. You are fat in your knowledge.\""
+                "[Ingallaq George Keene] Qalamciuq waten kangingqerrluni, \"Qalarucuilavteng waniw' kemgitut. Elpet elisngaluten uquriuten.\"",
+                "[Ingallaq George Keene] He tells a story with this meaning, \"They're skinny because you don't instruct them. You are fat in your knowledge.\""
             ],
             [
                 "02:21",
-                "[Yuk1] \"Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng.\"",
-                "[Person1] \"They're becoming Westernized, and some don't understand Yup'ik anymore.\""
+                "[Ingallaq George Keene] \"Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng.\"",
+                "[Ingallaq George Keene] \"They're becoming Westernized, and some don't understand Yup'ik anymore.\""
             ],
             [
                 "06:24",
@@ -961,14 +939,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.45",
-            "23.8",
-            "23.46"
+            "23.50",
+            "23.14",
+            "23.2"
         ],
         "tags": [
-            "Alciq",
             "1.1.1",
-            "2.2.5",
             "Qanruyutet -- Traditional Wisdom, Wise Words",
             "1",
             "19.6",
@@ -1010,7 +986,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.47"
+            "23.51"
         ],
         "tags": [
             "1.1.1",
@@ -1030,10 +1006,10 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Quyurtellratni Urutaq (Lucy Beaver) qalartellruuq angutet akluita unakellrita-llu aulukellritnek uqlanermek-llu. Tua-i-llu Yuk1 qalartellruuq neqkallernek inerquutnek cali-llu atsanek naunranek-llu."
+                    "Quyurtellratni Urutaq (Lucy Beaver) qalartellruuq angutet akluita unakellrita-llu aulukellritnek uqlanermek-llu. Tua-i-llu Joe Andrew qalartellruuq neqkallernek inerquutnek cali-llu atsanek naunranek-llu."
                 ],
                 [
-                    "At the conference, Lucy Beaver (Urutaq) talked about caring for men's clothes and catch and about pollution. Then [Person1] talked about admonishments for old food and about berries and plants."
+                    "At the conference, Lucy Beaver (Urutaq) talked about caring for men's clothes and catch and about pollution. Then Joe Andrew talked about admonishments for old food and about berries and plants."
                 ]
             ]
         },
@@ -1050,35 +1026,37 @@ export const summaries = {
             ],
             [
                 "06:05",
-                "[Yuk1] \"Mat'umun kuigmun kiagaqan kiagcetarnek allragnillarnek neqlernek egcivikesqevkanaku watqapik.\"",
-                "[Person1]\"In the summer, we should never throw old food from last summer or last year into the river.\""
+                "[Joe Andrew] \"Mat'umun kuigmun kiagaqan kiagcetarnek allragnillarnek neqlernek egcivikesqevkanaku watqapik.\"",
+                "[Joe Andrew] \"In the summer, we should never throw old food from last summer or last year into the river.\""
             ],
             [
                 "10:26",
-                "[Yuk1] \"Inerquutauluteng piqertuutaq aturluku neqnun taukunun pisqevkenata.\"; Leftover-aat qimugtelegnun tuntuit",
-                "[Person1] \"They admonished us against using axes on those fish.\"; They give the leftovers to people with dogs."
+                "[Joe Andrew] \"Inerquutauluteng piqertuutaq aturluku neqnun taukunun pisqevkenata.\"; Leftover-aat qimugtelegnun tuntuit",
+                "[Joe Andrew] \"They admonished us against using axes on those fish.\"; They give the leftovers to people with dogs."
             ],
             [
                 "13:00",
-                "[Yuk1, Urutaq Lucy Beaver] Atsat tutmarluki pisqevkenaki; napat iluatnek iqvatukait; tulukaruut neqait; naunraat; uquutvaguaq; ikiituk; cuassaaq; ciilqaaq; paparnaq; \"Amllerpagmek ciptarkamek avurcecuitellruitkut\"",
-                "[Person1, Urutaq Lucy Beaver] Don't step on the berries; berries they picked among the trees; baneberries; plants; poison water hemlock; wild celery; wild greens; fireweed; yellow pond lily; \"They wouldn't let us gather more than we needed.\""
+                "[Joe Andrew, Urutaq Lucy Beaver] Atsat tutmarluki pisqevkenaki; napat iluatnek iqvatukait; tulukaruut neqait; naunraat; uquutvaguaq; ikiituk; cuassaaq; ciilqaaq; paparnaq; \"Amllerpagmek ciptarkamek avurcecuitellruitkut\"",
+                "[Joe Andrew, Urutaq Lucy Beaver] Don't step on the berries; berries they picked among the trees; baneberries; plants; poison water hemlock; wild celery; wild greens; fireweed; yellow pond lily; \"They wouldn't let us gather more than we needed.\""
             ],
             [
                 "20:02",
-                "[Eliza, Yuk2]  \"Nallukengaci amlleqapiartut.\"",
-                "[Eliza, Person2]  \"There is so much that you all don't know.\""
+                "[Mik'aq Eliza Chase, Yuk2]  \"Nallukengaci amlleqapiartut.\"",
+                "[Mik'aq Eliza Chase, Person2]  \"There is so much that you all don't know.\""
             ],
             [
                 "21:19",
-                "[Yuk1] Avelngaat neqait",
-                "[Person1] Mouse food"
+                "[Joe Andrew] Avelngaat neqait",
+                "[Joe Andrew] Mouse food"
             ]
         ],
         "elderTags": [
-            "23.27"
+            "23.44",
+            "23.17",
+            "23.25",
+            "23.52"
         ],
         "tags": [
-            "Urutaq Lucy Beaver",
             "1.1.1",
             "3.9.1",
             "Neqkaq -- Food",
@@ -1149,8 +1127,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.48",
-            "23.49"
+            "23.53",
+            "23.54"
         ],
         "tags": [
             "1.1.2",
@@ -1213,10 +1191,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.50"
+            "23.5"
         ],
         "tags": [
-            "Apaqutaq Dick Andrew",
             "Aqumgaciq John Active",
             "1.1.1",
             "2.2.4",
@@ -1263,9 +1240,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.51",
-            "23.52",
-            "23.53"
+            "23.55",
+            "23.56",
+            "23.57"
         ],
         "tags": [
             "1.1.1",
@@ -1286,10 +1263,10 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Ciumek Fred Ollie qalarrluni tua-llu Yuk1 mumiggluki qanellri piuk. Negeqlirmetlerminek qanellruuq tua-i-llu una quyurtellratni Mamterillermi ikirrluku. Kinguani Yuk2 qalartellruuq Yugcetun Kass'acetun-llu nunamta arcaqallranek tegganret-llu qalarutkarkaullratnek yuuyaramten̄ek."
+                    "Ciumek Fred Ollie qalarrluni tua-llu Yuk1 mumiggluki qanellri piuk. Negeqlirmetlerminek qanellruuq tua-i-llu una quyurtellratni Mamterillermi ikirrluku. Kinguani Nurataaq Nelson Angapak qalartellruuq Yugcetun Kass'acetun-llu nunamta arcaqallranek tegganret-llu qalarutkarkaullratnek yuuyaramten̄ek."
                 ],
                 [
-                    "First, Fred Ollie spoke with Person1 translating what he said, and he talked about when he lived in St. Mary's and then opened up the conference in Bethel. Next, Person2 talked in both Yup'ik and English about the importance of our land and how elders should be speaking about our way of life."
+                    "First, Fred Ollie spoke with Person1 translating what he said, and he talked about when he lived in St. Mary's and then opened up the conference in Bethel. Next, Nurataaq Nelson Angapak talked in both Yup'ik and English about the importance of our land and how elders should be speaking about our way of life."
                 ]
             ]
         },
@@ -1301,20 +1278,20 @@ export const summaries = {
             ],
             [
                 "04:54",
-                "[Yuk2] Tegganret qalarutkarkaugaat yuuyaraput wall'u wangkuta piciryaraput ayagturallerkaa",
-                "[Person2] Elders should speak about how to continue our way of life or our culture"
+                "[Nurataaq Nelson Angapak] Tegganret qalarutkarkaugaat yuuyaraput wall'u wangkuta piciryaraput ayagturallerkaa",
+                "[Nurataaq Nelson Angapak] Elders should speak about how to continue our way of life or our culture"
             ],
             [
                 "13:20",
-                "[Yuk2] Nunaput arcaqerluni wangkutni; ciuliamta elitnaurciqakut yuuyaramek",
-                "[Person2] The importance of our land to us; our elders will teach us our way of life"
+                "[Nurataaq Nelson Angapak] Nunaput arcaqerluni wangkutni; ciuliamta elitnaurciqakut yuuyaramek",
+                "[Nurataaq Nelson Angapak] The importance of our land to us; our elders will teach us our way of life"
             ]
         ],
         "elderTags": [
-            "23.20"
+            "23.58",
+            "23.31"
         ],
         "tags": [
-            "Fred Ollie",
             "1.1.1",
             "2.2.5",
             "2.2.6",
@@ -1365,12 +1342,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.54"
+            "23.9"
         ],
         "tags": [
-            "Cuukvak",
             "1.1.1",
-            "2.2.5",
             "9.5.3",
             "6.1",
             "10.9",
@@ -1409,33 +1384,33 @@ export const summaries = {
             ],
             [
                 "06:19",
-                "[Yuk2] Yaaruin, airraq, inuguat",
-                "[Person2] Storyknife, string games, dolls"
+                "[Elena Charles (?)] Yaaruin, airraq, inuguat",
+                "[Elena Charles (?)] Storyknife, string games, dolls"
             ],
             [
                 "08:58",
-                "[Yuk2] Angutet ayagaaqata pissuraqata",
-                "[Person2] When men travel and hunt"
+                "[Elena Charles (?)] Angutet ayagaaqata pissuraqata",
+                "[Elena Charles (?)] When men travel and hunt"
             ],
             [
                 "10:26",
-                "[Yuk2] Allanret nernerrlugcetaarluki yuraraqata",
-                "[Person2] Ridiculing visitors with a yuraq (\"Yup'ik dance\")"
+                "[Elena Charles (?)] Allanret nernerrlugcetaarluki yuraraqata",
+                "[Elena Charles (?)] Ridiculing visitors with a yuraq (\"Yup'ik dance\")"
             ],
             [
                 "13:14",
-                "[Yuk3] Uingellerminek; avvucaraq; taangaq nulirqellriik-llu; uikameggnek cucuklirluteng",
-                "[Person3] When she got a husband; divorce; alcohol and a married couple; choosing their own husband"
+                "[Mik'aq\tEliza Chase] Uingellerminek; avvucaraq; taangaq nulirqellriik-llu; uikameggnek cucuklirluteng",
+                "[Mik'aq\tEliza Chase] When she got a husband; divorce; alcohol and a married couple; choosing their own husband"
             ],
             [
                 "19:50",
-                "[Yuk4] Neplirluta yuusqevkenata",
-                "[Person4] They told us to not live loudly"
+                "[Nauyaq\tAnna Andrew] Neplirluta yuusqevkenata",
+                "[Nauyaq\tAnna Andrew] They told us to not live loudly"
             ],
             [
                 "21:55",
-                "[Yuk4] Eyallrani",
-                "[Person4] When she followed abstinence practices"
+                "[Nauyaq\tAnna Andrew] Eyallrani",
+                "[Nauyaq\tAnna Andrew] When she followed abstinence practices"
             ],
             [
                 "23:15",
@@ -1444,8 +1419,8 @@ export const summaries = {
             ],
             [
                 "24:49",
-                "[Yuk4] Irniani anglicallerkaa inerquutet: eyuqsaunaki, yagiralaasqevkenaki, qatpagatesqevkenaki",
-                "[Person4] Admonishments for child rearing: do not verbally defend them, do not raise your hand towards them, do not shout at them"
+                "[Nauyaq\tAnna Andrew] Irniani anglicallerkaa inerquutet: eyuqsaunaki, yagiralaasqevkenaki, qatpagatesqevkenaki",
+                "[Nauyaq\tAnna Andrew] Admonishments for child rearing: do not verbally defend them, do not raise your hand towards them, do not shout at them"
             ],
             [
                 "27:09",
@@ -1454,8 +1429,8 @@ export const summaries = {
             ],
             [
                 "28:38",
-                "[Yuk4] Aipaqellriignun inerquutet: \"yuut assiinaku qanrutkengraatgu qanrut'laasqevkenaku\", \"kamakelaasqevkenaku iivkun tangenrrilkuvgu\", \"waten qanlaasqevkenii piiturlua\"",
-                "[Person4] Admonishments for married couples: \"even if people say bad things about him, they told me not to tell him\", \"don't suspect him if you haven't seen it with your own eyes\", \"don't say that I have nothing\""
+                "[Nauyaq\tAnna Andrew] Aipaqellriignun inerquutet: \"yuut assiinaku qanrutkengraatgu qanrut'laasqevkenaku\", \"kamakelaasqevkenaku iivkun tangenrrilkuvgu\", \"waten qanlaasqevkenii piiturlua\"",
+                "[Nauyaq\tAnna Andrew] Admonishments for married couples: \"even if people say bad things about him, they told me not to tell him\", \"don't suspect him if you haven't seen it with your own eyes\", \"don't say that I have nothing\""
             ],
             [
                 "31:06",
@@ -1464,8 +1439,8 @@ export const summaries = {
             ],
             [
                 "33:48",
-                "[Yuk4] Mikelnguut inerquutait: \"[allat] pingraatnga qialua utertelaasqevkenii\"",
-                "[Person4] Admonishments for children: \"no matter what [others] do, she admonished me against coming home crying\""
+                "[Nauyaq\tAnna Andrew] Mikelnguut inerquutait: \"[allat] pingraatnga qialua utertelaasqevkenii\"",
+                "[Nauyaq\tAnna Andrew] Admonishments for children: \"no matter what [others] do, she admonished me against coming home crying\""
             ],
             [
                 "36:20",
@@ -1474,8 +1449,8 @@ export const summaries = {
             ],
             [
                 "37:56",
-                "[Yuk7] \"Camek-ll' avaliciyunata nepaunata yuuluta\"",
-                "[Person7] \"And we lived without making any excuses but were quiet.\""
+                "[Ilanaq\tTheresa Moses] \"Camek-ll' avaliciyunata nepaunata yuuluta\"",
+                "[Ilanaq\tTheresa Moses] \"And we lived without making any excuses but were quiet.\""
             ],
             [
                 "39:25",
@@ -1499,18 +1474,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.55",
-            "23.23",
-            "23.15",
-            "23.19",
-            "23.56",
-            "23.57",
-            "23.7",
-            "23.58",
             "23.59",
+            "23.11",
+            "23.25",
+            "23.29",
             "23.60",
             "23.61",
-            "23.62"
+            "23.13",
+            "23.62",
+            "23.63",
+            "23.64",
+            "23.42",
+            "23.19"
         ],
         "tags": [
             "1.1.1",
@@ -1580,10 +1555,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.63"
+            "23.6"
         ],
         "tags": [
-            "Ayagina'ar",
             "1.1.1",
             "3.1.2",
             "17.1.1",
@@ -1642,7 +1616,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.64"
+            "23.65"
         ],
         "tags": []
     },
@@ -1691,7 +1665,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.65"
+            "23.66"
         ],
         "tags": []
     },
@@ -1747,7 +1721,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.4"
         ],
         "tags": []
     },
@@ -1787,7 +1761,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.66"
+            "23.67"
         ],
         "tags": []
     },
@@ -2061,7 +2035,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.17"
+            "23.27"
         ],
         "tags": []
     },
@@ -2125,7 +2099,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.29"
+            "23.46"
         ],
         "tags": []
     },
@@ -2185,7 +2159,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.27"
+            "23.44"
         ],
         "tags": []
     },
@@ -2396,7 +2370,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.67"
+            "23.68"
         ],
         "tags": []
     },
@@ -2516,12 +2490,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.68",
-            "23.21",
             "23.69",
+            "23.32",
             "23.70",
             "23.71",
-            "23.28"
+            "23.72",
+            "23.45"
         ],
         "tags": []
     },
@@ -2608,7 +2582,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.72"
+            "23.73"
         ],
         "tags": []
     },
@@ -2664,7 +2638,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.73"
+            "23.74"
         ],
         "tags": []
     },
@@ -2815,11 +2789,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.18",
-            "23.3",
-            "23.26",
-            "23.74",
-            "23.75"
+            "23.28",
+            "23.1",
+            "23.41",
+            "23.75",
+            "23.76"
         ],
         "tags": []
     },
@@ -2869,7 +2843,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.15"
+            "23.25"
         ],
         "tags": []
     },
@@ -2930,7 +2904,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.76"
+            "23.77"
         ],
         "tags": []
     },
@@ -3005,8 +2979,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4",
-            "23.25"
+            "23.3",
+            "23.40"
         ],
         "tags": []
     },
@@ -3081,8 +3055,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.77",
-            "23.28"
+            "23.78",
+            "23.45"
         ],
         "tags": []
     },
@@ -3133,8 +3107,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.78",
-            "23.79"
+            "23.79",
+            "23.80"
         ],
         "tags": []
     },
@@ -3219,9 +3193,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.80",
-            "23.10",
-            "23.12"
+            "23.81",
+            "23.18",
+            "23.22"
         ],
         "tags": []
     },
@@ -3273,7 +3247,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.14"
+            "23.24"
         ],
         "tags": [
             "7",
@@ -3383,7 +3357,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.2"
+            "23.1"
         ],
         "tags": [
             "2.1.2",
@@ -3576,14 +3550,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.81",
-            "23.30",
             "23.82",
+            "23.47",
             "23.83",
             "23.84",
             "23.85",
-            "23.19",
-            "23.19"
+            "23.86",
+            "23.29",
+            "23.29"
         ],
         "tags": [
             "3.8",
@@ -3676,7 +3650,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.4"
         ],
         "tags": [
             "Yugtun Qalarcaraq -- Yup’ik Language",
@@ -3769,7 +3743,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.23"
+            "23.36"
         ],
         "tags": [
             "5.3.1",
@@ -3875,7 +3849,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.86"
+            "23.87"
         ],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
@@ -3956,7 +3930,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.26"
+            "23.41"
         ],
         "tags": [
             "17.5",
@@ -4202,12 +4176,12 @@ export const summaries = {
         "elderTags": [
             "23.104",
             "23.105",
-            "23.19",
+            "23.29",
+            "23.38",
+            "23.37",
             "23.24",
-            "23.106",
-            "23.14",
-            "23.19",
-            "23.18"
+            "23.29",
+            "23.28"
         ],
         "tags": [
             "3.11",
@@ -4279,7 +4253,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.87"
+            "23.88"
         ],
         "tags": [
             "-- Qemagciyaraq -- Storage",
@@ -4353,7 +4327,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.88"
+            "23.5"
         ],
         "tags": [
             "8.1.2",
@@ -4583,7 +4557,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.16"
+            "23.26"
         ],
         "tags": [
             "2.1.2",
@@ -4688,7 +4662,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.18"
+            "23.28"
         ],
         "tags": [
             "9.4",
@@ -4838,7 +4812,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.19"
+            "23.29"
         ],
         "tags": [
             "3.2",
@@ -4943,7 +4917,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.11"
+            "23.20"
         ],
         "tags": [
             "8.1.3",
@@ -5074,7 +5048,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.27"
+            "23.44"
         ],
         "tags": [
             "Naunraat Atsat-llu -- Plants and Berries",

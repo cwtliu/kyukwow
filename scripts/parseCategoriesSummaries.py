@@ -511,7 +511,7 @@ def addElderIdentification(elderIdentifierFilename, summariesDict):
 				print(f'{aapb} - elder identification - missing aapb summary')
 				continue
 			elderString = lineDict['Name'].strip()
-			elderString = elderString+" "+lineDict['English Name'].strip() if elderString else lineDict['English Name'].strip()
+			elderString = elderString+" ~ "+lineDict['English Name'].strip() if elderString else lineDict['English Name'].strip()
 			elderString = elderString+" -- "+lineDict['Village'].strip() if elderString else lineDict['Village'].strip()
 			if elderString:		
 				summariesDict[aapb]['elderTags'].append(elderString)
