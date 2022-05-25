@@ -6,12 +6,14 @@ import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 import {categoriesUrlLookup} from './info/categoriesUrlLookup.js';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
+import { FeaturedVideos } from './Helpers.js';
 
 
 class Category extends Component {
 	constructor(props) {
 		super(props);
 		this.ID = decodeURI(props.match.params.word);
+		console.log(decodeURI(props.match.params.word))
 		if (this.ID !== 'all') {
 			this.categoryID = categoriesUrlLookup[this.ID];
 		} else {
@@ -23,6 +25,7 @@ class Category extends Component {
 			childrenCategories:[],
 			parentCategories:[],
 			categoriesDisplayed:[],
+			decodedURI: decodeURI(props.match.params.word),
 		}
 		this.initialize = this.initialize.bind(this);
 	}
@@ -36,6 +39,14 @@ class Category extends Component {
 			}   
 		}
 		this.setState({ categoriesDisplayed: categoriesDisplayed });
+	}
+	componentDidUpdate(prevProps, prevState) {
+		// console.log(prevProps.location.pathname)
+		// console.log(this.props)
+		if (prevProps.location.pathname !== this.props.location.pathname && this.props.location.pathname !== '/category/all') {
+			this.retrieveFamilyCategories(categoriesUrlLookup[decodeURI(this.props.match.params.word)]);
+			// console.log('hi')
+		}
 	}
 
 	// componentDidUpdate(prevState) {
@@ -54,6 +65,7 @@ class Category extends Component {
 	}
 
 	retrieveFamilyCategories(j) {
+		console.log(j)
 		const children = [];
 		const parents = [];
 		for (let i = 1; i < categories[j].children + 1; i++) {
@@ -76,8 +88,7 @@ class Category extends Component {
 		console.log(this.state)
 		return (
 			<div className='collections'>
-				<Container>
-					<Button.Group>
+				<Button.Group>
 				<Link to='/categorylibrary'>
 			      <Button active={false} icon>
 			        <Icon name='grid layout' />
@@ -94,7 +105,7 @@ class Category extends Component {
 						  	<Link onClick={()=>{
 						  		this.retrieveFamilyCategories(j);
 						  		}} to={{pathname: '/category/'+categories[j].url}}>
-							    <div style={{marginLeft:20}}>{categories[j].name}</div>
+							    <div style={{marginLeft:20}}>{categories[j].name.replace("--","—")}</div>
 							  </Link>
 						))}
 					</div>
@@ -139,23 +150,11 @@ class Category extends Component {
 
 
 					<div>
-					<div style={{fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingBottom:'20px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos about "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
-					<Grid container columns={4}>
-						{categories[this.state.currentCategory].videoNumbers.map((y) => (
-							  <Grid.Column id={y}>
-								<Link style={{width:'100px',borderRadius:'10px'}} to={{pathname: '/video/'+y, state: { currentVideoId: y}}}>
-									<Image style={{width:'250px',borderRadius:'10px'}} src={"https://img.youtube.com/vi/"+
-									YouTubeLinks[summaries[y].videoID].split(".be/")[1]
-									+"/hqdefault.jpg"} />
-								</Link>
-							  </Grid.Column>
-						))}
-					</Grid>
+					<div style={{fontSize:'26px',fontWeight:'bold',lineHeight:'40px',paddingBottom:'10px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos with "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
+					{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 					</div>
 					</div>
 					}
-
-				</Container>
 
 			</div>
 		);
