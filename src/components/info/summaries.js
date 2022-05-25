@@ -166,7 +166,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.2"
+            "23.1"
         ],
         "tags": [
             "1.1.1",
@@ -941,7 +941,7 @@ export const summaries = {
         "elderTags": [
             "23.51",
             "23.15",
-            "23.3"
+            "23.2"
         ],
         "tags": [
             "1.1.1",
@@ -1191,10 +1191,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "23.5",
             "23.6"
         ],
         "tags": [
-            "23.1",
             "1.1.1",
             "2.2.4",
             "15.2",
@@ -1721,7 +1721,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.4"
         ],
         "tags": []
     },
@@ -1847,8 +1847,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.93",
-            "23.94"
+            "23.92",
+            "23.93"
         ],
         "tags": []
     },
@@ -1965,8 +1965,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.95",
-            "23.96"
+            "23.94",
+            "23.95"
         ],
         "tags": []
     },
@@ -2244,13 +2244,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "23.96",
             "23.97",
             "23.98",
             "23.99",
             "23.100",
             "23.101",
-            "23.102",
-            "23.103"
+            "23.102"
         ],
         "tags": []
     },
@@ -2315,7 +2315,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.2"
+            "23.1"
         ],
         "tags": []
     },
@@ -2790,7 +2790,7 @@ export const summaries = {
         ],
         "elderTags": [
             "23.29",
-            "23.2",
+            "23.1",
             "23.42",
             "23.76",
             "23.77"
@@ -2979,7 +2979,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4",
+            "23.3",
             "23.41"
         ],
         "tags": []
@@ -3193,7 +3193,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.82",
+            "23.17",
             "23.19",
             "23.23"
         ],
@@ -3357,7 +3357,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.2"
+            "23.1"
         ],
         "tags": [
             "2.1.2",
@@ -3550,12 +3550,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.83",
+            "23.82",
             "23.48",
+            "23.83",
             "23.84",
             "23.85",
             "23.86",
-            "23.87",
             "23.30",
             "23.30"
         ],
@@ -3650,7 +3650,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.4"
         ],
         "tags": [
             "1",
@@ -3849,7 +3849,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.88"
+            "23.87"
         ],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
@@ -4020,7 +4020,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.104"
+            "23.103"
         ],
         "tags": [
             "2.2.5",
@@ -4174,8 +4174,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
+            "23.104",
             "23.105",
-            "23.106",
             "23.30",
             "23.39",
             "23.38",
@@ -4253,7 +4253,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.89"
+            "23.88"
         ],
         "tags": [
             "10.5",
@@ -4327,7 +4327,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.6"
+            "23.5"
         ],
         "tags": [
             "8.1.2",
@@ -4408,7 +4408,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.90"
+            "23.89"
         ],
         "tags": [
             "3.9.2",
@@ -4730,7 +4730,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.91"
+            "23.90"
         ],
         "tags": [
             "17.5",
@@ -5002,7 +5002,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.92"
+            "23.91"
         ],
         "tags": [
             "8.1",

@@ -396,7 +396,6 @@ Calricaraq -- Health & Wellness
 			Uquq -- Seal Oil
 			Atsaruaq -- False Chamomile
 Qalartellret Atrit -- Names of Speakers
-	Aqumgaciq John Active
 	INSERTELDERSHERE
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue
