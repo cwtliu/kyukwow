@@ -82,11 +82,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.23"
+            "23.24"
         ],
         "tags": [
             "1.1.1",
-            "Yugtun Qalarcaraq -- Yup'ik Langauge",
+            "1",
             "19.9",
             "19.12",
             "19.5.1",
@@ -166,22 +166,22 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.1"
+            "23.2"
         ],
         "tags": [
             "1.1.1",
             "3.1.2",
-            "Uksuilleq -- Fall Camp",
+            "9.8",
             "17.1.6",
-            "Can'giiq -- Blackfish",
+            "5.1.1",
             "5.3.2",
             "5.3.4",
             "17.6",
             "5.1",
-            "Amiq, Qecik -- Skin",
-            "Canek, Can'get, Caranglluk -- Grass",
+            "7.4",
+            "6.3",
             "19.13",
-            "Qanruyutet -- Traditional Wisdom, Wise Words"
+            "19.5"
         ]
     },
     "cpb-aacip-127-010p2r15.h264": {
@@ -237,8 +237,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44",
-            "23.17"
+            "23.45",
+            "23.18"
         ],
         "tags": [
             "1.1.1",
@@ -307,14 +307,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.16"
+            "23.17"
         ],
         "tags": [
             "1.1.1",
-            "Qasgiq, Qaygiq -- Community, Men's House",
+            "21.2",
             "19.13.1",
             "8.4",
-            "Tuntu -- Reindeer",
+            "5.3.1",
             "16.2.3",
             "5.3.3",
             "9.4",
@@ -370,11 +370,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.8",
-            "23.34",
-            "23.15",
-            "23.12",
-            "23.33"
+            "23.9",
+            "23.35",
+            "23.16",
+            "23.13",
+            "23.34"
         ],
         "tags": [
             "1.1.1",
@@ -394,7 +394,7 @@ export const summaries = {
             "Date": "Unknown",
             "Short Summary:": [
                 [
-                    "Quyurtellratni ukut yuut qalartellruut: [Joe Andrew] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Joe Andrew] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Mik'am (Eliza Chase), qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet’laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
+                    "Quyurtellratni ukut yuut qalartellruut: [Joe Andrew] Edward Weiss-llu qalartellruuk ciin taqukam tan'gerlim-llu nuaganek keggiinateng pit'ellriit minguuk'lallratnek. Kurt Bell [Joe Andrew] [Yuk2]-llu nakacugnek qalartellruut. Tua-llu Kurt Bell inerqullrui pissusqevkenaki piyagat tengmiat-llu piyagangqellriit. [Yuk3] pitamta kencikuciatnek qalarrluni tua-llu Mik'am (Eliza Chase), qaneryaraput nalluyagutesqevkenaku, KYUK-q cingumallrua tegganret qalarcet'laasqelluukii radio-mi. Edward Weiss ayarunek tan'gerlirnek-llu qalartellruuq. Nangnerani-llu Phillip Moses Nunakauyarmiu [Yuk3]-llu angalkugnek uqiquryaramek-llu qalartellruuk."
                 ],
                 [
                     "In the conference, these people talked: [Joe Andrew] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Joe Andrew], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Eliza Chase (Mik'aq) encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
@@ -444,14 +444,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.48",
-            "23.17",
-            "23.21",
-            "23.25",
-            "23.10",
             "23.49",
-            "23.35",
-            "23.44"
+            "23.18",
+            "23.22",
+            "23.26",
+            "23.11",
+            "23.50",
+            "23.36",
+            "23.45"
         ],
         "tags": [
             "1.1.1",
@@ -523,12 +523,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.42",
-            "23.19"
+            "23.43",
+            "23.20"
         ],
         "tags": [
             "1.1.1",
-            "Up'nerkaq -- Spring",
+            "3.1.1",
             "9.7",
             "3.4",
             "3.5",
@@ -610,12 +610,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.7",
-            "23.30"
+            "23.8",
+            "23.31"
         ],
         "tags": [
             "1.1.1",
-            "Up'nerkaq -- Spring",
+            "3.1.1",
             "9.7",
             "17.1.1",
             "17.1.2",
@@ -623,7 +623,7 @@ export const summaries = {
             "Imarpigmiutaat, Unkumiutaat -- Marine Animals",
             "5.4.3",
             "19.4.1",
-            "19.7.1.1",
+            "Aglenraraq -- First Year Of Menstruation",
             "22.1.1",
             "19.7",
             "Iraluq -- Month",
@@ -698,9 +698,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.17",
-            "23.44",
-            "23.21"
+            "23.18",
+            "23.45",
+            "23.22"
         ],
         "tags": [
             "1.1.1",
@@ -782,14 +782,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.43"
+            "23.44"
         ],
         "tags": [
             "1.1.1",
             "2.2.5",
             "Qasgiq, Qaygiq -- Community, Men's House",
             "19.9",
-            "Aipanglleq -- Getting A Spouse",
+            "14.3",
             "22.5",
             "Qanruyutet -- Traditional Wisdom, Wise Words",
             "7.2",
@@ -864,7 +864,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.39"
+            "23.40"
         ],
         "tags": [
             "1.1.1",
@@ -939,9 +939,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.50",
-            "23.14",
-            "23.2"
+            "23.51",
+            "23.15",
+            "23.3"
         ],
         "tags": [
             "1.1.1",
@@ -949,7 +949,7 @@ export const summaries = {
             "1",
             "19.6",
             "Aviukaqsaraq -- Food And Water Offering",
-            "Ellam Yua -- Spirit Of The Universe",
+            "8.2",
             "3.9.1"
         ]
     },
@@ -986,7 +986,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.51"
+            "23.52"
         ],
         "tags": [
             "1.1.1",
@@ -1051,10 +1051,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44",
-            "23.17",
-            "23.25",
-            "23.52"
+            "23.45",
+            "23.18",
+            "23.26",
+            "23.53"
         ],
         "tags": [
             "1.1.1",
@@ -1127,8 +1127,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.53",
-            "23.54"
+            "23.54",
+            "23.55"
         ],
         "tags": [
             "1.1.2",
@@ -1191,10 +1191,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.6"
         ],
         "tags": [
-            "Aqumgaciq John Active",
+            "23.1",
             "1.1.1",
             "2.2.4",
             "15.2",
@@ -1240,9 +1240,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.55",
             "23.56",
-            "23.57"
+            "23.57",
+            "23.58"
         ],
         "tags": [
             "1.1.1",
@@ -1288,8 +1288,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.58",
-            "23.31"
+            "23.59",
+            "23.32"
         ],
         "tags": [
             "1.1.1",
@@ -1342,7 +1342,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.9"
+            "23.10"
         ],
         "tags": [
             "1.1.1",
@@ -1474,18 +1474,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.59",
-            "23.11",
-            "23.25",
-            "23.29",
             "23.60",
+            "23.12",
+            "23.26",
+            "23.30",
             "23.61",
-            "23.13",
             "23.62",
+            "23.14",
             "23.63",
             "23.64",
-            "23.42",
-            "23.19"
+            "23.65",
+            "23.43",
+            "23.20"
         ],
         "tags": [
             "1.1.1",
@@ -1500,7 +1500,7 @@ export const summaries = {
             "18.2",
             "Irniaruat, Inuguat -- Dolls",
             "20.2",
-            "Aipanglleq -- Getting A Spouse",
+            "14.3",
             "Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple",
             "14.4",
             "22.5",
@@ -1555,7 +1555,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.6"
+            "23.7"
         ],
         "tags": [
             "1.1.1",
@@ -1616,7 +1616,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.65"
+            "23.66"
         ],
         "tags": []
     },
@@ -1665,7 +1665,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.66"
+            "23.67"
         ],
         "tags": []
     },
@@ -1721,7 +1721,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4"
+            "23.5"
         ],
         "tags": []
     },
@@ -1761,7 +1761,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.67"
+            "23.68"
         ],
         "tags": []
     },
@@ -1847,8 +1847,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.92",
-            "23.93"
+            "23.93",
+            "23.94"
         ],
         "tags": []
     },
@@ -1965,8 +1965,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.94",
-            "23.95"
+            "23.95",
+            "23.96"
         ],
         "tags": []
     },
@@ -2035,7 +2035,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.27"
+            "23.28"
         ],
         "tags": []
     },
@@ -2099,7 +2099,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.46"
+            "23.47"
         ],
         "tags": []
     },
@@ -2159,7 +2159,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44"
+            "23.45"
         ],
         "tags": []
     },
@@ -2244,13 +2244,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.96",
             "23.97",
             "23.98",
             "23.99",
             "23.100",
             "23.101",
-            "23.102"
+            "23.102",
+            "23.103"
         ],
         "tags": []
     },
@@ -2315,7 +2315,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.1"
+            "23.2"
         ],
         "tags": []
     },
@@ -2370,7 +2370,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.68"
+            "23.69"
         ],
         "tags": []
     },
@@ -2490,12 +2490,12 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.69",
-            "23.32",
             "23.70",
+            "23.33",
             "23.71",
             "23.72",
-            "23.45"
+            "23.73",
+            "23.46"
         ],
         "tags": []
     },
@@ -2582,7 +2582,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.73"
+            "23.74"
         ],
         "tags": []
     },
@@ -2638,7 +2638,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.74"
+            "23.75"
         ],
         "tags": []
     },
@@ -2789,11 +2789,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.28",
-            "23.1",
-            "23.41",
-            "23.75",
-            "23.76"
+            "23.29",
+            "23.2",
+            "23.42",
+            "23.76",
+            "23.77"
         ],
         "tags": []
     },
@@ -2843,7 +2843,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.25"
+            "23.26"
         ],
         "tags": []
     },
@@ -2904,7 +2904,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.77"
+            "23.78"
         ],
         "tags": []
     },
@@ -2979,8 +2979,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3",
-            "23.40"
+            "23.4",
+            "23.41"
         ],
         "tags": []
     },
@@ -3055,8 +3055,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.78",
-            "23.45"
+            "23.79",
+            "23.46"
         ],
         "tags": []
     },
@@ -3107,8 +3107,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.79",
-            "23.80"
+            "23.80",
+            "23.81"
         ],
         "tags": []
     },
@@ -3193,9 +3193,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.81",
-            "23.18",
-            "23.22"
+            "23.82",
+            "23.19",
+            "23.23"
         ],
         "tags": []
     },
@@ -3247,7 +3247,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.24"
+            "23.25"
         ],
         "tags": [
             "7",
@@ -3255,8 +3255,8 @@ export const summaries = {
             "7.5.1",
             "Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapon",
             "17.4",
-            "Qayaq -- Kayak",
-            "Qanruyutet - Traditional Wisdom, Wise Words",
+            "17.4.3",
+            "Qanruyutet -- Traditional Wisdom, Wise Words",
             "19.6",
             "19.10",
             "19.13",
@@ -3357,17 +3357,17 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.1"
+            "23.2"
         ],
         "tags": [
             "2.1.2",
-            "Up’nerkaq, Upenerkaq -- Spring",
+            "3.1.1",
             "3.1.3",
             "3.5",
             "3.6",
             "3.12.1",
             "3.8",
-            "Can’giiq, Imangaq -- Blackfish",
+            "5.1.1",
             "5.2.1",
             "5.2.2",
             "5.4.1",
@@ -3378,14 +3378,14 @@ export const summaries = {
             "9.5.2.1",
             "10.1",
             "10.3",
-            "Kit’elleq -- Falling into Water",
+            "Kit'elleq -- Falling into Water",
             "Pellalleq -- Getting Lost",
             "11.4",
             "11.5",
             "12.1",
-            "Neryaraq - Eating Habits",
+            "19.6.2",
             "19.9",
-            "Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife"
+            "24.3"
         ]
     },
     "cpb-aacip-127-65h9w88k.h264": {
@@ -3550,19 +3550,19 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.82",
-            "23.47",
             "23.83",
+            "23.48",
             "23.84",
             "23.85",
             "23.86",
-            "23.29",
-            "23.29"
+            "23.87",
+            "23.30",
+            "23.30"
         ],
         "tags": [
             "3.8",
-            "\tTegganeq -- Elder",
-            "Meluk - Roe",
+            "4.2",
+            "Meluk -- Roe",
             "8.1.3",
             "8.4",
             "9.1.1.1",
@@ -3650,20 +3650,20 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4"
+            "23.5"
         ],
         "tags": [
-            "Yugtun Qalarcaraq -- Yup’ik Language",
+            "1",
             "Imarpigmiutaat, Unkumkiutaat, Mermiutaat -- Marine Animals",
             "Amiq, Qecik -- Skin",
             "9.2",
             "9.4",
             "Aklut -- Clothes",
-            "Qayaq -- Kayak",
+            "17.4.3",
             "19.3.3",
             "19.5",
             "19.6",
-            "Aglenraraq -- First Year of Menstruation"
+            "19.7.1.1"
         ]
     },
     "cpb-aacip-127-66vx0v02.h264": {
@@ -3743,7 +3743,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.36"
+            "23.37"
         ],
         "tags": [
             "5.3.1",
@@ -3758,7 +3758,7 @@ export const summaries = {
             "9.3.1",
             "9.3.2",
             "9.6",
-            "Up’nerkilleq -- Spring Camp",
+            "9.7",
             "9.8",
             "9.10",
             "10.2.1",
@@ -3779,7 +3779,7 @@ export const summaries = {
             "Naumriit Enenguat -- Households Made of Plants",
             "19.3.1",
             "19.6",
-            "Aglenraraq -- First Year of Menstruation",
+            "19.7.1.1",
             "19.9",
             "22.5",
             "22.9.1",
@@ -3849,7 +3849,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.87"
+            "23.88"
         ],
         "tags": [
             "Yuungcarviit -- Clinics and Hospitals"
@@ -3930,7 +3930,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.41"
+            "23.42"
         ],
         "tags": [
             "17.5",
@@ -3944,8 +3944,8 @@ export const summaries = {
             "10.3",
             "Unangkengaita Auluksarait -- Taking Care of Catch",
             "10.11",
-            "Tutmarngaingurmun Ciqicarat -- Disposal Where People Won’t Trod",
-            "Kass’at Tekipailgata -- Before Western Contact",
+            "Tutmarngaingurmun Ciqicarat -- Disposal Where People Won't Trod",
+            "16.1",
             "17.5",
             "19.3.1",
             "19.5",
@@ -4020,7 +4020,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.103"
+            "23.104"
         ],
         "tags": [
             "2.2.5",
@@ -4034,7 +4034,7 @@ export const summaries = {
             "19.6",
             "19.10.1",
             "19.13.1",
-            "Qasgiq, Qaygiq -- Community or Men’s House",
+            "21.2",
             "22.5"
         ]
     },
@@ -4174,26 +4174,26 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.104",
             "23.105",
-            "23.29",
+            "23.106",
+            "23.30",
+            "23.39",
             "23.38",
-            "23.37",
-            "23.24",
-            "23.29",
-            "23.28"
+            "23.25",
+            "23.30",
+            "23.29"
         ],
         "tags": [
             "3.11",
             "5.1.1.1",
-            "Meluk, Imlauk -- Roe",
+            "5.1.3",
             "5.2.1",
             "6.4.1",
             "7.5.1",
             "8.1",
-            "Ellam Yua -- Spirit of the Universe",
+            "8.2",
             "9.3",
-            "Ket’garyaraq -- Waterproofing a Kayak with a Rain Parka",
+            "12.1.2",
             "12.1.3",
             "13.3.1",
             "13.3.2",
@@ -4202,7 +4202,7 @@ export const summaries = {
             "Ella Qupsaraa -- The World, Universe Cracks",
             "13.4",
             "14.3.1",
-            "Qayaq -- Kayak",
+            "17.4.3",
             "19.5.2",
             "19.6.5",
             "19.13.6",
@@ -4253,18 +4253,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.88"
+            "23.89"
         ],
         "tags": [
-            "-- Qemagciyaraq -- Storage",
+            "10.5",
             "10.11",
-            "Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod",
-            "Kass’at Tekiteqerraallratni -- Early Western Contact",
-            "Aglenraraq -- First Year of Menstruation",
+            "10.12.1",
+            "16.2",
+            "19.7.1.1",
             "Yuuyaraq -- Way of Life",
             "19.9",
             "19.13.7",
-            "Erurirraarluteng Neq’liuryaraq -- Handle Food with Clean Hands",
+            "19.13.8",
             "19.13.9",
             "22.5"
         ]
@@ -4327,17 +4327,17 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.6"
         ],
         "tags": [
             "8.1.2",
-            "Ellam Yua -- The Spirit of the Universe",
+            "8.2",
             "8.4",
-            "Kit’elleq -- Falling Into Water",
+            "11.2",
             "12.1",
             "19.3.1",
             "19.6",
-            "Qasgiq, Qaygiq -- Community or Men’s House",
+            "21.2",
             "Naulluun, Qenan -- Sickness"
         ]
     },
@@ -4408,19 +4408,19 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.89"
+            "23.90"
         ],
         "tags": [
             "3.9.2",
             "3.9.3",
             "8.1.3",
-            "Ellam Yua, Cellam Yua, Cillam Cua -- Spirit of the Universe",
+            "8.2",
             "16.4",
-            "Qanrucunailnguut -- Those Who Don’t Heed Advice",
+            "19.3.4",
             "19.6",
             "Akingellerkani Umyuaqevkenaku -- Do Not Expect Payment",
             "19.13.10",
-            "Qasgiq, Qaygiq -- Community or Men’s House",
+            "21.2",
             "21.5",
             "22.5"
         ]
@@ -4557,7 +4557,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.26"
+            "23.27"
         ],
         "tags": [
             "2.1.2",
@@ -4565,7 +4565,7 @@ export const summaries = {
             "3.5.1",
             "Yaqulek, Yaqulget, Tengmiat, Tengmiat -- Birds",
             "5.4.4",
-            "Qimugtet Elpegtauciatnek -- Dogs’ Supernatural Sensitivity",
+            "8.5.1",
             "9.1.2",
             "9.2",
             "9.5.4",
@@ -4577,7 +4577,7 @@ export const summaries = {
             "Uqren Aarnarqucia -- The Danger of Leeward Sides",
             "11.8.3",
             "11.8.4",
-            "Teq’um Urumanarqucia -- Keeping Warm with Urine",
+            "11.9.1",
             "11.9.2",
             "13.3.1",
             "Enepiaq, Nepiaq -- Sod-House",
@@ -4588,16 +4588,16 @@ export const summaries = {
             "19.5.2",
             "19.5.3",
             "19.6.1",
-            "Nunat Mer’et-llu Elisngaluki -- Know the Land and Water",
+            "19.6.6",
             "19.12",
             "19.13",
             "21.4",
             "22.5",
             "22.7",
-            "Teq’uq -- Urine",
+            "22.12.2.1",
             "22.12.2.2",
             "22.12.2.3",
-            "Neq’liurtet, Yaquleyagiurtet, Kayanguyagiurtet -- Fish and Game, Fish and Wildlife"
+            "24.3"
         ]
     },
     "cpb-aacip-127-7634tx89.h264": {
@@ -4662,7 +4662,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.28"
+            "23.29"
         ],
         "tags": [
             "9.4",
@@ -4672,7 +4672,7 @@ export const summaries = {
             "14.3.1",
             "14.5",
             "14.6.1",
-            "Kass’at Tekipailgata -- Before Western Contact",
+            "16.1",
             "16.4",
             "19.6.7",
             "21.4"
@@ -4730,7 +4730,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.90"
+            "23.91"
         ],
         "tags": [
             "17.5",
@@ -4738,16 +4738,16 @@ export const summaries = {
             "8.1.4",
             "9.6",
             "16.1.1.1",
-            "Kass’at Tekiteqerraallratni -- Early Western Contact",
+            "16.2",
             "16.4",
             "17.5",
-            "Unguvamayuitut -- They Don’t Live Long",
+            "19.3.4.1",
             "Maligtaqustiin Yuunertucia -- Those Who Heed Advice Live Long",
             "19.11",
             "19.13.11",
             "19.13.12",
             "19.15",
-            "Qasgiq, Qaygiq -- Community or Men’s House"
+            "21.2"
         ]
     },
     "cpb-aacip-127-773txm5v.h264": {
@@ -4812,23 +4812,23 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.29"
+            "23.30"
         ],
         "tags": [
             "3.2",
             "3.12.1",
-            "Ellam Yua, Cellam Yua, Cillam Cua -- Spirit of the Universe",
+            "8.2",
             "9.8",
             "9.9",
-            "Tutmarngailngurmun Ciqicarait -- Disposal Where People Won’t Trod",
+            "10.12.1",
             "16.4",
             "16.5",
             "19.5.5",
-            "Uqlam Yugmun Nepucuilucia -- Dirt Doesn’t Stick to People",
+            "19.6.5.1",
             "Calrunani Unguvamaniartuq -- To Live and Long and Healthy Life",
             "19.6.9",
             "19.7.2",
-            "Menuurcuitut -- They Don’t Become Impure",
+            "19.11.2",
             "19.13.12",
             "21.6",
             "22.6.1",
@@ -4917,7 +4917,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.20"
+            "23.21"
         ],
         "tags": [
             "8.1.3",
@@ -4928,7 +4928,7 @@ export const summaries = {
             "10.9.3",
             "13.3.6",
             "15.3.1.1",
-            "Kass’at Tekiteqerraallratni -- Early Western Contact",
+            "16.2",
             "19.3.6",
             "19.3.7",
             "19.8.1",
@@ -4938,7 +4938,7 @@ export const summaries = {
             "20.2.4.1",
             "20.2.5",
             "20.7",
-            "Itruka’ar -- Inviting-In Feast",
+            "20.8",
             "21.2.1"
         ]
     },
@@ -5002,7 +5002,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.91"
+            "23.92"
         ],
         "tags": [
             "8.1",
@@ -5048,7 +5048,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44"
+            "23.45"
         ],
         "tags": [
             "Naunraat Atsat-llu -- Plants and Berries",

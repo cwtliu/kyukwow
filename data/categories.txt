@@ -61,7 +61,7 @@ Ungungssit Mermiutaat-llu -- Land And Water Animals
 		Can'giiq, Imangaq -- Blackfish
 			Alungyaraat -- Blackfish Fries
 		Neqpik -- Salmon
-		Meluk, Imlauk - Roe
+		Meluk, Imlauk -- Roe
 	Yaqulek, Yaqulget, Tengmiaq, Tengmiat -- Birds
 		Qangqiiq -- Ptarmigan
 		Ingtaq, Ingtat -- Molted Birds
@@ -254,7 +254,7 @@ Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapons
 		Qimugta -- Dog
 			Qimugciryaraq -- Dog Mushing
 		Snuukuuq -- Snowmachine, Snowgo, Snowmobile
-		Qayaq - Kayak
+		Qayaq -- Kayak
 		Egelrun -- Canoe
 		Angyaq -- Boat
 	Tupigyaraq -- Grass Weaving
@@ -305,7 +305,7 @@ Ukverput -- Traditional Beliefs
 		Anelriani Ellam Qukaa Tangerrluku -- Look at the Center of the Universe When Going Out
 	Eyagyaraq -- Abstinence Practices, Taboos
 		Agleryaraq -- Menstruation
-			Aglenraraq -- First Year Of Menstruation
+			Aglenraraq -- First Year of Menstruation
 				Aqumgayaraq -- Abstinence During First Year of Menstruation
 		Essuicaraq -- Spiritual Cleanliness
 	Yuuyaraq -- Way Of Life
@@ -396,6 +396,7 @@ Calricaraq -- Health & Wellness
 			Uquq -- Seal Oil
 			Atsaruaq -- False Chamomile
 Qalartellret Atrit -- Names of Speakers
+	Aqumgaciq John Active
 	INSERTELDERSHERE
 Allat -- Uncategorized
 	Yuartet -- Search And Rescue

@@ -135,6 +135,69 @@ videoDuration = {
 "cpb-aacip-127-98mcvs0p.h264":"22:23",#"0:22:23.165000",
 }
 
+categoryReplacements = {
+"\tTegganeq -- Elder":"Tegganeq -- Elder",
+"-- Qemagciyaraq -- Storage":"Qemagciyaraq -- Storage",
+"Aipanglleq -- Getting A Spouse":"Aipangyaraq -- Getting A Spouse",
+"Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple":"Aipaqellriik, Aipaqelriik, Nulirqellriik -- Married Couple",
+"Akingellerkani Umyuaqevkenaku -- Do Not Expect Payment":"Akingellerkani Umyuaqevkenaku -- Do Not Expect Payment",
+"Aklut -- Clothes":"Aklut -- Clothes",
+"Akusrarun --  Mischief, Misconduct":"Akusrarun --  Mischief, Misconduct",
+"Alangru -- Ghost":"Alangru -- Ghost",
+"Amiq, Qecik -- Skin":"Amiq, Qecik -- Skin",
+"Aviukaqsaraq -- Food And Water Offering":"Aviukaqsaraq -- Food And Water Offering",
+"Calricaraq -- Health and Wellness":"Calricaraq -- Health and Wellness",
+"Calrunani Unguvamaniartuq -- To Live and Long and Healthy Life":"Calrunani Unguvamaniartuq -- To Live and Long and Healthy Life",
+"Canek, Can'get, Caranglluk -- Grass":"Canek, Can'get, Caranglluk -- Grass",
+"Ella Qupsaraa -- The World, Universe Cracks":"Ella Qupsaraa -- The World, Universe Cracks",
+"Ellalliurcuutet -- Rain Gear":"Ellalliurcuutet -- Rain Gear",
+"Ellam Yua -- Spirit Of The Universe":"Ellam Yua, Cellam Yua, Cillam Cua -- Spirit Of The Universe",
+"Ellam Yua -- Spirit of the Universe":"Ellam Yua, Cellam Yua, Cillam Cua -- Spirit Of The Universe",
+"Ellam Yua -- The Spirit of the Universe":"Ellam Yua, Cellam Yua, Cillam Cua -- Spirit Of The Universe",
+"Ellam Yua, Cellam Yua, Cillam Cua -- Spirit of the Universe":"Ellam Yua, Cellam Yua, Cillam Cua -- Spirit Of The Universe",
+"Enepiaq, Nepiaq -- Sod-House":"Enepiaq, Nepiaq -- Sod-House",
+"Imarpigmiutaat, Unkumiutaat -- Marine Animals":"Imarpigmiutaat, Unkumiutaat -- Marine Animals",
+"Imarpigmiutaat, Unkumkiutaat, Mermiutaat -- Marine Animals":"Imarpigmiutaat, Unkumkiutaat, Mermiutaat -- Marine Animals",
+"Iraluq -- Month":"Iraluq -- Month",
+"Ircenrraat -- Legendary Little People":"Ircenrraat -- Legendary Little People",
+"Irniaruat, Inuguat -- Dolls":"Irniaruat, Inuguat -- Dolls",
+"Kaignaq, Piitnaq -- Time of Famine, Need":"Kaignaq, Piitnaq -- Time of Famine, Need",
+"Kapkaanaq -- Steel Trap":"Kapkaanaq -- Steel Trap",
+"Kelugkaq -- Grass Grass for Weaving Mats":"Kelugkaq -- Grass Grass for Weaving Mats",
+"Kit'elleq -- Falling into Water":"Kit'elleq -- Falling into Water",
+"Kumlivik Freezer":"Kumlivik Freezer",
+"Maligtaqustiin Yuunertucia -- Those Who Heed Advice Live Long":"Maligtaqustiin Yuunertucia -- Those Who Heed Advice Live Long",
+"Maligtaquyaraq -- Obedience":"Maligtaquyaraq -- Obedience",
+"Maqi -- Steambath":"Maqi -- Steambath",
+"Meluk -- Roe":"Meluk -- Roe",
+"Meluk, Imlauk -- Roe":"Meluk, Imlauk -- Roe",
+"Naulluun, Qenan -- Sickness":"Naulluun, Qenan -- Sickness",
+"Naumriit Enenguat -- Households Made of Plants":"Naumriit Enenguat -- Households Made of Plants",
+"Naunraat Atsat-llu -- Plants and Berries":"Naunraat Atsat-llu -- Plants and Berries",
+"Naunrat -- Plants":"Naunrat -- Plants",
+"Neqkaq -- Food":"Neqkaq -- Food",
+"Neqpik -- Fish":"Neqpik -- Fish",
+"Nerangnaqsaraq -- Subsistence":"Nerangnaqsaraq -- Subsistence",
+"Pellalleq -- Getting Lost":"Pellalleq -- Getting Lost",
+"Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapon":"Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapon",
+"Piunrillret, Yuunrillret, Tuqullret -- Afterlife":"Piunrillret, Yuunrillret, Tuqullret -- Afterlife",
+"Piunrissiyaayuitellrat Naulluussiyaayuunateng-llu -- Fewer Sickness and Death":"Piunrissiyaayuitellrat Naulluussiyaayuunateng-llu -- Fewer Sickness and Death",
+"Qanruyutet -- Traditional Wisdom, Wise Words":"Qanruyutet -- Traditional Wisdom, Wise Words",
+"Qasgiq, Qaygiq -- Community, Men's House":"Qasgiq, Qaygiq -- Community, Men's House",
+"Qayaq -- Kayak":"Qayaq -- Kayak",
+"Tuntu -- Reindeer":"Tuntu -- Reindeer",
+"Tuqu Naulluun-llu, Qenan-llu -- Death and Sickness":"Tuqu Naulluun-llu, Qenan-llu -- Death and Sickness",
+"Tutmarngaingurmun Ciqicarat -- Disposal Where People Won't Trod":"Tutmarngaingurmun Ciqicarat -- Disposal Where People Won't Trod",
+"Tuunriyaraq, Angalkiryaraq -- Shamanistic Acts, Rituals":"Tuunriyaraq, Angalkiryaraq -- Shamanistic Acts, Rituals",
+"Unangkengaita Auluksarait -- Taking Care of Catch":"Unangkengaita Auluksarait -- Taking Care of Catch",
+"Unangkengaita Auluksarat -- Taking Care of Catch":"Unangkengaita Auluksarat -- Taking Care of Catch",
+"Uqren Aarnarqucia -- The Danger of Leeward Sides":"Uqren Aarnarqucia -- The Danger of Leeward Sides",
+"Yaqulek, Yaqulget -- Birds":"Yaqulek, Yaqulget -- Birds",
+"Yaqulek, Yaqulget, Tengmiat, Tengmiat -- Birds":"Yaqulek, Yaqulget, Tengmiat, Tengmiat -- Birds",
+"Yuungcarviit -- Clinics and Hospitals":"Yuungcarviit -- Clinics and Hospitals",
+"Yuuyaraq -- Way of Life":"Yuuyaraq -- Way of Life",
+}
+
 rx_dict = {
 	'videoID' : re.compile(r'# (?P<videoNumber>\d+) (?P<videoID>\S+)'),
 	'lang' : re.compile(r'## (?P<lang>Yugtun|English)'),
@@ -273,6 +336,11 @@ coreykeywords = [
 def parseCoreySummaries(files):
 	data = defaultdict(dict)
 
+	def tagFixing(w):
+		w = w.replace("’","'")
+		w = w.replace(" - "," -- ")
+		return w
+
 	# files_one = ['../data/WoW-Corey/cpb-aacip-127-76f1vspw.h264 - Summary.docx',]
 	# for file in files_one:
 	for file in files:
@@ -379,7 +447,7 @@ def parseCoreySummaries(files):
 					if line in coreykeywords:
 						break
 					# print(line)
-					tags.append(line)
+					tags.append(tagFixing(line))
 					i += 1
 					if i >= len(doc.paragraphs):
 						break
@@ -529,6 +597,12 @@ def addElderIdentification(elderIdentifierFilename, summariesDict):
 
 
 def mixCategoriesSummaries(summaries, categories, elderCat2Images):
+
+	# fix category tags in summaries
+	for summ in summaries:
+		for i, tag in enumerate(summaries[summ]["tags"]):
+			if tag in categoryReplacements:
+				summaries[summ]["tags"][i] = categoryReplacements[tag]
 
 	# print(elderCat2Images)
 	for cat in categories:
