@@ -306,7 +306,7 @@ export const categoriesUrlLookup = {
     "Kenkiyaraq": "19.10",
     "Kenkucaraq": "19.10.1",
     "Kevgiurturyaraq": "19.11",
-    "Akingellarkani-Umyuaqevkenaku": "19.11.1",
+    "Akingellerkani-Umyuaqevkenaku": "19.11.1",
     "Menuurcuitut": "19.11.2",
     "Naklekiyaraq": "19.12",
     "Inerquutet": "19.13",

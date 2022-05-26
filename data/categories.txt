@@ -263,7 +263,7 @@ Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapons
 		Equgtaryaraq -- Gathering Wood
 	Mingqaat -- Grass Baskets
 Naanguat Aquiyarat-llu -- Toys & Games
-	Irniaruat, Inuguat -- Dolls 
+	Irniaruat, Inuguat -- Dolls
 	Airraq -- String Games
 	Yaaruin -- Story Knife
 	Naumalriit Enenguat -- Households Made of Plants
@@ -315,7 +315,7 @@ Ukverput -- Traditional Beliefs
 	Kenkiyaraq -- Showing Love
 		Kenkucaraq -- Loving Each Other
 	Kevgiurturyaraq -- Serving Others
-		Akingellarkani Umyuaqevkenaku -- Do Not Expect Payment
+		Akingellerkani Umyuaqevkenaku -- Do Not Expect Payment
 		Menuurcuitut -- They Don't Become Impure
 	Naklekiyaraq -- Compassion
 	Inerquutet -- Admonishments
