@@ -1,6 +1,6 @@
     import React, {Component} from 'react';
     import { NavLink, Switch, Route, Link } from 'react-router-dom';
-    import { Container, Header, Button, Icon, Divider, Image, Grid, Menu } from 'semantic-ui-react';
+    import { Container, Header, Button, Icon, Divider, Image, Grid, Menu, Checkbox } from 'semantic-ui-react';
     import Home from './components/Home.js';
     import CategoryLibrary from './components/CategoryLibrary.js';
     import Category from './components/Category.js';
@@ -29,15 +29,6 @@
     //   </Menu>
     // );
 
-    const Main = () => (
-      <Switch>
-        <Route exact path='/' component={Home}></Route>
-        <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
-        <Route exact path='/category/:word' component={Category}></Route>
-        <Route exact path='/video/:word' component={Video}></Route>
-      </Switch>
-    );
-
     
     class App extends React.Component {
       constructor(props) {
@@ -45,6 +36,7 @@
         this.state = {
           count:0,
           activeItem: 'home',
+          audioOnly:false,
         };
       }
 
@@ -58,13 +50,23 @@
         const { activeItem } = this.state
         return(
         <div className='app'>
-          <div style={{display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row'}}>
-          <span><Image style={{width:'120px'}} src="/images/npr.brightspotcdn.webp" /></span>
-          <div style={{display:'flex',flexDirection:'column',marginLeft:'15px'}}>
-          <span style={{fontSize:'16px',fontFamily:"'Roboto', Arial, Helvetica"}}>Ciuliamta Paiciutait</span>
-          <span style={{fontStyle:'italic',fontSize:'16px',fontFamily:"'Roboto',Arial, Helvetica"}}>Our Ancestors' Legacy</span>
+
+
+          <div>
+            <div style={{flex:1,display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row'}}>
+            <span><Image style={{width:'120px'}} src="/images/npr.brightspotcdn.webp" /></span>
+            <div style={{display:'flex',flexDirection:'column',marginLeft:'15px'}}>
+            <span style={{fontSize:'16px',fontFamily:"'Roboto', Arial, Helvetica"}}>Ciuliamta Paiciutait</span>
+            <span style={{fontStyle:'italic',fontSize:'16px',fontFamily:"'Roboto',Arial, Helvetica"}}>Our Ancestors' Legacy</span>
+            </div>
+
+            <div style={{flex:1,display:'flex',justifyContent:'flex-end',marginBottom:'10px'}}>
+            <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
+            <Checkbox toggle checked={this.state.audioOnly} onClick={()=>{this.setState({audioOnly:!this.state.audioOnly})}} />
+            </div>
           </div>
           </div>
+
 
           <Menu style={{background:'#4a565f'}}>
             <Menu.Item
@@ -87,7 +89,13 @@
             </Menu.Item>
           </Menu>
 
-          <Main />
+          <Switch>
+            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
+            <Route exact path='/category/:word' component={Category}></Route>
+            <Route exact path='/video/:word' render={(props) => <Video {...props} audioOnly={this.state.audioOnly} />} />>
+          </Switch>
+
         </div>
         );
       }
