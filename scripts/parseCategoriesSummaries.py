@@ -520,7 +520,7 @@ def categoriesDictFunc(categoryMasterTree):
 		i = i_0 + 1
 		i_index = str(i)
 		categories[i_index]['name'] = subcategory_i.attrib['name']
-		categories[i_index]['url'] = re.sub(r', | & | ','-', subcategory_i.attrib['name'].split('--')[0].strip().replace("'",""))
+		categories[i_index]['url'] = re.sub(r', | & | ~ | ','-', subcategory_i.attrib['name'].split('--')[0].strip().replace("'",""))
 		categories[i_index]['images'] = []
 		categories[i_index]['children'] = len(subcategory_i)
 		categories[i_index]['videoNumbers'] = []
@@ -528,7 +528,7 @@ def categoriesDictFunc(categoryMasterTree):
 			j = j_0 + 1
 			j_index = '.'.join([i_index,str(j)])
 			categories[j_index]['name'] = subcategory_j.attrib['name']
-			categories[j_index]['url'] = re.sub(r', | & | ','-', subcategory_j.attrib['name'].split('--')[0].strip().replace("'",""))
+			categories[j_index]['url'] = re.sub(r', | & | ~ | ','-', subcategory_j.attrib['name'].split('--')[0].strip().replace("'",""))
 			categories[j_index]['images'] = []
 			categories[j_index]['children'] = len(subcategory_j)
 			categories[j_index]['videoNumbers'] = []
@@ -536,7 +536,7 @@ def categoriesDictFunc(categoryMasterTree):
 				k = k_0 + 1
 				k_index = '.'.join([j_index,str(k)])
 				categories[k_index]['name'] = subcategory_k.attrib['name']
-				categories[k_index]['url'] = re.sub(r', | & | ','-', subcategory_k.attrib['name'].split('--')[0].strip().replace("'",""))
+				categories[k_index]['url'] = re.sub(r', | & | ~ | ','-', subcategory_k.attrib['name'].split('--')[0].strip().replace("'",""))
 				categories[k_index]['images'] = []
 				categories[k_index]['children'] = len(subcategory_k)
 				categories[k_index]['videoNumbers'] = []
@@ -544,7 +544,7 @@ def categoriesDictFunc(categoryMasterTree):
 					l = l_0 + 1
 					l_index = '.'.join([k_index,str(l)])
 					categories[l_index]['name'] = subcategory_l.attrib['name']
-					categories[l_index]['url'] = re.sub(r', | & | ','-', subcategory_l.attrib['name'].split('--')[0].strip().replace("'",""))
+					categories[l_index]['url'] = re.sub(r', | & | ~ | ','-', subcategory_l.attrib['name'].split('--')[0].strip().replace("'",""))
 					categories[l_index]['images'] = []
 					categories[l_index]['children'] = len(subcategory_l)
 					categories[l_index]['videoNumbers'] = []
@@ -574,15 +574,26 @@ def addElderIdentification(elderIdentifierFilename, summariesDict):
 			if aapb not in summariesDict:
 				print(f'{aapb} - elder identification - missing aapb summary')
 				continue
+
 			elderString = lineDict['Name'].strip()
-			elderString = elderString+" ~ "+lineDict['English Name'].strip() if elderString else lineDict['English Name'].strip()
-			elderString = elderString+" -- "+lineDict['Village'].strip() if elderString else lineDict['Village'].strip()
+			unnamedWithVillage = False
+			if elderString and lineDict['English Name']:
+				elderString = elderString+" ~ "+lineDict['English Name'].strip()
+			elif lineDict['English Name']:
+				elderString = lineDict['English Name'].strip()
+			if elderString and lineDict['Village']:
+				elderString = elderString+" -- "+lineDict['Village'].strip()
+			elif lineDict['Village']:
+				unnamedWithVillage = True
+
 			if elderString:		
 				summariesDict[aapb]['elderTags'].append(elderString)
 				elderNames.add(elderString)
 				elderCat2Images[elderString].append(lineDict['Image'].strip())
 			else:
 				elderString = f"Yuk {unknownElderNumber:02d}"
+				if unnamedWithVillage:
+					elderString = elderString+" -- "+lineDict['Village'].strip()
 				unknownElderNumber += 1
 				elderNames.add(elderString)
 				summariesDict[aapb]['elderTags'].append(elderString)
