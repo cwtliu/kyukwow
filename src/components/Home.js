@@ -192,11 +192,18 @@ class Home extends Component {
 
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 				{this.state.eldersList.map((y,yindex) => (
-					(yindex < 12 ?
+					(yindex < 16 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 							<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
 							<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
-							<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+							{categories[y]['name'].includes('~') ?
+								<div>
+									<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+								</div>
+								:
+								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+							}
 							</Link>
 						</div>
 						:
@@ -205,11 +212,18 @@ class Home extends Component {
 				))}
 				{this.state.showMoreElders ?
 					(this.state.eldersList.map((y,yindex) => (
-						(yindex > 11 ?
+						(yindex > 15 ?
 							<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 								<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
 								<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
-								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+								{categories[y]['name'].includes('~') ?
+									<div>
+										<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+										<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+									</div>
+									:
+									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+								}
 								</Link>
 							</div>
 							:

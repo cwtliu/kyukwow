@@ -52,7 +52,7 @@ class Video extends Component {
       // clickedSummaryIndex:-1,
       clickedChapterIndex:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
-      videoOnly:true,
+      // videoOnly:true,
     }
     this.audio = new Audio(this.state.audioURL);
     // this.audio = new Audio(API_URL + "/kyukaudiolibrary/" +  this.videoID);
@@ -77,13 +77,13 @@ class Video extends Component {
   }
 
   tick() {
-    if (this.state.videoOnly) {
+    if (this.props.audioOnly) {
       this.setState({
-        currentTime : this.rep.player.prevPlayed,
+        currentTime : this.rap.audioEl.current.currentTime,
       });
     } else {
       this.setState({
-        currentTime : this.rap.audioEl.current.currentTime,
+        currentTime : this.rep.player.prevPlayed,
       });
     }
   }
@@ -409,6 +409,7 @@ class Video extends Component {
   };
 
   playSection = (i) => {
+    console.log(this.state.videoPlayerPlaying)
     this.setState({
       endTime: this.state.subtitles[i].endTime,
       currentSection: i,
@@ -474,7 +475,7 @@ class Video extends Component {
 
   render() {
     // console.log(this.state.currentTime)
-    console.log(this.rep)
+    // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
     // if (this.rap !== undefined) {
@@ -495,36 +496,55 @@ class Video extends Component {
       readerHeight = this.reader.clientHeight+14
     }
     let topOffset = 165
+    let topOffsetAudio = 233
     return (
       <div className='about'>
 
 
-      {this.state.videoOnly ?
+      {this.props.audioOnly ?
+
         <Grid>
-        <Grid.Row columns={2}>
-        <Grid.Column width={7}>
-          <div class='reader' ref={(element)=>{this.reader=element;}}>
-            <div className='player-wrapper'>
-            <ReactPlayer 
-              className='react-player'
+            <ReactAudioPlayer
+              src={this.state.audioURL}
               controls
-              url={this.state.videoURL} 
-              ref={(element)=>{this.rep=element;}}
-              width='100%'
-              height='100%'
-              playIcon
-              playing={this.state.videoPlayerPlaying}
+              // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
+              style={{width:'100%',marginTop:14}}
+              ref={(element)=>{this.rap=element;}}
               onPlay={()=>{
-                this.setState({videoPlayerPlaying:true})
+                this.setState({audioPlayerPlaying:true})
                 var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
                 elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
-              }}
-              onPause={()=>{this.setState({videoPlayerPlaying:false})}}
+            }}
+              onPause={()=>{this.setState({audioPlayerPlaying:false})}}
             />
-            </div>
-          </div>
+        <Grid.Row columns={2}>
+        <Grid.Column width={7}>
+  
 
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:window.innerHeight-readerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+
+              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tegganret Qalartellret </div>
+                
+              <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
+                {this.state.elderTags.map((y) => (
+                  y in categories ?
+                  <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'120px'}}>
+                    <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
+                    <Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+                    {categories[y]['name'].includes('~') ?
+                    <div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    </div>
+                    :
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    }
+                    </Link>
+                  </div>
+                  :
+                  null
+                ))}
+              </div>
 
               <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
               
@@ -532,7 +552,7 @@ class Video extends Component {
               {this.state.elderTags.map((y)=>(
                 y in categories ?
                 <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-                  <Button basic color='black' compact>
+                  <Button basic color='blue' compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
                   </Button>
@@ -567,7 +587,273 @@ class Video extends Component {
           {summaries[this.ID].summary.map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
             <Grid style={{padding:0,margin:0}}>
-            <Grid.Row columns={2}>
+            <Grid.Row style={{paddingTop:0}} columns={2}>
+              <Grid.Column width={3}>
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
+                {y[0]}
+                </div>
+              </Grid.Column>
+              <Grid.Column width={13}>
+
+              {y[1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\n'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
+                position='bottom left'
+              />
+
+              </Grid.Column>
+            </Grid.Row>
+            </Grid>
+            </div>
+          ))}
+
+
+
+            </Segment>
+
+
+
+
+        </Grid.Column>
+        <Grid.Column width={9}>
+          <Segment vertical style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+            <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Reader-aaq </div>
+            {Object.keys(this.state.subtitles).map((i, index) => (
+              <span class='reader-text'>
+              <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
+                this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
+                  this.playSection(i);
+                });
+              }} />
+              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+              {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
+                <Popup
+                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                    console.log(this.state.getCall);
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedWordIndex:[index,jindex]});
+                      this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{j+'\n'}</span>}
+                  onClose={()=>this.setState({
+                    clickedWordIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+                )
+              )}
+              </span>
+
+              {i === this.state.showTranslation ? 
+                <p>{this.state.subtitles[i].translation}</p>
+                :
+                null
+              }
+              <Popup
+                // size='large'
+                trigger={<Icon size='large' style={{color:'#d4d4d4',fontSize:'20px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
+                position='bottom left'
+              />
+              {'\n\n\n'}
+              </span>
+              )
+            )}
+          </Segment>
+        </Grid.Column>
+        </Grid.Row>
+        </Grid>
+
+
+        :
+        <Grid>
+        <Grid.Row columns={2}>
+        <Grid.Column width={7}>
+          <div class='reader' ref={(element)=>{this.reader=element;}}>
+            <div className='player-wrapper'>
+            <ReactPlayer 
+              className='react-player'
+              controls
+              url={this.state.videoURL} 
+              ref={(element)=>{this.rep=element;}}
+              width='100%'
+              height='100%'
+              playIcon
+              playing={this.state.videoPlayerPlaying}
+              onPlay={()=>{
+                this.setState({videoPlayerPlaying:true})
+                var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
+                elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+              }}
+              onPause={()=>{this.setState({videoPlayerPlaying:false})}}
+            />
+            </div>
+          </div>
+
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:window.innerHeight-readerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+
+              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
+              
+              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
+              {this.state.elderTags.map((y)=>(
+                y in categories ?
+                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                  <Button basic color='blue' compact>
+                  {/*{categories[y].name.replaceAll('--','—')}*/}
+                  {categories[y].name.split(' -- ')[0]}
+                  </Button>
+                </Link>
+                :
+                null
+              ))}
+
+              {this.state.tags.map((y)=>(
+                y in categories ?
+                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                  <Button basic compact>
+                  {/*{categories[y].name.replaceAll('--','—')}*/}
+                  {categories[y].name.split(' -- ')[0]}
+                  </Button>
+                </Link>
+                :
+                null
+              ))}
+              <Popup
+                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+                position='bottom left'
+              />
+              </div>
+
+
+
+          <div style={{textAlign:'center',fontSize:'22px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+
+          {summaries[this.ID].summary.map((y,yindex) => (
+            <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
+            <Grid style={{padding:0,margin:0}}>
+            <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
                 <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
                 {y[0]}
@@ -668,13 +954,14 @@ class Video extends Component {
             {Object.keys(this.state.subtitles).map((i, index) => (
               <span class='reader-text'>
               <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-                this.playSection(i);
-                // this.setState({videoPlayerPlaying:false});
+                this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
+                  this.playSection(i);
+                });
               }} />
               <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
-                  trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     console.log(this.state.getCall);
                     if (!this.state.getCall) {
                       this.setState({getCall:true,clickedWordIndex:[index,jindex]});
@@ -748,7 +1035,8 @@ class Video extends Component {
                 null
               }
               <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                // size='large'
+                trigger={<Icon size='large' style={{color:'#d4d4d4',fontSize:'20px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
                 position='bottom left'
@@ -762,292 +1050,10 @@ class Video extends Component {
         </Grid.Row>
         </Grid>
 
-
-        :
-
-      <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
-
-      {window.innerWidth > 480 ? 
-        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
-        <div style={{display:'flex',flexDirection:'row',alignItems:'center',position:'sticky'}}>
-          <ReactAudioPlayer
-            src={this.state.audioURL}
-            controls
-            // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
-            style={{width:'100%',zIndex:10}}
-            ref={(element)=>{this.rap=element;}}
-            onPlay={()=>{
-              this.setState({audioPlayerPlaying:true})
-              var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-              elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
-          }}
-            onPause={()=>{this.setState({audioPlayerPlaying:false})}}
-          />
-        </div>
-        </div>
-        :
-        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
-        <div style={{display:'flex',flexDirection:'row',alignItems:'center',position:'sticky'}}>
-          <Image style={{height:'54px',borderRadius:'30px',marginRight:'10px'}} src={"https://img.youtube.com/vi/"+
-          YouTubeLinks[this.videoID].split(".be/")[1]
-          +"/hqdefault.jpg"} />
-
-          <ReactAudioPlayer
-            src={this.state.audioURL}
-            controls
-            // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
-            style={{width:'100%',zIndex:10}}
-            ref={(element)=>{this.rap=element;}}
-            onPlay={()=>{
-              this.setState({audioPlayerPlaying:true})
-              var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-              elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
-          }}
-            onPause={()=>{this.setState({audioPlayerPlaying:false})}}
-          />
-        </div>
-        </div>
       }
 
 
-      <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Tegganret Atrit </div>
-          
-          <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
-            {this.state.elderTags.map((y) => (
-              y in categories ?
-              <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
-                <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-                <Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
-                <div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
-                </Link>
-              </div>
-              :
-              null
-            ))}
-          </div>
-        </div>
 
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Tag-at </div>
-          <div style={{textAlign:'center',lineHeight:'34px'}}>
-          {this.state.tags.map((y)=>(
-            y in categories ?
-            <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
-              <Button basic compact>
-              {/*{categories[y].name.replaceAll('--','—')}*/}
-              {categories[y].name.split(' -- ')[0]}
-              </Button>
-            </Link>
-            :
-            null
-          ))}
-          <Popup
-            trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-            on='click'
-            content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
-            position='bottom left'
-          />
-          </div>
-
-
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Chapter-aat </div>
-
-          {summaries[this.ID].summary.map((y,yindex) => (
-            <div class='reader' style={{fontSize:'20px',lineHeight:'24px'}}>
-            <Grid>
-            <Grid.Row columns={2}>
-              <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
-                {y[0]}
-                </div>
-              </Grid.Column>
-              <Grid.Column width={13}>
-
-              {y[1].split(" ").map((k,kindex) => (
-                <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
-                  }
-                  }>{k+'\n'}</span>}
-                  onClose={()=>this.setState({
-                    clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
-                    // endingrule: [],
-                    // getCall:false,
-                  })}
-                  on='click'
-                  content={
-                    !this.state.getCall ? 
-                    (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex]}
-                                </div>
-                            </div>
-                            )
-                        ))}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
-                    :
-                    <div style={{height:'70px',width:'60px'}}>
-                    <Loader active>Loading</Loader>
-                    </div>
-                  }
-                  mouseEnterDelay={800}
-                  mouseLeaveDelay={800}
-                  position='bottom left'
-                />
-              ))}
-              <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
-                position='bottom left'
-              />
-
-              </Grid.Column>
-            </Grid.Row>
-            </Grid>
-            </div>
-          ))}
-
-        <div class='reader'>
-        <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Reader-aaq </div>
-        {Object.keys(this.state.subtitles).map((i, index) => (
-          <span class='reader-text'>
-          <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-            this.playSection(i);
-            this.rap.audioEl.current.pause();
-            this.setState({audioPlayerPlaying:false});
-          }} />
-          <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
-          {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
-            <Popup
-              trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                console.log(this.state.getCall);
-                if (!this.state.getCall) {
-                  this.setState({getCall:true,clickedWordIndex:[index,jindex]});
-                  this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                }
-              }
-              }>{j+'\n'}</span>}
-              onClose={()=>this.setState({
-                clickedWordIndex:[-1,-1],
-                definitions:[],
-                parses: [],
-                segments: [],
-                // endingrule: [],
-                // getCall:false,
-              })}
-              on='click'
-              content={
-                !this.state.getCall ? 
-                (
-                this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                  <div>
-                  <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                  {this.state.parses[0].split('-').map((q,qindex) =>
-                    (qindex === this.state.endingrule[0][0] ?
-                      this.endingToEnglish(q,0,qindex)
-                      :
-                      (qindex > this.state.endingrule[0][0] ?
-                        <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {this.state.firstParse[qindex]}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex-1]}
-                            </div>
-                        </div>
-                        :
-                        <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {q}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex]}
-                            </div>
-                        </div>
-                        )
-                    ))}
-                  </div>
-                :
-                <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                )
-                :
-                <div style={{height:'70px',width:'60px'}}>
-                <Loader active>Loading</Loader>
-                </div>
-              }
-              mouseEnterDelay={800}
-              mouseLeaveDelay={800}
-              position='bottom left'
-            />
-            )
-          )}
-          </span>
-
-          {i === this.state.showTranslation ? 
-            <p>{this.state.subtitles[i].translation}</p>
-            :
-            null
-          }
-          <Popup
-            trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-            on='click'
-            content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
-            position='bottom left'
-          />
-          {'\n\n\n'}
-          </span>
-          )
-        )}
-      </div>
-
-      <div>
-
-      </div>
-
-
-      </div>
-
-
-      }
 
       </div>
     );
