@@ -1,6 +1,7 @@
 
 
 import os
+import re
 from pathlib import Path
 import json
 import pysrt
@@ -22,13 +23,41 @@ from pydub import AudioSegment
 # awesome.export("mashup.mp3", format="mp3")
 
 
+SRTsBeforeELAN = [
+"cpb-aacip-127-009w0z0q.h264.srt",
+"cpb-aacip-127-00ns1t6z.h264.srt",
+"cpb-aacip-127-010p2r15.h264.srt",
+"cpb-aacip-127-03cz8zdq.h264.srt",
+"cpb-aacip-127-06g1jzz6.h264.srt",
+"cpb-aacip-127-06g1k008.h264.srt",
+"cpb-aacip-127-09w0vx3c.h264.srt",
+"cpb-aacip-127-10jsxpvr.h264.srt",
+"cpb-aacip-127-10jsxpwg.h264.srt",
+"cpb-aacip-127-10jsxpx6.h264.srt",
+"cpb-aacip-127-14nk9d19.h264.srt",
+"cpb-aacip-127-15p8d31m.h264.srt",
+"cpb-aacip-127-16pzgr3f.h264.srt",
+"cpb-aacip-127-18rbp380.h264.srt",
+"cpb-aacip-127-20fttjr7.h264.srt",
+]
+
 
 def cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename):
-	jsonFile = {}
+	jsonFile = json.load(open(jsonFilename))
 	for subtitleFilename in subtitleFiles:
 		audioFilename = subtitleFilename.replace('.srt','.mp3')
 		audio = AudioSegment.from_mp3(os.path.join(audioFolder,audioFilename))
 		esuengSRT = pysrt.open(os.path.join(subtitleFolder, subtitleFilename))
+
+		# delete existing subtitles and audio for filename to replace
+		existingSubtitles = [x for x in jsonFile.keys() if re.sub('-\d{4}','',x) == subtitleFilename.replace('.srt','')]
+		for x in existingSubtitles:
+			jsonFile.pop(x,None) # remove from dictionary
+			
+		print(sorted([f for f in os.listdir(splitFolder) if subtitleFilename.replace('.srt','') in f]))
+		existingAudioFiles = sorted([f for f in os.listdir(splitFolder) if subtitleFilename.replace('.srt','') in f])
+		for x in existingAudioFiles:
+			os.remove(os.path.join(splitFolder,x))	# remove mp3
 
 		for line in esuengSRT:
 			try:
@@ -41,6 +70,11 @@ def cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename):
 			endTime_og = line.end.hours*3600 + line.end.minutes*60 + line.end.seconds + line.end.milliseconds*.001
 			startTime = startTime_og * 1000
 			endTime = endTime_og * 1000
+
+			if subtitleFilename in SRTsBeforeELAN:
+				endTime_og += 1
+				endTime += 1000 # add in a second for non-specific end times
+				# print(f"adding a second: {before} -> {endTime}")
 
 
 			linetext = line.text.strip().replace(u"\u2018", "'").replace(u"\u2019", "'")
@@ -62,7 +96,7 @@ def cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename):
 							   'audioFilename':subtitleAudioFilename,
 							   'subtitleFilename':subtitleFilename}
 
-		print(f'writing {jsonFile}')
+		print(f'writing {jsonFilename}')
 		with open(jsonFilename, 'w', encoding='utf-8') as out:
 			out.write(json.dumps(jsonFile, indent=4, ensure_ascii=False))
 
@@ -95,21 +129,41 @@ def restructureJson(jsonFilename, jsonFilenameNew):
 		previousSubtitle = subtitle
 
 	with open(jsonFilenameNew, 'w', encoding='utf-8') as out:
-			out.write(json.dumps(new_subtitles, indent=4, ensure_ascii=False))
+		out.write(json.dumps(new_subtitles, indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':
 	subtitleFolder = '../data/YugtunEnglish'
 	audioFolder = '../data/WoW-mp3'
-	splitFolder = '../data/WoW-split'
+	splitFolder = '../data/WoW-split.nosync'
 	jsonFilename = '../data/wowSubtitles.json'
 	jsonFilenameNew = '../data/wowSubtitles-new.json'
 	
 	# Path(splitFolder).mkdir(parents=True, exist_ok=True)
 
+	filesToRerun = [
+	"cpb-aacip-127-009w0z0q.h264.srt",
+	"cpb-aacip-127-00ns1t6z.h264.srt",
+	"cpb-aacip-127-010p2r15.h264.srt",
+	"cpb-aacip-127-03cz8zdq.h264.srt",
+	"cpb-aacip-127-06g1jzz6.h264.srt",
+	"cpb-aacip-127-06g1k008.h264.srt",
+	"cpb-aacip-127-09w0vx3c.h264.srt",
+	"cpb-aacip-127-10jsxpvr.h264.srt",
+	"cpb-aacip-127-10jsxpwg.h264.srt",
+	"cpb-aacip-127-10jsxpx6.h264.srt",
+	"cpb-aacip-127-14nk9d19.h264.srt",
+	"cpb-aacip-127-15p8d31m.h264.srt",
+	"cpb-aacip-127-16pzgr3f.h264.srt",
+	"cpb-aacip-127-18rbp380.h264.srt",
+	"cpb-aacip-127-20fttjr7.h264.srt",
+	"cpb-aacip-127-25k98x78.h264.srt",
+	]
+
 	# subtitleFiles = sorted([f for f in os.listdir(subtitleFolder) if f[0] == 'c'])
+	subtitleFiles = filesToRerun
 	
-	# cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename)
+	cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename)
 
 	restructureJson(jsonFilename, jsonFilenameNew)
 

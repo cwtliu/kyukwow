@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:01,547 --> 00:00:04,756
 I just have the one that I just loaded.
 
@@ -108,7 +108,7 @@ Then when I would hunt seals in the spring, in the lakes, you know the [?kevnere
 
 28
 00:03:11,252 --> 00:03:17,440
-While I was spring seal hunting, it called out to me like this, <i>"Apaqutaq!"</i> 
+While I was spring seal hunting, it called out to me like this, <i>"Apaqutaq!"</i>
 
 29
 00:03:17,470 --> 00:03:23,590
@@ -739,147 +739,102 @@ Noy, you see, I know the songs from a long time ago [and can sing] some of them 
 "Angaa-yii-yaa agiyaa-ii-yaa." Then their dance movements.
 
 186
-00:17:48,715 --> 00:17:50,885
-
-
-187
 00:17:51,313 --> 00:17:56,488
 Look how the real dance movements are like this [?upriver].
 
-188
+187
 00:18:22,845 --> 00:18:32,259
 Mengyaq here is going to go, he’s going to go [dance] in Qasgirpagmiut
 
-189
+188
 00:18:32,458 --> 00:18:38,936
 Are the people of Qasgirpak curling their tails yii-ya-ya,
 
-190
+189
 00:18:49,724 --> 00:18:59,405
 You see, when he would sing for people, he started talking about it when he had grandchildren.
 
-191
+190
 00:18:59,405 --> 00:19:05,858
 He said that the people of Kayalivik back then
 
-192
+191
 00:19:06,428 --> 00:19:13,470
 Those two community houses would compete with each other in the Kevgiq [Messengar Feast], dancing like this.
 
-193
+192
 00:19:13,851 --> 00:19:18,417
 The people down in Kayalivik apparently loved to dance.
 
-194
+193
 00:19:19,109 --> 00:19:22,506
 Yes, that’s what it’s like.
 
-195
+194
 00:19:25,117 --> 00:19:30,878
 We also used to accompany that with dancing before the host village.
 
-196
+195
 00:19:31,427 --> 00:19:38,534
 When they would dance for the host village, they would dance with arm movements like this.
 
-197
+196
 00:20:26,765 --> 00:20:29,214
 How does the verse go again?
 
-198
+197
 00:20:31,866 --> 00:20:38,033
 Oh, I sang their song, you know, that they sung for a certain purpose.
 
-199
+198
 00:20:38,033 --> 00:20:39,878
 I made a mistake.
 
-200
+199
 00:20:40,192 --> 00:20:47,352
 I forgot it. You see, I know some of their songs that I heard very well.
 
+200
+00:20:47,380 --> 00:20:51,129
+I can talk about anything from long ago.
+I see.
+
 201
-00:20:47,380 --> 00:20:47,985
-I see.
-
-202
-00:20:47,985 --> 00:20:48,295
-I see.
-I can talk about anything from long ago.
-
-203
-00:20:48,295 --> 00:20:51,129
-I can talk about anything from long ago.
-
-204
 00:20:51,219 --> 00:20:51,865
 I see.
 
-205
+202
 00:20:52,608 --> 00:20:53,203
 Okay.
 
-206
+203
 00:20:53,228 --> 00:20:54,905
 The [recoding] is full now.
 
-207
+204
 00:20:54,958 --> 00:20:56,078
 I see.
 
-208
-00:20:56,082 --> 00:20:57,280
-Thank you very much.
-
-209
-00:20:57,280 --> 00:20:57,897
+205
+00:20:56,082 --> 00:20:58,288
 Thank you very much.
 Yes.
 
-210
-00:20:57,897 --> 00:20:58,288
-Yes.
-
-211
-00:20:58,495 --> 00:21:03,329
-We’ll use them. I’ll notify you when we’re going to use them.
-
-212
-00:21:03,329 --> 00:21:04,018
+206
+00:20:58,495 --> 00:21:06,726
 We’ll use them. I’ll notify you when we’re going to use them.
 Yes, okay, okay.
 
-213
-00:21:04,018 --> 00:21:04,369
-Yes, okay, okay.
-
-214
-00:21:04,369 --> 00:21:06,713
-Okay. Oh my.
-Yes, okay, okay.
-
-215
-00:21:06,713 --> 00:21:06,726
-Yes, okay, okay.
-
-216
+207
 00:21:06,946 --> 00:21:13,126
 Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak.
 
-217
-00:21:14,041 --> 00:21:19,768
+208
+00:21:14,041 --> 00:21:21,053
 He’s from Cuukvagtuli. The man out there and I are from Kayalivigmiut.
-
-218
-00:21:19,768 --> 00:21:20,856
-I see.
-He’s from Cuukvagtuli. The man out there and I are from Kayalivigmiut.
-
-219
-00:21:20,856 --> 00:21:21,053
 I see.
 
-220
+209
 00:21:21,286 --> 00:21:22,397
 Yes.
 

@@ -2,13 +2,13 @@ export const subtitles = {
     "1": {
         "endTime": 4.756,
         "startTime": 1.5470000000000002,
-        "transcript": "<i>I just have the one that I just loaded.</i>",
+        "transcript": "I just have the one that I just loaded.",
         "translation": "I just have the one that I just loaded."
     },
     "2": {
         "endTime": 8.663,
         "startTime": 6.795,
-        "transcript": "<i>Okay, I'm rolling.</i>",
+        "transcript": "Okay, I'm rolling.",
         "translation": "Okay, I'm rolling."
     },
     "3": {
@@ -50,7 +50,7 @@ export const subtitles = {
     "9": {
         "endTime": 51.383,
         "startTime": 44.729,
-        "transcript": "Wiinga elitnaullruanga anngairutma ping'um-llu alqama <i>full sister<i/>-aama.",
+        "transcript": "Wiinga elitnaullruanga anngairutma ping'um-llu alqama full sister-aama.",
         "translation": "My late older brother and my older sister inland, my full sister. taught me."
     },
     "10": {
@@ -158,7 +158,7 @@ export const subtitles = {
     "27": {
         "endTime": 190.13,
         "startTime": 179.79,
-        "transcript": "Tuamtellam qamiga'rqama waten nanvam iluakun, iciw' kevneret, <i>you know</i>, up'nerkami kanaqlagssuraqamta.",
+        "transcript": "Tuamtellam qamiga'rqama waten nanvam iluakun, iciw' kevneret, you know, up'nerkami kanaqlagssuraqamta.",
         "translation": "Then when I would hunt seals in the spring, in the lakes, you know the [?kevneret], when we hunt muskrats in the spring."
     },
     "28": {
@@ -236,7 +236,7 @@ export const subtitles = {
     "40": {
         "endTime": 261.92,
         "startTime": 255.651,
-        "transcript": "Wangkuk ilu'urqa-llu cakemna Tununermiu-llu <i>cousin</i>-aaqa-llu",
+        "transcript": "Wangkuk ilu'urqa-llu cakemna Tununermiu-llu cousin-aaqa-llu",
         "translation": "My iluraq, cousin, down there from Tununak and I"
     },
     "41": {
@@ -278,7 +278,7 @@ export const subtitles = {
     "47": {
         "endTime": 305.374,
         "startTime": 300.398,
-        "transcript": "Kass'at ikgetqapiarallruut maan-i <i>Alaska</i>-mi.",
+        "transcript": "Kass'at ikgetqapiarallruut maan-i Alaska-mi.",
         "translation": "They were scarcly any Caucasians here in Alaska."
     },
     "48": {
@@ -308,7 +308,7 @@ export const subtitles = {
     "52": {
         "endTime": 335.624,
         "startTime": 329.006,
-        "transcript": "Tuaten Neqiacaagalek tuaten piaqluku. <i>Waskie</i> imna Neqiacagmek pitullruat.",
+        "transcript": "Tuaten Neqiacaagalek tuaten piaqluku. Waskie imna Neqiacagmek pitullruat.",
         "translation": "They even called Neqiacaagalek by that name. They used to call Waskie, Neqiacak."
     },
     "53": {
@@ -344,13 +344,13 @@ export const subtitles = {
     "58": {
         "endTime": 372.715,
         "startTime": 369.084,
-        "transcript": "<i>Kilbuk School</i>.",
+        "transcript": "Kilbuk School.",
         "translation": "Kilbuk School."
     },
     "59": {
         "endTime": 376.358,
         "startTime": 372.997,
-        "transcript": "<i>Indian</i>-auguq tauna wani <i>Kilbuk</i>-aaq wani.",
+        "transcript": "Indian-auguq tauna wani Kilbuk-aaq wani.",
         "translation": "That Kilbuk [School] is of the [Bureau of] Indian [Affairs]."
     },
     "60": {
@@ -362,7 +362,7 @@ export const subtitles = {
     "61": {
         "endTime": 385.622,
         "startTime": 380.148,
-        "transcript": "Imiritulriani <i>Kilbuk</i>-aq ingna wani, <i>Kilbuk School</i>-ami yaani wani.",
+        "transcript": "Imiritulriani Kilbuk-aq ingna wani, Kilbuk School-ami yaani wani.",
         "translation": "Among those who recorded over in Kilbuck School."
     },
     "62": {
@@ -488,7 +488,7 @@ export const subtitles = {
     "82": {
         "endTime": 505.4,
         "startTime": 498.984,
-        "transcript": "\"Akimek amllermek akiirluku yuut maani <i>Alaska</i>-mrmiut pilallrulliniut.\"",
+        "transcript": "\"Akimek amllermek akiirluku yuut maani Alaska-mrmiut pilallrulliniut.\"",
         "translation": "\"They used to pay a lot of money to people here from Alaska.\""
     },
     "83": {
@@ -512,19 +512,19 @@ export const subtitles = {
     "86": {
         "endTime": 527.938,
         "startTime": 521.896,
-        "transcript": "Qanemciarkanka amllepiartut cakneq tua-i wiinga. Man'a-llu <i>Alaska</i>-q",
+        "transcript": "Qanemciarkanka amllepiartut cakneq tua-i wiinga. Man'a-llu Alaska-q",
         "translation": "I have a great many stories to tell. And Alaska here"
     },
     "87": {
         "endTime": 532.263,
         "startTime": 528.432,
-        "transcript": "Mat'um nalliini maa-i <i>Alaska</i>-q qaqitaqa wani.",
+        "transcript": "Mat'um nalliini maa-i Alaska-q qaqitaqa wani.",
         "translation": "Now, I have gone everywhere in Alaska."
     },
     "88": {
         "endTime": 537.51,
         "startTime": 533.066,
-        "transcript": "<i>Alaska</i>-mi caliunga ayagalua tua-i waniwa.",
+        "transcript": "Alaska-mi caliunga ayagalua tua-i waniwa.",
         "translation": "Now, I work in Alaska by traveling."
     },
     "89": {
@@ -596,7 +596,7 @@ export const subtitles = {
     "100": {
         "endTime": 600.302,
         "startTime": 595.975,
-        "transcript": "Ava-i-qaa qanerturalqa teguararaat cali imum wan' <i>tape</i>-am.",
+        "transcript": "Ava-i-qaa qanerturalqa teguararaat cali imum wan' tape-am.",
         "translation": "Is the tape still recording what I've been saying?"
     },
     "101": {
@@ -638,7 +638,7 @@ export const subtitles = {
     "107": {
         "endTime": 651.28,
         "startTime": 642.587,
-        "transcript": "Lumarranek-ll' imkunek yurualluteng, qecigugarnek-llu qecignek, <i>seal</i>-at qeciitnek.",
+        "transcript": "Lumarranek-ll' imkunek yurualluteng, qecigugarnek-llu qecignek, seal-at qeciitnek.",
         "translation": "During dances, they would give out cloth, and a lot of animal skins, seal skins."
     },
     "108": {
@@ -656,7 +656,7 @@ export const subtitles = {
     "110": {
         "endTime": 664.025,
         "startTime": 660.65,
-        "transcript": "Wangkuta waniw' nunalguukut maani <i>Bethel</i>-ami.",
+        "transcript": "Wangkuta waniw' nunalguukut maani Bethel-ami.",
         "translation": "We're a [host settlement here in Bethel."
     },
     "111": {
@@ -788,7 +788,7 @@ export const subtitles = {
     "132": {
         "endTime": 787.139,
         "startTime": 781.417,
-        "transcript": "Pinguarluteng-gguq <i>seal</i>-aruarluteng wall'u neqnguarluteng.",
+        "transcript": "Pinguarluteng-gguq seal-aruarluteng wall'u neqnguarluteng.",
         "translation": "They said they were depictions of things, depictions of seals or fish."
     },
     "133": {
@@ -878,7 +878,7 @@ export const subtitles = {
     "147": {
         "endTime": 867.951,
         "startTime": 861.289,
-        "transcript": "Aqvautaqluteng-llu kiimelnge'rmeng tua-i aipateng-llu taukut <i>friend</i>-arrateng.",
+        "transcript": "Aqvautaqluteng-llu kiimelnge'rmeng tua-i aipateng-llu taukut friend-arrateng.",
         "translation": "They would run too, even by themselves, and with their peers, what friends they had."
     },
     "148": {
@@ -1052,7 +1052,7 @@ export const subtitles = {
     "176": {
         "endTime": 1011.547,
         "startTime": 1007.812,
-        "transcript": "Aipaa-ll' waten elanra <i>mudhouse</i>.",
+        "transcript": "Aipaa-ll' waten elanra mudhouse.",
         "translation": "And the other was dug out like a mudhouse."
     },
     "177": {
@@ -1106,7 +1106,7 @@ export const subtitles = {
     "185": {
         "endTime": 1062.108,
         "startTime": 1051.608,
-        "transcript": "Waniw' tang wiinga-llu ak'a tamaani tamatum nalliini yuarutait nallunritanka <i>any time</i> ilait carralriit, carraulriit.",
+        "transcript": "Waniw' tang wiinga-llu ak'a tamaani tamatum nalliini yuarutait nallunritanka any time ilait carralriit, carraulriit.",
         "translation": "Noy, you see, I know the songs from a long time ago [and can sing] some of them anytime, a few of them."
     },
     "186": {
@@ -1268,7 +1268,7 @@ export const subtitles = {
     "212": {
         "endTime": 1238.033,
         "startTime": 1231.866,
-        "transcript": "<i>Oh!</i> yuarutiit pilliniaqa imna wani iciw' pissuutiit imna.",
+        "transcript": "Oh! yuarutiit pilliniaqa imna wani iciw' pissuutiit imna.",
         "translation": "Oh, I sang their song, you know, that they sung for a certain purpose."
     },
     "213": {
@@ -1284,114 +1284,60 @@ export const subtitles = {
         "translation": "I forgot it. You see, I know some of their songs that I heard very well."
     },
     "215": {
-        "endTime": 1247.985,
+        "endTime": 1251.129,
         "startTime": 1247.38,
-        "transcript": "Ii-i",
-        "translation": "I see."
+        "transcript": "Ca tamalkuan qanruteksugngaaqa ak'a tamaani. Ii-i",
+        "translation": "I can talk about anything from long ago. I see."
     },
     "216": {
-        "endTime": 1251.129,
-        "startTime": 1248.295,
-        "transcript": "Ca tamalkuan qanruteksugngaaqa ak'a tamaani.",
-        "translation": "I can talk about anything from long ago."
-    },
-    "217": {
         "endTime": 1251.865,
         "startTime": 1251.219,
         "transcript": "Ii-i",
         "translation": "I see."
     },
-    "218": {
+    "217": {
         "endTime": 1253.203,
         "startTime": 1252.608,
         "transcript": "Ii-i",
         "translation": "Okay."
     },
-    "219": {
+    "218": {
         "endTime": 1254.905,
         "startTime": 1253.228,
         "transcript": "Tamakut-am muiqe'rtut.",
         "translation": "The [recoding] is full now."
     },
-    "220": {
+    "219": {
         "endTime": 1256.078,
         "startTime": 1254.958,
         "transcript": "Ii-i",
         "translation": "I see."
     },
-    "221": {
-        "endTime": 1257.28,
+    "220": {
+        "endTime": 1258.288,
         "startTime": 1256.082,
-        "transcript": "Quyanaqvaa cakneq.",
-        "translation": "Thank you very much."
-    },
-    "222": {
-        "endTime": 1257.897,
-        "startTime": 1257.28,
         "transcript": "Quyanaqvaa cakneq. Yaa.",
         "translation": "Thank you very much. Yes."
     },
-    "223": {
-        "endTime": 1263.329,
+    "221": {
+        "endTime": 1266.726,
         "startTime": 1258.495,
-        "transcript": "Aturciqaput. Nallunaiceciiqamken atuqataqumteki.",
-        "translation": "We'll use them. I'll notify you when we're going to use them."
-    },
-    "224": {
-        "endTime": 1264.018,
-        "startTime": 1263.329,
-        "transcript": "Aturciqaput. Nallunaiceciiqamken atuqataqumteki. Yaa ii-i, ii-i",
+        "transcript": "Aturciqaput. Nallunaiceciiqamken atuqataqumteki. Aren. Yaa ii-i, ii-i",
         "translation": "We'll use them. I'll notify you when we're going to use them. Yes, okay, okay."
     },
-    "225": {
-        "endTime": 1266.713,
-        "startTime": 1264.369,
-        "transcript": "Yaa. Aren. Yaa ii-i, ii-i",
-        "translation": "Okay. Oh my. Yes, okay, okay."
-    },
-    "226": {
-        "endTime": 1267.509,
-        "startTime": 1266.946,
-        "transcript": "Ilurapiit, keggna ilurapakan kegga-i <i>Louie</i> ilurapakan.",
-        "translation": "Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak."
-    },
-    "227": {
-        "endTime": 1268.199,
-        "startTime": 1267.509,
-        "transcript": "Yaa Ilurapiit, keggna ilurapakan kegga-i <i>Louie</i> ilurapakan.",
-        "translation": "Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak."
-    },
-    "228": {
-        "endTime": 1270.159,
-        "startTime": 1268.199,
-        "transcript": "Ilurapiit, keggna ilurapakan kegga-i <i>Louie</i> ilurapakan.",
-        "translation": "Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak."
-    },
-    "229": {
-        "endTime": 1271.824,
-        "startTime": 1270.159,
-        "transcript": "Ii-i Ilurapiit, keggna ilurapakan kegga-i <i>Louie</i> ilurapakan.",
-        "translation": "Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak."
-    },
-    "230": {
+    "222": {
         "endTime": 1273.126,
-        "startTime": 1271.824,
-        "transcript": "Ilurapiit, keggna ilurapakan kegga-i <i>Louie</i> ilurapakan.",
+        "startTime": 1266.946,
+        "transcript": "Ilurapiit, keggna ilurapakan kegga-i Louie ilurapakan. Yaa. Ii-i",
         "translation": "Their Ilurapak [Big Cousin], your Ilurapak out there, Louie, is your Ilurapak."
     },
-    "231": {
-        "endTime": 1279.768,
+    "223": {
+        "endTime": 1281.053,
         "startTime": 1274.041,
-        "transcript": "Cuukvagtulirmiunguuq. Wangkuk-llu keggna-ll' Kayalivigmiut kinguneqluki.",
-        "translation": "He's from Cuukvagtuli. The man out there and I are from Kayalivigmiut."
+        "transcript": "Cuukvagtulirmiunguuq. Wangkuk-llu keggna-ll' Kayalivigmiut kinguneqluki. Ii-i",
+        "translation": "He's from Cuukvagtuli. The man out there and I are from Kayalivigmiut. I see."
     },
-    "232": {
-        "endTime": 1280.856,
-        "startTime": 1279.768,
-        "transcript": "Ii-i Cuukvagtulirmiunguuq. Wangkuk-llu keggna-ll' Kayalivigmiut kinguneqluki.",
-        "translation": "I see. He's from Cuukvagtuli. The man out there and I are from Kayalivigmiut."
-    },
-    "233": {
+    "224": {
         "endTime": 1282.397,
         "startTime": 1281.286,
         "transcript": "Ii-i",
