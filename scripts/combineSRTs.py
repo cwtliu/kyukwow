@@ -29,10 +29,10 @@ from mvyskoc_merge import mvyskoc_merge
 
 
 if __name__ == '__main__':
-	esuFolder = sys.argv[1]
-	engFolder = sys.argv[2]
-	esuengSRTFolder = sys.argv[3]
-	jsFolder = sys.argv[4]
+	esuFolder = "../data/Yupik"
+	engFolder = "../data/English"
+	esuengSRTFolder = "../data/YugtunEnglish"
+	jsFolder = "../src/components/transcription"
 
 	# create folders if not exist
 	Path(esuengSRTFolder).mkdir(parents=True, exist_ok=True)
