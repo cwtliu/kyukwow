@@ -7,9 +7,8 @@
     import Video from './components/Video.js';
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
-    
     // export const API_URL = "https://yugtun-api.herokuapp.com";
-    export const API_URL = "http://localhost:5000";
+    // export const API_URL = "http://localhost:5000";
 
     // const customFont = 'var(--secondaryHeadlineFont),Arial,Helvetica,sans-serif;'
 
@@ -29,7 +28,9 @@
     //   </Menu>
     // );
 
-    
+    export const API_URL = "https://yugtun-api.herokuapp.com";
+    //export const API_URL = "https://inupiaqonline.com/api";
+
     class App extends React.Component {
       constructor(props) {
         super(props);
