@@ -8,7 +8,9 @@
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
     // export const API_URL = "https://yugtun-api.herokuapp.com";
-    // export const API_URL = "http://localhost:5000";
+    export const API_URL = "http://localhost:5000";
+    export const WEB_URL = "http://localhost:3000";
+    // export const WEB_URL = "http://inupiaqonline.com/kyukwow"
 
     // const customFont = 'var(--secondaryHeadlineFont),Arial,Helvetica,sans-serif;'
 
@@ -28,8 +30,8 @@
     //   </Menu>
     // );
 
-    export const API_URL = "https://yugtun-api.herokuapp.com";
-    //export const API_URL = "https://inupiaqonline.com/api";
+    // export const API_URL = "https://yugtun-api.herokuapp.com";
+    // export const API_URL = "https://inupiaqonline.com/api";
 
     class App extends React.Component {
       constructor(props) {
@@ -55,7 +57,7 @@
 
           <div>
             <div style={{flex:1,display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row'}}>
-            <span><Image style={{width:'120px'}} src="/images/npr.brightspotcdn.webp" /></span>
+            <span><Image style={{width:'120px'}} src={WEB_URL+"/images/npr.brightspotcdn.webp"} /></span>
             <div style={{display:'flex',flexDirection:'column',marginLeft:'15px'}}>
             <span style={{fontSize:'16px',fontFamily:"'Roboto', Arial, Helvetica"}}>Ciuliamta Paiciutait</span>
             <span style={{fontStyle:'italic',fontSize:'16px',fontFamily:"'Roboto',Arial, Helvetica"}}>Our Ancestors' Legacy</span>

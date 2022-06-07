@@ -6,6 +6,7 @@ import {YouTubeLinks} from './info/YouTubeLinks.js';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 import { FeaturedVideos } from './Helpers.js';
+import { API_URL, WEB_URL } from '../App.js';
 
 
 // const categories = _.times(6, (i) => (
@@ -182,7 +183,7 @@ class Home extends Component {
 	// }
 
 	render() {
-		console.log(this.state)
+		console.log(this.props)
 
 		return (
 			<div className='home'>
@@ -195,7 +196,7 @@ class Home extends Component {
 					(yindex < 16 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 							<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-							<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+							<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 							{categories[y]['name'].includes('~') ?
 								<div>
 									<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
@@ -215,7 +216,7 @@ class Home extends Component {
 						(yindex > 15 ?
 							<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 								<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-								<Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+								<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 								{categories[y]['name'].includes('~') ?
 									<div>
 										<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
@@ -294,7 +295,7 @@ class Home extends Component {
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-							    <Image className='categoryImage' src='/images/categories1.jpg' />
+							    <Image className='categoryImage' src={WEB_URL +'/images/categories1.jpg'} />
 							    <div className='categoryText'>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>

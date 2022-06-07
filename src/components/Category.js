@@ -7,6 +7,7 @@ import {categories} from './info/categories.js';
 import {categoriesUrlLookup} from './info/categoriesUrlLookup.js';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
 import { FeaturedVideos } from './Helpers.js';
+import { API_URL, WEB_URL } from '../App.js';
 
 
 class Category extends Component {

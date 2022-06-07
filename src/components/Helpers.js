@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
+import { API_URL, WEB_URL } from '../App.js';
 
 
   // export const summariesRetrieval = (props) => {

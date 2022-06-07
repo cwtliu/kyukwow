@@ -3,7 +3,7 @@ import { Container, Header, Button, Icon, Divider, Popup, Loader, Grid, Checkbox
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
-import { API_URL } from '../App.js';
+import { API_URL, WEB_URL } from '../App.js';
 import { Link } from 'react-router-dom';
 
 // import {subtitles} from './transcription/cpb-aacip-127-558czhn9.h264.js';
@@ -13,6 +13,9 @@ import {categories} from './info/categories.js';
 import {endingToEnglishTerms, endingEnglishDescriptions} from './info/endingTerms.js';
 import {YouTubeLinks} from './info/YouTubeLinks.js';
 
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 class Video extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +24,7 @@ class Video extends Component {
     this.state = {
       show: false,
       // audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
-      audioURL: API_URL + "/kyukaudiolibrary/" + this.videoID,
+      audioURL: WEB_URL + "/KyukAudioLibrary/" + this.videoID + ".mp3",
       videoURL: YouTubeLinks[this.videoID],
       isPlaying: false,
       startTime: null,
@@ -60,6 +63,7 @@ class Video extends Component {
     this.updateDimensions = this.updateDimensions.bind(this);
 
     this.audio = new Audio(this.state.audioURL);
+    console.log(this.audio)
     // this.audio = new Audio(API_URL + "/kyukaudiolibrary/" +  this.videoID);
     // console.log(this.audio)
   }
@@ -74,7 +78,7 @@ class Video extends Component {
     window.scrollTo(0, 0)
     this.intervalID = setInterval(
       () => this.tick(),
-      1000
+      600
     );
   }
 
@@ -92,7 +96,7 @@ class Video extends Component {
   tick() {
     if (this.props.audioOnly) {
       this.setState({
-        currentTime : this.rap.audioEl.current.currentTime,
+        currentTime : this.rap.audio.current.currentTime,
       });
     } else {
       this.setState({
@@ -509,7 +513,7 @@ class Video extends Component {
       readerHeight = this.reader.clientHeight+14
     }
     let topOffset = 165
-    let topOffsetAudio = 233
+    let topOffsetAudio = 267
     return (
       <div className='about'>
 
@@ -541,7 +545,7 @@ class Video extends Component {
           </div>
         :
         <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
-          <ReactAudioPlayer
+          <AudioPlayer
             src={this.state.audioURL}
             controls
             // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
@@ -557,7 +561,7 @@ class Video extends Component {
         </div>
       }
 
-            {!this.props.audioOnly  ?
+            {this.props.audioOnly  ?
               <div>
                 <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tegganret Qalartellret </div>
                   
@@ -566,7 +570,7 @@ class Video extends Component {
                     y in categories ?
                     <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'120px'}}>
                       <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-                      <Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+                      <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                       {categories[y]['name'].includes('~') ?
                       <div>
                       <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
@@ -823,17 +827,17 @@ class Video extends Component {
         (this.props.audioOnly ?
 
         <Grid>
-            <ReactAudioPlayer
+            <AudioPlayer
               src={this.state.audioURL}
               controls
               // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
-              style={{width:'100%',marginTop:14}}
+              style={{width:'100%',marginTop:14,marginLeft:15,marginRight:15}}
               ref={(element)=>{this.rap=element;}}
               onPlay={()=>{
                 this.setState({audioPlayerPlaying:true})
                 var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
                 elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
-            }}
+              }}
               onPause={()=>{this.setState({audioPlayerPlaying:false})}}
             />
         <Grid.Row columns={2}>
@@ -849,7 +853,7 @@ class Video extends Component {
                   y in categories ?
                   <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'120px'}}>
                     <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-                    <Image style={{borderRadius:'10px'}} src={'/images/EldersPhotos/'+categories[y]['images'][0]} />
+                    <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
@@ -1011,10 +1015,10 @@ class Video extends Component {
                   this.playSection(i);
                 });
               }} />
-              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
-                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     console.log(this.state.getCall);
                     if (!this.state.getCall) {
                       this.setState({getCall:true,clickedWordIndex:[index,jindex]});

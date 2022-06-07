@@ -2,7 +2,6 @@
   "name": "kyukwow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://inupiaqonline.com/kyukwow",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -12,6 +11,7 @@
     "react": "^17.0.2",
     "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
+    "react-h5-audio-player": "^3.8.4",
     "react-player": "^2.9.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",

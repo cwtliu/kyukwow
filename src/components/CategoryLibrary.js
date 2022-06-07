@@ -4,6 +4,7 @@ import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-
 import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
+import { API_URL, WEB_URL } from '../App.js';
 
 class CategoryLibrary extends Component {
 	constructor(props) {
@@ -45,7 +46,7 @@ class CategoryLibrary extends Component {
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-							    <Image className='categoryImage' src='/images/categories1.jpg' />
+							    <Image className='categoryImage' src={WEB_URL +'/images/categories1.jpg'} />
 							    <div className='categoryText'>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>
