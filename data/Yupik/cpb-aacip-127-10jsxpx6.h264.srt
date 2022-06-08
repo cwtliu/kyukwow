@@ -31,7 +31,7 @@ Yaa, kan’a wani ayaksaitellruuq.
 Nutaan, nutaan tua-i wani ayagninqigtellruuq.
 
 9
-00:00:40:500 --> 00:00:43,000
+00:00:40,500 --> 00:00:43,000
 Tua-i-w’ au͡g’umek qasgimek apcavnga.
 
 10
@@ -251,7 +251,7 @@ Inerqualuta-llu tarritesqevkenata.
 Tang au͡gkut makut Kass’at-llu au͡gkut ciuqliit
 
 64
-00:05:13,500,000 --> 00:05:18,900
+00:05:13,500 --> 00:05:18,900
 Makutun Yugtun ikayuasnganateng atunem ayuqellrullinilriit tamaani.
 
 65
@@ -487,7 +487,7 @@ Yuum-gguq umyugaa tukniuq.
 Cali-llu enemun allamun itengramta
 
 123
-00:11:03,000 --> 00:11:07:900
+00:11:03,000 --> 00:11:07,900
 Agu kenrraungraan, ussukcarraungraan-ll’, ataucirraungraan
 
 124
@@ -583,7 +583,7 @@ Umyuarteq’lallruunga, “Mat’umek-ll’ ima-qaa picirluteng inerqularyaaqell
 “Piyuilliqlerkamek waten yuilqumi makunek-llu pitengnaqlemek?”
 
 147
-00:13:06,000 --> 00:13,08,900
+00:13:06,000 --> 00:13:08,900
 Iqlunritamken ava-i. Inerciigatellruunga.
 
 148
@@ -623,7 +623,7 @@ Makunun Bible-aam qanellranun, qanellratun cangallrunrituq.
 Aug͡kut ciullrurluut Ellam-llu Yuanek qantullruameng.
 
 157
-00:14:15,000 --> 000:14:24,000
+00:14:15,000 --> 00:14:24,000
 Nall’arrluku Bible-aat kingunrat man’a Atavut Qilametellria tayim’ tangvaumanrilnguq.
 
 158

@@ -79,7 +79,7 @@ Neqkaq man’a, neqkaq-llu man’a, meq-llu man’a anglanitekevkallrunritaa.
 Tau͡gaam elliin cikiutni kiingan tua-i.
 
 21
-00:02,38,100 --> 00:02:42,000
+00:02:38,100 --> 00:02:42,000
 Una wani atam tua-i iluka elisngauq waniwa.
 
 22
@@ -739,7 +739,7 @@ Waten uitanqegcinga’arrluteng piaqata mikelnguut,
 “Ellanga’rtuq,” atauciq tangvanga’arrluku.
 
 189
-00:20:45.700 --> 00:20:48,000
+00:20:45,700 --> 00:20:48,000
 Tua-i-gguq tuaten ayuquq.
 
 190

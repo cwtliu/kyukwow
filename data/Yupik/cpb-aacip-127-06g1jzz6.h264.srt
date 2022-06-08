@@ -499,7 +499,7 @@ Enenguluni-ll’ kiimi.
 Tua-i qutegglua ilangqerciqngama alingtaama-llu ayagyaaqua.
 
 127
-00:13:22:100 --> 00:13:28,000
+00:13:22,100 --> 00:13:28,000
 Tekitua maaten taumun enemun waniw’ ciungaramni ayallrullinilriit.
 
 128

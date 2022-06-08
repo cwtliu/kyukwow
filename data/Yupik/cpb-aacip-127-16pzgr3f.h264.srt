@@ -83,7 +83,7 @@ Uumiani taum kevgaq tekitenqigtellria qanertuq waten:
 Nuna-gguq man’a patuluku Kass’at taiqatartut.
 
 22
-00:03:08:600 --> 00:03:13,500
+00:03:08,600 --> 00:03:13,500
 Tamatumek-gguq pilinrilkumta nunakaitukut pissurvigkaunata-llu.
 
 23

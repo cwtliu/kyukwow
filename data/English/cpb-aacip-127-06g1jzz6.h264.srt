@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:00,900
-This... youpl¬ [?].
+This... you_pl [?].
 
 2
 00:00:01,000 --> 00:00:04,500
@@ -77,11 +77,11 @@ But before I hear about it from these two, I leave that alone.
 
 20
 00:02:07,500 --> 00:02:14,500
-I am like a helper for them2.
+I am like a helper for them_2.
 
 21
 00:02:16,000 --> 00:02:25,000
-When they2 say something, we2 make calls to our surrounding [villages]
+When they_2 say something, we_2 make calls to our surrounding [villages]
 
 22
 00:02:25,100 --> 00:02:28,000
@@ -516,7 +516,7 @@ I was overconfident because I would have companions when I went
 and I was scared by nature.
 
 127
-00:13:22:100 --> 00:13:28,000
+00:13:22,100 --> 00:13:28,000
 I arrived at the house to find that they had gone just ahead of me.
 
 128

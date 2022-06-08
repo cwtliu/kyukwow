@@ -3,7 +3,7 @@ export const subtitles = {
         "endTime": 0.9,
         "startTime": 0.0,
         "transcript": "Una... lartuci.",
-        "translation": "This... youpl\u00ac [?]."
+        "translation": "This... you_pl [?]."
     },
     "2": {
         "endTime": 4.5,
@@ -117,13 +117,13 @@ export const subtitles = {
         "endTime": 134.5,
         "startTime": 127.5,
         "transcript": "Imutun tua-i kevgarraulriatun ayuqlua ukugnun.",
-        "translation": "I am like a helper for them2."
+        "translation": "I am like a helper for them_2."
     },
     "21": {
         "endTime": 145.0,
         "startTime": 136.0,
         "transcript": "Tua-i camek qanqagnek nutaan avaqlimten\u0301un call-aqulartukuk",
-        "translation": "When they2 say something, we2 make calls to our surrounding [villages]"
+        "translation": "When they_2 say something, we_2 make calls to our surrounding [villages]"
     },
     "22": {
         "endTime": 148.0,

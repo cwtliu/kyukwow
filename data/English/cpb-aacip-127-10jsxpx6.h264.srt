@@ -31,7 +31,7 @@ Yes,[but] the [device] down there wasn’t going.
 Just now, it’s just started again now.
 
 9
-00:00:40:500 --> 00:00:43,000
+00:00:40,500 --> 00:00:43,000
 You asked me about that community house.
 
 10
@@ -251,7 +251,7 @@ They also admonished us against wandering about.
 You see, these first Caucasians back then
 
 64
-00:05:13,500,000 --> 00:05:18,900
+00:05:13,500 --> 00:05:18,900
 They also apparently helped each other back then like Yupiit.
 
 65
@@ -488,7 +488,7 @@ They said that a person’s mind is powerful.
 Also, even if we entered another house
 
 123
-00:11:03,000 --> 00:11:07:900
+00:11:03,000 --> 00:11:07,900
 Under any circumstances, even a match, a nail, or a single thing
 
 124
@@ -624,7 +624,7 @@ Is no different from what the Bible says.
 It’s because the dear ancestors of old would talk about the Spirit of the Universe.
 
 157
-00:14:15,000 --> 000:14:24,000
+00:14:15,000 --> 00:14:24,000
 It corresponded with the origin of the Bible, our unseen Heavenly Father.
 
 158

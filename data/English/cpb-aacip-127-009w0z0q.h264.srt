@@ -75,7 +75,7 @@ Please talk about what that instruction is.
 Please also talk about what you have seen as you have lived up to this day.
 
 20
-00:02:07,000 -->  00:02:10,000
+00:02:07,000 --> 00:02:10,000
 Yes, is it time to start? Okay.
 
 21
@@ -1403,7 +1403,7 @@ Back then, however, our ancestors called them qanrucunalriit
 They referred to someone who did not do whatever he wanted but adhered to his instructions as obedient.
 
 355
-00:37:35:800 --> 00:37:43,000
+00:37:35,800 --> 00:37:43,000
 These days, however, we are called believers, call that obedient person [a believer].
 
 356
@@ -1763,7 +1763,7 @@ I’ve said a lot by now.
 Okay. Well, thank you for coming.
 
 447
-00:47:36,100 -->  00:47:38,800
+00:47:36,100 --> 00:47:38,800
 This is all for now.
 
 448

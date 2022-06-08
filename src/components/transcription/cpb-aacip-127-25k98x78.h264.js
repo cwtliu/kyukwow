@@ -56,7 +56,7 @@ export const subtitles = {
     "10": {
         "endTime": 60.165,
         "startTime": 51.925,
-        "transcript": "[Ayagayangua] elitnaurlua atama-llu ayallrani tamalkuan ucikurlua, uciklua kiingan casten\u035egunrilnge'rma]",
+        "transcript": "[Ayagayangua] elitnaurlua atama-llu ayallrani tamalkuan ucikurlua, uciklua kiingan casten\u035egunrilnge'rma.",
         "translation": "When I began to travel to learn, my father would take me with them every time, take me even if I wouldn't be helpful."
     },
     "11": {
