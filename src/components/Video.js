@@ -56,7 +56,8 @@ class Video extends Component {
       clickedChapterIndex:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
       // videoOnly:true,
-      innerWidth: window.innerWidth,
+      innerWidth: document.documentElement.clientWidth,
+      activeElementLocation: 'center',
 
     }
 
@@ -89,11 +90,33 @@ class Video extends Component {
 
   updateDimensions() {
     this.setState({
-      innerWidth: window.innerWidth
+      innerWidth: document.documentElement.clientWidth
     });
   }
 
   tick() {
+
+    var elmnt = document.getElementById('sentence'+this.state.currentSentence);
+    var bounding = elmnt.getBoundingClientRect();
+    var topOffset = 0
+    if (this.props.audioOnly) {
+      topOffset = 210
+    } else {
+      topOffset = 160
+    }
+    console.log(bounding.top, bounding.bottom, document.documentElement.clientHeight)
+
+    if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight) {
+        // console.log('Element is in the viewport!');
+        this.setState({ activeElementLocation: 'center'});
+    } else if (bounding.top < topOffset) {
+        // console.log('Element is ABOVE the viewport!');
+        this.setState({ activeElementLocation: 'above'});
+    } else {
+        // console.log('Element is BELOW the viewport!');
+        this.setState({ activeElementLocation: 'below'});
+    }
+
     if (this.props.audioOnly) {
       this.setState({
         currentTime : this.rap.audio.current.currentTime,
@@ -514,6 +537,14 @@ class Video extends Component {
     }
     let topOffset = 165
     let topOffsetAudio = 267
+
+    var readerElementWidth = 0
+
+    if (document.getElementById('readerelement')) {
+      readerElementWidth = document.getElementById('readerelement').offsetWidth
+    }
+
+
     return (
       <div className='about'>
 
@@ -630,6 +661,13 @@ class Video extends Component {
 
           {summaries[this.ID].summary.map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
+
+
+            {this.state.activeElementLocation === 'above' ?
+              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              :
+              null
+            }
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
@@ -1006,7 +1044,15 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+            
+
+            {this.state.activeElementLocation === 'above' ?
+              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              :
+              null
+            }
+
             <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Reader-aaq </div>
             {Object.keys(this.state.subtitles).map((i, index) => (
               <span class='reader-text'>
@@ -1102,6 +1148,15 @@ class Video extends Component {
               </span>
               )
             )}
+
+
+            {this.state.activeElementLocation === 'below' ?
+              <span style={{position:'sticky', bottom:'15px', right:(readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              :
+              null
+            }
+
+
           </Segment>
         </Grid.Column>
         </Grid.Row>
@@ -1272,7 +1327,13 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+            
+            {this.state.activeElementLocation === 'above' ?
+              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              :
+              null
+            }
             <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Reader-aaq </div>
             {Object.keys(this.state.subtitles).map((i, index) => (
               <span class='reader-text'>
@@ -1368,6 +1429,13 @@ class Video extends Component {
               </span>
               )
             )}
+
+            {this.state.activeElementLocation === 'below' ?
+              <span style={{position:'sticky', bottom:'15px', right:(readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              :
+              null
+            }
+
           </Segment>
         </Grid.Column>
         </Grid.Row>

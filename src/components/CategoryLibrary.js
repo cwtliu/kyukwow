@@ -46,7 +46,7 @@ class CategoryLibrary extends Component {
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-							    <Image className='categoryImage' src={WEB_URL +'/images/categories1.jpg'} />
+							    <Image className='categoryImage' src={WEB_URL +'/images/Categories/'+categories[j].images[0]} />
 							    <div className='categoryText'>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>
