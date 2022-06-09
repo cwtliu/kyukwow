@@ -89,7 +89,7 @@ class Category extends Component {
 		console.log(this.state)
 		return (
 			<div className='collections'>
-				<Button.Group>
+				<Button.Group style={{marginBottom:'10px'}}>
 				<Link to='/categorylibrary'>
 			      <Button active={false} icon>
 			        <Icon name='grid layout' />
@@ -129,7 +129,7 @@ class Category extends Component {
 						  	<Link onClick={()=>{
 						  		this.setState({currentCategory:j});
 						  		this.retrieveFamilyCategories(j);
-						  	}} to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+						  	}} to={{pathname: '/category/'+categories[j]['url']}}>
 							    <div style={{marginLeft:(20*(jindex+1))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
 						))}
@@ -140,21 +140,27 @@ class Category extends Component {
 						  	<Link onClick={()=>{
 						  		
 						  		this.retrieveFamilyCategories(j);
-						  	}} to={{pathname: '/category/'+categories[j].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+						  	}} to={{pathname: '/category/'+categories[j]['url']}}>
 							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
 						))}
 
 					</div>
 
-					<Divider />
+
+					{this.state.currentCategory !== '23' ?
+						<div>
+						<Divider />
+						<div style={{fontSize:'26px',fontWeight:'bold',lineHeight:'40px',paddingBottom:'10px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos with "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
+						{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
+						</div>
+						:
+						null
+					}
 
 
-					<div>
-					<div style={{fontSize:'26px',fontWeight:'bold',lineHeight:'40px',paddingBottom:'10px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos with "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
-					{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 					</div>
-					</div>
+
 					}
 
 			</div>

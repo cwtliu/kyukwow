@@ -57,6 +57,9 @@ class Video extends Component {
       currentVideoId: props.location.state === undefined ? false : this.videoID,
       // videoOnly:true,
       activeElementLocation: 'center',
+      topOffset: 138,
+      mobileAudioOffset: 68,
+      mobileVideoOffset: 190,
 
     }
     this.audio = new Audio(this.state.audioURL);
@@ -89,20 +92,24 @@ class Video extends Component {
     var bounding = elmnt.getBoundingClientRect();
     var topOffset = 0
     if (this.props.innerWidth < 480) {
-      topOffset = 138
+      if (this.props.audioOnly) {
+        topOffset = this.state.mobileAudioOffset
+      } else {
+        topOffset = this.state.mobileVideoOffset        
+      }
     } else {
-      topOffset = 138
+      topOffset = this.state.topOffset
     }
     console.log(bounding.top, bounding.bottom, document.documentElement.clientHeight)
 
-    if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight) {
-        // console.log('Element is in the viewport!');
+    if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
+        console.log('Element is in the viewport!');
         this.setState({ activeElementLocation: 'center'});
     } else if (bounding.top < topOffset) {
-        // console.log('Element is ABOVE the viewport!');
+        console.log('Element is ABOVE the viewport!');
         this.setState({ activeElementLocation: 'above'});
     } else {
-        // console.log('Element is BELOW the viewport!');
+        console.log('Element is BELOW the viewport!');
         this.setState({ activeElementLocation: 'below'});
     }
 
@@ -525,7 +532,7 @@ class Video extends Component {
       readerHeight = this.reader.clientHeight+14
     }
     let audioHeight = 88+14
-    let topOffset = 138
+    let topOffset = this.state.topOffset
     // let topOffsetAudio = 267
 
     var readerElementWidth = 0
@@ -621,7 +628,7 @@ class Video extends Component {
               <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
               {this.state.elderTags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic color='blue' compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
@@ -633,7 +640,7 @@ class Video extends Component {
 
               {this.state.tags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
@@ -657,10 +664,9 @@ class Video extends Component {
           {summaries[this.ID].summary.map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
-
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
-              :
+              <span style={{top:(this.props.audioOnly ? this.state.mobileAudioOffset+40 : this.state.mobileVideoOffset+40), position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+                :
               null
             }
             
@@ -850,10 +856,14 @@ class Video extends Component {
         )}
       </div>
 
-      <div>
 
-      </div>
 
+      {this.state.activeElementLocation === 'below' ?
+        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        :
+        null
+      }
+ 
       </div>
 
         :
@@ -910,7 +920,7 @@ class Video extends Component {
               <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
               {this.state.elderTags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic color='blue' compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
@@ -922,7 +932,7 @@ class Video extends Component {
 
               {this.state.tags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
@@ -1153,7 +1163,7 @@ class Video extends Component {
               :
               null
             }
-
+ 
 
           </Segment>
         </Grid.Column>
@@ -1193,7 +1203,7 @@ class Video extends Component {
               <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
               {this.state.elderTags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic color='blue' compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}
@@ -1205,7 +1215,7 @@ class Video extends Component {
 
               {this.state.tags.map((y)=>(
                 y in categories ?
-                <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
                   <Button basic compact>
                   {/*{categories[y].name.replaceAll('--','—')}*/}
                   {categories[y].name.split(' -- ')[0]}

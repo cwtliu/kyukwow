@@ -27,8 +27,7 @@ class CategoryLibrary extends Component {
 		console.log(this.state)
 		return (
 			<div className='collections'>
-				<Container>
-					<Button.Group>
+				<Button.Group>
 			      <Button active={true} icon>
 			        <Icon name='grid layout' />
 			      </Button >
@@ -37,7 +36,8 @@ class CategoryLibrary extends Component {
 			        <Icon name='list' />
 			      </Button>
 			      </Link>
-				  </Button.Group>
+				 </Button.Group>
+				<Container>
 				<div className='yugtatun'>Suut Allakaryarat</div>
 				<div className='yugtatunsub'>Video Categories</div>
 
