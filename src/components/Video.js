@@ -56,13 +56,9 @@ class Video extends Component {
       clickedChapterIndex:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
       // videoOnly:true,
-      innerWidth: document.documentElement.clientWidth,
       activeElementLocation: 'center',
 
     }
-
-    this.updateDimensions = this.updateDimensions.bind(this);
-
     this.audio = new Audio(this.state.audioURL);
     console.log(this.audio)
     // this.audio = new Audio(API_URL + "/kyukaudiolibrary/" +  this.videoID);
@@ -71,7 +67,6 @@ class Video extends Component {
 
   componentDidMount() {
   	// console.log(this.state.currentCPBID)
-    window.addEventListener("resize", this.updateDimensions);
   	var circle = require('./transcription/'+this.videoID);
   	this.setState({ subtitles: circle.subtitles });
   	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
@@ -84,25 +79,19 @@ class Video extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateDimensions);
     clearInterval(this.intervalID);
   }
 
-  updateDimensions() {
-    this.setState({
-      innerWidth: document.documentElement.clientWidth
-    });
-  }
 
   tick() {
 
     var elmnt = document.getElementById('sentence'+this.state.currentSentence);
     var bounding = elmnt.getBoundingClientRect();
     var topOffset = 0
-    if (this.props.audioOnly) {
-      topOffset = 210
+    if (this.props.innerWidth < 480) {
+      topOffset = 138
     } else {
-      topOffset = 160
+      topOffset = 138
     }
     console.log(bounding.top, bounding.bottom, document.documentElement.clientHeight)
 
@@ -535,8 +524,9 @@ class Video extends Component {
     if (this.reader) {
       readerHeight = this.reader.clientHeight+14
     }
-    let topOffset = 165
-    let topOffsetAudio = 267
+    let audioHeight = 88+14
+    let topOffset = 138
+    // let topOffsetAudio = 267
 
     var readerElementWidth = 0
 
@@ -549,10 +539,15 @@ class Video extends Component {
       <div className='about'>
 
 
-      {this.state.innerWidth < 480 ?
+      {this.props.innerWidth < 480 ?
 
 
      <div className='about'>
+
+      <div style={{flex:1,display:'flex',justifyContent:'center',marginBottom:'10px'}}>
+      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
+      <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
+      </div>
 
       {!this.props.audioOnly  ?
           <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
@@ -668,6 +663,7 @@ class Video extends Component {
               :
               null
             }
+            
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
@@ -865,11 +861,15 @@ class Video extends Component {
         (this.props.audioOnly ?
 
         <Grid>
+
+        <Grid.Row columns={2}>
+        <Grid.Column width={7}>
+  
             <AudioPlayer
               src={this.state.audioURL}
               controls
               // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
-              style={{width:'100%',marginTop:14,marginLeft:15,marginRight:15}}
+              style={{width:'98%',marginLeft:'2px'}}
               ref={(element)=>{this.rap=element;}}
               onPlay={()=>{
                 this.setState({audioPlayerPlaying:true})
@@ -878,11 +878,9 @@ class Video extends Component {
               }}
               onPause={()=>{this.setState({audioPlayerPlaying:false})}}
             />
-        <Grid.Row columns={2}>
-        <Grid.Column width={7}>
-  
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-topOffset-audioHeight,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
-            <Segment vertical style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+
 
               <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tegganret Qalartellret </div>
                 
@@ -1044,7 +1042,7 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffsetAudio,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
 
             {this.state.activeElementLocation === 'above' ?
@@ -1188,7 +1186,7 @@ class Video extends Component {
             </div>
           </div>
 
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:window.innerHeight-readerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-readerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
               <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
               
@@ -1327,7 +1325,7 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:window.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid'}}>
+          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
               <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>

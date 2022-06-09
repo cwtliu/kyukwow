@@ -58,7 +58,10 @@ class CategoryLibrary extends Component {
 
 
 				</Container>
-				<Divider />
+				<Divider style={{marginTop:'24px'}} />
+				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
+					Photos provided by KYUK
+				</div>
 
 			</div>
 		);
