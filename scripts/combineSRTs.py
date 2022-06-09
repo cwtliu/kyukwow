@@ -65,14 +65,22 @@ if __name__ == '__main__':
 			
 			linetext = line.text.strip().replace(u"\u2018", "'").replace(u"\u2019", "'")
 
-			linesplit = linetext.split('\n')
-			transcript = ' '.join(linesplit[:(len(linesplit)+1)//2])
-			translation = ' '.join(linesplit[(len(linesplit)+1)//2:])
+			# linesplit = linetext.split('\n')
+			# transcript = ' '.join(linesplit[:(len(linesplit)+1)//2])
+			# translation = ' '.join(linesplit[(len(linesplit)+1)//2:])
+
+			linesplit = linetext.split('~\n~') # hack in mvyskoc_merge
+			transcript = linesplit[0].replace('\n',' ')
+			translation = linesplit[1].replace('\n',' ') if len(linesplit) > 1 else ""
+			esuengSRT[i].text = esuengSRT[i].text.replace('~\n~','\n') # revert hack with mvyskoc_merge
 			
 			jsonFile[index] = {'startTime':startTime, 
 								'endTime':endTime, 
 								'transcript':transcript, 
 								'translation':translation}
+
+		# save the revert hack in mvyskoc_merge with '~\n~'
+		esuengSRT.save(os.path.join(esuengSRTFolder, filename), encoding='utf-8')
 
 		with open(os.path.join(jsFolder, filename.rsplit(".", 1)[0] + '.js'), 'w') as out:
 			out.write(f'export const subtitles = {json.dumps(jsonFile, sort_keys=True, indent=4)};')

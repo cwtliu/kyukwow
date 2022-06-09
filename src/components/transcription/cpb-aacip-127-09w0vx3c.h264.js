@@ -32,8 +32,8 @@ export const subtitles = {
     "6": {
         "endTime": 27.0,
         "startTime": 23.0,
-        "transcript": "Irniaten, tutgaraten, iluperangqerquvet-llu qanrutkeqerki. Please talk about your children, grandchildren,",
-        "translation": "and if you have any great-grandchildren."
+        "transcript": "Irniaten, tutgaraten, iluperangqerquvet-llu qanrutkeqerki.",
+        "translation": "Please talk about your children, grandchildren, and if you have any great-grandchildren."
     },
     "7": {
         "endTime": 35.0,
@@ -56,8 +56,8 @@ export const subtitles = {
     "10": {
         "endTime": 48.0,
         "startTime": 44.0,
-        "transcript": "Up'nerkiyaqata'arqameng-wa April-aami uptenglallrulriit. When they were going to go to spring camps,",
-        "translation": "they would start preparing in April."
+        "transcript": "Up'nerkiyaqata'arqameng-wa April-aami uptenglallrulriit.",
+        "translation": "When they were going to go to spring camps, they would start preparing in April."
     },
     "11": {
         "endTime": 53.0,
@@ -158,8 +158,8 @@ export const subtitles = {
     "27": {
         "endTime": 138.5,
         "startTime": 134.5,
-        "transcript": "Qanikcitullruuq imumi mikluta maani; qanikcipiatullruuq. There was a lot of snow back when we were small;",
-        "translation": "there used to be so much snow."
+        "transcript": "Qanikcitullruuq imumi mikluta maani; qanikcipiatullruuq.",
+        "translation": "There was a lot of snow back when we were small; there used to be so much snow."
     },
     "28": {
         "endTime": 142.5,
@@ -182,8 +182,8 @@ export const subtitles = {
     "31": {
         "endTime": 156.0,
         "startTime": 152.0,
-        "transcript": "Elaturrat-llu amiiget qanikciurluki waten piaqluki igten\u0301guluteng. And when the entrance porches were shoveled, it would be like an",
-        "translation": "animal den to the doors."
+        "transcript": "Elaturrat-llu amiiget qanikciurluki waten piaqluki igten\u0301guluteng.",
+        "translation": "And when the entrance porches were shoveled, it would be like an animal den to the doors."
     },
     "32": {
         "endTime": 160.9,
@@ -224,8 +224,8 @@ export const subtitles = {
     "38": {
         "endTime": 196.0,
         "startTime": 190.1,
-        "transcript": "Arnat imumi uptelallruut ivrucililuteng, nat'rarluki ivruciit Women back then prepared by making waterproof skin boots,",
-        "translation": "putting soles on waterproof boots"
+        "transcript": "Arnat imumi uptelallruut ivrucililuteng, nat'rarluki ivruciit",
+        "translation": "Women back then prepared by making waterproof skin boots, putting soles on waterproof boots"
     },
     "39": {
         "endTime": 199.8,
@@ -254,8 +254,8 @@ export const subtitles = {
     "43": {
         "endTime": 216.7,
         "startTime": 211.5,
-        "transcript": "Cat tua-i upluki aturyulteng mingquatullruameng imkut arnat. It was because the women back then used to sew",
-        "translation": "to prepare what they would need."
+        "transcript": "Cat tua-i upluki aturyulteng mingquatullruameng imkut arnat.",
+        "translation": "It was because the women back then used to sew to prepare what they would need."
     },
     "44": {
         "endTime": 221.0,
@@ -332,8 +332,8 @@ export const subtitles = {
     "56": {
         "endTime": 288.9,
         "startTime": 284.0,
-        "transcript": "Iliini-llu capuraugaqluteng ciku urugnaciarluku And sometimes, they would be weatherbound",
-        "translation": "by the late melting of the ice"
+        "transcript": "Iliini-llu capuraugaqluteng ciku urugnaciarluku",
+        "translation": "And sometimes, they would be weatherbound by the late melting of the ice"
     },
     "57": {
         "endTime": 296.0,
@@ -356,8 +356,8 @@ export const subtitles = {
     "60": {
         "endTime": 309.0,
         "startTime": 304.4,
-        "transcript": "Kusquqvak cali cup'aqami nallunaitaqluni Akumelnge'rmi. And when the ice broke up on the Kuskokwim,",
-        "translation": "it was noticable even in the Akula region."
+        "transcript": "Kusquqvak cali cup'aqami nallunaitaqluni Akumelnge'rmi.",
+        "translation": "And when the ice broke up on the Kuskokwim, it was noticable even in the Akula region."
     },
     "61": {
         "endTime": 311.9,
@@ -374,8 +374,8 @@ export const subtitles = {
     "63": {
         "endTime": 322.0,
         "startTime": 319.0,
-        "transcript": "Calarnillrukait? Avgarutaarnilallruit. What did they call it? They said that they used to have",
-        "translation": "the Sharing Festival [Avgarutaaryaraq]."
+        "transcript": "Calarnillrukait? Avgarutaarnilallruit.",
+        "translation": "What did they call it? They said that they used to have the Sharing Festival [Avgarutaaryaraq]."
     },
     "64": {
         "endTime": 327.0,
@@ -410,14 +410,14 @@ export const subtitles = {
     "69": {
         "endTime": 347.0,
         "startTime": 340.0,
-        "transcript": "Inglukluteng piaqluteng ingkut iquteng kelegluki canek tua-i piluteng. They would compete against each other, inviting the village at the end",
-        "translation": "and [giving] them things."
+        "transcript": "Inglukluteng piaqluteng ingkut iquteng kelegluki canek tua-i piluteng.",
+        "translation": "They would compete against each other, inviting the village at the end and [giving] them things."
     },
     "70": {
         "endTime": 356.0,
         "startTime": 348.0,
-        "transcript": "Canek-wa tua-i qasgimun ayaulluteng, traps and all kinds of things. They would bring various things to the community house,",
-        "translation": "traps and all kinds of things."
+        "transcript": "Canek-wa tua-i qasgimun ayaulluteng, traps and all kinds of things.",
+        "translation": "They would bring various things to the community house, traps and all kinds of things."
     },
     "71": {
         "endTime": 359.0,
@@ -590,8 +590,8 @@ export const subtitles = {
     "99": {
         "endTime": 485.0,
         "startTime": 479.5,
-        "transcript": "Yungcarvigmek calilqa mernuyagulluku BIA-nun nugtartellemni When I got tired of working at the hospital and moved to the",
-        "translation": "BIA [school]"
+        "transcript": "Yungcarvigmek calilqa mernuyagulluku BIA-nun nugtartellemni",
+        "translation": "When I got tired of working at the hospital and moved to the BIA [school]"
     },
     "100": {
         "endTime": 489.5,
@@ -602,8 +602,8 @@ export const subtitles = {
     "101": {
         "endTime": 496.0,
         "startTime": 490.0,
-        "transcript": "Yungcaristet calinanrircetellruatnga qukamnek naulluutengama. The doctors had me quit working",
-        "translation": "because I got an ailment in my midsection."
+        "transcript": "Yungcaristet calinanrircetellruatnga qukamnek naulluutengama.",
+        "translation": "The doctors had me quit working because I got an ailment in my midsection."
     },
     "102": {
         "endTime": 499.8,
@@ -650,8 +650,8 @@ export const subtitles = {
     "109": {
         "endTime": 549.0,
         "startTime": 540.5,
-        "transcript": "Iliikun ungaliquluni waten qaniquluni-ll' piaqan maraq cirmiggnilaraat. Sometimes when there was a lot of southern winds and snowing,",
-        "translation": "they would say the the marsh cirmiggluni."
+        "transcript": "Iliikun ungaliquluni waten qaniquluni-ll' piaqan maraq cirmiggnilaraat.",
+        "translation": "Sometimes when there was a lot of southern winds and snowing, they would say the the marsh cirmiggluni."
     },
     "110": {
         "endTime": 550.5,
@@ -668,8 +668,8 @@ export const subtitles = {
     "112": {
         "endTime": 565.4,
         "startTime": 560.9,
-        "transcript": "Waten qanikcing'e'rmi iliikun merpayuituq mel'ing'e'rmi. Sometimes, though there's a lot of snow like this,",
-        "translation": "it doesn't flood even with a lot of water."
+        "transcript": "Waten qanikcing'e'rmi iliikun merpayuituq mel'ing'e'rmi.",
+        "translation": "Sometimes, though there's a lot of snow like this, it doesn't flood even with a lot of water."
     },
     "113": {
         "endTime": 570.0,
@@ -770,8 +770,8 @@ export const subtitles = {
     "129": {
         "endTime": 649.4,
         "startTime": 645.0,
-        "transcript": "Waniwa-am waten qanikcing'e'rmi up'nerkami tau\u0361gaam nallunaituuq. Even though there's a lot of snow like this now,",
-        "translation": "it only gets foreseeable in the spring."
+        "transcript": "Waniwa-am waten qanikcing'e'rmi up'nerkami tau\u0361gaam nallunaituuq.",
+        "translation": "Even though there's a lot of snow like this now, it only gets foreseeable in the spring."
     },
     "130": {
         "endTime": 656.0,
@@ -908,8 +908,8 @@ export const subtitles = {
     "152": {
         "endTime": 771.0,
         "startTime": 764.7,
-        "transcript": "Tuatnaaqan tamatum nalliini, neqaitellran nalliini ellangellruama When that happened at the time,",
-        "translation": "because my earliest memories are when there was no fish"
+        "transcript": "Tuatnaaqan tamatum nalliini, neqaitellran nalliini ellangellruama",
+        "translation": "When that happened at the time, because my earliest memories are when there was no fish"
     },
     "153": {
         "endTime": 775.9,
@@ -998,8 +998,8 @@ export const subtitles = {
     "167": {
         "endTime": 858.5,
         "startTime": 849.0,
-        "transcript": "Pi, amaqliqa elagulluku ekviim qacarnerani nunamek pilillruuq. You know, my older brother made one out of the land",
-        "translation": "by digging the side of a cliff."
+        "transcript": "Pi, amaqliqa elagulluku ekviim qacarnerani nunamek pilillruuq.",
+        "translation": "You know, my older brother made one out of the land by digging the side of a cliff."
     },
     "168": {
         "endTime": 861.4,
@@ -1124,8 +1124,8 @@ export const subtitles = {
     "188": {
         "endTime": 974.5,
         "startTime": 968.5,
-        "transcript": "Kanaqlagcullemten\u0301i-ll' tamaani amaqliqa-ll' malikurlaamegnuk And when we went hunting for muskrats,",
-        "translation": "because my older brother and I always went together then"
+        "transcript": "Kanaqlagcullemten\u0301i-ll' tamaani amaqliqa-ll' malikurlaamegnuk",
+        "translation": "And when we went hunting for muskrats, because my older brother and I always went together then"
     },
     "189": {
         "endTime": 986.5,

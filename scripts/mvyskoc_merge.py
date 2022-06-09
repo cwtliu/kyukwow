@@ -18,7 +18,7 @@ from pysrt import SubRipTime
 
 def join_lines(txtsub1, txtsub2):
     if (len(txtsub1) > 0) & (len(txtsub2) > 0):
-        return txtsub1 + '\n' + txtsub2
+        return txtsub1 + '~\n~' + txtsub2
     else:
         return txtsub1 + txtsub2
 

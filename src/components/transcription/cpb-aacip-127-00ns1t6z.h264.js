@@ -206,8 +206,8 @@ export const subtitles = {
     "35": {
         "endTime": 250.0,
         "startTime": 241.0,
-        "transcript": "Tua-i tau\u0361gken iliini uaggun Cingigkun igvarnaurtuq iliini qayaq. Yet sometimes, a kayak would sometimes come into view",
-        "translation": "from Cingik downriver."
+        "transcript": "Tua-i tau\u0361gken iliini uaggun Cingigkun igvarnaurtuq iliini qayaq.",
+        "translation": "Yet sometimes, a kayak would sometimes come into view from Cingik downriver."
     },
     "36": {
         "endTime": 252.0,
@@ -272,14 +272,14 @@ export const subtitles = {
     "46": {
         "endTime": 340.9,
         "startTime": 330.0,
-        "transcript": "Tua-i-llu nutaan tekicameng kuiget kangritnun tamaavet uksuillerkameggnun muriit tamakut tageqluki. And then when they reached the headwaters of those rivers",
-        "translation": "where they would spend the winter, they would bring up those pieces of wood."
+        "transcript": "Tua-i-llu nutaan tekicameng kuiget kangritnun tamaavet uksuillerkameggnun muriit tamakut tageqluki.",
+        "translation": "And then when they reached the headwaters of those rivers where they would spend the winter, they would bring up those pieces of wood."
     },
     "47": {
         "endTime": 355.9,
         "startTime": 341.0,
-        "transcript": "Nutaan-llu upluteng muriit tamakut neqsuutekateng taluyarkateng upluki. They would then prepare the wood, preparing their fish traps",
-        "translation": "that they used to catch fish."
+        "transcript": "Nutaan-llu upluteng muriit tamakut neqsuutekateng taluyarkateng upluki.",
+        "translation": "They would then prepare the wood, preparing their fish traps that they used to catch fish."
     },
     "48": {
         "endTime": 367.0,
@@ -320,8 +320,8 @@ export const subtitles = {
     "54": {
         "endTime": 405.9,
         "startTime": 397.0,
-        "transcript": "Nutaan-llu ukut cali qukait cali taluyiluki waten qerrurluki. And they would then make fish traps out of the centers too,",
-        "translation": "inflating them like this."
+        "transcript": "Nutaan-llu ukut cali qukait cali taluyiluki waten qerrurluki.",
+        "translation": "And they would then make fish traps out of the centers too, inflating them like this."
     },
     "55": {
         "endTime": 411.0,
@@ -770,8 +770,8 @@ export const subtitles = {
     "129": {
         "endTime": 996.0,
         "startTime": 989.0,
-        "transcript": "Ingna tekitarkaq atu'urkateng yaaqsingraan upyuterrlainarluku They always prepared what they would need in the future",
-        "translation": "even if it was a long way off"
+        "transcript": "Ingna tekitarkaq atu'urkateng yaaqsingraan upyuterrlainarluku",
+        "translation": "They always prepared what they would need in the future even if it was a long way off"
     },
     "130": {
         "endTime": 998.9,
@@ -1028,14 +1028,14 @@ export const subtitles = {
     "172": {
         "endTime": 1320.0,
         "startTime": 1312.0,
-        "transcript": "Qaillun-mi uksuarmi iciw' waten ayagaqata iciw' inerquutek'lallrit angutet? So, how about, you know, admonishments when the men,",
-        "translation": "you know, when they traveled in the fall like this?"
+        "transcript": "Qaillun-mi uksuarmi iciw' waten ayagaqata iciw' inerquutek'lallrit angutet?",
+        "translation": "So, how about, you know, admonishments when the men, you know, when they traveled in the fall like this?"
     },
     "173": {
         "endTime": 1336.0,
         "startTime": 1320.5,
-        "transcript": "Tua-llu, ii-i, waten ayagaaqameng inerquutektullruit waten aarnarqellrani. And so, yes, they used to admonish them like this",
-        "translation": "when it was dangerous as they traveled."
+        "transcript": "Tua-llu, ii-i, waten ayagaaqameng inerquutektullruit waten aarnarqellrani.",
+        "translation": "And so, yes, they used to admonish them like this when it was dangerous as they traveled."
     },
     "174": {
         "endTime": 1344.0,
@@ -1064,8 +1064,8 @@ export const subtitles = {
     "178": {
         "endTime": 1370.0,
         "startTime": 1367.0,
-        "transcript": "Inerquutekluki-am cali tamakut waten uksuarmi yuilqumi aarasqevkenata. They also admonished us against yelling in the wilderness",
-        "translation": "in the fall like this."
+        "transcript": "Inerquutekluki-am cali tamakut waten uksuarmi yuilqumi aarasqevkenata.",
+        "translation": "They also admonished us against yelling in the wilderness in the fall like this."
     },
     "179": {
         "endTime": 1372.5,
@@ -1076,8 +1076,8 @@ export const subtitles = {
     "180": {
         "endTime": 1383.5,
         "startTime": 1376.0,
-        "transcript": "Tamakut-gguq tamaa-i tau\u0361gaam nanikualriit tuaten nepliratullruut. They said that only those in dire situations",
-        "translation": "would make noise like that."
+        "transcript": "Tamakut-gguq tamaa-i tau\u0361gaam nanikualriit tuaten nepliratullruut.",
+        "translation": "They said that only those in dire situations would make noise like that."
     },
     "181": {
         "endTime": 1396.5,
@@ -1136,8 +1136,8 @@ export const subtitles = {
     "190": {
         "endTime": 1477.0,
         "startTime": 1470.5,
-        "transcript": "Waten erenrani atakuyartumi maaken kelumten\u0301ek aaralria. In the day nearing evening like this,",
-        "translation": "I heard someone screaming inland from us."
+        "transcript": "Waten erenrani atakuyartumi maaken kelumten\u0301ek aaralria.",
+        "translation": "In the day nearing evening like this, I heard someone screaming inland from us."
     },
     "191": {
         "endTime": 1480.0,
@@ -1154,8 +1154,8 @@ export const subtitles = {
     "193": {
         "endTime": 1494.0,
         "startTime": 1486.0,
-        "transcript": "Qerruniaranrakun iliita atralriit tanglliniluku One of the people going down apparently saw the person",
-        "translation": "just as [s]he was going to freeze to death"
+        "transcript": "Qerruniaranrakun iliita atralriit tanglliniluku",
+        "translation": "One of the people going down apparently saw the person just as [s]he was going to freeze to death"
     },
     "194": {
         "endTime": 1500.0,
@@ -1232,8 +1232,8 @@ export const subtitles = {
     "206": {
         "endTime": 1625.0,
         "startTime": 1615.0,
-        "transcript": "Maa-i mat'um nalliini yuilqumi-llu tua-i tuqungraata qaillun ayuquciitaqluki. These days, even when they die in the wilderness,",
-        "translation": "they have no idea about them."
+        "transcript": "Maa-i mat'um nalliini yuilqumi-llu tua-i tuqungraata qaillun ayuquciitaqluki.",
+        "translation": "These days, even when they die in the wilderness, they have no idea about them."
     },
     "207": {
         "endTime": 1637.0,
@@ -1310,8 +1310,8 @@ export const subtitles = {
     "219": {
         "endTime": 1739.0,
         "startTime": 1729.5,
-        "transcript": "Camek-llu tua-i piaqata apcaaqellriani cam nuniini camek piciitnek And when something happens,",
-        "translation": "when we ask them where it happened to them"
+        "transcript": "Camek-llu tua-i piaqata apcaaqellriani cam nuniini camek piciitnek",
+        "translation": "And when something happens, when we ask them where it happened to them"
     },
     "220": {
         "endTime": 1748.5,
@@ -1328,8 +1328,8 @@ export const subtitles = {
     "222": {
         "endTime": 1772.5,
         "startTime": 1764.0,
-        "transcript": "Taum-gguq avaniirluteng tau\u0361gaam pinaurtut apertuatnanriamceteng. They would say it happened over there",
-        "translation": "because we don't point those out to them anymore."
+        "transcript": "Taum-gguq avaniirluteng tau\u0361gaam pinaurtut apertuatnanriamceteng.",
+        "translation": "They would say it happened over there because we don't point those out to them anymore."
     },
     "223": {
         "endTime": 1781.5,
@@ -1352,8 +1352,8 @@ export const subtitles = {
     "226": {
         "endTime": 1804.0,
         "startTime": 1797.5,
-        "transcript": "Yaa, qanruyun atunrilkuniu elluarrluni yuungaitelliniuq. Yes, [s]he evidently will not live well",
-        "translation": "if [s]he does not adhere to traditional wisdom."
+        "transcript": "Yaa, qanruyun atunrilkuniu elluarrluni yuungaitelliniuq.",
+        "translation": "Yes, [s]he evidently will not live well if [s]he does not adhere to traditional wisdom."
     },
     "227": {
         "endTime": 1809.5,
@@ -1412,7 +1412,7 @@ export const subtitles = {
     "236": {
         "endTime": 1882.0,
         "startTime": 1874.5,
-        "transcript": "Atam-gguq uluqaqumteggu imna qalartellra uunguciirrniar[tukut]. They said that if we look away from him,",
-        "translation": "[we] won't know what he's talking about anymore."
+        "transcript": "Atam-gguq uluqaqumteggu imna qalartellra uunguciirrniar[tukut].",
+        "translation": "They said that if we look away from him, [we] won't know what he's talking about anymore."
     }
 };

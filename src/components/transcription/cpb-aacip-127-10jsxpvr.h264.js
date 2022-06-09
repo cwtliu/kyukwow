@@ -176,8 +176,8 @@ export const subtitles = {
     "30": {
         "endTime": 171.0,
         "startTime": 164.3,
-        "transcript": "Up'nerkiyaqamta-wa waten Arnangiaraller nalluksi Iqalluunkut aanallrat When we went to spring camp like this, youpl don't know",
-        "translation": "Arnangiaraller, the mother of the late Iqalluk and famiuly"
+        "transcript": "Up'nerkiyaqamta-wa waten Arnangiaraller nalluksi Iqalluunkut aanallrat",
+        "translation": "When we went to spring camp like this, youpl don't know Arnangiaraller, the mother of the late Iqalluk and famiuly"
     },
     "31": {
         "endTime": 178.0,
@@ -314,8 +314,8 @@ export const subtitles = {
     "53": {
         "endTime": 316.9,
         "startTime": 310.5,
-        "transcript": "Tua-i Kass'atun maa-i makut Kass'at Yugtun ayuqenriqait Like Westerners, these Westerners are making these [people]",
-        "translation": "unlike Yupiit [back then]"
+        "transcript": "Tua-i Kass'atun maa-i makut Kass'at Yugtun ayuqenriqait",
+        "translation": "Like Westerners, these Westerners are making these [people] unlike Yupiit [back then]"
     },
     "54": {
         "endTime": 321.5,
@@ -338,8 +338,8 @@ export const subtitles = {
     "57": {
         "endTime": 344.5,
         "startTime": 333.8,
-        "transcript": "Ak'a tamaani-qaa yuut piciryarangqelallruut pitat merriartaqluki mermek? A long time ago, did people have a tradition of",
-        "translation": "giving water to animals they had caught?"
+        "transcript": "Ak'a tamaani-qaa yuut piciryarangqelallruut pitat merriartaqluki mermek?",
+        "translation": "A long time ago, did people have a tradition of giving water to animals they had caught?"
     },
     "58": {
         "endTime": 349.4,
@@ -410,8 +410,8 @@ export const subtitles = {
     "69": {
         "endTime": 402.0,
         "startTime": 396.4,
-        "transcript": "Mikluta, sugtuv[kenii], wii miklua mikluta elliraurtellruamta. We were small, I wasn't tall, I was small because",
-        "translation": "we were orphaned when we were small."
+        "transcript": "Mikluta, sugtuv[kenii], wii miklua mikluta elliraurtellruamta.",
+        "translation": "We were small, I wasn't tall, I was small because we were orphaned when we were small."
     },
     "70": {
         "endTime": 406.5,
@@ -422,8 +422,8 @@ export const subtitles = {
     "71": {
         "endTime": 423.0,
         "startTime": 408.0,
-        "transcript": "Tua-ll' Neviar, ak'a tamaani makut nasaurluut aglenrraraat And then Neviar, these girls in the year of their first menstruations",
-        "translation": "a long time ago"
+        "transcript": "Tua-ll' Neviar, ak'a tamaani makut nasaurluut aglenrraraat",
+        "translation": "And then Neviar, these girls in the year of their first menstruations a long time ago"
     },
     "72": {
         "endTime": 431.0,
@@ -440,8 +440,8 @@ export const subtitles = {
     "74": {
         "endTime": 443.3,
         "startTime": 435.0,
-        "transcript": "Wiinga-w' tang imumi qanraqluteng eyagcetenritaatnga-gguq mayiteqciryuumiilameg[ten\u0301ga]. Personally, you see, a long time ago, they would say",
-        "translation": "that they didn't have me abstain because they didn't want me to be destitute."
+        "transcript": "Wiinga-w' tang imumi qanraqluteng eyagcetenritaatnga-gguq mayiteqciryuumiilameg[ten\u0301ga].",
+        "translation": "Personally, you see, a long time ago, they would say that they didn't have me abstain because they didn't want me to be destitute."
     },
     "75": {
         "endTime": 447.9,
@@ -506,8 +506,8 @@ export const subtitles = {
     "85": {
         "endTime": 490.0,
         "startTime": 487.4,
-        "transcript": "Eyayuirutut-gguq maa-i. Eyayuirutut. They say they don't abstain anymore now.",
-        "translation": "They don't abstain anymore."
+        "transcript": "Eyayuirutut-gguq maa-i. Eyayuirutut.",
+        "translation": "They say they don't abstain anymore now. They don't abstain anymore."
     },
     "86": {
         "endTime": 492.0,
@@ -518,8 +518,8 @@ export const subtitles = {
     "87": {
         "endTime": 497.0,
         "startTime": 493.0,
-        "transcript": "Pagna-ll' tangaasqeksaunaku aglenraraugaqamta. They also told us not to look up [at the sky]",
-        "translation": "during the year of our first menstruations."
+        "transcript": "Pagna-ll' tangaasqeksaunaku aglenraraugaqamta.",
+        "translation": "They also told us not to look up [at the sky] during the year of our first menstruations."
     },
     "88": {
         "endTime": 499.0,
@@ -584,8 +584,8 @@ export const subtitles = {
     "98": {
         "endTime": 559.0,
         "startTime": 552.5,
-        "transcript": "Aglenraraat irnicuallret-llu pisqessuitait. (Tua-i taukuk qanrutkelallrit au\u0361gkut.) They tell girls within the year of their first menstruations",
-        "translation": "and those who miscarried not to. (The people back then talked about those.)"
+        "transcript": "Aglenraraat irnicuallret-llu pisqessuitait. (Tua-i taukuk qanrutkelallrit au\u0361gkut.)",
+        "translation": "They tell girls within the year of their first menstruations and those who miscarried not to. (The people back then talked about those.)"
     },
     "99": {
         "endTime": 563.0,
@@ -620,8 +620,8 @@ export const subtitles = {
     "104": {
         "endTime": 586.5,
         "startTime": 583.8,
-        "transcript": "Cali-ll' iqvaasqevkenaki aglenraraat. They also told girls within the year of the first menstruations",
-        "translation": "not to pick berries."
+        "transcript": "Cali-ll' iqvaasqevkenaki aglenraraat.",
+        "translation": "They also told girls within the year of the first menstruations not to pick berries."
     },
     "105": {
         "endTime": 591.5,
@@ -656,8 +656,8 @@ export const subtitles = {
     "110": {
         "endTime": 620.5,
         "startTime": 614.8,
-        "transcript": "Unkumiut atam eyakevkenaki yuvgerilata-gguq imarpigmiutaat. But they don't abstain from [fish] from the coast",
-        "translation": "because they said that ones from the ocean don't have slime."
+        "transcript": "Unkumiut atam eyakevkenaki yuvgerilata-gguq imarpigmiutaat.",
+        "translation": "But they don't abstain from [fish] from the coast because they said that ones from the ocean don't have slime."
     },
     "111": {
         "endTime": 623.4,
@@ -728,8 +728,8 @@ export const subtitles = {
     "122": {
         "endTime": 697.0,
         "startTime": 692.0,
-        "transcript": "Tungmagciaqameng yugnek akluit qungum qainganun ellilallruit. When they buried people, they would put",
-        "translation": "their possessions on their graves."
+        "transcript": "Tungmagciaqameng yugnek akluit qungum qainganun ellilallruit.",
+        "translation": "When they buried people, they would put their possessions on their graves."
     },
     "123": {
         "endTime": 700.8,
@@ -770,8 +770,8 @@ export const subtitles = {
     "129": {
         "endTime": 734.0,
         "startTime": 727.4,
-        "transcript": "Tamakut-gguq, iciw' piciatun egatet, saaniiget, yaaruitet, uyamiit They say that those, you know, various things,",
-        "translation": "pots, kettles, storytelling knives, necklaces"
+        "transcript": "Tamakut-gguq, iciw' piciatun egatet, saaniiget, yaaruitet, uyamiit",
+        "translation": "They say that those, you know, various things, pots, kettles, storytelling knives, necklaces"
     },
     "130": {
         "endTime": 737.0,
@@ -872,8 +872,8 @@ export const subtitles = {
     "146": {
         "endTime": 863.0,
         "startTime": 856.2,
-        "transcript": "Tua-i waten watli'rqan ayarurraq cingilek cukuliurutmek pitukevvut When [the season] became like this, the staff with a point",
-        "translation": "that we call an ice spud"
+        "transcript": "Tua-i waten watli'rqan ayarurraq cingilek cukuliurutmek pitukevvut",
+        "translation": "When [the season] became like this, the staff with a point that we call an ice spud"
     },
     "147": {
         "endTime": 867.0,
@@ -1232,8 +1232,8 @@ export const subtitles = {
     "206": {
         "endTime": 1211.4,
         "startTime": 1204.0,
-        "transcript": "Takarnaqluteng. Itellriami-ll', itellriani-ll' enemun kiavaqerciiganani. They were intimidating. And when going into a house,",
-        "translation": "they couldn't go further inside."
+        "transcript": "Takarnaqluteng. Itellriami-ll', itellriani-ll' enemun kiavaqerciiganani.",
+        "translation": "They were intimidating. And when going into a house, they couldn't go further inside."
     },
     "207": {
         "endTime": 1216.0,

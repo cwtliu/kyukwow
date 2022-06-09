@@ -122,8 +122,8 @@ export const subtitles = {
     "21": {
         "endTime": 193.5,
         "startTime": 188.6,
-        "transcript": "Tamatumek-gguq pilinrilkumta nunakaitukut pissurvigkaunata-llu. [S]he said that if we don't do that, we will have no lands",
-        "translation": "or hunting grounds."
+        "transcript": "Tamatumek-gguq pilinrilkumta nunakaitukut pissurvigkaunata-llu.",
+        "translation": "[S]he said that if we don't do that, we will have no lands or hunting grounds."
     },
     "22": {
         "endTime": 200.5,
@@ -146,8 +146,8 @@ export const subtitles = {
     "25": {
         "endTime": 229.0,
         "startTime": 222.5,
-        "transcript": "Ukunun aipamten\u0301un tun'aput-qaa? Pikiutekaput-qaa? Did we give them to our [Caucasian] counterparts?",
-        "translation": "Did we give it to them?"
+        "transcript": "Ukunun aipamten\u0301un tun'aput-qaa? Pikiutekaput-qaa?",
+        "translation": "Did we give them to our [Caucasian] counterparts? Did we give it to them?"
     },
     "26": {
         "endTime": 232.5,
@@ -200,8 +200,8 @@ export const subtitles = {
     "34": {
         "endTime": 308.0,
         "startTime": 300.0,
-        "transcript": "Yup'ik Nation-aarurrluta-gguq wangkuta yuullemten\u0301un ayagciqukut. If we become the Yup'ik Nation, we will proceed",
-        "translation": "to our way of life."
+        "transcript": "Yup'ik Nation-aarurrluta-gguq wangkuta yuullemten\u0301un ayagciqukut.",
+        "translation": "If we become the Yup'ik Nation, we will proceed to our way of life."
     },
     "35": {
         "endTime": 316.5,
@@ -446,8 +446,8 @@ export const subtitles = {
     "75": {
         "endTime": 736.5,
         "startTime": 728.0,
-        "transcript": "Tua-llu? Ukutgun tau\u0361gaam yuk ayagarkauguq ciulirnerteggun. You see? A person must only go forth",
-        "translation": "[with the wisdom of] the ancestors."
+        "transcript": "Tua-llu? Ukutgun tau\u0361gaam yuk ayagarkauguq ciulirnerteggun.",
+        "translation": "You see? A person must only go forth [with the wisdom of] the ancestors."
     },
     "76": {
         "endTime": 747.0,
@@ -458,8 +458,8 @@ export const subtitles = {
     "77": {
         "endTime": 756.5,
         "startTime": 748.0,
-        "transcript": "Ukut-llu munallruluteng neq'liurteput, neqmun alerquuteput. And those who worked on fish for us were dexterous,",
-        "translation": "those who instructed us on fish."
+        "transcript": "Ukut-llu munallruluteng neq'liurteput, neqmun alerquuteput.",
+        "translation": "And those who worked on fish for us were dexterous, those who instructed us on fish."
     },
     "78": {
         "endTime": 770.0,
@@ -512,8 +512,8 @@ export const subtitles = {
     "86": {
         "endTime": 836.5,
         "startTime": 832.5,
-        "transcript": "Yuunitekluta pisqevkenata inerquumaluta. They told admonished us against [treating them badly]",
-        "translation": "just because we're people."
+        "transcript": "Yuunitekluta pisqevkenata inerquumaluta.",
+        "translation": "They told admonished us against [treating them badly] just because we're people."
     },
     "87": {
         "endTime": 845.0,
@@ -524,14 +524,14 @@ export const subtitles = {
     "88": {
         "endTime": 852.0,
         "startTime": 845.5,
-        "transcript": "Una wani yuunitekluni yuuyaraq waten ayuqelliniuq: Living life [treating others badly]",
-        "translation": "just because we're people is like this:"
+        "transcript": "Una wani yuunitekluni yuuyaraq waten ayuqelliniuq:",
+        "translation": "Living life [treating others badly] just because we're people is like this:"
     },
     "89": {
         "endTime": 863.0,
         "startTime": 853.5,
-        "transcript": "Yuunitekluni-gguq yuulria qaneni negtaayuitaa ilaminun, cangayullerkaa-llu yuum umyuaqevkenaku. A person [who treats others badly] just because he's a person",
-        "translation": "does not watch what he says to other people, and gives no consideration about offending them."
+        "transcript": "Yuunitekluni-gguq yuulria qaneni negtaayuitaa ilaminun, cangayullerkaa-llu yuum umyuaqevkenaku.",
+        "translation": "A person [who treats others badly] just because he's a person does not watch what he says to other people, and gives no consideration about offending them."
     },
     "90": {
         "endTime": 868.7,
@@ -542,8 +542,8 @@ export const subtitles = {
     "91": {
         "endTime": 875.5,
         "startTime": 869.0,
-        "transcript": "Tuaten-llu ayuqellria apqiitnek erneq aipirluku unguvayuunani-gguq. They say that one who is like that",
-        "translation": "does not live another day, as they say."
+        "transcript": "Tuaten-llu ayuqellria apqiitnek erneq aipirluku unguvayuunani-gguq.",
+        "translation": "They say that one who is like that does not live another day, as they say."
     },
     "92": {
         "endTime": 884.0,
@@ -608,8 +608,8 @@ export const subtitles = {
     "102": {
         "endTime": 967.0,
         "startTime": 960.8,
-        "transcript": "Makut tau\u0361gaam kalikat nallunrilketeng kiingita usvikluki ilumun. They only trust in the wisdom of the books",
-        "translation": "that they know, truly."
+        "transcript": "Makut tau\u0361gaam kalikat nallunrilketeng kiingita usvikluki ilumun.",
+        "translation": "They only trust in the wisdom of the books that they know, truly."
     },
     "103": {
         "endTime": 974.0,
@@ -656,7 +656,7 @@ export const subtitles = {
     "110": {
         "endTime": 1021.0,
         "startTime": 1017.8,
-        "transcript": "Quyanarquten elpet, alapen'errlua-ll' maavet itrama. I should dearly thank you,",
-        "translation": "also because I'm surprised to have come in here."
+        "transcript": "Quyanarquten elpet, alapen'errlua-ll' maavet itrama.",
+        "translation": "I should dearly thank you, also because I'm surprised to have come in here."
     }
 };

@@ -488,8 +488,8 @@ export const subtitles = {
     "82": {
         "endTime": 416.9,
         "startTime": 411.0,
-        "transcript": "Tamaani-w' ciuqvani qantangqetulliniami yuk atauciq qantani tua-i murilkelluku pillilria. It's probably because a person back then had one bowl that [s]he watched",
-        "translation": "over."
+        "transcript": "Tamaani-w' ciuqvani qantangqetulliniami yuk atauciq qantani tua-i murilkelluku pillilria.",
+        "translation": "It's probably because a person back then had one bowl that [s]he watched over."
     },
     "83": {
         "endTime": 420.0,

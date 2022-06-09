@@ -164,8 +164,8 @@ export const subtitles = {
     "28": {
         "endTime": 179.0,
         "startTime": 172.5,
-        "transcript": "Allam pikenrilkiinek, wii tau\u0361gaam taringellemnek qanrutqataramci. I am going to tell youpl about what I personally understand,",
-        "translation": "not anyone else."
+        "transcript": "Allam pikenrilkiinek, wii tau\u0361gaam taringellemnek qanrutqataramci.",
+        "translation": "I am going to tell youpl about what I personally understand, not anyone else."
     },
     "29": {
         "endTime": 187.0,
@@ -458,8 +458,8 @@ export const subtitles = {
     "77": {
         "endTime": 456.0,
         "startTime": 449.5,
-        "transcript": "Tuulkessaarmiut kiatiitgun tevyarakun tevluta Elaayuum kangranun. We portaged through the route upriver from Tuluksak",
-        "translation": "to the headwaters of Elaayuk."
+        "transcript": "Tuulkessaarmiut kiatiitgun tevyarakun tevluta Elaayuum kangranun.",
+        "translation": "We portaged through the route upriver from Tuluksak to the headwaters of Elaayuk."
     },
     "78": {
         "endTime": 460.0,
@@ -470,14 +470,14 @@ export const subtitles = {
     "79": {
         "endTime": 467.0,
         "startTime": 461.5,
-        "transcript": "Cetuinanemten\u0301i pengulkugmun tekitaqamta arulairlua nacetaqlua. When we came upon tussocks of grass as we went downriver,",
-        "translation": "I would stop and look around from a vantage point."
+        "transcript": "Cetuinanemten\u0301i pengulkugmun tekitaqamta arulairlua nacetaqlua.",
+        "translation": "When we came upon tussocks of grass as we went downriver, I would stop and look around from a vantage point."
     },
     "80": {
         "endTime": 474.0,
         "startTime": 468.5,
-        "transcript": "Nacetaqama tekitnaurtua uumek pop-autellermek. When I was climbing to vantage points,",
-        "translation": "I would come across empty pop containers."
+        "transcript": "Nacetaqama tekitnaurtua uumek pop-autellermek.",
+        "translation": "When I was climbing to vantage points, I would come across empty pop containers."
     },
     "81": {
         "endTime": 478.5,
@@ -554,8 +554,8 @@ export const subtitles = {
     "93": {
         "endTime": 541.5,
         "startTime": 535.0,
-        "transcript": "Qavartallrit-llu carangllirrlainarluteng qemagngavkenateng tamakut. And in their camp sites, there's nothing but debris",
-        "translation": "where those aren't put away."
+        "transcript": "Qavartallrit-llu carangllirrlainarluteng qemagngavkenateng tamakut.",
+        "translation": "And in their camp sites, there's nothing but debris where those aren't put away."
     },
     "94": {
         "endTime": 549.0,
@@ -680,8 +680,8 @@ export const subtitles = {
     "114": {
         "endTime": 670.0,
         "startTime": 666.8,
-        "transcript": "Cipciyuunata-gguq Ellam Yuan tangvagaakut. They said that the Spirit of the Universe is watching us",
-        "translation": "without leaving anyone out."
+        "transcript": "Cipciyuunata-gguq Ellam Yuan tangvagaakut.",
+        "translation": "They said that the Spirit of the Universe is watching us without leaving anyone out."
     },
     "115": {
         "endTime": 677.0,
@@ -734,8 +734,8 @@ export const subtitles = {
     "123": {
         "endTime": 726.5,
         "startTime": 720.5,
-        "transcript": "Nunavut uitavigput uksumi, pissurviput-llu yuilqumi Our village where we stay in the winter,",
-        "translation": "and our subsisting grounds in the wilderness"
+        "transcript": "Nunavut uitavigput uksumi, pissurviput-llu yuilqumi",
+        "translation": "Our village where we stay in the winter, and our subsisting grounds in the wilderness"
     },
     "124": {
         "endTime": 734.0,
@@ -794,8 +794,8 @@ export const subtitles = {
     "133": {
         "endTime": 783.5,
         "startTime": 778.0,
-        "transcript": "Nallunrilameng atuqunegteggu tuquciqngameng kangillipailegmegteggu. Because they know that if they go in it,",
-        "translation": "they will die before they reach its headwaters."
+        "transcript": "Nallunrilameng atuqunegteggu tuquciqngameng kangillipailegmegteggu.",
+        "translation": "Because they know that if they go in it, they will die before they reach its headwaters."
     },
     "134": {
         "endTime": 789.0,
@@ -944,8 +944,8 @@ export const subtitles = {
     "158": {
         "endTime": 938.0,
         "startTime": 932.5,
-        "transcript": "Tuaten ellircetarput wangkuta iirusngiimteki ayagyuaput. We're making it become like that because we hide",
-        "translation": "[the knowledge] from our young people."
+        "transcript": "Tuaten ellircetarput wangkuta iirusngiimteki ayagyuaput.",
+        "translation": "We're making it become like that because we hide [the knowledge] from our young people."
     },
     "159": {
         "endTime": 943.0,
@@ -1220,8 +1220,8 @@ export const subtitles = {
     "204": {
         "endTime": 1247.0,
         "startTime": 1240.5,
-        "transcript": "Aterluni-llu Picuilngurmek. Pitengnaq'nge'rmi-ll pitesciiganani. And his name was Picuilnguq [Bad Hunter].",
-        "translation": "And even when he tried, he wouldn't catch anything."
+        "transcript": "Aterluni-llu Picuilngurmek. Pitengnaq'nge'rmi-ll pitesciiganani.",
+        "translation": "And his name was Picuilnguq [Bad Hunter]. And even when he tried, he wouldn't catch anything."
     },
     "205": {
         "endTime": 1253.0,
@@ -1364,8 +1364,8 @@ export const subtitles = {
     "228": {
         "endTime": 1402.5,
         "startTime": 1396.5,
-        "transcript": "Cavilput-llu teq'ernarqaput Kusquqvamten\u0301un mermun egtevkenaki We should also bury our metal [trash] into pits,",
-        "translation": "not throw them into the water of our Kuskokwim River"
+        "transcript": "Cavilput-llu teq'ernarqaput Kusquqvamten\u0301un mermun egtevkenaki",
+        "translation": "We should also bury our metal [trash] into pits, not throw them into the water of our Kuskokwim River"
     },
     "229": {
         "endTime": 1409.5,
@@ -1436,8 +1436,8 @@ export const subtitles = {
     "240": {
         "endTime": 1477.8,
         "startTime": 1470.5,
-        "transcript": "Au\u0361gkut tang ciuliamta waten ayuqekiit man'a nunaseng atuqseng: You see, this is how our ancestors back then treated this land",
-        "translation": "that they used:"
+        "transcript": "Au\u0361gkut tang ciuliamta waten ayuqekiit man'a nunaseng atuqseng:",
+        "translation": "You see, this is how our ancestors back then treated this land that they used:"
     },
     "241": {
         "endTime": 1482.0,
@@ -1784,8 +1784,8 @@ export const subtitles = {
     "298": {
         "endTime": 1874.0,
         "startTime": 1867.8,
-        "transcript": "Ikiungan, niicuilan, taangatuan, catuan, tua-i allakaucugturluku. Separating him because he's mischievous, disobedient,",
-        "translation": "an alcoholic, or something else."
+        "transcript": "Ikiungan, niicuilan, taangatuan, catuan, tua-i allakaucugturluku.",
+        "translation": "Separating him because he's mischievous, disobedient, an alcoholic, or something else."
     },
     "299": {
         "endTime": 1885.0,
@@ -1802,8 +1802,8 @@ export const subtitles = {
     "301": {
         "endTime": 1897.5,
         "startTime": 1891.0,
-        "transcript": "Avaken ciuliamten\u0301ek cali qanruyutnguuq avaken anglicaraq. Child rearing is also part of the traditional wisdom",
-        "translation": "from our ancestors back then."
+        "transcript": "Avaken ciuliamten\u0301ek cali qanruyutnguuq avaken anglicaraq.",
+        "translation": "Child rearing is also part of the traditional wisdom from our ancestors back then."
     },
     "302": {
         "endTime": 1911.0,
@@ -1826,8 +1826,8 @@ export const subtitles = {
     "305": {
         "endTime": 1931.0,
         "startTime": 1923.4,
-        "transcript": "\u201cIlavcen\u0301i quyinruluci yuuyaqunaci. Kingunerraatgun tau\u0361gaam yuukici.\u201d \u201cDo not despise your peers in life. Instead, humble yourselves",
-        "translation": "before them in life.\u201d"
+        "transcript": "\u201cIlavcen\u0301i quyinruluci yuuyaqunaci. Kingunerraatgun tau\u0361gaam yuukici.\u201d",
+        "translation": "\u201cDo not despise your peers in life. Instead, humble yourselves before them in life.\u201d"
     },
     "306": {
         "endTime": 1944.0,
@@ -2163,7 +2163,7 @@ export const subtitles = {
         "endTime": 2354.8,
         "startTime": 2354.0,
         "transcript": "Umyugairuskuvet qanruyuteten-llu umyuaqenrilkuvki",
-        "translation": "If you flustered and do not remember the traditional wisdom you heard"
+        "translation": "If you do not remember them, you will die by your own fault. If you flustered and do not remember the traditional wisdom you heard"
     },
     "362": {
         "endTime": 2360.5,
@@ -2270,8 +2270,8 @@ export const subtitles = {
     "379": {
         "endTime": 2469.9,
         "startTime": 2463.5,
-        "transcript": "Ellangyuallrani mikelnguq itertaarutesqevkenaku-llu yugnun nunameggni. They tell people not to bring a growing child to others' houses",
-        "translation": "in their villages."
+        "transcript": "Ellangyuallrani mikelnguq itertaarutesqevkenaku-llu yugnun nunameggni.",
+        "translation": "They tell people not to bring a growing child to others' houses in their villages."
     },
     "380": {
         "endTime": 2474.0,
@@ -2312,8 +2312,8 @@ export const subtitles = {
     "386": {
         "endTime": 2513.5,
         "startTime": 2507.5,
-        "transcript": "Tamaa-i-gguq ayagacimanrilnguut tuaten ayuqut ellangyuallermeggni. They say that's what people who were not taken to other places",
-        "translation": "when they were growing are like."
+        "transcript": "Tamaa-i-gguq ayagacimanrilnguut tuaten ayuqut ellangyuallermeggni.",
+        "translation": "They say that's what people who were not taken to other places when they were growing are like."
     },
     "387": {
         "endTime": 2519.0,
@@ -2534,8 +2534,8 @@ export const subtitles = {
     "423": {
         "endTime": 2756.0,
         "startTime": 2749.0,
-        "transcript": "Waten qanrami: \u201cCikiqenglleq quyanarqenruuq akurtunermi.\u201d Because it says this: \u201cGiving is more of a",
-        "translation": "cause for gratitude than receiving.\u201d"
+        "transcript": "Waten qanrami: \u201cCikiqenglleq quyanarqenruuq akurtunermi.\u201d",
+        "translation": "Because it says this: \u201cGiving is more of a cause for gratitude than receiving.\u201d"
     },
     "424": {
         "endTime": 2768.5,

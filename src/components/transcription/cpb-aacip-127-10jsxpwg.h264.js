@@ -260,8 +260,8 @@ export const subtitles = {
     "44": {
         "endTime": 349.5,
         "startTime": 343.5,
-        "transcript": "Agarrluku-llu nuniinun tuavet yuan tekiskuniu ayagpailgan And hang it there so that when the owner comes to it",
-        "translation": "before leaving"
+        "transcript": "Agarrluku-llu nuniinun tuavet yuan tekiskuniu ayagpailgan",
+        "translation": "And hang it there so that when the owner comes to it before leaving"
     },
     "45": {
         "endTime": 357.5,
@@ -422,8 +422,8 @@ export const subtitles = {
     "71": {
         "endTime": 535.8,
         "startTime": 533.0,
-        "transcript": "Tuaten egcet'lallruit imumi ak'a. They used to have people dispose of them like that",
-        "translation": "a long time ago."
+        "transcript": "Tuaten egcet'lallruit imumi ak'a.",
+        "translation": "They used to have people dispose of them like that a long time ago."
     },
     "72": {
         "endTime": 540.0,
@@ -560,8 +560,8 @@ export const subtitles = {
     "94": {
         "endTime": 688.0,
         "startTime": 682.7,
-        "transcript": "Iiqupayaaq-llu ataucirraq angenqurrilivkenii ayuqluki teguluki. I also take a single berry all the same",
-        "translation": "without saying there are bigger ones."
+        "transcript": "Iiqupayaaq-llu ataucirraq angenqurrilivkenii ayuqluki teguluki.",
+        "translation": "I also take a single berry all the same without saying there are bigger ones."
     },
     "95": {
         "endTime": 693.0,
@@ -638,8 +638,8 @@ export const subtitles = {
     "107": {
         "endTime": 772.5,
         "startTime": 763.0,
-        "transcript": "Cali nuqlitetullruameng tamaani iliini makut kuvyat alairpailgata Also, because they would sometimes have shortages",
-        "translation": "back then before these [Western] nets appeared"
+        "transcript": "Cali nuqlitetullruameng tamaani iliini makut kuvyat alairpailgata",
+        "translation": "Also, because they would sometimes have shortages back then before these [Western] nets appeared"
     },
     "108": {
         "endTime": 781.4,
@@ -656,8 +656,8 @@ export const subtitles = {
     "110": {
         "endTime": 797.0,
         "startTime": 788.9,
-        "transcript": "Tua-i tamaa-i tamakut piaqamteki, nutegnek-llu anglanillrunrilamta When we [hunted] those, because we didn't have",
-        "translation": "an abundant supply of guns"
+        "transcript": "Tua-i tamaa-i tamakut piaqamteki, nutegnek-llu anglanillrunrilamta",
+        "translation": "When we [hunted] those, because we didn't have an abundant supply of guns"
     },
     "111": {
         "endTime": 806.5,
@@ -752,14 +752,14 @@ export const subtitles = {
     "126": {
         "endTime": 923.9,
         "startTime": 920.5,
-        "transcript": "Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai. They said that if we pollute nature with them,",
-        "translation": "he will not give them to us anymore."
+        "transcript": "Uqlauskumteki-gguq wangkutnun cikiutekenrirciqai.",
+        "translation": "They said that if we pollute nature with them, he will not give them to us anymore."
     },
     "127": {
         "endTime": 933.5,
         "startTime": 924.0,
-        "transcript": "Yuk-gguq tua-i piyurraarluni unangyurraarluni unangesciigalituluni uqlaupakaquniki pitani. They say that after that person is a good hunter and catches a lot,",
-        "translation": "he can no longer catch anything because he pollutes nature with what he catches."
+        "transcript": "Yuk-gguq tua-i piyurraarluni unangyurraarluni unangesciigalituluni uqlaupakaquniki pitani.",
+        "translation": "They say that after that person is a good hunter and catches a lot, he can no longer catch anything because he pollutes nature with what he catches."
     },
     "128": {
         "endTime": 939.5,
@@ -1046,8 +1046,8 @@ export const subtitles = {
     "175": {
         "endTime": 1271.5,
         "startTime": 1266.5,
-        "transcript": "Nuu, elpeci-ggem qaill' pitullrunillrungataci mercilluki qaill'\u2026 No, didn't you say that you did something to them,",
-        "translation": "giving them water to drink\u2026"
+        "transcript": "Nuu, elpeci-ggem qaill' pitullrunillrungataci mercilluki qaill'\u2026",
+        "translation": "No, didn't you say that you did something to them, giving them water to drink\u2026"
     },
     "176": {
         "endTime": 1276.5,

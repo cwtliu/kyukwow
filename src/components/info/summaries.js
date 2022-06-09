@@ -1,3 +1,4 @@
+// const summaries = {
 export const summaries = {
     "cpb-aacip-127-009w0z0q.h264": {
         "videoID": "cpb-aacip-127-009w0z0q.h264",
@@ -5063,3 +5064,5 @@ export const summaries = {
         ]
     }
 };
+
+// module.exports = summaries;

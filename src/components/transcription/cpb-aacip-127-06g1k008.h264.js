@@ -92,8 +92,8 @@ export const subtitles = {
     "16": {
         "endTime": 98.0,
         "startTime": 91.0,
-        "transcript": "Akaurtuq pinanrii[cata] makuneng agayulirten\u0301eng makuneng pingata. It's been a long time since they've stopped doing that",
-        "translation": "since they've turned to these priests."
+        "transcript": "Akaurtuq pinanrii[cata] makuneng agayulirten\u0301eng makuneng pingata.",
+        "translation": "It's been a long time since they've stopped doing that since they've turned to these priests."
     },
     "17": {
         "endTime": 101.5,
@@ -188,8 +188,8 @@ export const subtitles = {
     "32": {
         "endTime": 194.5,
         "startTime": 185.5,
-        "transcript": "Tamakut seal-at pitaqaqamegteki nakacuit egcuunaki qerrutullruit. When people catch those seals, they don't discard their bladders",
-        "translation": "but inflate them."
+        "transcript": "Tamakut seal-at pitaqaqamegteki nakacuit egcuunaki qerrutullruit.",
+        "translation": "When people catch those seals, they don't discard their bladders but inflate them."
     },
     "33": {
         "endTime": 201.0,
@@ -254,8 +254,8 @@ export const subtitles = {
     "43": {
         "endTime": 249.5,
         "startTime": 242.5,
-        "transcript": "Ataam taisqumaluki nakacuit-llu ayagtelluki Nakaciuraqameng. They would ask them to come again when they sent off the bladders",
-        "translation": "during the Bladder Festival."
+        "transcript": "Ataam taisqumaluki nakacuit-llu ayagtelluki Nakaciuraqameng.",
+        "translation": "They would ask them to come again when they sent off the bladders during the Bladder Festival."
     },
     "44": {
         "endTime": 252.8,
@@ -374,8 +374,8 @@ export const subtitles = {
     "63": {
         "endTime": 356.5,
         "startTime": 350.5,
-        "transcript": "Pitgarluki-w' tua-i, narulkarluki-ll' call' cakneq tua-i elitaq'laamiki. He shot them with arrows and harpooned them hard",
-        "translation": "because he recognized them."
+        "transcript": "Pitgarluki-w' tua-i, narulkarluki-ll' call' cakneq tua-i elitaq'laamiki.",
+        "translation": "He shot them with arrows and harpooned them hard because he recognized them."
     },
     "64": {
         "endTime": 359.0,
@@ -644,8 +644,8 @@ export const subtitles = {
     "108": {
         "endTime": 591.5,
         "startTime": 586.9,
-        "transcript": "Taumek waten aneryaarvikluku tuqutelallinikait kegginait puvvluki. That's why they evidently kill people by breathing on them like this",
-        "translation": "and making their faces swell."
+        "transcript": "Taumek waten aneryaarvikluku tuqutelallinikait kegginait puvvluki.",
+        "translation": "That's why they evidently kill people by breathing on them like this and making their faces swell."
     },
     "109": {
         "endTime": 593.5,
@@ -662,8 +662,8 @@ export const subtitles = {
     "111": {
         "endTime": 609.0,
         "startTime": 604.0,
-        "transcript": "Nutecurlagluku tan'gerlim tegullruyaaqaanga, nutka teguluku waten. I missed a killing shot on a brown bear and it took me,",
-        "translation": "took my gun like this."
+        "transcript": "Nutecurlagluku tan'gerlim tegullruyaaqaanga, nutka teguluku waten.",
+        "translation": "I missed a killing shot on a brown bear and it took me, took my gun like this."
     },
     "112": {
         "endTime": 618.0,
@@ -722,8 +722,8 @@ export const subtitles = {
     "121": {
         "endTime": 678.5,
         "startTime": 671.0,
-        "transcript": "Pinrilkata-gguq waten umyuartequci pitarkat nangnayukluki? If they're not, [s]he's asking if youpl think that the animals we hunt",
-        "translation": "will decline."
+        "transcript": "Pinrilkata-gguq waten umyuartequci pitarkat nangnayukluki?",
+        "translation": "If they're not, [s]he's asking if youpl think that the animals we hunt will decline."
     },
     "122": {
         "endTime": 685.0,
@@ -800,14 +800,14 @@ export const subtitles = {
     "134": {
         "endTime": 777.0,
         "startTime": 770.9,
-        "transcript": "Inerqurciqaqa angu aanii aanak ukuk qaqillukek angu pisqevkenaku. I will admonish him against killing them all,",
-        "translation": "including the mother [and father]."
+        "transcript": "Inerqurciqaqa angu aanii aanak ukuk qaqillukek angu pisqevkenaku.",
+        "translation": "I will admonish him against killing them all, including the mother [and father]."
     },
     "135": {
         "endTime": 785.0,
         "startTime": 778.5,
-        "transcript": "Tuqutesqevkenakek aanak taukuk aulukestairuciqniluki taukut irniari. I tell them not to kill the mother [and father]",
-        "translation": "saying that their chicks will have no one to take care of them anymore."
+        "transcript": "Tuqutesqevkenakek aanak taukuk aulukestairuciqniluki taukut irniari.",
+        "translation": "I tell them not to kill the mother [and father] saying that their chicks will have no one to take care of them anymore."
     },
     "136": {
         "endTime": 788.0,
@@ -866,8 +866,8 @@ export const subtitles = {
     "145": {
         "endTime": 861.9,
         "startTime": 856.6,
-        "transcript": "Qetunrani qangqiirtaqan cakneq quyakluku ciuniularai. When her son catches ptarmigans,",
-        "translation": "she is very thankful for them and welcomes them."
+        "transcript": "Qetunrani qangqiirtaqan cakneq quyakluku ciuniularai.",
+        "translation": "When her son catches ptarmigans, she is very thankful for them and welcomes them."
     },
     "146": {
         "endTime": 864.9,
@@ -902,8 +902,8 @@ export const subtitles = {
     "151": {
         "endTime": 894.0,
         "startTime": 886.5,
-        "transcript": "Wangkuta tang aanaulriani ayagyua[?] qanrutestailngukut. We mothers, you see, [who are] young[er than you]",
-        "translation": "have no one to instruct us."
+        "transcript": "Wangkuta tang aanaulriani ayagyua[?] qanrutestailngukut.",
+        "translation": "We mothers, you see, [who are] young[er than you] have no one to instruct us."
     },
     "152": {
         "endTime": 904.5,
@@ -1004,8 +1004,8 @@ export const subtitles = {
     "168": {
         "endTime": 1008.0,
         "startTime": 1003.5,
-        "transcript": "Ingrinun canegnun pissuqataqumta wall'u ayagakumta When we're going to hunt in the mountains, in the grass,",
-        "translation": "or when we travel"
+        "transcript": "Ingrinun canegnun pissuqataqumta wall'u ayagakumta",
+        "translation": "When we're going to hunt in the mountains, in the grass, or when we travel"
     },
     "169": {
         "endTime": 1011.5,

@@ -170,8 +170,8 @@ export const subtitles = {
     "29": {
         "endTime": 205.5,
         "startTime": 200.5,
-        "transcript": "Neryarat ukuullruameng pingayun: unuakumi yuurqerluteng, Because there were these three [set] meals:",
-        "translation": "drinking something in the morning,"
+        "transcript": "Neryarat ukuullruameng pingayun: unuakumi yuurqerluteng,",
+        "translation": "Because there were these three [set] meals: drinking something in the morning,"
     },
     "30": {
         "endTime": 212.4,
@@ -212,8 +212,8 @@ export const subtitles = {
     "36": {
         "endTime": 237.0,
         "startTime": 232.0,
-        "transcript": "Unugmi-llu elisngaluni iluvut meqsuyuunata unugmi. And our stomachs would be used to it,",
-        "translation": "so we wouldn't be thirsty at night."
+        "transcript": "Unugmi-llu elisngaluni iluvut meqsuyuunata unugmi.",
+        "translation": "And our stomachs would be used to it, so we wouldn't be thirsty at night."
     },
     "37": {
         "endTime": 243.0,
@@ -482,20 +482,20 @@ export const subtitles = {
     "81": {
         "endTime": 520.0,
         "startTime": 514.5,
-        "transcript": "Unugmi serr'illra tamalkuan qurrucirluku mikcuayaarmek anenerrayaaq. Every time the newborn child rustled from sleep,",
-        "translation": "we had them urniate [in a waste container]."
+        "transcript": "Unugmi serr'illra tamalkuan qurrucirluku mikcuayaarmek anenerrayaaq.",
+        "translation": "Every time the newborn child rustled from sleep, we had them urniate [in a waste container]."
     },
     "82": {
         "endTime": 527.0,
         "startTime": 520.7,
-        "transcript": "Tuatnaurluku mecungcuunaku aci, kinerqurtelluku, uqlayuunata. We always did that, never wetting the bad, always keeping it dry,",
-        "translation": "and we never made a mess."
+        "transcript": "Tuatnaurluku mecungcuunaku aci, kinerqurtelluku, uqlayuunata.",
+        "translation": "We always did that, never wetting the bad, always keeping it dry, and we never made a mess."
     },
     "83": {
         "endTime": 534.0,
         "startTime": 528.0,
-        "transcript": "Tua-i-llu wiinga tamaani pingama sass'at elicamki makut sass'artangan And when I started with that, when I learned [the ways of] clocks",
-        "translation": "when clocks first came"
+        "transcript": "Tua-i-llu wiinga tamaani pingama sass'at elicamki makut sass'artangan",
+        "translation": "And when I started with that, when I learned [the ways of] clocks when clocks first came"
     },
     "84": {
         "endTime": 539.8,
@@ -578,8 +578,8 @@ export const subtitles = {
     "97": {
         "endTime": 617.3,
         "startTime": 608.3,
-        "transcript": "Atam ca tamalkuan qanruyutengqellrulria wangkutni; ayuqucirtuuterluni. You see, everything had traditional wisdom connected to it for us;",
-        "translation": "it had instructions."
+        "transcript": "Atam ca tamalkuan qanruyutengqellrulria wangkutni; ayuqucirtuuterluni.",
+        "translation": "You see, everything had traditional wisdom connected to it for us; it had instructions."
     },
     "98": {
         "endTime": 632.0,
@@ -608,8 +608,8 @@ export const subtitles = {
     "102": {
         "endTime": 662.5,
         "startTime": 654.0,
-        "transcript": "Kiaresngialutkai, iteqngqatkai nalluvkarpek'naki itercivigmelutekai. Let them know what will cause them shame,",
-        "translation": "what will get them incarcerated, what will put them into jail."
+        "transcript": "Kiaresngialutkai, iteqngqatkai nalluvkarpek'naki itercivigmelutekai.",
+        "translation": "Let them know what will cause them shame, what will get them incarcerated, what will put them into jail."
     },
     "103": {
         "endTime": 669.0,
@@ -692,8 +692,8 @@ export const subtitles = {
     "116": {
         "endTime": 752.0,
         "startTime": 745.5,
-        "transcript": "Cangimirterpangramta-llu ilavkenaku ilavkayuilatgu. And even when we really wanted more,",
-        "translation": "we wouldn't add to it because they wouldn't let us."
+        "transcript": "Cangimirterpangramta-llu ilavkenaku ilavkayuilatgu.",
+        "translation": "And even when we really wanted more, we wouldn't add to it because they wouldn't let us."
     },
     "117": {
         "endTime": 757.4,
@@ -806,8 +806,8 @@ export const subtitles = {
     "135": {
         "endTime": 876.0,
         "startTime": 871.3,
-        "transcript": "Tangvallruamku aanaka ciuqlirmi irnillemni aulukillra. Because I watched how my mother took care of it",
-        "translation": "when I first gave birth."
+        "transcript": "Tangvallruamku aanaka ciuqlirmi irnillemni aulukillra.",
+        "translation": "Because I watched how my mother took care of it when I first gave birth."
     },
     "136": {
         "endTime": 882.0,
@@ -878,8 +878,8 @@ export const subtitles = {
     "147": {
         "endTime": 944.9,
         "startTime": 941.0,
-        "transcript": "Kiimeng, kiimenatek piaqamek ikayuqlutek. When they2 [delivered a child] by themselves2,",
-        "translation": "they2 helped each other."
+        "transcript": "Kiimeng, kiimenatek piaqamek ikayuqlutek.",
+        "translation": "When they2 [delivered a child] by themselves2, they2 helped each other."
     },
     "148": {
         "endTime": 952.0,
@@ -896,8 +896,8 @@ export const subtitles = {
     "150": {
         "endTime": 965.0,
         "startTime": 959.5,
-        "transcript": "Taum aipaan kel'tua tauna aipani piniluku nayuusqelluku. Her husband invites here, telling her that his wife [is in labor]",
-        "translation": "and for her to be with [his wife]."
+        "transcript": "Taum aipaan kel'tua tauna aipani piniluku nayuusqelluku.",
+        "translation": "Her husband invites here, telling her that his wife [is in labor] and for her to be with [his wife]."
     },
     "151": {
         "endTime": 974.0,
@@ -938,14 +938,14 @@ export const subtitles = {
     "157": {
         "endTime": 1020.5,
         "startTime": 1015.0,
-        "transcript": "Camek-llu qanrut'nge'rmi taringyuunani, taringyaurteksaunani. And even though [s]he is told, [s]he doesn't understand,",
-        "translation": "isn't yet able to understand."
+        "transcript": "Camek-llu qanrut'nge'rmi taringyuunani, taringyaurteksaunani.",
+        "translation": "And even though [s]he is told, [s]he doesn't understand, isn't yet able to understand."
     },
     "158": {
         "endTime": 1028.5,
         "startTime": 1021.0,
-        "transcript": "Nutaan-llu tua-i makcan temii pinirian, makcan, aqumgayaurcan And when he finally wakes up and his body is strengthened,",
-        "translation": "wakes up, starting to sit"
+        "transcript": "Nutaan-llu tua-i makcan temii pinirian, makcan, aqumgayaurcan",
+        "translation": "And when he finally wakes up and his body is strengthened, wakes up, starting to sit"
     },
     "159": {
         "endTime": 1038.0,
@@ -1064,8 +1064,8 @@ export const subtitles = {
     "178": {
         "endTime": 1177.0,
         "startTime": 1172.0,
-        "transcript": "Cali tua-i taringecuaryaurcan nutaan, taringyaurcan mikelnguq Also, when [s]he starts understanding [words],",
-        "translation": "when the child starts understanding"
+        "transcript": "Cali tua-i taringecuaryaurcan nutaan, taringyaurcan mikelnguq",
+        "translation": "Also, when [s]he starts understanding [words], when the child starts understanding"
     },
     "179": {
         "endTime": 1183.0,
@@ -1202,8 +1202,8 @@ export const subtitles = {
     "201": {
         "endTime": 1321.3,
         "startTime": 1315.0,
-        "transcript": "Tuaten alerquukarnek cali arcaqanruan kenkurluki ilai pisqelluki. Tell them to treat their peers with love",
-        "translation": "because it's the most important instruction."
+        "transcript": "Tuaten alerquukarnek cali arcaqanruan kenkurluki ilai pisqelluki.",
+        "translation": "Tell them to treat their peers with love because it's the most important instruction."
     },
     "202": {
         "endTime": 1332.0,

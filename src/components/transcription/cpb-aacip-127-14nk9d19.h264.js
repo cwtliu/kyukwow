@@ -176,8 +176,8 @@ export const subtitles = {
     "30": {
         "endTime": 192.5,
         "startTime": 188.4,
-        "transcript": "Qasgi'rpagluteng, yuraraqluteng. They had a huge community house",
-        "translation": "and would have Yup'ik dance festivals."
+        "transcript": "Qasgi'rpagluteng, yuraraqluteng.",
+        "translation": "They had a huge community house and would have Yup'ik dance festivals."
     },
     "31": {
         "endTime": 198.7,
@@ -212,8 +212,8 @@ export const subtitles = {
     "36": {
         "endTime": 226.0,
         "startTime": 218.8,
-        "transcript": "Kelegluki. Makumiut Akiacuarmiut kelegluki qasgiliyartuusqelluki. They invited them. The people from Akiachak invited",
-        "translation": "the people from here to go make a community house."
+        "transcript": "Kelegluki. Makumiut Akiacuarmiut kelegluki qasgiliyartuusqelluki.",
+        "translation": "They invited them. The people from Akiachak invited the people from here to go make a community house."
     },
     "37": {
         "endTime": 235.5,
@@ -230,8 +230,8 @@ export const subtitles = {
     "39": {
         "endTime": 249.0,
         "startTime": 242.5,
-        "transcript": "Yurarluteng. Atakuani kalukirluteng waten itrulluki piciatun They Yup'ik danced. They would have a feast that evening,",
-        "translation": "bring in various things like this"
+        "transcript": "Yurarluteng. Atakuani kalukirluteng waten itrulluki piciatun",
+        "translation": "They Yup'ik danced. They would have a feast that evening, bring in various things like this"
     },
     "40": {
         "endTime": 256.0,
@@ -242,8 +242,8 @@ export const subtitles = {
     "41": {
         "endTime": 265.0,
         "startTime": 258.4,
-        "transcript": "Yuraulluki kapkaananek-llu, canek-wa tua-i lumarrarnek-llu. They brought those to dance festivals,",
-        "translation": "including animal traps, various things, and cloth."
+        "transcript": "Yuraulluki kapkaananek-llu, canek-wa tua-i lumarrarnek-llu.",
+        "translation": "They brought those to dance festivals, including animal traps, various things, and cloth."
     },
     "42": {
         "endTime": 275.0,
@@ -266,8 +266,8 @@ export const subtitles = {
     "45": {
         "endTime": 295.0,
         "startTime": 289.4,
-        "transcript": "Tau\u0361gaam wii elisnganrilama nalluanka qalamciksiyaaksailatki. But because I'm not knowledgable, I don't know about them",
-        "translation": "because they didn't talk about them too much."
+        "transcript": "Tau\u0361gaam wii elisnganrilama nalluanka qalamciksiyaaksailatki.",
+        "translation": "But because I'm not knowledgable, I don't know about them because they didn't talk about them too much."
     },
     "46": {
         "endTime": 300.5,
@@ -734,8 +734,8 @@ export const subtitles = {
     "123": {
         "endTime": 906.6,
         "startTime": 900.6,
-        "transcript": "Avani-wa nukalpianek pilallrullikait imkut piculriit. Back then, they probably called those who were",
-        "translation": "good at catching animals great hunters."
+        "transcript": "Avani-wa nukalpianek pilallrullikait imkut piculriit.",
+        "translation": "Back then, they probably called those who were good at catching animals great hunters."
     },
     "124": {
         "endTime": 914.8,
@@ -746,8 +746,8 @@ export const subtitles = {
     "125": {
         "endTime": 920.5,
         "startTime": 916.0,
-        "transcript": "Tamakut nakellriit piculinek pilallikait. They probably referred to those who were good",
-        "translation": "at catching animals great hunters."
+        "transcript": "Tamakut nakellriit piculinek pilallikait.",
+        "translation": "They probably referred to those who were good at catching animals great hunters."
     },
     "126": {
         "endTime": 942.5,

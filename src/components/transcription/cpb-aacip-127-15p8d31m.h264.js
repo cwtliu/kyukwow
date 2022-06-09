@@ -200,8 +200,8 @@ export const subtitles = {
     "34": {
         "endTime": 207.5,
         "startTime": 202.4,
-        "transcript": "Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng. They're becoming Westernized, and some",
-        "translation": "understand Yup'ik anymore."
+        "transcript": "Kass'arngariut, ilait-llu Yugtun taringesciigaliluteng.",
+        "translation": "They're becoming Westernized, and some understand Yup'ik anymore."
     },
     "35": {
         "endTime": 212.0,
@@ -212,8 +212,8 @@ export const subtitles = {
     "36": {
         "endTime": 220.4,
         "startTime": 213.5,
-        "transcript": "Tua-ll' waniw' Yugtun yuullerkam ayuqucianek piyaaqengramta And then even if we [teach] what a person must be like",
-        "translation": "living a Yup'ik life"
+        "transcript": "Tua-ll' waniw' Yugtun yuullerkam ayuqucianek piyaaqengramta",
+        "translation": "And then even if we [teach] what a person must be like living a Yup'ik life"
     },
     "37": {
         "endTime": 226.5,
@@ -290,8 +290,8 @@ export const subtitles = {
     "49": {
         "endTime": 312.5,
         "startTime": 305.0,
-        "transcript": "Kass'atun elisnganritua. Uumek-am entertain-amek igangua maaken. I'm not fluent in English. I've received a letter",
-        "translation": "from here concerning entertainment."
+        "transcript": "Kass'atun elisnganritua. Uumek-am entertain-amek igangua maaken.",
+        "translation": "I'm not fluent in English. I've received a letter from here concerning entertainment."
     },
     "50": {
         "endTime": 320.5,
@@ -302,8 +302,8 @@ export const subtitles = {
     "51": {
         "endTime": 327.0,
         "startTime": 321.0,
-        "transcript": "Wii tua-i ayuquciilamku ukut ilaitnek qanerkitqataryuklua Because I didn't know what it meant,",
-        "translation": "I thought they would give me one of these to say"
+        "transcript": "Wii tua-i ayuquciilamku ukut ilaitnek qanerkitqataryuklua",
+        "translation": "Because I didn't know what it meant, I thought they would give me one of these to say"
     },
     "52": {
         "endTime": 331.4,
@@ -374,14 +374,14 @@ export const subtitles = {
     "63": {
         "endTime": 396.0,
         "startTime": 387.5,
-        "transcript": "Tamakut ciuliamta qaneryaraqlallrit taringyaurrluki eglellruyaaqua. I had started understanding our ancestors' traditional wisdom",
-        "translation": "as I've gone in life."
+        "transcript": "Tamakut ciuliamta qaneryaraqlallrit taringyaurrluki eglellruyaaqua.",
+        "translation": "I had started understanding our ancestors' traditional wisdom as I've gone in life."
     },
     "64": {
         "endTime": 403.5,
         "startTime": 397.3,
-        "transcript": "Tauna-llu Ellam Yua maa-i watua Agayutmek piyaurtelliniat. Now, they've also started referring to the Spirit of the Universe",
-        "translation": "as [the Christian] God."
+        "transcript": "Tauna-llu Ellam Yua maa-i watua Agayutmek piyaurtelliniat.",
+        "translation": "Now, they've also started referring to the Spirit of the Universe as [the Christian] God."
     },
     "65": {
         "endTime": 410.0,
@@ -554,8 +554,8 @@ export const subtitles = {
     "93": {
         "endTime": 645.5,
         "startTime": 637.5,
-        "transcript": "Tauna arcaqerluku akulemten\u0301i aterpagtaarturaulluta quyanaqpiartuq. I'm very thankful that we call each other [by our Yup'ik names]",
-        "translation": "among ourselves."
+        "transcript": "Tauna arcaqerluku akulemten\u0301i aterpagtaarturaulluta quyanaqpiartuq.",
+        "translation": "I'm very thankful that we call each other [by our Yup'ik names] among ourselves."
     },
     "94": {
         "endTime": 653.0,
@@ -740,8 +740,8 @@ export const subtitles = {
     "124": {
         "endTime": 930.5,
         "startTime": 924.0,
-        "transcript": "\u2026[ilait] mat'um nalliini ellangellemtun ayuqenrirtut makut yuut. \u2026[some of] these people these days are not like",
-        "translation": "those in my earliest memories."
+        "transcript": "\u2026[ilait] mat'um nalliini ellangellemtun ayuqenrirtut makut yuut.",
+        "translation": "\u2026[some of] these people these days are not like those in my earliest memories."
     },
     "125": {
         "endTime": 935.0,
@@ -758,8 +758,8 @@ export const subtitles = {
     "127": {
         "endTime": 949.0,
         "startTime": 943.5,
-        "transcript": "Ciisquteng tau\u0361gaam ayapertuarluki tarritetulinek nengcuunateng. Ones who only walked supporting themselves",
-        "translation": "with their knees that didn't stretch out."
+        "transcript": "Ciisquteng tau\u0361gaam ayapertuarluki tarritetulinek nengcuunateng.",
+        "translation": "Ones who only walked supporting themselves with their knees that didn't stretch out."
     },
     "128": {
         "endTime": 952.0,
@@ -902,8 +902,8 @@ export const subtitles = {
     "151": {
         "endTime": 1121.4,
         "startTime": 1116.0,
-        "transcript": "Niiteqarraalallermeggni-llu Jesus-aaq kiulallrulliniut qanerluteng They said that when they first heard about Jesus,",
-        "translation": "they would say in reply"
+        "transcript": "Niiteqarraalallermeggni-llu Jesus-aaq kiulallrulliniut qanerluteng",
+        "translation": "They said that when they first heard about Jesus, they would say in reply"
     },
     "152": {
         "endTime": 1125.5,
@@ -938,8 +938,8 @@ export const subtitles = {
     "157": {
         "endTime": 1165.0,
         "startTime": 1159.5,
-        "transcript": "Carangllugcetevkenaku-llu, nunat-llu akuliit clean up-aatuluku. They didn't leave garbage in it, and they cleaned up",
-        "translation": "the areas in settlements."
+        "transcript": "Carangllugcetevkenaku-llu, nunat-llu akuliit clean up-aatuluku.",
+        "translation": "They didn't leave garbage in it, and they cleaned up the areas in settlements."
     },
     "158": {
         "endTime": 1172.5,

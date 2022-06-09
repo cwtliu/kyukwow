@@ -2,8 +2,8 @@ export const subtitles = {
     "1": {
         "endTime": 5.5,
         "startTime": 0.0,
-        "transcript": "Akluit-llu eru'urqamteki angutet akluit allakartetetullruit aanamta. And when we washed their clothes, our mothers had us",
-        "translation": "separate the mens' clothes."
+        "transcript": "Akluit-llu eru'urqamteki angutet akluit allakartetetullruit aanamta.",
+        "translation": "And when we washed their clothes, our mothers had us separate the mens' clothes."
     },
     "2": {
         "endTime": 10.4,
@@ -26,8 +26,8 @@ export const subtitles = {
     "5": {
         "endTime": 26.5,
         "startTime": 19.7,
-        "transcript": "Arnam aklui allakarmeng iqairumaarkauluteng arnartarrlainaat. Women's' clothes would have to be washed separately",
-        "translation": "only with women's clothes."
+        "transcript": "Arnam aklui allakarmeng iqairumaarkauluteng arnartarrlainaat.",
+        "translation": "Women's' clothes would have to be washed separately only with women's clothes."
     },
     "6": {
         "endTime": 34.0,
@@ -50,8 +50,8 @@ export const subtitles = {
     "9": {
         "endTime": 57.4,
         "startTime": 50.5,
-        "transcript": "Ayuqucirtutullruitkut waten ilarqutevkenaki aulukesqelluki qigcikluki. The instructed us to take care of them without mixing them",
-        "translation": "like this out of respect."
+        "transcript": "Ayuqucirtutullruitkut waten ilarqutevkenaki aulukesqelluki qigcikluki.",
+        "translation": "The instructed us to take care of them without mixing them like this out of respect."
     },
     "10": {
         "endTime": 62.0,
@@ -86,8 +86,8 @@ export const subtitles = {
     "15": {
         "endTime": 86.8,
         "startTime": 80.5,
-        "transcript": "Taringellemnek maa-i qaneryuglua qanertua sassairutqatalliniamegnuk. I wanted to talk about what I understood",
-        "translation": "because we're2 running out of time."
+        "transcript": "Taringellemnek maa-i qaneryuglua qanertua sassairutqatalliniamegnuk.",
+        "translation": "I wanted to talk about what I understood because we're2 running out of time."
     },
     "16": {
         "endTime": 93.5,
@@ -116,8 +116,8 @@ export const subtitles = {
     "20": {
         "endTime": 124.0,
         "startTime": 114.3,
-        "transcript": "Pitaita enrit, carrluit, iluita-llu carrillrit uqlaulluki aulukellrunritaput. We didn't take care of them to pollute nature with the bones, scraps,",
-        "translation": "or guts of what they caught."
+        "transcript": "Pitaita enrit, carrluit, iluita-llu carrillrit uqlaulluki aulukellrunritaput.",
+        "translation": "We didn't take care of them to pollute nature with the bones, scraps, or guts of what they caught."
     },
     "21": {
         "endTime": 137.5,
@@ -152,8 +152,8 @@ export const subtitles = {
     "26": {
         "endTime": 190.4,
         "startTime": 174.0,
-        "transcript": "Cali-llu ava-i qanellruunga pingnaquralput arnani uitaurayuilamta, yuilqumek pingnaquratuamta piyararrarluta-llu pitullruluta. I also just talked about we women's subsistence because we weren't",
-        "translation": "sedentary, we also had gathering spots in the wilderness because we subsisted."
+        "transcript": "Cali-llu ava-i qanellruunga pingnaquralput arnani uitaurayuilamta, yuilqumek pingnaquratuamta piyararrarluta-llu pitullruluta.",
+        "translation": "I also just talked about we women's subsistence because we weren't sedentary, we also had gathering spots in the wilderness because we subsisted."
     },
     "27": {
         "endTime": 201.0,
@@ -368,8 +368,8 @@ export const subtitles = {
     "62": {
         "endTime": 493.0,
         "startTime": 480.0,
-        "transcript": "Unavet tau\u0361gaam tutmararkaunrilngurmun kuvesqelluki yuum tutmarngailkiitnun, etuuralriamun, entaanrilngurmun-llu. We should only dump them down where no one will tread,",
-        "translation": "where no person will tread, somewhere deep where the tide does not go out too much."
+        "transcript": "Unavet tau\u0361gaam tutmararkaunrilngurmun kuvesqelluki yuum tutmarngailkiitnun, etuuralriamun, entaanrilngurmun-llu.",
+        "translation": "We should only dump them down where no one will tread, where no person will tread, somewhere deep where the tide does not go out too much."
     },
     "63": {
         "endTime": 505.0,
@@ -650,8 +650,8 @@ export const subtitles = {
     "109": {
         "endTime": 851.8,
         "startTime": 846.9,
-        "transcript": "Tua-i ilii pinritsaange'rmi amllessiyaagqameng tutmalaraput. Sometimes, though we try not to, we tread on them",
-        "translation": "when there is too much."
+        "transcript": "Tua-i ilii pinritsaange'rmi amllessiyaagqameng tutmalaraput.",
+        "translation": "Sometimes, though we try not to, we tread on them when there is too much."
     },
     "110": {
         "endTime": 871.5,
@@ -1028,8 +1028,8 @@ export const subtitles = {
     "172": {
         "endTime": 1303.5,
         "startTime": 1294.5,
-        "transcript": "Aterpaggluki-llu pingailketen tayima ayuqenrilata atrit. And you probably won't say them by name",
-        "translation": "because they have different names."
+        "transcript": "Aterpaggluki-llu pingailketen tayima ayuqenrilata atrit.",
+        "translation": "And you probably won't say them by name because they have different names."
     },
     "173": {
         "endTime": 1315.0,

@@ -14,8 +14,8 @@ export const subtitles = {
     "3": {
         "endTime": 28.0,
         "startTime": 20.3,
-        "transcript": "Tau\u0361ga-i waten wanigga eglertaqelriit, imkut eglertaqelriit imkut yuut au\u0361gkut Those who were going to travel like this, those people long ago",
-        "translation": "who were going to travel"
+        "transcript": "Tau\u0361ga-i waten wanigga eglertaqelriit, imkut eglertaqelriit imkut yuut au\u0361gkut",
+        "translation": "Those who were going to travel like this, those people long ago who were going to travel"
     },
     "4": {
         "endTime": 44.0,
@@ -74,8 +74,8 @@ export const subtitles = {
     "13": {
         "endTime": 134.0,
         "startTime": 124.0,
-        "transcript": "Cali tamakut, tamakut nayirtellriim uum aqsautai qasgimun pituluteng. One who caught ringed seals would bring the stomachs",
-        "translation": "to the community house."
+        "transcript": "Cali tamakut, tamakut nayirtellriim uum aqsautai qasgimun pituluteng.",
+        "translation": "One who caught ringed seals would bring the stomachs to the community house."
     },
     "14": {
         "endTime": 140.7,
@@ -224,8 +224,8 @@ export const subtitles = {
     "38": {
         "endTime": 364.0,
         "startTime": 352.3,
-        "transcript": "Pissuryuumarinqertellriani umyugarput qacingqavkenaku tau\u0361gaam makut pekcunailnguut pekcunarcarturluki. They would let the minds of those who were on the verge of becoming",
-        "translation": "hunters convince them to live life easy, but they would urge those who were stubborn."
+        "transcript": "Pissuryuumarinqertellriani umyugarput qacingqavkenaku tau\u0361gaam makut pekcunailnguut pekcunarcarturluki.",
+        "translation": "They would let the minds of those who were on the verge of becoming hunters convince them to live life easy, but they would urge those who were stubborn."
     },
     "39": {
         "endTime": 375.6,
@@ -236,8 +236,8 @@ export const subtitles = {
     "40": {
         "endTime": 383.4,
         "startTime": 376.0,
-        "transcript": "Atam qessanaqsuituq waten caliuralriani, kitugciuralriani You see, it does not make one disinclined when one",
-        "translation": "is hardworking or fixes things"
+        "transcript": "Atam qessanaqsuituq waten caliuralriani, kitugciuralriani",
+        "translation": "You see, it does not make one disinclined when one is hardworking or fixes things"
     },
     "41": {
         "endTime": 390.0,
@@ -452,8 +452,8 @@ export const subtitles = {
     "76": {
         "endTime": 693.0,
         "startTime": 683.5,
-        "transcript": "Qaneryararpuk maliggluku cuugukuvci elpeci, qaneryararpuk anglayuitut amlleringraata maa-i mat'um nalliini. If youpl\u00ac want to live according to our2 traditional wisdom,",
-        "translation": "our traditional wisdom [is not fun] even though there are a lot now."
+        "transcript": "Qaneryararpuk maliggluku cuugukuvci elpeci, qaneryararpuk anglayuitut amlleringraata maa-i mat'um nalliini.",
+        "translation": "If youpl\u00ac want to live according to our2 traditional wisdom, our traditional wisdom [is not fun] even though there are a lot now."
     },
     "77": {
         "endTime": 710.5,
@@ -506,8 +506,8 @@ export const subtitles = {
     "85": {
         "endTime": 806.5,
         "startTime": 797.8,
-        "transcript": "Waten-llu nunanun waten ayagaqameng qayateng ellaita eglerulluki. And when they traveled to villages like this,",
-        "translation": "they would travel with their kayaks."
+        "transcript": "Waten-llu nunanun waten ayagaqameng qayateng ellaita eglerulluki.",
+        "translation": "And when they traveled to villages like this, they would travel with their kayaks."
     },
     "86": {
         "endTime": 811.0,
@@ -650,8 +650,8 @@ export const subtitles = {
     "109": {
         "endTime": 1070.5,
         "startTime": 1064.0,
-        "transcript": "Tau\u0361ga-i-llu pivingurautemeggni pugurangaqut imkut unani pitarkait. And then as they were set in place, the animals down there",
-        "translation": "would start surfacing."
+        "transcript": "Tau\u0361ga-i-llu pivingurautemeggni pugurangaqut imkut unani pitarkait.",
+        "translation": "And then as they were set in place, the animals down there would start surfacing."
     },
     "110": {
         "endTime": 1080.5,
@@ -662,8 +662,8 @@ export const subtitles = {
     "111": {
         "endTime": 1086.0,
         "startTime": 1080.8,
-        "transcript": "Tau\u0361ga-i-gguq uluryallagaqan-llu-gguq narulkarpegnaku, pinritnaurtuq. They said that when it would be scared away,",
-        "translation": "they wouldn't harpoon it."
+        "transcript": "Tau\u0361ga-i-gguq uluryallagaqan-llu-gguq narulkarpegnaku, pinritnaurtuq.",
+        "translation": "They said that when it would be scared away, they wouldn't harpoon it."
     },
     "112": {
         "endTime": 1092.8,
@@ -764,8 +764,8 @@ export const subtitles = {
     "128": {
         "endTime": 1252.5,
         "startTime": 1245.5,
-        "transcript": "Tau\u0361ga tau\u0361gaten piaqameng kanani pikaq tamaani pavingangraan When they did that, even though animals were available",
-        "translation": "down in the ocean"
+        "transcript": "Tau\u0361ga tau\u0361gaten piaqameng kanani pikaq tamaani pavingangraan",
+        "translation": "When they did that, even though animals were available down in the ocean"
     },
     "129": {
         "endTime": 1262.9,

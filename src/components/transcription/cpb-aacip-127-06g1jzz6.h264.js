@@ -374,8 +374,8 @@ export const subtitles = {
     "63": {
         "endTime": 403.0,
         "startTime": 393.7,
-        "transcript": "Tau\u0361gken-gguq imna caceskilnguq tua-i arenqiallugpakayuunani. However, [s]he said that someone who isn't self-confident",
-        "translation": "does not come upon too much misfortune."
+        "transcript": "Tau\u0361gken-gguq imna caceskilnguq tua-i arenqiallugpakayuunani.",
+        "translation": "However, [s]he said that someone who isn't self-confident does not come upon too much misfortune."
     },
     "64": {
         "endTime": 410.0,
@@ -386,8 +386,8 @@ export const subtitles = {
     "65": {
         "endTime": 416.0,
         "startTime": 411.0,
-        "transcript": "Alingtaama tua-i waniw' arenqiallugpailegma waten ellirtua. Because I'm scared by nature, I've become this old",
-        "translation": "before coming upon any misfortune."
+        "transcript": "Alingtaama tua-i waniw' arenqiallugpailegma waten ellirtua.",
+        "translation": "Because I'm scared by nature, I've become this old before coming upon any misfortune."
     },
     "66": {
         "endTime": 424.0,
@@ -464,8 +464,8 @@ export const subtitles = {
     "78": {
         "endTime": 509.5,
         "startTime": 499.5,
-        "transcript": "Quyaunga-ll' wii wani ciuqerpecen\u0301i-wa nangengqanritnayukellruyaaqua. I'm also thankful because I had thought that",
-        "translation": "I wouldn't be standing here before youpl."
+        "transcript": "Quyaunga-ll' wii wani ciuqerpecen\u0301i-wa nangengqanritnayukellruyaaqua.",
+        "translation": "I'm also thankful because I had thought that I wouldn't be standing here before youpl."
     },
     "79": {
         "endTime": 517.0,
@@ -566,8 +566,8 @@ export const subtitles = {
     "95": {
         "endTime": 636.0,
         "startTime": 629.5,
-        "transcript": "Imkut tang wiinga angullrenka yullret qimugteliqullrunritellrulriit. You see, the people I was born in time to see back then",
-        "translation": "didn't have a lot of dogs."
+        "transcript": "Imkut tang wiinga angullrenka yullret qimugteliqullrunritellrulriit.",
+        "translation": "You see, the people I was born in time to see back then didn't have a lot of dogs."
     },
     "96": {
         "endTime": 644.0,
@@ -602,8 +602,8 @@ export const subtitles = {
     "101": {
         "endTime": 675.0,
         "startTime": 668.5,
-        "transcript": "Tuamtellu waten pinarian imkut yullret qanemciaqameng qanernaurtut And then when it was time like this,",
-        "translation": "the people back then would tell stories"
+        "transcript": "Tuamtellu waten pinarian imkut yullret qanemciaqameng qanernaurtut",
+        "translation": "And then when it was time like this, the people back then would tell stories"
     },
     "102": {
         "endTime": 681.0,
@@ -746,8 +746,8 @@ export const subtitles = {
     "125": {
         "endTime": 802.0,
         "startTime": 795.6,
-        "transcript": "Tua-i qutegglua ilangqerciqngama alingtaama-llu ayagyaaqua. I was overconfident because I would have companions when I went",
-        "translation": "and I was scared by nature."
+        "transcript": "Tua-i qutegglua ilangqerciqngama alingtaama-llu ayagyaaqua.",
+        "translation": "I was overconfident because I would have companions when I went and I was scared by nature."
     },
     "126": {
         "endTime": 808.0,
@@ -806,8 +806,8 @@ export const subtitles = {
     "135": {
         "endTime": 848.0,
         "startTime": 841.5,
-        "transcript": "Aren, alingessiyaagpakaama ciulisteka tauna iterrluku ilakluku. Oh my, because I was so scared, I brought my lead dog inside",
-        "translation": "to accompany me."
+        "transcript": "Aren, alingessiyaagpakaama ciulisteka tauna iterrluku ilakluku.",
+        "translation": "Oh my, because I was so scared, I brought my lead dog inside to accompany me."
     },
     "136": {
         "endTime": 852.0,
@@ -914,8 +914,8 @@ export const subtitles = {
     "153": {
         "endTime": 925.0,
         "startTime": 918.1,
-        "transcript": "Uitainanemni atam iternerngalngurmun qaterrluni itraaralria. As I was there, you see, something that look like a white cold draft",
-        "translation": "was slowly coming inside."
+        "transcript": "Uitainanemni atam iternerngalngurmun qaterrluni itraaralria.",
+        "translation": "As I was there, you see, something that look like a white cold draft was slowly coming inside."
     },
     "154": {
         "endTime": 930.0,
@@ -1136,8 +1136,8 @@ export const subtitles = {
     "190": {
         "endTime": 1125.0,
         "startTime": 1119.0,
-        "transcript": "Aren alingqapiar[lua] [qakugcam] pamaken tegulia. My goodness, I was so scared that the [qakugcaq]",
-        "translation": "would take me from behind."
+        "transcript": "Aren alingqapiar[lua] [qakugcam] pamaken tegulia.",
+        "translation": "My goodness, I was so scared that the [qakugcaq] would take me from behind."
     },
     "191": {
         "endTime": 1130.5,
@@ -1184,8 +1184,8 @@ export const subtitles = {
     "198": {
         "endTime": 1171.5,
         "startTime": 1165.8,
-        "transcript": "Tua-i-llu pinariata aturluki qimugyaraq elitnaurcelluku. And then when it's time we utilize them,",
-        "translation": "teaching them how to be sled dogs."
+        "transcript": "Tua-i-llu pinariata aturluki qimugyaraq elitnaurcelluku.",
+        "translation": "And then when it's time we utilize them, teaching them how to be sled dogs."
     },
     "199": {
         "endTime": 1174.5,

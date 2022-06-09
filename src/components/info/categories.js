@@ -1,3 +1,4 @@
+// const categories = {
 export const categories = {
     "1": {
         "name": "Yugtun Qalarcaraq -- Yup'ik Language",
@@ -5489,3 +5490,5 @@ export const categories = {
         "tags": []
     }
 };
+
+// module.exports = categories;
