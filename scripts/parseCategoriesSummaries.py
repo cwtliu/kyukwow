@@ -401,8 +401,11 @@ def parseCoreySummaries(files):
 					timestamp = doc.paragraphs[i].text
 					english = doc.paragraphs[i+1].text
 					yugtun = doc.paragraphs[i+2].text
-					timestamp = re.sub(r'^\d\d:','',timestamp) # remove excess numbering
+					print(timestamp)
+					timestamp = re.sub(r'^0([1-9]):',r'\1:',timestamp) # remove excess numbering
+					timestamp = re.sub(r'^00:','',timestamp) # remove excess numbering
 					timestamp = re.sub(r'\..*','',timestamp) # remove excess numbering
+					print(timestamp)
 					summary.append([timestamp,yugtun,english])
 					i += 3
 					if i >= len(doc.paragraphs):
@@ -623,6 +626,26 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 		newTitle += " - # " + videoNumAndDuration[summaries[summ]["videoID"]][0]
 		summaries[summ]["title"] = newTitle
 
+	# # add subtitleID to summary list to be "summary":{subtitleID:[],subtitleID:[]}
+	# for summ in summaries:
+	# 	newSummary = {}
+
+	# 	# grab subtitle.js info
+	# 	subtitleTimes = {}
+	# 	with open(os.path.join("../../src/components/transcription/",summ["videoID"]+".js"), 'r') as file:
+	# 		lines = file.readlines()
+	# 		lines = lines.replace("export const summaries = ","").replace("};","}")
+	# 		subtitleJSON = json.loads(lines)
+	# 		subtitleTimes = []
+
+	# 	for chapter in summ["summary"]:
+	# 		chapterTimeInSeconds = chapter[0] 
+	# 		subtitleID = ""
+	# 		newSummary[subtitleID] = chapter
+
+
+	# 	summaries[summ]["summary"] = newSummary
+
 
 	# print(elderCat2Images)
 	for cat in categories:
@@ -697,6 +720,22 @@ if __name__ == '__main__':
 		out.write(json.dumps(coreyDict, indent=4, ensure_ascii=False))
 
 	summariesDict = lonnyDict | coreyDict
+	# add in empty summaries
+	for vid in videoNumAndDuration:
+		if vid not in summariesDict:
+			summariesDict[vid] = {
+				"videoID":vid,
+				"title":"Title Placeholder",
+				"time":videoNumAndDuration[vid][1],
+				"metadata":{
+					"Date":"Unknown",
+				},
+				"summary":[],
+				"elderTags":[],
+				"tags":[]
+			}
+
+
 	# with open(os.path.join("",'summaries.js'), 'w') as out:
 	# 	out.write(f"export const summaries = {json.dumps(summariesDict, indent=4)};")
 
@@ -713,11 +752,7 @@ if __name__ == '__main__':
 
 
 	# TODO:
-	# change up title to include "Name(s), - #VideoIndex"
-	# Done: date to metadata
-	# Done "videolength" data
 	# add where to put in summary header in subtitles (cross reference timestamps); add before "0" timestamp
-	# SKIP: add short summary to all videos 
 
 
 

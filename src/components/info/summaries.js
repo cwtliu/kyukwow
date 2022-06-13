@@ -1,4 +1,3 @@
-// const summaries = {
 export const summaries = {
     "cpb-aacip-127-009w0z0q.h264": {
         "videoID": "cpb-aacip-127-009w0z0q.h264",
@@ -83,7 +82,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.24"
+            "23.25"
         ],
         "tags": [
             "1.1.1",
@@ -238,8 +237,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44",
-            "23.18"
+            "23.48",
+            "23.19"
         ],
         "tags": [
             "1.1.1",
@@ -308,7 +307,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.17"
+            "23.18"
         ],
         "tags": [
             "1.1.1",
@@ -371,11 +370,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.9",
-            "23.35",
-            "23.16",
-            "23.13",
-            "23.34"
+            "23.10",
+            "23.38",
+            "23.17",
+            "23.14",
+            "23.37"
         ],
         "tags": [
             "1.1.1",
@@ -445,14 +444,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.48",
-            "23.18",
-            "23.22",
-            "23.26",
-            "23.11",
-            "23.49",
-            "23.36",
-            "23.44"
+            "23.53",
+            "23.19",
+            "23.23",
+            "23.28",
+            "23.12",
+            "23.54",
+            "23.39",
+            "23.48"
         ],
         "tags": [
             "1.1.1",
@@ -524,8 +523,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.43",
-            "23.20"
+            "23.47",
+            "23.21"
         ],
         "tags": [
             "1.1.1",
@@ -611,8 +610,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.8",
-            "23.31"
+            "23.9",
+            "23.34"
         ],
         "tags": [
             "1.1.1",
@@ -699,9 +698,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.18",
-            "23.44",
-            "23.22"
+            "23.19",
+            "23.48",
+            "23.23"
         ],
         "tags": [
             "1.1.1",
@@ -783,7 +782,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.50"
+            "23.55"
         ],
         "tags": [
             "1.1.1",
@@ -865,7 +864,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.40"
+            "23.43"
         ],
         "tags": [
             "1.1.1",
@@ -940,8 +939,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.51",
-            "23.15",
+            "23.56",
+            "23.16",
             "23.2"
         ],
         "tags": [
@@ -987,7 +986,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.52"
+            "23.57"
         ],
         "tags": [
             "1.1.1",
@@ -1052,10 +1051,10 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44",
-            "23.18",
-            "23.26",
-            "23.53"
+            "23.48",
+            "23.19",
+            "23.28",
+            "23.58"
         ],
         "tags": [
             "1.1.1",
@@ -1132,8 +1131,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.54",
-            "23.55"
+            "23.59",
+            "23.60"
         ],
         "tags": [
             "1.1.2",
@@ -1196,8 +1195,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5",
-            "23.6"
+            "23.6",
+            "23.7"
         ],
         "tags": [
             "1.1.1",
@@ -1245,9 +1244,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.56",
-            "23.57",
-            "23.58"
+            "23.61",
+            "23.62",
+            "23.63"
         ],
         "tags": [
             "1.1.1",
@@ -1293,8 +1292,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.59",
-            "23.32"
+            "23.64",
+            "23.35"
         ],
         "tags": [
             "1.1.1",
@@ -1347,7 +1346,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.10"
+            "23.11"
         ],
         "tags": [
             "1.1.1",
@@ -1479,18 +1478,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.60",
-            "23.12",
-            "23.26",
-            "23.30",
-            "23.61",
-            "23.62",
-            "23.14",
-            "23.63",
-            "23.64",
             "23.65",
-            "23.43",
-            "23.20"
+            "23.13",
+            "23.28",
+            "23.33",
+            "23.66",
+            "23.67",
+            "23.15",
+            "23.68",
+            "23.69",
+            "23.70",
+            "23.47",
+            "23.21"
         ],
         "tags": [
             "1.1.1",
@@ -1560,7 +1559,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.7"
+            "23.8"
         ],
         "tags": [
             "1.1.1",
@@ -1577,7 +1576,7 @@ export const summaries = {
     },
     "cpb-aacip-127-35gb5sdj.h264": {
         "videoID": "cpb-aacip-127-35gb5sdj.h264",
-        "title": "Yuk 19 - # 35",
+        "title": "Yuk 20 - # 35",
         "time": "22:23",
         "metadata": {
             "Date": [
@@ -1621,13 +1620,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.66"
+            "23.72"
         ],
         "tags": []
     },
     "cpb-aacip-127-35t76q2k.h264": {
         "videoID": "cpb-aacip-127-35t76q2k.h264",
-        "title": "Yuk 20 - # 36",
+        "title": "Yuk 21 - # 36",
         "time": "15:52",
         "metadata": {
             "Date": [],
@@ -1670,7 +1669,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.67"
+            "23.73"
         ],
         "tags": []
     },
@@ -1726,13 +1725,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4"
+            "23.5"
         ],
         "tags": []
     },
     "cpb-aacip-127-37vmd1rq.h264": {
         "videoID": "cpb-aacip-127-37vmd1rq.h264",
-        "title": "Yuk 21 - # 38",
+        "title": "Yuk 22 - # 38",
         "time": "10:14",
         "metadata": {
             "Date": [],
@@ -1766,13 +1765,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.68"
+            "23.74"
         ],
         "tags": []
     },
     "cpb-aacip-127-386hdxkk.h264": {
         "videoID": "cpb-aacip-127-386hdxkk.h264",
-        "title": "Yuk 45, Yuk 46 - # 39",
+        "title": "Yuk 59, Yuk 60 - # 39",
         "time": "21:17",
         "metadata": {
             "Date": [],
@@ -1852,14 +1851,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.92",
-            "23.93"
+            "23.111",
+            "23.112"
         ],
         "tags": []
     },
     "cpb-aacip-127-386hdz1p.h264": {
         "videoID": "cpb-aacip-127-386hdz1p.h264",
-        "title": "Yuk 47, Yuk 48 - # 40",
+        "title": "Yuk 61, Yuk 62 - # 40",
         "time": "1:01:44",
         "metadata": {
             "Date": [],
@@ -1970,8 +1969,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.94",
-            "23.95"
+            "23.113",
+            "23.114"
         ],
         "tags": []
     },
@@ -2040,7 +2039,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.28"
+            "23.30"
         ],
         "tags": []
     },
@@ -2104,7 +2103,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.46"
+            "23.51"
         ],
         "tags": []
     },
@@ -2164,13 +2163,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44"
+            "23.48"
         ],
         "tags": []
     },
     "cpb-aacip-127-440rz436.h264": {
         "videoID": "cpb-aacip-127-440rz436.h264",
-        "title": "Yuk 49, Yuk 50, Yuk 51, Yuk 52, Yuk 53, Yuk 54, Yuk 55 - # 44",
+        "title": "Yuk 63, Yuk 64, Yuk 65, Yuk 66, Yuk 67, Yuk 68, Yuk 69 - # 44",
         "time": "31:25",
         "metadata": {
             "Date": [],
@@ -2249,13 +2248,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.96",
-            "23.97",
-            "23.98",
-            "23.99",
-            "23.100",
-            "23.101",
-            "23.102"
+            "23.115",
+            "23.116",
+            "23.117",
+            "23.118",
+            "23.119",
+            "23.120",
+            "23.121"
         ],
         "tags": []
     },
@@ -2326,7 +2325,7 @@ export const summaries = {
     },
     "cpb-aacip-127-47rn8x0g.h264": {
         "videoID": "cpb-aacip-127-47rn8x0g.h264",
-        "title": "Yuk 22 - # 46",
+        "title": "Yuk 23 - # 46",
         "time": "20:34",
         "metadata": {
             "Date": [],
@@ -2375,13 +2374,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.69"
+            "23.75"
         ],
         "tags": []
     },
     "cpb-aacip-127-48ffbpfx.h264": {
         "videoID": "cpb-aacip-127-48ffbpfx.h264",
-        "title": "Yuk 23, Panigkaq Freda Beaver, Yuk 24, Yuk 25, Yuk 26, Willie Kasayulie - # 47",
+        "title": "Yuk 24, Panigkaq Freda Beaver, Yuk 25, Yuk 26, Yuk 27, Willie Kasayulie - # 47",
         "time": "1:01:42",
         "metadata": {
             "Date": [],
@@ -2495,18 +2494,18 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.70",
-            "23.33",
-            "23.71",
-            "23.72",
-            "23.73",
-            "23.45"
+            "23.76",
+            "23.36",
+            "23.77",
+            "23.78",
+            "23.79",
+            "23.49"
         ],
         "tags": []
     },
     "cpb-aacip-127-53wstz0s.h264": {
         "videoID": "cpb-aacip-127-53wstz0s.h264",
-        "title": "Yuk 27 - # 49",
+        "title": "Yuk 29 - # 49",
         "time": "22:25",
         "metadata": {
             "Date": [],
@@ -2587,13 +2586,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.74"
+            "23.81"
         ],
         "tags": []
     },
     "cpb-aacip-127-54kkwqvx.h264": {
         "videoID": "cpb-aacip-127-54kkwqvx.h264",
-        "title": "Yuk 28 - # 50",
+        "title": "Yuk 30 - # 50",
         "time": "22:07",
         "metadata": {
             "Date": [],
@@ -2643,13 +2642,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.75"
+            "23.82"
         ],
         "tags": []
     },
     "cpb-aacip-127-54kkwrd6.h264": {
         "videoID": "cpb-aacip-127-54kkwrd6.h264",
-        "title": "Narullgiar Elena Nick, Ackiar Nick Lupie, Tam'aq Elizabeth Andrew, Yuk 29, Yuk 30 - # 51",
+        "title": "Narullgiar Elena Nick, Ackiar Nick Lupie, Tam'aq Elizabeth Andrew, Yuk 31, Yuk 32 - # 51",
         "time": "1:01:16",
         "metadata": {
             "Date": [],
@@ -2794,11 +2793,11 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.29",
+            "23.32",
             "23.1",
-            "23.42",
-            "23.76",
-            "23.77"
+            "23.46",
+            "23.83",
+            "23.84"
         ],
         "tags": []
     },
@@ -2848,13 +2847,13 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.26"
+            "23.28"
         ],
         "tags": []
     },
     "cpb-aacip-127-57np5s39.h264": {
         "videoID": "cpb-aacip-127-57np5s39.h264",
-        "title": "Yuk 31 - # 53",
+        "title": "Yuk 33 - # 53",
         "time": "18:40",
         "metadata": {
             "Date": [],
@@ -2909,7 +2908,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.78"
+            "23.85"
         ],
         "tags": []
     },
@@ -2984,14 +2983,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.3",
-            "23.41"
+            "23.4",
+            "23.45"
         ],
         "tags": []
     },
     "cpb-aacip-127-59c5b6gx.h264": {
         "videoID": "cpb-aacip-127-59c5b6gx.h264",
-        "title": "Yuk 32, Willie Kasayulie - # 55",
+        "title": "Yuk 34, Willie Kasayulie - # 55",
         "time": "21:44",
         "metadata": {
             "Date": [],
@@ -3060,14 +3059,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.79",
-            "23.45"
+            "23.86",
+            "23.49"
         ],
         "tags": []
     },
     "cpb-aacip-127-59q2c3zn.h264": {
         "videoID": "cpb-aacip-127-59q2c3zn.h264",
-        "title": "Yuk 33, Yuk 34 - # 56",
+        "title": "Yuk 35, Yuk 36 - # 56",
         "time": "15:16",
         "metadata": {
             "Date": [],
@@ -3112,8 +3111,8 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.80",
-            "23.81"
+            "23.87",
+            "23.88"
         ],
         "tags": []
     },
@@ -3198,9 +3197,9 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.17",
-            "23.19",
-            "23.23"
+            "23.18",
+            "23.20",
+            "23.24"
         ],
         "tags": []
     },
@@ -3252,7 +3251,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.25"
+            "23.27"
         ],
         "tags": [
             "7",
@@ -3395,7 +3394,7 @@ export const summaries = {
     },
     "cpb-aacip-127-65h9w88k.h264": {
         "videoID": "cpb-aacip-127-65h9w88k.h264",
-        "title": "Yuk 35, Winifred Beans, Yuk 36, Yuk 37, Yuk 38, Yuk 39, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
+        "title": "Yuk 37, Winifred Beans, Yuk 38, Yuk 39, Yuk 40, Yuk 41, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
         "time": "1:00:49",
         "metadata": {
             "Date": [],
@@ -3555,14 +3554,14 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.82",
-            "23.47",
-            "23.83",
-            "23.84",
-            "23.85",
-            "23.86",
-            "23.30",
-            "23.30"
+            "23.89",
+            "23.52",
+            "23.90",
+            "23.91",
+            "23.92",
+            "23.93",
+            "23.33",
+            "23.33"
         ],
         "tags": [
             "3.8",
@@ -3655,7 +3654,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.4"
+            "23.5"
         ],
         "tags": [
             "1",
@@ -3748,7 +3747,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.37"
+            "23.40"
         ],
         "tags": [
             "5.3.1",
@@ -3793,7 +3792,7 @@ export const summaries = {
     },
     "cpb-aacip-127-68kd59ft.h264": {
         "videoID": "cpb-aacip-127-68kd59ft.h264",
-        "title": "Yuk 40 - # 66",
+        "title": "Yuk 42 - # 66",
         "time": "22:22",
         "metadata": {
             "Date": [],
@@ -3854,7 +3853,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.87"
+            "23.94"
         ],
         "tags": [
             "22.11"
@@ -3935,7 +3934,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.42"
+            "23.46"
         ],
         "tags": [
             "17.5",
@@ -3967,7 +3966,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdf8m.h264": {
         "videoID": "cpb-aacip-127-719kdf8m.h264",
-        "title": "Yuk 56 - # 68",
+        "title": "Yuk 76 - # 68",
         "time": "10:37",
         "metadata": {
             "Date": [],
@@ -4025,7 +4024,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.103"
+            "23.128"
         ],
         "tags": [
             "2.2.5",
@@ -4045,7 +4044,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdfjd.h264": {
         "videoID": "cpb-aacip-127-719kdfjd.h264",
-        "title": "Yuk 57, Yuk 58, Nauyaq Anna Andrew, Possibly Winifred Beans, Possibly Joseph Evans, Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
+        "title": "Yuk 77, Yuk 78, Nauyaq Anna Andrew, Possibly Winifred Beans, Possibly Joseph Evans, Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
         "time": "1:02:28",
         "metadata": {
             "Date": [],
@@ -4173,20 +4172,20 @@ export const summaries = {
                 "Talks about going to school for a short time, getting married young, how some modern people get married when they’re older, how important marriage was back then, how parents chose spouses for their children, how she was arranged to marry a good man, and her family’s advice early in her marriage."
             ],
             [
-                "00:58",
+                "1:00:58",
                 "Qanemciluni ayagyuange’rmi umyuarniutullerminek, angayuqaagmi cucukekiignek aipangllerminek, aipangqerraallerminek-llu.",
                 "Talks about tending to worry at a young age, agreeing to an arranged marriage, and her early marriage."
             ]
         ],
         "elderTags": [
-            "23.104",
-            "23.105",
-            "23.30",
-            "23.39",
-            "23.38",
-            "23.25",
-            "23.30",
-            "23.29"
+            "23.129",
+            "23.130",
+            "23.33",
+            "23.42",
+            "23.41",
+            "23.27",
+            "23.33",
+            "23.32"
         ],
         "tags": [
             "3.11",
@@ -4217,7 +4216,7 @@ export const summaries = {
     },
     "cpb-aacip-127-74cnpfqb.h264": {
         "videoID": "cpb-aacip-127-74cnpfqb.h264",
-        "title": "Yuk 41 - # 70",
+        "title": "Yuk 43 - # 70",
         "time": "13:38",
         "metadata": {
             "Date": [],
@@ -4258,7 +4257,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.88"
+            "23.95"
         ],
         "tags": [
             "10.5",
@@ -4332,7 +4331,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.5"
+            "23.6"
         ],
         "tags": [
             "8.1.2",
@@ -4348,7 +4347,7 @@ export const summaries = {
     },
     "cpb-aacip-127-74qjqbsc.h264": {
         "videoID": "cpb-aacip-127-74qjqbsc.h264",
-        "title": "Yuk 42 - # 72",
+        "title": "Yuk 44 - # 72",
         "time": "21:34",
         "metadata": {
             "Date": [],
@@ -4413,7 +4412,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.89"
+            "23.96"
         ],
         "tags": [
             "3.9.2",
@@ -4562,7 +4561,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.27"
+            "23.29"
         ],
         "tags": [
             "2.1.2",
@@ -4667,7 +4666,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.29"
+            "23.32"
         ],
         "tags": [
             "9.4",
@@ -4685,7 +4684,7 @@ export const summaries = {
     },
     "cpb-aacip-127-76f1vspw.h264": {
         "videoID": "cpb-aacip-127-76f1vspw.h264",
-        "title": "Yuk 43 - # 75",
+        "title": "Yuk 45 - # 75",
         "time": "16:55",
         "metadata": {
             "Date": [],
@@ -4735,7 +4734,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.90"
+            "23.97"
         ],
         "tags": [
             "17.5",
@@ -4817,7 +4816,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.30"
+            "23.33"
         ],
         "tags": [
             "3.2",
@@ -4922,7 +4921,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.21"
+            "23.22"
         ],
         "tags": [
             "8.1.3",
@@ -4949,7 +4948,7 @@ export const summaries = {
     },
     "cpb-aacip-127-79h44thw.h264": {
         "videoID": "cpb-aacip-127-79h44thw.h264",
-        "title": "Yuk 44 - # 78",
+        "title": "Yuk 46 - # 78",
         "time": "22:21",
         "metadata": {
             "Date": [],
@@ -5007,7 +5006,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.91"
+            "23.98"
         ],
         "tags": [
             "8.1",
@@ -5053,7 +5052,7 @@ export const summaries = {
             ]
         ],
         "elderTags": [
-            "23.44"
+            "23.48"
         ],
         "tags": [
             "6",
@@ -5062,7 +5061,459 @@ export const summaries = {
             "22.12.2.3",
             "22.12.2.4"
         ]
+    },
+    "cpb-aacip-127-032282mq.h264": {
+        "videoID": "cpb-aacip-127-032282mq.h264",
+        "title": "Winifred Beans - # 4",
+        "time": "12:53",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.50"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-0644j324.h264": {
+        "videoID": "cpb-aacip-127-0644j324.h264",
+        "title": "Yuk 73, Yuk 74, Yuk 75 - # 6",
+        "time": "21:05",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.125",
+            "23.126",
+            "23.127"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-0644j37r.h264": {
+        "videoID": "cpb-aacip-127-0644j37r.h264",
+        "title": "Yuk 72 - # 7",
+        "time": "10:06",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.124"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-085hqfqk.h264": {
+        "videoID": "cpb-aacip-127-085hqfqk.h264",
+        "title": "Ackiar Nick Lupie - # 10",
+        "time": "31:54",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.1"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-149p8hcz.h264": {
+        "videoID": "cpb-aacip-127-149p8hcz.h264",
+        "title": "Nauyaq Anna Andrew - # 15",
+        "time": "22:02",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.33"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-225b014v.h264": {
+        "videoID": "cpb-aacip-127-225b014v.h264",
+        "title": "Mik'aq Eliza Chase - # 21",
+        "time": "22:05",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.28"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-23612qck.h264": {
+        "videoID": "cpb-aacip-127-23612qck.h264",
+        "title": "Yuk 82, Yuk 83, Yuk 84 - # 22",
+        "time": "1:01:44",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.134",
+            "23.135",
+            "23.136"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-257d81kk.h264": {
+        "videoID": "cpb-aacip-127-257d81kk.h264",
+        "title": "Narullgiar Elena Nick - # 23",
+        "time": "18:22",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.32"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-257d81m9.h264": {
+        "videoID": "cpb-aacip-127-257d81m9.h264",
+        "title": "Yuk 57 - # 24",
+        "time": "22:06",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.109"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-2908kvc9.h264": {
+        "videoID": "cpb-aacip-127-2908kvc9.h264",
+        "title": "Narullgiar Elena Nick - # 30",
+        "time": "22:12",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.32"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-322bvwfr.h264": {
+        "videoID": "cpb-aacip-127-322bvwfr.h264",
+        "title": "Yuk 58 - # 31",
+        "time": "20:47",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.110"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-34fn33pp.h264": {
+        "videoID": "cpb-aacip-127-34fn33pp.h264",
+        "title": "Yuk 19 - # 33",
+        "time": "22:23",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.71"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-34sj40gx.h264": {
+        "videoID": "cpb-aacip-127-34sj40gx.h264",
+        "title": "Narullgiar Elena Brink - # 34",
+        "time": "15:34",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.31"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-52j6qcr2.h264": {
+        "videoID": "cpb-aacip-127-52j6qcr2.h264",
+        "title": "Yuk 28 - # 48",
+        "time": "1:03:36",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.80"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-612ngp56.h264": {
+        "videoID": "cpb-aacip-127-612ngp56.h264",
+        "title": "Yuk 70 - # 58",
+        "time": "15:38",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.122"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-623bkbxr.h264": {
+        "videoID": "cpb-aacip-127-623bkbxr.h264",
+        "title": "Yuk 71 - # 59",
+        "time": "8:26",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.123"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-67wm3hhj.h264": {
+        "videoID": "cpb-aacip-127-67wm3hhj.h264",
+        "title": "Ackiar Nick Lupie - # 65",
+        "time": "31:05",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.1"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-816m99hb.h264": {
+        "videoID": "cpb-aacip-127-816m99hb.h264",
+        "title": "Maqista Joshua Phillip - # 80",
+        "time": "1:02:05",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.26"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-81jhb5w6.h264": {
+        "videoID": "cpb-aacip-127-81jhb5w6.h264",
+        "title": "Alek'aq Alexie Mochin - # 81",
+        "time": "22:26",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.3"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-84mkm6tr.h264": {
+        "videoID": "cpb-aacip-127-84mkm6tr.h264",
+        "title": "Winifred Beans - # 82",
+        "time": "6:20",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.51"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-85n8pw5n.h264": {
+        "videoID": "cpb-aacip-127-85n8pw5n.h264",
+        "title": "Nurataaq Nelson Angapak - # 83",
+        "time": "22:27",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.35"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-86nzsk0r.h264": {
+        "videoID": "cpb-aacip-127-86nzsk0r.h264",
+        "title": "Yuk 47 - # 84",
+        "time": "13:49",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.99"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-87brvbt5.h264": {
+        "videoID": "cpb-aacip-127-87brvbt5.h264",
+        "title": "Yuk 48, Yuk 49, Yuk 50 - # 85",
+        "time": "14:30",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.100",
+            "23.101",
+            "23.102"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-87pnw7r9.h264": {
+        "videoID": "cpb-aacip-127-87pnw7r9.h264",
+        "title": "Yuk 51 - # 86",
+        "time": "17:36",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.103"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-881jx4d6.h264": {
+        "videoID": "cpb-aacip-127-881jx4d6.h264",
+        "title": "Matthew Frye - # 87",
+        "time": "51:26",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.27"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-89280sv6.h264": {
+        "videoID": "cpb-aacip-127-89280sv6.h264",
+        "title": "Joe Andrew, Urutaq Lucy Beaver - # 88",
+        "time": "1:04:11",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.19",
+            "23.48"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-89r22kjv.h264": {
+        "videoID": "cpb-aacip-127-89r22kjv.h264",
+        "title": "Quriciq, Angut'aq Olinka Nickolai - # 89",
+        "time": "21:45",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.44",
+            "23.4"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-90rr586b.h264": {
+        "videoID": "cpb-aacip-127-90rr586b.h264",
+        "title": "Tam'aq Elizabeth Andrew - # 90",
+        "time": "26:40",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.46"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-91sf7xm0.h264": {
+        "videoID": "cpb-aacip-127-91sf7xm0.h264",
+        "title": "Yuk 52 - # 91",
+        "time": "29:55",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.104"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-945qg6jq.h264": {
+        "videoID": "cpb-aacip-127-945qg6jq.h264",
+        "title": "Yuk 79 - # 92",
+        "time": "22:07",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.131"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-956djvkd.h264": {
+        "videoID": "cpb-aacip-127-956djvkd.h264",
+        "title": "Yuk 80 - # 93",
+        "time": "22:10",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.132"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-96wwq9xv.h264": {
+        "videoID": "cpb-aacip-127-96wwq9xv.h264",
+        "title": "Yuk 53, Yuk 54, Yuk 55, Yuk 56 - # 94",
+        "time": "22:22",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.105",
+            "23.106",
+            "23.107",
+            "23.108"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-988gtvzp.h264": {
+        "videoID": "cpb-aacip-127-988gtvzp.h264",
+        "title": "Yuk 81 - # 95",
+        "time": "3:28",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.133"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-98mcvs0p.h264": {
+        "videoID": "cpb-aacip-127-98mcvs0p.h264",
+        "title": "Joe Andrew, Urutaq Lucy Beaver - # 96",
+        "time": "22:23",
+        "metadata": {
+            "Date": "Unknown"
+        },
+        "summary": [],
+        "elderTags": [
+            "23.19",
+            "23.48"
+        ],
+        "tags": []
     }
 };
-
-// module.exports = summaries;
