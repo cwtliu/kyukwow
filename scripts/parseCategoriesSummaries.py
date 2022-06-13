@@ -714,7 +714,14 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 
 	# remove duplicate videoNumbers
 	for cat_key, cat_value in categories.items():
-		categories[cat_key]['videoNumbers'] = list(set(cat_value['videoNumbers']))
+		categories[cat_key]['videoNumbers'] = list(dict.fromkeys(sorted(cat_value['videoNumbers'])))
+
+	# remove categories without videos
+	usedCategories = defaultdict(dict)
+	for cat_key in categories:
+		if categories[cat_key]['videoNumbers'] != []:
+			usedCategories[cat_key] = categories[cat_key]
+	categories = usedCategories
 
 	categoriesUrlLookup = {cat_value['url']:cat_key for cat_key, cat_value in categories.items()}
 

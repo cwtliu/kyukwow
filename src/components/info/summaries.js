@@ -476,27 +476,27 @@ export const summaries = {
                 "Avgarutaaryaraq",
                 "Avgarutaaryaraq (Sharing Festival)"
             ],
-            "83": [
+            "82": [
                 "06:50",
                 "[Kumangulria Mathew] Kituucia",
                 "[Kumangulria Matthew] Self introduction"
             ],
-            "101": [
+            "100": [
                 "08:16",
                 "Up'nerkami Kuigpagmi; maqaruanek unguluteng; ciku qanikcaq ulerpak-llu up'nerkami",
                 "Springtime in the Yukon; to drive rabbits; ice, snow, and floods in teh spring"
             ],
-            "143": [
+            "142": [
                 "11:59",
                 "Neqaitellrani Kuigpagmi; up'nerkiyallerkaq; kumlivililleq",
                 "Time of no fish in the Yukon; preparing for spring camp; making a natural freezer"
             ],
-            "172": [
+            "171": [
                 "14:40",
                 "Ulenkacagallrani",
                 "Extreme flooding"
             ],
-            "198": [
+            "197": [
                 "17:14",
                 "[Yuk1] Arnaq *nepaunani*",
                 "[Person1] Woman *no sound*"
