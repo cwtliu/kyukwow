@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:02,000
 Tangvaglua… wait.
 
@@ -32,7 +32,7 @@ Yaa, uitaqaa.
 
 9
 00:00:40,000 --> 00:00:52,000
-Kitak’ ayagceskuvgu apeksia qaill’ uksuarmi up’ngelauciit atu’urkameggnek.
+Kitak’ ayagceskuvgu apeskia qaill’ uksuarmi up’ngelauciit atu’urkameggnek.
 
 10
 00:00:57,000 --> 00:00:58,900
@@ -102,260 +102,260 @@ Waten uksuarmi qavani Kialirmi tan’gaurluullemteńi
 00:02:49,000 --> 00:02:56,000
 Kiani Kialiim paingani Qukaqlircaramek-gguq uumek aterluni kuiggaq au͡gna.
 
-28
+27
 00:02:56,500 --> 00:03:00,000
 Tuani tua-i uitalallruukut.
 
-29
+28
 00:03:01,000 --> 00:03:11,000
 Makut tau͡gken aulukesteput waten uksuarmi uitaurallrunritut.
 
-30
+29
 00:03:14,000 --> 00:03:20,000
 Wall’u cali uitaurluteng waten ayagayuitellruluteng.
 
-31
+30
 00:03:21,000 --> 00:03:27,900
 Makut maa-i uksuarmun atulriit
 
-32
+31
 00:03:29,000 --> 00:03:40,000
 Waten agaaken neqlillernek taigaqameng uksuarmi muragnek quyurtetullruut.
 
-33
+32
 00:03:41,000 --> 00:03:45,900
 Angyaunateng-llu, tau͡gaam qayatgun.
 
-34
+33
 00:03:46,000 --> 00:03:53,000
 Unuakumi waten uksuarmi ulerpagangetuan
 
-35
+34
 00:03:54,000 --> 00:04:00,000
 Unuakuarmi tan’germi tayima ayagangtullruut.
 
-36
+35
 00:04:01,000 --> 00:04:10,000
 Tua-i tau͡gken iliini uaggun Cingigkun igvarnaurtuq iliini qayaq.
 
-37
+36
 00:04:10,500 --> 00:04:12,000
 Nangcarluni muragnek.
 
-38
+37
 00:04:15,000 --> 00:04:26,900
 Tua-i tamaa-i tamakut waten uksuarmi maavet kuiget kangritnun ayakata’arqameng
 
-39
+38
 00:04:27,000 --> 00:04:33,000
 Uksuiyaqatarqameng tamakunek tamaa-i quyurtetullruut.
 
-40
+39
 00:04:36,000 --> 00:04:45,000
 Au͡gkut ciuqliput anglicarteput
 wangkucicetun maanitun ayuqellrunritut.
 
-41
+40
 00:04:46,000 --> 00:04:53,900
 Ellmeggnek ang’aqualuteng tallimegteggun ayagaluteng
 
-42
+41
 00:04:54,000 --> 00:04:58,000
 Merkun anguarturluteng pitullruut.
 
-43
+42
 00:04:59,000 --> 00:05:08,000
 Tua-i-llu nutaan pinarilliateng asgurangluteng
 
-44
+43
 00:05:10,000 --> 00:05:14,900
 Imkut tamakut muriit itulluki.
 
-45
+44
 00:05:17,000 --> 00:05:23,000
 Nutaan-llu qaingit canek ucilirluki aklumeggnek.
 
-46
+45
 00:05:24,000 --> 00:05:29,000
 Angyailnguut muragteggun tua-i upatullruut.
 
-47
+46
 00:05:30,000 --> 00:05:40,900
 Tua-i-llu nutaan tekicameng kuiget kangritnun tamaavet uksuillerkameggnun muriit tamakut tageqluki.
 
-48
+47
 00:05:41,000 --> 00:05:55,900
 Nutaan-llu upluteng muriit tamakut neqsuutekateng taluyarkateng upluki.
 
-49
+48
 00:06:00,000 --> 00:06:07,000
 Anglicarteput au͡gkut nangtequaluteng pitullruut.
 
-50
+49
 00:06:08,000 --> 00:06:15,000
 Muriit imkut taluyarkiurluki, taluyarpagkiurluki pitullruit.
 
-51
+50
 00:06:16,000 --> 00:06:23,900
 Waten taluyarpiit ayuqetullruut. Paingit.
 
-52
+51
 00:06:24,000 --> 00:06:26,000
 Iqtuluteng, takluteng.
 
-53
+52
 00:06:29,000 --> 00:06:34,000
 Waten-llu tua-i piluteng, ayuqluteng.
 
-54
+53
 00:06:34,900 --> 00:06:36,900
 Wagg’uq taukut tua-i ilulirpait.
 
-55
+54
 00:06:37,000 --> 00:06:45,900
 Nutaan-llu ukut cali qukait cali taluyiluki waten qerrurluki.
 
-56
+55
 00:06:46,000 --> 00:06:51,000
 Nutaan-llu yaaggun pingayuat piluku.
 
-57
+56
 00:06:52,000 --> 00:06:59,000
 Tamakut tamaa-i qamunek pitullruit taluyapiat.
 
-58
+57
 00:06:59,500 --> 00:07:07,000
 Makut taluyarpiit pitun, can’giircuutetun ayuqellrunritut.
 
-59
+58
 00:07:08,000 --> 00:07:11,000
 Waten-llu iciw’ akultutaluteng.
 
-60
+59
 00:07:11,500 --> 00:07:14,000
 Akultutarrluki.
 
-61
+60
 00:07:15,000 --> 00:07:19,000
 Yaa, piciatun-am pivkenaki tamakut taluyarpiit pitullruit.
 
-62
+61
 00:07:20,000 --> 00:07:24,500
 Waten ukut cuq’errluki.
 
-63
+62
 00:07:25,000 --> 00:07:31,000
 Tua-i-llu imna cigyak elliluku, tuavet elliluku.
 
-64
+63
 00:07:31,500 --> 00:07:35,900
 Tua-i-ll’ waten nutaan pirraarluku yaatiinun
 
-65
+64
 00:07:36,000 --> 00:07:41,000
 Qaill’ tua-i waten akultutarrluki tamakut taluyarpiit pitullruit.
 
-66
+65
 00:07:44,000 --> 00:07:51,000
 Tua-i waten caliaqengaqamegteki unatmeggnek-llu nangutetullruut.
 
-67
+66
 00:07:52,000 --> 00:07:58,000
 Makut ukut waten piurallrit pelacinagnek piyuunaki.
 
-68
+67
 00:07:59,000 --> 00:08:07,000
 Tau͡gaam makunek cali muragnek qupurturluki amililuki, mamkunaki.
 
-69
+68
 00:08:08,000 --> 00:08:13,500
 Qaillun tua-i waten iqtutaurluki, tau͡gaam amililuki.
 
-70
+69
 00:08:14,000 --> 00:08:18,900
 Tamakut-am tua-i piciatun cali caliaqsuitellruit.
 
-71
+70
 00:08:19,000 --> 00:08:24,000
 Cuqerluteng qaillun mamtutacirkait.
 
-72
+71
 00:08:26,000 --> 00:08:34,000
 Tuaten tua-i pingaqameng makuit nangtullruut ukut waten piurluki.
 
-73
+72
 00:08:35,000 --> 00:08:47,000
 Aunrangaqata tua-i imkunek qecignek caquliluki ukut pingayun pitullruit
 
-74
+73
 00:08:49,000 --> 00:08:51,000
 Nang’aqata makut.
 
-75
+74
 00:08:53,000 --> 00:08:58,500
 Ukut-llu cali, ukut-llu nang’aqluteng tegumiaqurallrit.
 
-76
+75
 00:09:00,000 --> 00:09:07,000
 Au͡gkut, ciuqliput-wa tua-i wangkucicetun waten ayuqellrunritut.
 
-77
+76
 00:09:08,000 --> 00:09:13,500
 Aklungqellruut, muragnek aklungqellruut.
 
-78
+77
 00:09:13,600 --> 00:09:21,000
 Tamaa-i tamakut aklukellruit muriit, cassuutekluki.
 
-79
+78
 00:09:21,500 --> 00:09:32,900
 Una cakluki, enekluki, enemeggnun waten aklukluki, ikamraqluki-llu.
 
-80
+79
 00:09:33,000 --> 00:09:40,500
 Tua-i cat, aturluku una murak yuungnaqellruut, muriit.
 
-81
+80
 00:09:45,000 --> 00:09:59,500
 Tua-i tau͡gken cali civcimariaqamegteki nutaan waten unuaquaqan takuurluki
 
-82
+81
 00:10:03,000 --> 00:10:08,000
 Unuakumi-llu cali uicara’arluteng ullraarluni entaqan.
 
-83
+82
 00:10:11,000 --> 00:10:26,000
 Unugmi tua-i makluteng imkut neqsuuteteng kapuyutait, atrarluteng menglait waten tugqerraarluki kaputkaniraqluki.
 
-84
+83
 00:10:27,000 --> 00:10:33,000
 Au͡gkut ava-i waten aulukesteput ayuqellruut.
 
-85
+84
 00:10:34,000 --> 00:10:37,500
 Mat’um nalliinitun ayuqevkenateng.
 
-86
+85
 00:10:39,000 --> 00:10:44,500
 Tua-llu nutaan uksuarmi tuaten tua-i pian
 
-87
+86
 00:10:45,000 --> 00:10:52,500
 Makut cali arnaita aklukaitnek upluki, atu’urkaitnek.
 
-88
+87
 00:10:56,000 --> 00:11:00,000
 Makunek tua-i imkunek neqnek, taryaqviit-llu qeciitnek
 
-89
+88
 00:11:06,000 --> 00:11:08,900
 Wagg’uq amiraliluki.
 
-90
+89
 00:11:09,000 --> 00:11:12,900
 Amiragnek tamakut pitullruit neqet qeciit.
 
-91
+90
 00:11:14,000 --> 00:11:15,900
 Kitak’ uitaqaa.
 
@@ -938,3 +938,4 @@ Una-gguq qalarutestevvut murilkelluku, yaa, tangvaurqilarput qanra.
 235
 00:31:14,500 --> 00:31:22,000
 Atam-gguq uluqaqumteggu imna qalartellra uunguciirrniar[tukut].
+

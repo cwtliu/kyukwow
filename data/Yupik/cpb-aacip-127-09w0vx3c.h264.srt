@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:03,000 --> 00:00:04,000
 Ayagtuq?
 
@@ -263,7 +263,7 @@ Mamterillermiut ukut uaqliit inglukluki, kiaqliit inglukluki.
 Wagg’uq Avgarutaarluteng.
 
 67
-00:05:36,000 --> 00:05:39,000
+00:05:35,000 --> 00:05:39,000
 Makumiungurrlainang’e’rmeng, ii-i.
 
 68
@@ -785,3 +785,4 @@ Tan’gurraugua cali. (Qaku? Qaku?)
 197
 00:17:11,500 --> 00:17:12,500
 March 22nd.
+
