@@ -69,7 +69,7 @@ class Video extends Component {
   }
 
   componentDidMount() {
-  	// console.log(this.state.currentCPBID)
+  	console.log(this.videoID)
   	var circle = require('./transcription/'+this.videoID);
   	this.setState({ subtitles: circle.subtitles });
   	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
@@ -604,7 +604,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
                 position='bottom left'
               />
               </div>
@@ -715,9 +715,92 @@ class Video extends Component {
 
 
         <div class='reader'>
-        <div style={{textAlign:'center',fontSize:'25px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Reader-aaq </div>
         {Object.keys(this.state.subtitles).map((i, index) => (
           <span class='reader-text'>
+
+              {i in summaries[this.ID].summary ?
+                <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'21px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
+
+              {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\xa0'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
+                position='bottom left'
+              />
+
+
+                </div>
+                :
+                null
+              }
+
+
 
             <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
               this.rap.audio.current.pause();
@@ -882,7 +965,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
                 position='bottom left'
               />
               </div>
@@ -992,9 +1075,91 @@ class Video extends Component {
 
 
         <div class='reader'>
-        <div style={{textAlign:'center',fontSize:'25px',fontWeight:'bold',lineHeight:'45px',paddingTop:'20px'}}> Reader-aaq </div>
         {Object.keys(this.state.subtitles).map((i, index) => (
           <span class='reader-text'>
+
+              {i in summaries[this.ID].summary ?
+                <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'21px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
+
+              {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\xa0'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
+                position='bottom left'
+              />
+
+
+                </div>
+                :
+                null
+              }
+
 
             <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
               this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
@@ -1182,7 +1347,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
                 position='bottom left'
               />
               </div>
@@ -1301,9 +1466,91 @@ class Video extends Component {
               null
             }
 
-            <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Reader-aaq </div>
             {Object.keys(this.state.subtitles).map((i, index) => (
               <span class='reader-text'>
+
+              {i in summaries[this.ID].summary ?
+                <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'22px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
+
+              {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\xa0'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
+                position='bottom left'
+              />
+
+
+                </div>
+                :
+                null
+              }
+
               <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
                 this.rap.audio.current.pause();
                 this.setState({audioPlayerPlaying:false});
@@ -1467,7 +1714,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
                 position='bottom left'
               />
               </div>
@@ -1585,9 +1832,90 @@ class Video extends Component {
               :
               null
             }
-            <div style={{textAlign:'center',fontSize:'30px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Reader-aaq </div>
             {Object.keys(this.state.subtitles).map((i, index) => (
               <span class='reader-text'>
+              {i in summaries[this.ID].summary ?
+                <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'22px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
+
+              {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
+                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
+                    }
+                  }
+                  }>{k+'\xa0'}</span>}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
+                position='bottom left'
+              />
+
+
+                </div>
+                :
+                null
+              }
+
               <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
                 this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
                   this.playSection(i);

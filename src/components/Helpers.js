@@ -140,7 +140,7 @@ import { API_URL, WEB_URL } from '../App.js';
           <Popup
             trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
-            content={summaries[x].tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
+            content={summaries[x].tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
             position='bottom left'
           />
           </div>

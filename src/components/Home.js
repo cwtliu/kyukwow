@@ -323,6 +323,18 @@ class Home extends Component {
 
 					{this.state.featuredVideos.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 
+					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+						<Link to={{pathname: '/browse'}}>
+			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
+			          <div>
+			          {"Browse All Videos"}
+			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
+			          </div>
+			        </Button>
+		        </Link>
+	        </div>
+
+
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
 					This website was made lovingly for our people in the Yukon Kuskokwim Delta.

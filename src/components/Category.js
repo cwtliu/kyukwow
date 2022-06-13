@@ -137,12 +137,15 @@ class Category extends Component {
 						<div style={{marginLeft:(20*(this.state.parentCategories.length+1))}}>{categories[this.state.currentCategory].name.replace("--","—")}</div>
 
 						{this.state.childrenCategories.map((j) => (
+							j in categories ?
 						  	<Link onClick={()=>{
 						  		
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j]['url']}}>
 							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name.replace("--","—")}</div>
 							 </Link>
+							 :
+							 null
 						))}
 
 					</div>

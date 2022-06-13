@@ -12,6 +12,10 @@ class CategoryLibrary extends Component {
 		this.state = {
 			categoriesDisplayed:[],
 		}
+		window.scrollTo({
+			  top: 0,
+			  behavior: 'smooth'
+			})
 	}
 	componentDidMount() {
 		const categoriesDisplayed = [];

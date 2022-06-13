@@ -22,7 +22,7 @@ let converter = {
 }
 
 
-class CategoryLibrary extends Component {
+class Browse extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -31,7 +31,10 @@ class CategoryLibrary extends Component {
 			currentPage:1,
 			maxPages:10, // cause there are only 95 videos
 		}
-
+		window.scrollTo({
+			  top: 0,
+			  behavior: 'smooth'
+			})
 	}
 
 	componentDidUpdate(prevState) {
@@ -112,4 +115,4 @@ class CategoryLibrary extends Component {
 		);
 	}
 }
-export default CategoryLibrary;
+export default Browse;
