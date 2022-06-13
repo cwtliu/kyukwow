@@ -5,6 +5,8 @@
     import CategoryLibrary from './components/CategoryLibrary.js';
     import Category from './components/Category.js';
     import Video from './components/Video.js';
+    import Browse from './components/Browse.js';
+    import Contact from './components/Contact.js';
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
     // export const API_URL = "https://yugtun-api.herokuapp.com";
@@ -101,29 +103,38 @@
 
 
           <Menu style={{background:'#4a565f',marginTop:'5px'}}>
-            <Menu.Item
-              style={{color:'white'}}
-              name='home'
-              id='0'
-              active={activeItem === 'home'}
-              onClick={this.handleItemClick}
-            >
-            <NavLink style={{color:'white'}} to='/'>Home</NavLink>
-            </Menu.Item>
-            <Menu.Item
-              style={{color:'white'}}
-              name='categories'
-              id='1'
-              active={activeItem === 'categories'}
-              onClick={this.handleItemClick}
-            >
-            <NavLink style={{color:'white'}} to='/categorylibrary'>Categories</NavLink>
-            </Menu.Item>
-
+            <Link to='/'>
+              <Menu.Item
+                style={{color:'white'}}
+                name='home'
+                id='0'
+                active={activeItem === 'home'}
+              >
+              Home
+              </Menu.Item>
+            </Link>
+            <Link to='/categorylibrary'>
+              <Menu.Item
+                style={{color:'white'}}
+                name='categories'
+                id='1'
+                active={activeItem === 'categories'}
+              >
+              Categories
+              </Menu.Item>
+            </Link>
             <Dropdown style={{color:'white'}} item text='More'>
               <Dropdown.Menu>
-                <Dropdown.Item>Browse All Videos</Dropdown.Item>
-                <Dropdown.Item>Contact</Dropdown.Item>
+                <Link to='/browse'>
+                <Dropdown.Item>
+                Browse All Videos
+                </Dropdown.Item>
+                </Link>
+                <Link to='/contact'>
+                <Dropdown.Item>
+                Contact
+                </Dropdown.Item>
+                </Link>
               </Dropdown.Menu>
             </Dropdown>
           </Menu>
@@ -131,6 +142,8 @@
           <Switch>
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
+            <Route exact path='/browse' component={Browse}></Route>
+            <Route exact path='/contact' component={Contact}></Route>
             <Route exact path='/category/:word' component={Category}></Route>
             <Route exact path='/video/:word' render={(props) => <Video {...props} audioHandler={this.audioHandler} audioOnly={this.state.audioOnly} innerHeight={this.state.innerHeight} innerWidth={this.state.innerWidth} />} />>
           </Switch>

@@ -487,7 +487,7 @@ class Video extends Component {
 
 
   render() {
-    // console.log(this.state)
+    console.log(this.state)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
@@ -610,10 +610,13 @@ class Video extends Component {
               </div>
 
 
+          {Object.keys(summaries[this.ID].summary).length !== 0 ?
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            :
+            null
+          }
 
-          <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
-
-          {summaries[this.ID].summary.map((y,yindex) => (
+          {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
@@ -625,13 +628,13 @@ class Video extends Component {
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
-                {y[0]}
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
+                {summaries[this.ID].summary[y][0]}
                 </div>
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y[1].split(" ").map((k,kindex) => (
+              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
@@ -700,7 +703,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
                 position='bottom left'
               />
 
@@ -885,10 +888,12 @@ class Video extends Component {
               </div>
 
 
-
-          <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
-
-          {summaries[this.ID].summary.map((y,yindex) => (
+          {Object.keys(summaries[this.ID].summary).length !== 0 ?
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            :
+            null
+          }
+          {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
@@ -900,13 +905,13 @@ class Video extends Component {
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
-                {y[0]}
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
+                {summaries[this.ID].summary[y][0]}
                 </div>
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y[1].split(" ").map((k,kindex) => (
+              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
@@ -975,7 +980,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
                 position='bottom left'
               />
 
@@ -1183,21 +1188,23 @@ class Video extends Component {
               </div>
 
 
-
-          <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
-
-          {summaries[this.ID].summary.map((y,yindex) => (
+          {Object.keys(summaries[this.ID].summary).length !== 0 ?
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            :
+            null
+          }
+          {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
-                {y[0]}
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
+                {summaries[this.ID].summary[y][0]}
                 </div>
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y[1].split(" ").map((k,kindex) => (
+              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
@@ -1266,7 +1273,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
                 position='bottom left'
               />
 
@@ -1466,21 +1473,24 @@ class Video extends Component {
               </div>
 
 
+          {Object.keys(summaries[this.ID].summary).length !== 0 ?
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            :
+            null
+          }
 
-          <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
-
-          {summaries[this.ID].summary.map((y,yindex) => (
+          {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
             <Grid style={{padding:0,margin:0}}>
             <Grid.Row style={{paddingTop:0}} columns={2}>
               <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(y[0])}>
-                {y[0]}
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
+                {summaries[this.ID].summary[y][0]}
                 </div>
               </Grid.Column>
               <Grid.Column width={13}>
 
-              {y[1].split(" ").map((k,kindex) => (
+              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
@@ -1549,7 +1559,7 @@ class Video extends Component {
               <Popup
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[yindex][2]}</div>}
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
                 position='bottom left'
               />
 

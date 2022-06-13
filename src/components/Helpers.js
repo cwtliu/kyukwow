@@ -27,10 +27,12 @@ import { API_URL, WEB_URL } from '../App.js';
     var innerWidth = props.width
     var stringLengthCounter = 0
     var upToIndex = 0
-    while (stringLengthCounter < 250 && upToIndex < summaries[x].summary.length) {
-      stringLengthCounter += summaries[x].summary[upToIndex][1].length
+    // console.log(Object.keys(summaries[x].summary).length)
+    while (stringLengthCounter < 250 && upToIndex < Object.keys(summaries[x].summary).length) {
+      stringLengthCounter += summaries[x].summary[Object.keys(summaries[x].summary)[upToIndex]][1].length
       upToIndex += 1
     }
+    // console.log(stringLengthCounter,upToIndex)
     return (
        (innerWidth < 480 ?
         <Grid style={{marginTop:30,marginBottom:30}} container>
@@ -48,8 +50,8 @@ import { API_URL, WEB_URL } from '../App.js';
                 <Link style={{display:'flex',justifyContent:'center',color:'black'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
                   <div style={{fontSize:'16px',fontWeight:'600',paddingBottom:10}}>{summaries[x].title}</div>
                 </Link>
-                {Array.from({length: upToIndex}, (_, i) => i ).map((y) => 
-                  {return (<span> 
+                {Object.keys(summaries[x].summary).map((y,yindex) => 
+                  {return (upToIndex > yindex ? <span> 
                         <span style={{fontFamily:"'Roboto',Arial, Helvetica",fontSize:'16px',lineHeight:'22px'}}>{summaries[x].summary[y][1]}</span>
                         <Popup
                           trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
@@ -57,7 +59,9 @@ import { API_URL, WEB_URL } from '../App.js';
                           content={<div style={{fontSize:'16px'}}>{summaries[x].summary[y][2]}</div>}
                           position='bottom left'
                         />
-                        </span>)}
+                        </span>
+                        :
+                        null)}
                  )}
                 <div>
                 {'. . .'}    
@@ -103,8 +107,8 @@ import { API_URL, WEB_URL } from '../App.js';
                 <Link style={{color:'black'}} to={{pathname: '/video/'+x, state: { currentVideoId: x}}}>
                   <div style={{fontSize:'16px',fontWeight:'600',paddingBottom:10}}>{summaries[x].title}</div>
                 </Link>
-                {Array.from({length: upToIndex}, (_, i) => i ).map((y) =>
-                  {return (<span> 
+                {Object.keys(summaries[x].summary).map((y,yindex) =>
+                  {return (upToIndex > yindex ? <span> 
                         <span style={{fontFamily:"'Roboto',Arial, Helvetica",fontSize:'16px',lineHeight:'22px'}}>{summaries[x].summary[y][1]}</span>
                         <Popup
                           trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
@@ -112,7 +116,9 @@ import { API_URL, WEB_URL } from '../App.js';
                           content={<div style={{fontSize:'16px'}}>{summaries[x].summary[y][2]}</div>}
                           position='bottom left'
                         />
-                        </span>)}
+                        </span>
+                        :
+                        null)}
                  )}
                 {'. . .'}    
               </div>
