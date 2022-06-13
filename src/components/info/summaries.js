@@ -2420,7 +2420,7 @@ export const summaries = {
             [
                 "13:00",
                 "Qanemciluni angalkunek ciknaameng umyuarrliqellrianek, tan’geriaqan anyuiluciminek, qessamkat kaigasteńgurtarkauciatnek, ellatuluteng-llu alerquumallermeggnek.",
-                " Talks about shamans abusing their power because of jealousy, how she wouldn’t go out after dark, how lazy people become beggars, and instruction to be sensible."
+                "Talks about shamans abusing their power because of jealousy, how she wouldn’t go out after dark, how lazy people become beggars, and instruction to be sensible."
             ],
             [
                 "15:05",
@@ -2826,7 +2826,7 @@ export const summaries = {
         },
         "summary": [
             [
-                " 00:02",
+                "00:02",
                 "Qalarrluni kenkurauciq kinguqvaarni assilriamek akiliutengqerrucianek, kinguqvaarni uitanqegcillerkamek, ciuqvaq umyuaqluku ayagyuat naklektuniluki, aanauluni-llu assirluni yuuyuuciminek.",
                 "Talks about how loving everyone has a good reward in the future, having peace in the future, how she looks to the past and pities youth, and wanting to live well as a mother."
             ],
@@ -3450,7 +3450,7 @@ export const summaries = {
             [
                 "13:16",
                 "Qalarrluni atu’urkanun aki quyurtesqelluki, kemninarqellrianun akilluuqertellrianek, picurlagnarqucianek-llu.",
-                "Talks about saving money for useful things, wasting money on mind-altering things, and how it leads to misfortune. "
+                "Talks about saving money for useful things, wasting money on mind-altering things, and how it leads to misfortune."
             ],
             [
                 "14:55",
@@ -3923,7 +3923,7 @@ export const summaries = {
                 "Talks about ignoring laziness, to work on fish even if there are a lot, to keep clothes neat, and to work on food before they get worms."
             ],
             [
-                "Genre 1:\t",
+                "Genre 1:",
                 "Genre 2:",
                 "Interview"
             ],
