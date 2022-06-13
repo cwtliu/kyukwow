@@ -50,7 +50,7 @@ export const subtitles = {
     "9": {
         "endTime": 52.0,
         "startTime": 40.0,
-        "transcript": "Kitak' ayagceskuvgu apeksia qaill' uksuarmi up'ngelauciit atu'urkameggnek.",
+        "transcript": "Kitak' ayagceskuvgu apeskia qaill' uksuarmi up'ngelauciit atu'urkameggnek.",
         "translation": "Now, when you start it, ask me how they started getting ready in the fall for what they would need to use."
     },
     "10": {
