@@ -129,17 +129,17 @@ export const summaries = {
                 "Taluyat imarmiutarcuutet cuignilngurcuutet-llu",
                 "Fish traps for mink and otter"
             ],
-            "157": [
+            "156": [
                 "20:01",
                 "Kass'artaat",
                 "Store-bought items"
             ],
-            "171": [
+            "170": [
                 "21:51",
                 "Ayagaaqameng inerquutet ukusarmi; neplirasqevkenaki yuilqumi; qanerluteng tamatum nuniinun ayakatarniluteng; nunam qaingit atrit nalluvkenaki",
                 "Admonishments for traveling in the fall; don't be noisy in the wilderness; telling others where they are traveling; knowledge of place names"
             ],
-            "222": [
+            "221": [
                 "29:33",
                 "\"Ca tamalkuan qanruyutek'lallruyaaqaput\"",
                 "\"We use to talk about everything\""
@@ -265,22 +265,22 @@ export const summaries = {
                 "Tuntunek maagilleq Akiacuarmi; Akulikutaq Corral",
                 "Reindeer herding and marking in Akiachak; Akulikutaq Corral"
             ],
-            "136": [
+            "134": [
                 "12:06",
                 "Tuntut keglunret-llu; tuntut anguyagtet-llu",
                 "Reindeer and wolves; reindeer and the governement"
             ],
-            "166": [
+            "165": [
                 "15:09",
                 "Akiikangengnaquralleq melqulegteggun muriuryaratgun-llu",
                 "Trapping and getting lumber for money"
             ],
-            "179": [
+            "178": [
                 "16:33",
                 "Ayagyuat akusrartengut; Yugtun qalarcaraput cagmangluku; ayagayarateng cagmangluku",
                 "Rowdy teenagers; losing our Yup'ik language; losing our knowledge of how to travel"
             ],
-            "209": [
+            "208": [
                 "19:49",
                 "Qanruyun angenqurrat; teglegyaqunak; ayaruq tegumiaqurluku",
                 "The most important traditional wisdom; do not steal; keep a walking stick/cane with you at all times"

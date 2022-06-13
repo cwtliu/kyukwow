@@ -588,7 +588,7 @@ Tamakut-am cali piciatun pivkenateng. Cuqerluteng cali.
 Makut-llu cali ilulirait waten can’giircuutetun ayuqevkenateng. Waten pinaurtut.
 
 148
-00:18:53,600 --> 00:18:58,000
+00:18:53,000 --> 00:18:58,000
 Tua-i-llu ingna igtetun ayuqeqerluni.
 
 149

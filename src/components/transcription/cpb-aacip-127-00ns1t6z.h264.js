@@ -882,534 +882,528 @@ export const subtitles = {
         "translation": "Their inner compartments were not like blackfish traps either. They would be like this."
     },
     "148": {
-        "endTime": 1133.6,
-        "startTime": 1133.0,
-        "transcript": "And then that part over there would be like a den.",
-        "translation": ""
-    },
-    "149": {
         "endTime": 1138.0,
-        "startTime": 1133.6,
+        "startTime": 1133.0,
         "transcript": "Tua-i-llu ingna igtetun ayuqeqerluni.",
         "translation": "And then that part over there would be like a den."
     },
-    "150": {
+    "149": {
         "endTime": 1150.5,
         "startTime": 1140.0,
         "transcript": "Au\u0361gna-wa alqerma uinga tayima waten tangvaurarqamni",
         "translation": "When I watched my older sister's husband like this"
     },
-    "151": {
+    "150": {
         "endTime": 1159.0,
         "startTime": 1151.5,
         "transcript": "Unatni tua-i waten piqerluki tauna tua-i cuq'errluku iteryararkaa",
         "translation": "He would do this with his hands to measure the entrance"
     },
-    "152": {
+    "151": {
         "endTime": 1162.9,
         "startTime": 1159.5,
         "transcript": "Wagg'uq igyaraat piqa'aqluku.",
         "translation": "Doing that to what they called the throat."
     },
-    "153": {
+    "152": {
         "endTime": 1168.0,
         "startTime": 1163.0,
         "transcript": "Tuaten ayuqetullruut. Piciatun pivkenateng.",
         "translation": "That's what they were like. They weren't haphazard."
     },
-    "154": {
+    "153": {
         "endTime": 1173.0,
         "startTime": 1168.5,
         "transcript": "Tuamtellu cali cuignilngurcuutnek cali taluyiami",
         "translation": "And then when he made otter traps like fish traps"
     },
-    "155": {
+    "154": {
         "endTime": 1179.5,
         "startTime": 1174.0,
         "transcript": "Tuamtellu igyarait waten ayuqluki au\u0361g'utun.",
         "translation": "Their entrances would be like this as before."
     },
-    "156": {
+    "155": {
         "endTime": 1190.0,
         "startTime": 1180.5,
         "transcript": "Tua-i-llu waten unatni cuq'errluku uumek kumluminek waten elliurluki neqututacirkiurluki.",
         "translation": "And then he would do this, measuring it with his thumb, determining the width like this."
     },
-    "157": {
+    "156": {
         "endTime": 1199.0,
         "startTime": 1191.0,
         "transcript": "Tuaten. Yaa, piciatun-am cali pivkenateng tamakut pitullrulliniut.",
         "translation": "Like that. Yes, they apparently didn't make those haphazardly either."
     },
-    "158": {
+    "157": {
         "endTime": 1209.0,
         "startTime": 1201.5,
         "transcript": "Tua-i mat'um nalliini-w' tua-i umyuaqaqamki au\u0361gkut",
         "translation": "These days, when I think about them back then"
     },
-    "159": {
+    "158": {
         "endTime": 1215.6,
         "startTime": 1210.5,
         "transcript": "Qaill'-wa tua-i yuullruciit piut.",
         "translation": "I wonder how their lives were."
     },
-    "160": {
+    "159": {
         "endTime": 1224.0,
         "startTime": 1219.5,
         "transcript": "Umyuaqaqamki caperqetullruanka.",
         "translation": "When I think of them, I would be daunted [by their lives]."
     },
-    "161": {
+    "160": {
         "endTime": 1230.0,
         "startTime": 1225.0,
         "transcript": "Tau\u0361gaam wiinga-w' tua-i Kass'angluki pillruama",
         "translation": "But because I [was born] when they started becoming Westernized"
     },
-    "162": {
+    "161": {
         "endTime": 1238.9,
         "startTime": 1234.0,
         "transcript": "Makut maa-i aulukesteput Kass'artaatullruut",
         "translation": "Our caretakers occasionally had Western things"
     },
-    "163": {
+    "162": {
         "endTime": 1246.5,
         "startTime": 1241.0,
         "transcript": "Tau\u0361gaam carugarnek unangeksaunateng.",
         "translation": "But they didn't get a lot."
     },
-    "164": {
+    "163": {
         "endTime": 1260.0,
         "startTime": 1247.0,
         "transcript": "Makut maa-i saayut, mukaaq, saarralaq, caqapigtaqameng-llu sugg'alinek cali piaqluteng.",
         "translation": "They would get tea, flour, sugar, and pilot bread once in a blue moon."
     },
-    "165": {
+    "164": {
         "endTime": 1266.0,
         "startTime": 1262.0,
         "transcript": "Tamakut tau\u0361gken tua-i unakek'ngait",
         "translation": "And yet those things that they got"
     },
-    "166": {
+    "165": {
         "endTime": 1275.9,
         "startTime": 1267.5,
         "transcript": "Tua-i itrutaqaceteng tepsaqnaurtut tua-i cakneq.",
         "translation": "They would smell very strong when they were brought in."
     },
-    "167": {
+    "166": {
         "endTime": 1280.0,
         "startTime": 1276.0,
         "transcript": "Imkut-llu makut mat'um nalliini tepailnguut.",
         "translation": "And they don't [seem to] have any scent these days."
     },
-    "168": {
+    "167": {
         "endTime": 1291.0,
         "startTime": 1281.0,
         "transcript": "Sugg'alit antaqaceteng yaaqsigluteng tepsaqnaurtut narniqpiarluteng, assirluteng.",
         "translation": "When they took out the pilot bread, they smell strong from afar, they smelled nice and delicious."
     },
-    "169": {
+    "168": {
         "endTime": 1298.9,
         "startTime": 1293.0,
         "transcript": "Maa-i mat'um nalliini waten caciirulluki wiinga piunga.",
         "translation": "These days, I can't [smell] them anymore."
     },
-    "170": {
+    "169": {
         "endTime": 1304.0,
         "startTime": 1299.0,
         "transcript": "Caqa'arqama tau\u0361gaam nar'aqluki tua-i canimetaqata.",
         "translation": "Once in a while, though, I smell them when they're close."
     },
-    "171": {
+    "170": {
         "endTime": 1310.5,
         "startTime": 1307.0,
         "transcript": "Au\u0361gkut ava-i tuaten ayuqellruut.",
         "translation": "That's what those people back then were like."
     },
-    "172": {
+    "171": {
         "endTime": 1320.0,
         "startTime": 1312.0,
         "transcript": "Qaillun-mi uksuarmi iciw' waten ayagaqata iciw' inerquutek'lallrit angutet?",
         "translation": "So, how about, you know, admonishments when the men, you know, when they traveled in the fall like this?"
     },
-    "173": {
+    "172": {
         "endTime": 1336.0,
         "startTime": 1320.5,
         "transcript": "Tua-llu, ii-i, waten ayagaaqameng inerquutektullruit waten aarnarqellrani.",
         "translation": "And so, yes, they used to admonish them like this when it was dangerous as they traveled."
     },
-    "174": {
+    "173": {
         "endTime": 1344.0,
         "startTime": 1337.0,
         "transcript": "Neplirasqevkenaki-llu cali yuilqumi pitullruit.",
         "translation": "They also used to tell them not to make a lot of noise in the wilderness."
     },
-    "175": {
+    "174": {
         "endTime": 1346.9,
         "startTime": 1345.0,
         "transcript": "Waten neplirasqevkenaki.",
         "translation": "They said not to make a lot of noise like this."
     },
-    "176": {
+    "175": {
         "endTime": 1353.0,
         "startTime": 1347.0,
         "transcript": "Tau\u0361gaam imkut arenqiallugtellriit",
         "translation": "Only those who get into accidents"
     },
-    "177": {
+    "176": {
         "endTime": 1361.5,
         "startTime": 1354.0,
         "transcript": "Tamaa-i tamakut kiskuneng tua-i nepliraarkauluteng.",
         "translation": "They must make noise if they have an fall into the water."
     },
-    "178": {
+    "177": {
         "endTime": 1370.0,
         "startTime": 1367.0,
         "transcript": "Inerquutekluki-am cali tamakut waten uksuarmi yuilqumi aarasqevkenata.",
         "translation": "They also admonished us against yelling in the wilderness in the fall like this."
     },
-    "179": {
+    "178": {
         "endTime": 1372.5,
         "startTime": 1370.5,
         "transcript": "Neplirasqevkenata.",
         "translation": "They told us not to make a lot of noise."
     },
-    "180": {
+    "179": {
         "endTime": 1383.5,
         "startTime": 1376.0,
         "transcript": "Tamakut-gguq tamaa-i tau\u0361gaam nanikualriit tuaten nepliratullruut.",
         "translation": "They said that only those in dire situations would make noise like that."
     },
-    "181": {
+    "180": {
         "endTime": 1396.5,
         "startTime": 1384.0,
         "transcript": "Tua-i-llu neplialriamek aaralriamek niiskuneng tua-i tauna taringarkauluku arenqiallugucia wall'u kis'ucia.",
         "translation": "And then if they heard anyone screaming, making noise, they would understand that [s]he's gotten into an accident or fell into water."
     },
-    "182": {
+    "181": {
         "endTime": 1416.0,
         "startTime": 1398.0,
         "transcript": "Tau\u0361gken mat'um nalliini tua-i inerquumananriameng-wa tua-i, inerqurnanriamceci wangkuta caciirulluteng.",
         "translation": "Yet because they are not admonished anymore these days, they don't know [those] anymore because we don't admonish youpl."
     },
-    "183": {
+    "182": {
         "endTime": 1420.0,
         "startTime": 1417.0,
         "transcript": "Waten-llu neplianaurtut.",
         "translation": "They also make noise like this."
     },
-    "184": {
+    "183": {
         "endTime": 1427.0,
         "startTime": 1422.0,
         "transcript": "Aaraaqluteng tua-i maani nunat akuliitni.",
         "translation": "They yell in between villages here."
     },
-    "185": {
+    "184": {
         "endTime": 1431.0,
         "startTime": 1429.0,
         "transcript": "Inerquutektullruit.",
         "translation": "They used to admonish against those."
     },
-    "186": {
+    "185": {
         "endTime": 1441.5,
         "startTime": 1431.5,
         "transcript": "Tua-i-llu ataucirqumek wiinga atullruaqa tamana arenqiallugtellria niitellemni.",
         "translation": "And then, I've done that once when I heard someone who got into an accident."
     },
-    "187": {
+    "186": {
         "endTime": 1451.0,
         "startTime": 1443.0,
         "transcript": "Ukut, ukut nunauruyuciat Tuntutuliarmiut akaurpailgan",
         "translation": "Before it was too long since Tuntutuliak was established as a village"
     },
-    "188": {
+    "187": {
         "endTime": 1461.0,
         "startTime": 1455.0,
         "transcript": "Kellirni kanani uitallemten\u0301i, ukut-wa keluqliput cali.",
         "translation": "When we were down in Kelliq, with people inland from us too."
     },
-    "189": {
+    "188": {
         "endTime": 1468.0,
         "startTime": 1463.0,
         "transcript": "Una waniwa nanvaq mat'um enem ketiini tangrran.",
         "translation": "You see this lake toward the water from this house."
     },
-    "190": {
+    "189": {
         "endTime": 1477.0,
         "startTime": 1470.5,
         "transcript": "Waten erenrani atakuyartumi maaken kelumten\u0301ek aaralria.",
         "translation": "In the day nearing evening like this, I heard someone screaming inland from us."
     },
-    "191": {
+    "190": {
         "endTime": 1480.0,
         "startTime": 1477.5,
         "transcript": "Qang'a-ll' pingkuuyukanka.",
         "translation": "I had thought it was the people inland."
     },
-    "192": {
+    "191": {
         "endTime": 1485.0,
         "startTime": 1481.0,
         "transcript": "Cunaw' tua-i kit'ellria kanani. Kicaaqellinill'.",
         "translation": "It turned out that someone fell into the water down there. [S]he had apparently fell into the water."
     },
-    "193": {
+    "192": {
         "endTime": 1494.0,
         "startTime": 1486.0,
         "transcript": "Qerruniaranrakun iliita atralriit tanglliniluku",
         "translation": "One of the people going down apparently saw the person just as [s]he was going to freeze to death"
     },
-    "194": {
+    "193": {
         "endTime": 1500.0,
         "startTime": 1496.0,
         "transcript": "Man'a waten nunataitellrani.",
         "translation": "When there was no land here like this."
     },
-    "195": {
+    "194": {
         "endTime": 1508.0,
         "startTime": 1502.0,
         "transcript": "Cat inerquutait au\u0361gkut amllellruut.",
         "translation": "They had a lot of admonishments back then."
     },
-    "196": {
+    "195": {
         "endTime": 1515.0,
         "startTime": 1509.0,
         "transcript": "Waten au\u0361g'umek ava-i neplirasqevkenaku pitullruluki.",
         "translation": "They used to tell them like this not to make a lot of noise."
     },
-    "197": {
+    "196": {
         "endTime": 1520.5,
         "startTime": 1516.0,
         "transcript": "Tua-i-llu nutaan waten cali:",
         "translation": "And then this was especially important:"
     },
-    "198": {
+    "197": {
         "endTime": 1535.0,
         "startTime": 1521.5,
         "transcript": "Ayakata'arqameng cali qanerrlainarluteng tamatum nuniinun ayakatarniluteng.",
         "translation": "When they're going to travel, they would always say that they're going around that area."
     },
-    "199": {
+    "198": {
         "endTime": 1553.0,
         "startTime": 1539.0,
         "transcript": "Tua-i waten tekitenritaqata-llu tua-i arenqialluguciit nalluvkenaki piaqluki.",
         "translation": "And when they didn't return, they would know where they had accidents."
     },
-    "200": {
+    "199": {
         "endTime": 1566.5,
         "startTime": 1557.0,
         "transcript": "Tau\u0361gken mat'um nalliini waten ayagaaqameng maa-i angyatgun qanerpek'nateng.",
         "translation": "Yet these days, when they travel like this with these boats, they don't say anything."
     },
-    "201": {
+    "200": {
         "endTime": 1578.0,
         "startTime": 1569.0,
         "transcript": "Tua-i-llu tekitenrilameng, tekitenrilata qaill' tua-i ayuquciinaki qanenrilata.",
         "translation": "And then when they don't return, they don't know what happened to them because they didn't say anything."
     },
-    "202": {
+    "201": {
         "endTime": 1585.0,
         "startTime": 1580.0,
         "transcript": "Piciatun maa-i mat'um nalliini ayagangameng.",
         "translation": "It's because they've started traveling without consideration these days."
     },
-    "203": {
+    "202": {
         "endTime": 1592.5,
         "startTime": 1585.5,
         "transcript": "Wall'u natetmurrnguarluteng nunanun-ll' allanun ayagaqluteng.",
         "translation": "Or they pretend to go somewhere then travel to other villages."
     },
-    "204": {
+    "203": {
         "endTime": 1600.0,
         "startTime": 1593.5,
         "transcript": "Tamaa-i tamatum maa-i mat'um nalliini ayuquciirutetaitkut.",
         "translation": "That's what's making us so addled these days."
     },
-    "205": {
+    "204": {
         "endTime": 1614.0,
         "startTime": 1602.0,
         "transcript": "Qaillun tua-i ukut kingunrulriit waten ayuquciinaki piaqluki wall'u tuancukluki.",
         "translation": "They have no idea about these descendants like this or they think they're in some place."
     },
-    "206": {
+    "205": {
         "endTime": 1625.0,
         "startTime": 1615.0,
         "transcript": "Maa-i mat'um nalliini yuilqumi-llu tua-i tuqungraata qaillun ayuquciitaqluki.",
         "translation": "These days, even when they die in the wilderness, they have no idea about them."
     },
-    "207": {
+    "206": {
         "endTime": 1637.0,
         "startTime": 1628.0,
         "transcript": "Tang tua-i mat'um nalliini tua-i-wa waten caknernarqellriit amlleriameng",
         "translation": "You see, because there are now a lot of things bringing struggles these days"
     },
-    "208": {
+    "207": {
         "endTime": 1648.0,
         "startTime": 1641.0,
         "transcript": "Maa-i waten au\u0361gkut ayuqellrunritut, waten.",
         "translation": "People back then were not like this, like this."
     },
-    "209": {
+    "208": {
         "endTime": 1654.0,
         "startTime": 1649.5,
         "transcript": "Tua-i ca murilkerrlainarluku.",
         "translation": "They always observed everything."
     },
-    "210": {
+    "209": {
         "endTime": 1663.7,
         "startTime": 1654.5,
         "transcript": "Uksuarmi-llu wangkuta cali tan'gaurlurni waten qalaruquratullruitkut",
         "translation": "And in the fall, they would always talk to us boys like this"
     },
-    "211": {
+    "210": {
         "endTime": 1670.5,
         "startTime": 1664.0,
         "transcript": "Ciunerkamten\u0301ek, tekitarkamten\u0301ek ellmeng atuqemeggnek.",
         "translation": "About our futures, what's in store for us, that they are experiencing."
     },
-    "212": {
+    "211": {
         "endTime": 1676.0,
         "startTime": 1672.0,
         "transcript": "Aarnarqellriit apertualuki, yuilqumi-llu.",
         "translation": "They would indicate what was dangerous, in the wilderness too."
     },
-    "213": {
+    "212": {
         "endTime": 1688.0,
         "startTime": 1680.0,
         "transcript": "Cat, cat-llu maani nunam qaingani pengurraat qerturalriit aterluteng.",
         "translation": "These things on land, elevated hills, had names."
     },
-    "214": {
+    "213": {
         "endTime": 1691.0,
         "startTime": 1688.5,
         "transcript": "Kuiggaat-llu tamarmeng aterluteng.",
         "translation": "All of the creeks had names too."
     },
-    "215": {
+    "214": {
         "endTime": 1694.8,
         "startTime": 1692.0,
         "transcript": "Nanvat-ll' ilait cali aterluteng.",
         "translation": "Some of the lakes had names too."
     },
-    "216": {
+    "215": {
         "endTime": 1702.0,
         "startTime": 1696.5,
         "transcript": "Tua-i nalluvkenaku man'a nunam qainga.",
         "translation": "They knew the layout of this land."
     },
-    "217": {
+    "216": {
         "endTime": 1712.0,
         "startTime": 1702.5,
         "transcript": "Tau\u0361gken mat'um nalliini makut maa-i yup'ut apertuatnanriamteki",
         "translation": "Yet these days, because we don't point those out to our children"
     },
-    "218": {
+    "217": {
         "endTime": 1724.0,
         "startTime": 1714.0,
         "transcript": "Mat'umek yuilqumek cat-llu nallungluki, kuiget-llu, nanvat-llu, qertulriit-llu makut.",
         "translation": "They don't know the wilderness or what's on it, rivers, and lakes, and these elevated areas."
     },
-    "219": {
+    "218": {
         "endTime": 1739.0,
         "startTime": 1729.5,
         "transcript": "Camek-llu tua-i piaqata apcaaqellriani cam nuniini camek piciitnek",
         "translation": "And when something happens, when we ask them where it happened to them"
     },
-    "220": {
+    "219": {
         "endTime": 1748.5,
         "startTime": 1740.0,
         "transcript": "Wall'u yuk tauna waten maa-i mat'um nalliini tamarilalriit, tamalalriit.",
         "translation": "Or a person these days would get lost, they get lost."
     },
-    "221": {
+    "220": {
         "endTime": 1763.5,
         "startTime": 1751.0,
         "transcript": "Tauna, tauna tangertellra apcaaqellriani cam nuniini tangellrucianek atra-llu nalluluku.",
         "translation": "When they ask the people who saw it about the area where they saw it they don't know its name either."
     },
-    "222": {
+    "221": {
         "endTime": 1772.5,
         "startTime": 1764.0,
         "transcript": "Taum-gguq avaniirluteng tau\u0361gaam pinaurtut apertuatnanriamceteng.",
         "translation": "They would say it happened over there because we don't point those out to them anymore."
     },
-    "223": {
+    "222": {
         "endTime": 1781.5,
         "startTime": 1774.0,
         "transcript": "Ca tamalkuan wangkuta qalaruyutek'lallruyaaqaput aturrlainarpek'naki tau\u0361gaam.",
         "translation": "We used to talk about everything, but we didn't always experience them."
     },
-    "224": {
+    "223": {
         "endTime": 1786.5,
         "startTime": 1783.0,
         "transcript": "Tau\u0361gaam tekitaqamteki elitaqaqluki.",
         "translation": "But when we reached them, we would recognize them."
     },
-    "225": {
+    "224": {
         "endTime": 1797.0,
         "startTime": 1789.0,
         "transcript": "Yaa, qanruyutekun tau\u0361gaam yuk yuugarkauyaaqelliniami.",
         "translation": "Yes, a person should live through traditional wisdom."
     },
-    "226": {
+    "225": {
         "endTime": 1804.0,
         "startTime": 1797.5,
         "transcript": "Yaa, qanruyun atunrilkuniu elluarrluni yuungaitelliniuq.",
         "translation": "Yes, [s]he evidently will not live well if [s]he does not adhere to traditional wisdom."
     },
-    "227": {
+    "226": {
         "endTime": 1809.5,
         "startTime": 1805.0,
         "transcript": "Ilaminek-llu waten nuqlilluni calrianek.",
         "translation": "[S]he will also lack what their peers work on."
     },
-    "228": {
+    "227": {
         "endTime": 1815.0,
         "startTime": 1812.0,
         "transcript": "Waten au\u0361gkut qalarutetullruitkut:",
         "translation": "They used to tell us this back then:"
     },
-    "229": {
+    "228": {
         "endTime": 1825.0,
         "startTime": 1816.0,
         "transcript": "Man'a-gguq qanruyun atuqumteggu, maligtaquluku-llu yuukumta elluarrluta yuugarkaugukut.",
         "translation": "If we adhere to this traditional wisdom, obey it while we live we will live well."
     },
-    "230": {
+    "229": {
         "endTime": 1829.5,
         "startTime": 1825.5,
         "transcript": "Qessalertevkenata, qavaarpek'nata.",
         "translation": "We should not be lazy or sleep too much."
     },
-    "231": {
+    "230": {
         "endTime": 1836.5,
         "startTime": 1833.5,
         "transcript": "Tuaten tua-i akeqnauraitkut.",
         "translation": "They would promise us that."
     },
-    "232": {
+    "231": {
         "endTime": 1849.5,
         "startTime": 1839.0,
         "transcript": "Tau\u0361gken tua-i, yaa, taman' apertuallrat tekiteksaunaku.",
         "translation": "However, yes, we wouldn't reach what they indicated yet."
     },
-    "233": {
+    "232": {
         "endTime": 1854.5,
         "startTime": 1849.6,
         "transcript": "Tau\u0361gaam tekitaqamteggu maa-i mat'um nalliini elitaqaqluku.",
         "translation": "But when we reach it these days, we recognize it."
     },
-    "234": {
+    "233": {
         "endTime": 1860.5,
         "startTime": 1855.5,
         "transcript": "Taumek au\u0361gkut waten qalarutlallrukaitkut:",
         "translation": "That's why they used to tell us this back then:"
     },
-    "235": {
+    "234": {
         "endTime": 1872.5,
         "startTime": 1863.0,
         "transcript": "Una-gguq qalarutestevvut murilkelluku, yaa, tangvaurqilarput qanra.",
         "translation": "They said to pay attention to our instructor yes, we should watch his mouth."
     },
-    "236": {
+    "235": {
         "endTime": 1882.0,
         "startTime": 1874.5,
         "transcript": "Atam-gguq uluqaqumteggu imna qalartellra uunguciirrniar[tukut].",
