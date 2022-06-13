@@ -394,7 +394,7 @@ def parseCoreySummaries(files):
 				if i >= len(doc.paragraphs):
 					break
 				while True:
-					line = doc.paragraphs[i].text
+					line = doc.paragraphs[i].text.strip()
 					if line in coreykeywords:
 						break
 					# print(line)
@@ -626,39 +626,49 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 		summaries[summ]["title"] = newTitle
 
 	# add subtitleID to summary list to be "summary":{subtitleID:[],subtitleID:[]}
-	# for summ in summaries:
-	# 	newSummary = {}
+	for summ in summaries:
+		newSummary = {}
 
-	# 	# grab subtitle.js info
-	# 	subtitleTimes = {}
-	# 	if not os.path.exists(os.path.join("../src/components/transcription/",summaries[summ]["videoID"]+".js")):
-	# 		print(summaries[summ]["videoID"]+".js doesn't exist")
-	# 		continue
-	# 	with open(os.path.join("../src/components/transcription/",summaries[summ]["videoID"]+".js"), 'r') as file:
-	# 		lines = file.read()
-	# 		lines = lines.replace("export const subtitles = ","").replace("};","}")
-	# 		# print(lines)
-	# 		subtitleJSON = json.loads(lines, object_pairs_hook=OrderedDict)
-	# 		subtitleTimes = [(subtitleJSON[x]['startTime'],x) for x in subtitleJSON]
+		# handle files without subtitle files but summary file by using negative IDs
+		if not os.path.exists(os.path.join("../src/components/transcription/",summaries[summ]["videoID"]+".js")):
+			print(summaries[summ]["videoID"]+".js doesn't exist; using negative IDs")
+			subtitleID = -1
+			for chapter in summaries[summ]["summary"]:
+				newSummary[subtitleID] = chapter
+				subtitleID -= 1
 
-	# 	for chapter in summaries[summ]["summary"]:
-	# 		subtitleID = ""
-	# 		print(chapter)
-	# 		match = re.match(r'(?:(?P<hour>\d):)?(?P<minute>\d\d):(?P<second>\d\d)',chapter[0])
-	# 		chapterTimeInSeconds = int(match.group('hour')) * 60 * 60 if match.group('hour') else 0
-	# 		chapterTimeInSeconds += int(match.group('minute')) * 60
-	# 		chapterTimeInSeconds += int(match.group('second'))
+		else:
+			# grab subtitle.js info
+			subtitleTimes = {}
+			with open(os.path.join("../src/components/transcription/",summaries[summ]["videoID"]+".js"), 'r') as file:
+				lines = file.read()
+				lines = lines.replace("export const subtitles = ","").replace("};","}")
+				# print(lines)
+				subtitleJSON = json.loads(lines, object_pairs_hook=OrderedDict)
+				subtitleTimes = [(subtitleJSON[x]['startTime'],x) for x in subtitleJSON]
 
-	# 		for sub in subtitleTimes:
-	# 			if sub[0] <= chapterTimeInSeconds:
-	# 				subtitleID = sub[1]
-	# 			else:
-	# 				break
+			for chapter in summaries[summ]["summary"]:
+				subtitleID = "1"
+				# print(chapter)
+				match = re.match(r'(?:(?P<hour>\d):)?(?P<minute>\d\d):(?P<second>\d\d)',chapter[0])
+				if not match:
+					print(f'din\'t parse {chapter[0]} in {summ}')
+					continue
+				else:
+					chapterTimeInSeconds = int(match.group('hour')) * 60 * 60 if match.group('hour') else 0
+					chapterTimeInSeconds += int(match.group('minute')) * 60
+					chapterTimeInSeconds += int(match.group('second'))
 
-	# 		newSummary[subtitleID] = chapter
+				for sub in subtitleTimes:
+					if sub[0] <= chapterTimeInSeconds:
+						subtitleID = sub[1]
+					else:
+						break
+
+				newSummary[subtitleID] = chapter
 
 
-	# 	summaries[summ]["summary"] = newSummary
+		summaries[summ]["summary"] = newSummary
 
 
 	# print(elderCat2Images)
