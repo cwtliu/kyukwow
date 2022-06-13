@@ -193,7 +193,7 @@ class Home extends Component {
 
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
 				{this.state.eldersList.map((y,yindex) => (
-					(yindex < 16 ?
+					(yindex < 20 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 							<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
 							<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
@@ -213,7 +213,7 @@ class Home extends Component {
 				))}
 				{this.state.showMoreElders ?
 					(this.state.eldersList.map((y,yindex) => (
-						(yindex > 15 ?
+						(yindex > 19 ?
 							<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 								<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
 								<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
