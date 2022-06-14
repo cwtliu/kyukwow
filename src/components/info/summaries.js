@@ -45,17 +45,17 @@ export const summaries = {
                 "Qanrucunarqellriit (qanruyutnek maligtaquilriit)",
                 "Qanrucunarqellriit (people who adhere to instructions)"
             ],
-            "366": [
+            "365": [
                 "39:51",
                 "Irniaq ellangyuallrani ayagatesqevkenaku alerquutnguuq",
                 "An instruction to not bring a growing child to other places"
             ],
-            "390": [
+            "389": [
                 "42:10",
                 "Teglegyaqunak; cikiqenglleq quyanarqenruuq akurtunermi; kevgiurturyaraq",
                 "Do not steal; it is better to give than to receive; serving others"
             ],
-            "445": [
+            "444": [
                 "56:52",
                 "Tuyuryarmi; Nasaurlurmiut (Nasaurlormiut) Yupiit Elders Qasgiat (Kasgiat).",
                 "Footage of Togiak; and Nasaurlormiut Yupiit Elders Kasgiat."
@@ -190,27 +190,27 @@ export const summaries = {
                 "Neryaraq; neqkaq anglanitekevkallrunritaa; neryaram cimillra",
                 "Eating habits; not being frivilous with food; changing eating habits"
             ],
-            "55": [
+            "53": [
                 "05:46",
                 "Irniam aulukellra; qingaqerraalleq",
                 "Child rearing; first pregnancy"
             ],
-            "85": [
+            "83": [
                 "09:03",
                 "\"Inerqulaqiu erinan tapirpek'naku\"; \"Ca tamalkuan qanruyutengqellrulria wangkutni\"",
                 "\"Admonish him/her without raising your voice\"; \"Everything had traditional wisdom connected to it for us\""
             ],
-            "106": [
+            "104": [
                 "11:31",
                 "Neryaram piciryarallrem cimiutii",
                 "Changing eating habits"
             ],
-            "120": [
+            "118": [
                 "13:04",
                 "Irnillermek qanemciq",
                 "Story of giving birth"
             ],
-            "154": [
+            "151": [
                 "16:31",
                 "Irniani piqarraami elicungcaralaraa inerquulluki-llu",
                 "Teaching and admonishing children from the beginning"
@@ -720,42 +720,42 @@ export const summaries = {
                 "Urucaram Mamterillrem-llu ayuquciak; qasgimi maqilleq; Luqinquq",
                 "How Urucaraq and the area around Bethel was like; steam bath in the community house (qasgiq); Luqinquq"
             ],
-            "66": [
+            "65": [
                 "05:30",
                 "\"Nunavut meq-llu kencikesqelluku wangkuta qantamcetun pitarrluku.\"",
                 "\"To revere our land and the water as much as our bowls.\""
             ],
-            "86": [
+            "85": [
                 "07:19",
                 "\"Wangkuta mat'um nalliini navguagukut wangkutnek.\"; aipirtuasqevkenaki aipamek tegupailgan; taangaq",
                 "\"These days we are destroying ourselves.\"; to not have relations with another until taking a spouse; alcohol"
             ],
-            "93": [
+            "92": [
                 "08:01",
                 "\"Qasgimi-llu cali quyurcelluta iliini qanqautetullruitkut.\"",
                 "\"They would also sometimes gather us in the community house and speak to us.\""
             ],
-            "114": [
+            "113": [
                 "10:00",
                 "\"Agu watqapiar tangnerrlugnarqengraan temciarautekqasqevkenaku. Tau͡gaam pisciigalnguq ikayuasqelluku.\"",
                 "\"Never under any circumstances make fun of anyone struggling. Instead, he said to help someone who was unable.\""
             ],
-            "135": [
+            "134": [
                 "12:00",
                 "\"Arnaq-gguq tuquuguq\"",
                 "\"They said that a woman is death.\""
             ],
-            "166": [
+            "165": [
                 "15:03",
                 "\"Nunami tamarmi qanruyutvut atauciuyaaqngatliniuq. Tau͡gaam yuum cali amllerem maa-i atunriraa.\"; qasgimi",
                 "\"It seems that in all the land our traditional wisdom is one. But many people don't adhere to them anymore.\"; in the community house (qasgiq)"
             ],
-            "184": [
+            "183": [
                 "16:49",
                 "\"Ca tamalkuan anglanillrunrituq.\"; kass'artaat enurnarluteng; sun'at",
                 "\"Nothing was taken lightly.\"; manufactured items were scarce; ships/barges"
             ],
-            "218": [
+            "217": [
                 "20:05",
                 "Agayuvigmi caliillerminek",
                 "When he worked in the church"
@@ -1084,27 +1084,27 @@ export const summaries = {
                 "\"Eglertarkauguci navenrilkurrluku. Ayagyugaam ilii ellmineng navgaquq. Qaneryaraq atungnatugluku, umyugarci imangarkauguq.\"",
                 "\"You must travel, trying not to destroy [your future]. Some young people here destroy themselves. Keep trying to use the traditional wisdom, and your mind will be filled.\""
             ],
-            "78": [
+            "77": [
                 "12:03",
                 "Pingnatugyaraq imarpigmi (irumegteggun)",
                 "Striving in the ocean (using their legs)"
             ],
-            "88": [
+            "87": [
                 "13:56",
                 "Nerangnaqsaraq",
                 "Subsistence"
             ],
-            "94": [
+            "93": [
                 "15:04",
                 "Aipanglleq maklagneng-llu",
                 "Getting a partner and bearded seals"
             ],
-            "100": [
+            "99": [
                 "16:09",
                 "Pissulleq narulkaquluteng nutegkun piyuitellermeggni",
                 "Hunting with spears when they didn't use guns"
             ],
-            "115": [
+            "114": [
                 "18:36",
                 "Pingnatugyaraq imarpigmi (tallimegteggun)",
                 "Striving in the ocean (using their arms)"

@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:03,000
 I used to see Qakianaq back when I was a boy.
 
@@ -7,7 +7,7 @@ I used to see Qakianaq back when I was a boy.
 Luqinquq, the old Caucasian man they called Luqinquq had a store down there.
 
 3
-00:00:12,00 --> 00:00:18,000
+00:00:12,000 --> 00:00:18,000
 So now, since you became observant, starting when you became observant
 
 4
@@ -59,7 +59,7 @@ It was also hot.
 And when they had just taken fire baths in the winter like this, it was nice and hot.
 
 16
-00:01:12,00 --> 00:01:17,000
+00:01:12,000 --> 00:01:17,000
 When these old men that we liked to go see started talking, they started talking.
 
 17
@@ -227,7 +227,7 @@ Kenirkauyar there was a [Western] dancing hall here.
 But they didn’t do it at random [times] like this, only on Saturday.
 
 58
-00:04:50,000 --> 00:04:56,500
+00:04:50,000 --> 00:04:55,500
 It also went until 12 o’clock.
 
 59
@@ -320,7 +320,7 @@ Our bowls, when we eat
 
 81
 00:06:51,000 --> 00:06:56,900
-It’s probably because a person back then had one bowl that [s]he watched 
+It’s probably because a person back then had one bowl that [s]he watched
 over.
 
 82
@@ -922,3 +922,4 @@ In my opinion
 231
 00:21:43,000 --> 00:21:47,000
 When I thought about my past because I remember it
+

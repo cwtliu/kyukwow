@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:03,000
 [Au͡g]na Qakianaq tangtullruaqa tan’gaurluulua avani.
 
@@ -7,7 +7,7 @@
 Luqinqum, kipusvigluni kanani angukara’urluq Luqinqumek pitullrat Kass’aq.
 
 3
-00:00:12,00 --> 00:00:18,000
+00:00:12,000 --> 00:00:18,000
 Kitak’ nutaan wani murilkengllerpenek, murilkengllerpenek ayagluten
 
 4
@@ -52,14 +52,14 @@ Taq’aqameng angukaralleraat qasgim iluani qanengssaaratuata.
 
 14
 00:01:02,500 --> 00:01:03,900
-Cali-llu kiirceńani.
+Cali-llu kiirceńani.
 
 15
 00:01:04,000 --> 00:01:08,000
-Waten uksumi-llu piaqameng, maqinerra’arqameng assirluni tua-i kiirceńani.
+Waten uksumi-llu piaqameng, maqinerra’arqameng assirluni tua-i kiirceńani.
 
 16
-00:01:12,00 --> 00:01:17,000
+00:01:12,000 --> 00:01:17,000
 Ullagyulalput waniwa angukarallret qanengssaarallrata, qanengssaalallrata pilall’.
 
 17
@@ -110,7 +110,7 @@ Iliini waten uksumi ukut Aagurmiut maqiyunglliniaqameng
 00:02:18,000 --> 00:02:24,000
 Qamuutara’arluteng muragmek uciluteng ikamrarluteng malikurluteng qasgimun aglartut.
 
-29	
+29
 00:02:24,800 --> 00:02:26,000
 Unaggun Kepenkuullrani un’a
 
@@ -227,7 +227,7 @@ Tauna-ll’ Kenirkauyar maani agnguarviulallruuq.
 Tau͡gaam piciatun pivkenateng waten, Maqinermi tau͡gaam.
 
 58
-00:04:50,000 --> 00:04:56,500
+00:04:50,000 --> 00:04:55,500
 Cali-llu 12 clock un’ tekilluku.
 
 59
@@ -921,3 +921,4 @@ Tua-i wiinga umyuarteqlemni
 231
 00:21:43,000 --> 00:21:47,000
 Man’a au͡gna kinguneqa umyuaqluku pillemni pilua umyuaqelaamku
+

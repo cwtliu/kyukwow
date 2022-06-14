@@ -83,6 +83,6 @@ if __name__ == '__main__':
 		esuengSRT.save(os.path.join(esuengSRTFolder, filename), encoding='utf-8')
 
 		with open(os.path.join(jsFolder, filename.rsplit(".", 1)[0] + '.js'), 'w') as out:
-			out.write(f'export const subtitles = {json.dumps(jsonFile, sort_keys=True, indent=4)};')
+			out.write(f'export const subtitles = {json.dumps(jsonFile, indent=4, ensure_ascii=False)};')
 
 
