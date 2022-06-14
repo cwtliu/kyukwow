@@ -66,12 +66,12 @@ export const summaries = {
         ],
         "tags": [
             "1.1.1",
-            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "1",
             "19.9",
             "19.12",
             "19.5.1",
             "3.9.1",
-            "Anglicarillerkaq -- Child Rearing",
+            "22.2",
             "4.4",
             "19.6",
             "19.13.1",
@@ -225,7 +225,7 @@ export const summaries = {
             "19.10",
             "19.6.2",
             "15.2",
-            "Anglicarillerkaq -- Child Rearing",
+            "22.2",
             "22.1.2"
         ]
     },
@@ -298,7 +298,7 @@ export const summaries = {
             "16.2.3",
             "5.3.3",
             "9.4",
-            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "1",
             "17.1.1"
         ]
     },
@@ -617,7 +617,7 @@ export const summaries = {
             "17.1.6",
             "19.14",
             "4.2",
-            "Yugtun Qalarcaraq -- Yup'ik Language"
+            "1"
         ]
     },
     "cpb-aacip-127-10jsxpwg.h264": {
@@ -849,12 +849,12 @@ export const summaries = {
         "tags": [
             "1.1.1",
             "5.3.1",
-            "Tuntuciuryaraq -- Reindeer Herding",
+            "16.2.3",
             "21.2",
             "20.2",
             "15.1.1",
             "17.1.1",
-            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "1",
             "8.1.3",
             "4.3",
             "9",
@@ -926,7 +926,7 @@ export const summaries = {
         "tags": [
             "1.1.1",
             "19.5",
-            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "1",
             "19.6",
             "8.6",
             "8.2",
@@ -1491,7 +1491,7 @@ export const summaries = {
             "19.7",
             "21.2",
             "21.2.1",
-            "Anglicarillerkaq -- Child Rearing",
+            "22.2",
             "2.2.5",
             "21.4",
             "21.3",
@@ -4036,7 +4036,7 @@ export const summaries = {
             "19.13.1",
             "19.14",
             "19.15.1",
-            "Anglicarillerkaq -- Child Rearing",
+            "22.2",
             "22.4",
             "22.5",
             "22.7",
@@ -4109,7 +4109,7 @@ export const summaries = {
             "23.15"
         ],
         "tags": [
-            "Yugtun Qalarcaraq -- Yup'ik Language",
+            "1",
             "5.4",
             "7.4",
             "9.2",
@@ -5659,19 +5659,19 @@ export const summaries = {
             "11.6.1",
             "11.7",
             "11.8.1",
-            "Qengaruk -- Shelter",
+            "11.8.1.1",
             "11.8.1.2",
             "11.8.2",
-            "Uingyaraq -- How to Work With a Husband",
-            "Nuliangyaraq, Nulirturyaraq -- How to Work With a Wife",
-            "Aipangyaraq -- Getting a Spouse",
+            "14.1",
+            "14.2",
+            "14.3",
             "16.1.1.1",
             "16.2.5",
             "17.1.1",
             "17.1.2",
             "17.1.7",
             "19.3.6",
-            "Caniqerrilin, Caniqerrilitaq -- Woven Grass Blet Blocking Door During Instruction",
+            "19.3.7",
             "19.3.8",
             "19.5.2.1",
             "19.6",
@@ -5686,7 +5686,7 @@ export const summaries = {
             "20.7",
             "20.8",
             "21.2.1",
-            "Taangaq --  Alcohol"
+            "22.5"
         ]
     },
     "cpb-aacip-127-81jhb5w6.h264": {
@@ -5739,14 +5739,14 @@ export const summaries = {
             "23.1"
         ],
         "tags": [
-            "Uyaqum Igaryarai – Uyaquq's Orthography",
-            "Tuntu – Reindeer, Caribou",
-            "Agayulirtet – Priests",
-            "Qaneryaraq, Qaneryaraqegtaar – Bible",
-            "Naqugun – Belt",
+            "1.2.1",
+            "5.3.1",
+            "8.1.2",
+            "8.1.3",
+            "11.8.5",
             "11.10",
             "15.2.1.1",
-            "Tangvagluteng Elicungcaryaraq – Learning through Observation"
+            "19.6.7"
         ]
     },
     "cpb-aacip-127-84mkm6tr.h264": {
@@ -5789,15 +5789,15 @@ export const summaries = {
             "23.90"
         ],
         "tags": [
-            "Nunam Iqua – Nunam Iqua [Sheldon's Point]",
-            "Qaneryaraq, Qaneryaraqegtaar – Bible",
-            "Ellam Yua, Cellam Yua, Cillam Cua – Spirit of the Universe",
-            "Ciunerkaqegciarkauciat – How They Will Have a Good Future",
+            "2.2.8",
+            "8.1.3",
+            "8.2",
+            "19.5.4.2",
             "19.13.1",
-            "Ellminek Ataneqsaraq, Umyugiuryaraq – Being Self-Interested",
-            "Yuut Nalluatni Tegucaraq – Taking Things Without Permission",
+            "19.13.6",
+            "19.13.15",
             "19.13.16",
-            "– Taangaq – Alcohol",
+            "22.5",
             "22.7"
         ]
     },
@@ -5847,14 +5847,14 @@ export const summaries = {
             "23.66"
         ],
         "tags": [
-            "Yugtun Qalarcaraq, Qaneryaraq – Yup'ik Language",
+            "1",
             "9.1",
-            "Yugtun Qalartesqevkenaki – Yup'ik Language Restrictions",
-            "Yugtun Kass'atun-llu Elitnauryaraq – Bilingual Education",
-            "Cakviussiyaagngaitut – They Won't Struggle Too Much",
+            "16.2.2.1",
+            "16.4.1",
+            "19.5.4.3",
             "19.6.1",
-            "Qanminek Mulngaksaraq – Careful with Words",
-            "Yuuyaraq – Way of Life",
+            "19.6.10",
+            "19.8",
             "19.14"
         ]
     },
@@ -5917,18 +5917,18 @@ export const summaries = {
             "23.117"
         ],
         "tags": [
-            "Aniqlaarutet – Curses",
-            "Quyakluki Ciuniurluki – Gratefully Accept Them",
-            "Aipangyaraq – Getting a Spouse",
-            "Allaliuryaraq – Infidelity",
-            "Elitnaurvikarraat – Boarding Schools, First Schools",
+            "8.4.4.1",
+            "9.10.1",
+            "14.3",
+            "14.7",
+            "16.2.2",
             "16.4",
-            "Eneteng Uitanqegcinarqevkarluki – Keep Your Houses Peaceful",
-            "Ellangyaraq – Becoming Aware [Childhood]",
-            "Kaigasteńgurciiqut – They Will Become Beggars",
-            "Aatailnguut – Illegitimate Children",
-            "Ceńirutevkenaki – Do Not Take Them to Others' Houses",
-            "Taangaq – Alcohol",
+            "19.6.11",
+            "19.8.1",
+            "19.13.5.1",
+            "19.13.17",
+            "22.2.3",
+            "22.5",
             "22.7"
         ]
     },
@@ -5986,19 +5986,19 @@ export const summaries = {
             "23.120"
         ],
         "tags": [
-            "Unatellget – Healing Hands",
-            "Pakissaagyaraq – Gathering from Vole Caches",
-            "Quserpak – Tuberculosis (TB)",
-            "Nunalgutkenrilkemeggnun Nallunailuciit – Being Widely Known",
-            "Aipangvailegmeng Akusrarcaraq – Premarital Sex",
-            "Qanruyutet, Qaneryarat – Traditional Wisdom, Wise Words",
-            "Kenkiyaraq – Showing Love",
-            "Naklekiyaraq – Compassion",
-            "Angayuqateng Takaqluki – Respect Your Parents",
-            "Taangaq – Alcohol",
+            "8.4.2",
+            "9.5.4",
+            "13.2.1",
+            "19.3.2.1",
+            "19.3.3",
+            "19.5",
+            "19.10",
+            "19.12",
+            "19.14.1",
+            "22.5",
             "22.7",
-            "Caqlaq – Rosewort",
-            "Uquq – Seal Oil"
+            "22.12.2.2",
+            "22.12.2.3"
         ]
     },
     "cpb-aacip-127-87pnw7r9.h264": {
@@ -6067,18 +6067,18 @@ export const summaries = {
             "23.121"
         ],
         "tags": [
-            "Yugtun Qalarcaraq, Qaneryaraq – Yup'ik Language",
-            "Kusquqvak – Kuskokwim River",
-            "Kuiggluk – Kwethluk",
-            "Nukalpiaq – Great Hunter",
+            "1",
+            "2.1.2",
+            "2.2.1",
+            "4.3",
             "8.1.3",
             "9.1",
-            "Neqsuryaraq – Fishing",
-            "Upaketaaryaraq – Nomadic Lifestyle",
-            "Elitnaurvikarraat – Boarding Schools, First Schools",
-            "Elitnaurvik – School",
-            "Qanruyutet, Qaneryarat – Traditional Wisdom, Wise Words",
-            "Slaaviq – Russian Christmas"
+            "9.3",
+            "9.11",
+            "16.2.2",
+            "16.4",
+            "19.5",
+            "20.9.1"
         ]
     },
     "cpb-aacip-127-0644j324.h264": {

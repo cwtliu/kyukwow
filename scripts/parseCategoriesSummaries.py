@@ -192,6 +192,16 @@ categoryReplacements = {
 "Yuuyaraq -- Way of Life":"Yuuyaraq -- Way Of Life",
 "Aglenraraq -- First Year Of Menstruation":"Aglenraraq -- First Year of Menstruation",
 "Naunraat Atsat-llu -- Plants and Berries":"Naunraat Atsat-llu -- Plants And Berries",
+"-- Taangaq -- Alcohol":"Taangaq -- Alcohol",
+"Aipangyaraq -- Getting a Spouse":"Aipangyaraq -- Getting A Spouse",
+"Anglicarillerkaq -- Child Rearing":"Anglicarillerkaq, Tukercaryaraq -- Child Rearing",
+"Caniqerrilin, Caniqerrilitaq -- Woven Grass Blet Blocking Door During Instruction":"Caniqerrilin, Caniqerrilitaq -- Woven Grass Belt Blocking Door During Instruction",
+"Nuliangyaraq, Nulirturyaraq -- How to Work With a Wife":"Nuliangyaraq, Nulirturyaraq -- How To Work With A Wife",
+"Qengaruk -- Shelter":"Qengaruk -- Snowbank",
+"Taangaq --  Alcohol":"Taangaq -- Alcohol",
+"Tuntuciuryaraq -- Reindeer Herding":"Tunciuryaraq -- Reindeer Herding",
+"Uingyaraq -- How to Work With a Husband":"Uingyaraq -- How To Work With A Husband",
+"Yugtun Qalarcaraq -- Yup'ik Language":"Yugtun Qalarcaraq, Qaneryaraq -- Yup'ik Language",
 }
 
 rx_dict = {
@@ -336,6 +346,7 @@ def parseCoreySummaries(files):
 	def tagFixing(w):
 		w = w.replace("’","'")
 		w = w.replace(" - "," -- ")
+		w = w.replace(" – "," -- ")
 		return w
 
 	# files_one = ['../data/WoW-Corey/cpb-aacip-127-76f1vspw.h264 - Summary.docx',]
