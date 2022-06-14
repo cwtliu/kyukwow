@@ -2257,42 +2257,37 @@ export const summaries = {
             "Name 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:06",
                 "Qalartuq temem anirtuumangnaqlerkaanek, uksumi ellalliurcuutnek, pellaalriit callerkaatnek, ayarum-llu anirtuutngucianek.",
                 "Talks about protecting the body, rain gear in the winter, what to do when stranded, and how a staff saves your life."
             ],
-            "-2": [
+            "20": [
                 "03:07",
                 "Qalarrluni pirtunguskani callerkaanek, pirciqan-llu uqisvigkiullerkaanek.",
                 "Talks about what to do if a blizzard sets during travels, and shelter in a blizzard."
             ],
-            "-3": [
+            "30": [
                 "04:30",
                 "Qanemciluni qanikcaam aciani epsarpiallermeggnek, qanikcaam epsalngunarqucianek, aniguyat-llu alerquutaitnek.",
                 "Talks about how they almost suffocated under snow, how suffocating snow is, and snow shelter advice."
             ],
-            "-4": [
+            "49": [
                 "07:03",
                 "Qanemciluni ilameggnek nalluvkanrilucimeggnek, maa-i cakucimeggnek nalluciatnek, imumi-llu nepaitellratnek.",
                 "Talks about strong familial knowledge in the past, modern lack of familial relations, and peace in the past."
             ],
-            "-5": [
+            "72": [
                 "10:07",
                 "Qanemciluni yuut cimillratnek, Yuut assirillratnek [cautemteggun] tau͡gaam cali assiirutellratnek [qaneryaratgun], ilakutlermeggnek, imumi-llu nangteqellratnek.",
                 "Talks about how people have changed, being better [materially] but worse [morally/spiritually], past sense of community, and past destitution."
             ],
-            "-6": [
+            "89": [
                 "12:43",
                 "Qalarrluni kassuusngalriit caurcauciitnek.",
                 "Talks about marital duties."
             ],
-            "-7": [
-                "15",
-                "Qalarrluni aipaqutellriik maligtaquyutarkauciagnek.",
-                "Talks about spouses’ agreement."
-            ],
-            "-8": [
+            "126": [
                 "17:44",
                 "Qalarrluni tukangcaryaram qanruytainek, nallutailuciatnek, allat takuatni takairuyuciatnek nep’nguciatnek-llu, taangam aipaqellrianun navguutngucianek, taangam aturtainun ikayuqengnaquciatnek, imumi nepailuciatnek, assirlutek-llu aipaqucaramek.",
                 "Talks about properly raising children, how they aren’t ignorant, how people aren’t respectful or quiet around others anymore, how alcohol destroys couples, working on alcohol abuse, how peaceful it was in the past, and how to be a good couple."
@@ -2322,32 +2317,32 @@ export const summaries = {
             "Name 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:00",
                 "Qanemciuq ciuliamta nepailuciatnek, ciulirneret qanrutesteńguciatnek, akingellerkameggnek pivkenateng piilnguut ikayullerkaita alerquutngucianek, piilnguut-llu ikayullrata kingukeggucianek.",
                 "Talks about peaceful ancestors, how elders were teachers, traditional instruction to help the needy without expecting payment, and how helping the needy has rewards in the future."
             ],
-            "-2": [
+            "16": [
                 "01:56",
                 "Qanemciluni qaneryariurtet Alussistuam-llu tekiteqerraallratnek, neqnek Kass’artarnek-llu cikiqenglallratnek, ilameng-llu atrit cikiryaraitnek.",
                 "Talks about the introduction of preachers and Christmas, giving food and Western things, and gifts for nameseakes."
             ],
-            "-3": [
+            "48": [
                 "05:32",
                 "Qanemciluni tuyunek ayagcetanek, qasgimi-llu Qaneryariulrianek.",
                 "Talks about traveling priests, and preaching in the community house"
             ],
-            "-4": [
+            "69": [
                 "07:49",
                 "Qalarrluni Jesus-aam yuurtellranek.",
                 "Talks about the birth of Jesus."
             ],
-            "-5": [
+            "92": [
                 "10:32",
                 "Qalrrluni ukveryaramek.",
                 "Talks about faith."
             ],
-            "-6": [
+            "114": [
                 "13:14",
                 "Qalarrluni [Agayumayarakun] Alussistuam kangianek, pakmani-llu tanqigmek camani-llu tan’germek.",
                 "Talks about the [Christian] origin of Christmas, and light above and darkness below."
@@ -2377,97 +2372,97 @@ export const summaries = {
             "Name 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:00",
                 "Qalarrluni angutngurtellrianek arnaurtellrianek angukara’urlurnek arnassagarnek-llu, alerquutet kinguvararkauciatnek, ilakuyucaramek, ukvelriit allakaunriluciatnek, kenkekun-llu anirtuumayaramek.",
                 "Talks about the difference between older men and women and old men and women, passing down traditional instructions, cooperation, religious unity, and salvation and through love."
             ],
-            "-2": [
+            "24": [
                 "02:41",
                 "Qanemciluni qasgimi eneni-llu qalartellrianek, tuatnayuiruyuciatnek, ilakuyucarakun-llu anirtuumayaramek.",
                 "Talks about instruction in the community house and the women’s houses, how that’s not done anymore, and salvation through cooperation."
             ],
-            "-3": [
+            "41": [
                 "04:53",
                 "Qanemciluni ayagyuat Kassaurtellratnek Yugtarnek-llu nalluciatnek, Yugtarnek-llu elicungcallerkaatnek.",
                 "Talks about youth being Westernized and not knowing Yup’ik things, and teaching youth about Yup’ik things."
             ],
-            "-4": [
+            "47": [
                 "10:26",
                 "Qanemciluni Kass’anek tangerqerraallerminek, elitnaurvingqerraallermeggnek, elitnaurviit akusrarrnarquciatnek, yaaqvaarni-llu elitnaurvigteggun usviirutarkauciatnek.",
                 "Talks about seeing Caucasians for the first time, first schools, how schools breed mischief, and how people predicted that schools will make people foolish in the future."
             ],
-            "-5": [
+            "74": [
                 "13:00",
                 "Qanemciluni angalkunek ciknaameng umyuarrliqellrianek, tan’geriaqan anyuiluciminek, qessamkat kaigasteńgurtarkauciatnek, ellatuluteng-llu alerquumallermeggnek.",
                 "Talks about shamans abusing their power because of jealousy, how she wouldn’t go out after dark, how lazy people become beggars, and instruction to be sensible."
             ],
-            "-6": [
+            "89": [
                 "15:05",
                 "Qanemciluni irniateng inerqurluki qalartellrianek, ellangeqerraallermeggni niitellermeggnek kinguvalauciatnek, aipaqucaramek, niitellermeggenk atullermeggnek-llu qalartelauciatnek, irniateng-llu ceńirutesqevkenaki.",
                 "Talks about instruction about admonishing children, how elders passed on wisom from their early childhoods, how to be good spouses, how wisdom is from what they heard and experienced, and not to take children to others’ houses too much."
             ],
-            "-7": [
+            "110": [
                 "17:30",
                 "Qalarrluni pitat auluklerkaitnek, uimeng akingutarraitnek quyasqelluki, akiuteteng elluarrluki atuusqelluki, eneteng-llu uitanqegcinarqesqelluki.",
                 "Talks about taking care of catch, being grateful for whatever money earned, to spend money responsibly, and to make one’s house hospitable."
             ],
-            "-8": [
+            "131": [
                 "20:03:612 - 00:22:50",
                 "Qalarrluni qanrutestekairutellrianek, maa-i qanrucilrianek, aipamikun kiingan irniangesqelluku, aipangvailegmeng irniangesqevkenaki, inerquutet atuusqevkenaki, Kass’artaat-llu maligtaqussiyaagesqevkenaki.",
                 "Talks about the lack of traditional instructors, modern instruction, to have children with one person, warnings against premarital pregnancy, not to go against admonishments, and not to do too many Western things."
             ],
-            "-9": [
+            "154": [
                 "22:50",
                 "Qalarrluni yuullerkaq ikgelan yuuluaqaasqelluki, akingengnaqluteng-llu elluarrluki atuusqelluki.",
                 "Talks about how to live right because life is short, and to make money and spend it wisely."
             ],
-            "-10": [
+            "166": [
                 "24:25",
                 "Qanemciluni ingrini pissuryaranek, imumi-llu tamakuni pissutullratnek.",
                 "Talks about hunting grounds in the mountains, and hunting in those areas in the past."
             ],
-            "-11": [
+            "195": [
                 "27:49",
                 "Qanemciluni akingaluviatnek, allanek-llu pissuryaranek.",
                 "Talks about the legend of Ulurrugnaq, and more hunting grounds."
             ],
-            "-12": [
+            "240": [
                 "32:13",
                 "Qanemciluni enernek nataqellermek, neqsuryaranek-llu.",
                 "Talks about someone finding bones, and fishing."
             ],
-            "-13": [
+            "329": [
                 "38:10",
                 "Qanemciluni [?Ircaqurrnami] Heart Lake-ami catangqerrucianek.",
                 "Talks about a creature in Heart Lake [?Ircaqurrnaq]."
             ],
-            "-14": [
+            "348": [
                 "39:45",
                 "Callerkuam kituucini nalqigutaa, qanemciluni-llu agayuvigmi calillerminek, council-aameggni calillerminek, anguyagtet-llu Alaska-m-llu pisqutainek elitellerminek.",
                 "Callerkuaq self introduction, talks about working in the church, working with the tribal council, and learning about federal and state laws."
             ],
-            "-15": [
+            "374": [
                 "42:11",
                 "Qalarrluni taangakun arenqiallugtellrianek, murilkellermini Mamterillerni taangamek, helping those with alcohol addiction, taangatulit nangruusqevkenaki, nunamini-llu taangatulit ikayurluki caliaminek.",
                 "Talks about negative impacts of alcohol, history of alcohol in Bethel, taangiqtulit ikayullerkaatnek, not to discriminate against addicts, and working locally with alcohol addiction."
             ],
-            "-16": [
+            "411": [
                 "46:56",
                 "Qalarrluni qanruyutnek, angayuqaagminek niisngallerkaanek, unugmi anesqevkenaki, qasgim qaneryariurviucia, qanrinanratni-llu anelria iquggliqciqnilallratnek.",
                 "Talks about traditional wisdom, obeying parents, not to go out at night, the community as an instructional base, and bad futures for those who go out during instruction."
             ],
-            "-17": [
+            "429": [
                 "49:12",
                 "Qanemciluni maa-i alerquinanriuciatnek, nepaitnamek inerquiyaramek, Yuut piciryarait state-amek qaingiumaciatnek, kinguliameggnek-llu elicungcarillranek.",
                 "Talks about the current lack of instruction, to admonish people to be peaceful, how their Yup’ik ways are being taken over by the state, and how he’s teaching one of the younger generations."
             ],
-            "-18": [
+            "452": [
                 "52:05",
                 "Qalarrluni anuqet ciunerkaita nallunailuciatnek, malrunlegteggun agyatgun sassiuryaramek, agyat anuqmun ataciatnek, Yuut kangingyaraitnek/kangiliryaraitnek, iqulirluku-llu quyatminek.",
                 "Talks about the foretellings of wind directions, telling time with seven stars, how the stars are connected to the wind, Yup’ik knowledge systems, and final thanks."
             ],
-            "-19": [
+            "479": [
                 "55:02",
                 "Willie qalarrluni AVCP-tgun nunacuaraat ataciurcecugluki caliameggnek, tamatum tungiinun kangiliryuucimeggnek ciutmurcuucimeggnek-llu, AFN-aat-llu callrucimeggnek.",
                 "Willie talks about AVCP’s unification issue, plans on education and progress on this issue, and what happened with AFN."
@@ -3204,27 +3199,27 @@ export const summaries = {
             "Role 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:00",
                 "Qanemciluni kit’ellrianek niiqurangelaucimeggnek, qayatkun ayagtullermeggnek, irnerrlugnek qaspernek, kinguqamegteggun qayat paingit meq iteryailkucitullratnek wagg’uq ket’garluki, angyat-llu kicuitellruciatnek.",
                 "Talks about hearing about more drownings, traveling by kayak in the past, having seal intestine pullovers, using their hems to prevent water from entering the opening [ket’garluki], and how boats would rarely sink."
             ],
-            "-2": [
+            "17": [
                 "02:01",
                 "Qalarrluni taangamek picurlalrianek, taanga kanevtellriatun pivkalaucianek, taangartangvailgan-llu camek nallullrucimeggnek.",
                 "Talks about the negative effects of alcohol, how alcohol is claiming many lives, and no misfortune before alcohol."
             ],
-            "-3": [
+            "30": [
                 "03:47",
                 "Qalarrluni ciin qanruyutet qanruteknanriuciatnek ilait nallunrilengraitki, qalaruyutet kitumek kingunengqeng’e’rmeng cimiyuiluciatnek, qalarutkestek’lallrin-llu nangenguciatnek.",
                 "Talks about why they don’t hear traditional wisdom anymore though some know, how traditional wisdom didn’t change from any source, and how there are no more traditional instructors."
             ],
-            "-4": [
+            "43": [
                 "05:45",
                 "Qanemciluni tegganret ayagyuat qanrucunairutniluki, qanrutketullrat atungniluki, ciuqvaar umyuaqetullruniluku, qanruyutet atunrirciqnitullruniluki, tekitarkaq-llu nallunrilnganaku qalartetullratnek.",
                 "Talks about how elders say that youth don’t heed advice anymore, how they’re fulfilling the predictions, how they used to keep the future in mind, that they used to say that people won’t adhere to wisdom anymore, and how they used to speak as if they knew the future."
             ],
-            "-5": [
+            "58": [
                 "07:48",
                 "Qalarrluni ayagyuanun paiciutekaminek, kenkutesqelluki, ilateng cangayugcetaaresqevkenaki, iqlutmun-llu ayagarcukaaranguciatnek.",
                 "Talks about leaving behind advice for youth, how people should treat each other with love, not to affront each other, and how people easily go astray."
@@ -4602,42 +4597,42 @@ export const summaries = {
             "Role 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:00",
                 "Qanemciluni Kass’artarnek piinateng yuutullermeggnek, Kass’artangucim-llu ilakucaramteńun agtuumacianek.",
                 "Talks about how they lived with no Western things in the past, and how Western contact has affected familial relationships."
             ],
-            "-2": [
+            "9": [
                 "00:49",
                 "Qalarrluni ilakellriit ayuquciata cimillranek, aanateng murilkurluki ayuqeliyugngaciatnek, elitnaurvigteggun caarkateng elicuiruyuciatnek, irniami iliit elitnauvsiaryarturraarluni taq’illranek enemi-llu cayuilucianek, alla-llu elitnauvsiaryarturpek’nani enemi ikayuutetucianek.",
                 "Talks about how family dynamics have changed, how children can learn to do things from their mothers, how schools are heavily impacting traditional learning, how one of her children dropped out of college and doesn’t help out around the house, and how another didn’t go to college but helped out around the house."
             ],
-            "-3": [
+            "40": [
                 "04:19",
                 "Qalarrluni tangvagluteng elicugngaciatnek, Cakayiinkugni uitatullerminek, elitnaullermini elitenritlerminek, ayagyuange’rmi uingellerminek, taqnerurtenqegcaarluteng-llu kassuutelangniluki.",
                 "Talks about learning through observation, staying with Cakayak and his wife, how little she learned at school, getting married at a young age, and how they now get married later."
             ],
-            "-4": [
+            "66": [
                 "06:43",
                 "Qanemciluni kassuutesqumatullermeggnek, angayuqrita yuvrirluki irniateng aiparkiutullratnek, angutet ilaita cayuiluciatnek, aipani-llu ayagyuarlutek kassuutellermegnek, uiminek ellaitnun pistekangarkaucimeggnek, allamek kenkellruniluni, uikani-llu takaqellruniluku.",
                 "Talks about how they were expected to marry, how parents examined and chose spouses for their children, how some men are lazy, how she and her husband married young, how her husband would provide for them, being in love with another, and being intimidated by her fiancee."
             ],
-            "-5": [
+            "89": [
                 "09:22",
                 "Qanemciluni anngani piunriqan uikaminek pistekangqerrarkaucimeggnek, aiparkiurani angerluku, aipaqeqerraallermegnek, uini unilluku ilaminun utertetullerminek, uiminek-llu cikiuteminek.",
                 "Talks about her husband being the provider when her brother passes away, agreeing to marry, their early marriage, staying with her family instead of husband, and her bridewealth."
             ],
-            "-6": [
+            "128": [
                 "12:58",
                 "Qanemciluni uksuarmi tegullratnek, uimi nengaugitellranek, uini kenegyagutellerminek, yagirayaram-llu inerquutngucianek.",
                 "Talks about getting married in the fall, her husband moving to her family’s village, waming up to her husband, and not to raise hands against each other."
             ],
-            "-7": [
+            "151": [
                 "15:13",
                 "Qanemciluni qingaqerraallerminek, Nick-am [uinga] Qaneryaranek naaquratullranek calilgutullranek-llu, ayagyuarluni Nick-am agayulirteńgurtellranek, qulngunrita’arnek irniangellermegnek, kipusvingellranek, taangartuyuitellermegnek, kipusvingumariluku-llu Anchorage-aartelallermegnek.",
                 "Talks about her first pregnancy, Nick [her husband] always reading the Bible and working hard, Nick becoming a pastor at a young age, having nine children, opening up a trading post, how they never drank alcohol, and traveling to Anchorage after getting his trading post."
             ],
-            "-8": [
+            "193": [
                 "19:59",
                 "Qanemciluni melqulegglainarkun kipusvimikun-llu Nick-am akingetullranek, angayuqrita elitnauristeńguciatnek, angayuqamegcetun elliryugngaciatnek, irniami anngaatnun aulukumacimeggnek, eneminek kagiuratullerminek, eruriyaramek-llu keniryaramek-llu.",
                 "Talks about how Nick earned money only through fur hunting and his trading post, how parents are teachers, how children can become like their parents, how her oldest son takes care of them, how she tries to keep the home clean, and washing dishes and cooking."
