@@ -27,8 +27,6 @@ class Video extends Component {
       audioURL: WEB_URL + "/KyukAudioLibrary/" + this.videoID + ".mp3",
       videoURL: YouTubeLinks[this.videoID],
       isPlaying: false,
-      startTime: null,
-      endTime: null,
       currentSection: null,
       showTranslation: null,
       parses: [],
@@ -60,36 +58,35 @@ class Video extends Component {
       topOffset: 138,
       mobileAudioOffset: 68,
       mobileVideoOffset: 190,
+      readerHeight: 0,
+      readerElementWidth: 0,
+      audioComponentHeight: 102,
 
     }
     // this.audio = new Audio(this.state.audioURL);
     // console.log(this.audio)
     // this.audio = new Audio(API_URL + "/kyukaudiolibrary/" +  this.videoID);
     // console.log(this.audio)
+    this.updateReaderDimensions = this.updateReaderDimensions.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
+
   }
 
   componentDidMount() {
-  	console.log(this.videoID)
+  	// console.log(this.videoID)
   	var circle = require('./transcription/'+this.videoID);
   	this.setState({ subtitles: circle.subtitles });
   	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
-  	// console.log(subtitles,circle.subtitles)
-    window.scrollTo(0, 0)
-    this.intervalID = setInterval(
-      () => this.tick(),
-      600
-    );
-  }
+    
+    window.addEventListener("resize", this.updateReaderDimensions);
+    window.addEventListener('scroll', this.handleScroll);
 
-  componentWillUnmount() {
-    clearInterval(this.intervalID);
-  }
+    if (this.videoPlayer) {
+      this.setState({
+        readerHeight: this.videoPlayer.clientHeight+13,
+      });      
+    }
 
-
-  tick() {
-
-    var elmnt = document.getElementById('sentence'+this.state.currentSentence);
-    var bounding = elmnt.getBoundingClientRect();
     var topOffset = 0
     if (this.props.innerWidth < 480) {
       if (this.props.audioOnly) {
@@ -100,39 +97,114 @@ class Video extends Component {
     } else {
       topOffset = this.state.topOffset
     }
-    // console.log(bounding.top, bounding.bottom, document.documentElement.clientHeight)
 
-    if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
-        // console.log('Element is in the viewport!');
-        this.setState({ activeElementLocation: 'center'});
-    } else if (bounding.top < topOffset) {
-        // console.log('Element is ABOVE the viewport!');
-        this.setState({ activeElementLocation: 'above'});
-    } else {
-        // console.log('Element is BELOW the viewport!');
-        this.setState({ activeElementLocation: 'below'});
+    window.scrollTo(0, 0)
+
+
+      if (this.props.audioOnly) {
+        this.intervalIDAudio = setInterval(
+          () => this.tickAudio(),
+          100
+        );
+      } else {
+        this.intervalID = setInterval(
+          () => this.tick(),
+          100
+        );        
+      }
+
+
+
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
+    clearInterval(this.intervalIDAudio);
+    window.removeEventListener("resize", this.updateReaderDimensions);
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+
+  handleScroll() {
+      var elmnt = document.getElementById('sentence'+this.state.currentSentence);
+      var bounding = elmnt.getBoundingClientRect();
+
+      if (bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
+          // console.log('Element is in the viewport!');
+          this.setState({ activeElementLocation: 'center'});
+      } else if (bounding.top < this.state.topOffset) {
+          // console.log('Element is ABOVE the viewport!');
+          this.setState({ activeElementLocation: 'above'});
+      } else {
+          // console.log('Element is BELOW the viewport!');
+          this.setState({ activeElementLocation: 'below'});
+      }  
+  }
+
+
+  updateReaderDimensions() {
+
+    if (this.videoPlayer) {
+      this.setState({
+        readerHeight: this.videoPlayer.clientHeight,
+      });      
     }
 
-    if (this.props.audioOnly) {
+    if (document.getElementById('readerelement') !== null) {
       this.setState({
-        currentTime : this.rap.audio.current.currentTime,
-      });
-    } else {
-      this.setState({
-        currentTime : this.rep.player.prevPlayed,
+        readerElementWidth: document.getElementById('readerelement').offsetWidth,
       });
     }
   }
 
-  componentDidUpdate(prevState) {
-    // if (this.state.endTime < this.rap.audio.current.currentTime) {
-    //    this.audio.pause();
-    // }
+  tick() {
+    this.setState({
+      currentTime : this.rep.player.prevPlayed,
+    });
+  }
+
+  tickAudio() {
+    this.setState({
+      currentTime : this.rap.audio.current.currentTime,
+    });
+  }
+
+  componentDidUpdate(prevProps,prevState) {
+
+    if (prevProps.audioOnly !== this.props.audioOnly) {
+      if (this.props.audioOnly) {
+        clearInterval(this.intervalID);
+        this.intervalIDAudio = setInterval(
+          () => this.tickAudio(),
+          200
+        );        
+      } else {
+        clearInterval(this.intervalIDAudio);
+        this.intervalID = setInterval(
+          () => this.tick(),
+          200
+        ); 
+      }
+    }
+
+    if (this.state.currentSentence !== prevState.currentSentence) {
+      var elmnt = document.getElementById('sentence'+this.state.currentSentence);
+      var bounding = elmnt.getBoundingClientRect();
+
+      if (bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
+          // console.log('Element is in the viewport!');
+          this.setState({ activeElementLocation: 'center'});
+      } else if (bounding.top < this.state.topOffset) {
+          // console.log('Element is ABOVE the viewport!');
+          this.setState({ activeElementLocation: 'above'});
+      } else {
+          // console.log('Element is BELOW the viewport!');
+          this.setState({ activeElementLocation: 'below'});
+      }      
+    }
 
 
-    // if (this.state.getCall !== prevState.getCall) {
-    //   console.log(this.state.getCall)
-    // }
+
 
     if (this.state.nextSentenceStart < this.state.currentTime) {
       let current = this.state.currentSentence;
@@ -140,20 +212,16 @@ class Video extends Component {
       while (current+1+i !== Object.keys(this.state.subtitles).length+1 && this.state.subtitles[current+1+i].startTime < this.state.currentTime) {
         i=i+1;
       }
-      // this.reference.current.scrollIntoView({
-      // behavior: 'smooth',
-      // block: 'center',
-      // inline: 'center',
-      // });       
-      // console.log(elmnt.offsetWidth > 0 && elmnt.offsetHeight > 0)
-      // console.log(document.getElementById('sentence'+(current+i)).offsetHeight)
-      // if (document.getElementById('sentence'+(current+i)).offsetHeight) {
-      // var elmnt = document.getElementById('sentence'+(current+i));
-      // }
+
+
+
 
       if (i > 1) {
         var elmnt = document.getElementById('sentence'+(current+i));
-        elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+        var bounding = elmnt.getBoundingClientRect();
+        if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
+          elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+        }
       }
 
       if (current+1+i === Object.keys(this.state.subtitles).length+1) {
@@ -181,7 +249,11 @@ class Video extends Component {
 
       if (i < -1) {
         var elmnt = document.getElementById('sentence'+(current+i));
-        elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+        var bounding = elmnt.getBoundingClientRect();
+        if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
+          var elmnt = document.getElementById('sentence'+(current+i));
+          elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+        }
       }
 
 
@@ -201,22 +273,7 @@ class Video extends Component {
       }
     }
 
-    // if (this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying && this.rap !== null) {
-    //   console.log(this.state.audioPlayerPlaying)
-    //   if (this.state.audioPlayerPlaying) {
-    //     null
-    //     // if (this.state.nextSentenceStart < this.rap.audio.current.currentTime) {
-    //     //   this.setState({
-    //     //     currentSentence: this.state.currentSentence+1,
-    //     //     nextSentenceStart: this.state.subtitles[this.state.currentSentence+2].startTime,
-    //     //   });
-    //     // }
-    //   } else {
-    //     console.log('hit')
-    //     clearInterval(this.k)
-    //     this.k = 0;
-    //   }
-    // }
+
   }
 
 
@@ -423,44 +480,44 @@ class Video extends Component {
 
   playSection = (i) => {
     // console.log(i)
+    clearTimeout(this.timer)
+
     this.setState({
-      endTime: this.state.subtitles[i].endTime,
       currentSection: i,
-    });
+    }, () => {
 
-    if (this.props.audioOnly) {
-    this.rap.audio.current.pause();
-    // console.log(i, this.rap, this.audio)
-    this.rap.audio.current.currentTime = this.state.subtitles[i].startTime;
-    this.rap.audio.current.play();
-    const timer = setTimeout(() => {
+      if (this.props.audioOnly) {
       this.rap.audio.current.pause();
-      this.setState({
-        startTime: null,
-        endTime: null,
-        currentSection: null,
-      });
+      // console.log(i, this.rap, this.audio)
+      this.rap.audio.current.currentTime = this.state.subtitles[i].startTime;
+      this.rap.audio.current.play();
 
-    }, (this.state.subtitles[i].endTime-this.state.subtitles[i].startTime)*1000+1000); // added a second trailing
-    // clearTimeout(timer);
-    } else {
-      this.rep.player.seekTo(this.state.subtitles[i].startTime)
-      this.setState({videoPlayerPlaying:true})
-      const timer = setTimeout(() => {
-        this.setState({videoPlayerPlaying:false})  
+      this.timer = setTimeout(() => {
+        this.rap.audio.current.pause();
         this.setState({
-          startTime: null,
-          endTime: null,
           currentSection: null,
         });
 
-      }, (this.state.subtitles[i].endTime-this.state.subtitles[i].startTime)*1000+1000);
+      }, (this.state.subtitles[i].endTime-this.state.subtitles[i].startTime)*1000+500); // added a second trailing
+      // clearTimeout(timer);
+      } else {
+        this.rep.player.seekTo(this.state.subtitles[i].startTime)
+        this.setState({videoPlayerPlaying:true})
+        this.timer = setTimeout(() => {
+          this.setState({videoPlayerPlaying:false})  
+          this.setState({
+            currentSection: null,
+          });
 
-    }
+        }, (this.state.subtitles[i].endTime-this.state.subtitles[i].startTime)*1000+500);
+      }
+
+    });
+
   };
 
   moveToTime = (i) => {
-    console.log(i) 
+    // console.log(i) 
     var seconds = 0;
     var time = i.split(':');
     if (time.length === 2) {
@@ -485,9 +542,21 @@ class Video extends Component {
   }
 
 
+  // checkIfScrollNeeded = () => {
+
+  //   var elmnt = document.getElementById('sentence'+this.state.currentSentence);
+  //   var bounding = elmnt.getBoundingClientRect();
+  //   if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
+  //     var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
+  //     elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+  //   }  
+
+
+  // }
+
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
@@ -504,19 +573,19 @@ class Video extends Component {
     // console.log(this.rep)
     // var clientHeight = this.rep.clientHeight;
     // console.log(clientHeight)
-    let readerHeight = 0
-    if (this.reader) {
-      readerHeight = this.reader.clientHeight+14
-    }
-    let audioHeight = 88+14
-    let topOffset = this.state.topOffset
+    // let readerHeight = 0
+    // if (this.videoPlayer) {
+    //   readerHeight = this.videoPlayer.clientHeight
+    // }
+    // let audioHeight = 88+14
+    // let topOffset = this.state.topOffset
     // let topOffsetAudio = 267
 
-    var readerElementWidth = 0
+    // var readerElementWidth = 0
 
-    if (document.getElementById('readerelement')) {
-      readerElementWidth = document.getElementById('readerelement').offsetWidth
-    }
+    // if (document.getElementById('readerelement')) {
+    //   readerElementWidth = document.getElementById('readerelement').offsetWidth
+    // }
 
 
     return (
@@ -543,8 +612,7 @@ class Video extends Component {
             ref={(element)=>{this.rap=element;}}
             onPlay={()=>{
               this.setState({audioPlayerPlaying:true})
-              var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-              elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+              // this.checkIfScrollNeeded()
           }}
             onPause={()=>{this.setState({audioPlayerPlaying:false})}}
           />
@@ -637,10 +705,7 @@ class Video extends Component {
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -724,10 +789,7 @@ class Video extends Component {
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\xa0'}</span>}
                   onClose={()=>this.setState({
@@ -812,11 +874,7 @@ class Video extends Component {
           {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
             <Popup
               trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                console.log(this.state.getCall);
-                if (!this.state.getCall) {
-                  this.setState({getCall:true,clickedWordIndex:[index,jindex]});
-                  this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                }
+                  this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
               }
               }>{j+'\n'}</span>}
               onClose={()=>this.setState({
@@ -927,8 +985,7 @@ class Video extends Component {
               playIcon
               onPlay={()=>{
                 this.setState({videoPlayerPlaying:true})
-                var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-                elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+                // this.checkIfScrollNeeded()
               }}
               onPause={()=>{this.setState({videoPlayerPlaying:false})}}
             />
@@ -997,10 +1054,7 @@ class Video extends Component {
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -1084,10 +1138,7 @@ class Video extends Component {
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\xa0'}</span>}
                   onClose={()=>this.setState({
@@ -1172,10 +1223,7 @@ class Video extends Component {
             <Popup
               trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                 console.log(this.state.getCall);
-                if (!this.state.getCall) {
-                  this.setState({getCall:true,clickedWordIndex:[index,jindex]});
-                  this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                }
+                  this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
               }
               }>{j+'\n'}</span>}
               onClose={()=>this.setState({
@@ -1286,12 +1334,10 @@ class Video extends Component {
               ref={(element)=>{this.rap=element;}}
               onPlay={()=>{
                 this.setState({audioPlayerPlaying:true})
-                var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-                elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
               }}
               onPause={()=>{this.setState({audioPlayerPlaying:false})}}
             />
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-topOffset-audioHeight,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset-102 ,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
 
 
@@ -1372,10 +1418,7 @@ class Video extends Component {
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -1457,11 +1500,11 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+          <Segment  onScroll={this.handleScroll} vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:9999,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1475,10 +1518,7 @@ class Video extends Component {
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\xa0'}</span>}
                   onClose={()=>this.setState({
@@ -1560,11 +1600,7 @@ class Video extends Component {
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                    console.log(this.state.getCall);
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedWordIndex:[index,jindex]});
-                      this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                   }
                   }>{j+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -1646,7 +1682,7 @@ class Video extends Component {
 
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
@@ -1662,7 +1698,7 @@ class Video extends Component {
         <Grid>
         <Grid.Row columns={2}>
         <Grid.Column width={7}>
-          <div class='reader' ref={(element)=>{this.reader=element;}}>
+          <div class='reader' ref={(element)=>{this.videoPlayer=element;}}>
             <div className='player-wrapper'>
             <ReactPlayer 
               className='react-player'
@@ -1675,15 +1711,14 @@ class Video extends Component {
               playing={this.state.videoPlayerPlaying}
               onPlay={()=>{
                 this.setState({videoPlayerPlaying:true})
-                var elmnt = document.getElementById('sentence'+(this.state.currentSentence));
-                elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
+                // this.checkIfScrollNeeded()
               }}
               onPause={()=>{this.setState({videoPlayerPlaying:false})}}
             />
             </div>
           </div>
 
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-readerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.readerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
               <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
               
@@ -1740,10 +1775,7 @@ class Video extends Component {
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -1825,10 +1857,10 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+          <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:9999,right:(readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:9999,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1840,10 +1872,7 @@ class Video extends Component {
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
                   trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]});
-                      this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
                   }
                   }>{k+'\xa0'}</span>}
                   onClose={()=>this.setState({
@@ -1925,11 +1954,7 @@ class Video extends Component {
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                    console.log(this.state.getCall);
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,clickedWordIndex:[index,jindex]});
-                      this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());
-                    }
+                    this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                   }
                   }>{j+'\n'}</span>}
                   onClose={()=>this.setState({
@@ -2010,7 +2035,7 @@ class Video extends Component {
             )}
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
