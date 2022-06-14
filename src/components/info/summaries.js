@@ -1554,6 +1554,475 @@ export const summaries = {
             "11.3"
         ]
     },
+    "cpb-aacip-127-032282mq.h264": {
+        "videoID": "cpb-aacip-127-032282mq.h264",
+        "title": "Winifred Beans - # 4",
+        "time": "12:53",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Out of state"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [
+                "Interviewee"
+            ],
+            "Name 2:": [],
+            "Role 2:": [
+                "Interviewer"
+            ]
+        },
+        "summary": {
+            "16": [
+                "01:00",
+                "Akmavet ayallermini irr’iklerminek, tangllerminek, umyuarteqlerminek-llu qalartuq.",
+                "Talks about traveling out of state, what she was amazed by, saw, and thought."
+            ],
+            "54": [
+                "04:29",
+                "Alaska-mi nunamini ellamek, allrakumi ellalinqigcarainek, ayagayaramek (ayagcuutnek-llu), yuuyaramek-llu/pingnatugyaramek-llu qalarrluni, akmani piyaraitnun ayuqeltassiirluki.",
+                "Talks about rural Alaskan climate, seasons, travel, subsistence compared to out of state."
+            ],
+            "77": [
+                "07:41",
+                "Akmavet ayallerminek, nengaumi-llu aaniin nuniinun piunriqatallrani quyurmeng ayallermeggnek qalarrluni.",
+                "Talks about traveling out of state, and going to see son-in-law’s mother with family for her death."
+            ],
+            "103": [
+                "11:00",
+                "Akmavet ayallermini irr’illerminek qanemciluni: qunguturat mermiutaat [aquarium], ellicartaita-llu anglicetaallratnek [water show].",
+                "Talks about what she was amazed at out of state: aquarium and water show."
+            ]
+        },
+        "elderTags": [
+            "23.50"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-0644j37r.h264": {
+        "videoID": "cpb-aacip-127-0644j37r.h264",
+        "title": "Yuk 72 - # 7",
+        "time": "10:06",
+        "metadata": {
+            "Date": [
+                "1990*"
+            ],
+            "Short Summary:": [
+                "Elder interview (Yup’ik Language)"
+            ],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "cultural"
+            ],
+            "Quality:": [
+                "Poor video"
+            ],
+            "Genre 4 (Location):": [
+                "Bethel, AK"
+            ],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": []
+        },
+        "summary": {
+            "3": [
+                "00:53",
+                "Qalartuq ellangellerminek, pingnatugyaramek, calitullerminek, elluarluni-llu caliyaramek.",
+                "Talks about early memories, subsistence, past work, and work ethic."
+            ],
+            "33": [
+                "04:37",
+                "Qalarrluni-llu qanruyutnek, qessayaram kaignarqucianek, caliamini-llu assikumaciminek.",
+                "Talks about traditional wisdom, laziness leading to hunger, and being favored at his job."
+            ],
+            "49": [
+                "06:46",
+                "Mukaat, saarralat, saayut, kaassat, uqulkuut-llu imumi akikitellruciatnek maa-i-llu akituciatnek qalarrluni.",
+                "Talks about past low and current high prices of pantry staples, gasoline, and motor oil."
+            ],
+            "65": [
+                "08:11",
+                "Piicagluni iqulirluku-llu.",
+                "Prayer and last words."
+            ]
+        },
+        "elderTags": [
+            "23.124"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-149p8hcz.h264": {
+        "videoID": "cpb-aacip-127-149p8hcz.h264",
+        "title": "Nauyaq Anna Andrew - # 15",
+        "time": "22:02",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Culture"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:01",
+                "Qalartuq imumi yuullermeggnek, aipangyaram-llu qanruyutainek (nepaunatek aipaqlerkaak navguutiik-llu).",
+                "Talks about the old way of life, and traditional wisdom about marriage (what makes it peaceful and what destroys it)."
+            ],
+            "19": [
+                "02:59:134 - 00:07:51",
+                "Ayagyuat qanruyutait ilateng mulngakesqelluki, neplingnaqevkenani yuullerkaq, neplitngulriit allamiuni nalluyuunaki, ilaminun tuss’arauyaraq, maa-i-llu akusrarrnarqellriit.",
+                "Traditional wisdom for young people to treat each other well, not to start commotion, how word of mischievous people spread, to serve others, and current sources of mischief."
+            ],
+            "46": [
+                "08:00",
+                "Uimi aknirutekaanek qanlaasqevkenaku, irniateng mikelnguut qalarut’laasqelluki, irniateng eyurnaktukait yaggviktukait-llu ikiurtelauciat, nekayung’e’rmi-llu wall’u qiakuni tangercetesevkenani irniaminun.",
+                "Do not say hurtful things to your husband, instruct their small children, how defending and raising a hand against children makes them bad, and not to slander or cry in front of your children."
+            ],
+            "78": [
+                "12:41",
+                "Uingqerrsaraq, arnassagarnek-llu inerquutet uimeng tungiitnun.",
+                "How to live with a husband, and admonishments from old ladies about husbands."
+            ],
+            "92": [
+                "15:27",
+                "Angutet umyualinqigcarait arnat-llu umyualinqigcuiluciat.",
+                "Men’s ability and women’s inability to change their ways."
+            ],
+            "103": [
+                "17:22",
+                "Arnaurtellerminek qalarrluni: cat tamalkuita eruusqelluki, angutet wall’u neqet amlliisqevkenaki, nuyavvlugtesqevkenani, angutet-llu mulngakesqelluki. Angutet arnat-llu caumacuunateng angutet qumaqitnayukluki, qantateng tuaten mumigucuunaki. Arnat ilait uinguangaqluteng.",
+                "Talks about first menstruations: wash everything, not to step over men or food, keep hair neat, and be careful around men. Men and women were kept separate to prevent a sex crazed man, including separating bowls. Some women get imaginary husbands."
+            ]
+        },
+        "elderTags": [
+            "23.33"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-225b014v.h264": {
+        "videoID": "cpb-aacip-127-225b014v.h264",
+        "title": "Mik'aq Eliza Chase - # 21",
+        "time": "22:05",
+        "metadata": {
+            "Date": [],
+            "Short Summary:": [
+                "Traditional wisdom for young people to treat each other well, not to start commotion, how word of mischievous people spread, to serve others, and current sources of mischief."
+            ],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Culture"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": []
+        },
+        "summary": {
+            "7": [
+                "00:23",
+                "Qalartuq angayuqaagminun uikaminek cucukliucimallerminek, irniameng-llu aiparkiuryaraitnek.",
+                "Talks about parents arranging for a husband, and the process of arranged marriage."
+            ],
+            "15": [
+                "01:33",
+                "Qalarrluni tan’gaurluut nasaurluut-llu aipaqucuiluciatnek",
+                "Talks about how boys and girls wouldn’t play or get into relationships"
+            ],
+            "18": [
+                "02:02",
+                "Elluarluni nulirruyaraq (wall’u uingqerrsaraq), ayuqeltassiirluki arnat imumi maa-i-llu, (Yuut piciryaraicetun) takairutellrat elitnaurvigni eneni-llu, elitnauryallerminek-llu.",
+                "How to be a good wife (or live with a husband), comparing women back then and now, loss of traditional social conduct at school and home, and when she went to school."
+            ],
+            "59": [
+                "06:36",
+                "Arnassagarnek elilluni elluarluni aipaullerkaminek aanaullerkaminek-llu, avvucaraq kassuusngayam-llu angtuarucia, Yuut-llu qanruyutait elitesqelluki.",
+                "Learning from old women about how to be a good spouse and mother, divorce and the importance of marriage, and to learn from Yup’ik wisdom."
+            ],
+            "105": [
+                "11:50",
+                "Aiparkiutni-llu kassuusngallermegnek qalarrluni, maa-i avvuyutketukait, taangam iqui taqsaraa-llu, taqraarluteng ilateng-llu utumarcarait, imumi avvutellrianek tangyuitellerminek",
+                "Talks about her arranged marriage, modern causes of divorce, effects of alcohol and recovery, healing from alcohol recovery, how she’s never seen divorce/separation back then"
+            ],
+            "165": [
+                "19:25",
+                "Qalarrluni angayuqaagminek niisngalleq elluarluni yuunaqniluku, aipateng qigcikesqelluki qaillun tangellrit ayuqengraata, mikelnguut-llu elitellrit elitnaurvigmun cimillrat.",
+                "Talks about how obeying parents leads to a good life, respecting spouses no matter what they look like, and how children’s education is replaced with school."
+            ]
+        },
+        "elderTags": [
+            "23.28"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-257d81kk.h264": {
+        "videoID": "cpb-aacip-127-257d81kk.h264",
+        "title": "Narullgiar Elena Nick - # 23",
+        "time": "18:22",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [
+                "Narull’aq, Elena"
+            ],
+            "Role 1:": [
+                "Interviewee"
+            ],
+            "Name 2:": []
+        },
+        "summary": {
+            "14": [
+                "00:54",
+                "Qanemciluni nasaurluullermini Nalqiglimi iqvaryatullerminek, atsat qemagcaraitnek, tunumek-llu akutetullermeggnek cimiucianek-llu saalamun.",
+                "Talks about picking berries in her childhood in Nalqigliq, stories berries, and making Yup’ik ice cream with tallow and its replacement with shortening."
+            ],
+            "64": [
+                "05:31",
+                "Qalarrluni akutanek atsanek, avelngaat avutukaitnek, quagcinek-llu, Kuigpagmiutarnek akakiilegnek, mak’anek-llu qerpertanek-llu.",
+                "Talks about Yup’ik ice cream with berries, mouse food, and sourdock, a Yukon variation with whitefish meat, and ones made with aged salmon roe and whitefish roe."
+            ],
+            "113": [
+                "10:00",
+                "Qalarrluni qayatgun iqvaryatullermeggnek, qavartatullermeggnek, tan’gerpiit-llu surat-llu qemagcaraitnek.",
+                "Talks about going to pick berries by kayaking, camping, and storing crowberries and blueberries."
+            ],
+            "150": [
+                "12:33",
+                "Qalarrluni akucaramek kavirlinek/tumaglinek, qerpertanek-llu.",
+                "She talks about making Yup’ik ice cream with low-bush cranberries, and with whitefish roe."
+            ],
+            "172": [
+                "17:17",
+                "Qalarrluni tan’gerpautminek, [apqaurtem] aanii-llu nasaurluullrani ayagatullermeggnek, mingqelriignek-llu.",
+                "Talks about a store of crowberries, traveling with [interviewer’s] mom when she was a girl, and sewing."
+            ]
+        },
+        "elderTags": [
+            "23.32"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-257d81m9.h264": {
+        "videoID": "cpb-aacip-127-257d81m9.h264",
+        "title": "Yuk 57 - # 24",
+        "time": "22:06",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Culture"
+            ],
+            "Quality:": [
+                "Good"
+            ],
+            "Genre 4 (Location):": [
+                "Kangirnaq [Kongigonak]"
+            ],
+            "Name 1:": [
+                "Mary Worm"
+            ],
+            "Role 1:": [
+                "Interviewee"
+            ],
+            "Name 2:": [
+                "Kakianq [Adolph Lewis]"
+            ],
+            "Role 2:": [
+                "Interviewer"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "Qanemciuq angayuqaagmi uikarkiullragnun Kelliqucirmiuni aipangllerminek, Cevv’arnermiut yaaqsinrilkiitni Isrimiuni yuurtellerminek, Isrimiuni-llu up’nerkiyatullermeggnek.",
+                "Talks about her arranged marriage in Kelliqucirmiut, being born in Isrimiut near Chefornak, and sping camp at Isrimiut."
+            ],
+            "31": [
+                "03:41",
+                "Qanemciluni ircenrraat angutet tekiskuneng ut’rutarkaitnek nasvatullratnek, apa’urluan uurcaq agiirtellria atuutetullranek, aturluku, angutet-llu pitarugameggnek ut’rutellratnek.",
+                "Talks about legendary little people foretelling the men’s catch, his grandfather singing a welcoming song seeing the signaling gaff, singing the song, and the men bringing lots of catch."
+            ],
+            "62": [
+                "07:37",
+                "Qalarrluni kinguliaminek.",
+                "Talks about his descendants."
+            ],
+            "75": [
+                "09:27",
+                "Qalarrluni nallmini angalkunek assilrianek assiilngurnek-llu, qinuciktullratnek, qanernailngurnek angalkunek, qavamini-llu angalkurtellerminek.",
+                "Talks about good and bad shamans in her time, seeing them on the verge of death, peaceful shamans, and how she withstood a shaman in her dream."
+            ],
+            "121": [
+                "15:18",
+                "Qanemciluni angalkumek Cegg’amek au͡g’umek qavangurturcetesteminek.",
+                "Talks about the shaman Cegg’aq who gave her those dreams."
+            ],
+            "151": [
+                "18:32",
+                "Qanemciluni Kuigilnguum [kuigem] paingani pelatekarugarnek angutet imarpigmiutarcullratni, Cegg’am-llu piunrillranek.",
+                "Talks about many tents at the mouth of Kuigilnguq river as the men hunted in the ocean, and Cegg’aq passing away."
+            ]
+        },
+        "elderTags": [
+            "23.109"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-2908kvc9.h264": {
+        "videoID": "cpb-aacip-127-2908kvc9.h264",
+        "title": "Narullgiar Elena Nick - # 30",
+        "time": "22:12",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Culture"
+            ],
+            "Quality:": [
+                "Good"
+            ],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": []
+        },
+        "summary": {
+            "6": [
+                "00:32",
+                "Qanemciluni Kass’ani uitatullerminek [Cakayiinkuni, John Samuelson] kipusvilegmek Nunapicuarmi, nunat ancitullratnek, Cakayiim-llu akusrarrluni irniaruciucianek.",
+                "Story about how she stayed with Caucasians [Cakayak, John Samuelson, and family] with a trading post in Nunapitchuk, how villages exiled members, and how Cakayak fathered many children."
+            ],
+            "33": [
+                "02:24",
+                "Qanemciluni Qaluyaani yuurtellerminek, Kusquqvagmun upallermeggnek, elitnauryallerminek-llu.",
+                "Stories of being born on Nelson Island, moving to the Kuskokwim, and going to school."
+            ],
+            "58": [
+                "05:34",
+                "Qalarrluni ciulirneret elitnauryallratnek, Yugtun-llu qalarcaaqaqata anucimirqecetaarumauciatnek.",
+                "Talks about elders going to school, and being punished for speaking Yup’ik."
+            ],
+            "70": [
+                "06:36",
+                "Qalarrluni maa-i elitnaullermeggnun cumiguciatnek.",
+                "Talks about more focus on school now."
+            ],
+            "81": [
+                "07:42",
+                "Qalarrluni maa-i tukuurtellratnek imumi-llu arrsauciatnek.",
+                "Talking about how people have abundance today and how they didn’t have much back then."
+            ],
+            "105": [
+                "09:52",
+                "Qanemciluni Cakayiinkuni uitatullerminek, cat-llu tamalkuita erullerkaatnek carrirturallerkaatnek-llu elitellerminek.",
+                "Story about how she stayed with Cakayak and family, and how she learned to clean everythign"
+            ],
+            "120": [
+                "11:39",
+                "Qalarrluni arnassagaam alerquutainek erurirturaasqelluku taqnerureskuni-llu, maa-i ayagyuat piyugngang’e’rmeng uitaurturauciatnek, arnassagaam-llu alerquutainek uingekuni aulukurarkaucianek.",
+                "Talks about instruction from an older woman for cleaning and when she gets older, how modern teenagers know how to clean but don’t do anything, and how the old woman told her to work hard when she gets a husband."
+            ],
+            "157": [
+                "15:16",
+                "Qalarrluni arnat aanateng tangvagluki elitelauciatnek, panimini-llu mingqellri aulukumaciatnek.",
+                "Talks about how daughters learn from watching their mothers, and how her daughters take care of what she sewed for them."
+            ],
+            "186": [
+                "18:32",
+                "Qalarrluni maa-i tukuurtellratnek, nuliameggnek-llu ikayurnarquciatnek, angutet arnat-llu caliarkait, maa-i-llu ayagyuat cayuilata naklekniluki.",
+                "Talks about modern abundace, how men should help their wives, men’s and women’s work, and how she pities the youth who don’t do chores."
+            ]
+        },
+        "elderTags": [
+            "23.32"
+        ],
+        "tags": []
+    },
+    "cpb-aacip-127-322bvwfr.h264": {
+        "videoID": "cpb-aacip-127-322bvwfr.h264",
+        "title": "Yuk 58 - # 31",
+        "time": "20:47",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Culture"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "Qalartuq imumi aklumeng neqkat-llu auluksaraitnek.",
+                "Talks about taking care of clothes and food back then."
+            ],
+            "12": [
+                "01:11",
+                "Qalarrluni alerquutnek aipangvailegmi agturcetenritlerkaanek, imumi aipangvailegmeng aipaqsuilucimeggnek, aipangvailegmeng irniangellrem kasngunarqucianek, maa-i-llu ayagyuat aipangvailegmeng irnillrata tungiinun.",
+                "Talks about traditional instructions about premarital relations, how they didn’t have relationships before marriage back then, how it was embarrassing to have illegitimate children, and her thoughts on youth having illegitimate children.s"
+            ],
+            "44": [
+                "04:37",
+                "Qalarrluni ayagyuat angayuqateng unilluki ayagalauciatnek, college-aaryartulauciatnek, ilaita-llu taangaryuuciatnek.",
+                "Talks about youth travling without their parents, going to college, and some getting into alcohol."
+            ],
+            "59": [
+                "06:27",
+                "Qanemciluni elitnaullermini maurluni-llu uitatullerminek, maa-i-tun-llu yuut ayagavkenateng cangnatullratnek.",
+                "Talks about staying with her grandmother during school, and how people didn’t travel around like now but worked hard."
+            ],
+            "74": [
+                "08:09",
+                "Qanemciluni Paingarmiunun yuraliyauciminek, imumi yuralgulauciatnek, Qaariitaaryaramek, Ingula[r]yaramek, Elciyaramek, Kevgiyaramek-llu.",
+                "Talks about going to dance festivals in Paingarmiut, how there were many dance festivals back then, Qaariitaaq [Yup’ik Halloween], Ingula/Ingulaq dance festival, Elciq festival [precursor to the Bladder Festival], and Kevgiq [Messenger Feast]."
+            ],
+            "154": [
+                "16:50",
+                "Qanemciluni Kassiglumun upallermeggnek, agayulirtet-llu yuranermek taqevkallratnek.",
+                "Talks about moving to Kassigluq [Kasigluk], and the missionaries stopping dance festivals."
+            ],
+            "166": [
+                "18:11",
+                "Qanemciluni Mamterillernun upallrucimegnek, up’nerkiyalaucimeggnek, irniangucimegnek elitnauryallritnek-llu, Mamterillrem nunakuarcuucingellranek, irniani-llu suuliyatullermeggnek.",
+                "Talks about moving to Mamterilleq [Bethel], going to spring camp, having children and them going to school, increasing cars in Bethel, and going to the movies with her children."
+            ]
+        },
+        "elderTags": [
+            "23.110"
+        ],
+        "tags": []
+    },
     "cpb-aacip-127-35gb5sdj.h264": {
         "videoID": "cpb-aacip-127-35gb5sdj.h264",
         "title": "Yuk 20 - # 35",
@@ -1561,6 +2030,9 @@ export const summaries = {
         "metadata": {
             "Date": [
                 "1985*"
+            ],
+            "Short Summary:": [
+                "Cooking Eskimo fry-bread (Yup’ik Language)"
             ],
             "Genre 1:": [
                 "Mini-Doc"
@@ -1774,57 +2246,57 @@ export const summaries = {
             "Name 2:": []
         },
         "summary": {
-            "-1": [
+            "1": [
                 "00:01",
                 "Fred Pavilla qanemciluni Atmaulluarmun upallermeggnek, Yuut-llu neq’legni nunangqetullratnek.",
                 "Fred Pavilla alks about moving to Atmauthluk, and how Yupiit had settlements around food sources."
             ],
-            "-2": [
+            "9": [
                 "01:16",
                 "Qalarrluni ayagatulriit alerquutaitnek, ayarunek, imarnitnek, ellalliurcuutnek, uksum-llu alerquutainek.",
                 "Talks about traditional instructions for traveling, staffs, seal gut rain parkas, rain gear, and winter instructions,"
             ],
-            "-3": [
+            "31": [
                 "04:33",
                 "Qanemciluni irniangellerkami tungiinun alerquuteminek, eyurutesqevkenaki, eyurnaktukait-llu qaillun ayuqlirilauciatnek.",
                 "Talks about his insctruction on child-rearing, not to defend them, and how defended children become."
             ],
-            "-4": [
+            "43": [
                 "06:20",
                 "Qalarrluni arenqiallugtellriit kangiitnek levaanek taangamek-llu.",
                 "Talks about deaths increasing due to fast boat motors and alcohol."
             ],
-            "-5": [
+            "53": [
                 "07:57",
                 "Qalarrluni yuum irniani qalarutlerkaanek, yuucurlagnarqellrianek, niicunrilnguut-llu mistuciatnek.",
                 "Talks about instructing children, the causes of people not living well, and how those who misbehave are well known."
             ],
-            "-6": [
+            "66": [
                 "09:39",
                 "Qalarrluni yuut qaillun ayuqengraata ilaliuresqelluki, ciuniuresqelluki, ikayuusqelluki-llu.",
                 "Talks about socializing with people no matter what they’re like, be hospitable, and help them."
             ],
-            "-7": [
+            "85": [
                 "11:57",
                 "Arnaq qalartuq arnat alerquutaitnek, tan’gaurluut-llu qanruyutait.",
                 "Woman talks about traditional instructions for women, and traditional wisdom for boys."
             ],
-            "-8": [
+            "92": [
                 "12:47",
                 "Qanemciluni anglluumaluteng ellangellerminek, qanruyutnek, unugmi anesqevkenaki, qalarucilriit ullaasqelluki, mulngakluki-llu yuusqelluki.",
                 "Talks about being baptized in earliest memories, traditional wisdom, not to be out at night, going to listen to instruction, and to live carefully."
             ],
-            "-9": [
+            "108": [
                 "15:05",
                 "Qalarrluni qanlerasqevkenaki, tan’gaurluut-llu qanleratevkenaki.",
                 "Talks about not speaking harshly, and not speaking harshly to boys."
             ],
-            "-10": [
+            "115": [
                 "16:21",
                 "Qalarrluni yuut alarteqatullratnek, cailkami qanrutestairutellratnek, inerquutet-llu niitenrilkunegteggu callerkaatnek.",
                 "Talks about making miskates, not having instructors in random places, and consequences of not heeding admonishments."
             ],
-            "-11": [
+            "127": [
                 "18:08",
                 "Qanemciluni aipangqatallermini qanrucimallerminek, talliirutlerminek, aipangllerkami tungiinun inerquutnek, irniangellerkami tungiinun qanruyutnek, maa-i irniangelrianek, angutet-llu aipangllerkaatnun alerquumallratnek.",
                 "Talks about her instruction before marriage, losing her arm, admonishments about marriage, wisdom on having children, modern parents, and men being instructed on marriage."
@@ -2286,6 +2758,11 @@ export const summaries = {
                 "12:43",
                 "Qalarrluni kassuusngalriit caurcauciitnek.",
                 "Talks about marital duties."
+            ],
+            "110": [
+                "15:26",
+                "Qalarrluni aipaqutellriik maligtaquyutarkauciagnek.",
+                "Talks about spouses’ agreement."
             ],
             "126": [
                 "17:44",
@@ -5035,18 +5512,574 @@ export const summaries = {
             "22.12.2.4"
         ]
     },
-    "cpb-aacip-127-032282mq.h264": {
-        "videoID": "cpb-aacip-127-032282mq.h264",
-        "title": "Winifred Beans - # 4",
-        "time": "12:53",
+    "cpb-aacip-127-816m99hb.h264": {
+        "videoID": "cpb-aacip-127-816m99hb.h264",
+        "title": "Maqista Joshua Phillip - # 80",
+        "time": "1:02:05",
         "metadata": {
-            "Date": "Unknown"
+            "Date": [],
+            "Genre 1:": [
+                "Compilation"
+            ],
+            "Genre 2:": [
+                "Personal History, Cultural"
+            ],
+            "Quality:": [
+                "Genre 4:"
+            ],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": [],
+            "Role 2:": []
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:14",
+                "Qanemciuq qasgimi anglillerminek, aliimatmeggnek akicitullermeggnek, apa’aurluminun anglicaumallerminek, qavaumavkayuitellerminek, man’a-llu engelkarrluku qavaumayuiluciminek.",
+                "Talks about growing up in the community house, how they used their mittens as pillows, being raised by his grandfather, not being allowed to sleep long, and keeping the habit of not sleeping long."
+            ],
+            "23": [
+                "02:46",
+                "Qalarrluni ciulirneret qanyuiruciatnek, nuna meq-llu kencikesqumatullermeggnek, “qantamitun pitarrluku” qigcikiyaramek kangianek-llu, tan’gaurluq aipangvailegmi nasaurlurmek aipirtuasqevkenaku, wangkutnek navguacimteńek, taangamek, ciulirnemeggnek-llu qanqauquratullernek.",
+                "Talks about how elders don’t instruct anymore, how they were told to revere the land and water, to “respect as much as one’s own bowl” and what it means, for boys not to be with girls before marrying, how people are destroying themselves, alcohol abuse, and how elders used to always give instruction"
+            ],
+            "50": [
+                "05:59",
+                "Qanemciluni Qunuitmek Qinarmiumek Tuntutularmiungurtellermek, 1945-aami Tuntutuliarmiungurtellerminek, quyateminek-llu aturluni.",
+                "Talks about Qunuin from Qinaq who moved to Tuntutuliak, moving to Tuntutuliak in 1945, and sings a song of gratitude."
+            ],
+            "66": [
+                "07:59",
+                "Qanemciluni Qaneryaraunateng agayumalriarunateng-llu Qinarmiuni ellangellerminek, kinguqliminun anernerillermun ellangellerminek, Kass’at enurnallratnek, ataucimek Kass’ameggnek Parumek, elitnaurviitellermeggnek, qasgimi cakirkaminek Akagtamek alingetullerminek, maurluan-llu Akagtaq yugtutuniluku yukainaunritniluku-llu qanrutetullranek.",
+                "Talks about growing up in Qinarmiut with no Bible or Christians, first memories of their younger sibling dying, how few Caucasians there were, one resident Caucasian named Paru, how they didn’t have a school, how he was afraid of his future father-in-law Akagtaq in the community house, and his grandma saying Akagtaq was a cannibal and had supernatural powers."
+            ],
+            "90": [
+                "11:15",
+                "Qanemciluni yaqulegteqerraarutait nakaculitullratnek, pitqerraalria kalukautetullermeggnek, qangqiirteqerrallerminek, maurluan nakaculillranek, aatiin taluyaanek cangtameggnek-llu, pitqerraarami kalukaucimallerminek, tangviarrlugnek-llu akutanek.",
+                "Talks about first bird catches being threaded through the wings and dried, celebrating someone’s first catch, catching his first ptarmigan, his grandmother drying it, his father’s fish trap and the fish they caught, celebrating his first catch, and traditional Yup’ik ice cream with seal blubber."
+            ],
+            "123": [
+                "15:24",
+                "Qanemciluni qasgimi inarrviirulluteng qavalangllerminek, qanerturalriamun tupatullerminek, maqirraarluteng qanerturatullratnek, nuliangarkaulrianun-llu qaneryarait.",
+                "Talks about starting to sleep in the community house and how little room there was, how he’d wake up to instruction, instruction after fire baths, and instruction about getting a wife."
+            ],
+            "138": [
+                "17:39",
+                "Qanemciluni ciulirneri ayagyuallermeggni ayuqucirtuun pinirluku atullratnek, qanrucilriani amiik cigyagmek cani’irrviktullratnek, qanrucimalriani-llu tan’gaurluum ik’ikra cigyak asemlluku anlaucianek.",
+                "Talks about how strongly they practiced traditional instruction when the elders of his time were young, split spruce to block the door during instruction, and how improper boys would break the spruce and go out during instruction."
+            ],
+            "152": [
+                "19:30",
+                "Qanemciluni arnassagarnek eneni nasaurlurnek qalarucilrianek, uingekuneng auluklerkaitnek, tupiganek naqugutnek caniqerrilitnek, ataucimi enemi qavcinek ilakellrianek yungqetullratnek, qanrucimalriani nasaurluum anelriim taquitaanek, enem natainek, qanruyun atunritem ugaani angayuqriutetuciatnek, qanrucimalriani-llu tan’gaurluum anelriim taquitaanek.",
+                "Talks about elderly women instructing girls in the houses, how to take care of their future husbands, woven grass belts to block the door, how each house had several families, the fate for a girl who runs out during instruction, parts of a house, how those who don’t adhere to wisdom lose their parents, and the fate for a boy who runs out during instruction."
+            ],
+            "183": [
+                "23:16",
+                "Qanemciluni kalukalriani cauyagnek yuulagnek, aatiin allam-llu yualuk cauyatullragnek, arnat neruka’rnek itrulluteng yuraryartutullratnek, arnat naangata Yugtarrlainarnek nertullermeggnek, puyanek-llu.",
+                "Talks about two ceremonial drums [yuulak], his father and another drumming them, women coming in to dance with ceremonial bowls of food, eating nothing but Yup’ik food when the women were done, and puya [akutaq with moss soaked in seal oil, and berries]."
+            ],
+            "210": [
+                "26:26",
+                "Qanemciluni Itruka’armek, Itruka’armi angalkurtarnek yuarutetangqellranek, angalkunek yuralrianek, unisteḿi yuarucitullranek, Kevgimek, kevgak ayagtellukek kelegyartuusqetullermeggnek, Kevgiqatalriani-llu piyuutaitnek.",
+                "Talks about the “Inviting-In Feast” Itruka’ar, shaman songs during Itruka’ar, shamans dancing, his late father composing songs, the Messenger Feast, sending out two messengers for invitations, and requests for Kevgiq."
+            ],
+            "236": [
+                "29:41",
+                "Qanemciluni imumi angalkunek atutullratnek, ikayuqengtulunek umyuarrliqellrianek-llu angalkunek, anirtungnaqkait tallimani ernerni uluarayuitellratnek, angalkut piciryarait akusrarutngunritellranek, qasgimi tuunritetullratnek, angalkut-llu naulluutnek nangluki au͡g’atullratnek.",
+                "Talks about how prevalent shamans were back then, helpful and malicious shamans, how someone who was going to be saved would not use a knife for five days, how they took shamans seriously, shamanistic rituals in the community house, and shamanistic healing."
+            ],
+            "256": [
+                "32:33",
+                "Qalarrluni ayalriani qanikciurutem, cikuliurutem, ayarum-llu alerquutnguciatnek, imarnitnek, ellam cimirpagyugngacianek, pirtungutellerkani umyuaqurluku upingaasqelluku, qengaruk elagluku uqicaramek, murak-llu kapulluku ellvilisqelluku.",
+                "Talks about instruction to always travel with shovel, ice pick, and staff, seal gut rain parkas, how the weather can change drastically, to be ready in the winter for a blizzard, digging into a snowbank for shelter, and to stick a pole or staff for ventilation."
+            ],
+            "275": [
+                "35:38",
+                "Qanemciluni pissulallerminun tagkunallerminek, nunam uqlangucianek, imumi yullret nuna menuicet’lallratnek, Matthew Beans-aaq tengssuutmek nunam uqlaucianek tangerrsugngacianek, nunam uqlaucianek apertuikunaciminek.",
+                "Talks about planning to return to one of his old hunting grounds, pollution, how the people kept the land pristine back then, how Matthew Beans could see the pollution from a plane, and planning to spread the word about the pollution."
+            ],
+            "303": [
+                "39:33",
+                "Qalarrluni nuna kencikluku menuicet’lallratnek, mer’et nuna uqlarcecuitellratnek, Ellam Yuan tangvagturaucianek, nunam Agayutmun pikucianek, nuna uqlarcequranritlerkaanek, Kusquqviim uqlaucianek tanglauciminek, neqet cumacitauciatnek, ciuliat taringumallermegteggun inerqutullratnek, uqlangengan-llu unangetukeput nangengniluki.",
+                "Talks about how the land was kept pristine out of reverence, how they kept the waters and land from getting polluted, how the Spirit of the Universe is always watching, how the earth belongs to God, a responsibility to keep the land clean, seeing pollution on the Kuskokwim, how fish can’t stand pollution, how the ancestors admonished according to their understanding, and how food sources are depleting due to pollution."
+            ],
+            "332": [
+                "43:25",
+                "Qalarrluni nunam menuicequrallerkaanek, neqet naunraat-llu ikegliciatnek, nunam menuitellerkaa allamun ellisqevkenaku, kinguliateng-llu ayuqucirtunrilamegteki nuna tuaten ellircetniluku.",
+                "Talks about keeping the land clean, how fish and plants are depleting, not to put the responsibility of cleaning up the land to anyone else, and how hiding wisdom for the next generations caused pollution."
+            ],
+            "344": [
+                "45:35",
+                "Qalarrluni nuna menuitesqelluku ayuqucirtuusqelluki, imumi unangerpatullratnek, atuungailnguut kemget caksaraitnek, uqlalriim-llu atawaqertesciigalucianek.",
+                "Talks about instructing to keep the land clean, how many animals they used to catch long ago, to properly dispose of unused meat, and how a polluted land can’t be blessed."
+            ],
+            "360": [
+                "48:04",
+                "Qanemciluni aipangllerminek, irniateng eyurutesqevkenaki, eyuruskait-llu iqlungarituniluku niicuirulluteng-llu.",
+                "Talks about getting married, not to defend children, and how defended children become liars and disobedient."
+            ],
+            "372": [
+                "50:12",
+                "Qanemciluni Kass’artangellranek, massiinangenratgun taangakun-llu kanvengellratnek, Mamterillerni taangarvilitullranek, alerquilriani imumitun ayuqenriuciatnek, aarcirtuutet kenekmek kingunengqerrucianek, alerquutet-llu qanruyutet-llu narurtaita iquggliq’lauciatnek.",
+                "Talks about Westernization, increased deaths with boat motors and alcohol, how there were many bars in Bethel, how past and modern instruction are different, how warnings come from love, and how those who don’t heed wisdom or warnings do not turn out well."
+            ],
+            "390": [
+                "53:21",
+                "Qalarrluni nunam mer’em-llu auluknarquciagnek, nuna meq-llu kencikenriamtekek cairusngiinaucianek, ella enemcetun carrirturaasqelluku, nunam auluklerkaa kitumun allamun ellisqevkenaku, ella aulukesqelluku ayagyuat ayuqucirtuusqelluki, imumi-llu unangerpatullratnek.",
+                "Talks about the responsibility to care for the land and water, how things are depleting from not revering the land and water, to keep nature as clean as our houses, not to put the responsibility of taking care of the land on anyone else, to instruct young people to take care of nature, and how many animals they used to catch back then."
+            ],
+            "416": [
+                "56:52",
+                "Qalarrluni kemget tamalkuita alerquutnguciatnek, nerngailnguut enret-llu elaucaraitnek wall’u mermun eggluki, nuna uqlarluni atawaqercecimasciigalucianek, nunam carrillerkaan akitucianek, akimek pivkenateng nunam menuitellerkaanek umyuangqetullratnek, nunateng carriuratullruniluki, carriryaram-llu neqkamek unguvamayaramek-llu akqutengqerrucianek.",
+                "Talks about how all meat has traditional instructions, to properly dispose of uneaten meat and bones, how the land cannot be blessed when polluted, how expensive it is to clean up pollution, how they used to prioritize keeping the land pristin over money, how they kept their villages clean, and how cleaning up is rewarded with food and long life."
+            ],
+            "443": [
+                "59:56",
+                "Qanemciluni arnassagaurtem angukara’urluurtem-llu ugaani ciisqumeggnek ayapetullernek, Picuilnguum qanemcianek, picuileng’e’rmeng-llu carririuratulit picuriyugngaciatnek.",
+                "Talks about how people got so old that they had to support themselves on their knees, the story of Picuilnguq [Bad Hunter], and how bad hunters can become great when they continue to clean up."
+            ]
+        },
         "elderTags": [
-            "23.50"
+            "23.26"
         ],
-        "tags": []
+        "tags": [
+            "2.1.2",
+            "2.2.5",
+            "3.9.1.1",
+            "3.9.2.1",
+            "3.9.3",
+            "7.5.1",
+            "8.1.3",
+            "8.2",
+            "8.4.3",
+            "9.3.2",
+            "10.3.1",
+            "10.9.4",
+            "10.12.1",
+            "11.6.1",
+            "11.7",
+            "11.8.1",
+            "Qengaruk -- Shelter",
+            "11.8.1.2",
+            "11.8.2",
+            "Uingyaraq -- How to Work With a Husband",
+            "Nuliangyaraq, Nulirturyaraq -- How to Work With a Wife",
+            "Aipangyaraq -- Getting a Spouse",
+            "16.1.1.1",
+            "16.2.5",
+            "17.1.1",
+            "17.1.2",
+            "17.1.7",
+            "19.3.6",
+            "Caniqerrilin, Caniqerrilitaq -- Woven Grass Blet Blocking Door During Instruction",
+            "19.3.8",
+            "19.5.2.1",
+            "19.6",
+            "19.9.1",
+            "19.13",
+            "19.13.13",
+            "19.13.14.1",
+            "20.1",
+            "20.2.2",
+            "20.2.4.1",
+            "20.2.5",
+            "20.7",
+            "20.8",
+            "21.2.1",
+            "Taangaq --  Alcohol"
+        ]
+    },
+    "cpb-aacip-127-81jhb5w6.h264": {
+        "videoID": "cpb-aacip-127-81jhb5w6.h264",
+        "title": "Alek'aq Alexie Mochin - # 81",
+        "time": "22:26",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Personal History"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": [],
+            "Role 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:01",
+                "Qanemciluni Junior-aam irniarinek pingayunek, qavcinek iluperangqerrucimegnek, tuyuurteqarraallerminek, anglillermini Nanvarnarrliim ayuqucillranek, elitnaurvigmi pivkenani tangvaurluni elicungcallerminek, how Uyaquq [Lloyd Nick] was their pastor, qasgimi agayutullermeggnek, igamikun Uyaqum Qaneryarainek, tamaani-llu Qaneryaramek niiteqerraarucimeggnek.",
+                "Talks about Junior’s three children, how many great-grandchildren they have, when he first became a pastor, what Nanvarnarrlak was like growing up, how he learned by observation instead of in a school, Uyaqumek [Lloyd Nick] tuyungqellermeggnek, church services in the community house, Uyaquq’s Bible in his orthography, and how it was their first experience with the Bible."
+            ],
+            "31": [
+                "03:26",
+                "Qanemciluni maurlumi ellimerutiinek ella paqcarturraarluku qanemcitesqelluku, unuut iliitni pelatekamek tangllerminek, qamaken Qaneryaranek niiteqerraallerminek, niitellerminek naspaallerminek, cali-llu eneqakniluku.",
+                "Talks about his grandmother telling him to check on and report the weather, finding a tent one night, listening in and hearing the Bible for the first time, reciting the verses that he just heard, and how he still remembers it."
+            ],
+            "64": [
+                "08:00",
+                "Qanemciluni agayulirteńgullerminek, aatiin Robert-aamek Akiarmiumek kelellranek, Robert-aamun Qaneryaranek elicungcallerminek, Uyaqum igaryaraikun yuarutmek eliteqerraallerminek, agayulirteńgullermini-llu kalikaunani Qaneryariutullerminek.",
+                "Talks about being a pastor, his father inviting Robert from Akiaq [Akiak] to go eat, Robert teaching him from the Bible, learning his first song with Uyaquq’s orthography, and being able to recite Bible verses from memory as a preacher."
+            ],
+            "103": [
+                "13:58",
+                "Qanemciluni Uyaqum urenkutiinek, Qaneryaranek yuarutnek-llu elicungcallerminek, emusngallermini Nallunairutnek [Revelations] elitellerminek, kalikaunani-llu angllurcecitullerminek.",
+                "Talks about Uyaquq’s instruction, learning the Bible and songs, learning the book of Revelations while in the hospital, and performing baptisms without textual aid."
+            ],
+            "124": [
+                "17:20",
+                "Qanemciluni tuntulgutellerminek, reindeer brands, naqugutkun qukaan cuqtellranek, pirtugmi naqugutem qanikcaq itercessngailucianek, natmurtaqami nuusilgilaasqumallerminek, tunciuryaram qanruyutaikun agayulirteńgullerminek, yungqerrata tuntut akngirtesqevkenaki, qanellri-llu nalluyagutesqevkenaki.",
+                "Talks about becoming a reindeer herder, tuntut nallunailkutaitnek, getting his waist measured with a belt, how a belt will protect him from snow getting in during a blizzard, to take a knife with him whenever he travels, using advice from reindeer herding in his pastoral work, not to hurt reindeer because they have spirits, and not to forget what he said."
+            ]
+        },
+        "elderTags": [
+            "23.3"
+        ],
+        "tags": [
+            "Uyaqum Igaryarai – Uyaquq's Orthography",
+            "Tuntu – Reindeer, Caribou",
+            "Agayulirtet – Priests",
+            "Qaneryaraq, Qaneryaraqegtaar – Bible",
+            "Naqugun – Belt",
+            "Nuussiq, Cavik, Uluaq -- Knife",
+            "Nallunailkutet -- Brands",
+            "Tangvagluteng Elicungcaryaraq – Learning through Observation"
+        ]
+    },
+    "cpb-aacip-127-84mkm6tr.h264": {
+        "videoID": "cpb-aacip-127-84mkm6tr.h264",
+        "title": "Winifred Beans - # 82",
+        "time": "6:20",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interivew"
+            ],
+            "Genre 2:": [
+                "Cultural"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": [],
+            "Role 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:09",
+                "Qalarrluni ellmeggnek ataneqesqevkenaki, Agayutem wall’u Yupiit alerquutaitnek yuut ukvengqerrarkauniluki, taangam kuingirrluum-llu iquggliqnarquciagnek, agayutem-llu wall’u Yupiit qaneryarait ukveresqelluki.",
+                "Talks about not being self-interested, that people need to believe in God’s or Yup’ik commandments, the dangers of alcohol and marijuana abuse, and to obey Christian or Yup’ik wisdom."
+            ],
+            "20": [
+                "03:07",
+                "Qanemciluni Yuut ukveqtuniluku Cellam Yua, yuut nalluatni camek tegutesqevkenaki, iqlusqevkevkenaki, iqlumek pinrilkurtellriit ciunerkaqegcilauciatnek, iluperamegnek, Nunam-llu Iquani yuurtellruciminek.",
+                "Talks about the Yup’ik belief in the Spirit of the Universe, not to take anything without permission, not to lie, how those who try to live right have good futures, their great-grandchildren, and being born at Nunam Iqua [Sheldon’s Point]."
+            ],
+            "37": [
+                "04:57",
+                "Qalarrluni lifetime certificate-aminek, piaqatni wall’u piyugngaaqami ikayuutelauciminek, YKHC-ni qanerteńgutullerminek, news-ani-llu KCC-ni-llu qallatellerminek.",
+                "Talks about his lifetime certificate, helping out when they ask or when he can, how he used to speak at YKHC, and speaking on the news and at KCC."
+            ]
+        },
+        "elderTags": [
+            "23.51"
+        ],
+        "tags": [
+            "Nunam Iqua – Nunam Iqua [Sheldon's Point]",
+            "Qaneryaraq, Qaneryaraqegtaar – Bible",
+            "Ellam Yua, Cellam Yua, Cillam Cua – Spirit of the Universe",
+            "Ciunerkaqegciarkauciat – How They Will Have a Good Future",
+            "19.13.1",
+            "Ellminek Ataneqsaraq, Umyugiuryaraq – Being Self-Interested",
+            "Yuut Nalluatni Tegucaraq – Taking Things Without Permission",
+            "Iqluyaraq, Iqluquyaraq, Iqlungaryaraq -- Lying",
+            "– Taangaq – Alcohol",
+            "22.7"
+        ]
+    },
+    "cpb-aacip-127-85n8pw5n.h264": {
+        "videoID": "cpb-aacip-127-85n8pw5n.h264",
+        "title": "Nurataaq Nelson Angapak - # 83",
+        "time": "22:27",
+        "metadata": {
+            "Date": [],
+            "Name:": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Personal History, Cultural"
+            ],
+            "Quality:": [],
+            "Genre 4 (Location):": [],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": [],
+            "Role 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:14",
+                "Qanemciluni elitnauryaram cimillrucianek, elitnauqerraallermini qitevtesciigalnge’rmi elitnaurviim avatiini qitevtesqelluni ellimerumallerminek, maa-i Yugtun Kass’atun-llu elitnauryauruciatnek, Yugtun qalartesqevkenateng ellimerumallermeggnek, maa-i Yugtun elitnaurluki cingumaluki-llu qalartesqelluki, Yugtun-llu qaneryaram piciryaramteńi angelriarucianek.",
+                "Talks about how school has changed, how he couldn’t speak English when first starting school but was told to always speak it around school, modern bilingual education, how they used to be prohibited from speaking Yup’ik, modern schools teaching and encouraging Yup’ik, and how important Yup’ik language is to culture."
+            ],
+            "22": [
+                "03:09",
+                "Qalarrluni aperyaram wall’u qaneryaram piniqapigucianek, utertesciigalata qanteng mulngakesqelluki, ciuliateng takaqesqelluki, ciuliat yuuyaramek qanrucituciatnek, ikayuryugluteng qanrucituciatnek, maligtaqulriit-llu cakviussiyaagngaitniluki.",
+                "Talks about how powerful language is, how careful we must be with words since they cannot be taken back, to respect elders, how elders instruct on the Yup’ik way of life, how they instruct to help, and how people won’t struggle too much of adhering to wisdom."
+            ],
+            "45": [
+                "07:11",
+                "Qalarrluni takaqiyaramek, ciuliat atullermegteggun tangllermegteggun-llu qalarucituciatnek, taqneret ciuliat-llu kinguliateng ikayuryugngaciatnek, qanertet quyavikesqelluki, tegganret yuuyaraq kinguvararkauniluku, ayagyuat niitarkauniluki, taringenrilnge’rmeng-llu niicugniuresqelluki.",
+                "Talks about respect, how elders instruct based on their life experience and what they’ve seen, how adults and elders can help successive generations, to thank instructors, elders’ responsibility to pass on culture, youth’s responsibility to listen, and to listen despite not understanding."
+            ],
+            "84": [
+                "13:30",
+                "Qanemciluni apa’urluminek pissuryaramek elitellerminek, anguytem yuullerkaanek, maurluan neviarcat qalarutetullruniluki, piyugngaaqami elitellerminek elicungcatuniluki, ciuliat qanrutesteteng quyavikesqelluki, yuk unguvaqallermini taktaciatun eliquratucianek, ciuliamteńek elitelput kinguvaasqelluki, piyugteqluteng yuuyaramek elitesqelluki, qalartesqumallerminek-llu quyateminek.",
+                "Talks about learning to hunt from his grandfather, how a man should live, his grandmother teaching young ladies, passing on what he learned when he can, to thank elders for instruction, that a person learns throughout their entire life, to pass on what we learn from our elders, to actively learn about the Yup’ik way of life, and his gratitude for being able to pass on wisdom."
+            ]
+        },
+        "elderTags": [
+            "23.35"
+        ],
+        "tags": [
+            "Yugtun Qalarcaraq, Qaneryaraq – Yup'ik Language",
+            "9.1",
+            "Yugtun Qalartesqevkenaki – Yup'ik Language Restrictions",
+            "Yugtun Kass'atun-llu Elitnauryaraq – Bilingual Education",
+            "Cakviussiyaagngaitut – They Won't Struggle Too Much",
+            "19.6.1",
+            "Qanminek Mulngaksaraq – Careful with Words",
+            "Yuuyaraq – Way of Life",
+            "19.14"
+        ]
+    },
+    "cpb-aacip-127-86nzsk0r.h264": {
+        "videoID": "cpb-aacip-127-86nzsk0r.h264",
+        "title": "Yuk 47 - # 84",
+        "time": "13:49",
+        "metadata": {
+            "Date": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Personal History, Cultural"
+            ],
+            "Quality:": [
+                "Genre 4:"
+            ],
+            "Name 1:": [
+                "Mary Worm [Kangirnaq – Kongigonak]"
+            ],
+            "Role 1:": [
+                "Interviewee"
+            ],
+            "Name 2:": [
+                "Adolph Lewis [Kuigilnguq – Kwigillingok]"
+            ],
+            "Role 2:": [
+                "Interviewer"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:01",
+                "Qanemciuq ellangeqarraallermeggnek, qavcirraat Kass’at alikellruniluki, Anuuraametellratni elitnaurvikarraamek, angayuqrita elitnauresqumanritellratnek, elitnaurviit akusrarrnarqelrianek ayagnirciqnillratnek, ataucirqumek-llu elitnauryarraarluni uitasqeńgatni uitallerminek.",
+                "Talks about their first memories, how they were intimitated by the few resident Caucasians, the first school when they lived in Anuuraaq, how their parents told them not to go to school, warning that schools will corrupt them, and how he went to school once but stayed home after."
+            ],
+            "18": [
+                "01:49",
+                "Qanemciluni elitnaurvigni usviiruciiqniluki qanllernek, kinguliameggnek Kass’artarnek elitellernek, angalkunek umyuarrliqellrianek, ciknalriit angalkut yuungnaqellriit aniqlaatullratnek, qessamkat kaigasteńgurtarkauciatnek, ellalkartesqevkenaki-llu.",
+                "Talks about warnings that schools will make people foolish, their descendants learning Western ways, shamans with malicious intent, jealous shamans cursing successful people, how lazy people end up as beggars, and not to act foolish."
+            ],
+            "37": [
+                "04:29",
+                "Qalarrluni irniangekuneng pikaceteng qimaasqelluki, aipateng kenkesqelluki, allaliurpakarluteng aipaqenrilkemeggnek irniangetuniluki, ciuliat atullermeggnek tangllermeggnek-llu alerquituciatnek, irniateng-llu ceńirutesqevkenaki.",
+                "Talks about admonishing children to leave when treated badly, to treat spouses with love, how infidelity leads to having children with other people, that elders instruct from what they experienced and seen, and not to take their children to others’ houses."
+            ],
+            "55": [
+                "06:51",
+                "Qalarrluni pissurtet unangkengait quyakluki ciuniuresqelluki, aki pitekluku qenngutesqevkenaki, anglatkevkenaki ukisqiisqelluki, irniameng takuatni akusrartesqevkenaki, anguyagteńun pilriit taangaryartetuciatnek, aviranaunateng elluarrluki yuusqelluki, eneteng uitanqegcinarqevkangnaqluki, iliini-llu piyugyaaqengramta elluarpek’nata pilaucimteńek.",
+                "Talks about gratefully accepting what hunters catch, not to be angry over money, to help without taking things lightly, not to abuse substances in front of their children, how many abuse alcohol during military service, to live well without hindering anyone, to keep their houses peaceful, and how we sometimes do not do well despite wanting do"
+            ],
+            "75": [
+                "09:27",
+                "Qalarrluni kinguliameng qanrutestekameggnek kepquciatnek, niicugnissuutetgun tiiviitgun-llu qalartelangellruciatnek, aipameng avataitnek irniangesqevkenaki, aatailngurnek irnillerkam inerquutngucianek, tiiviini unaqsarcetaalrianek, taangaasqevkenaki wall’u kuingirrlugmek, yuullrem ikgelucianek, akiteng atu’urkameggnun tau͡gaam atuusqelluki, uini akiliurcet’lauciminek.",
+                "Talks about how the next generations are in need of teachers, how they are speaking through radio and television programs, not to have children except with spouses, admonishments against children before marriage, seeing sedation on TV, not to abuse alcohol or marijuana, how short life is, to be responsible with money, and how she leaves her husband to deal with money."
+            ]
+        },
+        "elderTags": [
+            "23.99"
+        ],
+        "tags": [
+            "Aniqlaarutet – Curses",
+            "Quyakluki Ciuniurluki – Gratefully Accept Them",
+            "Aipangyaraq – Getting a Spouse",
+            "Allaliuryaraq – Infidelity",
+            "Elitnaurvikarraat – Boarding Schools, First Schools",
+            "16.4",
+            "Eneteng Uitanqegcinarqevkarluki – Keep Your Houses Peaceful",
+            "Ellangyaraq – Becoming Aware [Childhood]",
+            "Kaigasteńgurciiqut – They Will Become Beggars",
+            "Aatailnguut – Illegitimate Children",
+            "Ceńirutevkenaki – Do Not Take Them to Others' Houses",
+            "Taangaq – Alcohol",
+            "22.7"
+        ]
+    },
+    "cpb-aacip-127-87brvbt5.h264": {
+        "videoID": "cpb-aacip-127-87brvbt5.h264",
+        "title": "Yuk 48, Yuk 49, Yuk 50 - # 85",
+        "time": "14:30",
+        "metadata": {
+            "Date": [],
+            "Name:": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Cultural, Personal History"
+            ],
+            "Quality:": [
+                "Genre 4:"
+            ],
+            "Name 1:": [],
+            "Role 1:": [],
+            "Name 2:": [],
+            "Role 2:": []
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "Qalartuq caqlamek yuungcautmek, igyariqellermi iluliqellermi-llu utumarillragnek, acilqurrit kiingita nertuniluki, Yugtaat iinrut Kass’artarnek cimillratnek, aipangvailegmi akusrartellerkaanek aaniin inerquutiinek, maurluni aanaksuktullerminek, kiimi paniullerminek, quserpagluteng [TB] alqami piunrillratnek, unguvaasqelluni-llu iinrunek nerqumatullerminek.",
+                "Talks about medicinal rosewort, how it helped her sore throat and upset stomach, how they only eat the roots, how people went from Yup’ik to Western remedies, her mother’s warning against premarital relations, how she thought her grandmother was her birth mother, being the only daughter, her older sisters succumbing to TB, and being fed medicinal things to keep her alive."
+            ],
+            "32": [
+                "03:14",
+                "Qanemciluni maulrlumi ellimerutiinek quarruugnek pakikengkuni ataucimek neresqelluku, aipaminek ciissinek pakikengllermek, kinguqlikacagaatnek keggumarraarluni caqlakun unuaquani mamellranek, uini-llu piunrirraartelluku irniani-llu kiimelucimeggnek.",
+                "Talks about her grandmother telling her to eat one needlefish if she finds them in vole caches, her friend finding bugs in a vole cache, her youngest son getting bitten then healing overnight with rosewort, and being alone with her children after her husband’s passing."
+            ],
+            "75": [
+                "07:33",
+                "Qanemciluni anglillermini angayuqaagni niitengnaquratullerminek, inerciigalnguut allani nunani elitaqtuniluki, ilani naklekesqelluki, qanruyutet unimesqevkenaki, angayuqateng-llu takaqesqelluki.",
+                "Talks about trying to obey her parents growing up, how mischievous people are known in other places, to treat others with compassion, to always remember wisdom, and to respect their parents."
+            ],
+            "90": [
+                "09:26",
+                "Qanemciluni naryalngunarqellriartangqerqan qengateng uqumek mingutullermeggnek, qusquneng wall’u igyariqekuneng uqum ikayuutngucianek, wangkutnek-llu elluarrluta yuugarkaucimteńek.",
+                "Talks about rubbing their noses with seal oil if there are strong odors, seal oil for coughs and sore throats, and that we are responsible for ourselves to live well."
+            ],
+            "104": [
+                "11:28",
+                "Qanemciluni kinguvemegnek, taangam kuingirrluum-llu assiiluciagnek, kuingirrluum-llu qavaumanarqucianek nalluyagutnarqucianek-llu.",
+                "Talks about their descendants, how detrimental alcohol and marijuana are, and how marijuana makes people sleep a lot and forgetful."
+            ]
+        },
+        "elderTags": [
+            "23.100",
+            "23.101",
+            "23.102"
+        ],
+        "tags": [
+            "Unatellget – Healing Hands",
+            "Pakissaagyaraq – Gathering from Vole Caches",
+            "Quserpak – Tuberculosis (TB)",
+            "Nunalgutkenrilkemeggnun Nallunailuciit – Being Widely Known",
+            "Aipangvailegmeng Akusrarcaraq – Premarital Sex",
+            "Qanruyutet, Qaneryarat – Traditional Wisdom, Wise Words",
+            "Kenkiyaraq – Showing Love",
+            "Naklekiyaraq – Compassion",
+            "Angayuqateng Takaqluki – Respect Your Parents",
+            "Taangaq – Alcohol",
+            "22.7",
+            "Caqlaq – Rosewort",
+            "Uquq – Seal Oil"
+        ]
+    },
+    "cpb-aacip-127-87pnw7r9.h264": {
+        "videoID": "cpb-aacip-127-87pnw7r9.h264",
+        "title": "Yuk 51 - # 86",
+        "time": "17:36",
+        "metadata": {
+            "Date": [],
+            "Name:": [],
+            "Genre 1:": [
+                "Interview"
+            ],
+            "Genre 2:": [
+                "Cultural, Personal History"
+            ],
+            "Quality:": [
+                "Genre 4:",
+                "Kuiggluk [Kwethluk]"
+            ],
+            "Name 1:": [
+                "Nicholai Nicholai (Qugiciq), Olenka K. Nicholai (Angut’aq) [Kuiggluk – Kwethluk]"
+            ],
+            "Role 1:": [
+                "Interviewees"
+            ],
+            "Name 2:": [
+                "John Active"
+            ],
+            "Role 2:": [
+                "Interviewer"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:08",
+                "Ikirun. Qanemciuq Kusquqvagmi yugyallrunrilucianek, yuguanek qungunek-llu, ellangellermini Kuigglugmiut enaita nanlucillratnek, Slaavillermeggnek, erpailgan-llu aturyartulriit qaqitellruciatnek.",
+                "Introduction. Talks about how there weren’t many people on the Kuskokwim, wooden human figures and graves, the layout of Kuiggluk [Kwethluk] when he was growing up, Russian Christmas, and finishing Russian Christmas singing before dawn."
+            ],
+            "42": [
+                "04:44",
+                "Qanemciluni qungullernek, Paniluun aatiin enellranek napat akuliitni, elitnauqacuallermini Kass’amek tangerqerraallerminek, mikelnguullgutni-llu uksuarmi elitnauryatullermeggnek, Kuinerrarmiut kuigata kangranun ayallermeggnek, aatami piunrillruacianek, ilani-llu allanek ilaunateng tamaantellermeggnek.",
+                "Talks about the graves in the past, Paniluk’s father’s house in the trees, seeing a Caucasian for the first time at school, going to school in the fall with the other children, going to the headwaters of Quinhagak’s river, his father having passed away, and staying there with no one else but their family."
+            ],
+            "72": [
+                "09:27",
+                "Qanemciluni neqsullermeggnek, neq’ngelaayuilucianek, tallimani allrakuni tamaani uitallermeggnek, pissuryaurtellerminek kiimi-llu ayagaaqluni, ikamrarluteng Kuigglumun utertellermeggnek, aanameng aumikun apqucingellranek, uksuaquani yuunrillranek, catairucan-llu qanruyuka’rmek niitnanrillerminek.",
+                "Talks about fishing, how fish wouldn’t come early there, staying there for five years, how he started hunting and traveling alone, going back to Kuiggluk in the winter by sled, their mother getting an ailment in her blood, how she passed away that fall, and how he stopped hearing traditional wisdom after her passing."
+            ],
+            "93": [
+                "12:44",
+                "Qanemciluni nasperturluku Naparyarrartellerminek, tan’gaurluullgutminek aipaqsuumitelallerminek, Naparyarrarni tegganrek allanitlerminek, angukara’urluum Kuigglugmiunek qalartellranek, angukara’urluum-llu kelgumatullranek.",
+                "Talks about trying to go to Naparyarraq [Napakiak] for the first time, not wanting to play with his male peers, visiting elders in Naparyarraq, the old man talking about the people of Kuiggluk, and how the old man used to be invited to eat."
+            ],
+            "117": [
+                "16:17",
+                "Qalarrluni ciunganitun nukalpiartairuyucianek, Nutararaam/Amaqlicuaraam mikliricianek, ilaliryaaqellrek alqani-llu kiimelliuciagnek, pissutullermeggni ayagaturatullermeggnek, Cucuam kiimelliucianek, Olenka-mek-llu.",
+                "Talks about how there are no great hunters like before, how Nutarar/Amaqlicuar is getting smaller, how he and his sister are the only ones left of their large family, how they used to be nomadic hunters, how Cucuaq is the only one left from his family, and Olenka."
+            ],
+            "125": [
+                "20:03",
+                "Qalarrluni qanruyutnek niicuiruyuciatnek, ayagyuat niicugniyuiruyuciatnek, Yugtun qalarcaram cagmariinalriacetun picianek, agayuvigtaat-llu Yuut qaneryaraicetun ayuquciatnek.",
+                "Talks about how people don’t hear about traditional wisdom anymore, how youth don’t listen, how the Yup’ik language is getting lost, and how the Bible sounded like Yup’ik wisdom."
+            ]
+        },
+        "elderTags": [
+            "23.103"
+        ],
+        "tags": [
+            "Yugtun Qalarcaraq, Qaneryaraq – Yup'ik Language",
+            "Kusquqvak – Kuskokwim River",
+            "Kuiggluk – Kwethluk",
+            "Nukalpiaq – Great Hunter",
+            "8.1.3",
+            "9.1",
+            "Neqsuryaraq – Fishing",
+            "Upaketaaryaraq – Nomadic Lifestyle",
+            "Elitnaurvikarraat – Boarding Schools, First Schools",
+            "Elitnaurvik – School",
+            "Qanruyutet, Qaneryarat – Traditional Wisdom, Wise Words",
+            "Slaaviq – Russian Christmas"
+        ]
     },
     "cpb-aacip-127-0644j324.h264": {
         "videoID": "cpb-aacip-127-0644j324.h264",
@@ -5063,19 +6096,6 @@ export const summaries = {
         ],
         "tags": []
     },
-    "cpb-aacip-127-0644j37r.h264": {
-        "videoID": "cpb-aacip-127-0644j37r.h264",
-        "title": "Yuk 72 - # 7",
-        "time": "10:06",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.124"
-        ],
-        "tags": []
-    },
     "cpb-aacip-127-085hqfqk.h264": {
         "videoID": "cpb-aacip-127-085hqfqk.h264",
         "title": "Ackiar Nick Lupie - # 10",
@@ -5086,32 +6106,6 @@ export const summaries = {
         "summary": {},
         "elderTags": [
             "23.1"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-149p8hcz.h264": {
-        "videoID": "cpb-aacip-127-149p8hcz.h264",
-        "title": "Nauyaq Anna Andrew - # 15",
-        "time": "22:02",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.33"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-225b014v.h264": {
-        "videoID": "cpb-aacip-127-225b014v.h264",
-        "title": "Mik'aq Eliza Chase - # 21",
-        "time": "22:05",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.28"
         ],
         "tags": []
     },
@@ -5127,58 +6121,6 @@ export const summaries = {
             "23.134",
             "23.135",
             "23.136"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-257d81kk.h264": {
-        "videoID": "cpb-aacip-127-257d81kk.h264",
-        "title": "Narullgiar Elena Nick - # 23",
-        "time": "18:22",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.32"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-257d81m9.h264": {
-        "videoID": "cpb-aacip-127-257d81m9.h264",
-        "title": "Yuk 57 - # 24",
-        "time": "22:06",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.109"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-2908kvc9.h264": {
-        "videoID": "cpb-aacip-127-2908kvc9.h264",
-        "title": "Narullgiar Elena Nick - # 30",
-        "time": "22:12",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.32"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-322bvwfr.h264": {
-        "videoID": "cpb-aacip-127-322bvwfr.h264",
-        "title": "Yuk 58 - # 31",
-        "time": "20:47",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.110"
         ],
         "tags": []
     },
@@ -5257,99 +6199,6 @@ export const summaries = {
         "summary": {},
         "elderTags": [
             "23.1"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-816m99hb.h264": {
-        "videoID": "cpb-aacip-127-816m99hb.h264",
-        "title": "Maqista Joshua Phillip - # 80",
-        "time": "1:02:05",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.26"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-81jhb5w6.h264": {
-        "videoID": "cpb-aacip-127-81jhb5w6.h264",
-        "title": "Alek'aq Alexie Mochin - # 81",
-        "time": "22:26",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.3"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-84mkm6tr.h264": {
-        "videoID": "cpb-aacip-127-84mkm6tr.h264",
-        "title": "Winifred Beans - # 82",
-        "time": "6:20",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.51"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-85n8pw5n.h264": {
-        "videoID": "cpb-aacip-127-85n8pw5n.h264",
-        "title": "Nurataaq Nelson Angapak - # 83",
-        "time": "22:27",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.35"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-86nzsk0r.h264": {
-        "videoID": "cpb-aacip-127-86nzsk0r.h264",
-        "title": "Yuk 47 - # 84",
-        "time": "13:49",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.99"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-87brvbt5.h264": {
-        "videoID": "cpb-aacip-127-87brvbt5.h264",
-        "title": "Yuk 48, Yuk 49, Yuk 50 - # 85",
-        "time": "14:30",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.100",
-            "23.101",
-            "23.102"
-        ],
-        "tags": []
-    },
-    "cpb-aacip-127-87pnw7r9.h264": {
-        "videoID": "cpb-aacip-127-87pnw7r9.h264",
-        "title": "Yuk 51 - # 86",
-        "time": "17:36",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.103"
         ],
         "tags": []
     },

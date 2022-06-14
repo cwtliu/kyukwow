@@ -316,6 +316,7 @@ coreykeywords = [
 "Title:",
 "Date:",
 "Date (if known):",
+"Short Summary:",
 "Summary:",
 "Genre 1:",
 "Genre 2:",
@@ -412,6 +413,7 @@ def parseCoreySummaries(files):
 				videodata['summary'] = summary
 
 			elif line.startswith("Date") or \
+				 line.startswith('Short Summary') or \
 				 line.startswith('Genre') or \
 				 line.startswith('Quality') or \
 				 line.startswith('Location') or \
@@ -652,7 +654,7 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 				# print(chapter)
 				match = re.match(r'(?:(?P<hour>\d):)?(?P<minute>\d\d):(?P<second>\d\d)',chapter[0])
 				if not match:
-					print(f'din\'t parse {chapter[0]} in {summ}')
+					print(f"{summ} didn't parse {chapter}")
 					continue
 				else:
 					chapterTimeInSeconds = int(match.group('hour')) * 60 * 60 if match.group('hour') else 0
