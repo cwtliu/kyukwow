@@ -1,4 +1,4 @@
-Yugtun Qalarcaraq -- Yup'ik Language
+Yugtun Qalarcaraq, Qaneryaraq -- Yup'ik Language
 	Qalarcarat -- Dialects
 		Yugtun, Yugcetun -- Yup'ik
 			General Central
@@ -10,6 +10,8 @@ Yugtun Qalarcaraq -- Yup'ik Language
 			Egegik
 		Cugtun, Yugtun -- Cup'ik & Yup'ik of Hooper Bay & Chevak
 		Cup'ig -- Nunivak Island
+	Uyaquq -- Lloyd Nick [Helper Neck]
+		Uyaqum Igaryarai -- Uyaquq's Orthography
 Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 	Mer'et Atrit -- Place Names For Bodies Of Water
 		Kuigpak -- Yukon River
@@ -22,6 +24,7 @@ Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 		Mamterilleq -- Bethel
 		Negeqliq -- St. Mary's
 		Tuulkessaq -- Tuluksak
+		Nunam Iqua -- Nunam Iqua [Sheldon's Point]
 	Ingriq -- Mountain
 Ellavut -- Weather, Climate
 	Allrakum Ellalinqigutai -- Seasons
@@ -117,6 +120,8 @@ Ukverput, Agayuliyaraq -- Spirituality
 		Tuunrat -- Spirit Helpers
 		Unatellget -- Healing Hands
 		Tuunriyaraq, Angalkiyaraq -- Shamanistic Acts, Rituals
+		Umyuarrliqellriit -- Those with Malicious Intent
+			Aniqlaarutet -- Curses
 	Alangru, Aliurtuq -- Ghost, Haunting
 		Qimugtet Elpegtauciatnek -- Dogs' Supernatural Sensitivity
 	Aviukaryaraq -- Food And Water Offering
@@ -135,13 +140,15 @@ Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence
 		Iqvaryaraq -- Picking Berries
 		Kayangussuq, Avuryaraq -- Egg Hunting
 			Kayanguq -- Egg
-		Iqvaryaraq -- Picking Berries
+		Iqvaryaraq -- Picking Berries[a]
 		Pakissaagyaraq -- Gathering from Vole Caches
 	Calirpagyaraq -- Hard Work
 	Up'nerkilleq -- Spring Camp
 	Uksuilleq -- Winter Camp
 	Neqlilleq, Neqlivik -- Fish Camp
 	Neqkat Kenciksarait -- Reverence for Food Sources
+		Quyakluki Ciuniurluki -- Gratefully Accept Them
+	Upaketaaryaraq -- Nomadic Lifestyle
 Neqkiuryaraq -- Food Preparation
 	Keniryaraq, Egayaraq -- Cooking
 	Segyaraq, Cegyaraq -- Fish Cutting
@@ -181,9 +188,11 @@ Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 		Uqrem Aarnarqucia -- The Danger of Leeward Sides
 		Qanikcaam Acian Epsalngunarqucia -- Suffocating Under Snow
 		Utetmun Nallunailkuciryaraq -- Marking the Homeward Direction
+		Naqugun -- Belt
 	Qerruyaraq -- Freezing to Death
 		Teq'um Urumanarqucia -- Keeping Warm with Urine
 		Qerruqatalriit Puqlamun Pivkenaki -- Do Not Put Hypothermic People Near Heat
+	Nuussiq, Cavik, Uluaq -- Knife
 Imarpik -- Ocean, Sea
 	Imarpigmi Anangnaqsaraq -- Survival (Ocean)
 		Elegcik -- Gaff
@@ -215,11 +224,13 @@ Aipangyaraq, Aipaqsaraq -- Marriage
 	Yagirayaram Inerquutngucia -- Admonishments Against Raising Hands
 	Qingaryaraq -- Pregnancy
 		Irniyaraq -- Childbirth
+	Allaliuryaraq -- Infidelity
 Qulirat & Qanemcit -- Legends & Stories
 	Ak'allaat Qanemcit -- Old Stories
 		Anguyallret -- Old Wars
 	Ukaqvallaat Qanemcit -- Recent Stories
-		Tuntuciuryaraq -- Reindeer Herding
+		Tunciuryaraq -- Reindeer Herding
+			Nallunailkutet -- Brands
 	Qulirat -- Legends
 		Ircenrraat -- Legendary Little People [Mischievous]
 			Cautaita Ciunerkiurutait -- Their Things Portend the Future
@@ -231,12 +242,14 @@ Kass'artaat -- Manufactured Items,  Western Things
 			Qacarneret -- Walls
 	Kass'at Tekiteqerraallratni -- Early Western Contact
 		Yupiit (Allat-llu) Nunautait -- Native Allotment
-		Elitnaurvikarraat -- Boarding Schools
+		Elitnaurvikarraat -- Boarding Schools, First Schools
+			Yugtun Qalartesqevkenaki -- Yup'ik Language Restrictions
 		Tunciuryaraq -- Reindeer Herding
 		Sun'aq -- Ship, Barge
 		Levaat, Massiinat, Elliqeryarat -- Boat Motors
 	Aklut -- Clothes, Possessions
 	Elitnaurvik -- School
+		Yugtun Kass'atun-llu Elitnauryaraq -- Bilingual Education
 	Kipusviit -- Trading Posts, Stores
 Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapons
 	Cassuutet Saskut, Caskut -- Tools
@@ -281,6 +294,8 @@ Ukverput -- Traditional Beliefs
 		Cigyak -- Split Spruce Blocking Door During Instruction
 		Caniqerrilin, Caniqerrilitaq -- Woven Grass Belt Blocking Door During Instruction
 		Anelria Taquilluku -- Giving Fate for One Who Goes Out
+		Nakriarucaraq -- Losing Hunting Prowess
+			Angutet Iqairarkait Allakarluki -- Separate Men's Laundry
 	Piciryaraput -- Customs
 		Merr'icaraq -- Giving Water To Animals
 	Qanruyutet, Qaneryarat -- Traditional Wisdom, Wise Words
@@ -290,6 +305,8 @@ Ukverput -- Traditional Beliefs
 		Umyuartuyaraq -- Being Sensible
 		Maligtaqustiin Yuunertutucia -- Those Who Heed Advice Live Long
 			Keggukarangelria -- One So Old They Grow a New Set of Teeth
+			Ciunerkaqegciarkauciat -- How They Will Have a Good Future
+			Cakviussiyaagngaitut -- They Won't Struggle Too Much
 		Qaskuit Ayuquciit-llu -- Appearance and Nature
 	Alerquutet, Ayuqucirtuutet -- Instructions
 		Maligtaquyaraq, Niisngayaraq -- Obedience
@@ -303,6 +320,8 @@ Ukverput -- Traditional Beliefs
 		Cauryaraq -- Keeping Busy, Doing Chores
 			Calrunani Unguvamaniartuq -- To Live a Long and Healthy Life
 		Anelriani Ellam Qukaa Tangerrluku -- Look at the Center of the Universe When Going Out
+		Qanminek Mulngaksaraq -- Careful with Words
+		Eneteng Uitanqegcinarqevkarluki -- Keep Your Houses Peaceful
 	Eyagyaraq -- Abstinence Practices, Taboos
 		Agleryaraq -- Menstruation
 			Aglenraraq -- First Year of Menstruation
@@ -324,6 +343,7 @@ Ukverput -- Traditional Beliefs
 		Qessakiluteng Neresqevkenaki -- Do Not Reject Food
 		Akinauresqevkenaki -- Do Not Retaliate
 		Qessayaraq -- Laziness
+			Kaigasteńgurciiqut -- They Will Become Beggars
 		Ellminek Ataneqsaraq, Umyugiuryaraq -- Being Self-Interested
 		Nuyavvliisqevkenaki -- Keep Hair Kempt
 		Erurirraarluteng Neq'liuryaraq -- Handle Food with Clean Hands
@@ -334,7 +354,11 @@ Ukverput -- Traditional Beliefs
 		Tan'gaurluut Nasaurluut-llu Allakarluteng -- Boys and Girls Separate
 		Eyurucaraq -- Defending Children
 			Iqlungarituut -- They Become Liars
+		Yuut Nalluatni Tegucaraq -- Taking Things Without Permission
+		Iqluyaraq, Iqluquyaraq, Iqlungaryaraq -- Lying
+		Aatailnguut -- Illegitimate Children
 	Takaqiyaraq -- Respect
+		Angayuqateng Takaqluki -- Respect Your Parents
 	Ciunerkiullret -- Future Predictions
 		Ellam Iquklitlerkaa -- The End of the World
 		Yuut Cimillerkaat -- People Will Change
@@ -360,6 +384,10 @@ Kalukat -- Celebrations, Gatherings
 	Uqiquryaraq -- Seal Party
 	Pitqerraallret -- First Catches
 	Itruka'ar -- Inviting-In Feast
+	Kass'artaat -- Western Holidays
+		Slaaviq -- Russian Christmas
+		Alussistuaq -- Christmas
+		Quyayaraq -- Thanksgiving
 Ilaliuryaraq -- Social Structure
 	Ciuniuryaraq -- Welcoming Guests
 	Qasgiq, Qaygiq -- Community or Men's House
@@ -372,9 +400,10 @@ Calricaraq -- Health & Wellness
 	Qingaryaraq -- Pregnancy
 		Irnicualleq -- Miscarriage
 		Irniyaraq -- Giving Birth
-	Anglicarillerkaq -- Child Rearing
+	Anglicarillerkaq, Tukercaryaraq -- Child Rearing
 		Yagiravkenaki -- Do Not Raise a Hand Against Them
 		Qanpautevkenaki -- Do Not Shout at Them
+		Ceńirutevkenaki -- Do Not Take Them to Others' Houses
 	Auluksaraq -- Taking Care
 	Ellminek Tuqutellerkaq -- Suicide
 	Taangaq -- Alcohol
