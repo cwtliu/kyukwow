@@ -658,11 +658,12 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 				lines = lines.replace("export const subtitles = ","").replace("};","}")
 				# print(lines)
 				subtitleJSON = json.loads(lines, object_pairs_hook=OrderedDict)
-				subtitleTimes = [(subtitleJSON[x]['startTime'],x) for x in subtitleJSON]
+				subtitleTimes = [(subtitleJSON[x]['endTime'],x) for x in subtitleJSON]
 
 			for chapter in summaries[summ]["summary"]:
-				subtitleID = "1"
-				# print(chapter)
+				subtitleID = ""
+
+				# convert chapter time to seconds
 				match = re.match(r'(?:(?P<hour>\d):)?(?P<minute>\d\d):(?P<second>\d\d)',chapter[0])
 				if not match:
 					print(f"{summ} didn't parse {chapter}")
@@ -672,10 +673,15 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 					chapterTimeInSeconds += int(match.group('minute')) * 60
 					chapterTimeInSeconds += int(match.group('second'))
 
+				# main logic
 				for sub in subtitleTimes:
-					if sub[0] <= chapterTimeInSeconds:
+					if chapterTimeInSeconds > sub[0] - 1.1: 
+						# print(f'{chapterTimeInSeconds}\t>=\t{sub[0]}')
 						subtitleID = sub[1]
+						# pass
 					else:
+						subtitleID = sub[1] if subtitleID != "1" else "1"
+						# subtitleID = sub[1]
 						break
 
 				newSummary[subtitleID] = chapter
