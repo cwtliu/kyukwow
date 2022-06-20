@@ -56,11 +56,12 @@ class Video extends Component {
       // videoOnly:true,
       activeElementLocation: 'center',
       topOffset: 138,
-      mobileAudioOffset: 68,
+      mobileAudioOffset: 78,
       mobileVideoOffset: 190,
-      readerHeight: 0,
+      videoHeight: 0,
       readerElementWidth: 0,
       audioComponentHeight: 102,
+      videoPlayer: null,
 
     }
     // this.audio = new Audio(this.state.audioURL);
@@ -83,20 +84,26 @@ class Video extends Component {
 
     if (this.videoPlayer) {
       this.setState({
-        readerHeight: this.videoPlayer.clientHeight+13,
+        videoHeight: this.videoPlayer.clientHeight,
       });      
     }
 
-    var topOffset = 0
-    if (this.props.innerWidth < 480) {
-      if (this.props.audioOnly) {
-        topOffset = this.state.mobileAudioOffset
-      } else {
-        topOffset = this.state.mobileVideoOffset        
-      }
-    } else {
-      topOffset = this.state.topOffset
+    if (document.getElementById('readerelement') !== null) {
+      this.setState({
+        readerElementWidth: document.getElementById('readerelement').offsetWidth,
+      });
     }
+
+    // var topOffset = 0
+    // if (this.props.innerWidth < 480) {
+    //   if (this.props.audioOnly) {
+    //     topOffset = this.state.mobileAudioOffset
+    //   } else {
+    //     topOffset = this.state.mobileVideoOffset        
+    //   }
+    // } else {
+    //   topOffset = this.state.topOffset
+    // }
 
     window.scrollTo(0, 0)
 
@@ -129,10 +136,21 @@ class Video extends Component {
       var elmnt = document.getElementById('sentence'+this.state.currentSentence);
       var bounding = elmnt.getBoundingClientRect();
 
-      if (bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
+      var topOffset = 0
+      if (this.props.innerWidth < 480) {
+        if (this.props.audioOnly) {
+          topOffset = this.state.mobileAudioOffset
+        } else {
+          topOffset = this.state.videoHeight        
+        }
+      } else {
+        topOffset = this.state.topOffset
+      }
+
+      if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
           // console.log('Element is in the viewport!');
           this.setState({ activeElementLocation: 'center'});
-      } else if (bounding.top < this.state.topOffset) {
+      } else if (bounding.top < topOffset) {
           // console.log('Element is ABOVE the viewport!');
           this.setState({ activeElementLocation: 'above'});
       } else {
@@ -146,7 +164,7 @@ class Video extends Component {
 
     if (this.videoPlayer) {
       this.setState({
-        readerHeight: this.videoPlayer.clientHeight,
+        videoHeight: this.videoPlayer.clientHeight,
       });      
     }
 
@@ -171,7 +189,22 @@ class Video extends Component {
 
   componentDidUpdate(prevProps,prevState) {
 
+    if (this.state.videoPlayerPlaying !== prevState.videoPlayerPlaying || this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying) {
+      if (this.state.currentSentence === 1) {
+        var elmnt = document.getElementById('sentence1');
+        var bounding = elmnt.getBoundingClientRect();
+        if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
+          elmnt.scrollIntoView({behavior: "smooth", block: "center"});  
+        }       
+      }
+    }
+
     if (prevProps.audioOnly !== this.props.audioOnly) {
+      if (this.videoPlayer) {
+        this.setState({
+          videoHeight: this.videoPlayer.clientHeight,
+        });      
+      }
       if (this.props.audioOnly) {
         clearInterval(this.intervalID);
         this.intervalIDAudio = setInterval(
@@ -188,13 +221,34 @@ class Video extends Component {
     }
 
     if (this.state.currentSentence !== prevState.currentSentence) {
+      if (this.state.currentSection) {
+        if (this.state.currentSentence.toString() !== this.state.currentSection && (this.state.currentSentence+1).toString() !== this.state.currentSection) {
+          this.resetTimer()
+        }
+      }
+
+      // if (this.timer) {
+      //   console.log(this.timer, 'hi')
+      // }
       var elmnt = document.getElementById('sentence'+this.state.currentSentence);
       var bounding = elmnt.getBoundingClientRect();
 
-      if (bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
+
+      var topOffset = 0
+      if (this.props.innerWidth < 480) {
+        if (this.props.audioOnly) {
+          topOffset = this.state.mobileAudioOffset
+        } else {
+          topOffset = this.state.videoHeight        
+        }
+      } else {
+        topOffset = this.state.topOffset
+      }
+
+      if (bounding.top >= topOffset && bounding.bottom <= document.documentElement.clientHeight || (!this.state.audioPlayerPlaying && !this.state.videoPlayerPlaying)) {
           // console.log('Element is in the viewport!');
           this.setState({ activeElementLocation: 'center'});
-      } else if (bounding.top < this.state.topOffset) {
+      } else if (bounding.top < topOffset) {
           // console.log('Element is ABOVE the viewport!');
           this.setState({ activeElementLocation: 'above'});
       } else {
@@ -207,6 +261,8 @@ class Video extends Component {
 
 
     if (this.state.nextSentenceStart < this.state.currentTime) {
+      console.log('future')
+
       let current = this.state.currentSentence;
       let i = 0;
       while (current+1+i !== Object.keys(this.state.subtitles).length+1 && this.state.subtitles[current+1+i].startTime < this.state.currentTime) {
@@ -237,6 +293,7 @@ class Video extends Component {
           previousSentenceEnd: this.state.subtitles[current-1+i].endTime,
         });        
       }
+
     }
 
 
@@ -287,46 +344,64 @@ class Video extends Component {
         })
     } else {
     axios
-      .get(API_URL + "/parse/" + word)
+      .get(API_URL + "/parsedefine/" + word)
       .then(response => {
-        console.log(response.data.parses)  
-        if (response.data.parses.length !== 0) {
-        var firstParse = response.data.parses[0].split('-');
+        console.log(response)  
+        if (response) {
+        // var firstParse = response.data.parses[0].split('-');
         this.setState({
-          firstParse: firstParse,
-          firstParseCount: firstParse.length,
-        })
-        }
-        this.setState({
+          // firstParse: response.data.firstParse,
+          // firstSegment: response.data.firstParse,
+          // firstEnding: response.data.firstParse,
+          definitions: response.data.definitions,
+          // firstParseCount: firstParse.length,
           parses: response.data.parses,
           segments: response.data.segments,
           endingrule: response.data.endingrule,
-        });
+        },()=>{
+          // if (firstParse !== undefined) {
+          //   var parse = "";
+          //   var definitions = [];
+          //   for (let i = 0; i < firstParse.length; i++) {
+          //     parse = this.getLinks(i,firstParse);
+          //     // console.log(firstParse,this.state.endingrule[0][0])
+          //     if (i !== this.state.endingrule[0][0]) {
+          //     axios
+          //       .get(API_URL + "/word/" + parse)
+          //       .then(response => {
+          //         if (response) {
 
-        if (firstParse !== undefined) {
-          var parse = "";
-          var definitions = [];
-          for (let i = 0; i < firstParse.length; i++) {
-            parse = this.getLinks(i,firstParse);
-            // console.log(firstParse,this.state.endingrule[0][0])
-            if (i !== this.state.endingrule[0][0]) {
-            axios
-              .get(API_URL + "/word/" + parse)
-              .then(response => {
-                // console.log(response.data[1].definition)
-                this.setState({definitions:this.state.definitions.concat(response.data[1].definition)}, ()=>{
+          //         this.setState({definitions:this.state.definitions.concat(response.data[1].definition)}, ()=>{
 
-                  if ((i === firstParse.length-1 && this.state.endingrule[0][0]==='')||(i === firstParse.length-2 && this.state.endingrule[0][0]!=='')||(i === firstParse.length-1 && this.state.endingrule[0][0]!=='')) {
-                    this.setState({getCall:false})  
-                  }
-                  
-                })
-              });
-            } 
-          }
+          //           if ((i === firstParse.length-1 && this.state.endingrule[0][0]==='')||(i === firstParse.length-2 && this.state.endingrule[0][0]!=='')||(i === firstParse.length-1 && this.state.endingrule[0][0]!=='')) {
+          //             this.setState({getCall:false})  
+          //           }
+                    
+          //         })
+
+          //         } else {
+          //           this.setState({definitions:this.state.definitions.concat('')})
+          //         }
+
+          //       });
+          //     } 
+          //   }
+          // } else {
+            this.setState({getCall:false})  
+          // }          
+        })
+
         } else {
-          this.setState({getCall:false})  
+          this.setState({
+            parses: [],
+            segments: [],
+            endingrule: [],
+            getCall:false,
+          })
         }
+
+
+
       });
 
 
@@ -335,43 +410,43 @@ class Video extends Component {
   }
 
 
-  getLinks(index, parse) {
-    // console.log(parse)
-    if (index === 0) {            // if base
-      if ((parse[index].includes("[P") || parse[index].includes("[I")) && parse.length === 1) {  // if particle or ignorative
-        return parse[index].split("[")[0].replace(/=/g,"-");
-      } else if (parse[index].includes("[PerPro]")) {
-        return parse[index].split("[")[0]
-      } else if (parse[index].includes("[DemPro]") || parse[index].includes("[DemAdv]")) {
-        var dem = parse[index].replace("n[DemPro]","n'a")
-        dem = dem.replace("[DemPro]","na")
-        dem = dem.replace("[DemAdv]","(ni)")
-        return dem
-      } else {
-        var base = parse[0];
-        base = base.split(/\[[^e]/)[0] // remove special tag
-        var dictionaryForm = '';
-        // console.log("getLinks:",base,index,parse)
-        if (parse[1].includes('[N')) {                      // if Noun base:
-          dictionaryForm = base.replace(/([aeiu])te\b/, "$1n");              // Vte -> n
-          dictionaryForm = dictionaryForm.replace(/([^\[])e\b/, "$1a")      // e -> a
-          dictionaryForm = dictionaryForm.replace(/g\b/, "k");      // g -> k
-          dictionaryForm = dictionaryForm.replace(/r(\*)?\b/, "q$1"); // r(*) -> q(*)
-        } else if (parse[1].includes('[V') || parse[1].includes('[Q')) {
-          dictionaryForm = base+"-"       // if Verb or Quant_Qual base 
-        } else {
-          dictionaryForm = base
-        }
-        return dictionaryForm.replace(/=/g,"-");          
-      }
-    } else {
-    if (parse[index].includes("ete[N→V]")) {
-          return "ete[N→V]"
-        }
-    }
-    // else (["[N→N]","[N→V]","[V→V]","[V→N]","[Encl]"].some(v => parse[index].includes(v))) { //if postbase or enclitic
-    return parse[index];
-  }
+  // getLinks(index, parse) {
+  //   // console.log(parse)
+  //   if (index === 0) {            // if base
+  //     if ((parse[index].includes("[P") || parse[index].includes("[I")) && parse.length === 1) {  // if particle or ignorative
+  //       return parse[index].split("[")[0].replace(/=/g,"-");
+  //     } else if (parse[index].includes("[PerPro]")) {
+  //       return parse[index].split("[")[0]
+  //     } else if (parse[index].includes("[DemPro]") || parse[index].includes("[DemAdv]")) {
+  //       var dem = parse[index].replace("n[DemPro]","n'a")
+  //       dem = dem.replace("[DemPro]","na")
+  //       dem = dem.replace("[DemAdv]","(ni)")
+  //       return dem
+  //     } else {
+  //       var base = parse[0];
+  //       base = base.split(/\[[^e]/)[0] // remove special tag
+  //       var dictionaryForm = '';
+  //       // console.log("getLinks:",base,index,parse)
+  //       if (parse[1].includes('[N')) {                      // if Noun base:
+  //         dictionaryForm = base.replace(/([aeiu])te\b/, "$1n");              // Vte -> n
+  //         dictionaryForm = dictionaryForm.replace(/([^\[])e\b/, "$1a")      // e -> a
+  //         dictionaryForm = dictionaryForm.replace(/g\b/, "k");      // g -> k
+  //         dictionaryForm = dictionaryForm.replace(/r(\*)?\b/, "q$1"); // r(*) -> q(*)
+  //       } else if (parse[1].includes('[V') || parse[1].includes('[Q')) {
+  //         dictionaryForm = base+"-"       // if Verb or Quant_Qual base 
+  //       } else {
+  //         dictionaryForm = base
+  //       }
+  //       return dictionaryForm.replace(/=/g,"-");          
+  //     }
+  //   } else {
+  //   if (parse[index].includes("ete[N→V]")) {
+  //         return "ete[N→V]"
+  //       }
+  //   }
+  //   // else (["[N→N]","[N→V]","[V→V]","[V→N]","[Encl]"].some(v => parse[index].includes(v))) { //if postbase or enclitic
+  //   return parse[index];
+  // }
 
   // retrieveDictTranslation = (word) => {
   //   axios
@@ -478,20 +553,26 @@ class Video extends Component {
   }
 
 
+  resetTimer = () => {
+    console.log('resetted')
+    clearTimeout(this.timer)
+    this.setState({currentSection:null})
+  }
+
   playSection = (i) => {
     // console.log(i)
-    clearTimeout(this.timer)
+    
 
     this.setState({
       currentSection: i,
     }, () => {
 
       if (this.props.audioOnly) {
-      this.rap.audio.current.pause();
+      // this.rap.audio.current.pause();
       // console.log(i, this.rap, this.audio)
       this.rap.audio.current.currentTime = this.state.subtitles[i].startTime;
       this.rap.audio.current.play();
-
+      clearTimeout(this.timer)
       this.timer = setTimeout(() => {
         this.rap.audio.current.pause();
         this.setState({
@@ -503,6 +584,7 @@ class Video extends Component {
       } else {
         this.rep.player.seekTo(this.state.subtitles[i].startTime)
         this.setState({videoPlayerPlaying:true})
+        clearTimeout(this.timer)
         this.timer = setTimeout(() => {
           this.setState({videoPlayerPlaying:false})  
           this.setState({
@@ -614,7 +696,7 @@ class Video extends Component {
               this.setState({audioPlayerPlaying:true})
               // this.checkIfScrollNeeded()
           }}
-            onPause={()=>{this.setState({audioPlayerPlaying:false})}}
+            onPause={()=>{this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
           />
         </div>
 
@@ -688,7 +770,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top:(this.props.audioOnly ? this.state.mobileAudioOffset+40 : this.state.mobileVideoOffset+40), position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -704,10 +786,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\n'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -788,10 +873,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\xa0'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -865,18 +953,26 @@ class Video extends Component {
 
 
             <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-              this.rap.audio.current.pause();
-              this.setState({audioPlayerPlaying:false});
-              this.playSection(i);
+              // this.rap.audio.current.pause();
+              // this.setState({audioPlayerPlaying:false});
+              // this.setState({currentSection:null},()=>{
+                
+                this.playSection(i);                
+              // })
+              // this.resetTimer()
+
             }} />
 
-          <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+          <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null &&this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
           {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
             <Popup
-              trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                  this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-              }
-              }>{j+'\n'}</span>}
+              trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
+                  }
+                  }>{j+'\n'}</span>}
+                  disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
               onClose={()=>this.setState({
                 clickedWordIndex:[-1,-1],
                 definitions:[],
@@ -973,7 +1069,7 @@ class Video extends Component {
       <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
       </div>
 
-          <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
+          <div class='reader' ref={(element)=>{this.videoPlayer=element;}} style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
             <div className='player-wrapper'>
             <ReactPlayer 
               className='react-player'
@@ -987,7 +1083,7 @@ class Video extends Component {
                 this.setState({videoPlayerPlaying:true})
                 // this.checkIfScrollNeeded()
               }}
-              onPause={()=>{this.setState({videoPlayerPlaying:false})}}
+              onPause={()=>{this.setState({videoPlayerPlaying:false}); this.resetTimer()}}
             />
             </div>
           </div>
@@ -1037,7 +1133,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top:(this.props.audioOnly ? this.state.mobileAudioOffset+40 : this.state.mobileVideoOffset+40), position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1053,10 +1149,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\n'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1137,10 +1236,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\xa0'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1213,19 +1315,22 @@ class Video extends Component {
 
 
             <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-              this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
+              // this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
+                // this.setState({currentSection:null})
                 this.playSection(i);
-              });
+              // });
             }} />
 
-          <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+          <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
           {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
             <Popup
-              trigger={<span style={{color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                console.log(this.state.getCall);
-                  this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-              }
-              }>{j+'\n'}</span>}
+              trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
+                  }
+                  }>{j+'\n'}</span>}
+                  disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
               onClose={()=>this.setState({
                 clickedWordIndex:[-1,-1],
                 definitions:[],
@@ -1335,9 +1440,9 @@ class Video extends Component {
               onPlay={()=>{
                 this.setState({audioPlayerPlaying:true})
               }}
-              onPause={()=>{this.setState({audioPlayerPlaying:false})}}
+              onPause={()=>{this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
             />
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset-102 ,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset-101 ,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
 
 
@@ -1417,10 +1522,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\n'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1517,10 +1625,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\xa0'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1592,17 +1703,22 @@ class Video extends Component {
               }
 
               <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-                this.rap.audio.current.pause();
-                this.setState({audioPlayerPlaying:false});
+                // this.setState({audioPlayerPlaying:false},()=>{
+                // this.rap.audio.current.pause();
                 this.playSection(i);
+
+                // });
               }} />
-              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null && this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
-                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                      this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null && this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{j+'\n'}</span>}
+                  disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
                     definitions:[],
@@ -1713,12 +1829,12 @@ class Video extends Component {
                 this.setState({videoPlayerPlaying:true})
                 // this.checkIfScrollNeeded()
               }}
-              onPause={()=>{this.setState({videoPlayerPlaying:false})}}
+              onPause={()=>{this.setState({videoPlayerPlaying:false}); this.resetTimer()}}
             />
             </div>
           </div>
 
-            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.readerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+            <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.videoHeight-this.state.topOffset-13,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
               <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
               
@@ -1774,10 +1890,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\n'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1871,10 +1990,13 @@ class Video extends Component {
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
                 <Popup
-                  trigger={<span style={{color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                      this.setState({getCall:true,clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());}); 
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{k+'\xa0'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1946,17 +2068,20 @@ class Video extends Component {
               }
 
               <Icon name='play circle' style={{color:'#d4d4d4'}} link onClick={() => {
-                this.setState({videoPlayerPlaying:false, currentSection: null,},()=>{
-                  this.playSection(i);
-                });
+                // this.setState({videoPlayerPlaying:false, currentSection: null,})
+                this.playSection(i)
+                
               }} />
-              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
+              <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null && this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
                 <Popup
-                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
-                    this.setState({getCall:true,clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                  trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
                   }
                   }>{j+'\n'}</span>}
+                  disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
                     definitions:[],
