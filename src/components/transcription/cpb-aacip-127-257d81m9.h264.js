@@ -68,7 +68,7 @@ export const subtitles = {
     "12": {
         "startTime": 77.908,
         "endTime": 87.908,
-        "transcript": "Cunaw' tua-i tuaten aipangucilqa nallumanaluku, kiituan uterrluta kingunemteńun tekitukut.",
+        "transcript": "Cunaw' tua-i tuaten aipangucilqa nallumanaluku, kiituan uterrluta kingunemteńun tekitukut.",
         "translation": "It turned out that I wouldn't know that I had gotten married for a long time, until eventually we arrived back home."
     },
     "13": {
@@ -422,7 +422,7 @@ export const subtitles = {
     "71": {
         "startTime": 528.817,
         "endTime": 540.846,
-        "transcript": "And over in Kwigillingok, Akat'aq's children are my great-grandchildren.",
+        "transcript": "Tua-i ingkut-wa cali Kuigilngurmi, Akat'am irniari cali ingkut iluperanka.",
         "translation": "And over in Kwigillingok, Akat'aq's children are my great-grandchildren."
     },
     "72": {

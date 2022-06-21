@@ -110,7 +110,7 @@ export const subtitles = {
     "19": {
         "startTime": 118.8,
         "endTime": 126.0,
-        "transcript": "Maavet-llu maa-i wavet ernemteńun tekilluten tangllerpenek elpet qanrutqerki.",
+        "transcript": "Maavet-llu maa-i wavet ernemteńun tekilluten tangllerpenek elpet qanrutqerki.",
         "translation": "Please also talk about what you have seen as you have lived up to this day."
     },
     "20": {
@@ -134,14 +134,14 @@ export const subtitles = {
     "23": {
         "startTime": 137.5,
         "endTime": 146.0,
-        "transcript": "Yuurtellrulua… Yugtun ima Maqisteńgulua; nickname-aqluku Maqista.",
+        "transcript": "Yuurtellrulua… Yugtun ima Maqisteńgulua; nickname-aqluku Maqista.",
         "translation": "I was born… I am Maqista in Yup'ik; Maqista is my nickname."
     },
     "24": {
         "startTime": 146.5,
-        "endTime": 154.0,
+        "endTime": 155.0,
         "transcript": "Tau͡gken atpiaqa Ac'urunauluni. Angllullemni tuaten uitaluni.",
-        "translation": ""
+        "translation": "But my real name is Ac'urunaq. That was my name given at birth."
     },
     "25": {
         "startTime": 156.0,

@@ -302,7 +302,7 @@ export const subtitles = {
     "51": {
         "startTime": 377.301,
         "endTime": 387.601,
-        "transcript": "Asaacaryarmiut cali ,Tuqsugmiut cali tangerrluki, cali qau͡gkut Negeqlirmek pilriit cali tangerrluki.",
+        "transcript": "Asaacaryarmiut cali, Tuqsugmiut cali tangerrluki, cali qau͡gkut Negeqlirmek pilriit cali tangerrluki.",
         "translation": "Mountain Village too, and looking at Toksook Bay, and looking at the place they call St. Mary's."
     },
     "52": {
@@ -344,7 +344,7 @@ export const subtitles = {
     "58": {
         "startTime": 443.552,
         "endTime": 459.602,
-        "transcript": "Tau͡gaam tau͡ga waten wanigga imkut civuliamta imkut atullrat au͡gna umyugamteńi, umyugamni keyianeng uitarrlainatuuq.",
+        "transcript": "Tau͡gaam tau͡ga waten wanigga imkut civuliamta imkut atullrat au͡gna umyugamteńi, umyugamni keyianeng uitarrlainatuuq.",
         "translation": "But now the things that our ancestors experienced like this always stays in my mind."
     },
     "59": {
@@ -392,7 +392,7 @@ export const subtitles = {
     "66": {
         "startTime": 506.268,
         "endTime": 515.681,
-        "transcript": "Makunun wangkuta irniaramteńun cali atungnaqureniaraput tamakut kenekluki, cagyuunaki.",
+        "transcript": "Makunun wangkuta irniaramteńun cali atungnaqureniaraput tamakut kenekluki, cagyuunaki.",
         "translation": "Let us try to use them toward our children here out of love, not lose them."
     },
     "67": {
@@ -434,7 +434,7 @@ export const subtitles = {
     "73": {
         "startTime": 577.638,
         "endTime": 591.038,
-        "transcript": "Makunun irniaramteńun atungnaqureluki, qang'a-llu irniaqenrilengramteki. Makunun ayagyugaat tungiitnun cali atungnaqureluki piniartukut.",
+        "transcript": "Makunun irniaramteńun atungnaqureluki, qang'a-llu irniaqenrilengramteki. Makunun ayagyugaat tungiitnun cali atungnaqureluki piniartukut.",
         "translation": "Let us try to practice them with our children, and even if they're not our children. Let's try to practice them with these young people."
     },
     "74": {
@@ -464,7 +464,7 @@ export const subtitles = {
     "78": {
         "startTime": 632.931,
         "endTime": 641.369,
-        "transcript": "Ukisqaqengnaqerrlainarluku piyuutemteńek niitenrilengraitkut.",
+        "transcript": "Ukisqaqengnaqerrlainarluku piyuutemteńek niitenrilengraitkut.",
         "translation": "Let us only rely on him for help, even if he doesn't give us everything we want."
     },
     "79": {
@@ -482,13 +482,13 @@ export const subtitles = {
     "81": {
         "startTime": 653.726,
         "endTime": 664.676,
-        "transcript": "Cali makut wangkuta kingunemteńun ayakumta tamakuneng au͡gkut qaneryaraqegtaa'rneng au͡gkut civumi qanaallerneng",
+        "transcript": "Cali makut wangkuta kingunemteńun ayakumta tamakuneng au͡gkut qaneryaraqegtaa'rneng au͡gkut civumi qanaallerneng",
         "translation": "Also, when we go back to our homes, those wonderful pieces of traditional wisdom from those who spoke first"
     },
     "82": {
         "startTime": 664.695,
         "endTime": 673.745,
-        "transcript": "Qaneryaraqegtaaraat tamakut makunun mikelngurramteńun wangkuta egmirqurluki piniaraput.",
+        "transcript": "Qaneryaraqegtaaraat tamakut makunun mikelngurramteńun wangkuta egmirqurluki piniaraput.",
         "translation": "Let us pass on those wondeful pieces of wisdom to our little children."
     },
     "83": {
@@ -512,7 +512,7 @@ export const subtitles = {
     "86": {
         "startTime": 693.028,
         "endTime": 701.14,
-        "transcript": "Tau͡ga tamatumeng quyatengqertua wii ukuneng taivkartemteńeng.",
+        "transcript": "Tau͡ga tamatumeng quyatengqertua wii ukuneng taivkartemteńeng.",
         "translation": "I am thankful to these who had us come for that."
     },
     "87": {
@@ -620,8 +620,8 @@ export const subtitles = {
     "104": {
         "startTime": 831.239,
         "endTime": 837.889,
-        "transcript": "The other person is Wiliie Beans who's kind of hiding back up there. But he also went down to Sitka to help pick...",
-        "translation": "The other person is Wiliie Beans who's kind of hiding back up there. But he also went down to Sitka to help pick..."
+        "transcript": "The other person is Willie Beans who's kind of hiding back up there. But he also went down to Sitka to help pick...",
+        "translation": "The other person is Willie Beans who's kind of hiding back up there. But he also went down to Sitka to help pick..."
     },
     "105": {
         "startTime": 837.908,
@@ -663,7 +663,7 @@ export const subtitles = {
         "startTime": 882.046,
         "endTime": 887.009,
         "transcript": "́́...movies, Mountain VIllage High School photograph, James Parker.",
-        "translation": " ́́́...movies, Mountain VIllage High School photograph, James Parker."
+        "translation": "́́́...movies, Mountain VIllage High School photograph, James Parker."
     },
     "112": {
         "startTime": 887.021,

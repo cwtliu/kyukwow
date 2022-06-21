@@ -2,25 +2,25 @@ export const subtitles = {
     "1": {
         "startTime": 0.03,
         "endTime": 8.086,
-        "transcript": "Iciugg, cake mix-aanek pingvailemta kayangunek avulegnek pitullruyaqukut.",
+        "transcript": "Icugg', cake mix-aanek pivailemta kayangunek avulegnek pitullruyaaqukut.",
         "translation": "So, before we had cake mix we had mixed eggs to it."
     },
     "2": {
         "startTime": 8.504,
         "endTime": 18.15,
-        "transcript": "(Narullgiar looks at camera, while mixing)  He asks Ina to move.",
+        "transcript": "(I guess only Ina's in there.)",
         "translation": "Aanaq (granddaughter) aqumniartuq."
     },
     "3": {
         "startTime": 18.53,
         "endTime": 23.961,
-        "transcript": "Cali miiqataarqa, qaqicaaqnaurtuq.",
+        "transcript": "Cali emiqata'arqa, qaqicaaqnaurtuq.",
         "translation": "I'll add more water again so it can be ready."
     },
     "4": {
         "startTime": 24.135,
         "endTime": 33.21,
-        "transcript": "Makut-qaa salmon berry atrit atngellruut qaraliit salmon-aacetun",
+        "transcript": "Makut-qaa salmon berry atrit at'ngellruut wani-mi qaraliit salmon-aacetun?",
         "translation": "Are salmon berry named from salmon due to color?"
     },
     "5": {
@@ -32,13 +32,13 @@ export const subtitles = {
     "6": {
         "startTime": 36.276,
         "endTime": 38.697,
-        "transcript": "Naamell",
+        "transcript": "Naamell'.",
         "translation": "I don't know."
     },
     "7": {
         "startTime": 38.817,
         "endTime": 46.847,
-        "transcript": "Blueberry-it-wa taugaam nallunrilkenka.  Qucilgaat-qaa iingicetun?",
+        "transcript": "Blueberry-t-wa tau͡gaam nallunrilkenka. Qucillgaat-qaa iingicetun?",
         "translation": "I do know of blueberry.  Like the eyes of cranes?"
     },
     "8": {
@@ -56,31 +56,31 @@ export const subtitles = {
     "10": {
         "startTime": 64.78,
         "endTime": 73.301,
-        "transcript": "Wall'u-qaa qiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit.  Salmon berries..pill'iit.",
+        "transcript": "Wall'u-qaa kiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit. Salmon berries... pilliit.",
         "translation": "Or, did they name them salmon berry because of the summer salmon fish.  Salmon berries ... maybe."
     },
     "11": {
         "startTime": 77.076,
         "endTime": 82.787,
-        "transcript": "Maani-wa pilalriit uksuaryartumi.",
+        "transcript": "Maani pilalriit uksuaryartumi.",
         "translation": "They grow just at the beginning of fall."
     },
     "12": {
         "startTime": 97.544,
         "endTime": 105.576,
-        "transcript": "Assaliurayuitukut makunek.  Caqapqapiararqamta taugaam.",
+        "transcript": "Assaliurayuitukut makunek. Caqapqapiararqamta tau͡gaam.",
         "translation": "We don't make these fried bread regularly.  Only once in a while."
     },
     "13": {
         "startTime": 105.742,
         "endTime": 114.946,
-        "transcript": "II, imumi assaliuratullruukut. Unuakumi-llu pegg'arraarluta Nalqiglimi.",
+        "transcript": "Ii-i, imumi assaliuratullruukut. Unuakumi-llu pegg'arraarluta Nalqiglimi.",
         "translation": "Yes, we usually made it in the morning after staying up all night at Nalqigliq"
     },
     "14": {
         "startTime": 115.086,
         "endTime": 123.065,
-        "transcript": "Unuakuarmi uterrlua assaliqcaaralalrianga.  Iciugg, Aanagka aatakall' neqiurlukek.",
+        "transcript": "Unuakuarmi uterrlua assaliqcaaralalrianga. Icugg', Aanagka aatakall' neqiurlukek.",
         "translation": "Early in the am I went home and made it.  You know, for my mom and dad's breakfast."
     },
     "15": {
@@ -92,85 +92,85 @@ export const subtitles = {
     "16": {
         "startTime": 132.474,
         "endTime": 141.793,
-        "transcript": "Quyavkarnalukek uterrlua assalinaurtua.  Carrie-llu cali yaai yaatemteni assaliaqluni.",
+        "transcript": "Quyavkarnalukek uterrlua assalinaurtua. Carrie-llu cali yaa-i yaatemteńi assaliaqluni.",
         "translation": "I wanted them to be grateful and so I went home and made fried bread.  And, Carrie would do the same, make fried bread next door to us."
     },
     "17": {
         "startTime": 142.023,
         "endTime": 158.737,
-        "transcript": "Pegg'arqavci calallruceci?  Pegg'alaallerput umyuaqaqamku tuartang caarkaituyuitellrulriakut nepliqaqsaunata-llu pinaurtukut.",
+        "transcript": "Pegg'arqavci calallruceci? Pegg'alallerput umyuaqaqamku tuar-tang caarkaituyuitellrulriakut nepliqaqsaunata-llu pinaurtukut.",
         "translation": "When you stayed up all night what did you do?  When I think of the nights we stayed up, we didn't do anything mischievious but we were pretty quiet."
     },
     "18": {
         "startTime": 158.827,
         "endTime": 164.01,
-        "transcript": "Pelatekat elataitni.  Nepliryaaqevkenata.",
+        "transcript": "Pelatekat elataitni. Nepliryaaqevkenata.",
         "translation": "Next to tents, we tried our best not to make any noise at all."
     },
     "19": {
         "startTime": 164.1,
         "endTime": 173.119,
-        "transcript": "Taugaam-am yaani napat iluatni aquivingqelallruukut iciugg car'ii...carirluku.",
+        "transcript": "Tau͡gaam-am yaani napat iluatni aquivingqelallruukut icugg' carr'i... carrirluku.",
         "translation": "But, over yonder inside the trees we had a play ground on a clearing..clearing an area."
     },
     "20": {
         "startTime": 173.619,
         "endTime": 184.029,
-        "transcript": "Tuani tua aquinaurtukut unugmi.  Augna-wa Maklaali-gguq una aturcetaalria imkunek.",
+        "transcript": "Tuani tua aquinaurtukut unugmi. Augna-wa Maktaali-gguq una aturcetaalria imkunek.",
         "translation": "We played there at night.  And there was Maklaali who would play some music."
     },
     "21": {
         "startTime": 184.309,
         "endTime": 189.884,
-        "transcript": "Tauna aturtekegciluni at'ii.  Iciugg party-irpagluteng.",
+        "transcript": "Tauna aturtekegciluni atii. Icugg' party-rpagluteng.",
         "translation": "That father of his had good singers. You know, they held a big party."
     },
     "22": {
         "startTime": 190.064,
         "endTime": 194.916,
-        "transcript": "Nalqiglimeg'am maligutellruukut three-aarluuta nasaurlullraulutall.",
+        "transcript": "Nalqiglimeg-am maligutellruukut three-aarluuta nasaurlullrauluta-ll'.",
         "translation": "From Nalqigliq three of us went along as girls."
     },
     "23": {
         "startTime": 195.046,
         "endTime": 201.036,
-        "transcript": "Sam Mill-aamun.  Sam Mil'i taumun.  Kalampiaq-wa angyaa.",
+        "transcript": "Sam Mill-aamun. Sam Miller taumun. Kalampiaq-wa angyaa.",
         "translation": "We went with Samil.  Sam Mili, that one.  His boat was a sail boat."
     },
     "24": {
         "startTime": 201.149,
         "endTime": 205.278,
-        "transcript": "Iciugg kalampiat-ggun imum pektetullratni.",
+        "transcript": "Icugg' kalampiat-ggun imum pektetullratni.",
         "translation": "You know they used sailboat to travel back then."
     },
     "25": {
         "startTime": 205.428,
         "endTime": 208.42,
-        "transcript": "Tua-i-ll tuani agnguaraqluteng.",
+        "transcript": "Tua-i-ll' tuani agnguaraqluteng.",
         "translation": "So, that's where we modern danced."
     },
     "26": {
         "startTime": 208.648,
         "endTime": 212.621,
-        "transcript": "Tua-i-ll wangkutall' pinguangluta.",
+        "transcript": "Tua-i-ll' wangkuta-ll' pinguangluta.",
         "translation": "And, we joined them."
     },
     "27": {
         "startTime": 212.901,
         "endTime": 225.952,
-        "transcript": "Utercamtall tuai Nalqiglimi peg'arqamta tauna aturcetaartekluku unugmi saatiss'aarluta, agnguaraqluta unugmi.",
+        "transcript": "Utercamta-ll' tua-i Nalqiglimi pegg'arqamta tauna aturcetaartekluku unugmi saatiss'aarluta, agnguaraqluta unugmi.",
         "translation": "When we went back to Nalqigliq, we did the same at night with him as our singer and danced (saatis style) at night."
     },
     "28": {
         "startTime": 226.102,
         "endTime": 230.3,
-        "transcript": "Tuaten tuar pilallrul",
+        "transcript": "Tuaten tuar pilallru...",
         "translation": "We did that seems like."
     },
     "29": {
         "startTime": 230.781,
         "endTime": 249.181,
-        "transcript": "Waten wa tuai piurararkaullrulriit.  Unall' puqlirluku uqurkaqa.",
+        "transcript": "Waten wa tua-i piurararkaullrulriit. Una-ll' puqlirluku uqurkaqa.",
         "translation": "That's how you always had to do it.  I heat my oil, too I will use."
     },
     "30": {
@@ -182,73 +182,73 @@ export const subtitles = {
     "31": {
         "startTime": 284.051,
         "endTime": 292.89,
-        "transcript": "Tua-i imumikiq uqupianek assalitullruut.  Qaillun-kiq...uqupiat-ggem tukniut.",
+        "transcript": "Tua-i imumi-kiq uqupianek assalitullruut. Qaillun-kiq... uqupiat-ggem tukniut.",
         "translation": "So, back in the day...they used rendered animal oil to make fried bread.  I wonder how...and rendered animal oil is strong."
     },
     "32": {
         "startTime": 293.342,
         "endTime": 302.95,
-        "transcript": "Maa-i wesson oil-aamek kiingan uqilartua.  Tuai wesson oil-aunrilngurmek...wesson oil-aitaqamall saalamek.",
+        "transcript": "Maa-i wesson oil-aamek kiingan uqilartua. Tua-i-ll' wesson oil-aunrilngurmek... wesson oil-aitaqama-ll' saalamek.",
         "translation": "Now, I only use wesson oil.  So, I don't use other than wesson oil...if I don't have wesson oil, I use shortening."
     },
     "33": {
         "startTime": 303.21,
         "endTime": 311.664,
-        "transcript": "Imumek taugg uqunek...uqupianek.  Akulmill pavani (plane flying over)...",
+        "transcript": "Imumek taugg uqunek... uqupianek. Akulmi-ll' pavani...",
         "translation": "But back then, rendered oil.  Tundra people, back there...(plane noise)"
     },
     "34": {
         "startTime": 328.138,
         "endTime": 347.009,
-        "transcript": "Nalluyagutelaarqekatang TV-news-aryuitellrat.  (banging)  Ii-i.   Imumi maantellemteni unuaquaqan TV-iitgun news-arturalalruamta.  Maai allakaungan radio-t-ggun pilaamta?",
+        "transcript": "Nalluyagutelaarqeka-tang TV-news-aryuitellrat. Ii-i. Imumi maantellemteńi unuaquaqan TV-iitgun news-arturalallruamta. Maa-i allakaungan radio-t-ggun pilaamta?",
         "translation": "I forget that that there is no TV news.  Yes...When we lived here we always had TV news every day.  It's different now with radio only."
     },
     "35": {
         "startTime": 368.48,
         "endTime": 378.802,
-        "transcript": "Yuurqerciquten?  Yaa, unaqaa cauga?  Well-aq?",
+        "transcript": "Yuurqerciquten? Yaa, una-qaa cauga? Well-aq?",
         "translation": "Will you have tea?  Yes, what is in this?  Well water?"
     },
     "36": {
         "startTime": 387.773,
         "endTime": 396.452,
-        "transcript": "Arnaq-wam akwauvaq jam-miqcaaralria call-allemteni.",
+        "transcript": "Arnaq-wam akwaugaq jam-miqcaaralria call-allemteńi.",
         "translation": "Marie was making jam yesterday when we called her."
     },
     "37": {
         "startTime": 396.832,
         "endTime": 402.119,
-        "transcript": "Camegkiq jam-ia.  Blueberry-nek-wa pillill.",
+        "transcript": "Cameg-kiq jam-ia. Blueberry-nek-wa pillill'.",
         "translation": "I wonder what kind of jam she's making.  Probably blue berries."
     },
     "38": {
         "startTime": 414.601,
         "endTime": 425.343,
-        "transcript": "Tauna-llu-wam elluanriqerrluni iqugteklallra. Avai-llu ayakat'aan piluku court-akun.",
+        "transcript": "Tauna-llu-wam elluanriqerrluni iqugtek'lallra. Ava-i-llu ayakataan piluku court-akun.",
         "translation": "His fishing helper isn't working out.  And, he had a court summons."
     },
     "39": {
         "startTime": 425.733,
         "endTime": 436.495,
-        "transcript": "Amtall avai Raba-m pilua tuarrguq nayulaqai.  Akiani nengqerraami.",
+        "transcript": "Amta-ll' ava-i Raba-m pilua tuar-gguq nayulaqai. Akiani nengqerrami.",
         "translation": "But, Raba just told me he is staying with them.  She has a place across from it."
     },
     "40": {
         "startTime": 437.571,
         "endTime": 447.956,
-        "transcript": "Are you worried?  Kiimi-llug angutnguami maan kiiryullill.",
+        "transcript": "(Are you worried?) Kiimi-llu angutnguami maan kiiryullill'.",
         "translation": "Penggartuten-qaa? (at camera guy). He is the only guy here, so maybe that's why he's hot."
     },
     "41": {
         "startTime": 467.793,
         "endTime": 474.233,
-        "transcript": "Qavarciigatnaqluni.  Oh, kiircenani.  II-i fishcamp-amill",
+        "transcript": "(Qavarciigatnaqluni.) Oh, kiircenani. (Ii-i) fishcamp-amill",
         "translation": "It's hard to sleep.  Oh, too hot?  Yes (incomplete sentence due to editing)."
     },
     "42": {
         "startTime": 485.48,
         "endTime": 496.246,
-        "transcript": "Tumaglinek-qaa iqvalartut maani?  Naamelliin.  Tuartang piksailnguut.  Aren, naamell.",
+        "transcript": "(Tumaglinek-qaa iqvalartut maani?) Naamelliin. Tuar-tang piksailnguut. Aren, naamell.",
         "translation": "Do they pick cranberries here?  I do not know.  Maybe they haven't.  Or, I don't know."
     },
     "43": {
@@ -260,49 +260,49 @@ export const subtitles = {
     "44": {
         "startTime": 506.873,
         "endTime": 517.63,
-        "transcript": "Ripe-assiyaanrilengraata walluq' ripe-arqata?  Ripe-arqata.  Atsiarnek piaqluki.",
+        "transcript": "Ripe-assiyaanrilengraata walluq' ripe-arqata? Ripe-arqata. Atsiarnek piaqluki.",
         "translation": "Are they not quite rip or when they're ripe?  When they're ripe.  They call them cooked berry.  Yes"
     },
     "45": {
         "startTime": 518.802,
         "endTime": 529.032,
-        "transcript": "Aanaka tamakumiunguqallermini pilitullruuq atsiaranek.  II-i",
+        "transcript": "Aanaka tamakumiunguqallermini pilitullruuq atsiaranek. II-i",
         "translation": "My mom when she lived there use to make cooked berry."
     },
     "46": {
         "startTime": 531.751,
         "endTime": 535.645,
-        "transcript": "Ciin-kiq avani atsat ....",
+        "transcript": "Ciin-kiq avani atsat...",
         "translation": "Why are berries over there...."
     },
     "47": {
         "startTime": 551.96,
         "endTime": 555.519,
-        "transcript": "Tua-iugg tuaten piss..piqataryuklua.",
+        "transcript": "Tua-iugg tuaten piss... piqataryuklua.",
         "translation": "I thought you were going to do that."
     },
     "48": {
         "startTime": 567.903,
         "endTime": 573.412,
-        "transcript": "Una-llam elegciqaa.  Atam elegqerngigtut.",
+        "transcript": "Una-llam elegciqaa. Atam elegqerngigtut.",
         "translation": "This might burn.  They burn easily."
     },
     "49": {
         "startTime": 574.062,
         "endTime": 581.699,
-        "transcript": "You have to watch this.  They really cook fast.",
+        "transcript": "You have to watch this. They really cook fast.",
         "translation": "Murilkelluku una.  Cukaluteng uulartut."
     },
     "50": {
         "startTime": 612.232,
         "endTime": 630.45,
-        "transcript": "Tua-i qanernaurtukut imumi parent-aaput smart-allallruullinilriit.  Waten-llam unuakumi fresh-anek assalianek avuurluteng yuurqerraqluteng.",
+        "transcript": "Tua-i qanernaurtukut imumi parent-aaput smart-allallruullinilriit. Waten-llam unuakumi icugg' fresh-anek assalianek avuurluteng yuurqeraqluteng.",
         "translation": "We use to say our parents were pretty elisngaq.  And just like this they ate fresh fried bread with their hot coffee/tea in the morning."
     },
     "51": {
         "startTime": 630.91,
         "endTime": 645.145,
-        "transcript": "waniug tuai taqlernek.  Tuamtall yuuqaqatarqameng..afternoon..tuallu waten assaliqerluteng.",
+        "transcript": "waniug tua-i taqlernek. Tuamta-ll' yuurqaqatarqameng... afternoon... tua-llu waten assaliqerluteng.",
         "translation": "Just finished right before.  And before they have tea in the afternoon they make another batch of  fried bread."
     },
     "52": {
@@ -314,31 +314,31 @@ export const subtitles = {
     "53": {
         "startTime": 701.388,
         "endTime": 724.952,
-        "transcript": "naken picirkailnguut.  Taugaam qagkut...keggnall neighbor-aaqa kuvyaqcaaralaryaaqellria.  Cikircetaaquma cikiryalliikiinga.  Atam neighbor-aama kass'at kenkaatnga.",
+        "transcript": "naken picirkailnguut. Tau͡gaam qau͡gkut... keggna-ll' neighbor-aaqa kuvyaqcaaralaryaaqellria. Cikircetaaquma cikiryalliikiinga. Atam neighbor-aama kass'at kenkaatnga.",
         "translation": "Having no place to get them.  But those out there, and my next door neighbor does fish.  If I ask for some he may give me some.  My white caucausian neighbors care about me."
     },
     "54": {
         "startTime": 725.773,
         "endTime": 746.987,
-        "transcript": "Kegg'umllu call Shorty-m qagna elateka canegpilallrua.  Taugaam maai augum uingan Sue-am maantellermegni maaraiyirluku shop-aliyaaqluku-llu.   Tunellrua.",
+        "transcript": "Kegg'um-llu call Shorty-m qagna elateka canegpilallrua. Tau͡gaam maa-i au͡g'um uingan Sue-am maantellermegni marayirluku shop-aliyaaqluku-llu. Tunellrua.",
         "translation": "And that one out there, Shorty planted grass seed on my lawn.  But, Sue's husband when he was here added mud and a shop. He sold it."
     },
     "55": {
         "startTime": 747.437,
         "endTime": 774.499,
-        "transcript": "Tua-ll qagna assiirulluku qagai nunaka qaugyam pile-ap'aarluni piciatun.  Kiituantang Shorty-m canek lliyuirutaa.  Canegkanek, asmegtaqamill elateka piuralallrua, ilakurlua.  Taumek assiklaqka.",
+        "transcript": "Tua-ll͡' qagna assiirulluku qagai nunaka qaugyam pile up-aarluni piciatun. Kiituan' tang Shorty-m canek piyuirutaa. Canegkanek, asmegtaqami-ll' elateka piuralallrua, ilakurlua. Taumek assik'laqka.",
         "translation": "It ruined it outside with sand piled up here and there, any which way.  And, Shorty is not even planting seed for grass anymore.  He use to cut the grass all the time, always including me.  That's why I like him."
     },
     "56": {
         "startTime": 778.722,
         "endTime": 806.15,
-        "transcript": "Calirpanertuuq.  Calirllainalartuq.  Atam tayim utreskuni flower-aaminek caliniartuq. Amtallu iqap'agluni.  Wiingaug tease-alaqeka caaqama.  Tuai rest-amek nalluluni angu keggna.  Calirrlainaq.",
+        "transcript": "Calirpanertuuq. Calirrlainalartuq. Atam tayim utreskuni flower-aaminek caliniartuq. Amta-llu iqap'agluni. Wiinga-gg' tease-alaqeka caaqama. Tua-i rest-amek nalluluni angu keggna. Calirrlainaq.",
         "translation": "He works very hard.  He works all the time.  I know he will work on his flowers when he gets home even though he's dirty.  I tease him sometimes.  That man, he really doesn't know what rest is.  Always working."
     },
     "57": {
         "startTime": 806.92,
         "endTime": 831.808,
-        "transcript": "Ikegkut-qaa apartment-aat yungqelartut?  Yaa. Yungqerturatuut.  Erenrani calilaryugnarqut. Tua-i-iugg akitulalliata.  Yaa akituut-gguq, $800 down, tuaten-wa kina qanellrull. Tualliugg tuai yungqerturatulriit.",
+        "transcript": "Ikegkut-qaa apartment-aat yungqelartut? Yaa. Yungqerturatuut. Erenrani calilaryugnarqut. Tua-i-ugg akitulalliata. Yaa akituut-gguq, $800 a month, tuaten-wa kina qanellrull'. Tua-lli-ugg tua-i yungqerturatulriit.",
         "translation": "Do those apartments have people staying in them?  Yes.  They're always occupied. In the day I think they work.  They must be expensive.  Yes, they are expensive, $800 down is what someone said. And, there are people in them all the time."
     },
     "58": {
@@ -350,13 +350,13 @@ export const subtitles = {
     "59": {
         "startTime": 866.378,
         "endTime": 904.496,
-        "transcript": "Lots of chatter...Saaralirluk... yuurqaqitek.  (I wanna try.) chatter... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii?  Yaa",
+        "transcript": "Saaralirluk... yuurqaqitek. (I wanna try.) ... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii? Yaa",
         "translation": "Sugar them up, have some tea.  (Great-granddaughter says, 'naspaayugtua') They are excellent hot.  Can I get a tea cups.  Can I set cups?  yes"
     },
     "60": {
         "startTime": 905.489,
         "endTime": 934.87,
-        "transcript": "Saskirluten, qallanguq.  Calingnaquuryaaquq. Aspiaq.   Akmaniwa akiitpialriit calilriit.  Uksuq nutaan nallunriqenka.  Akiitelalliniut calilriit.  Maani-llu-wa cat....",
+        "transcript": "Saskirluten, qallanguq. Calingnaquuryaaquq. Aspiaq. Akmani-wa akiitpialriit calilriit. Uksuq nutaan nallunriqenka. Akiitelalliniut calilriit. Maani-llu-wa cat...",
         "translation": "Get yourself a cup, it boiled.  (question unclear) She (Ana?) is looking for work.  Very good (fried bread just finished). Wages are very low for lower 48.  I found that out last winter.  They have lower wages.  Maybe here, things (incomplete due to editing)"
     }
 };

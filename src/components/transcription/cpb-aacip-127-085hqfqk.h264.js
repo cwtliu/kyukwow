@@ -14,13 +14,13 @@ export const subtitles = {
     "3": {
         "startTime": 47.21,
         "endTime": 54.62,
-        "transcript": "Waten tan'gaurluullemni tan'gaurluullemteńi makunek",
+        "transcript": "Waten tan'gaurluullemni tan'gaurluullemteńi makunek",
         "translation": "These things when I was a boy like this, when we were boys"
     },
     "4": {
         "startTime": 56.77,
         "endTime": 64.98,
-        "transcript": "Makunek-wa tua-i nunam qainganelngurnek neqemteńek pitarkanek",
+        "transcript": "Makunek-wa tua-i nunam qainganelngurnek neqemteńek pitarkanek",
         "translation": "These things on the land that we eat and hunt"
     },
     "5": {
@@ -50,7 +50,7 @@ export const subtitles = {
     "9": {
         "startTime": 92.15,
         "endTime": 97.76,
-        "transcript": "Imumi waten tan'gaurluullemteńi, tan'gaurluullemni-w' tua-i",
+        "transcript": "Imumi waten tan'gaurluullemteńi, tan'gaurluullemni-w' tua-i",
         "translation": "Back when we were boys like this, when I was a boy"
     },
     "10": {
@@ -110,7 +110,7 @@ export const subtitles = {
     "19": {
         "startTime": 158.62,
         "endTime": 168.51,
-        "transcript": "Makut-wa yaqulget pavani nanvat ceńaitni-ll' up'nerkitullruameng.",
+        "transcript": "Makut-wa yaqulget pavani nanvat ceńaitni-ll' up'nerkitullruameng.",
         "translation": "There were these birds since they set up spring camps inland on lake shores."
     },
     "20": {
@@ -284,7 +284,7 @@ export const subtitles = {
     "48": {
         "startTime": 380.382,
         "endTime": 386.932,
-        "transcript": "There was always a lot of birds and marine animals.",
+        "transcript": "Amllerllainarluteng yaqulget imarpigmiutaat-llu.",
         "translation": "There was always a lot of birds and marine animals."
     },
     "49": {
@@ -326,13 +326,13 @@ export const subtitles = {
     "55": {
         "startTime": 448.751,
         "endTime": 453.651,
-        "transcript": "Neq'lipiatullruuq agaani waten tan'gaurlullraullemteńi.",
+        "transcript": "Neq'lipiatullruuq agaani waten tan'gaurlullraullemteńi.",
         "translation": "There used to be a lot of fish across there when we were boys like this."
     },
     "56": {
         "startTime": 455.208,
         "endTime": 458.67,
-        "transcript": "Puukaquaqluteng-llu maavet ceńamun.",
+        "transcript": "Puukaquaqluteng-llu maavet ceńamun.",
         "translation": "They would also collide here on the bank."
     },
     "57": {
@@ -506,7 +506,7 @@ export const subtitles = {
     "85": {
         "startTime": 692.304,
         "endTime": 696.054,
-        "transcript": "One can actually have food like this:",
+        "transcript": "Neqengqerrsugngayaaquq waten:",
         "translation": "One can actually have food like this:"
     },
     "86": {

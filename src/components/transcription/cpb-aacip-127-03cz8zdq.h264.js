@@ -122,7 +122,7 @@ export const subtitles = {
     "21": {
         "startTime": 117.0,
         "endTime": 126.0,
-        "transcript": "Cali waten unani pinerrluga'artellria apqemteńek yuut pissuutaitnek teglek'alleq",
+        "transcript": "Cali waten unani pinerrluga'artellria apqemteńek yuut pissuutaitnek teglek'alleq",
         "translation": "Also, when someone misbehaved like this down there what we call those who've stolen people's tools"
     },
     "22": {
@@ -722,7 +722,7 @@ export const subtitles = {
     "121": {
         "startTime": 653.5,
         "endTime": 659.0,
-        "transcript": "Atrarqama murilkeńaurtua imna waten tank-am avga egatiit.",
+        "transcript": "Atrarqama murilkeńaurtua imna waten tank-am avga egatiit.",
         "translation": "When I went down, I would see that they used half of a tank as a cooking pot."
     },
     "122": {
@@ -806,14 +806,14 @@ export const subtitles = {
     "135": {
         "startTime": 727.0,
         "endTime": 735.0,
-        "transcript": "Tamatum-qaa nalliini tuntuviulallerpeceńi makut imkut keglunret pilallruut?",
+        "transcript": "Tamatum-qaa nalliini tuntuviulallerpeceńi makut imkut keglunret pilallruut?",
         "translation": "Back when youpl herded reindeer, were there wolves?"
     },
     "136": {
         "startTime": 735.5,
         "endTime": 738.0,
         "transcript": "Yaa, pilallruut.",
-        "translation": ""
+        "translation": "Yes, there were."
     },
     "137": {
         "startTime": 742.0,

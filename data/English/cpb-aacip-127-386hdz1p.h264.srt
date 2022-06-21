@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:20,550 --> 00:00:25,510
 Hello, I’m Mike Williams. I came from Akiak here.
 
@@ -1965,8 +1965,4 @@ I also want to thank other people who’ve helped.
 492
 00:58:31,154 --> 00:58:35,977
 Thank you for listening to these traditional Yup’ik medicine.
-
-493
-00:58:37,057 --> 00:58:49,171
-Made by the joint effort of YKHC and KYUK
 

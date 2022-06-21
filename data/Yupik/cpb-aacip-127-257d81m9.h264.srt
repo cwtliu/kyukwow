@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:03,700
 ...taumek aipangellrulliniunga.
 
@@ -44,7 +44,7 @@ Qavarniama tua-i inarrlua tayim’ qavallinilua.
 
 12
 00:01:17,908 --> 00:01:27,908
-Cunaw’ tua-i tuaten aipangucilqa nallumanaluku, kiituan uterrluta kingunemteńun tekitukut.
+Cunaw’ tua-i tuaten aipangucilqa nallumanaluku, kiituan uterrluta kingunemteńun tekitukut.
 
 13
 00:01:28,645 --> 00:01:41,188
@@ -280,7 +280,7 @@ Tallimaurcaaqluteng taukut nuringarmeng anellret, kinguqlirkai uum Ciulluum yuan
 
 71
 00:08:48,817 --> 00:09:00,846
-And over in Kwigillingok, Akat’aq’s children are my great-grandchildren.
+Tua-i ingkut-wa cali Kuigilngurmi, Akat'am irniari cali ingkut iluperanka.
 
 72
 00:09:01,168 --> 00:09:05,525

@@ -470,7 +470,7 @@ export const subtitles = {
     "79": {
         "startTime": 561.672,
         "endTime": 566.573,
-        "transcript": "WIi waniw' au͡g'arpailgatnga [?].",
+        "transcript": "Wii waniw' au͡g'arpailgatnga [?].",
         "translation": "Now, before they fired me, [?]."
     }
 };

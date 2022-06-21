@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:02,930 --> 00:00:11,010
 Were we not sad over our loss, we wouldn’t have killed that animal that ate.
 
@@ -80,7 +80,7 @@ I know all of the hunting grounds up there.
 
 21
 00:02:37,520 --> 00:02:44,730
-It’s called Ingriúrluq. The mountain is called Ingriúrluq.
+It’s called Ingriúrluq. The mountain is called Ingriúrluq.
 
 22
 00:02:45,220 --> 00:02:50,770
@@ -380,11 +380,11 @@ Where’s Killalin? Here it is.
 
 96
 00:10:15,375 --> 00:10:18,455
-The river over there... (Here’s Kuigceńaq.)
+The river over there... (Here’s Kuigceńaq.)
 
 97
 00:10:20,400 --> 00:10:23,660
-Upper Fall is Igceńaq, Qurrlurta.
+Upper Fall is Igceńaq, Qurrlurta.
 
 98
 00:10:23,885 --> 00:10:26,185
@@ -559,46 +559,54 @@ Stone head, face?
 No, I never go there, Kiillaraliin.
 
 141
+00:14:05,500 --> 00:14:12,450
+Can you ask him? A stone head by Kiseralik? Does he know? Can you ask?
+
+142
 00:14:13,245 --> 00:14:13,925
 What head?
 
-142
+143
 00:14:14,170 --> 00:14:17,300
 Stone, rock, on top of a mountain.
 
-143
+144
 00:14:17,730 --> 00:14:20,450
 I think, no, I don’t know it.
 
-144
+145
 00:14:21,385 --> 00:14:26,025
 Did you know Old Man Reed had a mine up on the Kiseralik?
 
-145
+146
 00:14:27,070 --> 00:14:31,150
 [?] I always went up, always [?].
 
-146
+147
 00:14:31,155 --> 00:14:33,195
 Only went up to...
 
-147
+148
 00:14:34,330 --> 00:14:38,750
 One time, he wen tup to Kiillaraliin, but always rain.
 
-148
+149
 00:14:39,815 --> 00:14:51,375
 Some stories we’ve had, the people go up to Kiseralik all the time, but they were afraid to go to Heart Lake, ’cause there’s supposed to be a creature over there. So they never did go to Kiseralik, I mean, to Heart Lake.
 
-149
+150
 00:14:51,770 --> 00:14:56,480
 We talked to Fanny, Fanny. (Yes.) Yes.
 
-150
+151
 00:14:56,840 --> 00:15:03,760
 When she was young, her brother, David Jackson?
 
-151
+152
+00:15:03,780 --> 00:15:07,070
+Long time, she was up that way.
+
+153
 00:15:08,555 --> 00:15:11,685
 Look, I’ll show you Kiillaraliin. Take it.
 

@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:33,270 --> 00:00:40,450
 Imkut uivenqellriit [?] tua-i tumaganek pilallruit. Assirluteng.
 
@@ -136,7 +136,7 @@ Tayima qanruyutnek niitelallruuten ciuliarpenek. Tamakunek cali qanqaa.
 
 35
 00:04:48,059 --> 00:05:05,159
- Wiinga unisteḿa qanruquralallruanga, "Tua-i qessavkenii pilaasqellua. Atam-gguq qessanqu͡rukuma, unkut unani nallunritaten neqet kuimalriit,
+Wiinga unisteḿa qanruquralallruanga, "Tua-i qessavkenii pilaasqellua. Atam-gguq qessanqu͡rukuma, unkut unani nallunritaten neqet kuimalriit,
 
 36
 00:05:05,167 --> 00:05:10,800
@@ -312,5 +312,5 @@ Elluarrluni tau͡gaam caliuralria Kass’am assikelaraa.́
 
 79
 00:09:21,672 --> 00:09:26,573
-WIi waniw’ au͡g’arpailgatnga [?].
+Wii waniw’ au͡g’arpailgatnga [?].
 

@@ -3,7 +3,7 @@ export const subtitles = {
         "startTime": 1.13,
         "endTime": 8.63,
         "transcript": "Yuut elpeci maavet upagallerci nutaan qanrutkeqerru Atmaulluarmun.",
-        "translation": "Please start talking about how people, you, moved here to Atmauthluak again."
+        "translation": "Please start talking about how people, you, moved here to Atmautluak again."
     },
     "2": {
         "startTime": 8.63,
@@ -15,7 +15,7 @@ export const subtitles = {
         "startTime": 12.59,
         "endTime": 23.16,
         "transcript": "Yaa, ukut-wa tua-i ciumek 1969-aami nugtartellruut maavet Atmaulluarmun.",
-        "translation": "Yes, these ones first moved here to Atmauthlauk in 1969."
+        "translation": "Yes, these ones first moved here to Atmautluak in 1969."
     },
     "4": {
         "startTime": 23.16,

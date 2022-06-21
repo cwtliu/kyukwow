@@ -1,244 +1,240 @@
-1
+﻿1
 00:00:00,030 --> 00:00:08,086
-Iciugg, cake mix-aanek pingvailemta kayangunek avulegnek pitullruyaqukut.
+Icugg’, cake mix-aanek pivailemta kayangunek avulegnek pitullruyaaqukut.
 
 2
-00:00:08,086 --> 00:00:08,504
-
+00:00:08,504 --> 00:00:18,150
+(I guess only Ina's in there.)
 
 3
-00:00:08,504 --> 00:00:18,150
-(Narullgiar looks at camera, while mixing)  He asks Ina to move. 
+00:00:18,530 --> 00:00:23,961
+Cali emiqata'arqa, qaqicaaqnaurtuq.
 
 4
-00:00:18,530 --> 00:00:23,961
-Cali miiqataarqa, qaqicaaqnaurtuq.  
+00:00:24,135 --> 00:00:33,210
+Makut-qaa salmon berry atrit at’ngellruut wani-mi qaraliit salmon-aacetun?
 
 5
-00:00:24,135 --> 00:00:33,210
-Makut-qaa salmon berry atrit atngellruut qaraliit salmon-aacetun 
-
-6
 00:00:33,373 --> 00:00:36,152
 Ayuqngata.
 
-7
+6
 00:00:36,276 --> 00:00:38,697
-Naamell
+Naamell'.
+
+7
+00:00:38,817 --> 00:00:46,847
+Blueberry-t-wa tau͡gaam nallunrilkenka. Qucillgaat-qaa iingicetun?
 
 8
-00:00:38,817 --> 00:00:46,847
-Blueberry-it-wa taugaam nallunrilkenka.  Qucilgaat-qaa iingicetun?
-
-9
 00:00:47,857 --> 00:00:56,878
 Makut-wa atsat cameng atsaugat.
 
-10
+9
 00:00:57,638 --> 00:01:04,200
-Tuar-gguq curaq, curak. 
+Tuar-gguq curaq, curak.
+
+10
+00:01:04,780 --> 00:01:13,301
+Wall'u-qaa kiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit. Salmon berries... pilliit.
 
 11
-00:01:04,780 --> 00:01:13,301
-Wall'u-qaa qiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit.  Salmon berries..pill'iit.
+00:01:17,076 --> 00:01:22,787
+Maani pilalriit uksuaryartumi.
 
 12
-00:01:17,076 --> 00:01:22,787
-Maani-wa pilalriit uksuaryartumi.
+00:01:37,544 --> 00:01:45,576
+Assaliurayuitukut makunek. Caqapqapiararqamta tau͡gaam.
 
 13
-00:01:37,544 --> 00:01:45,576
-Assaliurayuitukut makunek.  Caqapqapiararqamta taugaam.
+00:01:45,742 --> 00:01:54,946
+Ii-i, imumi assaliuratullruukut. Unuakumi-llu pegg'arraarluta Nalqiglimi.
 
 14
-00:01:45,742 --> 00:01:54,946
-II, imumi assaliuratullruukut. Unuakumi-llu pegg'arraarluta Nalqiglimi. 
+00:01:55,086 --> 00:02:03,065
+Unuakuarmi uterrlua assaliqcaaralalrianga. Icugg’, Aanagka aatakall' neqiurlukek.
 
 15
-00:01:55,086 --> 00:02:03,065
-Unuakuarmi uterrlua assaliqcaaralalrianga.  Iciugg, Aanagka aatakall' neqiurlukek.
-
-16
 00:02:03,669 --> 00:02:12,224
 Umyuarteqaqlua unuk pegg'allruama akilirlukek, tamana pay back-aq umyuaqluku.
 
-17
+16
 00:02:12,474 --> 00:02:21,793
-Quyavkarnalukek uterrlua assalinaurtua.  Carrie-llu cali yaai yaatemteni assaliaqluni.
+Quyavkarnalukek uterrlua assalinaurtua. Carrie-llu cali yaa-i yaatemteńi assaliaqluni.
+
+17
+00:02:22,023 --> 00:02:38,737
+Pegg'arqavci calallruceci? Pegg'alallerput umyuaqaqamku tuar-tang caarkaituyuitellrulriakut nepliqaqsaunata-llu pinaurtukut.
 
 18
-00:02:22,023 --> 00:02:38,737
-Pegg'arqavci calallruceci?  Pegg'alaallerput umyuaqaqamku tuartang caarkaituyuitellrulriakut nepliqaqsaunata-llu pinaurtukut. 
+00:02:38,827 --> 00:02:44,010
+Pelatekat elataitni. Nepliryaaqevkenata.
 
 19
-00:02:38,827 --> 00:02:44,010
-Pelatekat elataitni.  Nepliryaaqevkenata. 
+00:02:44,100 --> 00:02:53,119
+Tau͡gaam-am yaani napat iluatni aquivingqelallruukut icugg’ carr'i... carrirluku.
 
 20
-00:02:44,100 --> 00:02:53,119
-Taugaam-am yaani napat iluatni aquivingqelallruukut iciugg car'ii...carirluku. 
+00:02:53,619 --> 00:03:04,029
+Tuani tua aquinaurtukut unugmi. Augna-wa Maktaali-gguq una aturcetaalria imkunek.
 
 21
-00:02:53,619 --> 00:03:04,029
-Tuani tua aquinaurtukut unugmi.  Augna-wa Maklaali-gguq una aturcetaalria imkunek. 
+00:03:04,309 --> 00:03:09,884
+Tauna aturtekegciluni atii. Icugg’ party-rpagluteng.
 
 22
-00:03:04,309 --> 00:03:09,884
-Tauna aturtekegciluni at'ii.  Iciugg party-irpagluteng. 
+00:03:10,064 --> 00:03:14,916
+Nalqiglimeg-am maligutellruukut three-aarluuta nasaurlullrauluta-ll’.
 
 23
-00:03:10,064 --> 00:03:14,916
-Nalqiglimeg'am maligutellruukut three-aarluuta nasaurlullraulutall.
+00:03:15,046 --> 00:03:21,036
+Sam Mill-aamun. Sam Miller taumun. Kalampiaq-wa angyaa.
 
 24
-00:03:15,046 --> 00:03:21,036
-Sam Mill-aamun.  Sam Mil'i taumun.  Kalampiaq-wa angyaa.  
+00:03:21,149 --> 00:03:25,278
+Icugg’ kalampiat-ggun imum pektetullratni.
 
 25
-00:03:21,149 --> 00:03:25,278
-Iciugg kalampiat-ggun imum pektetullratni. 
+00:03:25,428 --> 00:03:28,420
+Tua-i-ll’ tuani agnguaraqluteng.
 
 26
-00:03:25,428 --> 00:03:28,420
-Tua-i-ll tuani agnguaraqluteng.
+00:03:28,648 --> 00:03:32,621
+Tua-i-ll’ wangkuta-ll' pinguangluta.
 
 27
-00:03:28,648 --> 00:03:32,621
-Tua-i-ll wangkutall' pinguangluta. 
+00:03:32,901 --> 00:03:45,952
+Utercamta-ll’ tua-i Nalqiglimi pegg'arqamta tauna aturcetaartekluku unugmi saatiss’aarluta, agnguaraqluta unugmi.
 
 28
-00:03:32,901 --> 00:03:45,952
-Utercamtall tuai Nalqiglimi peg'arqamta tauna aturcetaartekluku unugmi saatiss'aarluta, agnguaraqluta unugmi. 
+00:03:46,102 --> 00:03:50,300
+Tuaten tuar pilallru... 
 
 29
-00:03:46,102 --> 00:03:50,300
-Tuaten tuar pilallrul
+00:03:50,781 --> 00:04:09,181
+Waten wa tua-i piurararkaullrulriit. Una-ll' puqlirluku uqurkaqa.
 
 30
-00:03:50,781 --> 00:04:09,181
-Waten wa tuai piurararkaullrulriit.  Unall' puqlirluku uqurkaqa. 
+00:04:25,785 --> 00:04:32,640
+Waniwa-lluq tua-i video-lilua.
 
 31
-00:04:25,785 --> 00:04:32,640
-Waniwa-lluq tua-i video-lilua. 
+00:04:44,051 --> 00:04:52,890
+Tua-i imumi-kiq uqupianek assalitullruut. Qaillun-kiq... uqupiat-ggem tukniut.
 
 32
-00:04:44,051 --> 00:04:52,890
-Tua-i imumikiq uqupianek assalitullruut.  Qaillun-kiq...uqupiat-ggem tukniut. 
+00:04:53,342 --> 00:05:02,950
+Maa-i wesson oil-aamek kiingan uqilartua. Tua-i-ll’ wesson oil-aunrilngurmek... wesson oil-aitaqama-ll’ saalamek.
 
 33
-00:04:53,342 --> 00:05:02,950
-Maa-i wesson oil-aamek kiingan uqilartua.  Tuai wesson oil-aunrilngurmek...wesson oil-aitaqamall saalamek. 
+00:05:03,210 --> 00:05:11,664
+Imumek taugg uqunek... uqupianek. Akulmi-ll’ pavani... 
 
 34
-00:05:03,210 --> 00:05:11,664
-Imumek taugg uqunek...uqupianek.  Akulmill pavani (plane flying over)...
+00:05:28,138 --> 00:05:47,009
+Nalluyagutelaarqeka-tang TV-news-aryuitellrat. Ii-i. Imumi maantellemteńi unuaquaqan TV-iitgun news-arturalallruamta. Maa-i allakaungan radio-t-ggun pilaamta?
 
 35
-00:05:28,138 --> 00:05:47,009
-Nalluyagutelaarqekatang TV-news-aryuitellrat.  (banging)  Ii-i.   Imumi maantellemteni unuaquaqan TV-iitgun news-arturalalruamta.  Maai allakaungan radio-t-ggun pilaamta?  
+00:06:08,480 --> 00:06:18,802
+Yuurqerciquten? Yaa, una-qaa cauga? Well-aq?
 
 36
-00:06:08,480 --> 00:06:18,802
-Yuurqerciquten?  Yaa, unaqaa cauga?  Well-aq?
+00:06:27,773 --> 00:06:36,452
+Arnaq-wam akwaugaq jam-miqcaaralria call-allemteńi.
 
 37
-00:06:27,773 --> 00:06:36,452
-Arnaq-wam akwauvaq jam-miqcaaralria call-allemteni.  
+00:06:36,832 --> 00:06:42,119
+Cameg-kiq jam-ia. Blueberry-nek-wa pillill’.
 
 38
-00:06:36,832 --> 00:06:42,119
-Camegkiq jam-ia.  Blueberry-nek-wa pillill. 
+00:06:54,601 --> 00:07:05,343
+Tauna-llu-wam elluanriqerrluni iqugtek’lallra. Ava-i-llu ayakataan piluku court-akun.
 
 39
-00:06:54,601 --> 00:07:05,343
-Tauna-llu-wam elluanriqerrluni iqugteklallra. Avai-llu ayakat'aan piluku court-akun.
+00:07:05,733 --> 00:07:16,495
+Amta-ll’ ava-i Raba-m pilua tuar-gguq nayulaqai. Akiani nengqerrami.
 
 40
-00:07:05,733 --> 00:07:16,495
-Amtall avai Raba-m pilua tuarrguq nayulaqai.  Akiani nengqerraami. 
+00:07:17,571 --> 00:07:27,956
+(Are you worried?) Kiimi-llu angutnguami maan kiiryullill’.
 
 41
-00:07:17,571 --> 00:07:27,956
-Are you worried?  Kiimi-llug angutnguami maan kiiryullill. 
+00:07:47,793 --> 00:07:54,233
+(Qavarciigatnaqluni.) Oh, kiircenani. (Ii-i) fishcamp-amill
 
 42
-00:07:47,793 --> 00:07:54,233
-Qavarciigatnaqluni.  Oh, kiircenani.  II-i fishcamp-amill
+00:08:05,480 --> 00:08:16,246
+(Tumaglinek-qaa iqvalartut maani?) Naamelliin. Tuar-tang piksailnguut. Aren, naamell.
 
 43
-00:08:05,480 --> 00:08:16,246
-Tumaglinek-qaa iqvalartut maani?  Naamelliin.  Tuartang piksailnguut.  Aren, naamell. 
+00:08:18,766 --> 00:08:26,385
+Avani atem Manuquutarmiuni tumaglinek kenirluki pilituut.
 
 44
-00:08:18,766 --> 00:08:26,385
-Avani atem Manuquutarmiuni tumaglinek kenirluki pilituut. 
+00:08:26,873 --> 00:08:37,630
+Ripe-assiyaanrilengraata walluq' ripe-arqata? Ripe-arqata. Atsiarnek piaqluki.
 
 45
-00:08:26,873 --> 00:08:37,630
-Ripe-assiyaanrilengraata walluq' ripe-arqata?  Ripe-arqata.  Atsiarnek piaqluki. 
+00:08:38,802 --> 00:08:49,032
+Aanaka tamakumiunguqallermini pilitullruuq atsiaranek. II-i
 
 46
-00:08:38,802 --> 00:08:49,032
-Aanaka tamakumiunguqallermini pilitullruuq atsiaranek.  II-i
+00:08:51,751 --> 00:08:55,645
+Ciin-kiq avani atsat... 
 
 47
-00:08:51,751 --> 00:08:55,645
-Ciin-kiq avani atsat ....
+00:09:11,960 --> 00:09:15,519
+Tua-iugg tuaten piss... piqataryuklua.
 
 48
-00:09:11,960 --> 00:09:15,519
-Tua-iugg tuaten piss..piqataryuklua. 
+00:09:27,903 --> 00:09:33,412
+Una-llam elegciqaa. Atam elegqerngigtut.
 
 49
-00:09:27,903 --> 00:09:33,412
-Una-llam elegciqaa.  Atam elegqerngigtut. 
+00:09:34,062 --> 00:09:41,699
+You have to watch this. They really cook fast.
 
 50
-00:09:34,062 --> 00:09:41,699
-You have to watch this.  They really cook fast.  
+00:10:12,232 --> 00:10:30,450
+Tua-i qanernaurtukut imumi parent-aaput smart-allallruullinilriit. Waten-llam unuakumi icugg’ fresh-anek assalianek avuurluteng yuurqeraqluteng.
 
 51
-00:10:12,232 --> 00:10:30,450
-Tua-i qanernaurtukut imumi parent-aaput smart-allallruullinilriit.  Waten-llam unuakumi fresh-anek assalianek avuurluteng yuurqerraqluteng. 
+00:10:30,910 --> 00:10:45,145
+waniug tua-i taqlernek. Tuamta-ll’ yuurqaqatarqameng... afternoon... tua-llu waten assaliqerluteng.
 
 52
-00:10:30,910 --> 00:10:45,145
-waniug tuai taqlernek.  Tuamtall yuuqaqatarqameng..afternoon..tuallu waten assaliqerluteng. 
+00:10:45,732 --> 00:10:55,018
+pinaurtua fresh-at assilliniata fresh-anek tang imkut neruratullrullinilriit.
 
 53
-00:10:45,732 --> 00:10:55,018
-pinaurtua fresh-at assilliniata fresh-anek tang imkut neruratullrullinilriit. 
+00:11:41,388 --> 00:12:04,952
+naken picirkailnguut. Tau͡gaam qau͡gkut... keggna-ll’ neighbor-aaqa kuvyaqcaaralaryaaqellria. Cikircetaaquma cikiryalliikiinga. Atam neighbor-aama kass'at kenkaatnga.
 
 54
-00:11:41,388 --> 00:12:04,952
-naken picirkailnguut.  Taugaam qagkut...keggnall neighbor-aaqa kuvyaqcaaralaryaaqellria.  Cikircetaaquma cikiryalliikiinga.  Atam neighbor-aama kass'at kenkaatnga. 
+00:12:05,773 --> 00:12:26,987
+Kegg'um-llu call Shorty-m qagna elateka canegpilallrua. Tau͡gaam maa-i au͡g’um uingan Sue-am maantellermegni marayirluku shop-aliyaaqluku-llu. Tunellrua.
 
 55
-00:12:05,773 --> 00:12:26,987
-Kegg'umllu call Shorty-m qagna elateka canegpilallrua.  Taugaam maai augum uingan Sue-am maantellermegni maaraiyirluku shop-aliyaaqluku-llu.   Tunellrua. 
+00:12:27,437 --> 00:12:54,499
+Tua-ll͡’ qagna assiirulluku qagai nunaka qaugyam pile up-aarluni piciatun. Kiituan’ tang Shorty-m canek piyuirutaa. Canegkanek, asmegtaqami-ll’ elateka piuralallrua, ilakurlua. Taumek assik’laqka.
 
 56
-00:12:27,437 --> 00:12:54,499
-Tua-ll qagna assiirulluku qagai nunaka qaugyam pile-ap'aarluni piciatun.  Kiituantang Shorty-m canek lliyuirutaa.  Canegkanek, asmegtaqamill elateka piuralallrua, ilakurlua.  Taumek assiklaqka. 
+00:12:58,722 --> 00:13:26,150
+Calirpanertuuq. Calirrlainalartuq. Atam tayim utreskuni flower-aaminek caliniartuq. Amta-llu iqap'agluni. Wiinga-gg’ tease-alaqeka caaqama. Tua-i rest-amek nalluluni angu keggna. Calirrlainaq.
 
 57
-00:12:58,722 --> 00:13:26,150
-Calirpanertuuq.  Calirllainalartuq.  Atam tayim utreskuni flower-aaminek caliniartuq. Amtallu iqap'agluni.  Wiingaug tease-alaqeka caaqama.  Tuai rest-amek nalluluni angu keggna.  Calirrlainaq. 
+00:13:26,920 --> 00:13:51,808
+Ikegkut-qaa apartment-aat yungqelartut? Yaa. Yungqerturatuut. Erenrani calilaryugnarqut. Tua-i-ugg akitulalliata. Yaa akituut-gguq, $800 a month, tuaten-wa kina qanellrull’. Tua-lli-ugg tua-i yungqerturatulriit.
 
 58
-00:13:26,920 --> 00:13:51,808
-Ikegkut-qaa apartment-aat yungqelartut?  Yaa. Yungqerturatuut.  Erenrani calilaryugnarqut. Tua-i-iugg akitulalliata.  Yaa akituut-gguq, $800 down, tuaten-wa kina qanellrull. Tualliugg tuai yungqerturatulriit. 
+00:14:04,623 --> 00:14:12,646
+Aanaaq, (ah) wall'uq tea bag-aqiluk.
 
 59
-00:14:04,623 --> 00:14:12,646
-Aanaaq, (ah) wall'uq tea bag-aqiluk. 
+00:14:26,378 --> 00:15:04,496
+Saaralirluk... yuurqaqitek. (I wanna try.) ... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii? Yaa
 
 60
-00:14:26,378 --> 00:15:04,496
-Lots of chatter...Saaralirluk... yuurqaqitek.  (I wanna try.) chatter... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii?  Yaa
-
-61
 00:15:05,489 --> 00:15:34,870
-Saskirluten, qallanguq.  Calingnaquuryaaquq. Aspiaq.   Akmaniwa akiitpialriit calilriit.  Uksuq nutaan nallunriqenka.  Akiitelalliniut calilriit.  Maani-llu-wa cat....
+Saskirluten, qallanguq. Calingnaquuryaaquq. Aspiaq. Akmani-wa akiitpialriit calilriit. Uksuq nutaan nallunriqenka. Akiitelalliniut calilriit. Maani-llu-wa cat... 
 

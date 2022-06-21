@@ -1153,239 +1153,233 @@ export const subtitles = {
     },
     "193": {
         "startTime": 1068.0,
-        "endTime": 1072.0,
+        "endTime": 1073.0,
         "transcript": "Taumek ava-i au͡gkut tua-i yull'urluut, carrluaraat, Kassaunge'rmeng-llu",
         "translation": "That's why those Yupiit of old, no matter who they were, even Caucasians."
     },
     "194": {
-        "startTime": 1072.0,
-        "endTime": 1073.0,
-        "transcript": "That's why those Yupiit of old, no matter who they were, even Caucasians.",
-        "translation": ""
-    },
-    "195": {
         "startTime": 1074.0,
         "endTime": 1079.0,
         "transcript": "Murilkeńganaku anglanitekevkenaku-llu pitullrulriit.",
         "translation": "They carefully watched and didn't take things lightly."
     },
-    "196": {
+    "195": {
         "startTime": 1081.0,
         "endTime": 1086.0,
         "transcript": "Au͡gkut ciuliaput Kass'amek qanyuitut amlleq, mine-anek tau͡gaam.",
         "translation": "Our ancestors back then wouldn't talk about Western things, only mines."
     },
-    "197": {
+    "196": {
         "startTime": 1087.0,
         "endTime": 1091.0,
         "transcript": "Kass'aq tua-i mine-amek piaqluku, mine-allernek-llu qanraqluteng.",
         "translation": "They would call the Western thing a mine, and they would talk about old mines."
     },
-    "198": {
+    "197": {
         "startTime": 1092.0,
         "endTime": 1095.0,
         "transcript": "Kass'amek qanerpakayuitut wiinga murilkellemni maani.",
         "translation": "They didn't speak too much about Western things here in my observation."
     },
-    "199": {
+    "198": {
         "startTime": 1096.0,
         "endTime": 1097.9,
         "transcript": "Tua-i-wa mat'umek pilaryukanka:",
         "translation": "This is what I think they did:"
     },
-    "200": {
+    "199": {
         "startTime": 1098.0,
         "endTime": 1102.0,
         "transcript": "Au͡gkut Kass'at akinek yuarturalallret pitekluku tamaani.",
         "translation": "Those Caucasians were looking to make money back then."
     },
-    "201": {
+    "200": {
         "startTime": 1103.0,
         "endTime": 1106.0,
         "transcript": "Caliarkaq enurnallruuq tamatum nalliini.",
         "translation": "There were not many jobs at that time."
     },
-    "202": {
+    "201": {
         "startTime": 1109.0,
         "endTime": 1117.0,
         "transcript": "Neqsurarang'e'rmeng cali neqalleruaq man'a akikurluku, ima-llu-q' akituaqluni?",
         "translation": "Though they always fished, this fish was their currency, and wasn't it expensive?"
     },
-    "203": {
+    "202": {
         "startTime": 1119.0,
         "endTime": 1124.0,
         "transcript": "Ataucirqumek murilkellemni iqalluuk malruk waten kangirassullrulriik.",
         "translation": "Once in my observation, two chums like this cost two quarters."
     },
-    "204": {
+    "203": {
         "startTime": 1127.0,
         "endTime": 1131.0,
         "transcript": "Tamaani nalliini cat akitullrunritut tau͡gaam.",
         "translation": "But things were not expensive at that time."
     },
-    "205": {
+    "204": {
         "startTime": 1134.0,
         "endTime": 1136.0,
         "transcript": "Tau͡gaam enurnarluni wani Kass'aq.",
         "translation": "But Western things were scarce."
     },
-    "206": {
+    "205": {
         "startTime": 1137.0,
         "endTime": 1142.0,
         "transcript": "Kass'am pia amllerpek'nani, watuam nalliitun ayuqevkenani.",
         "translation": "There weren't many Western things, not like now."
     },
-    "207": {
+    "206": {
         "startTime": 1144.0,
         "endTime": 1151.0,
         "transcript": "Tua-i call' kenurraraqluteng imkunek kerosene-anek pikait, pilaqait",
         "translation": "They also had lights with what they called kerosene"
     },
-    "208": {
+    "207": {
         "startTime": 1152.0,
         "endTime": 1154.0,
         "transcript": "Tan'geriaqan tau͡gaam.",
         "translation": "Only when it got dark."
     },
-    "209": {
+    "208": {
         "startTime": 1156.0,
         "endTime": 1160.0,
         "transcript": "Anglaniu͡rlullrunritut au͡gkut ciuqvani tangvallrenka ca tamalkuan.",
         "translation": "The poor people I saw back then did not take anything lightly."
     },
-    "210": {
+    "209": {
         "startTime": 1162.0,
         "endTime": 1169.0,
         "transcript": "Tau͡gaam man'a Yugtaq neqa nangyaqnganaku yuullruut piitellerkaa.",
         "translation": "But they lived seemingly in fear that this Yup'ik food would become scarce."
     },
-    "211": {
+    "210": {
         "startTime": 1171.0,
         "endTime": 1177.9,
         "transcript": "Au͡g'um-llu qanrutesteḿa pitullrukiinga neqem nalliini qavaasqevkenii.",
         "translation": "My instructor also used to tell me not to sleep during food gathering season."
     },
-    "212": {
+    "211": {
         "startTime": 1179.0,
         "endTime": 1181.0,
         "transcript": "Uksurpak qavallerkaqa amllerrniluku.",
         "translation": "He said that I had a lot of time to sleep all winter."
     },
-    "213": {
+    "212": {
         "startTime": 1183.0,
         "endTime": 1186.9,
         "transcript": "Tau͡gaam wiinga maligtaqunritaqa tamana inerciigalama.",
         "translation": "But I didn't obey him because I was mischievous."
     },
-    "214": {
+    "213": {
         "startTime": 1188.0,
         "endTime": 1196.9,
         "transcript": "Tua-i neqsuqalang'e'rma mat'um nalliini tuaten pitanritukut, amlleq-wa.",
         "translation": "Though I fish, we are not like that these days, at least most of us."
     },
-    "215": {
+    "214": {
         "startTime": 1198.0,
         "endTime": 1201.9,
         "transcript": "Yaa, tua-i-w' sass'aqa wani mallgingelria.",
         "translation": "Well, my time is nigh."
     },
-    "216": {
+    "215": {
         "startTime": 1202.0,
         "endTime": 1204.9,
         "transcript": "Qanemcillerkaqa mallginguq.",
         "translation": "It's almost time for me to go on air."
     },
-    "217": {
+    "216": {
         "startTime": 1205.0,
         "endTime": 1212.9,
         "transcript": "Agayuvigmi agayuyarturangnaqengllemni-wa man'a taangaq taqlemni kinguakun",
         "translation": "In the church, when I started trying to go to church after I quit drinking alcohol"
     },
-    "218": {
+    "217": {
         "startTime": 1213.0,
         "endTime": 1221.0,
         "transcript": "Taangamek taqellma kinguani agayuyarturangnaq'lallruunga caperrsukapiarang'e'rma.",
         "translation": "After I quit drinking alcohol, I tried to go to church though I felt very constrained."
     },
-    "219": {
+    "218": {
         "startTime": 1225.0,
         "endTime": 1230.0,
         "transcript": "Tua-i Agayunret cali miss-anritengnaqu'urluku.",
         "translation": "I tried not to miss any Sundays."
     },
-    "220": {
+    "219": {
         "startTime": 1231.0,
         "endTime": 1234.0,
         "transcript": "Maa-i-qaa kuluk'uunarteńguuten cali?",
         "translation": "Are you still a bell-ringer today?"
     },
-    "221": {
+    "220": {
         "startTime": 1235.0,
         "endTime": 1242.0,
         "transcript": "Tua-i piqerlua iliita unayaqaanga calisqellua tuani agayuvigmi.",
         "translation": "One day, one of them invited me to work in the church."
     },
-    "222": {
+    "221": {
         "startTime": 1243.0,
         "endTime": 1245.0,
         "transcript": "Pingraanga ciuqlirmi niitellrunritaqa",
         "translation": "Though he asked me, I refused him at first"
     },
-    "223": {
+    "222": {
         "startTime": 1246.0,
         "endTime": 1250.0,
         "transcript": "Tua-i-wa wii caperrsuglua man'a taangaq-llu cakneq atullruamku.",
         "translation": "Because I felt constrained since I abused alcohol so heavily."
     },
-    "224": {
+    "223": {
         "startTime": 1251.0,
         "endTime": 1259.0,
         "transcript": "Piqarraallemni tau͡gaam agayungnaqurallemni tamaa-i iliini unayaqumallruanga",
         "translation": "But when I first started trying to go to church back then, I would sometimes be invited"
     },
-    "225": {
+    "224": {
         "startTime": 1259.5,
         "endTime": 1266.0,
         "transcript": "Kesianek pivkenani aptaqlua agayuvigmi yaani ikayuqsugyaaqlua.",
         "translation": "He would ask me, not all the time, for me to help in the church over there."
     },
-    "226": {
+    "225": {
         "startTime": 1268.0,
         "endTime": 1272.0,
         "transcript": "Tua-i piqerlua caqerluku kiullruaqa",
         "translation": "One day, I answered him"
     },
-    "227": {
+    "226": {
         "startTime": 1275.0,
         "endTime": 1277.0,
         "transcript": "Ak'anun piyugpek'nii umyuarteqlua pillruaqa waten",
         "translation": "Thinking that I didn't want to do it for long, I said to him"
     },
-    "228": {
+    "227": {
         "startTime": 1278.0,
         "endTime": 1280.0,
         "transcript": "…ksaitaqa agayu[?].",
         "translation": "…I didn't [?] him [?] the church."
     },
-    "229": {
+    "228": {
         "startTime": 1284.0,
         "endTime": 1292.0,
         "transcript": "Cali akilitullruyaaqaatnga $50 iralumi.",
         "translation": "They also used to pay me $50 per month."
     },
-    "230": {
+    "229": {
         "startTime": 1292.5,
         "endTime": 1297.0,
         "transcript": "Tua-i-llu piqerlua raise-araatnga mayuqanirlua $100 iralumi.",
         "translation": "And then eventually, they gave me a raise to $100 per month."
     },
-    "231": {
+    "230": {
         "startTime": 1299.0,
         "endTime": 1301.0,
         "transcript": "Tua-i wiinga umyuarteqlemni",
         "translation": "In my opinion"
     },
-    "232": {
+    "231": {
         "startTime": 1303.0,
         "endTime": 1307.0,
         "transcript": "Man'a au͡gna kinguneqa umyuaqluku pillemni pilua umyuaqelaamku",

@@ -123,7 +123,7 @@ export const subtitles = {
         "startTime": 157.52,
         "endTime": 164.73,
         "transcript": "Ingriúrlurmek aterluni. Ingriúrlurmek aterluni ingriq.",
-        "translation": "It's called Ingriúrluq. The mountain is called Ingriúrluq."
+        "translation": "It's called Ingriúrluq. The mountain is called Ingriúrluq."
     },
     "22": {
         "startTime": 165.22,
@@ -573,13 +573,13 @@ export const subtitles = {
         "startTime": 615.375,
         "endTime": 618.455,
         "transcript": "Kuik ava-i... (Kuigceńaq waniwa.)",
-        "translation": "The river over there... (Here's Kuigceńaq.)"
+        "translation": "The river over there... (Here's Kuigceńaq.)"
     },
     "97": {
         "startTime": 620.4,
         "endTime": 623.66,
         "transcript": "Upper Fall-aq Igceńaq, Qurrlurta.",
-        "translation": "Upper Fall is Igceńaq, Qurrlurta."
+        "translation": "Upper Fall is Igceńaq, Qurrlurta."
     },
     "98": {
         "startTime": 623.885,
@@ -840,10 +840,10 @@ export const subtitles = {
         "translation": "No, I never go there, Kiillaraliin."
     },
     "141": {
-        "startTime": 845.495,
+        "startTime": 845.5,
         "endTime": 852.445,
         "transcript": "Can you ask him? A stone head by Kiseralik? Does he know? Can you ask?",
-        "translation": ""
+        "translation": "Can you ask him? A stone head by Kiseralik? Does he know? Can you ask?"
     },
     "142": {
         "startTime": 853.245,
@@ -906,10 +906,10 @@ export const subtitles = {
         "translation": "When she was young, her brother, David Jackson?"
     },
     "152": {
-        "startTime": 903.775,
+        "startTime": 903.78,
         "endTime": 907.065,
         "transcript": "Long time, she was up that way.",
-        "translation": ""
+        "translation": "Long time, she was up that way."
     },
     "153": {
         "startTime": 908.555,

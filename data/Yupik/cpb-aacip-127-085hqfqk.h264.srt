@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:35,790 --> 00:00:41,420
 Kitak’, yaa, au͡g’u qaneryullren.
 
@@ -8,11 +8,11 @@ Ii-i, qaneryullemnek waniw’ qanqatartua makunek.
 
 3
 00:00:47,210 --> 00:00:54,620
-Waten tan’gaurluullemni tan’gaurluullemteńi makunek
+Waten tan’gaurluullemni tan’gaurluullemteńi makunek
 
 4
 00:00:56,770 --> 00:01:04,980
-Makunek-wa tua-i nunam qainganelngurnek neqemteńek pitarkanek
+Makunek-wa tua-i nunam qainganelngurnek neqemteńek pitarkanek
 
 5
 00:01:05,270 --> 00:01:10,480
@@ -32,7 +32,7 @@ Makut-llu yaqulget cali enurnaringluteng.
 
 9
 00:01:32,150 --> 00:01:37,760
-Imumi waten tan’gaurluullemteńi, tan’gaurluullemni-w’ tua-i
+Imumi waten tan’gaurluullemteńi, tan’gaurluullemni-w’ tua-i
 
 10
 00:01:37,760 --> 00:01:45,310
@@ -72,7 +72,7 @@ Tua-i cingqullagangnaurtut nut’galriarurrluni waten tua-i piciatun.
 
 19
 00:02:38,620 --> 00:02:48,510
-Makut-wa yaqulget pavani nanvat ceńaitni-ll’ up’nerkitullruameng.
+Makut-wa yaqulget pavani nanvat ceńaitni-ll’ up’nerkitullruameng.
 
 20
 00:02:48,910 --> 00:02:54,130
@@ -188,7 +188,7 @@ Waten ikgeliqetaarluteng, tau͡gaam nangyuunateng, cakaniyuunateng.
 
 48
 00:06:20,382 --> 00:06:26,932
-There was always a lot of birds and marine animals.
+Amllerllainarluteng yaqulget imarpigmiutaat-llu.
 
 49
 00:06:27,601 --> 00:06:37,164
@@ -216,11 +216,11 @@ Maa-i mat’um nalliini umyuangcarqama tamakut neqrateng tua-i makut neqteng mur
 
 55
 00:07:28,751 --> 00:07:33,651
-Neq’lipiatullruuq agaani waten tan’gaurlullraullemteńi.
+Neq’lipiatullruuq agaani waten tan’gaurlullraullemteńi.
 
 56
 00:07:35,208 --> 00:07:38,670
-Puukaquaqluteng-llu maavet ceńamun.
+Puukaquaqluteng-llu maavet ceńamun.
 
 57
 00:07:38,683 --> 00:07:47,683
@@ -336,7 +336,7 @@ Neqkaunata pikumta
 
 85
 00:11:32,304 --> 00:11:36,054
-One can actually have food like this:
+Neqengqerrsugngayaaquq waten:
 
 86
 00:11:37,211 --> 00:11:47,048
@@ -513,3 +513,4 @@ Tau͡gken-gguq-am waten uitaurquni cikuskani tua-i ukuk pektesciigalkagnek amlli
 129
 00:17:25,603 --> 00:17:32,616
 Ukuk-llu cali waten pikagnek tua-i pektesciigatarkauluni.
+

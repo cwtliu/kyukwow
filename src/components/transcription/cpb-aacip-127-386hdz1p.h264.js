@@ -8,7 +8,7 @@ export const subtitles = {
     "2": {
         "startTime": 25.51,
         "endTime": 29.25,
-        "transcript": "Tau͡gaam wani umyuanek ikayuristeńi calilartua.",
+        "transcript": "Tau͡gaam wani umyuanek ikayuristeńi calilartua.",
         "translation": "But I work with mental health services."
     },
     "3": {
@@ -86,7 +86,7 @@ export const subtitles = {
     "15": {
         "startTime": 132.254,
         "endTime": 134.676,
-        "transcript": "Maani wani avatemteńi.",
+        "transcript": "Maani wani avatemteńi.",
         "translation": "Here around us."
     },
     "16": {
@@ -176,7 +176,7 @@ export const subtitles = {
     "30": {
         "startTime": 258.522,
         "endTime": 264.344,
-        "transcript": "Kirciuquvci, qaivceńi maani uitalriamek kirciuquvci",
+        "transcript": "Kirciuquvci, qaivceńi maani uitalriamek kirciuquvci",
         "translation": "If you have pains, if you have pains here on your body"
     },
     "31": {
@@ -194,7 +194,7 @@ export const subtitles = {
     "33": {
         "startTime": 281.822,
         "endTime": 286.266,
-        "transcript": "Tua-i yuungcautekluki im' kirciullerpeceńun.",
+        "transcript": "Tua-i yuungcautekluki im' kirciullerpeceńun.",
         "translation": "Use them to treat your body pains."
     },
     "34": {
@@ -278,7 +278,7 @@ export const subtitles = {
     "47": {
         "startTime": 369.888,
         "endTime": 378.277,
-        "transcript": "Cali-llu nasqumteńi, qamiqumteńi cali ungilageskan [?]cukan makuciq cali elliluku waten.",
+        "transcript": "Cali-llu nasqumteńi, qamiqumteńi cali ungilageskan [?]cukan makuciq cali elliluku waten.",
         "translation": "Also, if our heads are itching, tending to [?], put this kind here like this."
     },
     "48": {
@@ -752,13 +752,13 @@ export const subtitles = {
     "126": {
         "startTime": 923.31,
         "endTime": 927.41,
-        "transcript": "Piliamteńek wangkuta, wiinga caigglulisciigatua.",
+        "transcript": "Piliamteńek wangkuta, wiinga caigglulisciigatua.",
         "translation": "Through what we made, I cannot make wormwood."
     },
     "127": {
         "startTime": 927.422,
         "endTime": 933.911,
-        "transcript": "Una Agayutem piliaqaa wangnun atuusqelluku, elpeceńun-llu atuusqelluku tamarpeci.",
+        "transcript": "Una Agayutem piliaqaa wangnun atuusqelluku, elpeceńun-llu atuusqelluku tamarpeci.",
         "translation": "This is God's creations for me to use, and for all of you to use."
     },
     "128": {
@@ -824,7 +824,7 @@ export const subtitles = {
     "138": {
         "startTime": 1013.31,
         "endTime": 1016.155,
-        "transcript": "Enemni calilaama nunamteńi.",
+        "transcript": "Enemni calilaama nunamteńi.",
         "translation": "Because I work at home in our village."
     },
     "139": {
@@ -1052,13 +1052,13 @@ export const subtitles = {
     "176": {
         "startTime": 1255.155,
         "endTime": 1260.755,
-        "transcript": "Ataucirqumek naanguarluta pillemteńi akngirtellruunga wangnek.",
+        "transcript": "Ataucirqumek naanguarluta pillemteńi akngirtellruunga wangnek.",
         "translation": "Once, when we were playing, I hurt myself."
     },
     "177": {
         "startTime": 1261.366,
         "endTime": 1269.444,
-        "transcript": "Aitartenrutassiirluta pillemteńi aitarpallaglua wiinga pinruqangnaqvallaglua.",
+        "transcript": "Aitartenrutassiirluta pillemteńi aitarpallaglua wiinga pinruqangnaqvallaglua.",
         "translation": "When we had a wide mouth contest, I opened my mouth too far trying to win."
     },
     "178": {
@@ -1334,7 +1334,7 @@ export const subtitles = {
     "223": {
         "startTime": 1562.822,
         "endTime": 1573.533,
-        "transcript": "Akngirnarqeciqsaaquq tau͡gaam ingluanek yuungcaristeḿun ayagyunrilkuvet elpenek qulmun nuqluku eksugngaan",
+        "transcript": "Akngirnarqeciqsaaquq tau͡gaam ingluanek yuungcaristeḿun ayagyunrilkuvet elpenek qulmun nuqluku eksugngaan",
         "translation": "It may be painful, but if you don't want to go to the doctor, you can pull it up with your other arm and set it"
     },
     "224": {
@@ -1376,7 +1376,7 @@ export const subtitles = {
     "230": {
         "startTime": 1604.01,
         "endTime": 1607.155,
-        "transcript": "Elpeceńek-llu tuaten piyugngaarci.",
+        "transcript": "Elpeceńek-llu tuaten piyugngaarci.",
         "translation": "You can do it by yourself like that too."
     },
     "231": {
@@ -1418,7 +1418,7 @@ export const subtitles = {
     "237": {
         "startTime": 1661.543,
         "endTime": 1673.71,
-        "transcript": "Tamaa-i-llu-gguq nunanun tagglermeggni kuiget ceńaitnun engelkartellruut, tua-i-gguq-wa iinruutulit tamaani kuigem ceńiini naulaata.",
+        "transcript": "Tamaa-i-llu-gguq nunanun tagglermeggni kuiget ceńaitnun engelkartellruut, tua-i-gguq-wa iinruutulit tamaani kuigem ceńiini naulaata.",
         "translation": "He siad that back when they were going inland to the villages, they settled on the riverbanks, because those medicinal plants grew on the riverbank."
     },
     "238": {
@@ -1604,7 +1604,7 @@ export const subtitles = {
     "268": {
         "startTime": 1910.811,
         "endTime": 1920.833,
-        "transcript": "Tua-i ayuqestassiigutkaa. Tayima-gguq elliin ilakutai maavet nunamteńun pikuneng aipaagni-gguq paluyartut.",
+        "transcript": "Tua-i ayuqestassiigutkaa. Tayima-gguq elliin ilakutai maavet nunamteńun pikuneng aipaagni-gguq paluyartut.",
         "translation": "He gave an example. He said that if his people moved here to our lands, they'd probably starve to death."
     },
     "269": {
@@ -1664,7 +1664,7 @@ export const subtitles = {
     "278": {
         "startTime": 1977.7,
         "endTime": 1987.411,
-        "transcript": "Maa-i-wa uumirpak quyurtaallemteńi yuut nallunrilkaitnek elitellritnek-llu niiqurtukut",
+        "transcript": "Maa-i-wa uumirpak quyurtaallemteńi yuut nallunrilkaitnek elitellritnek-llu niiqurtukut",
         "translation": "Now, as we've been having these meetings, we've been hearing about what people know and have learned"
     },
     "279": {
@@ -1754,7 +1754,7 @@ export const subtitles = {
     "293": {
         "startTime": 2094.444,
         "endTime": 2105.5,
-        "transcript": "Maa-i-gguq wangkuta amllermek elitellrurtukut makunek qatellriartamteńek, assilrianek assiilngurnek-llu ayuqluku.",
+        "transcript": "Maa-i-gguq wangkuta amllermek elitellrurtukut makunek qatellriartamteńek, assilrianek assiilngurnek-llu ayuqluku.",
         "translation": "He said that we've learned much from these white people among us, good and bad all the same."
     },
     "294": {
@@ -2042,7 +2042,7 @@ export const subtitles = {
     "341": {
         "startTime": 2483.555,
         "endTime": 2489.766,
-        "transcript": "Tua-i-gguq ca tamarmi maa-i nunam qaingani uitavimteńi tangllerput",
+        "transcript": "Tua-i-gguq ca tamarmi maa-i nunam qaingani uitavimteńi tangllerput",
         "translation": "He said that everything we see on this land where we live"
     },
     "342": {
@@ -2078,13 +2078,13 @@ export const subtitles = {
     "347": {
         "startTime": 2524.988,
         "endTime": 2534.899,
-        "transcript": "Maa-i-gguq quyungqallemteńi-wa amllermek-wa tua-i elituq yugteggun ayuqenrilngurteggun nallunairumalrianek",
+        "transcript": "Maa-i-gguq quyungqallemteńi-wa amllermek-wa tua-i elituq yugteggun ayuqenrilngurteggun nallunairumalrianek",
         "translation": "He said that as we've been meeting, he has learned a lot that has been demonstrated through different peoples"
     },
     "348": {
         "startTime": 2534.911,
         "endTime": 2544.733,
-        "transcript": "Maaken Aanamteńek Nunamek naumalriamek wangkutnun nunam eyirturtainun atuuyugngalriamek.",
+        "transcript": "Maaken Aanamteńek Nunamek naumalriamek wangkutnun nunam eyirturtainun atuuyugngalriamek.",
         "translation": "The plants that grow on Mother Earth that are useful for us who populate this earth."
     },
     "349": {
@@ -2192,19 +2192,19 @@ export const subtitles = {
     "366": {
         "startTime": 2665.844,
         "endTime": 2674.711,
-        "transcript": "Tua-i-gguq uumirpak quyungqallemteńi qallaquralriatgun niiqurallerput niiqu'rquvciki",
+        "transcript": "Tua-i-gguq uumirpak quyungqallemteńi qallaquralriatgun niiqurallerput niiqu'rquvciki",
         "translation": "He said that if you listen to the poeple who've been speaking as we've been meeting that we've been listening to"
     },
     "367": {
         "startTime": 2674.721,
         "endTime": 2681.132,
-        "transcript": "Tamaaggun-gguq tua-i nallunriryartuci wangkuta imutun tukuulriatun ayuqucimteńek.",
+        "transcript": "Tamaaggun-gguq tua-i nallunriryartuci wangkuta imutun tukuulriatun ayuqucimteńek.",
         "translation": "He said that you would find through that it's like we are rich."
     },
     "368": {
         "startTime": 2681.133,
         "endTime": 2689.277,
-        "transcript": "Yuut elisngak'ngaarit nallunrilkengait-llu cat nallunairumallruut uumirpak ayagnirraanemteńek.",
+        "transcript": "Yuut elisngak'ngaarit nallunrilkengait-llu cat nallunairumallruut uumirpak ayagnirraanemteńek.",
         "translation": "People have been explaining things they are knowledgeable about and know since we've started."
     },
     "369": {
@@ -2234,7 +2234,7 @@ export const subtitles = {
     "373": {
         "startTime": 2722.655,
         "endTime": 2731.977,
-        "transcript": "Cali-gguq tau͡gaam ataucimek pingqertukut wangkuta pimteńek-wa.",
+        "transcript": "Cali-gguq tau͡gaam ataucimek pingqertukut wangkuta pimteńek-wa.",
         "translation": "He said that we have one thing of our own."
     },
     "374": {
@@ -2264,7 +2264,7 @@ export const subtitles = {
     "378": {
         "startTime": 2759.455,
         "endTime": 2766.977,
-        "transcript": "Wangkuta-wa tua-i camek kepqutemteńek-llu umyuarteqaqamta.",
+        "transcript": "Wangkuta-wa tua-i camek kepqutemteńek-llu umyuarteqaqamta.",
         "translation": "Including when we think about the things we sorely need something."
     },
     "379": {
@@ -2324,7 +2324,7 @@ export const subtitles = {
     "388": {
         "startTime": 2839.344,
         "endTime": 2853.244,
-        "transcript": "Tua-i-gguq waken tangvaurallermini mikelnguyagarpeceńek ayagluci ciulirneci tekilluki, tua-i-gguq tamarpeci tarnengqertuci.",
+        "transcript": "Tua-i-gguq waken tangvaurallermini mikelnguyagarpeceńek ayagluci ciulirneci tekilluki, tua-i-gguq tamarpeci tarnengqertuci.",
         "translation": "He said that as he watches from here, from your very little children to your elders, he said that all of you have souls."
     },
     "389": {
@@ -2348,13 +2348,13 @@ export const subtitles = {
     "392": {
         "startTime": 2867.921,
         "endTime": 2874.188,
-        "transcript": "Tamamta-gguq ilamteńun tamiinun ikayuucugngaukut",
+        "transcript": "Tamamta-gguq ilamteńun tamiinun ikayuucugngaukut",
         "translation": "He said that all of us can help those around us"
     },
     "393": {
         "startTime": 2874.188,
         "endTime": 2879.788,
-        "transcript": "Cali-llu tamamta cikiutekarluta ikayuutekamteńek ilamteńun.",
+        "transcript": "Cali-llu tamamta cikiutekarluta ikayuutekamteńek ilamteńun.",
         "translation": "And we all have gifts we can use to help those around us."
     },
     "394": {
@@ -2528,13 +2528,13 @@ export const subtitles = {
     "422": {
         "startTime": 3067.299,
         "endTime": 3072.643,
-        "transcript": "Tamamta pinrilqurrunata qaqiarrluta cikiutekangqerrniluta ilamteńun.",
+        "transcript": "Tamamta pinrilqurrunata qaqiarrluta cikiutekangqerrniluta ilamteńun.",
         "translation": "All of us, with no exceptions, every one of us has gifts to give those around us."
     },
     "423": {
         "startTime": 3072.655,
         "endTime": 3080.866,
-        "transcript": "Tua-i-gguq waniwauguq allamek-wa cikiutekailkumta: kenkaput tau͡gaam ilamteńun atuqumteggu.",
+        "transcript": "Tua-i-gguq waniwauguq allamek-wa cikiutekailkumta: kenkaput tau͡gaam ilamteńun atuqumteggu.",
         "translation": "He said that this [is what we can give] if we have no other gifts: only to treat those around us with love."
     },
     "424": {
@@ -2732,7 +2732,7 @@ export const subtitles = {
     "456": {
         "startTime": 3299.622,
         "endTime": 3310.144,
-        "transcript": "Yaa, uumek wani quyurvallemteńek wani qaqiutellemteńek wani waniw' piciqua.",
+        "transcript": "Yaa, uumek wani quyurvallemteńek wani qaqiutellemteńek wani waniw' piciqua.",
         "translation": "Okay, now I will go over what we established when we held our large gathering."
     },
     "457": {
@@ -2756,7 +2756,7 @@ export const subtitles = {
     "460": {
         "startTime": 3337.488,
         "endTime": 3348.777,
-        "transcript": "Makut-llu cali arnassagaat cali makut wani ayagyuat arnat cali qalarutaqluki makunek yuuyaramteńek-wa tua-i qalarulluki.",
+        "transcript": "Makut-llu cali arnassagaat cali makut wani ayagyuat arnat cali qalarutaqluki makunek yuuyaramteńek-wa tua-i qalarulluki.",
         "translation": "And these old women would also instruct these young women about our way of life."
     },
     "461": {
@@ -2786,13 +2786,13 @@ export const subtitles = {
     "465": {
         "startTime": 3379.488,
         "endTime": 3387.611,
-        "transcript": "Cali makut wani tegganret cali maani avatemteńi cali kitugikaaniisqelluki.",
+        "transcript": "Cali makut wani tegganret cali maani avatemteńi cali kitugikaaniisqelluki.",
         "translation": "We also want to improve [the care of] the elders here around us."
     },
     "466": {
         "startTime": 3387.621,
         "endTime": 3396.11,
-        "transcript": "Makunun wani tegganemteńun aulukellrat-wa tua-i assirikaniisqelluki maani avatemteńi nunani.",
+        "transcript": "Makunun wani tegganemteńun aulukellrat-wa tua-i assirikaniisqelluki maani avatemteńi nunani.",
         "translation": "We want the care of our elders here in the villages around us to improve."
     },
     "467": {
@@ -2950,11 +2950,5 @@ export const subtitles = {
         "endTime": 3515.977,
         "transcript": "Quyanaqvaa niicugniluki makut Yuut wani iinrullrit.",
         "translation": "Thank you for listening to these traditional Yup'ik medicine."
-    },
-    "493": {
-        "startTime": 3517.057,
-        "endTime": 3529.171,
-        "transcript": "Made by the joint effort of YKHC and KYUK",
-        "translation": ""
     }
 };

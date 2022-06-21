@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:09,820
 Elpeci caciryaraci apa’urlumta-llu au͡gkut piciryarait nalluyagutessiyaangvakaitki.
 
@@ -200,7 +200,7 @@ Wanigga-am, wanigga-m quyalrianga caknek ukut wani taivkaatkut
 
 51
 00:06:17,301 --> 00:06:27,601
-Asaacaryarmiut cali ,Tuqsugmiut cali tangerrluki, cali qau͡gkut Negeqlirmek pilriit cali tangerrluki.
+Asaacaryarmiut cali, Tuqsugmiut cali tangerrluki, cali qau͡gkut Negeqlirmek pilriit cali tangerrluki.
 
 52
 00:06:28,695 --> 00:06:35,358
@@ -228,7 +228,7 @@ Tamatumek tau͡ga quyatengqertua wii.
 
 58
 00:07:23,552 --> 00:07:39,602
-Tau͡gaam tau͡ga waten wanigga imkut civuliamta imkut atullrat au͡gna umyugamteńi, umyugamni keyianeng uitarrlainatuuq.
+Tau͡gaam tau͡ga waten wanigga imkut civuliamta imkut atullrat au͡gna umyugamteńi, umyugamni keyianeng uitarrlainatuuq.
 
 59
 00:07:40,984 --> 00:07:47,734
@@ -260,7 +260,7 @@ Tegumiaqluki pegtarkauvkenaki, kingunitengramta-llu pegtevkenaki.
 
 66
 00:08:26,268 --> 00:08:35,681
-Makunun wangkuta irniaramteńun cali atungnaqureniaraput tamakut kenekluki, cagyuunaki.
+Makunun wangkuta irniaramteńun cali atungnaqureniaraput tamakut kenekluki, cagyuunaki.
 
 67
 00:08:36,693 --> 00:08:49,381
@@ -288,7 +288,7 @@ Wangkuta cali atungnaqureluki piniaraput tamakut civuliamta imkut piciryarallrat
 
 73
 00:09:37,638 --> 00:09:51,038
-Makunun irniaramteńun atungnaqureluki, qang’a-llu irniaqenrilengramteki. Makunun ayagyugaat tungiitnun cali atungnaqureluki piniartukut.
+Makunun irniaramteńun atungnaqureluki, qang’a-llu irniaqenrilengramteki. Makunun ayagyugaat tungiitnun cali atungnaqureluki piniartukut.
 
 74
 00:09:51,282 --> 00:10:00,632
@@ -308,7 +308,7 @@ Cali waten una wanigga atu[?]: ukisqaqengnaqureluku Agayutmek pituniartukut.
 
 78
 00:10:32,931 --> 00:10:41,369
-Ukisqaqengnaqerrlainarluku piyuutemteńek niitenrilengraitkut.
+Ukisqaqengnaqerrlainarluku piyuutemteńek niitenrilengraitkut.
 
 79
 00:10:41,607 --> 00:10:47,232
@@ -320,11 +320,11 @@ Piyuutvut tauna wangkutnun taiqurainarniaraa atam.
 
 81
 00:10:53,726 --> 00:11:04,676
-Cali makut wangkuta kingunemteńun ayakumta tamakuneng au͡gkut qaneryaraqegtaa’rneng au͡gkut civumi qanaallerneng
+Cali makut wangkuta kingunemteńun ayakumta tamakuneng au͡gkut qaneryaraqegtaa’rneng au͡gkut civumi qanaallerneng
 
 82
 00:11:04,695 --> 00:11:13,745
-Qaneryaraqegtaaraat tamakut makunun mikelngurramteńun wangkuta egmirqurluki piniaraput.
+Qaneryaraqegtaaraat tamakut makunun mikelngurramteńun wangkuta egmirqurluki piniaraput.
 
 83
 00:11:13,752 --> 00:11:17,902
@@ -340,7 +340,7 @@ Tau͡g qinuitellerkaatnun tekisngaqulluki.
 
 86
 00:11:33,028 --> 00:11:41,140
-Tau͡ga tamatumeng quyatengqertua wii ukuneng taivkartemteńeng.
+Tau͡ga tamatumeng quyatengqertua wii ukuneng taivkartemteńeng.
 
 87
 00:11:47,991 --> 00:11:58,116
@@ -412,7 +412,7 @@ The other person I want to thank is Wassilie Evan. He went down to Sitka with me
 
 104
 00:13:51,239 --> 00:13:57,889
-The other person is Wiliie Beans who’s kind of hiding back up there. But he also went down to Sitka to help pick...
+The other person is Willie Beans who’s kind of hiding back up there. But he also went down to Sitka to help pick...
 
 105
 00:13:57,908 --> 00:14:05,671
@@ -440,7 +440,7 @@ We’ve got the reporters from the following: Lower Yukon School District newsle
 
 111
 00:14:42,046 --> 00:14:47,009
- ́́...movies, Mountain VIllage High School photograph, James Parker.
+́́...movies, Mountain VIllage High School photograph, James Parker.
 
 112
 00:14:47,021 --> 00:14:51,896

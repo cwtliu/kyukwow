@@ -755,7 +755,7 @@ export const summaries = {
                 "\"Ca tamalkuan anglanillrunrituq.\"; kass'artaat enurnarluteng; sun'at",
                 "\"Nothing was taken lightly.\"; manufactured items were scarce; ships/barges"
             ],
-            "217": [
+            "216": [
                 "20:05",
                 "Agayuvigmi caliillerminek",
                 "When he worked in the church"
