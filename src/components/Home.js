@@ -191,7 +191,7 @@ class Home extends Component {
 				<div className='yugtatun'>Tegganret Qalartellret</div>
 				<div className='yugtatunsub'>Elder Speakers</div>
 
-				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+				<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap',maxWidth:'820px',marginLeft:'auto',marginRight:'auto'}}>
 				{this.state.eldersList.map((y,yindex) => (
 					(yindex < 20 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
@@ -199,7 +199,7 @@ class Home extends Component {
 							<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 							{categories[y]['name'].includes('~') ?
 								<div>
-									<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+									<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
 									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
 								</div>
 								:
@@ -219,8 +219,8 @@ class Home extends Component {
 								<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 								{categories[y]['name'].includes('~') ?
 									<div>
-										<div style={{color:'#333333',display:'flex',justifyContent:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-										<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+										<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+										<div style={{color:'#333333',display:'flex',justifyContent:'center',}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
 									</div>
 									:
 									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
@@ -291,7 +291,7 @@ class Home extends Component {
 				<div className='yugtatunsub'>Video Categories</div>
 
 
-					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap',maxWidth:'820px',marginLeft:'auto',marginRight:'auto'}}>
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
@@ -336,7 +336,7 @@ class Home extends Component {
 
 
 				<Divider style={{marginTop:'24px'}} />
-				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
+				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
 					This website was made lovingly for our people in the Yukon Kuskokwim Delta.
 				</div>
 

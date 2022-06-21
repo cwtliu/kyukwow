@@ -14,7 +14,7 @@ class CategoryLibrary extends Component {
 		}
 		window.scrollTo({
 			  top: 0,
-			  behavior: 'smooth'
+			  // behavior: 'smooth'
 			})
 	}
 	componentDidMount() {
@@ -31,22 +31,25 @@ class CategoryLibrary extends Component {
 		console.log(this.state)
 		return (
 			<div className='collections'>
-				<Button.Group>
-			      <Button active={true} icon>
-			        <Icon name='grid layout' />
-			      </Button >
-			      <Link to={{pathname: '/category/all', state: { currentCategory: 'all'}}}>
-			      <Button active={false} icon>
-			        <Icon name='list' />
-			      </Button>
-			      </Link>
-				 </Button.Group>
+
 				<Container>
 				<div className='yugtatun'>Suut Allakaryarat</div>
 				<div className='yugtatunsub'>Video Categories</div>
 
+				<div style={{display:'flex',justifyContent:'center',marginBottom:'10px'}}>
+					<Button.Group>
+				      <Button active={true} icon>
+				        <Icon name='grid layout' />
+				      </Button >
+				      <Link to={{pathname: '/category/all', state: { currentCategory: 'all'}}}>
+				      <Button active={false} icon>
+				        <Icon name='list' />
+				      </Button>
+				      </Link>
+					 </Button.Group>
+				 </div>
 
-					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap'}}>
+					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap',maxWidth:'820px',marginLeft:'auto',marginRight:'auto'}}>
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton'>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
@@ -63,7 +66,7 @@ class CategoryLibrary extends Component {
 
 				</Container>
 				<Divider style={{marginTop:'24px'}} />
-				<div style={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
+				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
 					Photos provided by KYUK
 				</div>
 

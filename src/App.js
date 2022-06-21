@@ -6,7 +6,7 @@
     import Category from './components/Category.js';
     import Video from './components/Video.js';
     import Browse from './components/Browse.js';
-    import Contact from './components/Contact.js';
+    import About from './components/About.js';
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
     // export const API_URL = "https://yugtun-api.herokuapp.com";
@@ -83,7 +83,7 @@
 
           <div style={{marginLeft:'10px',marginRight:'10px',marginBottom:'0px'}}>
             <div style={{flex:1,display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row'}}>
-            <span><Image style={{width:'120px'}} src={WEB_URL+"/images/npr.brightspotcdn.webp"} /></span>
+            <span><Link to='/'><Image style={{width:'120px'}} src={WEB_URL+"/images/npr.brightspotcdn.webp"} /></Link></span>
             <div style={{display:'flex',flexDirection:'column',marginLeft:'15px'}}>
             <span style={{fontSize:'16px',fontFamily:"'Roboto', Arial, Helvetica"}}>Ciuliamta Paiciutait</span>
             <span style={{fontStyle:'italic',fontSize:'16px',fontFamily:"'Roboto',Arial, Helvetica"}}>Our Ancestors' Legacy</span>
@@ -130,9 +130,9 @@
                 Browse All Videos
                 </Dropdown.Item>
                 </Link>
-                <Link to='/contact'>
+                <Link to='/about'>
                 <Dropdown.Item>
-                Contact
+                About
                 </Dropdown.Item>
                 </Link>
               </Dropdown.Menu>
@@ -143,8 +143,8 @@
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
             <Route exact path='/browse' component={Browse}></Route>
-            <Route exact path='/contact' component={Contact}></Route>
-            <Route exact path='/category/:word' component={Category}></Route>
+            <Route exact path='/about' component={About}></Route>
+            <Route exact path='/category/:word' render={(props) => <Category {...props} innerWidth={this.state.innerWidth} />} />>
             <Route exact path='/video/:word' render={(props) => <Video {...props} audioHandler={this.audioHandler} audioOnly={this.state.audioOnly} innerHeight={this.state.innerHeight} innerWidth={this.state.innerWidth} />} />>
           </Switch>
 
