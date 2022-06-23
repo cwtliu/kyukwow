@@ -109,17 +109,17 @@ class Video extends Component {
     window.scrollTo(0, 0)
 
 
-      if (this.props.audioOnly) {
-        this.intervalIDAudio = setInterval(
-          () => this.tickAudio(),
-          100
-        );
-      } else {
-        this.intervalID = setInterval(
-          () => this.tick(),
-          100
-        );        
-      }
+      // if (this.props.audioOnly) {
+      //   this.intervalIDAudio = setInterval(
+      //     () => this.tickAudio(),
+      //     100
+      //   );
+      // } else {
+      //   this.intervalID = setInterval(
+      //     () => this.tick(),
+      //     100
+      //   );        
+      // }
 
 
 
@@ -188,6 +188,21 @@ class Video extends Component {
     });
   }
 
+  startTick = () => {
+    if (this.props.audioOnly) {
+      clearInterval(this.intervalID);
+      this.intervalIDAudio = setInterval(
+        () => this.tickAudio(),
+        200
+      );        
+    } else {
+      clearInterval(this.intervalIDAudio);
+      this.intervalID = setInterval(
+        () => this.tick(),
+        200
+      ); 
+    }
+  }
   componentDidUpdate(prevProps,prevState) {
 
     if (this.state.videoPlayerPlaying !== prevState.videoPlayerPlaying || this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying) {
@@ -198,6 +213,14 @@ class Video extends Component {
           elmnt.scrollIntoView({behavior: "smooth", block: "center"});  
         }       
       }
+
+      if (this.state.videoPlayerPlaying || this.state.audioPlayerPlaying) {
+        this.startTick()
+      } else {
+        clearInterval(this.intervalID);
+        clearInterval(this.intervalIDAudio);
+      }
+
     }
 
     if (prevProps.audioOnly !== this.props.audioOnly) {
@@ -206,19 +229,7 @@ class Video extends Component {
           videoHeight: this.videoPlayer.clientHeight,
         });      
       }
-      if (this.props.audioOnly) {
-        clearInterval(this.intervalID);
-        this.intervalIDAudio = setInterval(
-          () => this.tickAudio(),
-          200
-        );        
-      } else {
-        clearInterval(this.intervalIDAudio);
-        this.intervalID = setInterval(
-          () => this.tick(),
-          200
-        ); 
-      }
+      // this.startTick()
     }
 
     if (this.state.currentSentence !== prevState.currentSentence) {
@@ -766,7 +777,7 @@ class Video extends Component {
   }
 
   render() {
-    // console.log(this.state)
+    console.log(this.state)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");

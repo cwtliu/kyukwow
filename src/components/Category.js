@@ -116,7 +116,7 @@ class Category extends Component {
 				  </Button.Group>
 				</div>
 				{this.state.currentCategory === 'all' ?
-					<div style={{fontSize:'18px',lineHeight:'22px',maxWidth:'500px',marginLeft:'auto',marginRight:'auto',marginTop:'20px'}}>
+					<div style={{fontSize:'18px',lineHeight:'22px',maxWidth:'500px',marginLeft:'auto',marginRight:'auto',marginTop:'20px',marginBottom:'20px'}}>
 					    <div style={{fontWeight:'600',marginTop:'3px'}}>{'Tamarmeng Allakaryarat'}</div>
 					    <div style={{marginLeft:3,color:'#414141'}}>{'All Categories'}</div>
 						{this.state.categoriesDisplayed.map((j) => (
@@ -188,6 +188,7 @@ class Category extends Component {
 						<Divider />
 						<div style={{display:'flex',justifyContent:'center',textAlign:'center',fontSize:'22px',fontWeight:'bold',lineHeight:'35px',paddingTop:'10px',color:'#777777',maxWidth:'750px',marginLeft:'auto',marginRight:'auto',}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos in "`+categories[this.state.currentCategory].name.split("--")[0].replace('~','-').trim()+`"`}</div>
 						{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
+						<div onClick={()=>{window.scrollTo({top: 0,behavior: 'smooth'})}}style={{cursor:'pointer',textDecoration:'underline',fontSize:'16px',display:'flex',justifyContent:'center'}}> Back to Top </div>
 						</div>
 						:
 						null
@@ -198,7 +199,6 @@ class Category extends Component {
 
 					}
 
-					<div onClick={()=>{window.scrollTo({top: 0,behavior: 'smooth'})}}style={{cursor:'pointer',textDecoration:'underline',fontSize:'16px',display:'flex',justifyContent:'center'}}> Back to Top </div>
 			</div>
 		);
 	}

@@ -7,7 +7,8 @@ import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
 import { FeaturedVideos } from './Helpers.js';
 import { API_URL, WEB_URL } from '../App.js';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 // const categories = _.times(6, (i) => (
 //   <Grid.Column key={i}>
@@ -196,7 +197,7 @@ class Home extends Component {
 					(yindex < 20 ?
 						<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 							<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-							<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
+							<LazyLoadImage effect='blur' height={'105px'} width={'140px'} style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 							{categories[y]['name'].includes('~') ?
 								<div>
 									<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
@@ -216,7 +217,7 @@ class Home extends Component {
 						(yindex > 19 ?
 							<div style={{display:'flex',flexDirection:'column',margin:'10px',width:'140px'}}>
 								<Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
-								<Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
+								<LazyLoadImage effect='blur' height={'105px'} width={'140px'}  style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
 								{categories[y]['name'].includes('~') ?
 									<div>
 										<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
