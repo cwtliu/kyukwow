@@ -9,6 +9,8 @@
     import About from './components/About.js';
     import 'semantic-ui-css/semantic.min.css'
     import './App.css';
+    import { LazyLoadImage } from 'react-lazy-load-image-component';
+    import 'react-lazy-load-image-component/src/effects/blur.css';
     // export const API_URL = "https://yugtun-api.herokuapp.com";
     export const API_URL = "http://localhost:5000";
     export const WEB_URL = "http://localhost:3000";
@@ -82,8 +84,8 @@
 
 
           <div style={{marginLeft:'10px',marginRight:'10px',marginBottom:'0px'}}>
-            <div style={{flex:1,display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row'}}>
-            <span><Link to='/'><Image style={{width:'120px'}} src={WEB_URL+"/images/npr.brightspotcdn.webp"} /></Link></span>
+            <div style={{flex:1,display:'flex',justifyContent:'flex-start',color:'#333333',alignItems:'center',flexDirection:'row',height:'55px'}}>
+            <span><Link to='/'><LazyLoadImage effect='blur' width={'120px'}  style={{width:'120px',}} src={WEB_URL+"/images/npr.brightspotcdn.webp"} /></Link></span>
             <div style={{display:'flex',flexDirection:'column',marginLeft:'15px'}}>
             <span style={{fontSize:'16px',fontFamily:"'Roboto', Arial, Helvetica"}}>Ciuliamta Paiciutait</span>
             <span style={{fontStyle:'italic',fontSize:'16px',fontFamily:"'Roboto',Arial, Helvetica"}}>Our Ancestors' Legacy</span>

@@ -294,9 +294,9 @@ class Home extends Component {
 
 					<div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'wrap',maxWidth:'820px',marginLeft:'auto',marginRight:'auto'}}>
 						{this.state.categoriesDisplayed.map((j) => (
-							<div className='categoryButton'>
+							<div className='categoryButton' style={{margin:'20px'}}>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-							    <Image className='categoryImage' src={WEB_URL +'/images/Categories/'+categories[j].images[0]} />
+							    <LazyLoadImage effect='blur' width={'300px'} height={'200px'} style={{borderRadius:'10px'}} src={WEB_URL +'/images/Categories/'+categories[j].images[0]} />
 							    <div className='categoryText'>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>

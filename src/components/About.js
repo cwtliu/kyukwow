@@ -25,10 +25,13 @@ class About extends Component {
 						This website was made lovingly by <a target="_blank" href={'https://yuarcuun.github.io/'}>Yuarcuun Technologies</a>, a team of two Yup'ik software developers who grew up in the Yukon Kuskokwim Delta.
 					</div>
 					<div style={{marginTop:'30px'}}>
-						Quyavikaput all of the elders featured and their shared wisdom.
+						Quyavikaput all of the elders featured and their shared wisdom. 
 					</div>
 					<div style={{marginTop:'30px'}}>
 						We are especially thankful for Corey Al'aq Joseph who was integral in creating the category list and translating, transcribing, and classifying many of the interviews. 
+					</div>
+					<div style={{marginTop:'30px'}}>
+						We also want to thank Barbara Maklak Liu for translating and transcribing videos. Quyana Vernon Pikaniralria Chimegalrea and Colleen Laraux for translations of website terms. 
 					</div>
 					<div style={{marginTop:'30px'}}>
 						This website was made possible through partnership with KYUK and funding by the 2021 Alaska Humanities Forum Annual Grants Program. 

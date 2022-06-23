@@ -777,7 +777,7 @@ class Video extends Component {
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
