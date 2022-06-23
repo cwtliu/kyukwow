@@ -60,7 +60,7 @@ class Browse extends Component {
 	render() {
 		console.log(this.state)
 		return (
-			<div className='collections'>
+			<div>
 				<div className='yugtatun'>Yuvrirluki Suut</div>
 				<div className='yugtatunsub'>Browse Videos</div>
 
