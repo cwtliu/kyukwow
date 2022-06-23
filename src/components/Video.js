@@ -52,6 +52,7 @@ class Video extends Component {
       clickedWordIndex:[-1,-1],
       // clickedSummaryIndex:-1,
       clickedChapterIndex:[-1,-1],
+      clickedChapterIndex2:[-1,-1],
       currentVideoId: props.location.state === undefined ? false : this.videoID,
       // videoOnly:true,
       activeElementLocation: 'center',
@@ -636,6 +637,133 @@ class Video extends Component {
 
   // }
 
+  tags = () => {
+    return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
+              
+              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
+              {this.state.elderTags.map((y)=>(
+                y in categories ?
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
+                  <Button basic color='blue' compact>
+                  {/*{categories[y].name.replaceAll('--','—')}*/}
+                  {categories[y].name.split(' -- ')[0]}
+                  </Button>
+                </Link>
+                :
+                null
+              ))}
+
+              {this.state.tags.map((y)=>(
+                y in categories ?
+                <Link to={{pathname: '/category/'+categories[y]['url']}}>
+                  <Button basic compact>
+                  {/*{categories[y].name.replaceAll('--','—')}*/}
+                  {categories[y].name.split(' -- ')[0]}
+                  </Button>
+                </Link>
+                :
+                null
+              ))}
+              <Popup
+                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
+                position='bottom left'
+              />
+              </div>
+              </div>
+              )
+  }
+
+  summaryTags = (y, yindex) => {
+          return (<Grid style={{padding:0,margin:0}}>
+            <Grid.Row style={{paddingTop:0}} columns={2}>
+              <Grid.Column width={3}>
+                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
+                {summaries[this.ID].summary[y][0]}
+                </div>
+              </Grid.Column>
+              <Grid.Column width={13}>
+
+              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
+                <Popup
+                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex2[0] && yindex === this.state.clickedChapterIndex2[1] ? '#78b7d6' : 'black' )}} onClick={() => {
+                    if (!this.state.getCall) {
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex2:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                    }
+                  }
+                  }>{k+'\n'}</span>}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex2[0]}
+                  onClose={()=>this.setState({
+                    clickedChapterIndex2:[-1,-1],
+                    definitions:[],
+                    parses: [],
+                    segments: [],
+                    // endingrule: [],
+                    // getCall:false,
+                  })}
+                  on='click'
+                  content={
+                    !this.state.getCall ? 
+                    (
+                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                      <div>
+                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
+                      {this.state.parses[0].split('-').map((q,qindex) =>
+                        (qindex === this.state.endingrule[0][0] ?
+                          this.endingToEnglish(q,0,qindex)
+                          :
+                          (qindex > this.state.endingrule[0][0] ?
+                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {this.state.firstParse[qindex]}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex-1]}
+                                </div>
+                            </div>
+                            :
+                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+                                <div>
+                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                                <div>
+                                {q}
+                                </div>
+                                </div>                  
+                                {this.state.definitions[qindex]}
+                                </div>
+                            </div>
+                            )
+                        ))}
+                      </div>
+                    :
+                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
+                    )
+                    :
+                    <div style={{height:'70px',width:'60px'}}>
+                    <Loader active>Loading</Loader>
+                    </div>
+                  }
+                  mouseEnterDelay={800}
+                  mouseLeaveDelay={800}
+                  position='bottom left'
+                />
+              ))}
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
+                position='bottom left'
+              />
+
+              </Grid.Column>
+            </Grid.Row>
+            </Grid>
+            )
+
+  }
 
   render() {
     // console.log(this.state)
@@ -711,7 +839,7 @@ class Video extends Component {
                       <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                       {categories[y]['name'].includes('~') ?
                       <div>
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                      <div style={{color:'#333333',display:'flex',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
                       <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                       </div>
                       :
@@ -725,39 +853,7 @@ class Video extends Component {
                 </div>
               </div>
 
-              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
-              
-              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
-              {this.state.elderTags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic color='blue' compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-
-              {this.state.tags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-              <Popup
-                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
-                position='bottom left'
-              />
-              </div>
+              {this.tags()}
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
@@ -775,91 +871,7 @@ class Video extends Component {
               null
             }
             
-            <Grid style={{padding:0,margin:0}}>
-            <Grid.Row style={{paddingTop:0}} columns={2}>
-              <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
-                {summaries[this.ID].summary[y][0]}
-                </div>
-              </Grid.Column>
-              <Grid.Column width={13}>
-
-              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
-                <Popup
-                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-                    }
-                  }
-                  }>{k+'\n'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
-                  onClose={()=>this.setState({
-                    clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
-                    // endingrule: [],
-                    // getCall:false,
-                  })}
-                  on='click'
-                  content={
-                    !this.state.getCall ? 
-                    (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex]}
-                                </div>
-                            </div>
-                            )
-                        ))}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
-                    :
-                    <div style={{height:'70px',width:'60px'}}>
-                    <Loader active>Loading</Loader>
-                    </div>
-                  }
-                  mouseEnterDelay={800}
-                  mouseLeaveDelay={800}
-                  position='bottom left'
-                />
-              ))}
-              <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
-                position='bottom left'
-              />
-
-              </Grid.Column>
-            </Grid.Row>
-            </Grid>
+              {this.summaryTags(y,yindex)}
             </div>
           ))}        
 
@@ -875,11 +887,11 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1089,39 +1101,7 @@ class Video extends Component {
           </div>
 
 
-              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
-              
-              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
-              {this.state.elderTags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic color='blue' compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-
-              {this.state.tags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-              <Popup
-                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
-                position='bottom left'
-              />
-              </div>
+              {this.tags()}
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
@@ -1138,91 +1118,7 @@ class Video extends Component {
               null
             }
             
-            <Grid style={{padding:0,margin:0}}>
-            <Grid.Row style={{paddingTop:0}} columns={2}>
-              <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
-                {summaries[this.ID].summary[y][0]}
-                </div>
-              </Grid.Column>
-              <Grid.Column width={13}>
-
-              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
-                <Popup
-                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-                    }
-                  }
-                  }>{k+'\n'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
-                  onClose={()=>this.setState({
-                    clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
-                    // endingrule: [],
-                    // getCall:false,
-                  })}
-                  on='click'
-                  content={
-                    !this.state.getCall ? 
-                    (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex]}
-                                </div>
-                            </div>
-                            )
-                        ))}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
-                    :
-                    <div style={{height:'70px',width:'60px'}}>
-                    <Loader active>Loading</Loader>
-                    </div>
-                  }
-                  mouseEnterDelay={800}
-                  mouseLeaveDelay={800}
-                  position='bottom left'
-                />
-              ))}
-              <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
-                position='bottom left'
-              />
-
-              </Grid.Column>
-            </Grid.Row>
-            </Grid>
+              {this.summaryTags(y,yindex)}
             </div>
           ))}        
 
@@ -1238,11 +1134,11 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1456,7 +1352,7 @@ class Video extends Component {
                     <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
@@ -1469,39 +1365,7 @@ class Video extends Component {
                 ))}
               </div>
 
-              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
-              
-              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
-              {this.state.elderTags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic color='blue' compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-
-              {this.state.tags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-              <Popup
-                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
-                position='bottom left'
-              />
-              </div>
+              {this.tags()}
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
@@ -1511,91 +1375,7 @@ class Video extends Component {
           }
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
-            <Grid style={{padding:0,margin:0}}>
-            <Grid.Row style={{paddingTop:0}} columns={2}>
-              <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
-                {summaries[this.ID].summary[y][0]}
-                </div>
-              </Grid.Column>
-              <Grid.Column width={13}>
-
-              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
-                <Popup
-                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-                    }
-                  }
-                  }>{k+'\n'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
-                  onClose={()=>this.setState({
-                    clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
-                    // endingrule: [],
-                    // getCall:false,
-                  })}
-                  on='click'
-                  content={
-                    !this.state.getCall ? 
-                    (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex]}
-                                </div>
-                            </div>
-                            )
-                        ))}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
-                    :
-                    <div style={{height:'70px',width:'60px'}}>
-                    <Loader active>Loading</Loader>
-                    </div>
-                  }
-                  mouseEnterDelay={800}
-                  mouseLeaveDelay={800}
-                  position='bottom left'
-                />
-              ))}
-              <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
-                position='bottom left'
-              />
-
-              </Grid.Column>
-            </Grid.Row>
-            </Grid>
+              {this.summaryTags(y,yindex)}
             </div>
           ))}
 
@@ -1627,11 +1407,11 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],
@@ -1836,39 +1616,7 @@ class Video extends Component {
 
             <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.videoHeight-this.state.topOffset-13,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
-              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
-              
-              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
-              {this.state.elderTags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic color='blue' compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-
-              {this.state.tags.map((y)=>(
-                y in categories ?
-                <Link to={{pathname: '/category/'+categories[y]['url']}}>
-                  <Button basic compact>
-                  {/*{categories[y].name.replaceAll('--','—')}*/}
-                  {categories[y].name.split(' -- ')[0]}
-                  </Button>
-                </Link>
-                :
-                null
-              ))}
-              <Popup
-                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
-                position='bottom left'
-              />
-              </div>
+              {this.tags()}
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
@@ -1879,91 +1627,7 @@ class Video extends Component {
 
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
-            <Grid style={{padding:0,margin:0}}>
-            <Grid.Row style={{paddingTop:0}} columns={2}>
-              <Grid.Column width={3}>
-                <div style={{color:'#5c8fa9',cursor:'pointer'}} onClick={() => this.moveToTime(summaries[this.ID].summary[y][0])}>
-                {summaries[this.ID].summary[y][0]}
-                </div>
-              </Grid.Column>
-              <Grid.Column width={13}>
-
-              {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
-                <Popup
-                  trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && yindex === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
-                    if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
-                    }
-                  }
-                  }>{k+'\n'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
-                  onClose={()=>this.setState({
-                    clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
-                    // endingrule: [],
-                    // getCall:false,
-                  })}
-                  on='click'
-                  content={
-                    !this.state.getCall ? 
-                    (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex]}
-                                </div>
-                            </div>
-                            )
-                        ))}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
-                    :
-                    <div style={{height:'70px',width:'60px'}}>
-                    <Loader active>Loading</Loader>
-                    </div>
-                  }
-                  mouseEnterDelay={800}
-                  mouseLeaveDelay={800}
-                  position='bottom left'
-                />
-              ))}
-              <Popup
-                trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
-                on='click'
-                content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
-                position='bottom left'
-              />
-
-              </Grid.Column>
-            </Grid.Row>
-            </Grid>
+              {this.summaryTags(y,yindex)}
             </div>
           ))}
 
@@ -1992,11 +1656,11 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
-                  disabled={this.state.getCall && kindex !== this.state.clickedWordIndex[0]}
+                  disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
                     definitions:[],

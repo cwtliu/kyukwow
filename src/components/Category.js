@@ -29,7 +29,12 @@ class Category extends Component {
 			decodedURI: decodeURI(props.match.params.word),
 		}
 		this.initialize = this.initialize.bind(this);
+		window.scrollTo({
+			  top: 0,
+			  behavior: 'smooth'
+			})
 	}
+
 	componentDidMount() {
 		this.initialize();
   		window.scrollTo(0, 0)
@@ -44,6 +49,13 @@ class Category extends Component {
 	componentDidUpdate(prevProps, prevState) {
 		// console.log(prevProps.location.pathname)
 		// console.log(this.props)
+		if (this.state.currentCategory !== prevState.currentCategory) {
+			window.scrollTo({
+				  top: 0,
+				  behavior: 'smooth'
+				})
+		}
+
 		if (prevProps.location.pathname !== this.props.location.pathname && this.props.location.pathname !== '/category/all') {
 			this.retrieveFamilyCategories(categoriesUrlLookup[decodeURI(this.props.match.params.word)]);
 			// console.log('hi')
@@ -86,9 +98,12 @@ class Category extends Component {
 	}
 
 	render() {
-		console.log(this.state)
+		console.log(this.state,this.props)
 		return (
 			<div className='collections'>
+				<div className='yugtatun'>Suut Allakaryarat</div>
+				<div className='yugtatunsub'>Video Categories</div>			
+				<div style={{display:'flex',justifyContent:'center'}}>
 				<Button.Group style={{marginBottom:'10px'}}>
 				<Link to='/categorylibrary'>
 			      <Button active={false} icon>
@@ -99,20 +114,25 @@ class Category extends Component {
 			        <Icon name='list' />
 			      </Button>
 				  </Button.Group>
+				</div>
 				{this.state.currentCategory === 'all' ?
-					<div style={{fontSize:'20px',lineHeight:'25px'}}>
-						<div>{'All Categories'}</div>
+					<div style={{fontSize:'18px',lineHeight:'22px',maxWidth:'500px',marginLeft:'auto',marginRight:'auto',marginTop:'20px'}}>
+					    <div style={{fontWeight:'600',marginTop:'3px'}}>{'Tamarmeng Allakaryarat'}</div>
+					    <div style={{marginLeft:3,color:'#414141'}}>{'All Categories'}</div>
 						{this.state.categoriesDisplayed.map((j) => (
 						  	<Link onClick={()=>{
 						  		this.retrieveFamilyCategories(j);
 						  		}} to={{pathname: '/category/'+categories[j].url}}>
-							    <div style={{marginLeft:20}}>{categories[j].name.replace("--","—")}</div>
+								    <div style={{marginLeft:24}}>
+								    <div style={{fontWeight:'600',marginTop:'3px'}}>{categories[j].name.split("--")[0].replace('~','–')}</div>
+								    <div style={{marginLeft:3,color:'#8fa4bb'}}>{categories[j].name.split("--")[1]}</div>
+								    </div>								    
 							  </Link>
 						))}
 					</div>
 					:
 					<div>
-					<div style={{fontSize:'20px',lineHeight:'25px'}}>
+					<div style={{fontSize:'18px',lineHeight:'22px',maxWidth:'500px',marginLeft:'auto',marginRight:'auto',marginTop:'20px'}}>
 
 						<Link onClick={()=>{
 							  		this.setState({
@@ -122,7 +142,8 @@ class Category extends Component {
 							  		});
 							  	}}
 							 to={{pathname:'/category/all'}}>
-							<div>{'All Categories'}</div>
+						    <div style={{fontWeight:'600',marginTop:'3px'}}>{'Tamarmeng Allakaryarat'}</div>
+						    <div style={{marginLeft:0,color:'#8fa4bb'}}>{'All Categories'}</div>
 						</Link>
 
 						{this.state.parentCategories.map((j,jindex) => (
@@ -130,11 +151,17 @@ class Category extends Component {
 						  		this.setState({currentCategory:j});
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j]['url']}}>
-							    <div style={{marginLeft:(20*(jindex+1))}} >{categories[j].name.replace("--","—")}</div>
+							    <div style={{marginLeft:(24*(jindex+1))}}>
+							    <div style={{fontWeight:'600',marginTop:'3px'}}>{categories[j].name.split("--")[0].replace('~','–')}</div>
+							    <div style={{marginLeft:0,color:'#8fa4bb'}}>{categories[j].name.split("--")[1]}</div>
+							    </div>								    
 							 </Link>
 						))}
 
-						<div style={{marginLeft:(20*(this.state.parentCategories.length+1))}}>{categories[this.state.currentCategory].name.replace("--","—")}</div>
+					    <div style={{marginLeft:(24*(this.state.parentCategories.length+1))}}>
+					    <div style={{fontWeight:'600',marginTop:'3px'}}>{categories[this.state.currentCategory].name.split("--")[0].replace('~','–')}</div>
+					    <div style={{marginLeft:0,color:'#414141'}}>{categories[this.state.currentCategory].name.split("--")[1]}</div>
+					    </div>		
 
 						{this.state.childrenCategories.map((j) => (
 							j in categories ?
@@ -142,7 +169,12 @@ class Category extends Component {
 						  		
 						  		this.retrieveFamilyCategories(j);
 						  	}} to={{pathname: '/category/'+categories[j]['url']}}>
-							    <div style={{marginLeft:(20*(this.state.parentCategories.length+2))}} >{categories[j].name.replace("--","—")}</div>
+
+							    <div style={{marginLeft:(24*(this.state.parentCategories.length+2))}}>
+							    <div style={{fontWeight:'600',marginTop:'3px'}}>{categories[j].name.split("--")[0].replace('~','–')}</div>
+							    <div style={{marginLeft:0,color:'#8fa4bb'}}>{categories[j].name.split("--")[1]}</div>
+							    </div>		
+
 							 </Link>
 							 :
 							 null
@@ -152,9 +184,9 @@ class Category extends Component {
 
 
 					{this.state.currentCategory !== '23' ?
-						<div>
+						<div style={{paddingTop:'20px'}}>
 						<Divider />
-						<div style={{fontSize:'26px',fontWeight:'bold',lineHeight:'40px',paddingBottom:'10px',color:'#777777'}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos with "`+categories[this.state.currentCategory].name.replace("--","—")+`"`}</div>
+						<div style={{display:'flex',justifyContent:'center',textAlign:'center',fontSize:'22px',fontWeight:'bold',lineHeight:'35px',paddingTop:'10px',color:'#777777',maxWidth:'750px',marginLeft:'auto',marginRight:'auto',}}>{'We found '+categories[this.state.currentCategory].videoNumbers.length+` videos in "`+categories[this.state.currentCategory].name.split("--")[0].replace('~','-').trim()+`"`}</div>
 						{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 						</div>
 						:
@@ -166,6 +198,7 @@ class Category extends Component {
 
 					}
 
+					<div onClick={()=>{window.scrollTo({top: 0,behavior: 'smooth'})}}style={{cursor:'pointer',textDecoration:'underline',fontSize:'16px',display:'flex',justifyContent:'center'}}> Back to Top </div>
 			</div>
 		);
 	}
