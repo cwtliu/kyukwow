@@ -3,7 +3,7 @@ export const categories = {
         "name": "Yugtun Qalarcaraq, Qaneryaraq -- Yup'ik Language",
         "url": "Yugtun-Qalarcaraq-Qaneryaraq",
         "images": [
-            "Yugtun-Qalarcaraq-Qaneryaraq.jpg"
+            "YugtunQalarcaraqQaneryaraq.jpg"
         ],
         "children": 2,
         "videoNumbers": [
@@ -125,7 +125,7 @@ export const categories = {
         "name": "Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water",
         "url": "Nunat-Meret-llu-Atrit",
         "images": [
-            "Nunat-Meret-llu-Atrit.jpg"
+            "NunatMeretlluAtrit.jpg"
         ],
         "children": 3,
         "videoNumbers": [
@@ -568,7 +568,7 @@ export const categories = {
         "name": "Ungungssit Mermiutaat-llu -- Land And Water Animals",
         "url": "Ungungssit-Mermiutaat-llu",
         "images": [
-            "Ungungssit-Mermiutaat-llu.jpg"
+            "UngungssitMermiutaatllu.jpg"
         ],
         "children": 5,
         "videoNumbers": [
@@ -833,7 +833,7 @@ export const categories = {
         "name": "Naunraat Atsat-llu -- Plants And Berries",
         "url": "Naunraat-Atsat-llu",
         "images": [
-            "Naunraat-Atsat-llu.jpg"
+            "NaunraatAtsatllu.jpg"
         ],
         "children": 4,
         "videoNumbers": [
@@ -947,7 +947,7 @@ export const categories = {
         "name": "Akluq, Aklut -- Clothing, Possessions",
         "url": "Akluq-Aklut",
         "images": [
-            "Akluq-Aklut.jpg"
+            "AkluqAklut.jpg"
         ],
         "children": 5,
         "videoNumbers": [
@@ -1017,7 +1017,7 @@ export const categories = {
         "name": "Ukverput, Agayuliyaraq -- Spirituality",
         "url": "Ukverput-Agayuliyaraq",
         "images": [
-            "Ukverput-Agayuliyaraq.jpg"
+            "UkverputAgayuliyaraq.jpg"
         ],
         "children": 6,
         "videoNumbers": [
@@ -1211,7 +1211,7 @@ export const categories = {
         "name": "Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence",
         "url": "Nerangnaqsaraq-Yuungnaqsaraq",
         "images": [
-            "Nerangnaqsaraq-Yuungnaqsaraq.jpg"
+            "NerangnaqsaraqYuungnaqsaraq.jpg"
         ],
         "children": 11,
         "videoNumbers": [
@@ -1701,7 +1701,7 @@ export const categories = {
         "name": "Anangnaqsaraq Yuilqumi -- Survival (Wilderness)",
         "url": "Anangnaqsaraq-Yuilqumi",
         "images": [
-            "Anangnaqsaraq-Yuilqumi.jpg"
+            "AnangnaqsaraqYuilqumi.jpg"
         ],
         "children": 10,
         "videoNumbers": [
@@ -1973,7 +1973,7 @@ export const categories = {
         "name": "Tuqu Naulluun-llu, Qenan-llu -- Death & Sickness",
         "url": "Tuqu-Naulluun-llu-Qenan-llu",
         "images": [
-            "Tuqu-Naulluun-llu-Qenan-llu.jpg"
+            "TuquNaulluunlluQenanllu.jpg"
         ],
         "children": 4,
         "videoNumbers": [
@@ -2103,7 +2103,7 @@ export const categories = {
         "name": "Aipangyaraq, Aipaqsaraq -- Marriage",
         "url": "Aipangyaraq-Aipaqsaraq",
         "images": [
-            "Aipangyaraq-Aipaqsaraq.jpg"
+            "AipangyaraqAipaqsaraq.jpg"
         ],
         "children": 7,
         "videoNumbers": [
@@ -2229,7 +2229,7 @@ export const categories = {
         "name": "Qulirat & Qanemcit -- Legends & Stories",
         "url": "Qulirat-Qanemcit",
         "images": [
-            "Qulirat-Qanemcit.jpg"
+            "QuliratQanemcit.jpg"
         ],
         "children": 3,
         "videoNumbers": [
@@ -2521,7 +2521,7 @@ export const categories = {
         "name": "Pissuutet, Cassuutet, Piliat, Saskut, Ayagassuutet -- Tools, Crafts, Weapons",
         "url": "Pissuutet-Cassuutet-Piliat-Saskut-Ayagassuutet",
         "images": [
-            "Pissuutet-Cassuutet-Piliat-Saskut-Ayagassuutet.jpg"
+            "PissuutetCassuutetPiliatSaskutAyagassuutet.jpg"
         ],
         "children": 7,
         "videoNumbers": [
@@ -2757,7 +2757,7 @@ export const categories = {
         "name": "Naanguat Aquiyarat-llu -- Toys & Games",
         "url": "Naanguat-Aquiyarat-llu",
         "images": [
-            "Naanguat-Aquiyarat-llu.jpg"
+            "NaanguatAquiyaratllu.jpg"
         ],
         "children": 4,
         "videoNumbers": [
@@ -4320,7 +4320,7 @@ export const categories = {
         "name": "Qalartellret Atrit -- Names of Speakers",
         "url": "Qalartellret-Atrit",
         "images": [
-            "Qalartellret-Atrit.jpg"
+            "QalartellretAtrit.jpg"
         ],
         "children": 137,
         "videoNumbers": [

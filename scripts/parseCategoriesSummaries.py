@@ -698,7 +698,7 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 	# add base category pictures using url naming convention
 	for cat in categories:
 		if "." not in cat: # not a subcategory
-			categories[cat]["images"].append(categories[cat]["url"]+".jpg")
+			categories[cat]["images"].append(categories[cat]["url"].replace("-","")+".jpg")
 
 	categories_flipped = {cat_value['name']:cat_key for cat_key, cat_value in categories.items()}
 	tags_unsorted = []
