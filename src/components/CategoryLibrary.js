@@ -55,8 +55,7 @@ class CategoryLibrary extends Component {
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton' style={{margin:'20px'}}>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-						  		<div style={{position: 'absolute'}}>test</div>
-							    <div className='categoryText'>
+						  		<div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)',backgroundColor:'white',color:'black',padding:'20px',maxWidth:'60%',opacity:'90%',borderRadius:'10px'}}>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>
 							    </div>
