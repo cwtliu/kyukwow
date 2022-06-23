@@ -243,7 +243,7 @@ export const categories = {
         "name": "Ellavut -- Weather, Climate",
         "url": "Ellavut",
         "images": [
-            "Ellavut2.jpg"
+            "Ellavut.jpg"
         ],
         "children": 12,
         "videoNumbers": [
@@ -503,7 +503,7 @@ export const categories = {
         "name": "Yuut -- People",
         "url": "Yuut",
         "images": [
-            "Yuut2.jpg"
+            "Yuut.jpg"
         ],
         "children": 5,
         "videoNumbers": [
