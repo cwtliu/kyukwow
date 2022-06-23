@@ -17,7 +17,7 @@ class About extends Component {
 	render() {
 		// console.log(this.state)
 		return (
-			<div className='collections'>
+			<div>
 				<div className='yugtatun'>Wangkuta</div>
 				<div className='yugtatunsub'>All of us</div>
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'column',fontSize:'16px',maxWidth:'420px',marginLeft:'auto',marginRight:'auto'}}>

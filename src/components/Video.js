@@ -651,7 +651,7 @@ class Video extends Component {
   tags = () => {
     return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
               
-              <div style={{textAlign:'center',lineHeight:'34px',fontSize:'16px'}}>
+              <div style={{textAlign:'center',lineHeight:'34px'}}>
               {this.state.elderTags.map((y)=>(
                 y in categories ?
                 <Link to={{pathname: '/category/'+categories[y]['url']}}>
@@ -810,14 +810,14 @@ class Video extends Component {
 
 
     return (
-      <div className='about'>
+      <div>
 
 
       {this.props.innerWidth < 480 ?
 
 
     (this.props.audioOnly  ?
-     <div className='about'>
+     <div>
 
       <div style={{flex:1,display:'flex',justifyContent:'center',marginBottom:'10px'}}>
       <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
@@ -1399,7 +1399,7 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment  onScroll={this.handleScroll} vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+          <Segment  onScroll={this.handleScroll} vertical id='readerelement' style={{padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
 
             {this.state.activeElementLocation === 'above' ?
@@ -1651,7 +1651,7 @@ class Video extends Component {
 
         </Grid.Column>
         <Grid.Column width={9}>
-          <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{fontSize:22,padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
+          <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
               <span style={{position:'fixed',zIndex:9999,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>

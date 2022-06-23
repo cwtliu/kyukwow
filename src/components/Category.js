@@ -100,7 +100,7 @@ class Category extends Component {
 	render() {
 		console.log(this.state,this.props)
 		return (
-			<div className='collections'>
+			<div>
 				<div className='yugtatun'>Suut Allakaryarat</div>
 				<div className='yugtatunsub'>Video Categories</div>			
 				<div style={{display:'flex',justifyContent:'center'}}>
