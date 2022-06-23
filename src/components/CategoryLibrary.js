@@ -55,11 +55,12 @@ class CategoryLibrary extends Component {
 						{this.state.categoriesDisplayed.map((j) => (
 							<div className='categoryButton' style={{margin:'20px'}}>
 						  	<Link to={{pathname: '/category/'+categories[j].url, state: { currentCategory: j}}}>
-							    <LazyLoadImage effect='opacity' width={'300px'} height={'200px'} style={{borderRadius:'10px'}} src={WEB_URL +'/images/Categories/'+categories[j].images[0]} />
+						  		<div style={{position: 'absolute'}}>test</div>
 							    <div className='categoryText'>
 							    	<div style={{fontWeight:'bold'}}>{categories[j].name.split(' -- ')[0]}</div>
 							    	<div>{categories[j].name.split(' -- ')[1]}</div>
 							    </div>
+							    <LazyLoadImage effect='opacity' width={'300px'} height={'200px'} style={{borderRadius:'10px'}} src={WEB_URL +'/images/Categories/'+categories[j].images[0]} />
 							  </Link>
 							</div>
 						))}
