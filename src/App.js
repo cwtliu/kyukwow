@@ -12,9 +12,9 @@
     import { LazyLoadImage } from 'react-lazy-load-image-component';
     import 'react-lazy-load-image-component/src/effects/blur.css';
     // export const API_URL = "https://yugtun-api.herokuapp.com";
-    export const API_URL = "http://localhost:5000";
-    export const WEB_URL = "http://localhost:3000";
-    // export const WEB_URL = "http://inupiaqonline.com/kyukwow"
+    // export const API_URL = "http://localhost:5000";
+    // export const WEB_URL = "http://localhost:3000";
+    export const WEB_URL = "http://inupiaqonline.com/kyukwow"
 
     // const customFont = 'var(--secondaryHeadlineFont),Arial,Helvetica,sans-serif;'
 
@@ -36,6 +36,8 @@
 
     // export const API_URL = "https://yugtun-api.herokuapp.com";
     // export const API_URL = "https://inupiaqonline.com/api";
+    //export const API_URL = "https://yugtun-api.herokuapp.com";
+    export const API_URL = "https://inupiaqonline.com/api";
 
     class App extends React.Component {
       constructor(props) {
