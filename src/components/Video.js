@@ -64,6 +64,12 @@ class Video extends Component {
       audioComponentHeight: 102,
       videoPlayer: null,
 
+
+      yugtun: [],
+      english: [],
+      parse: [],
+      segment: [],
+
     }
     // this.audio = new Audio(this.state.audioURL);
     // console.log(this.audio)
@@ -349,9 +355,10 @@ class Video extends Component {
   getParse = (word) => {
     if (word === "") {
       this.setState({
-          parses: [],
-          segments: [],
-          endingrule: [],
+          yugtun: [],
+          english: [],
+          parse: [],
+          segment: [],
           getCall:false,
         })
     } else {
@@ -365,11 +372,11 @@ class Video extends Component {
           // firstParse: response.data.firstParse,
           // firstSegment: response.data.firstParse,
           // firstEnding: response.data.firstParse,
-          definitions: response.data.definitions,
           // firstParseCount: firstParse.length,
-          parses: response.data.parses,
-          segments: response.data.segments,
-          endingrule: response.data.endingrule,
+          yugtun: response.data.yugtun,
+          english: response.data.english,
+          parse: response.data.parse,
+          segment: response.data.segment,
         },()=>{
           // if (firstParse !== undefined) {
           //   var parse = "";
@@ -405,9 +412,10 @@ class Video extends Component {
 
         } else {
           this.setState({
-            parses: [],
-            segments: [],
-            endingrule: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
             getCall:false,
           })
         }
@@ -472,97 +480,97 @@ class Video extends Component {
   //   return this.state.defini
   // }
 
-  endingToEnglish(ending,index,qindex) {
-  const tags = [...ending.matchAll(/\[.*?\]/g)];
-  var english1 = ""
-  var english2 = ""
-  var english3 = ""
-  var english4 = ""
-  var before = true;
-  // console.log(this.state,tags[1])
-  if (ending.includes('[V]')) {
-    if (this.state.parses[index].includes('[Ind]') ||
-        this.state.parses[index].includes('[Intrg]') ||
-        this.state.parses[index].includes('[Opt]') ||
-        this.state.parses[index].includes('[Sbrd]')) {
-      before = false;
-    }
-    english1 += 'Verb Ending';
-    english2 += endingToEnglishTerms[tags[1]];
-    english4 += endingEnglishDescriptions[tags[1]];
-    if (ending.includes('[Trns]')) {
-    var subject = endingToEnglishTerms[tags[tags.length-2]]
-    if (subject === undefined ) {
-      subject = 'unspecified'
-    }
-      english3 += subject + " to " + endingToEnglishTerms[tags[tags.length-1]];
+//   endingToEnglish(ending,index,qindex) {
+//   const tags = [...ending.matchAll(/\[.*?\]/g)];
+//   var english1 = ""
+//   var english2 = ""
+//   var english3 = ""
+//   var english4 = ""
+//   var before = true;
+//   // console.log(this.state,tags[1])
+//   if (ending.includes('[V]')) {
+//     if (this.state.parses[index].includes('[Ind]') ||
+//         this.state.parses[index].includes('[Intrg]') ||
+//         this.state.parses[index].includes('[Opt]') ||
+//         this.state.parses[index].includes('[Sbrd]')) {
+//       before = false;
+//     }
+//     english1 += 'Verb Ending';
+//     english2 += endingToEnglishTerms[tags[1]];
+//     english4 += endingEnglishDescriptions[tags[1]];
+//     if (ending.includes('[Trns]')) {
+//     var subject = endingToEnglishTerms[tags[tags.length-2]]
+//     if (subject === undefined ) {
+//       subject = 'unspecified'
+//     }
+//       english3 += subject + " to " + endingToEnglishTerms[tags[tags.length-1]];
 
-      } else if (ending.includes('[Intr]')) {
-        english3 += endingToEnglishTerms[tags[tags.length-1]];
-      }
-    } else if (ending.includes('[N]')) {
-      english1 += 'Noun Ending';
-      english2 += endingToEnglishTerms[tags[1]];
-      if (ending.includes('[Abs]')) {
-        english4 = ""
-      } else {
-        english4 += endingEnglishDescriptions[tags[1]];
-      }      
-      if (ending.includes('Poss')) {
-        english3 += endingToEnglishTerms[tags[tags.length-2]] + "\xa0" + endingToEnglishTerms[tags[tags.length-1]];
-      } else {
-        english3 += endingToEnglishTerms[tags[tags.length-1]];
-      }
-    } else if (this.state.parses[index].includes('[D')) {
-      english1 += 'Demonstrative';
-      english2 += endingToEnglishTerms[tags[0]];
-      english4 += endingEnglishDescriptions[tags[0]];
-      if (endingToEnglishTerms[tags[1]] !== undefined) {
-        english3 += endingToEnglishTerms[tags[1]];        
-      }
-    } else if (this.state.parses[index].includes('[P')) {
-      english1 += 'Personal Pronoun';
-      english2 += endingToEnglishTerms[tags[0]];
-      english4 += endingEnglishDescriptions[tags[0]];
-      english3 += endingToEnglishTerms[tags[1]];        
-    } else if (this.state.parses[index].includes('[Q')) {
-      english1 = '';
-      english2 += endingToEnglishTerms[tags[0]];
-      english4 += endingEnglishDescriptions[tags[0]];
-      if (endingToEnglishTerms[tags[1]] !== undefined) {
-        english3 += endingToEnglishTerms[tags[1]];        
-      }
-    } else {
-      english1 += ending;
-      english2 += endingToEnglishTerms[tags[0]];
-      english4 += endingEnglishDescriptions[tags[0]];
-      if (endingToEnglishTerms[tags[1]] !== undefined) {
-        english3 += endingToEnglishTerms[tags[1]];        
-      } 
-    }
-    return (
-    <div style={{paddingTop:15,paddingLeft:20*qindex}}>
-    <div style={{fontWeight:'bold',fontSize:16,paddingBottom:'1px'}}>{this.state.endingrule[index][1].join(', ')}</div>
-    <div style={{fontSize:16}}>
-    {before && english4.length !== 0 ?
-    <span>
-    {english4+'\xa0'}
-    </span>
-    :
-    null
-    }
-    <span>{english3}</span>
-    {!before ?
-    <span>
-    {'\xa0'+english4}
-    </span>
-    :
-    null
-    }
-    </div>
-    </div>
-    )
-  }
+//       } else if (ending.includes('[Intr]')) {
+//         english3 += endingToEnglishTerms[tags[tags.length-1]];
+//       }
+//     } else if (ending.includes('[N]')) {
+//       english1 += 'Noun Ending';
+//       english2 += endingToEnglishTerms[tags[1]];
+//       if (ending.includes('[Abs]')) {
+//         english4 = ""
+//       } else {
+//         english4 += endingEnglishDescriptions[tags[1]];
+//       }      
+//       if (ending.includes('Poss')) {
+//         english3 += endingToEnglishTerms[tags[tags.length-2]] + "\xa0" + endingToEnglishTerms[tags[tags.length-1]];
+//       } else {
+//         english3 += endingToEnglishTerms[tags[tags.length-1]];
+//       }
+//     } else if (this.state.parses[index].includes('[D')) {
+//       english1 += 'Demonstrative';
+//       english2 += endingToEnglishTerms[tags[0]];
+//       english4 += endingEnglishDescriptions[tags[0]];
+//       if (endingToEnglishTerms[tags[1]] !== undefined) {
+//         english3 += endingToEnglishTerms[tags[1]];        
+//       }
+//     } else if (this.state.parses[index].includes('[P')) {
+//       english1 += 'Personal Pronoun';
+//       english2 += endingToEnglishTerms[tags[0]];
+//       english4 += endingEnglishDescriptions[tags[0]];
+//       english3 += endingToEnglishTerms[tags[1]];        
+//     } else if (this.state.parses[index].includes('[Q')) {
+//       english1 = '';
+//       english2 += endingToEnglishTerms[tags[0]];
+//       english4 += endingEnglishDescriptions[tags[0]];
+//       if (endingToEnglishTerms[tags[1]] !== undefined) {
+//         english3 += endingToEnglishTerms[tags[1]];        
+//       }
+//     } else {
+//       english1 += ending;
+//       english2 += endingToEnglishTerms[tags[0]];
+//       english4 += endingEnglishDescriptions[tags[0]];
+//       if (endingToEnglishTerms[tags[1]] !== undefined) {
+//         english3 += endingToEnglishTerms[tags[1]];        
+//       } 
+//     }
+//     return (
+//     <div style={{paddingTop:15,paddingLeft:20*qindex}}>
+//     <div style={{fontWeight:'bold',fontSize:16,paddingBottom:'1px'}}>{this.state.endingrule[index][1].join(', ')}</div>
+//     <div style={{fontSize:16}}>
+//     {before && english4.length !== 0 ?
+//     <span>
+//     {english4+'\xa0'}
+//     </span>
+//     :
+//     null
+//     }
+//     <span>{english3}</span>
+//     {!before ?
+//     <span>
+//     {'\xa0'+english4}
+//     </span>
+//     :
+//     null
+//     }
+//     </div>
+//     </div>
+//     )
+//   }
 
 
   resetTimer = () => {
@@ -676,9 +684,9 @@ class Video extends Component {
                 null
               ))}
               <Popup
-                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px',fontSize:'25px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'3px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
+                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'5px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
                 position='bottom left'
               />
               </div>
@@ -700,16 +708,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex2[0] && yindex === this.state.clickedChapterIndex2[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex2:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedChapterIndex2:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\n'}</span>}
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex2[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex2:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -717,25 +726,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -743,11 +737,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -777,7 +770,7 @@ class Video extends Component {
   }
 
   render() {
-    // console.log(this.state)
+    console.log(this.state)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
@@ -898,16 +891,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -915,25 +909,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -941,11 +920,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -991,7 +969,7 @@ class Video extends Component {
             <Popup
               trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{j+'\n'}</span>}
@@ -1145,16 +1123,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -1162,25 +1141,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -1188,11 +1152,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -1233,7 +1196,7 @@ class Video extends Component {
             <Popup
               trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{j+'\n'}</span>}
@@ -1418,16 +1381,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -1435,25 +1399,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -1461,11 +1410,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -1505,16 +1453,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null && this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{j+'\n'}</span>}
                   disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -1522,25 +1471,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -1548,11 +1482,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -1667,16 +1600,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{k+'\xa0'}</span>}
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -1684,25 +1618,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -1710,11 +1629,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
@@ -1752,16 +1670,17 @@ class Video extends Component {
                 <Popup
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
-                      this.setState({getCall:true,definitions:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
+                      this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
                     }
                   }
                   }>{j+'\n'}</span>}
                   disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
-                    definitions:[],
-                    parses: [],
-                    segments: [],
+            yugtun: [],
+            english: [],
+            parse: [],
+            segment: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
@@ -1769,25 +1688,10 @@ class Video extends Component {
                   content={
                     !this.state.getCall ? 
                     (
-                    this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
+                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
                       <div>
-                      <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                      {this.state.parses[0].split('-').map((q,qindex) =>
-                        (qindex === this.state.endingrule[0][0] ?
-                          this.endingToEnglish(q,0,qindex)
-                          :
-                          (qindex > this.state.endingrule[0][0] ?
-                            <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {this.state.firstParse[qindex]}
-                                </div>
-                                </div>                  
-                                {this.state.definitions[qindex-1]}
-                                </div>
-                            </div>
-                            :
+                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
+                      {this.state.yugtun.map((q,qindex) =>
                             <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
                                 <div>
                                 <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
@@ -1795,11 +1699,10 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.definitions[qindex]}
+                                {this.state.english[qindex]}
                                 </div>
                             </div>
-                            )
-                        ))}
+                        )}
                       </div>
                     :
                     <div style={{fontSize:'16px'}}>{'No Results'}</div>
