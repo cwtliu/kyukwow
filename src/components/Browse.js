@@ -31,6 +31,7 @@ class Browse extends Component {
 			currentPage:1,
 			maxPages:10, // cause there are only 95 videos
 		}
+		this.updatePage = this.updatePage.bind(this)
 
 	}
 
@@ -51,7 +52,9 @@ class Browse extends Component {
 		}
 	}
 
-	updatePage(currentPage) {
+	updatePage = (currentPage) => {
+		console.log('updating')
+		alert("Hello! I am an alert box!");
 		if (currentPage === 1) {
 			this.setState({showPages:['1','2','3','4','5','6','7','8','9']})				
 		} else {
@@ -80,7 +83,7 @@ class Browse extends Component {
 
 				<div style={{display:'flex',flexDirection:'row',justifyContent:'center'}}>
 					{this.state.currentPage !== 1 ?
-						<Button style={{padding:7}} onClick={()=>{this.setState({currentPage:this.state.currentPage-1}); this.updatePage(this.state.currentPage-1)}}>Prev</Button>
+						<Button style={{padding:7}} onClick={()=>{console.log('changed page');this.setState({currentPage:this.state.currentPage-1}); this.updatePage(this.state.currentPage-1)}}>Prev</Button>
 						:
 						null
 					}

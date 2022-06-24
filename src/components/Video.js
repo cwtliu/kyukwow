@@ -67,6 +67,7 @@ class Video extends Component {
 
       yugtun: [],
       english: [],
+      endingIndex: -1,
       parse: [],
       segment: [],
 
@@ -357,6 +358,7 @@ class Video extends Component {
       this.setState({
           yugtun: [],
           english: [],
+          endingIndex: -1,
           parse: [],
           segment: [],
           getCall:false,
@@ -375,6 +377,7 @@ class Video extends Component {
           // firstParseCount: firstParse.length,
           yugtun: response.data.yugtun,
           english: response.data.english,
+          endingIndex: response.data.endingIndex,
           parse: response.data.parse,
           segment: response.data.segment,
         },()=>{
@@ -414,6 +417,7 @@ class Video extends Component {
           this.setState({
             yugtun: [],
             english: [],
+            endingIndex: -1,
             parse: [],
             segment: [],
             getCall:false,
@@ -737,7 +741,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -920,7 +928,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -1152,7 +1164,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -1410,7 +1426,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -1482,7 +1502,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -1629,7 +1653,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
@@ -1699,7 +1727,11 @@ class Video extends Component {
                                 {q}
                                 </div>
                                 </div>                  
-                                {this.state.english[qindex]}
+                                {this.state.endingIndex === qindex ?
+                                this.state.english[qindex][0]
+                                :
+                                this.state.english[qindex]
+                                }
                                 </div>
                             </div>
                         )}
