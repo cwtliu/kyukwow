@@ -17,7 +17,7 @@ class About extends Component {
 	render() {
 		// console.log(this.state)
 		return (
-			<div>
+			<div style={{marginBottom:30}}>
 				<div className='yugtatun'>Wangkuta</div>
 				<div className='yugtatunsub'>All of us</div>
 				<div style={{display:'flex',justifyContent:'center',flexDirection:'column',fontSize:'16px',maxWidth:'420px',marginLeft:'auto',marginRight:'auto'}}>
@@ -36,7 +36,7 @@ class About extends Component {
 					<div style={{marginTop:'30px'}}>
 						This website was made possible through partnership with KYUK and funding by the 2021 Alaska Humanities Forum Annual Grants Program. 
 					</div>
-				</div>
+				</div>		
 			</div>
 		);
 	}

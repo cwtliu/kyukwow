@@ -43,18 +43,15 @@ class Browse extends Component {
 			})
 	}
 
-	componentDidUpdate(prevState) {
-		if (this.state.currentPage !== prevState.currentPage) {
-			window.scrollTo({
-				  top: 0,
-				  behavior: 'smooth'
-				})
-		}
-	}
+	// componentDidUpdate(prevState) {
+	// 	if (this.state.currentPage !== prevState.currentPage) {
+	// 		window.scrollTo({top: 0, behavior: 'smooth'})
+	// 	}
+	// }
 
 	updatePage = (currentPage) => {
-		console.log('updating')
-		alert("Hello! I am an alert box!");
+		// console.log('updating')
+		// alert("Hello! I am an alert box!");
 		if (currentPage === 1) {
 			this.setState({showPages:['1','2','3','4','5','6','7','8','9']})				
 		} else {
@@ -83,32 +80,32 @@ class Browse extends Component {
 
 				<div style={{display:'flex',flexDirection:'row',justifyContent:'center'}}>
 					{this.state.currentPage !== 1 ?
-						<Button style={{padding:7}} onClick={()=>{console.log('changed page');this.setState({currentPage:this.state.currentPage-1}); this.updatePage(this.state.currentPage-1)}}>Prev</Button>
+						<Button style={{padding:7}} onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'});window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:this.state.currentPage-1}); this.updatePage(this.state.currentPage-1)}}>Prev</Button>
 						:
 						null
 					}
-					<Button onClick={()=>{this.setState({currentPage:1}); this.updatePage(1)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === 1 ? '#e28b02' : null)}}>{converter[1]}</Button>
+					<Button onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:1}); this.updatePage(1)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === 1 ? '#e28b02' : null)}}>{converter[1]}</Button>
 					{this.state.currentPage > 4 ?
 						(this.state.currentPage < this.state.maxPages - 2 ?
 							<span style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
 							<span style={{marginRight:'3px',fontSize:'7px',color:'grey'}}>•••</span>
-								{[this.state.currentPage-2,this.state.currentPage-1,this.state.currentPage,this.state.currentPage+1,this.state.currentPage+2].map((x) => (<Button onClick={()=>{this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
+								{[this.state.currentPage-2,this.state.currentPage-1,this.state.currentPage,this.state.currentPage+1,this.state.currentPage+2].map((x) => (<Button onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
 							<span style={{marginRight:'3px',fontSize:'7px',color:'grey'}}>•••</span>							
 							</span>
 							:
 							<span style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
 							<span style={{marginRight:'3px',fontSize:'7px',color:'grey'}}>•••</span>
-								{[this.state.maxPages-4,this.state.maxPages-3,this.state.maxPages-2,this.state.maxPages-1,this.state.maxPages].map((x) => (<Button onClick={()=>{this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
+								{[this.state.maxPages-4,this.state.maxPages-3,this.state.maxPages-2,this.state.maxPages-1,this.state.maxPages].map((x) => (<Button onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
 							</span>
 							)
 						:
 						<span style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
-							{[2,3,4,5,6].map((x) => (<Button onClick={()=>{this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
+							{[2,3,4,5,6].map((x) => (<Button onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:x}); this.updatePage(x)}} style={{padding:7,paddingRight:10,paddingLeft:10,background:(this.state.currentPage === x ? '#e28b02' : null)}}>{converter[x]}</Button>))}
 							<span style={{marginRight:'3px',fontSize:'7px',color:'grey'}}>•••</span>							
 						</span>
 					}
 					{this.state.currentPage !== this.state.maxPages ?
-						<Button style={{padding:7}} onClick={()=>{this.setState({currentPage:this.state.currentPage+1}); this.updatePage(this.state.currentPage+1)}}>Next</Button>
+						<Button style={{padding:7}} onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'}); this.setState({currentPage:this.state.currentPage+1}); this.updatePage(this.state.currentPage+1)}}>Next</Button>
 						:
 						null
 					}
