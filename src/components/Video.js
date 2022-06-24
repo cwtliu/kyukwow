@@ -213,13 +213,20 @@ class Video extends Component {
   componentDidUpdate(prevProps,prevState) {
 
     if (this.state.videoPlayerPlaying !== prevState.videoPlayerPlaying || this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying) {
-      if (this.state.currentSentence === 1) {
-        var elmnt = document.getElementById('sentence1');
+      // if (this.state.currentSentence === 1) {
+        // console.log('ran here',this.state.currentSentence,this.state.currentSection)
+        let sentence = ''
+        if (this.state.currentSection) {
+          sentence = this.state.currentSection
+        } else {
+          sentence = this.state.currentSentence
+        }
+        var elmnt = document.getElementById('sentence'+sentence);
         var bounding = elmnt.getBoundingClientRect();
         if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
           elmnt.scrollIntoView({behavior: "smooth", block: "center"});  
         }       
-      }
+      // }
 
       if (this.state.videoPlayerPlaying || this.state.audioPlayerPlaying) {
         this.startTick()
@@ -280,7 +287,7 @@ class Video extends Component {
 
 
     if (this.state.nextSentenceStart < this.state.currentTime) {
-      console.log('future')
+      // console.log('future')
 
       let current = this.state.currentSentence;
       let i = 0;
@@ -295,14 +302,15 @@ class Video extends Component {
         var elmnt = document.getElementById('sentence'+(current+i));
         var bounding = elmnt.getBoundingClientRect();
         if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
+          // console.log('wadup',this.state.currentSentence,this.state.currentSection)
           elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
         }
       }
-
+      console.log(current+1+i)
       if (current+1+i === Object.keys(this.state.subtitles).length+1) {
         this.setState({
           currentSentence: current+i,
-          nextSentenceStart: this.rap.audio.current.duration,
+          nextSentenceStart: 1000000000000,
           previousSentenceEnd: this.state.subtitles[current-1+i].endTime,
         });
       } else {
@@ -327,7 +335,6 @@ class Video extends Component {
         var elmnt = document.getElementById('sentence'+(current+i));
         var bounding = elmnt.getBoundingClientRect();
         if (!(bounding.top >= this.state.topOffset && bounding.bottom <= document.documentElement.clientHeight)) {
-          var elmnt = document.getElementById('sentence'+(current+i));
           elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
         }
       }
@@ -690,7 +697,9 @@ class Video extends Component {
               <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px',fontSize:'25px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                content={this.state.tags.map((y)=><div style={{fontSize:'16px',marginBottom:'5px'}}><span style={{color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>{'-'}<span>{categories[y].name.split('--')[1]}</span></div>)}
+                hideOnScroll
+                style={{zIndex:9999}}
+                content={this.state.tags.map((y,yindex)=><div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}><span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span><span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}><span>{categories[y].name.split('--')[1]}</span></span></div>)}
                 position='bottom left'
               />
               </div>
@@ -778,7 +787,7 @@ class Video extends Component {
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.rep)
     // console.log(this.rep)
     // console.log(window.innerWidth-100)
     // var audio = document.getElementById("hello");
@@ -825,13 +834,14 @@ class Video extends Component {
       <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
       </div>
 
-        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
+        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:3000}}>
           <AudioPlayer
             src={this.state.audioURL}
             controls
             // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
             style={{width:'100%',zIndex:10}}
             ref={(element)=>{this.rap=element;}}
+            onEnded={()=>{console.log('ended'); this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
             onPlay={()=>{
               this.setState({audioPlayerPlaying:true})
               // this.checkIfScrollNeeded()
@@ -851,7 +861,7 @@ class Video extends Component {
                       <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                       {categories[y]['name'].includes('~') ?
                       <div>
-                      <div style={{color:'#333333',display:'flex',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
                       <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                       </div>
                       :
@@ -878,7 +888,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:3000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1066,7 +1076,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1082,7 +1092,7 @@ class Video extends Component {
       <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
       </div>
 
-          <div class='reader' ref={(element)=>{this.videoPlayer=element;}} style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:9999}}>
+          <div class='reader' ref={(element)=>{this.videoPlayer=element;}} style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:3000}}>
             <div className='player-wrapper'>
             <ReactPlayer 
               className='react-player'
@@ -1092,6 +1102,7 @@ class Video extends Component {
               width='100%'
               height='100%'
               playIcon
+              onEnded={()=>{console.log('ended'); this.setState({videoPlayerPlaying:false}); this.resetTimer()}}
               onPlay={()=>{
                 this.setState({videoPlayerPlaying:true})
                 // this.checkIfScrollNeeded()
@@ -1114,7 +1125,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:9999,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:3000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1297,7 +1308,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1323,6 +1334,7 @@ class Video extends Component {
               // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
               style={{width:'98%',marginLeft:'2px'}}
               ref={(element)=>{this.rap=element;}}
+              onEnded={()=>{console.log('ended'); this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
               onPlay={()=>{
                 this.setState({audioPlayerPlaying:true})
               }}
@@ -1342,7 +1354,7 @@ class Video extends Component {
                     <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
-                    <div style={{color:'#333333',display:'flex',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
@@ -1382,7 +1394,7 @@ class Video extends Component {
             
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:9999,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:3000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1546,7 +1558,7 @@ class Video extends Component {
 
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
@@ -1573,6 +1585,7 @@ class Video extends Component {
               height='100%'
               playIcon
               playing={this.state.videoPlayerPlaying}
+              onEnded={()=>{console.log('ended'); this.setState({videoPlayerPlaying:false}); this.resetTimer()}}
               onPlay={()=>{
                 this.setState({videoPlayerPlaying:true})
                 // this.checkIfScrollNeeded()
@@ -1611,7 +1624,7 @@ class Video extends Component {
           <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:9999,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:3000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1770,7 +1783,7 @@ class Video extends Component {
             )}
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:9999}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }

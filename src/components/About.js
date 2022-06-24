@@ -20,7 +20,7 @@ class About extends Component {
 			<div style={{marginBottom:30}}>
 				<div className='yugtatun'>Wangkuta</div>
 				<div className='yugtatunsub'>All of us</div>
-				<div style={{display:'flex',justifyContent:'center',flexDirection:'column',fontSize:'16px',maxWidth:'420px',marginLeft:'auto',marginRight:'auto'}}>
+				<div style={{display:'flex',justifyContent:'center',padding:10,flexDirection:'column',fontSize:'16px',maxWidth:'420px',marginLeft:'auto',marginRight:'auto'}}>
 					<div style={{marginTop:'10px'}}>
 						This website was made lovingly by <a target="_blank" href={'https://yuarcuun.github.io/'}>Yuarcuun Technologies</a>, a team of two Yup'ik software developers who grew up in the Yukon Kuskokwim Delta.
 					</div>
