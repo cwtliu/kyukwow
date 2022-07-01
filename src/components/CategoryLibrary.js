@@ -35,7 +35,7 @@ class CategoryLibrary extends Component {
 			<div className='collections'>
 
 				<Container>
-				<div className='yugtatun'>Suut Allakaryarat</div>
+				<div className='yugtatun'>Ayuqenrilnguut Imait</div>
 				<div className='yugtatunsub'>Video Categories</div>
 
 				<div style={{display:'flex',justifyContent:'center',marginBottom:'10px'}}>
@@ -69,7 +69,7 @@ class CategoryLibrary extends Component {
 				</Container>
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
-					Photos provided by KYUK
+					Tarenrairat piyunarivkaumaut KYUK-mek
 				</div>
 
 			</div>

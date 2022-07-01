@@ -279,7 +279,7 @@ class Home extends Component {
 					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
 		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
 		          <div>
-		          {"Cali - Show More"}
+		          {"Allanek Cali Yuvriallerkaq / Allanek Tegganernek Nasvisnga"}
 		          <Icon style={{paddingLeft:10}} name='chevron down' />
 		          </div>
 		        </Button>
@@ -288,7 +288,7 @@ class Home extends Component {
 
 				<Divider />
 
-				<div className='yugtatun'>Suut Allakaryarat</div>
+				<div className='yugtatun'>Ayuqenrilnguut Imait</div>
 				<div className='yugtatunsub'>Video Categories</div>
 
 
@@ -310,7 +310,7 @@ class Home extends Component {
 						<Link to={{pathname: '/categorylibrary'}}>
 			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
 			          <div>
-			          {"See All Categories"}
+			          {"Suuliaret Ayuqenrilnguut Tamalkuita Yuvrirviat"}
 			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
 			          </div>
 			        </Button>
@@ -319,7 +319,7 @@ class Home extends Component {
 
 				<Divider />
 
-				<div className='yugtatun'>Suurarkat</div>
+				<div className='yugtatun'>Suuliaret Paivcimalriit</div>
 				<div className='yugtatunsub'>Featured Videos</div>
 
 					{this.state.featuredVideos.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
@@ -328,7 +328,7 @@ class Home extends Component {
 						<Link to={{pathname: '/browse'}}>
 			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
 			          <div>
-			          {"Browse All Videos"}
+			          {"Suuliaret Tamalkuita Yuvriallerkarviat"}
 			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
 			          </div>
 			        </Button>

@@ -28,10 +28,10 @@ class About extends Component {
 						Quyavikaput all of the elders featured and their shared wisdom. 
 					</div>
 					<div style={{marginTop:'30px'}}>
-						We are especially thankful for Corey Al'aq Joseph who was integral in creating the category list and translating, transcribing, and classifying many of the interviews. 
+						We are especially thankful for Arnapagaq (Corey Joseph) who was integral in creating the category list and translating, transcribing, and classifying many of the interviews. 
 					</div>
 					<div style={{marginTop:'30px'}}>
-						We also want to thank Barbara Maklak Liu for translating and transcribing videos. Quyana Vernon Pikaniralria Chimegalrea and Colleen Laraux for translations of website terms. 
+						We also want to thank Maklak (Barbara Liu) for translating and transcribing. Quyana Pikaniralria (Vernon Chimegalrea) and Kaligtuq (Colleen Laraux) for translations of website terms. 
 					</div>
 					<div style={{marginTop:'30px'}}>
 						This website was made possible through partnership with KYUK and funding by the 2021 Alaska Humanities Forum Annual Grants Program. 

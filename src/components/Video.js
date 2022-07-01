@@ -668,7 +668,7 @@ class Video extends Component {
   // }
 
   tags = () => {
-    return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tag-at </div>
+    return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Ayuqaitnek Nataqissuun </div>
               
               <div style={{textAlign:'center',lineHeight:'34px'}}>
               {this.state.elderTags.map((y)=>(
@@ -879,7 +879,7 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
             :
             null
           }
@@ -1117,7 +1117,7 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
             :
             null
           }
@@ -1371,7 +1371,7 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
             :
             null
           }
@@ -1601,7 +1601,7 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Chapter-aat </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
             :
             null
           }

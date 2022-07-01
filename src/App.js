@@ -94,7 +94,7 @@
               null
               :
               <div style={{flex:1,display:'flex',alignItems:'center',justifyContent:'flex-end'}}>
-              <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
+              <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Erinairaqainaq</span>
               <Checkbox toggle checked={this.state.audioOnly} onClick={()=>{this.setState({audioOnly:!this.state.audioOnly})}} />
               </div>
             }
@@ -111,7 +111,7 @@
                 id='0'
                 active={activeItem === 'home'}
               >
-              Home
+              Suuliaret Ayagnerat
               </Menu.Item>
             </Link>
             <Link to='/categorylibrary'>
@@ -121,19 +121,19 @@
                 id='1'
                 active={activeItem === 'categories'}
               >
-              Categories
+              Ayuqenrilnguut Imait
               </Menu.Item>
             </Link>
-            <Dropdown style={{color:'white'}} item text='More'>
+            <Dropdown style={{color:'white'}} item text='Allat'>
               <Dropdown.Menu>
                 <Link to='/browse'>
                 <Dropdown.Item>
-                Browse All Videos
+                Suuliaret Yuvriallerkarviat
                 </Dropdown.Item>
                 </Link>
                 <Link to='/about'>
                 <Dropdown.Item>
-                About
+                Mat'um Caliaqestain Unakellerkaat
                 </Dropdown.Item>
                 </Link>
               </Dropdown.Menu>

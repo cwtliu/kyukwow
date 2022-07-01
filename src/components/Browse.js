@@ -66,7 +66,7 @@ class Browse extends Component {
 		console.log(this.state)
 		return (
 			<div>
-				<div className='yugtatun'>Yuvrirluki Suut</div>
+				<div className='yugtatun'>Suuliaret Yuvriallerkarviat</div>
 				<div className='yugtatunsub'>Browse Videos</div>
 
 					{this.state.showPages.map((x,xind)=>
@@ -114,7 +114,7 @@ class Browse extends Component {
 				<Divider style={{marginTop:'24px'}} />
 
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
-					This website was made lovingly for our people in the Yukon Kuskokwim Delta.
+					Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.
 				</div>
 			</div>
 		);
