@@ -1,7 +1,7 @@
 export const summaries = {
     "cpb-aacip-127-009w0z0q.h264": {
         "videoID": "cpb-aacip-127-009w0z0q.h264",
-        "title": "Maqista, Ac'urunaq Joshua Phillip - # 1",
+        "title": "Maqista Ac'urunaq Joshua Phillip - # 1",
         "time": "1:02:35",
         "metadata": {
             "Date": "Unknown",
@@ -62,7 +62,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.59"
+            "23.49"
         ],
         "tags": [
             "1.1.1",
@@ -146,7 +146,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.6"
+            "23.3"
         ],
         "tags": [
             "1.1.1",
@@ -217,8 +217,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.100",
-            "23.41"
+            "23.79",
+            "23.35"
         ],
         "tags": [
             "1.1.1",
@@ -287,7 +287,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.34"
+            "23.29"
         ],
         "tags": [
             "1.1.1",
@@ -304,7 +304,7 @@ export const summaries = {
     },
     "cpb-aacip-127-06g1jzz6.h264": {
         "videoID": "cpb-aacip-127-06g1jzz6.h264",
-        "title": "Cingliaq Paul Gregory, Peter Isaac, Ayaprun James Peter, Sr., Nanugaq Fred Evan, Paniguaq Peter Jacob - # 8",
+        "title": "Cingliaq Paul Gregory, Peter Isaac, Ayaprun James Peter Sr., Nanugaq Fred Evan, Paniguaq Peter Jacob - # 8",
         "time": "21:59",
         "metadata": {
             "Date": "Unknown",
@@ -350,11 +350,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.27",
-            "23.82",
-            "23.24",
-            "23.69",
-            "23.81"
+            "23.21",
+            "23.68",
+            "23.17",
+            "23.57",
+            "23.67"
         ],
         "tags": [
             "1.1.1",
@@ -368,7 +368,7 @@ export const summaries = {
     },
     "cpb-aacip-127-06g1k008.h264": {
         "videoID": "cpb-aacip-127-06g1k008.h264",
-        "title": "Yuk 01, Joe Andrew, Kurt Bell, Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq? Wassillie B. Evan?, Phillip Moses, Urutaq Lucy Beaver - # 9",
+        "title": "Yuk 01, Joe Andrew, Kurt Bell, Mikngayaq Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq? Wassillie B. Evan?, Phillip Moses, Urutaq Lucy Beaver - # 9",
         "time": "22:42",
         "metadata": {
             "Date": "Unknown",
@@ -424,14 +424,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.104",
-            "23.35",
-            "23.54",
-            "23.63",
-            "23.57",
-            "23.23",
-            "23.83",
-            "23.100"
+            "23.82",
+            "23.30",
+            "23.46",
+            "23.53",
+            "23.48",
+            "23.16",
+            "23.69",
+            "23.79"
         ],
         "tags": [
             "1.1.1",
@@ -503,8 +503,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.98",
-            "23.46"
+            "23.78",
+            "23.40"
         ],
         "tags": [
             "1.1.1",
@@ -590,8 +590,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.26",
-            "23.75"
+            "23.20",
+            "23.61"
         ],
         "tags": [
             "1.1.1",
@@ -678,9 +678,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.41",
-            "23.100",
-            "23.55"
+            "23.35",
+            "23.79",
+            "23.46"
         ],
         "tags": [
             "1.1.1",
@@ -701,7 +701,7 @@ export const summaries = {
     },
     "cpb-aacip-127-10jsxpx6.h264": {
         "videoID": "cpb-aacip-127-10jsxpx6.h264",
-        "title": "Allranitailnguq, Allran'aq Joe Chief, Sr. - # 14",
+        "title": "Allranitailnguq Allran'aq Joe Chief Sr. - # 14",
         "time": "21:49",
         "metadata": {
             "Date": "Unknown",
@@ -762,7 +762,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.9"
+            "23.5"
         ],
         "tags": [
             "1.1.1",
@@ -844,7 +844,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.87"
+            "23.71"
         ],
         "tags": [
             "1.1.1",
@@ -863,7 +863,7 @@ export const summaries = {
     },
     "cpb-aacip-127-15p8d31m.h264": {
         "videoID": "cpb-aacip-127-15p8d31m.h264",
-        "title": "Kunuin? Phillip Charlie, Ingallak George Keene, Alciq Maxie Altsik - # 17",
+        "title": "Kunuin? Phillip Charlie Sr.?, Ingallak George Keene, Alciq Maxie Altsik - # 17",
         "time": "21:35",
         "metadata": {
             "Date": "Unknown",
@@ -919,9 +919,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.51",
-            "23.33",
-            "23.8"
+            "23.45",
+            "23.28",
+            "23.4"
         ],
         "tags": [
             "1.1.1",
@@ -966,7 +966,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.22"
+            "23.15"
         ],
         "tags": [
             "1.1.1",
@@ -980,7 +980,7 @@ export const summaries = {
     },
     "cpb-aacip-127-18rbp380.h264": {
         "videoID": "cpb-aacip-127-18rbp380.h264",
-        "title": "Urutaq Lucy Beaver, Kelucaq Joe Andrew, Mik'aq Mikngayaq Eliza Chase, Yuk 02 - # 19",
+        "title": "Urutaq Lucy Beaver, Kelucaq Joe Andrew, Mikngayaq Mik'aq Eliza Chase, Yuk 02 - # 19",
         "time": "22:30",
         "metadata": {
             "Date": "Unknown",
@@ -1031,10 +1031,10 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.100",
-            "23.41",
-            "23.62",
-            "23.105"
+            "23.79",
+            "23.35",
+            "23.53",
+            "23.83"
         ],
         "tags": [
             "1.1.1",
@@ -1111,8 +1111,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.39",
-            "23.106"
+            "23.34",
+            "23.84"
         ],
         "tags": [
             "1.1.2",
@@ -1175,8 +1175,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.16",
-            "23.19"
+            "23.11",
+            "23.13"
         ],
         "tags": [
             "1.1.1",
@@ -1193,7 +1193,7 @@ export const summaries = {
     },
     "cpb-aacip-127-25x69tk3.h264": {
         "videoID": "cpb-aacip-127-25x69tk3.h264",
-        "title": "Mrs. Phillip Charlie?, Kumangulria Matthew Bean, Allranitailnguq, Allran'aq Joe Chief, Sr. - # 26",
+        "title": "Aqesgirpak Mary Worm, Kumangulria Matthew Bean, Allranitailnguq Allran'aq Joe Chief Sr. - # 26",
         "time": "22:26",
         "metadata": {
             "Date": "Unknown",
@@ -1224,9 +1224,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.67",
-            "23.45",
-            "23.9"
+            "23.12",
+            "23.39",
+            "23.5"
         ],
         "tags": [
             "1.1.1",
@@ -1272,8 +1272,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.88",
-            "23.78"
+            "23.72",
+            "23.64"
         ],
         "tags": [
             "1.1.1",
@@ -1326,7 +1326,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.28"
+            "23.22"
         ],
         "tags": [
             "1.1.1",
@@ -1342,7 +1342,7 @@ export const summaries = {
     },
     "cpb-aacip-127-28ncjzpp.h264": {
         "videoID": "cpb-aacip-127-28ncjzpp.h264",
-        "title": "Ayagina'ar Nick Charles, Nengeq'aq (Nengqerralria) Elena Charles, Mikngayaq    Mik'aq Eliza Chase, Nauyaq Anna Andrew, Joseph Friday?, Allranitailnguq, Allran'aq Joe Chief, Sr., Ilanaq Theresa Moses, Kumluilnguq? Paul John?, Yuk 04, Yuk 05, Uliggaq Martha (Oscar) Sara, Kumangulria Matthew - # 29",
+        "title": "Ayagina'ar Nicholas Charles, Nengqerralria Nengeq'aq Elena Charles, Mikngayaq Mik'aq Eliza Chase, Nauyaq Anna Andrew, Joseph Friday?, Allranitailnguq Allran'aq Joe Chief Sr., Ilanaq Theresa Moses, Kumluilnguq? Paul John?, Yuk 04, Yuk 05, Uliggaq Martha Oscar Sara, Kumangulria Matthew - # 29",
         "time": "50:28",
         "metadata": {
             "Date": "Unknown",
@@ -1458,18 +1458,18 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.21",
-            "23.72",
-            "23.64",
-            "23.71",
-            "23.39",
-            "23.9",
-            "23.32",
-            "23.49",
-            "23.107",
-            "23.108",
-            "23.97",
-            "23.44"
+            "23.14",
+            "23.60",
+            "23.53",
+            "23.59",
+            "23.34",
+            "23.5",
+            "23.27",
+            "23.43",
+            "23.85",
+            "23.86",
+            "23.78",
+            "23.38"
         ],
         "tags": [
             "1.1.1",
@@ -1539,7 +1539,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.20"
+            "23.14"
         ],
         "tags": [
             "1.1.1",
@@ -1600,7 +1600,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.101"
+            "23.81"
         ],
         "tags": []
     },
@@ -1654,7 +1654,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.93"
+            "23.76"
         ],
         "tags": []
     },
@@ -1709,13 +1709,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.71"
+            "23.59"
         ],
         "tags": []
     },
     "cpb-aacip-127-225b014v.h264": {
         "videoID": "cpb-aacip-127-225b014v.h264",
-        "title": "Mik'aq Eliza Chase - # 21",
+        "title": "Mikngayaq Mik'aq Eliza Chase - # 21",
         "time": "22:05",
         "metadata": {
             "Date": [],
@@ -1767,7 +1767,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.63"
+            "23.53"
         ],
         "tags": []
     },
@@ -1819,7 +1819,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70"
+            "23.58"
         ],
         "tags": []
     },
@@ -1887,7 +1887,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.17"
+            "23.12"
         ],
         "tags": []
     },
@@ -1959,7 +1959,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70"
+            "23.58"
         ],
         "tags": []
     },
@@ -2019,7 +2019,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.73"
+            "23.60"
         ],
         "tags": []
     },
@@ -2072,7 +2072,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.25"
+            "23.19"
         ],
         "tags": []
     },
@@ -2121,7 +2121,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.13"
+            "23.8"
         ],
         "tags": []
     },
@@ -2177,13 +2177,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.10"
         ],
         "tags": []
     },
     "cpb-aacip-127-37vmd1rq.h264": {
         "videoID": "cpb-aacip-127-37vmd1rq.h264",
-        "title": "Kunuin? Phillip Charlie, Sr.? - # 38",
+        "title": "Kunuin? Phillip Charlie Sr.? - # 38",
         "time": "10:14",
         "metadata": {
             "Date": [],
@@ -2217,13 +2217,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.52"
+            "23.45"
         ],
         "tags": []
     },
     "cpb-aacip-127-386hdxkk.h264": {
         "videoID": "cpb-aacip-127-386hdxkk.h264",
-        "title": "Fred Pavilla, May be Mrs. Pavilla - # 39",
+        "title": "Fred Pavilla, Mrs. Pavilla? - # 39",
         "time": "21:17",
         "metadata": {
             "Date": [],
@@ -2303,8 +2303,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.30",
-            "23.60"
+            "23.25",
+            "23.55"
         ],
         "tags": []
     },
@@ -2421,8 +2421,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.47",
-            "23.86"
+            "23.41",
+            "23.70"
         ],
         "tags": []
     },
@@ -2491,7 +2491,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.76"
+            "23.62"
         ],
         "tags": []
     },
@@ -2555,7 +2555,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.102"
+            "23.81"
         ],
         "tags": []
     },
@@ -2615,13 +2615,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.100"
+            "23.79"
         ],
         "tags": []
     },
     "cpb-aacip-127-440rz436.h264": {
         "videoID": "cpb-aacip-127-440rz436.h264",
-        "title": "Ayagina'ar Nicholas Charles, Joseph Friday?, Yuk 20, Yuk 21, ?Billy Morgan?, Ketacik? Ket'aq Fannie Nicori, Noel Polty? - # 44",
+        "title": "Ayagina'ar Nicholas Charles, Joseph Friday?, Yuk 17, Yuk 18, William \"Billy\" Morgan?, Ketacik? Ket'aq Fannie Nicori, Noel Polty? - # 44",
         "time": "31:25",
         "metadata": {
             "Date": [],
@@ -2700,13 +2700,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.20",
-            "23.40",
-            "23.123",
-            "23.124",
-            "23.1",
-            "23.42",
-            "23.77"
+            "23.14",
+            "23.34",
+            "23.98",
+            "23.99",
+            "23.80",
+            "23.36",
+            "23.63"
         ],
         "tags": []
     },
@@ -2771,7 +2771,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.6"
+            "23.3"
         ],
         "tags": []
     },
@@ -2826,13 +2826,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.95"
+            "23.77"
         ],
         "tags": []
     },
     "cpb-aacip-127-48ffbpfx.h264": {
         "videoID": "cpb-aacip-127-48ffbpfx.h264",
-        "title": "Kunuin? Phillip Charlie, Sr.?, Panigkaq Freda Beaver, Yuk 06, Emma Phillip, John?  (see comment), Aacungaq Willie Kasayulie - # 47",
+        "title": "Kunuin? Phillip Charlie Sr.?, Panigkaq Freda Beaver, Yuk 06, Emma Phillip, John?  (see comment), Aacungaq Willie Kasayulie - # 47",
         "time": "1:01:42",
         "metadata": {
             "Date": [],
@@ -2946,18 +2946,18 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.53",
-            "23.80",
-            "23.109",
-            "23.29",
-            "23.36",
-            "23.4"
+            "23.45",
+            "23.66",
+            "23.87",
+            "23.23",
+            "23.31",
+            "23.1"
         ],
         "tags": []
     },
     "cpb-aacip-127-53wstz0s.h264": {
         "videoID": "cpb-aacip-127-53wstz0s.h264",
-        "title": "Yuk 07 - # 49",
+        "title": "Martha Jackson - # 49",
         "time": "22:25",
         "metadata": {
             "Date": [],
@@ -3038,13 +3038,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.110"
+            "23.52"
         ],
         "tags": []
     },
     "cpb-aacip-127-54kkwqvx.h264": {
         "videoID": "cpb-aacip-127-54kkwqvx.h264",
-        "title": "Agesgirpak Mary Worm - # 50",
+        "title": "Aqesgirpak Mary Worm - # 50",
         "time": "22:07",
         "metadata": {
             "Date": [],
@@ -3094,13 +3094,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.7"
+            "23.12"
         ],
         "tags": []
     },
     "cpb-aacip-127-54kkwrd6.h264": {
         "videoID": "cpb-aacip-127-54kkwrd6.h264",
-        "title": "Narullgiar Elena Nick, Ackiar Nick Lupie, Tamarqalria   Tam'aq Elizabeth Andrew, Yuk 08, Yuk 09 - # 51",
+        "title": "Narullgiar Elena Nick, Ackiar Nick Lupie, Tamarqalria Tam'aq Elizabeth Andrew, Yuk 07, Yuk 08 - # 51",
         "time": "1:01:16",
         "metadata": {
             "Date": [],
@@ -3245,17 +3245,17 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70",
-            "23.6",
-            "23.91",
-            "23.111",
-            "23.112"
+            "23.58",
+            "23.3",
+            "23.75",
+            "23.88",
+            "23.89"
         ],
         "tags": []
     },
     "cpb-aacip-127-558czhn9.h264": {
         "videoID": "cpb-aacip-127-558czhn9.h264",
-        "title": "Mikngayaq  Mik'aq Eliza Chase - # 52",
+        "title": "Mikngayaq Mik'aq Eliza Chase - # 52",
         "time": "10:33",
         "metadata": {
             "Date": [],
@@ -3299,7 +3299,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.65"
+            "23.53"
         ],
         "tags": []
     },
@@ -3360,13 +3360,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.40"
+            "23.34"
         ],
         "tags": []
     },
     "cpb-aacip-127-59c5b6f6.h264": {
         "videoID": "cpb-aacip-127-59c5b6f6.h264",
-        "title": "Angut'aq Olinka Nickolai, Quriciq Nickolai K Nicolai - # 54",
+        "title": "Angut'aq Olinka Nickolai, Quriciq Nickolai K. Nicolai - # 54",
         "time": "19:05",
         "metadata": {
             "Date": [],
@@ -3435,8 +3435,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14",
-            "23.90"
+            "23.9",
+            "23.74"
         ],
         "tags": []
     },
@@ -3511,14 +3511,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.37",
-            "23.4"
+            "23.32",
+            "23.1"
         ],
         "tags": []
     },
     "cpb-aacip-127-59q2c3zn.h264": {
         "videoID": "cpb-aacip-127-59q2c3zn.h264",
-        "title": "Yuk 10, ?Emma Phillip - # 56",
+        "title": "Qugg'aq? Evon?, Emma Phillip? - # 56",
         "time": "15:16",
         "metadata": {
             "Date": [],
@@ -3563,8 +3563,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.113",
-            "23.2"
+            "23.73",
+            "23.24"
         ],
         "tags": []
     },
@@ -3649,9 +3649,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.34",
-            "23.43",
-            "23.56"
+            "23.29",
+            "23.37",
+            "23.47"
         ],
         "tags": []
     },
@@ -3703,7 +3703,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.48"
+            "23.42"
         ],
         "tags": [
             "7",
@@ -3813,7 +3813,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.6"
+            "23.3"
         ],
         "tags": [
             "2.1.2",
@@ -3846,7 +3846,7 @@ export const summaries = {
     },
     "cpb-aacip-127-65h9w88k.h264": {
         "videoID": "cpb-aacip-127-65h9w88k.h264",
-        "title": "Joseph Friday?, Winifred Beans, Yuk 11, Anesia Hoover?, Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
+        "title": "Joseph Friday?, Winifred Beans, Yuk 09, Anesia Hoover?, Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
         "time": "1:00:49",
         "metadata": {
             "Date": [],
@@ -4006,14 +4006,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.38",
-            "23.103",
-            "23.114",
-            "23.11",
-            "23.17",
-            "23.96",
-            "23.71",
-            "23.71"
+            "23.34",
+            "23.81",
+            "23.90",
+            "23.7",
+            "23.12",
+            "23.77",
+            "23.59",
+            "23.59"
         ],
         "tags": [
             "3.8",
@@ -4106,7 +4106,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.10"
         ],
         "tags": [
             "1",
@@ -4199,7 +4199,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.74"
+            "23.60"
         ],
         "tags": [
             "5.3.1",
@@ -4244,7 +4244,7 @@ export const summaries = {
     },
     "cpb-aacip-127-68kd59ft.h264": {
         "videoID": "cpb-aacip-127-68kd59ft.h264",
-        "title": "Yuk 12 - # 66",
+        "title": "Betty - # 66",
         "time": "22:22",
         "metadata": {
             "Date": [],
@@ -4305,7 +4305,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.115"
+            "23.18"
         ],
         "tags": [
             "22.11"
@@ -4313,7 +4313,7 @@ export const summaries = {
     },
     "cpb-aacip-127-69m37zr9.h264": {
         "videoID": "cpb-aacip-127-69m37zr9.h264",
-        "title": "Tamarqalria   Tam'aq Elizabeth Andrew - # 67",
+        "title": "Tamarqalria Tam'aq Elizabeth Andrew - # 67",
         "time": "26:53",
         "metadata": {
             "Date": [],
@@ -4384,7 +4384,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.91"
+            "23.75"
         ],
         "tags": [
             "17.5",
@@ -4416,7 +4416,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdf8m.h264": {
         "videoID": "cpb-aacip-127-719kdf8m.h264",
-        "title": "Uliggaq? Martha Oscar Sara - # 68",
+        "title": "Uliggaq Martha Oscar Sara - # 68",
         "time": "10:37",
         "metadata": {
             "Date": [],
@@ -4474,7 +4474,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.99"
+            "23.78"
         ],
         "tags": [
             "2.2.5",
@@ -4494,7 +4494,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdfjd.h264": {
         "videoID": "cpb-aacip-127-719kdfjd.h264",
-        "title": "Allranitailnguq, Allran'aq Joe Chief, Sr., Yuk 23, Nauyaq Anna Andrew, Possibly Winifred Beans, Possibly Joseph Evans, Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
+        "title": "Allranitailnguq Allran'aq Joe Chief Sr., Aqesgirpak Mary Worm, Nauyaq Anna Andrew, Winifred Beans, Joseph Evans?, Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
         "time": "1:02:28",
         "metadata": {
             "Date": [],
@@ -4628,14 +4628,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.9",
-            "23.126",
-            "23.71",
-            "23.85",
-            "23.84",
-            "23.48",
-            "23.71",
-            "23.70"
+            "23.5",
+            "23.12",
+            "23.59",
+            "23.81",
+            "23.33",
+            "23.42",
+            "23.59",
+            "23.58"
         ],
         "tags": [
             "3.11",
@@ -4666,7 +4666,7 @@ export const summaries = {
     },
     "cpb-aacip-127-74cnpfqb.h264": {
         "videoID": "cpb-aacip-127-74cnpfqb.h264",
-        "title": "Yuk 13 - # 70",
+        "title": "Yuk 10 - # 70",
         "time": "13:38",
         "metadata": {
             "Date": [],
@@ -4707,7 +4707,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.116"
+            "23.91"
         ],
         "tags": [
             "10.5",
@@ -4781,7 +4781,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.16"
+            "23.11"
         ],
         "tags": [
             "8.1.2",
@@ -4797,7 +4797,7 @@ export const summaries = {
     },
     "cpb-aacip-127-74qjqbsc.h264": {
         "videoID": "cpb-aacip-127-74qjqbsc.h264",
-        "title": "Maqista, Ac'urunaq Joshua Phillip - # 72",
+        "title": "Maqista Ac'urunaq Joshua Phillip - # 72",
         "time": "21:34",
         "metadata": {
             "Date": [],
@@ -4862,7 +4862,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.59"
+            "23.49"
         ],
         "tags": [
             "3.9.2",
@@ -5011,7 +5011,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.68"
+            "23.56"
         ],
         "tags": [
             "2.1.2",
@@ -5116,7 +5116,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70"
+            "23.58"
         ],
         "tags": [
             "9.4",
@@ -5184,7 +5184,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.38"
+            "23.34"
         ],
         "tags": [
             "17.5",
@@ -5266,7 +5266,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.71"
+            "23.59"
         ],
         "tags": [
             "3.2",
@@ -5371,7 +5371,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.50"
+            "23.44"
         ],
         "tags": [
             "8.1.3",
@@ -5456,7 +5456,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.17"
+            "23.12"
         ],
         "tags": [
             "8.1",
@@ -5502,7 +5502,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.100"
+            "23.79"
         ],
         "tags": [
             "6",
@@ -5640,7 +5640,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.58"
+            "23.50"
         ],
         "tags": [
             "2.1.2",
@@ -5736,7 +5736,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.5"
+            "23.2"
         ],
         "tags": [
             "1.2.1",
@@ -5786,7 +5786,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.102"
+            "23.81"
         ],
         "tags": [
             "2.2.8",
@@ -5844,7 +5844,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.78"
+            "23.64"
         ],
         "tags": [
             "1",
@@ -5914,7 +5914,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.31"
+            "23.26"
         ],
         "tags": [
             "8.4.4.1",
@@ -5934,7 +5934,7 @@ export const summaries = {
     },
     "cpb-aacip-127-87brvbt5.h264": {
         "videoID": "cpb-aacip-127-87brvbt5.h264",
-        "title": "Yuk 14, Yuk 15, ?Margaret Smart? Bell? - # 85",
+        "title": "Yuk 11, Yuk 12, Margaret Smart? Bell? - # 85",
         "time": "14:30",
         "metadata": {
             "Date": [],
@@ -5981,9 +5981,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.117",
-            "23.118",
-            "23.3"
+            "23.92",
+            "23.93",
+            "23.51"
         ],
         "tags": [
             "8.4.2",
@@ -6064,7 +6064,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.66"
+            "23.54"
         ],
         "tags": [
             "1",
@@ -6083,16 +6083,16 @@ export const summaries = {
     },
     "cpb-aacip-127-0644j324.h264": {
         "videoID": "cpb-aacip-127-0644j324.h264",
-        "title": "Andrew Paukan, Yuk 22, Joseph Friday? - # 6",
+        "title": "Andrew Paukan, Yuk 19, Joseph Friday? - # 6",
         "time": "21:05",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.10",
-            "23.125",
-            "23.40"
+            "23.6",
+            "23.100",
+            "23.34"
         ],
         "tags": []
     },
@@ -6105,22 +6105,22 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.6"
+            "23.3"
         ],
         "tags": []
     },
     "cpb-aacip-127-23612qck.h264": {
         "videoID": "cpb-aacip-127-23612qck.h264",
-        "title": "Yuk 25, May be mrs. pavilla, Alciq Maxie Altsik - # 22",
+        "title": "Yuk 21, Mrs. Pavilla?, Alciq Maxie Altsik - # 22",
         "time": "1:01:44",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.128",
-            "23.61",
-            "23.8"
+            "23.102",
+            "23.55",
+            "23.4"
         ],
         "tags": []
     },
@@ -6133,7 +6133,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.18"
+            "23.12"
         ],
         "tags": []
     },
@@ -6146,7 +6146,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.70"
+            "23.58"
         ],
         "tags": []
     },
@@ -6159,20 +6159,20 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.17"
+            "23.12"
         ],
         "tags": []
     },
     "cpb-aacip-127-612ngp56.h264": {
         "videoID": "cpb-aacip-127-612ngp56.h264",
-        "title": "Angukarnaq Anissem Jacob - # 58",
+        "title": "Angukarnaq Anissum Andrew Jacob - # 58",
         "time": "15:38",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.12"
+            "23.8"
         ],
         "tags": []
     },
@@ -6185,7 +6185,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.77"
+            "23.63"
         ],
         "tags": []
     },
@@ -6198,7 +6198,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.6"
+            "23.3"
         ],
         "tags": []
     },
@@ -6211,7 +6211,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.48"
+            "23.42"
         ],
         "tags": []
     },
@@ -6224,35 +6224,35 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.41",
-            "23.100"
+            "23.35",
+            "23.79"
         ],
         "tags": []
     },
     "cpb-aacip-127-89r22kjv.h264": {
         "videoID": "cpb-aacip-127-89r22kjv.h264",
-        "title": "Quriciq, Angut'aq Olinka Nickolai - # 89",
+        "title": "Quriciq Nickolai K. Nicolai, Angut'aq Olinka Nickolai - # 89",
         "time": "21:45",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.89",
-            "23.14"
+            "23.74",
+            "23.9"
         ],
         "tags": []
     },
     "cpb-aacip-127-90rr586b.h264": {
         "videoID": "cpb-aacip-127-90rr586b.h264",
-        "title": "Tamarqalria  Tam'aq Elizabeth Andrew - # 90",
+        "title": "Tamarqalria Tam'aq Elizabeth Andrew - # 90",
         "time": "26:40",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.92"
+            "23.75"
         ],
         "tags": []
     },
@@ -6265,20 +6265,20 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.94"
+            "23.77"
         ],
         "tags": []
     },
     "cpb-aacip-127-945qg6jq.h264": {
         "videoID": "cpb-aacip-127-945qg6jq.h264",
-        "title": "Yuk 24 - # 92",
+        "title": "Yuk 20 - # 92",
         "time": "22:07",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.127"
+            "23.101"
         ],
         "tags": []
     },
@@ -6291,36 +6291,36 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.79"
+            "23.65"
         ],
         "tags": []
     },
     "cpb-aacip-127-96wwq9xv.h264": {
         "videoID": "cpb-aacip-127-96wwq9xv.h264",
-        "title": "Yuk 16, Yuk 17, Yuk 18, Yuk 19 - # 94",
+        "title": "Yuk 13, Yuk 14, Yuk 15, Yuk 16 - # 94",
         "time": "22:22",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.119",
-            "23.120",
-            "23.121",
-            "23.122"
+            "23.94",
+            "23.95",
+            "23.96",
+            "23.97"
         ],
         "tags": []
     },
     "cpb-aacip-127-988gtvzp.h264": {
         "videoID": "cpb-aacip-127-988gtvzp.h264",
-        "title": "________  Morgan? - # 95",
+        "title": "William \"Billy\" Morgan? - # 95",
         "time": "3:28",
         "metadata": {
             "Date": "Unknown"
         },
         "summary": {},
         "elderTags": [
-            "23.129"
+            "23.80"
         ],
         "tags": []
     },
@@ -6333,8 +6333,8 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.41",
-            "23.100"
+            "23.35",
+            "23.79"
         ],
         "tags": []
     }
