@@ -725,6 +725,47 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 		summaries[videoNumber]['tags'] = tags_new
 		summaries[videoNumber]['elderTags'] = eldertags_new
 
+	# add elder videos to village tags
+	# for each elder tag
+	elderParentCat = "23"
+	elderCount = categories[elderParentCat]['children']
+	for i in range(1,elderCount+1):
+		i_elder = elderParentCat + "." + str(i)
+		# elder videos = elder[]
+		elderVideos = categories[i_elder]['videoNumbers']
+		# spliced village names
+		splitVillage = categories[i_elder]['name'].split(' -- ')
+		if len(splitVillage) == 1: # no village name
+			continue
+		splitVillage = splitVillage[1].split(',')
+		splitVillage = [x.replace('?','').strip() for x in splitVillage]
+		# for each village name
+		villageParentCat = '2.2'
+		villageCount = categories[villageParentCat]['children']
+		for vill in splitVillage:
+			villageAdded = False
+			# for village in category list
+			for j in range(1,villageCount+1):
+				j_village = villageParentCat + "." + str(j)
+				# if village name in village
+				if vill in categories[j_village]['name']:
+					# print(f"{vill}\t{categories[j_village]['name']}")
+					# add elder videos not already included
+					villageAdded = True
+					addVideos = [x for x in elderVideos if x not in categories[j_village]["videoNumbers"]]
+					categories[j_village]["videoNumbers"].extend(addVideos)
+			if not villageAdded:
+				print(f"village not added: {vill} from \"{categories[i_elder]['name']}\"")
+
+	# add village tags to summaries
+	villageParentCat = '2.2'
+	villageCount = categories[villageParentCat]['children']
+	for j in range(1,villageCount+1):
+		j_village = villageParentCat + "." + str(j)
+		for vid in categories[j_village]['videoNumbers']:
+			if j_village not in summaries[vid]['tags']:
+				summaries[vid]['tags'].insert(0,j_village)
+
 	# add videos from children to parent
 	for cat_key, cat_value in categories.items():
 		for i in range(1,len(cat_key.split('.'))):

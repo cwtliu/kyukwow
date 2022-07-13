@@ -17,14 +17,69 @@ Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 		Kuigpak -- Yukon River
 		Kusquqvak -- Kuskokwim River
 	Nunacuaraat Atrit -- Place Names For Villages
-		Kuiggluk -- Kwethluk
-		Mamterilleq -- Bethel
-		Tuntutuliaq -- Tuntutuliak
-		Kayalivik -- Kayalivik
-		Mamterilleq -- Bethel
-		Negeqliq -- St. Mary's
-		Tuulkessaq -- Tuluksak
+		Ungalaqliq -- Unalakleet
+		Taciq -- St. Michael
+		Tapraq -- Stebbins
+		Qerrullik -- Kotlik
+		Caniliaq -- Chaneliak
+		Imangaq -- Emmonak
+		Alarneq -- Alakanuk
 		Nunam Iqua -- Nunam Iqua [Sheldon's Point]
+		Asaacarsaq -- Mountain Village
+		Negeqliq -- St. Mary's
+		Negeqliim Painga -- Pilot Station
+		Masserculleq -- Marshall
+		Iqugmiut -- Russian Mission
+		Paimiut -- Paimiut
+		Ingrirraller -- Holy Cross
+		Marayaarmiut -- Scammon Bay
+		Naparyaarmiut -- Hooper Bay
+		Cev'aq -- Chevak
+		Niugtaq -- Newtok
+		Kayalivik -- Kayalivik
+		Tununeq -- Tununak
+		Nunakauyaq -- Toksook Bay
+		Negteḿiut -- Nightmute
+		Mikuryaq -- Mekoryuk
+		Cevv'arneq -- Chefornak
+		Qipneq -- Kipnuk
+		Kuigilnguq -- Kwigillingok
+		Kangirnaq -- Kongiganak
+		Ekvicuar -- Eek
+		Tuntutuliaq -- Tuntutuliak
+		Qinaq -- Qinaq
+		Naparyarraq -- Napakiak
+		Napaskiaq -- Napaskiak
+		Kuiggayagaq -- Oscarville
+		Nunapicuaq -- Nunapitchuk
+		Kassigluq -- Kasigluk
+		Atmaulluaq -- Atmautluak
+		Mamterilleq -- Bethel
+		Kuiggluk -- Kwethluk
+		Akiacuar -- Akiachak
+		Akiaq -- Akiak
+		Tuulkessaaq -- Tuluksak
+		Qalqaq -- Kalskag
+		Anyaraq -- Aniak
+		Curarpalek -- Chuathbaluk
+		Napamiut -- Napaimiut
+		Cellitmiut -- Sleetmute
+		Kuinerraq -- Quinhagak
+		Mamterat -- Goodnews Bay
+		Arviiq -- Platinum
+		Tuyuryaq -- Togiak
+		Ingricuar -- Twin Hills
+		Manuquutaq -- Manakotak
+		Iyuussiiq -- Igushik
+		Iquk -- Ekuk
+		Curyung -- Dillingham
+		Alaqnaqiq -- Aleknagik
+		Uksurnarli -- Portage Creek
+		Iquaq -- Ekwok
+		Cetuyaraq -- New Stuyahok
+		Qalirneq -- Kaliganek
+		Nakneq -- Naknek
+		Saguyaq -- Clark's Point
 	Ingriq -- Mountain
 Ellavut -- Weather, Climate
 	Allrakum Ellalinqigutai -- Seasons
@@ -111,6 +166,7 @@ Akluq, Aklut -- Clothing, Possessions
 Ukverput, Agayuliyaraq -- Spirituality
 	Agayumayaraq, Agayumaciq -- Christianity
 		Agayuviit -- Churches
+			Moravian -- Moravian
 		Agayulirtet -- Priests
 		Qaneryaraq, Qaneryaraqegtaar -- Bible
 		Anglluryaraq -- Baptism
@@ -138,21 +194,27 @@ Nerangnaqsaraq, Yuungnaqsaraq -- Subsistence
 	Melqulegcuryaraq -- Trapping
 	Makirayaraq -- Gathering
 		Iqvaryaraq -- Picking Berries
+			Tutmarpek’nani -- Do Not Step on Them
 		Kayangussuq, Avuryaraq -- Egg Hunting
 			Kayanguq -- Egg
-		Iqvaryaraq -- Picking Berries[a]
+		Iqvaryaraq -- Picking Berries
 		Pakissaagyaraq -- Gathering from Vole Caches
+		Naumalriit Inerquutngulriit -- Plants Warned Against
+		Cuassaat -- Edible Greens
 	Calirpagyaraq -- Hard Work
 	Up'nerkilleq -- Spring Camp
 	Uksuilleq -- Winter Camp
 	Neqlilleq, Neqlivik -- Fish Camp
 	Neqkat Kenciksarait -- Reverence for Food Sources
 		Quyakluki Ciuniurluki -- Gratefully Accept Them
+		Ilakuat Neqerrluut Qimugtet Neqkait -- Leftover Dried Fish as Dog Food
 	Upaketaaryaraq -- Nomadic Lifestyle
+	Caanguararkanek Avuusqevkenaki -- Do Not Gather What Will Be Wasted
 Neqkiuryaraq -- Food Preparation
 	Keniryaraq, Egayaraq -- Cooking
 	Segyaraq, Cegyaraq -- Fish Cutting
 		Akerciurcecuunaki -- Not Letting Them Stay in the Sun
+		Piqertuutarpek’naki -- Do Not Chop Them with an Axe
 	Kinerciriyaraq -- Drying
 		Nakaculiyaraq -- Hanging Small Birds to Dry
 	Puyurciyaraq -- Smoking
@@ -171,9 +233,12 @@ Neqkiuryaraq -- Food Preparation
 	Aulukumanrilnguut Assiirutarkauciat -- Neglected Food Will Spoil
 	Neqallret -- Scraps
 		Tutmarngailngurmun Ciqicarait -- Disposal Where People Won't Trod
+		Pissuryarat Neqsuryarat-llu Nunaitnun Egtesqevkenaki -- Do Not Dispose of Them in Hunting or Fishing Areas
+		Allragnillaat Kuignun Egteksaunaki -- Do Not Throw Year-Old Food into the River
 Anangnaqsaraq Yuilqumi -- Survival (Wilderness)
 	Qercuaneq, Qercualleq -- Frostbite
 	Kit'elleq -- Falling Into Water
+		Pugtassuutet, Kit’essuutet -- Floatation Devices, Life Jackets
 	Pellaalleq -- Getting Lost
 	Neqkaitelleq -- Having No Food
 	Meqsugyaraq -- Thirst
@@ -308,6 +373,8 @@ Ukverput -- Traditional Beliefs
 			Ciunerkaqegciarkauciat -- How They Will Have a Good Future
 			Cakviussiyaagngaitut -- They Won't Struggle Too Much
 		Qaskuit Ayuquciit-llu -- Appearance and Nature
+		Yuut Ataucimek Qanruyutengqertut -- Yup’ik Wisdom is the Same Everywhere
+		Cuqyucirluteng Qanruciaqluteng -- Teaching Through Metaphors
 	Alerquutet, Ayuqucirtuutet -- Instructions
 		Maligtaquyaraq, Niisngayaraq -- Obedience
 		Neryaraq -- Eating Habits
@@ -322,6 +389,9 @@ Ukverput -- Traditional Beliefs
 		Anelriani Ellam Qukaa Tangerrluku -- Look at the Center of the Universe When Going Out
 		Qanminek Mulngaksaraq -- Careful with Words
 		Eneteng Uitanqegcinarqevkarluki -- Keep Your Houses Peaceful
+		Piqrartanrilnguut Ikayurluki -- Help the Decrepit
+		Ikayuqengyaraq -- Helping Others
+			Erneq Aipirluku -- Living Another Day
 	Eyagyaraq -- Abstinence Practices, Taboos
 		Agleryaraq -- Menstruation
 			Aglenraraq -- First Year of Menstruation
@@ -331,6 +401,7 @@ Ukverput -- Traditional Beliefs
 		Ellangyaraq -- Becoming Aware [Childhood]
 	Kencikiyaraq -- Reverence
 		Nuna Meq-llu Kenciklukek -- Revere Land and Water
+		Kencikumanrilnguut Nangtuut -- Disrespected Food Sources Deplete
 	Kenkiyaraq -- Showing Love
 		Kenkucaraq -- Loving Each Other
 	Kevgiurturyaraq -- Serving Others
@@ -366,6 +437,7 @@ Ukverput -- Traditional Beliefs
 	Eyat, Eyaryaraq -- Tattoos, Tattooing
 		Tamlurutet -- Women's Chin Tattoos
 		Anguyalriani Yugtellriit -- Kills During War
+	Asgurayullrunriluciat -- They Didn’t Doubt Traditional Knowledge
 Kalukat -- Celebrations, Gatherings
 	Kevgiq, Kevgiryaraq -- Messenger Feast
 		Kassiyuq -- Kevgiq Dance Festival
