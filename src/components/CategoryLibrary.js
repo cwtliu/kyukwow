@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Image, Grid, Popup } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
@@ -32,9 +32,8 @@ class CategoryLibrary extends Component {
 	render() {
 		console.log(this.state)
 		return (
-			<div className='collections'>
+			<div>
 
-				<Container>
 				<div className='yugtatun'>Ayuqenrilnguut Imait</div>
 				<div className='yugtatunsub'>Video Categories</div>
 
@@ -66,10 +65,15 @@ class CategoryLibrary extends Component {
 					</div>
 
 
-				</Container>
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
-					Tarenrairat piyunarivkaumaut KYUK-mek
+					<div>Tarenrairat piyunarivkaumaut KYUK-mek</div>
+		              <Popup
+		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		                on='click'
+		                content={<div style={{fontSize:'16px'}}>{'Photos provided by KYUK'}</div>}
+		                position='top left'
+		              />
 				</div>
 
 			</div>

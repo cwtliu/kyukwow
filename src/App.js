@@ -1,6 +1,6 @@
     import React, {Component} from 'react';
     import { NavLink, Switch, Route, Link } from 'react-router-dom';
-    import { Container, Header, Button, Icon, Divider, Image, Grid, Menu, Checkbox, Dropdown } from 'semantic-ui-react';
+    import { Container, Header, Button, Icon, Divider, Image, Grid, Menu, Checkbox, Dropdown, Popup } from 'semantic-ui-react';
     import Home from './components/Home.js';
     import CategoryLibrary from './components/CategoryLibrary.js';
     import Category from './components/Category.js';
@@ -94,7 +94,15 @@
               null
               :
               <div style={{flex:1,display:'flex',alignItems:'center',justifyContent:'flex-end'}}>
-              <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Erinairaqainaq</span>
+              <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Erinairaqainaq
+
+              <Popup
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Audio Only'}</div>}
+                position='bottom'
+              />
+              </span>
               <Checkbox toggle checked={this.state.audioOnly} onClick={()=>{this.setState({audioOnly:!this.state.audioOnly})}} />
               </div>
             }
@@ -106,7 +114,7 @@
           <Menu style={{background:'#4a565f',marginTop:'5px'}}>
             <Link to='/'>
               <Menu.Item
-                style={{color:'white'}}
+                style={{color:'white',textAlign:'center',lineHeight:'18px'}}
                 name='home'
                 id='0'
                 active={activeItem === 'home'}
@@ -116,7 +124,7 @@
             </Link>
             <Link to='/categorylibrary'>
               <Menu.Item
-                style={{color:'white'}}
+                style={{color:'white',textAlign:'center',lineHeight:'18px'}}
                 name='categories'
                 id='1'
                 active={activeItem === 'categories'}
@@ -124,8 +132,8 @@
               Ayuqenrilnguut Imait
               </Menu.Item>
             </Link>
-            <Dropdown style={{color:'white'}} item text='Allat'>
-              <Dropdown.Menu>
+            <Dropdown style={{color:'white',textAlign:'center',lineHeight:'18px'}} item text='Allat'>
+              <Dropdown.Menu direction='left' style={{zIndex:3000}}>
                 <Link to='/browse'>
                 <Dropdown.Item>
                 Suuliaret Yuvriallerkarviat
@@ -133,15 +141,62 @@
                 </Link>
                 <Link to='/about'>
                 <Dropdown.Item>
-                Mat'um Caliaqestain Unakellerkaat
+                Wangkuta
                 </Dropdown.Item>
                 </Link>
               </Dropdown.Menu>
             </Dropdown>
+            <div style={{display:'flex',alignItems:'center'}}>
+              <Popup
+                
+                trigger={<Icon style={{fontSize:'20px',color:'white',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+
+            content={
+              <div>
+              <div style={{display:'flex',fontSize:'14px'}}>
+              <span style={{flex:1,color:'#00000099'}}>{'Suuliaret Ayagnerat'}</span>
+              <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+              <span>{'Home'}</span>
+              </span>
+              </div>
+              <div style={{display:'flex',fontSize:'14px',paddingTop:'3px',marginTop:'4px',borderTop: '1px solid #f4f3f3' }}>
+              <span style={{flex:1,color:'#00000099'}}>{'Ayuqenrilnguut Imait'}</span>
+              <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+              <span>{'Categories'}</span>
+              </span>
+              </div>
+              <div style={{display:'flex',fontSize:'14px',paddingTop:'3px',marginTop:'4px',borderTop: '1px solid #f4f3f3' }}>
+              <span style={{flex:1,color:'#00000099'}}>{'Allat'}</span>
+              <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+              <span>{'Others'}</span>
+              </span>
+              </div>
+              <div style={{display:'flex',fontSize:'14px',paddingTop:'3px',marginTop:'4px',borderTop: '1px solid #f4f3f3' }}>
+              <span style={{flex:1,color:'#00000099'}}>{'Suuliaret Yuvriallerkarviat'}</span>
+              <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+              <span>{'Browse Videos'}</span>
+              </span>
+              </div>
+              <div style={{display:'flex',fontSize:'14px',paddingTop:'3px',marginTop:'4px',borderTop: '1px solid #f4f3f3' }}>
+              <span style={{flex:1,color:'#00000099'}}>{'Wangkuta'}</span>
+              <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+              <span>{'All Of Us'}</span>
+              </span>
+              </div>              
+              </div>
+            }
+
+                position='bottom left'
+              />
+            </div>
+
+
+
           </Menu>
 
           <Switch>
-            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/' render={(props) => <Home {...props} innerWidth={this.state.innerWidth} />} />>
             <Route exact path='/categorylibrary' component={CategoryLibrary}></Route>
             <Route exact path='/browse' component={Browse}></Route>
             <Route exact path='/about' component={About}></Route>

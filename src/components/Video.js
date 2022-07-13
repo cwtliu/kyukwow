@@ -238,6 +238,8 @@ class Video extends Component {
     }
 
     if (prevProps.audioOnly !== this.props.audioOnly) {
+      clearInterval(this.intervalIDAudio);
+      clearInterval(this.intervalID);
       if (this.videoPlayer) {
         this.setState({
           videoHeight: this.videoPlayer.clientHeight,
@@ -668,7 +670,15 @@ class Video extends Component {
   // }
 
   tags = () => {
-    return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Ayuqaitnek Nataqissuun </div>
+    return (<div><div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'20px',paddingBottom:'15px'}}> 
+      <span>Ayuqaitnek Nataqissuun</span>
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Category Tags'}</div>}
+                position='bottom'
+              />
+       </div>
               
               <div style={{textAlign:'center',lineHeight:'34px'}}>
               {this.state.elderTags.map((y)=>(
@@ -694,7 +704,7 @@ class Video extends Component {
                 :
                 null
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px',fontSize:'25px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 hideOnScroll
@@ -718,7 +728,7 @@ class Video extends Component {
               <Grid.Column width={13}>
 
               {summaries[this.ID].summary[y][1].split(" ").map((k,kindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex2[0] && yindex === this.state.clickedChapterIndex2[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedChapterIndex2:[kindex,yindex]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -772,7 +782,7 @@ class Video extends Component {
                   position='bottom left'
                 />
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[Object.keys(summaries[this.ID].summary)[yindex]][2]}</div>}
@@ -830,11 +840,20 @@ class Video extends Component {
      <div>
 
       <div style={{flex:1,display:'flex',justifyContent:'center',marginBottom:'10px'}}>
-      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
+      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>
+        Erinairaqainaq
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Audio Only'}</div>}
+                position='bottom right'
+              />
+
+      </span>
       <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
       </div>
 
-        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:3000}}>
+        <div class='reader' style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:1000}}>
           <AudioPlayer
             src={this.state.audioURL}
             controls
@@ -879,7 +898,15 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
+            <span>Suuliarem Imai</span>
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
+                position='bottom'
+              />
+             </div>
             :
             null
           }
@@ -888,7 +915,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:3000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -906,7 +933,7 @@ class Video extends Component {
                 <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'21px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -960,7 +987,7 @@ class Video extends Component {
                   position='bottom left'
                 />
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
@@ -988,7 +1015,7 @@ class Video extends Component {
 
           <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null &&this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
           {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
-            <Popup
+            <Popup hideOnScroll
               trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1061,7 +1088,7 @@ class Video extends Component {
             :
             null
           }
-          <Popup
+          <Popup hideOnScroll
             trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
             content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
@@ -1076,7 +1103,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1088,11 +1115,19 @@ class Video extends Component {
      <div className='about'>
 
       <div style={{flex:1,display:'flex',justifyContent:'center',marginBottom:'10px'}}>
-      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>Audio Only</span>
+      <span style={{fontSize:'16px',color:'grey',paddingRight:'15px',fontWeight:'400',lineHeight:'23px',paddingBottom:'4px',fontFamily:"'Roboto', Arial, Helvetica"}}>
+      Erinairaqainaq
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Audio Only'}</div>}
+                position='bottom right'
+              />
+      </span>
       <Checkbox toggle checked={this.props.audioOnly} onClick={this.props.audioHandler} />
       </div>
 
-          <div class='reader' ref={(element)=>{this.videoPlayer=element;}} style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:3000}}>
+          <div class='reader' ref={(element)=>{this.videoPlayer=element;}} style={{paddingTop:'10px',position:'sticky', top:'0px',zIndex:1000}}>
             <div className='player-wrapper'>
             <ReactPlayer 
               className='react-player'
@@ -1117,7 +1152,15 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
+            <span>Suuliarem Imai</span>
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
+                position='bottom'
+              />
+             </div>
             :
             null
           }
@@ -1125,7 +1168,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:3000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1143,7 +1186,7 @@ class Video extends Component {
                 <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'21px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1197,7 +1240,7 @@ class Video extends Component {
                   position='bottom left'
                 />
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
@@ -1220,7 +1263,7 @@ class Video extends Component {
 
           <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
           {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
-            <Popup
+            <Popup hideOnScroll
               trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1293,7 +1336,7 @@ class Video extends Component {
             :
             null
           }
-          <Popup
+          <Popup hideOnScroll
             trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
             content={<div style={{fontSize:'16px'}}>{this.state.subtitles[i].translation}</div>}
@@ -1308,7 +1351,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1371,7 +1414,15 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
+            <span>Suuliarem Imai</span>
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
+                position='bottom'
+              />
+             </div>
             :
             null
           }
@@ -1394,7 +1445,7 @@ class Video extends Component {
             
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:3000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1406,7 +1457,7 @@ class Video extends Component {
                 <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'22px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1460,7 +1511,7 @@ class Video extends Component {
                   position='bottom left'
                 />
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
@@ -1482,7 +1533,7 @@ class Video extends Component {
               }} />
               <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null && this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null && this.state.audioPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1544,7 +1595,7 @@ class Video extends Component {
                 :
                 null
               }
-              <Popup
+              <Popup hideOnScroll
                 // size='large'
                 trigger={<Icon size='large' style={{color:'#d4d4d4',fontSize:'20px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
@@ -1558,7 +1609,7 @@ class Video extends Component {
 
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
@@ -1601,7 +1652,15 @@ class Video extends Component {
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
-            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'15px'}}> Suuliarem Imai </div>
+            <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
+            <span>Suuliarem Imai</span>
+              <Popup hideOnScroll
+                trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                on='click'
+                content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
+                position='bottom'
+              />
+             </div>
             :
             null
           }
@@ -1624,7 +1683,7 @@ class Video extends Component {
           <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:3000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1634,7 +1693,7 @@ class Video extends Component {
                 <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',margin:'20px',fontSize:'22px',fontWeight:'bold',lineHeight:'28px',paddingTop:'5px'}}>
 
               {summaries[this.ID].summary[i][1].split(" ").map((k,kindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(kindex === this.state.clickedChapterIndex[0] && index === this.state.clickedChapterIndex[1] ? '#78b7d6' : 'black' )}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedChapterIndex:[kindex,index]},()=>{this.getParse(k.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1688,7 +1747,7 @@ class Video extends Component {
                   position='bottom left'
                 />
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon style={{color:'#d4d4d4'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{summaries[this.ID].summary[i][2]}</div>}
@@ -1708,7 +1767,7 @@ class Video extends Component {
               }} />
               <span id={'sentence'+i} style={{color:(i === this.state.currentSection || (this.state.currentSection === null && this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ), borderBottom:(i === this.state.currentSection ? '5px solid #bee0f1' : '' )}}>
               {this.state.subtitles[i].transcript.split(' ').map((j,jindex) => (
-                <Popup
+                <Popup hideOnScroll
                   trigger={<span style={{cursor:'pointer',color:(index === this.state.clickedWordIndex[0] && jindex === this.state.clickedWordIndex[1] ? '#78b7d6' :(i === this.state.currentSection || (this.state.currentSection === null &&this.state.videoPlayerPlaying && index === this.state.currentSentence-1) ? '#31708F' : 'black' ))}} onClick={() => {
                     if (!this.state.getCall) {
                       this.setState({getCall:true,english:[],clickedWordIndex:[index,jindex]},()=>{this.getParse(j.split(" ")[0].replace(/[^a-zA-Z\-̄͡͞ńḿ']/g, "").toLowerCase());});
@@ -1770,7 +1829,7 @@ class Video extends Component {
                 :
                 null
               }
-              <Popup
+              <Popup hideOnScroll
                 // size='large'
                 trigger={<Icon size='large' style={{color:'#d4d4d4',fontSize:'20px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
@@ -1783,7 +1842,7 @@ class Video extends Component {
             )}
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:3000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }

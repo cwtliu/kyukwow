@@ -201,10 +201,10 @@ class Home extends Component {
 							{categories[y]['name'].includes('~') ?
 								<div>
 									<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+									<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
 								</div>
 								:
-								<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+								<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center'}}>{categories[y]['name'].split('--')[0]}</div>
 							}
 							</Link>
 						</div>
@@ -221,10 +221,10 @@ class Home extends Component {
 								{categories[y]['name'].includes('~') ?
 									<div>
 										<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-										<div style={{color:'#333333',display:'flex',justifyContent:'center',}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+										<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
 									</div>
 									:
-									<div style={{color:'#333333',display:'flex',justifyContent:'center'}}>{categories[y]['name'].split('--')[0]}</div>
+									<div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center'}}>{categories[y]['name'].split('--')[0]}</div>
 								}
 								</Link>
 							</div>
@@ -276,13 +276,19 @@ class Home extends Component {
 				{this.state.showMoreElders ?
 					null
 					:
-					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+					<div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',margin:'24px'}}>
 		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
-		          <div>
-		          {"Allanek Cali Yuvriallerkaq / Allanek Tegganernek Nasvisnga"}
-		          <Icon style={{paddingLeft:10}} name='chevron down' />
-		          </div>
+			          <span style={{fontSize:16,lineHeight:'20px'}}>{"Allanek Tegganernek Nasvisnga"}</span>
+			          <Icon style={{float:'right',fontSize:16,marginLeft:'8px',marginRight:'0px'}} name='chevron down' />
 		        </Button>
+
+
+	              <Popup
+	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+	                on='click'
+	                content={<div style={{fontSize:'16px'}}>{'Show me more elders'}</div>}
+	                position='bottom'
+	              />
 	        </div>
 	      }
 
@@ -306,15 +312,19 @@ class Home extends Component {
 						))}
 					</div>
 
-					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+					<div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',margin:'24px'}}>
 						<Link to={{pathname: '/categorylibrary'}}>
-			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
-			          <div>
-			          {"Suuliaret Ayuqenrilnguut Tamalkuita Yuvrirviat"}
-			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
-			          </div>
-			        </Button>
+			        <Button basic style={{fontSize:16,display:'flex',flexDirection:'row',alignItems:'center'}}>
+			          <span style={{fontSize:16,lineHeight:'20px'}}>{"Suuliaret Ayuqenrilnguut Tamalkuita Yuvrirviat"}</span>
+			          <Icon style={{float:'right',fontSize:16}} name='chevron right' />
+			        </Button>			        
 		        </Link>
+	              <Popup
+	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+	                on='click'
+	                content={<div style={{fontSize:'16px'}}>{'See All Categories'}</div>}
+	                position='bottom'
+	              />
 	        </div>
 
 				<Divider />
@@ -324,21 +334,32 @@ class Home extends Component {
 
 					{this.state.featuredVideos.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 
-					<div style={{display:'flex',justifyContent:'center',margin:'24px'}}>
+					<div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',margin:'24px'}}>
 						<Link to={{pathname: '/browse'}}>
-			        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}}>
-			          <div>
-			          {"Suuliaret Tamalkuita Yuvriallerkarviat"}
-			          <Icon style={{fontSize:20,paddingLeft:10}} name='chevron right' />
-			          </div>
+			        <Button basic style={{fontSize:16,display:'flex',flexDirection:'row',alignItems:'center'}}>
+			          <span style={{fontSize:16,lineHeight:'20px'}}>{"Suuliaret Tamalkuita Yuvriallerkarviat"}</span>
+			          <Icon style={{float:'right',fontSize:16}} name='chevron right' />
 			        </Button>
 		        </Link>
+	              <Popup
+	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+	                on='click'
+	                content={<div style={{fontSize:'16px'}}>{'Browse All Videos'}</div>}
+	                position='top left'
+	              />		        
 	        </div>
 
 
 				<Divider style={{marginTop:'24px'}} />
-				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
-					This website was made lovingly for our people in the Yukon Kuskokwim Delta.
+				<div style={{display:'flex',justifyContent:'center',textAlign:'center',marginTop:'30px',marginBottom:'20px'}}>
+					<div>{'Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.'}
+		              <Popup
+		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		                on='click'
+		                content={<div style={{fontSize:'14px'}}>{'This work came into existence with love for our people in the Yukon Kuskokwim Delta.'}</div>}
+		                position='top left'
+		              />
+					</div>
 				</div>
 
 			</div>

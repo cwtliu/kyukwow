@@ -75,7 +75,7 @@ import { API_URL, WEB_URL } from '../App.js';
             <Link to={{pathname: '/category/'+categories[y].name.split(' -- ')[0].replaceAll("'","").replaceAll(/, | & | /g,"-")}}>
               <Button basic compact>
               {/*{categories[y].name.replaceAll('--','—')}*/}
-              <span style={{fontSize:'16px'}}>
+              <span style={{fontSize:'14px'}}>
               {categories[y].name.split(' -- ')[0]}
               </span>
               </Button>

@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Image, Grid } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Divider, Image, Grid, Popup } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
@@ -113,9 +113,17 @@ class Browse extends Component {
 
 				<Divider style={{marginTop:'24px'}} />
 
-				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
-					Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.
+				<div style={{display:'flex',justifyContent:'center',textAlign:'center',marginTop:'30px',marginBottom:'20px'}}>
+					<div>{'Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.'}
+		              <Popup
+		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+		                on='click'
+		                content={<div style={{fontSize:'14px'}}>{'This work came into existence with love for our people in the Yukon Kuskokwim Delta.'}</div>}
+		                position='top left'
+		              />
+					</div>
 				</div>
+
 			</div>
 		);
 	}
