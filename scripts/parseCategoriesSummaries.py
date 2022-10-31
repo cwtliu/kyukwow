@@ -728,6 +728,7 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 	# add elder videos to village tags
 	# for each elder tag
 	elderParentCat = "23"
+	villageParentCat = '2.2'
 	elderCount = categories[elderParentCat]['children']
 	for i in range(1,elderCount+1):
 		i_elder = elderParentCat + "." + str(i)
@@ -740,7 +741,6 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 		splitVillage = splitVillage[1].split(',')
 		splitVillage = [x.replace('?','').strip() for x in splitVillage]
 		# for each village name
-		villageParentCat = '2.2'
 		villageCount = categories[villageParentCat]['children']
 		for vill in splitVillage:
 			villageAdded = False

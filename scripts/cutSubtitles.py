@@ -100,8 +100,10 @@ def cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename):
 		with open(jsonFilename, 'w', encoding='utf-8') as out:
 			out.write(json.dumps(jsonFile, indent=4, ensure_ascii=False))
 
-def restructureJson(jsonFilename, jsonFilenameNew):
+def restructureJson(jsonFilename, summariesFile, categoriesFile, jsonFilenameNew):
 	jsonFile = json.load(open(jsonFilename))
+	summariesJson = json.loads(open(summariesFile,'r').read().replace('export const summaries = ','').replace('};','}'))
+	categoriesJson = json.loads(open(categoriesFile,'r').read().replace('export const categories = ','').replace('};','}'))
 	new_subtitles = {}
 	previousSubtitle = ''
 	for subtitle in jsonFile:
@@ -110,20 +112,27 @@ def restructureJson(jsonFilename, jsonFilenameNew):
 		else:
 			new_subtitles[previousSubtitle]['nextAudioKey'] = subtitle
 
-		new_subtitles[subtitle] = {	'type':'interview',
-									'yupik': jsonFile[subtitle]['transcript'],
+		link = '/kyukwow/video/'+jsonFile[subtitle]['subtitleFilename'].replace('.srt','')+"?t="+str(jsonFile[subtitle]['startTime'])
+
+		speakers = []
+		for elderTag in summariesJson[jsonFile[subtitle]['subtitleFilename'].replace('.srt','')]["elderTags"]:
+			elderName = categoriesJson[elderTag]['name']
+			elderImage = categoriesJson[elderTag]['images'][0]
+			speakers.append([elderName,elderImage])
+
+		new_subtitles[subtitle] = {	'yupik': jsonFile[subtitle]['transcript'],
 									'english': jsonFile[subtitle]['translation'],
 									'audioFilename': jsonFile[subtitle]['audioFilename'],
 									'previousAudioKey': previousSubtitle,
 									'nextAudioKey': '',
 									'content': { 
+										'type':'interview',
+										'source': 'KYUK',
+										'collection': 'Waves of Wisdom',
+										'link':link,
 										'startTime': str(jsonFile[subtitle]['startTime']),
 										'endTime': str(jsonFile[subtitle]['endTime']),
-										'speaker': '',
-										'subtitleFilename': jsonFile[subtitle]['subtitleFilename'],
-										'link': '',
-										'collection': 'Waves of Wisdom',
-										'source': 'KYUK'
+										'speaker': speakers,
 									}
 		}
 		previousSubtitle = subtitle
@@ -137,27 +146,29 @@ if __name__ == '__main__':
 	audioFolder = '../data/WoW-mp3'
 	splitFolder = '../data/WoW-split.nosync'
 	jsonFilename = '../data/wowSubtitles.json'
+	summariesFile = '../src/components/info/summaries.js'
+	categoriesFile = '../src/components/info/categories.js'
 	jsonFilenameNew = '../data/wowSubtitles-new.json'
 	
 	# Path(splitFolder).mkdir(parents=True, exist_ok=True)
 
 	filesToRerun = [
-	"cpb-aacip-127-009w0z0q.h264.srt",
-	"cpb-aacip-127-00ns1t6z.h264.srt",
-	"cpb-aacip-127-010p2r15.h264.srt",
-	"cpb-aacip-127-03cz8zdq.h264.srt",
-	"cpb-aacip-127-06g1jzz6.h264.srt",
-	"cpb-aacip-127-06g1k008.h264.srt",
-	"cpb-aacip-127-09w0vx3c.h264.srt",
-	"cpb-aacip-127-10jsxpvr.h264.srt",
-	"cpb-aacip-127-10jsxpwg.h264.srt",
-	"cpb-aacip-127-10jsxpx6.h264.srt",
-	"cpb-aacip-127-14nk9d19.h264.srt",
-	"cpb-aacip-127-15p8d31m.h264.srt",
-	"cpb-aacip-127-16pzgr3f.h264.srt",
-	"cpb-aacip-127-18rbp380.h264.srt",
-	"cpb-aacip-127-20fttjr7.h264.srt",
-	"cpb-aacip-127-25k98x78.h264.srt",
+	# "cpb-aacip-127-009w0z0q.h264.srt",
+	# "cpb-aacip-127-00ns1t6z.h264.srt",
+	# "cpb-aacip-127-010p2r15.h264.srt",
+	# "cpb-aacip-127-03cz8zdq.h264.srt",
+	# "cpb-aacip-127-06g1jzz6.h264.srt",
+	# "cpb-aacip-127-06g1k008.h264.srt",
+	# "cpb-aacip-127-09w0vx3c.h264.srt",
+	# "cpb-aacip-127-10jsxpvr.h264.srt",
+	# "cpb-aacip-127-10jsxpwg.h264.srt",
+	# "cpb-aacip-127-10jsxpx6.h264.srt",
+	# "cpb-aacip-127-14nk9d19.h264.srt",
+	# "cpb-aacip-127-15p8d31m.h264.srt",
+	# "cpb-aacip-127-16pzgr3f.h264.srt",
+	# "cpb-aacip-127-18rbp380.h264.srt",
+	# "cpb-aacip-127-20fttjr7.h264.srt",
+	# "cpb-aacip-127-25k98x78.h264.srt",
 	]
 
 	# subtitleFiles = sorted([f for f in os.listdir(subtitleFolder) if f[0] == 'c'])
@@ -165,7 +176,7 @@ if __name__ == '__main__':
 	
 	cutSubtitles(subtitleFiles, audioFolder, splitFolder, jsonFilename)
 
-	restructureJson(jsonFilename, jsonFilenameNew)
+	restructureJson(jsonFilename, summariesFile, categoriesFile, jsonFilenameNew)
 
 
 
