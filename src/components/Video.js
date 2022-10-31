@@ -21,6 +21,7 @@ class Video extends Component {
     super(props);
     this.ID = decodeURI(props.match.params.word);
     this.videoID = summaries[this.ID].videoID;
+    const params = new URLSearchParams(this.props.location.search);
     this.state = {
       show: false,
       // audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
@@ -47,7 +48,7 @@ class Video extends Component {
       date:summaries[this.ID].date,
       subtitles:{},
       nextSentenceStart: 0,
-      currentTime:0,
+      currentTime: params.get('t') ? Number(params.get('t')) : 0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
       // clickedSummaryIndex:-1,
