@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Button, Icon, Divider, Popup, Loader, Grid, Checkbox, Image, Segment } from 'semantic-ui-react';
+import { Container, Header, Button, Label, Icon, Divider, Popup, Loader, Grid, Checkbox, Image, Segment } from 'semantic-ui-react';
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
@@ -15,6 +15,8 @@ import {YouTubeLinks} from './info/YouTubeLinks.js';
 
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+
+const YUGTUNDOTCOM_URL = "https://www.yugtun.com/";
 
 class Video extends Component {
   constructor(props) {
@@ -65,12 +67,13 @@ class Video extends Component {
       audioComponentHeight: 102,
       videoPlayer: null,
 
-
       yugtun: [],
       english: [],
-      endingIndex: -1,
-      parse: [],
-      segment: [],
+      endingIndexes: [],
+      parses: [],
+      segments: [],
+      links: [],
+      parseIndex: 0,
 
     }
     // this.audio = new Audio(this.state.audioURL);
@@ -368,14 +371,16 @@ class Video extends Component {
       this.setState({
           yugtun: [],
           english: [],
-          endingIndex: -1,
-          parse: [],
-          segment: [],
+          endingIndexes: [],
+          parses: [],
+          segments: [],
+          links: [],
           getCall:false,
+          parseIndex: 0,
         })
     } else {
     axios
-      .get(API_URL + "/parsedefine/" + word)
+      .get(API_URL + "/parseV2/" + word)
       .then(response => {
         console.log(response)  
         if (response) {
@@ -387,9 +392,10 @@ class Video extends Component {
           // firstParseCount: firstParse.length,
           yugtun: response.data.yugtun,
           english: response.data.english,
-          endingIndex: response.data.endingIndex,
-          parse: response.data.parse,
-          segment: response.data.segment,
+          endingIndexes: response.data.endingIndexes,
+          parses: response.data.parses,
+          segments: response.data.segments,
+          links: response.data.links,
         },()=>{
           // if (firstParse !== undefined) {
           //   var parse = "";
@@ -427,10 +433,12 @@ class Video extends Component {
           this.setState({
             yugtun: [],
             english: [],
-            endingIndex: -1,
-            parse: [],
-            segment: [],
+            endingIndexes: [],
+            parses: [],
+            segments: [],
+            links: [],
             getCall:false,
+            parseIndex: 0,
           })
         }
 
@@ -441,7 +449,12 @@ class Video extends Component {
 
 
     }
-  }
+    }
+
+    openInNewTab = (url) => {
+      const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+      if (newWindow) newWindow.opener = null;
+    }
 
 
   // getLinks(index, parse) {
@@ -739,40 +752,20 @@ class Video extends Component {
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex2[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex2:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -795,6 +788,45 @@ class Video extends Component {
             </Grid>
             )
 
+  }
+
+  parserPopup = () => {
+    return (
+      this.state.parses.length !== 0  ?
+      <div>
+        <Button onClick={() => this.setState({parseIndex: this.state.parseIndex === 0 ? this.state.yugtun.length-1 : this.state.parseIndex-1})}>Previous</Button>
+        <Label circular color={"#E5E5E5"}>
+          {this.state.parseIndex + 1}
+        </Label>
+        <Button onClick={() => this.setState({parseIndex: this.state.parseIndex === this.state.yugtun.length-1 ? 0 : this.state.parseIndex+1})}>Next</Button>
+        
+        <div style={{fontSize:22}}>{this.state.segments[this.state.parseIndex].replace(/[<]/g,'·').replace(/[&↠↞]/g,'·')}</div>
+        {this.state.yugtun[this.state.parseIndex].map((q,qindex) =>
+          <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
+              <div>
+              <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
+                {this.state.links[this.state.parseIndex][qindex] !== "" ?
+                <a href={YUGTUNDOTCOM_URL+this.state.links[this.state.parseIndex][qindex]} target="_blank">
+                {q}
+                </a>
+                :
+                <span>
+                {q}
+                </span>
+                }
+              </div>                  
+              {this.state.endingIndexes[this.state.parseIndex] === qindex ?
+              this.state.english[this.state.parseIndex][qindex][0]
+              :
+              this.state.english[this.state.parseIndex][qindex]
+              }
+              </div>
+          </div>
+        )}
+      </div>
+      :
+      <div style={{fontSize:'16px'}}>{'No Results'}</div>
+    )
   }
 
   render() {
@@ -944,40 +976,17 @@ class Video extends Component {
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -1035,42 +1044,7 @@ class Video extends Component {
               on='click'
               content={
                 !this.state.getCall ? 
-                (
-                this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                  <div>
-                  <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                  {this.state.parses[0].split('-').map((q,qindex) =>
-                    (qindex === this.state.endingrule[0][0] ?
-                      this.endingToEnglish(q,0,qindex)
-                      :
-                      (qindex > this.state.endingrule[0][0] ?
-                        <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {this.state.firstParse[qindex]}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex-1]}
-                            </div>
-                        </div>
-                        :
-                        <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {q}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex]}
-                            </div>
-                        </div>
-                        )
-                    ))}
-                  </div>
-                :
-                <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                )
+                this.parserPopup()
                 :
                 <div style={{height:'70px',width:'60px'}}>
                 <Loader active>Loading</Loader>
@@ -1197,40 +1171,20 @@ class Video extends Component {
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -1274,51 +1228,20 @@ class Video extends Component {
                   disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
               onClose={()=>this.setState({
                 clickedWordIndex:[-1,-1],
-                definitions:[],
-                parses: [],
-                segments: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                 // endingrule: [],
                 // getCall:false,
               })}
               on='click'
               content={
                 !this.state.getCall ? 
-                (
-                this.state.parses.length !== 0 && this.state.segments.length !== 0 ?
-                  <div>
-                  <div style={{fontSize:22}}>{this.state.segments[0].replace(/>/g,'·')}</div>
-                  {this.state.parses[0].split('-').map((q,qindex) =>
-                    (qindex === this.state.endingrule[0][0] ?
-                      this.endingToEnglish(q,0,qindex)
-                      :
-                      (qindex > this.state.endingrule[0][0] ?
-                        <div style={{paddingTop:15,paddingLeft:(qindex)*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {this.state.firstParse[qindex]}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex-1]}
-                            </div>
-                        </div>
-                        :
-                        <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                            <div>
-                            <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                            <div>
-                            {q}
-                            </div>
-                            </div>                  
-                            {this.state.definitions[qindex]}
-                            </div>
-                        </div>
-                        )
-                    ))}
-                  </div>
-                :
-                <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                )
+                this.parserPopup()
                 :
                 <div style={{height:'70px',width:'60px'}}>
                 <Loader active>Loading</Loader>
@@ -1468,40 +1391,20 @@ class Video extends Component {
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -1544,40 +1447,20 @@ class Video extends Component {
                   disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -1704,40 +1587,20 @@ class Video extends Component {
                   disabled={this.state.getCall && kindex !== this.state.clickedChapterIndex[0]}
                   onClose={()=>this.setState({
                     clickedChapterIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
@@ -1778,40 +1641,20 @@ class Video extends Component {
                   disabled={this.state.getCall && jindex !== this.state.clickedWordIndex[1]}
                   onClose={()=>this.setState({
                     clickedWordIndex:[-1,-1],
-            yugtun: [],
-            english: [],
-            parse: [],
-            segment: [],
+                    yugtun: [],
+                    english: [],
+                    parses: [],
+                    segments: [],
+                    endingIndexes: [],
+                    links: [],
+                    parseIndex: 0,
                     // endingrule: [],
                     // getCall:false,
                   })}
                   on='click'
                   content={
                     !this.state.getCall ? 
-                    (
-                    this.state.parse.length !== 0 && this.state.segment.length !== 0 ?
-                      <div>
-                      <div style={{fontSize:22}}>{this.state.segment.replace(/>/g,'·')}</div>
-                      {this.state.yugtun.map((q,qindex) =>
-                            <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
-                                <div>
-                                <div style={{fontWeight:'bold',fontFamily:'Lato,Arial,Helvetica,sans-serif',paddingBottom:'5px'}}>
-                                <div>
-                                {q}
-                                </div>
-                                </div>                  
-                                {this.state.endingIndex === qindex ?
-                                this.state.english[qindex][0]
-                                :
-                                this.state.english[qindex]
-                                }
-                                </div>
-                            </div>
-                        )}
-                      </div>
-                    :
-                    <div style={{fontSize:'16px'}}>{'No Results'}</div>
-                    )
+                    this.parserPopup()
                     :
                     <div style={{height:'70px',width:'60px'}}>
                     <Loader active>Loading</Loader>
