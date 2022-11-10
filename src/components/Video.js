@@ -794,12 +794,6 @@ class Video extends Component {
     return (
       this.state.parses.length !== 0  ?
       <div>
-        <Button onClick={() => this.setState({parseIndex: this.state.parseIndex === 0 ? this.state.yugtun.length-1 : this.state.parseIndex-1})}>Previous</Button>
-        <Label circular color={"#E5E5E5"}>
-          {this.state.parseIndex + 1}
-        </Label>
-        <Button onClick={() => this.setState({parseIndex: this.state.parseIndex === this.state.yugtun.length-1 ? 0 : this.state.parseIndex+1})}>Next</Button>
-        
         <div style={{fontSize:22}}>{this.state.segments[this.state.parseIndex].replace(/[<]/g,'·').replace(/[&↠↞]/g,'·')}</div>
         {this.state.yugtun[this.state.parseIndex].map((q,qindex) =>
           <div style={{paddingTop:15,paddingLeft:qindex*20,fontSize:'16px'}}>
@@ -823,6 +817,15 @@ class Video extends Component {
               </div>
           </div>
         )}
+
+        <div style={{display:'flex',justifyContent:'center',marginTop:'12px'}}>
+        <Icon disabled={this.state.parseIndex === 0} circular onClick={() => this.setState({parseIndex: this.state.parseIndex-1})} style={{margin:0,color:'#B1B1B1',cursor:'pointer',fontSize:'15px'}}  name='chevron left' />
+        <Label circular style={{width:30,height:30,fontSize:14}} color={"#E5E5E5"}>
+          {this.state.parseIndex + 1}
+        </Label>
+        <Icon disabled={this.state.parseIndex === this.state.yugtun.length-1} circular onClick={() => this.setState({parseIndex: this.state.parseIndex+1})} style={{margin:0,color:'#B1B1B1',cursor:'pointer',fontSize:'15px'}}  name='chevron right' />
+        </div>        
+
       </div>
       :
       <div style={{fontSize:'16px'}}>{'No Results'}</div>
