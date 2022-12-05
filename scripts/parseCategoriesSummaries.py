@@ -36,6 +36,11 @@ import glob
 import docx
 import csv
 
+skipVideos = [
+"cpb-aacip-127-612ngp56.h264",
+"cpb-aacip-127-90rr586b.h264",
+]
+
 videoNumAndDuration = OrderedDict([
 ("cpb-aacip-127-009w0z0q.h264",("1","1:02:35")),#"1:02:35.230000",
 ("cpb-aacip-127-00ns1t6z.h264",("2","31:22")),#"0:31:22.548333",
@@ -606,7 +611,7 @@ def addElderIdentification(elderIdentifierFilename, summariesDict):
 				elderNames.add(elderString)
 				elderCat2Images[elderString].append(lineDict['Image'].strip())
 			else:
-				elderString = f"Yuk {unknownElderNumber:02d}"
+				elderString = f"Yuk {unknownElderNumber:02d} ~ Unidentified"
 				if unnamedWithVillage:
 					elderString = elderString+" -- "+lineDict['Village'].strip()
 				unknownElderNumber += 1
@@ -616,6 +621,24 @@ def addElderIdentification(elderIdentifierFilename, summariesDict):
 
 
 	return summariesDict, elderNames, elderCat2Images
+
+
+def addInterviewer(interviewerFilename, summariesDict):
+
+	with open(interviewerFilename, mode='r') as file:
+		csvFile = csv.reader(file, delimiter='\t')
+		# reader = csv.DictReader(file, delimiter='\t')
+
+		# for lineDict in reader:
+		# 	videoIdentifier = f'{lineDict["Unique Identifier"].replace('/','-')}.h264'
+		for line in csvFile:
+			videoIdentifier = line[0].replace('/','-')+'.h264'
+			if videoIdentifier in summariesDict:
+				if line[27] != "":
+					interviewer = line[27].replace("(Kuigilnguq, Kwigillingok)","(Kuigilnguq)")
+					summariesDict[videoIdentifier]['metadata']['interviewer'] = [x.strip() for x in interviewer.split(',')]
+
+	return summariesDict
 
 
 def mixCategoriesSummaries(summaries, categories, elderCat2Images):
@@ -739,7 +762,7 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 		if len(splitVillage) == 1: # no village name
 			continue
 		splitVillage = splitVillage[1].split(',')
-		splitVillage = [x.replace('?','').strip() for x in splitVillage]
+		splitVillage = [x.replace(' (?)','').strip() for x in splitVillage]
 		# for each village name
 		villageCount = categories[villageParentCat]['children']
 		for vill in splitVillage:
@@ -798,7 +821,7 @@ if __name__ == '__main__':
 	coreyfolder = '../data/WoW-Corey'
 	coreyfiles = sorted(glob.glob('../data/WoW-Corey/*.docx'))
 	# coreyfiles = [x.replace('../data/WoW-Corey/','') for x in coreyfiles]
-
+	interviewerFilename = "../data/KYUK Video Metadata by Juliana - Waves of Wisdom.tsv"
 
 	print(f'importing {summariesFilename}')
 	lonnyDict = parse_summaries(summariesFilename)
@@ -813,7 +836,7 @@ if __name__ == '__main__':
 	summariesDict = lonnyDict | coreyDict
 	# add in empty summaries
 	for vid in videoNumAndDuration:
-		if vid not in summariesDict:
+		if vid not in summariesDict and vid not in skipVideos:
 			summariesDict[vid] = {
 				"videoID":vid,
 				"title":"Title Placeholder",
@@ -832,6 +855,9 @@ if __name__ == '__main__':
 
 	print(f'adding elder identification data')
 	summariesDict, elderNames, elderCat2Images = addElderIdentification(elderIdentifierFilename, summariesDict)
+
+	print(f'adding interviewer metadata')
+	summariesDict = addInterviewer(interviewerFilename, summariesDict)
 
 	print(f'importing {categoriesFilename}')
 	categoriesXML = categoriesXML(categoriesFilename, elderNames)

@@ -12,6 +12,9 @@ export const summaries = {
                 [
                     "Joshua Phillip (Ac'urunaq; nicknamed Maqista) of Tuluksak talks in the interview about the preservation of the Yup'ik language, the reverence of others with compassion and truth, and taking care of the land and water from pollution. He also talks about child rearing, taking in a son-in-law, qanrucunalriit (people who adhere to instructions), instructions not to bring a child places, and admonishments not to steal from others."
                 ]
+            ],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
         "summary": {
@@ -62,7 +65,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.58"
+            "23.54"
         ],
         "tags": [
             "2.2.42",
@@ -93,6 +96,9 @@ export const summaries = {
                 [
                     "Nick Lupie (Ackiar) of Tuntutuliak in the interview talked about how people got ready for the fall. He talked about the many types of fish traps, fish skins and aging urine, preparing grass, and admonishments for traveling in the fall."
                 ]
+            ],
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew"
             ]
         },
         "summary": {
@@ -180,6 +186,9 @@ export const summaries = {
                 [
                     "Urutaq Lucy Beaver and Joe Andrew from Bethel talk about showing love to children. Lucy talks about eating habits, how eating habits have changed, child rearing, and giving birth. And Joe talks about teaching and admonishing children."
                 ]
+            ],
+            "interviewer": [
+                "Sophie Alexie"
             ]
         },
         "summary": {
@@ -220,7 +229,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.91",
+            "23.83",
             "23.43"
         ],
         "tags": [
@@ -246,6 +255,9 @@ export const summaries = {
                 [
                     "James Guy from Kwethluk began by first talking about stories in the qasgiq and then admonishments against stealing from others. He also talked about Aavaaq being treated by a shaman. Then he talked about reindeer herding and marking in Akiachak and also about reindeer and wolves and the government. He then talked about these: trapping and getting lumber for money, teenagers losing our Yup'ik language, and the importance of using a walking stick/cane."
                 ]
+            ],
+            "interviewer": [
+                "Aqumgaciq John Active"
             ]
         },
         "summary": {
@@ -355,11 +367,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.29",
-            "23.80",
-            "23.19",
-            "23.66",
-            "23.79"
+            "23.28",
+            "23.72",
+            "23.18",
+            "23.60",
+            "23.71"
         ],
         "tags": [
             "2.2.38",
@@ -376,7 +388,7 @@ export const summaries = {
     },
     "cpb-aacip-127-06g1k008.h264": {
         "videoID": "cpb-aacip-127-06g1k008.h264",
-        "title": "Yuk 01, Joe Andrew, Kurt Bell, Mikngayaq Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq? Wassillie B. Evan?, Phillip Moses, Urutaq Lucy Beaver - # 9",
+        "title": "Yuk 01 Unidentified, Joe Andrew, Kurt Bell, Mikngayaq Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq Wassillie B. Evan, Phillip Moses, Urutaq Lucy Beaver - # 9",
         "time": "22:42",
         "metadata": {
             "Date": "Unknown",
@@ -387,6 +399,9 @@ export const summaries = {
                 [
                     "In the conference, these people talked: [Joe Andrew] and Edward Weiss talked about the custom of wiping the saliva of the brown or black bear on their faces. Kurt Bell, [Joe Andrew], and [Person2] talked about seal bladders. And then Kurt Bell admonished hunters not to shoot baby birds and birds with babies. [Person3] talked about respecting their catch and Eliza Chase (Mik'aq) encouraged KYUK to have elders talk on the radio so that our traditional wisdom may not be forgotten. Edward Weiss talked about walking sticks and black bears. And finally, Phillip Moses of Tooksok Bay and [Person3] talked about shamans and seal parties."
                 ]
+            ],
+            "interviewer": [
+                "Sophie Alexie"
             ]
         },
         "summary": {
@@ -432,14 +447,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.95",
+            "23.87",
             "23.40",
-            "23.54",
-            "23.63",
-            "23.57",
-            "23.18",
-            "23.81",
-            "23.91"
+            "23.50",
+            "23.58",
+            "23.53",
+            "23.17",
+            "23.73",
+            "23.83"
         ],
         "tags": [
             "2.2.42",
@@ -470,6 +485,9 @@ export const summaries = {
                 [
                     "Martha Sarah (Uliggaq), and Matthew (Kumangulria) from the Yukon and Bethel talked about the spring time and preparing for spring camp. They also talked about the ice, snow, and floods of spring, Avgarutaaryaraq (Sharing Festival), and natural freezers."
                 ]
+            ],
+            "interviewer": [
+                "Atmak Lillian Michaels"
             ]
         },
         "summary": {
@@ -515,11 +533,12 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.90",
-            "23.48"
+            "23.82",
+            "23.46"
         ],
         "tags": [
             "2.2.38",
+            "2.2.9",
             "1.1.1",
             "3.1.1",
             "9.7",
@@ -543,6 +562,9 @@ export const summaries = {
                 [
                     "Paul G. Nichoali (Cialuq) and Lucy Nicholai (Neviar; originally named Qakvaralria and raised in Eek) from Kwethluk (Kuiggluk) talked about many different things. They talked about having to always have a walking stick or ice spud/pick/chisel; to follow the admonishments and rules; the teachings of traditional abstinence practices; possessions on a grave; teenagers becoming mischievous; and other topics."
                 ]
+            ],
+            "interviewer": [
+                "Aqumgaciq John Active"
             ]
         },
         "summary": {
@@ -603,8 +625,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.26",
-            "23.72"
+            "23.25",
+            "23.65"
         ],
         "tags": [
             "2.2.39",
@@ -648,6 +670,9 @@ export const summaries = {
                 [
                     "Joe Andrew and Lucy Beaver (Urutaq) talked in Bethel about instructions for animals of the wilderness, reverence of the land, and also about taking care of birds and bird eggs. After them, Kurt Bell talked about giving water to animals."
                 ]
+            ],
+            "interviewer": [
+                "Sophie Alexie"
             ]
         },
         "summary": {
@@ -694,8 +719,8 @@ export const summaries = {
         },
         "elderTags": [
             "23.43",
-            "23.91",
-            "23.54"
+            "23.83",
+            "23.50"
         ],
         "tags": [
             "2.2.38",
@@ -729,6 +754,9 @@ export const summaries = {
                 [
                     "Person1, originally from Urucaraq, talked about what Bethel was like when he was growing up. Then he talked about a lot of traditional wisdom such as: to revere our land, to help ones who are unable, and how it seems our traditional wisdom is one."
                 ]
+            ],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
         "summary": {
@@ -806,6 +834,9 @@ export const summaries = {
                 [
                     "Johnny K. Guy (Qavarliaq), from Kwethluk, talks in the interview about reindeer, a community house (qasgiq) in Kwthluk, walking stick/canes, great hunters, and the Yup'ik langauge."
                 ]
+            ],
+            "interviewer": [
+                "Aqumgaciq John Active"
             ]
         },
         "summary": {
@@ -861,7 +892,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.83"
+            "23.75"
         ],
         "tags": [
             "2.2.39",
@@ -881,7 +912,7 @@ export const summaries = {
     },
     "cpb-aacip-127-15p8d31m.h264": {
         "videoID": "cpb-aacip-127-15p8d31m.h264",
-        "title": "Kunuin? Phillip Charlie Sr.?, Ingallak George Keene, Alciq Maxie Altsik - # 17",
+        "title": "Maqista Ac'urunaq Joshua Phillip, Ingallak George Keene, Alciq Maxie Altsik - # 17",
         "time": "21:35",
         "metadata": {
             "Date": "Unknown",
@@ -937,14 +968,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.53",
+            "23.54",
             "23.37",
             "23.6"
         ],
         "tags": [
+            "2.2.42",
             "2.2.36",
             "2.2.31",
-            "2.2.30",
             "2.2.23",
             "1.1.1",
             "19.5",
@@ -968,6 +999,9 @@ export const summaries = {
                 [
                     "Person1 talked about the condition and governance of our land. He also talked about the traditional way of life through the elders and traditional wisdom."
                 ]
+            ],
+            "interviewer": [
+                "Alexie Isaac"
             ]
         },
         "summary": {
@@ -1014,6 +1048,9 @@ export const summaries = {
                 [
                     "At the conference, Lucy Beaver (Urutaq) talked about caring for men's clothes and catch and about pollution. Then Joe Andrew talked about admonishments for old food and about berries and plants."
                 ]
+            ],
+            "interviewer": [
+                "Sophie Alexie"
             ]
         },
         "summary": {
@@ -1054,10 +1091,10 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.91",
+            "23.83",
             "23.43",
-            "23.63",
-            "23.25"
+            "23.58",
+            "23.24"
         ],
         "tags": [
             "2.2.38",
@@ -1075,7 +1112,7 @@ export const summaries = {
     },
     "cpb-aacip-127-20fttjr7.h264": {
         "videoID": "cpb-aacip-127-20fttjr7.h264",
-        "title": "Nauciralrea Joseph Friday?, Yuk 02 - # 20",
+        "title": "Nauciralrea Joseph Friday, Yuk 02 Unidentified - # 20",
         "time": "22:33",
         "metadata": {
             "Date": "Unknown",
@@ -1136,8 +1173,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.69",
-            "23.96"
+            "23.62",
+            "23.88"
         ],
         "tags": [
             "2.2.18",
@@ -1156,7 +1193,7 @@ export const summaries = {
     },
     "cpb-aacip-127-25k98x78.h264": {
         "videoID": "cpb-aacip-127-25k98x78.h264",
-        "title": "Apaqutaq Dick Andrew, Aqumgaciq John Active - # 25",
+        "title": "Apaqutaq Dick Andrew - # 25",
         "time": "21:23",
         "metadata": {
             "Date": "Unknown",
@@ -1167,6 +1204,9 @@ export const summaries = {
                 [
                     "Dick Andrew (Apaqutaq) from Kayalivik interviewed by John Active (Aqumgaciq) tells stories of strange things and when he first encountered Western people. The he talks about dance festivals, masks, Yup'ik songs, and the two large qasgiq (\"communiy houses\") at Kayalivik. He also sings a song about the Qasgirpagmiut."
                 ]
+            ],
+            "interviewer": [
+                "Aqumgaciq John Active"
             ]
         },
         "summary": {
@@ -1202,8 +1242,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.13",
-            "23.15"
+            "23.14"
         ],
         "tags": [
             "1.1.1",
@@ -1251,13 +1290,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14",
-            "23.47",
+            "23.15",
+            "23.46",
             "23.7"
         ],
         "tags": [
             "2.2.38",
             "2.2.28",
+            "2.2.9",
             "1.1.1",
             "19.6.1",
             "5.1",
@@ -1281,6 +1321,9 @@ export const summaries = {
                 [
                     "First, Fred Ollie spoke with Person1 translating what he said, and he talked about when he lived in St. Mary's and then opened up the conference in Bethel. Next, Nurataaq Nelson Angapak talked in both Yup'ik and English about the importance of our land and how elders should be speaking about our way of life."
                 ]
+            ],
+            "interviewer": [
+                "Qen'gauq Oscar F. Alexie (Naparyarraq)"
             ]
         },
         "summary": {
@@ -1301,8 +1344,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.84",
-            "23.75"
+            "23.76",
+            "23.68"
         ],
         "tags": [
             "2.2.32",
@@ -1327,6 +1370,9 @@ export const summaries = {
                 [
                     "(Cuukvak) from Bethel and interviewer Person1 talked about picking berries and about akutaq (\"Eskimo ice cream\")."
                 ]
+            ],
+            "interviewer": [
+                "Inaanavr Carpenter"
             ]
         },
         "summary": {
@@ -1357,7 +1403,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.31"
+            "23.30"
         ],
         "tags": [
             "2.2.38",
@@ -1374,7 +1420,7 @@ export const summaries = {
     },
     "cpb-aacip-127-28ncjzpp.h264": {
         "videoID": "cpb-aacip-127-28ncjzpp.h264",
-        "title": "Ayagina'ar Nicholas Charles, Nengqerralria Nengeq'aq Elena Charles, Mikngayaq Mik'aq Eliza Chase, Nauyaq Anna Andrew, Nauciralrea Joseph Friday?, Allranitailnguq Allran'aq Joe Chief Sr., Ilanaq Theresa Moses, Kumluilnguq? Paul John?, Billy Lincoln Sr., Caingilnguq Albert Therchik, Uliggaq Martha Oscar Sara, Kumangulria Matthew - # 29",
+        "title": "Ayagina'ar Nicholas Charles, Nengqerralria Nengeq'aq Elena Charles, Mikngayaq Mik'aq Eliza Chase, Nauyaq Anna Andrew, Nauciralrea Joseph Friday, Allranitailnguq Allran'aq Joe Chief Sr., Ilanaq Theresa Moses, Kumluilnguq (?) Paul John (?), Billy Lincoln Sr., Caingilnguq Albert Therchik, Uliggaq Martha Oscar Sara, Kumangulria Matthew Bean - # 29",
         "time": "50:28",
         "metadata": {
             "Date": "Unknown",
@@ -1491,16 +1537,16 @@ export const summaries = {
         },
         "elderTags": [
             "23.16",
-            "23.71",
+            "23.64",
+            "23.58",
             "23.63",
-            "23.70",
-            "23.69",
+            "23.62",
             "23.7",
-            "23.36",
-            "23.51",
+            "23.35",
+            "23.48",
+            "23.21",
             "23.22",
-            "23.23",
-            "23.90",
+            "23.82",
             "23.46"
         ],
         "tags": [
@@ -1508,6 +1554,7 @@ export const summaries = {
             "2.2.30",
             "2.2.22",
             "2.2.18",
+            "2.2.9",
             "1.1.1",
             "1.1.2",
             "11.1",
@@ -1550,6 +1597,9 @@ export const summaries = {
                 [
                     "Ayagina'ar in the interview talks about the rules of winter travel when falling through the ice, travelling by snowmachine, and getting lost."
                 ]
+            ],
+            "interviewer": [
+                "Atmak Lillian Michaels"
             ]
         },
         "summary": {
@@ -1612,6 +1662,9 @@ export const summaries = {
             "Name 2:": [],
             "Role 2:": [
                 "Interviewer"
+            ],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
         "summary": {
@@ -1637,13 +1690,16 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.94"
+            "23.86"
         ],
-        "tags": []
+        "tags": [
+            "2.2.10",
+            "2.2.9"
+        ]
     },
     "cpb-aacip-127-0644j37r.h264": {
         "videoID": "cpb-aacip-127-0644j37r.h264",
-        "title": "Tupagalria? Jacob Little? - # 7",
+        "title": "Tupagalria (?) Jacob Little (?) - # 7",
         "time": "10:06",
         "metadata": {
             "Date": [
@@ -1666,7 +1722,10 @@ export const summaries = {
             ],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "4": [
@@ -1691,7 +1750,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.88"
+            "23.80"
         ],
         "tags": [
             "2.2.34"
@@ -1713,7 +1772,10 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew"
+            ]
         },
         "summary": {
             "1": [
@@ -1748,7 +1810,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70"
+            "23.63"
         ],
         "tags": [
             "2.2.30"
@@ -1773,7 +1835,10 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Qang’allugaq Hazel Lincoln"
+            ]
         },
         "summary": {
             "8": [
@@ -1808,7 +1873,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.63"
+            "23.58"
         ],
         "tags": [
             "2.2.38"
@@ -1832,7 +1897,11 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Inaanavr Carpenter",
+                "Anastasia Cooke Hoffman"
+            ]
         },
         "summary": {
             "15": [
@@ -1862,7 +1931,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.67"
+            "23.61"
         ],
         "tags": [
             "2.2.35"
@@ -1897,6 +1966,9 @@ export const summaries = {
             ],
             "Role 2:": [
                 "Interviewer"
+            ],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
         "summary": {
@@ -1932,7 +2004,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.28"
@@ -1956,7 +2028,10 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "7": [
@@ -2006,7 +2081,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.67"
+            "23.61"
         ],
         "tags": [
             "2.2.35"
@@ -2068,7 +2143,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.71"
+            "23.64"
         ],
         "tags": [
             "2.2.38",
@@ -2104,7 +2179,10 @@ export const summaries = {
             "Role 1:": [
                 "Subjects"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Sophie Evan"
+            ]
         },
         "summary": {
             "1": [
@@ -2124,7 +2202,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.25"
+            "23.24"
         ],
         "tags": [
             "2.2.21"
@@ -2150,7 +2228,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -2198,7 +2279,10 @@ export const summaries = {
             ],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Uquuviar Olinka Andrew"
+            ]
         },
         "summary": {
             "1": [
@@ -2241,7 +2325,7 @@ export const summaries = {
     },
     "cpb-aacip-127-37vmd1rq.h264": {
         "videoID": "cpb-aacip-127-37vmd1rq.h264",
-        "title": "Kunuin? Phillip Charlie Sr.? - # 38",
+        "title": "Maqista Ac'urunaq Joshua Phillip - # 38",
         "time": "10:14",
         "metadata": {
             "Date": [],
@@ -2275,7 +2359,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.53"
+            "23.55"
         ],
         "tags": [
             "2.2.31",
@@ -2284,7 +2368,7 @@ export const summaries = {
     },
     "cpb-aacip-127-386hdxkk.h264": {
         "videoID": "cpb-aacip-127-386hdxkk.h264",
-        "title": "Fred Pavilla, Mrs. Pavilla? - # 39",
+        "title": "Fred Pavilla, Anguyaluk Taac'aq Olinka Pavilla - # 39",
         "time": "21:17",
         "metadata": {
             "Date": [],
@@ -2304,7 +2388,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -2364,8 +2451,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.33",
-            "23.64"
+            "23.32",
+            "23.13"
         ],
         "tags": [
             "2.2.37",
@@ -2400,6 +2487,9 @@ export const summaries = {
             ],
             "Role 2:": [
                 "Host"
+            ],
+            "interviewer": [
+                "Michael \"Mike\" Williams Sr. (Akiak)"
             ]
         },
         "summary": {
@@ -2485,8 +2575,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.49",
-            "23.82"
+            "23.47",
+            "23.74"
         ],
         "tags": [
             "2.2.11"
@@ -2512,7 +2602,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Upay'aq Elena Miller Ulroan"
+            ]
         },
         "summary": {
             "1": [
@@ -2557,7 +2650,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.73"
+            "23.66"
         ],
         "tags": [
             "2.2.32"
@@ -2583,7 +2676,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -2623,9 +2719,12 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.94"
+            "23.86"
         ],
-        "tags": []
+        "tags": [
+            "2.2.10",
+            "2.2.9"
+        ]
     },
     "cpb-aacip-127-42n5thvk.h264": {
         "videoID": "cpb-aacip-127-42n5thvk.h264",
@@ -2683,7 +2782,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.91"
+            "23.83"
         ],
         "tags": [
             "2.2.38"
@@ -2691,7 +2790,7 @@ export const summaries = {
     },
     "cpb-aacip-127-440rz436.h264": {
         "videoID": "cpb-aacip-127-440rz436.h264",
-        "title": "Ayagina'ar Nicholas Charles, Nauciralrea Joseph Friday, Miisaq Milton Lewis, Nirraralria Ulric Nayamin, Wasky Walters, Ketacik? Ket'aq Fannie Nicori, Kumkaq Noel Polty - # 44",
+        "title": "Ayagina'ar Nicholas Charles, Nauciralrea Joseph Friday, Miisaq Milton Lewis, Nirraralria Ulric Nayamin, Wasky Walters, Ketacik (?) Ket'aq Fannie Nicori, Kumkaq Noel Polty - # 44",
         "time": "31:25",
         "metadata": {
             "Date": [],
@@ -2710,7 +2809,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Martha Scott"
+            ]
         },
         "summary": {
             "1": [
@@ -2771,12 +2873,12 @@ export const summaries = {
         },
         "elderTags": [
             "23.16",
-            "23.68",
             "23.62",
-            "23.74",
-            "23.92",
+            "23.57",
+            "23.67",
+            "23.84",
             "23.44",
-            "23.49"
+            "23.47"
         ],
         "tags": [
             "2.2.39",
@@ -2905,7 +3007,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.89"
+            "23.81"
         ],
         "tags": [
             "2.2.32",
@@ -2914,7 +3016,7 @@ export const summaries = {
     },
     "cpb-aacip-127-48ffbpfx.h264": {
         "videoID": "cpb-aacip-127-48ffbpfx.h264",
-        "title": "Kunuin? Phillip Charlie Sr.?, Panigkaq Freda Beaver, Wassillie J. Andrew, Emma Phillip?, Caller'kuaq William Lomack, Aacungaq Willie Kasayulie - # 47",
+        "title": "Maqista Ac'urunaq Joshua Phillip, Panigkaq Freda Beaver, Wassillie J. Andrew, Emma Phillip (?), Caller'kuaq William Lomack, Aacungaq Willie Kasayulie - # 47",
         "time": "1:01:42",
         "metadata": {
             "Date": [],
@@ -2928,7 +3030,12 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew",
+                "John MacDonald",
+                "Kakianeq Adolph Lewis"
+            ]
         },
         "summary": {
             "1": [
@@ -3028,11 +3135,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.53",
-            "23.78",
-            "23.93",
-            "23.32",
-            "23.24",
+            "23.55",
+            "23.70",
+            "23.85",
+            "23.31",
+            "23.23",
             "23.1"
         ],
         "tags": [
@@ -3046,7 +3153,7 @@ export const summaries = {
     },
     "cpb-aacip-127-53wstz0s.h264": {
         "videoID": "cpb-aacip-127-53wstz0s.h264",
-        "title": "Martha Jackson - # 49",
+        "title": "Imguuq Martha H. Jackson - # 49",
         "time": "22:25",
         "metadata": {
             "Date": [],
@@ -3127,7 +3234,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.61"
+            "23.36"
         ],
         "tags": [
             "2.2.42",
@@ -3186,7 +3293,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.28"
@@ -3209,7 +3316,12 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)",
+                "Uquviar Olinka Andrew",
+                "Sophie Kusak"
+            ]
         },
         "summary": {
             "1": [
@@ -3339,11 +3451,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.67",
+            "23.61",
             "23.4",
-            "23.86",
-            "23.87",
-            "23.35"
+            "23.78",
+            "23.79",
+            "23.34"
         ],
         "tags": [
             "2.2.35",
@@ -3373,7 +3485,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Qang’allugaq Hazel Lincoln"
+            ]
         },
         "summary": {
             "1": [
@@ -3398,7 +3513,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.63"
+            "23.58"
         ],
         "tags": [
             "2.2.38"
@@ -3406,7 +3521,7 @@ export const summaries = {
     },
     "cpb-aacip-127-57np5s39.h264": {
         "videoID": "cpb-aacip-127-57np5s39.h264",
-        "title": "Nauciralrea Joseph Friday? - # 53",
+        "title": "Nauciralrea Joseph Friday - # 53",
         "time": "18:40",
         "metadata": {
             "Date": [],
@@ -3421,7 +3536,10 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Peter Tuluk"
+            ]
         },
         "summary": {
             "1": [
@@ -3461,7 +3579,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.69"
+            "23.62"
         ],
         "tags": [
             "2.2.18"
@@ -3488,7 +3606,10 @@ export const summaries = {
             ],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
         },
         "summary": {
             "1": [
@@ -3539,7 +3660,7 @@ export const summaries = {
         },
         "elderTags": [
             "23.11",
-            "23.85"
+            "23.77"
         ],
         "tags": [
             "2.2.39"
@@ -3566,7 +3687,10 @@ export const summaries = {
             "Role 1:": [
                 "Interviewee"
             ],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "4": [
@@ -3616,7 +3740,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.24",
+            "23.23",
             "23.1"
         ],
         "tags": [
@@ -3625,7 +3749,7 @@ export const summaries = {
     },
     "cpb-aacip-127-59q2c3zn.h264": {
         "videoID": "cpb-aacip-127-59q2c3zn.h264",
-        "title": "Cungauyar Wassllie Andrew, Emma Phillip? - # 56",
+        "title": "Cungauyar Wassllie Andrew, Emma Phillip (?) - # 56",
         "time": "15:16",
         "metadata": {
             "Date": [],
@@ -3640,7 +3764,10 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "interviewer": [
+                "John MacDonald"
+            ]
         },
         "summary": {
             "1": [
@@ -3670,8 +3797,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.30",
-            "23.32"
+            "23.29",
+            "23.31"
         ],
         "tags": [
             "2.2.42",
@@ -3705,6 +3832,9 @@ export const summaries = {
             ],
             "Role 2:": [
                 "Interviewer"
+            ],
+            "interviewer": [
+                "Aqumgaciq John Active"
             ]
         },
         "summary": {
@@ -3762,7 +3892,7 @@ export const summaries = {
         "elderTags": [
             "23.38",
             "23.45",
-            "23.56"
+            "23.52"
         ],
         "tags": [
             "2.2.39"
@@ -3786,7 +3916,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -3816,7 +3949,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.50"
+            "23.49"
         ],
         "tags": [
             "2.2.32",
@@ -3852,7 +3985,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Uquviar Olinka Andrew"
+            ]
         },
         "summary": {
             "1": [
@@ -3961,7 +4097,7 @@ export const summaries = {
     },
     "cpb-aacip-127-65h9w88k.h264": {
         "videoID": "cpb-aacip-127-65h9w88k.h264",
-        "title": "Nauciralrea Joseph Friday?, Winifred Beans, Jonathan Johnson, Anesia Hoover?, Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
+        "title": "Nauciralrea Joseph Friday, Winifred Beans, Jonathan Johnson, Anesia Hoover (?), Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
         "time": "1:00:49",
         "metadata": {
             "Date": [],
@@ -3981,7 +4117,10 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -4121,14 +4260,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.69",
-            "23.94",
+            "23.62",
+            "23.86",
             "23.41",
             "23.9",
-            "23.14",
-            "23.89",
-            "23.70",
-            "23.70"
+            "23.15",
+            "23.81",
+            "23.63",
+            "23.63"
         ],
         "tags": [
             "2.2.36",
@@ -4138,6 +4277,8 @@ export const summaries = {
             "2.2.28",
             "2.2.18",
             "2.2.17",
+            "2.2.10",
+            "2.2.9",
             "3.8",
             "4.2",
             "5.1.3",
@@ -4267,7 +4408,10 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Qang’allugaq Hazel Lincoln"
+            ]
         },
         "summary": {
             "1": [
@@ -4322,7 +4466,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.71"
+            "23.64"
         ],
         "tags": [
             "2.2.38",
@@ -4369,7 +4513,7 @@ export const summaries = {
     },
     "cpb-aacip-127-68kd59ft.h264": {
         "videoID": "cpb-aacip-127-68kd59ft.h264",
-        "title": "Betty guy - # 66",
+        "title": "Betty Guy - # 66",
         "time": "22:22",
         "metadata": {
             "Date": [],
@@ -4390,7 +4534,10 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -4430,7 +4577,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.21"
+            "23.20"
         ],
         "tags": [
             "2.2.41",
@@ -4455,7 +4602,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Uquviar Olinka Andrew"
+            ]
         },
         "summary": {
             "3": [
@@ -4510,7 +4660,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.86"
+            "23.78"
         ],
         "tags": [
             "2.2.30",
@@ -4601,7 +4751,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.90"
+            "23.82"
         ],
         "tags": [
             "2.2.38",
@@ -4621,7 +4771,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdfjd.h264": {
         "videoID": "cpb-aacip-127-719kdfjd.h264",
-        "title": "Allranitailnguq Allran'aq Joe Chief Sr., Aqesgirpak Mary Worm, Nauyaq Anna Andrew, Winifred Beans, Joseph Evans?, Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
+        "title": "Allranitailnguq Allran'aq Joe Chief Sr., Aqesgirpak Mary Worm, Nauyaq Anna Andrew, Winifred Beans, Joseph Evans (?), Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
         "time": "1:02:28",
         "metadata": {
             "Date": [],
@@ -4635,7 +4785,11 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)",
+                "Anastasia Cooke Hoffman"
+            ]
         },
         "summary": {
             "1": [
@@ -4756,13 +4910,13 @@ export const summaries = {
         },
         "elderTags": [
             "23.7",
-            "23.14",
-            "23.70",
-            "23.94",
+            "23.15",
+            "23.63",
+            "23.86",
             "23.42",
-            "23.50",
-            "23.70",
-            "23.67"
+            "23.49",
+            "23.63",
+            "23.61"
         ],
         "tags": [
             "2.2.38",
@@ -4770,6 +4924,8 @@ export const summaries = {
             "2.2.32",
             "2.2.30",
             "2.2.28",
+            "2.2.10",
+            "2.2.9",
             "3.11",
             "5.1.1.1",
             "5.1.3",
@@ -4814,7 +4970,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -4874,7 +5033,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
         },
         "summary": {
             "1": [
@@ -4914,7 +5076,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.13"
+            "23.14"
         ],
         "tags": [
             "2.2.20",
@@ -4946,7 +5108,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Arnaraq Mary Gregory"
+            ]
         },
         "summary": {
             "1": [
@@ -4996,7 +5161,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.58"
+            "23.54"
         ],
         "tags": [
             "2.2.42",
@@ -5032,7 +5197,12 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Sophie Kusak",
+                "Uquuviar Olinka \"Ollie\" Andrew",
+                "Atmak Lillian Michaels"
+            ]
         },
         "summary": {
             "1": [
@@ -5147,7 +5317,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.65"
+            "23.59"
         ],
         "tags": [
             "2.2.27",
@@ -5208,7 +5378,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -5253,7 +5426,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.67"
+            "23.61"
         ],
         "tags": [
             "2.2.35",
@@ -5322,7 +5495,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.68"
+            "23.62"
         ],
         "tags": [
             "2.2.18",
@@ -5405,7 +5578,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.70"
+            "23.63"
         ],
         "tags": [
             "2.2.30",
@@ -5431,7 +5604,7 @@ export const summaries = {
     },
     "cpb-aacip-127-784j17vw.h264": {
         "videoID": "cpb-aacip-127-784j17vw.h264",
-        "title": "Kunuin Phillip Charlie Sr. - # 77",
+        "title": "Maqista Ac'urunaq Joshua Phillip - # 77",
         "time": "40:01",
         "metadata": {
             "Date": [],
@@ -5511,9 +5684,10 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.52"
+            "23.55"
         ],
         "tags": [
+            "2.2.31",
             "2.2.30",
             "8.1.3",
             "8.4.3",
@@ -5597,7 +5771,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.28",
@@ -5644,7 +5818,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.91"
+            "23.83"
         ],
         "tags": [
             "2.2.38",
@@ -5657,7 +5831,7 @@ export const summaries = {
     },
     "cpb-aacip-127-816m99hb.h264": {
         "videoID": "cpb-aacip-127-816m99hb.h264",
-        "title": "Maqista Joshua Phillip - # 80",
+        "title": "Maqista Ac'urunaq Joshua Phillip - # 80",
         "time": "1:02:05",
         "metadata": {
             "Date": [],
@@ -5673,7 +5847,11 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Aqumgaciq John Active",
+                "Kakianeq Adolph Lewis"
+            ]
         },
         "summary": {
             "1": [
@@ -5783,10 +5961,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.59"
+            "23.55"
         ],
         "tags": [
-            "2.2.42",
+            "2.2.31",
+            "2.2.30",
             "2.1.2",
             "2.2.38",
             "3.9.1.1",
@@ -5850,7 +6029,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -5911,7 +6093,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {
             "1": [
@@ -5931,9 +6116,11 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.94"
+            "23.86"
         ],
         "tags": [
+            "2.2.10",
+            "2.2.9",
             "2.2.8",
             "8.1.3",
             "8.2",
@@ -5989,7 +6176,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.75"
+            "23.68"
         ],
         "tags": [
             "2.2.30",
@@ -6030,6 +6217,9 @@ export const summaries = {
             ],
             "Role 2:": [
                 "Interviewer"
+            ],
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew"
             ]
         },
         "summary": {
@@ -6060,7 +6250,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.34"
+            "23.33"
         ],
         "tags": [
             "2.2.27",
@@ -6081,7 +6271,7 @@ export const summaries = {
     },
     "cpb-aacip-127-87brvbt5.h264": {
         "videoID": "cpb-aacip-127-87brvbt5.h264",
-        "title": "Cikiraq Jane Green, Acacungaqa Clotilda Stone, Margaret Smart? Bell? - # 85",
+        "title": "Cikiraq Jane Green, Acacungaqa Clotilda Stone, Margaret Smart/Bell (?) - # 85",
         "time": "14:30",
         "metadata": {
             "Date": [],
@@ -6098,7 +6288,10 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
-            "Role 2:": []
+            "Role 2:": [],
+            "interviewer": [
+                "Sophie Kusak"
+            ]
         },
         "summary": {
             "1": [
@@ -6128,9 +6321,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.27",
+            "23.26",
             "23.3",
-            "23.60"
+            "23.56"
         ],
         "tags": [
             "2.2.18",
@@ -6178,6 +6371,9 @@ export const summaries = {
             ],
             "Role 2:": [
                 "Interviewer"
+            ],
+            "interviewer": [
+                "Atmak Lillian Michael"
             ]
         },
         "summary": {
@@ -6213,7 +6409,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.62"
+            "23.57"
         ],
         "tags": [
             "2.2.27",
@@ -6241,8 +6437,8 @@ export const summaries = {
         "summary": {},
         "elderTags": [
             "23.8",
-            "23.20",
-            "23.68"
+            "23.19",
+            "23.62"
         ],
         "tags": [
             "2.2.18",
@@ -6254,7 +6450,10 @@ export const summaries = {
         "title": "Ackiar Nick Lupie - # 10",
         "time": "31:54",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew"
+            ]
         },
         "summary": {},
         "elderTags": [
@@ -6266,15 +6465,21 @@ export const summaries = {
     },
     "cpb-aacip-127-23612qck.h264": {
         "videoID": "cpb-aacip-127-23612qck.h264",
-        "title": "Yuk 03, Olinka Pavilla, Alciq Maxie Altsik - # 22",
+        "title": "Yuk 03 Unidentified, Anguyaluk Taac'aq Olinka Pavilla, Alciq Maxie Altsik - # 22",
         "time": "1:01:44",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)",
+                "Uquuviar Olinka Andrew",
+                "Sophie Kusak",
+                "Atmak Lillian Michaels"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.97",
-            "23.76",
+            "23.89",
+            "23.13",
             "23.6"
         ],
         "tags": [
@@ -6289,11 +6494,14 @@ export const summaries = {
         "title": "Aqesgirpak Mary Worm - # 33",
         "time": "22:23",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.28"
@@ -6304,11 +6512,15 @@ export const summaries = {
         "title": "Narullgiar Elena Nick - # 34",
         "time": "15:34",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Inaanavr Carpenter",
+                "Anastasia Cooke Hoffman"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.67"
+            "23.61"
         ],
         "tags": [
             "2.2.35"
@@ -6319,29 +6531,17 @@ export const summaries = {
         "title": "Aqesgirpak Mary Worm - # 48",
         "time": "1:03:36",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.28"
-        ]
-    },
-    "cpb-aacip-127-612ngp56.h264": {
-        "videoID": "cpb-aacip-127-612ngp56.h264",
-        "title": "Angukarnaq Anissum Andrew Jacob - # 58",
-        "time": "15:38",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.10"
-        ],
-        "tags": [
-            "2.2.33"
         ]
     },
     "cpb-aacip-127-623bkbxr.h264": {
@@ -6353,7 +6553,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.49"
+            "23.47"
         ],
         "tags": [
             "2.2.11"
@@ -6364,7 +6564,10 @@ export const summaries = {
         "title": "Ackiar Nick Lupie - # 65",
         "time": "31:05",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Uquuviar Olinka \"Ollie\" Andrew"
+            ]
         },
         "summary": {},
         "elderTags": [
@@ -6383,7 +6586,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.50"
+            "23.49"
         ],
         "tags": [
             "2.2.32"
@@ -6394,12 +6597,15 @@ export const summaries = {
         "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver - # 88",
         "time": "1:04:11",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Sophie Alexie"
+            ]
         },
         "summary": {},
         "elderTags": [
             "23.43",
-            "23.91"
+            "23.83"
         ],
         "tags": [
             "2.2.38"
@@ -6410,30 +6616,18 @@ export const summaries = {
         "title": "Quriciq Nickolai K. Nicolai, Angut'aq Olinka Nickolai - # 89",
         "time": "21:45",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.85",
+            "23.77",
             "23.11"
         ],
         "tags": [
             "2.2.39"
-        ]
-    },
-    "cpb-aacip-127-90rr586b.h264": {
-        "videoID": "cpb-aacip-127-90rr586b.h264",
-        "title": "Tamarqalria Tam'aq Elizabeth Andrew - # 90",
-        "time": "26:40",
-        "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.86"
-        ],
-        "tags": [
-            "2.2.30"
         ]
     },
     "cpb-aacip-127-91sf7xm0.h264": {
@@ -6441,11 +6635,14 @@ export const summaries = {
         "title": "Tuunralek Jimmy Chimegalrea - # 91",
         "time": "29:55",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Qang’allugaq Hazel Lincoln"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.89"
+            "23.81"
         ],
         "tags": [
             "2.2.32",
@@ -6457,11 +6654,14 @@ export const summaries = {
         "title": "Liguaq Annabelle Olik - # 92",
         "time": "22:07",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.55"
+            "23.51"
         ],
         "tags": [
             "2.2.39"
@@ -6469,14 +6669,17 @@ export const summaries = {
     },
     "cpb-aacip-127-956djvkd.h264": {
         "videoID": "cpb-aacip-127-956djvkd.h264",
-        "title": "Oscar Anvil? - # 93",
+        "title": "Oscar Anvil (?) - # 93",
         "time": "22:10",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.77"
+            "23.69"
         ],
         "tags": [
             "2.2.38"
@@ -6487,12 +6690,15 @@ export const summaries = {
         "title": "Guy Mann, Cimiciaq Natalisia Smith, Jonathan Johnson, Jane Green - # 94",
         "time": "22:22",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Sophie Kusak"
+            ]
         },
         "summary": {},
         "elderTags": [
-            "23.35",
-            "23.28",
+            "23.34",
+            "23.27",
             "23.41",
             "23.39"
         ],
@@ -6509,7 +6715,7 @@ export const summaries = {
         },
         "summary": {},
         "elderTags": [
-            "23.92"
+            "23.84"
         ],
         "tags": [
             "2.2.9"
@@ -6520,12 +6726,15 @@ export const summaries = {
         "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver - # 96",
         "time": "22:23",
         "metadata": {
-            "Date": "Unknown"
+            "Date": "Unknown",
+            "interviewer": [
+                "Sophie Alexie"
+            ]
         },
         "summary": {},
         "elderTags": [
             "23.43",
-            "23.91"
+            "23.83"
         ],
         "tags": [
             "2.2.38"
