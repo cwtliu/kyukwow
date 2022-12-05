@@ -112,7 +112,8 @@ def restructureJson(jsonFilename, summariesFile, categoriesFile, jsonFilenameNew
 		else:
 			new_subtitles[previousSubtitle]['nextAudioKey'] = subtitle
 
-		link = '/kyukwow/video/'+jsonFile[subtitle]['subtitleFilename'].replace('.srt','')+"?t="+str(jsonFile[subtitle]['startTime'])
+		linktime = int(subtitle[-4:])
+		link = '/kyukwow/video/'+jsonFile[subtitle]['subtitleFilename'].replace('.srt','')+"?t="+str(linktime)
 
 		speakers = []
 		for elderTag in summariesJson[jsonFile[subtitle]['subtitleFilename'].replace('.srt','')]["elderTags"]:
@@ -136,6 +137,37 @@ def restructureJson(jsonFilename, summariesFile, categoriesFile, jsonFilenameNew
 									}
 		}
 		previousSubtitle = subtitle
+
+	# add strings for contextBefore and contextAfter
+	for subtitle in new_subtitles:
+		contextBeforeYup = ""
+		contextBeforeEng = ""
+		contextAfterYup = ""
+		contextAfterEng = ""
+
+		if new_subtitles[subtitle]['previousAudioKey'] != "":
+			prevKey = new_subtitles[subtitle]['previousAudioKey']
+			contextBeforeYup = new_subtitles[prevKey]['yupik']
+			contextBeforeEng = new_subtitles[prevKey]['english']
+			if new_subtitles[prevKey]['previousAudioKey'] != "":
+				prevprevKey = new_subtitles[prevKey]['previousAudioKey']
+				contextBeforeYup = new_subtitles[prevprevKey]['yupik'] + " " + contextBeforeYup
+				contextBeforeEng = new_subtitles[prevprevKey]['english'] + " " + contextBeforeEng
+
+		if new_subtitles[subtitle]['nextAudioKey'] != "":
+			nextKey = new_subtitles[subtitle]['nextAudioKey']
+			contextAfterYup = new_subtitles[nextKey]['yupik']
+			contextAfterEng = new_subtitles[nextKey]['english']
+			if new_subtitles[nextKey]['nextAudioKey'] != "":
+				nextnextKey = new_subtitles[nextKey]['nextAudioKey']
+				contextAfterYup += " " + new_subtitles[nextnextKey]['yupik']
+				contextAfterEng += " " + new_subtitles[nextnextKey]['english']
+
+		new_subtitles[subtitle]['content']['contextBeforeYup'] = contextBeforeYup
+		new_subtitles[subtitle]['content']['contextBeforeEng'] = contextBeforeEng
+		new_subtitles[subtitle]['content']['contextAfterYup'] = contextAfterYup
+		new_subtitles[subtitle]['content']['contextAfterEng'] = contextAfterEng
+
 
 	with open(jsonFilenameNew, 'w', encoding='utf-8') as out:
 		out.write(json.dumps(new_subtitles, indent=4, ensure_ascii=False))
