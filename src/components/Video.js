@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Button, Label, Icon, Divider, Popup, Loader, Grid, Checkbox, Image, Segment } from 'semantic-ui-react';
+import { Container, Header, Button, Label, Icon, Divider, Popup, Loader, Grid, Checkbox, Image, Segment, Modal } from 'semantic-ui-react';
 import ReactPlayer from 'react-player'
 import axios from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
@@ -23,7 +23,9 @@ class Video extends Component {
     super(props);
     this.ID = decodeURI(props.match.params.word);
     this.videoID = summaries[this.ID].videoID;
+    var circle = require('./transcription/'+this.videoID);
     const params = new URLSearchParams(this.props.location.search);
+    console.log(params.get('t'))
     this.state = {
       show: false,
       // audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
@@ -48,9 +50,11 @@ class Video extends Component {
       tags:summaries[this.ID].tags,
       title:summaries[this.ID].title,
       date:summaries[this.ID].date,
-      subtitles:{},
-      nextSentenceStart: 0,
-      currentTime: params.get('t') ? Number(params.get('t')) : 0,
+      subtitles:circle.subtitles,
+      nextSentenceStart: circle.subtitles[2].startTime,
+      differentStartIndex: params.get('t') ? params.get('t') : 0,
+      showDifferentStartTimePopup:true,
+      currentTime: 0,
       previousSentenceEnd:-1,
       clickedWordIndex:[-1,-1],
       // clickedSummaryIndex:-1,
@@ -86,10 +90,10 @@ class Video extends Component {
   }
 
   componentDidMount() {
-  	// console.log(this.videoID)
-  	var circle = require('./transcription/'+this.videoID);
-  	this.setState({ subtitles: circle.subtitles });
-  	this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
+    // console.log(this.videoID)
+    // var circle = require('./transcription/'+this.videoID);
+    // this.setState({ subtitles: circle.subtitles });
+    // this.setState({ nextSentenceStart: circle.subtitles[2].startTime });
     
     window.addEventListener("resize", this.updateReaderDimensions);
     window.addEventListener('scroll', this.handleScroll);
@@ -218,7 +222,7 @@ class Video extends Component {
 
     if (this.state.videoPlayerPlaying !== prevState.videoPlayerPlaying || this.state.audioPlayerPlaying !== prevState.audioPlayerPlaying) {
       // if (this.state.currentSentence === 1) {
-        // console.log('ran here',this.state.currentSentence,this.state.currentSection)
+        console.log('ran here',this.state.currentSentence,this.state.currentSection)
         let sentence = ''
         if (this.state.currentSection) {
           sentence = this.state.currentSection
@@ -312,7 +316,7 @@ class Video extends Component {
           elmnt.scrollIntoView({behavior: "smooth", block: "center"}); 
         }
       }
-      console.log(current+1+i)
+      // console.log(current+1+i)
       if (current+1+i === Object.keys(this.state.subtitles).length+1) {
         this.setState({
           currentSentence: current+i,
@@ -606,6 +610,16 @@ class Video extends Component {
     this.setState({currentSection:null})
   }
 
+  playSectionContinue = (i) => {
+    this.setState({
+      currentSection: i,
+    }, () => {
+      this.rep.player.seekTo(this.state.subtitles[i].startTime)
+      this.setState({videoPlayerPlaying:true})
+      clearTimeout(this.timer)
+    })
+  }
+
   playSection = (i) => {
     // console.log(i)
     
@@ -690,7 +704,7 @@ class Video extends Component {
                 trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{'Category Tags'}</div>}
-                position='bottom'
+                position='bottom center'
               />
        </div>
               
@@ -868,10 +882,43 @@ class Video extends Component {
     return (
       <div>
 
+      {this.state.differentStartTime !== 0 && this.state.showDifferentStartTimePopup?
+    <Modal
+      basic
+      onClose={() => {this.setState({showDifferentStartTimePopup:false})}}
+      open={this.state.showDifferentStartTimePopup}
+      size='small'
+      trigger={<span />}
+    >
+      <Header icon>
+        Start the video here? 
+      </Header>
+      <Modal.Content style={{textAlign:'center',fontSize:'16px'}}>
+        <div>
+        {this.state.subtitles[this.state.differentStartIndex].transcript}
+        </div>
+        <div style={{fontStyle:'italic'}}>
+        {this.state.subtitles[this.state.differentStartIndex].translation}
+        </div>
+        <div style={{marginTop:'10px'}}>
+        {(Math.floor(this.state.subtitles[this.state.differentStartIndex].startTime/60)).toString()+'min '+(this.state.subtitles[this.state.differentStartIndex].startTime%60).toString()+'sec'}
+        </div>
+      </Modal.Content>
+      <Modal.Actions style={{textAlign:'center'}}>
+        <Button basic color='red' inverted onClick={() => {this.setState({showDifferentStartTimePopup:false})}}>
+          <Icon name='remove' /> Qang'a
+        </Button>
+        <Button color='green' inverted onClick={() => {this.setState({showDifferentStartTimePopup:false}); this.playSectionContinue(this.state.differentStartIndex);}}>
+          <Icon name='checkmark' /> Ii-i
+        </Button>
+      </Modal.Actions>
+    </Modal>
+        :
+        null
+      }
+
 
       {this.props.innerWidth < 480 ?
-
-
     (this.props.audioOnly  ?
      <div>
 
@@ -940,7 +987,7 @@ class Video extends Component {
                 trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
-                position='bottom'
+                position='bottom center'
               />
              </div>
             :
@@ -1136,7 +1183,7 @@ class Video extends Component {
                 trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
-                position='bottom'
+                position='bottom center'
               />
              </div>
             :
@@ -1347,7 +1394,7 @@ class Video extends Component {
                 trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
-                position='bottom'
+                position='bottom center'
               />
              </div>
             :
@@ -1545,7 +1592,7 @@ class Video extends Component {
                 trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 content={<div style={{fontSize:'16px'}}>{'Video Chapters'}</div>}
-                position='bottom'
+                position='bottom center'
               />
              </div>
             :
