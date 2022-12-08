@@ -52,7 +52,7 @@ class Video extends Component {
       date:summaries[this.ID].date,
       subtitles:circle.subtitles,
       nextSentenceStart: circle.subtitles[2].startTime,
-      differentStartIndex: params.get('t') ? params.get('t') : 0,
+      differentStartIndex: params.get('t') ? params.get('t') : -1,
       showDifferentStartTimePopup:true,
       currentTime: 0,
       previousSentenceEnd:-1,
@@ -882,7 +882,7 @@ class Video extends Component {
     return (
       <div>
 
-      {this.state.differentStartTime !== 0 && this.state.showDifferentStartTimePopup?
+      {this.state.differentStartIndex !== -1 && this.state.showDifferentStartTimePopup?
     <Modal
       basic
       onClose={() => {this.setState({showDifferentStartTimePopup:false})}}
