@@ -732,12 +732,22 @@ class Video extends Component {
                 :
                 null
               ))}
-              <Popup hideOnScroll
+              <Popup
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px',fontSize:'25px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
-                hideOnScroll
                 style={{zIndex:9999}}
-                content={this.state.tags.map((y,yindex)=><div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}><span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span><span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}><span>{categories[y].name.split('--')[1]}</span></span></div>)}
+                content={
+                  <Segment vertical style={{maxHeight:300,overflow: 'auto',padding:0,margin:0}}>
+                  {this.state.tags.map((y,yindex)=>
+                    <div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}>
+                    <span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span>
+                    <span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}>
+                    <span>{categories[y].name.split('--')[1]}</span>
+                    </span>
+                    </div>
+                  )}
+                  </Segment>
+                  }
                 position='bottom left'
               />
               </div>
@@ -803,7 +813,38 @@ class Video extends Component {
             )
 
   }
-
+  returnAqpaurtet = () => {
+    return  <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'5px'}}> 
+              <div>
+                {summaries[this.ID]['metadata']['interviewer'].length === 1 ?
+                  <span>Apqaurta</span>
+                  :
+                  null
+                }
+                {summaries[this.ID]['metadata']['interviewer'].length === 2 ?
+                  <span>Apqaurtek</span>
+                  :
+                  null
+                }              
+                {summaries[this.ID]['metadata']['interviewer'].length > 2 ?
+                  <span>Apqaurtet</span>
+                  :
+                  null
+                }
+                <Popup hideOnScroll
+                  trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                  on='click'
+                  content={<div style={{fontSize:'16px'}}>{'Interviewer'}</div>}
+                  position='bottom center'
+                />
+                <div style={{display:'flex',flexDirection:'column',fontSize:'17px',fontWeight:'300',paddingTop:'15px'}}>
+                {summaries[this.ID]['metadata']['interviewer'].map((k)=>
+                  <span style={{marginBottom:'4px'}}>{k}</span>
+                )}
+                </div>
+              </div>
+           </div>
+  }
   parserPopup = () => {
     return (
       this.state.parses.length !== 0  ?
@@ -834,7 +875,7 @@ class Video extends Component {
 
         <div style={{display:'flex',justifyContent:'center',marginTop:'12px'}}>
         <Icon disabled={this.state.parseIndex === 0} circular onClick={() => this.setState({parseIndex: this.state.parseIndex-1})} style={{margin:0,color:'#B1B1B1',cursor:'pointer',fontSize:'15px'}}  name='chevron left' />
-        <Label circular style={{width:30,height:30,fontSize:14}} color={"#E5E5E5"}>
+        <Label basic circular style={{width:30,height:30,fontSize:14,}}>
           {this.state.parseIndex + 1}
         </Label>
         <Icon disabled={this.state.parseIndex === this.state.yugtun.length-1} circular onClick={() => this.setState({parseIndex: this.state.parseIndex+1})} style={{margin:0,color:'#B1B1B1',cursor:'pointer',fontSize:'15px'}}  name='chevron right' />
@@ -953,8 +994,16 @@ class Video extends Component {
         </div>
 
               <div>
-                <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tegganret Qalartellret </div>
-                  
+                <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                  <span>Tegganret Qalartellret</span>
+                  <Popup hideOnScroll
+                    trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                    on='click'
+                    content={<div style={{fontSize:'16px'}}>{'Elder Speakers'}</div>}
+                    position='bottom center'
+                  />
+                </div>
+                    
                 <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
                   {this.state.elderTags.map((y) => (
                     y in categories ?
@@ -979,6 +1028,11 @@ class Video extends Component {
 
               {this.tags()}
 
+          {'interviewer' in summaries[this.ID]['metadata'] ?
+            this.returnAqpaurtet()
+            :
+            null
+          }
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
             <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
@@ -994,6 +1048,8 @@ class Video extends Component {
             null
           }
 
+          {console.log(summaries[this.ID])}
+
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
@@ -1005,7 +1061,15 @@ class Video extends Component {
             
               {this.summaryTags(y,yindex)}
             </div>
-          ))}        
+          ))}
+                    <div style={{textAlign:'center'}}>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+                        <div style={{cursor:'pointer',paddingTop:'10px'}}>
+                        <Icon style={{color:'#a9a9a9',}} name='exclamation circle' />
+                        <span style={{fontSize:'15px',color:'#9d9d9d',fontWeight:'400',lineHeight:'23px'}}>Report an Issue</span>
+                        </div>
+                      </a>
+                    </div>
 
 
         <div class='reader'>
@@ -1172,9 +1236,46 @@ class Video extends Component {
             </div>
           </div>
 
+              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                  <span>Tegganret Qalartellret</span>
+                  <Popup hideOnScroll
+                    trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                    on='click'
+                    content={<div style={{fontSize:'16px'}}>{'Elder Speakers'}</div>}
+                    position='bottom center'
+                  />
+                </div>
+              </div>
+                
+              <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
+                {this.state.elderTags.map((y) => (
+                  y in categories ?
+                  <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'120px'}}>
+                    <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
+                    <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
+                    {categories[y]['name'].includes('~') ?
+                    <div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    </div>
+                    :
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    }
+                    </Link>
+                  </div>
+                  :
+                  null
+                ))}
+              </div>
 
               {this.tags()}
 
+          {'interviewer' in summaries[this.ID]['metadata'] ?
+            this.returnAqpaurtet()
+            :
+            null
+          }
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
             <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
@@ -1189,6 +1290,10 @@ class Video extends Component {
             :
             null
           }
+
+          {console.log(summaries[this.ID])}
+
+
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
@@ -1201,6 +1306,14 @@ class Video extends Component {
               {this.summaryTags(y,yindex)}
             </div>
           ))}        
+                    <div style={{textAlign:'center'}}>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+                        <div style={{cursor:'pointer',paddingTop:'10px'}}>
+                        <Icon style={{color:'#a9a9a9',}} name='exclamation circle' />
+                        <span style={{fontSize:'15px',color:'#9d9d9d',fontWeight:'400',lineHeight:'23px'}}>Report an Issue</span>
+                        </div>
+                      </a>
+                    </div>
 
 
         <div class='reader'>
@@ -1361,7 +1474,17 @@ class Video extends Component {
 
 
 
-              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> Tegganret Qalartellret </div>
+              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}>
+                <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                  <span>Tegganret Qalartellret</span>
+                  <Popup hideOnScroll
+                    trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                    on='click'
+                    content={<div style={{fontSize:'16px'}}>{'Elder Speakers'}</div>}
+                    position='bottom center'
+                  />
+                </div>
+              </div>
                 
               <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
                 {this.state.elderTags.map((y) => (
@@ -1386,6 +1509,11 @@ class Video extends Component {
 
               {this.tags()}
 
+          {'interviewer' in summaries[this.ID]['metadata'] ?
+            this.returnAqpaurtet()
+            :
+            null
+          }
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
             <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',paddingTop:'23px',paddingBottom:'15px'}}> 
@@ -1400,12 +1528,22 @@ class Video extends Component {
             :
             null
           }
+
+
+          {console.log(summaries[this.ID])}
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
               {this.summaryTags(y,yindex)}
             </div>
           ))}
-
+                    <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+                        <div style={{cursor:'pointer',paddingBottom:'5px'}}>
+                        <Icon style={{color:'#a9a9a9',fontSize:'17px'}} name='exclamation circle' />
+                        <span style={{fontSize:'14px',color:'#9d9d9d',fontWeight:'400',lineHeight:'23px'}}>Report an Issue</span>
+                        </div>
+                      </a>
+                    </div>
 
 
             </Segment>
@@ -1582,7 +1720,47 @@ class Video extends Component {
 
             <Segment vertical style={{fontSize:22,marginTop:14,padding:0,maxHeight:this.props.innerHeight-this.state.videoHeight-this.state.topOffset-13,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
 
+              <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                <div style={{textAlign:'center',fontSize:'20px',fontWeight:'bold',lineHeight:'45px',paddingTop:'5px'}}> 
+                  <span>Tegganret Qalartellret</span>
+                  <Popup hideOnScroll
+                    trigger={<Icon style={{color:'#d4d4d4',width:'22px',paddingLeft:'5px'}} link name='comment alternate outline'>{'\n'}</Icon>}
+                    on='click'
+                    content={<div style={{fontSize:'16px'}}>{'Elder Speakers'}</div>}
+                    position='bottom center'
+                  />
+                </div>
+              </div>
+                
+              <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
+                {this.state.elderTags.map((y) => (
+                  y in categories ?
+                  <div style={{display:'flex',flexDirection:'column',margin:'10px',width:'120px'}}>
+                    <Link to={{pathname: '/category/'+categories[y]['url'], state: { currentCategory: y}}}>
+                    <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
+                    {categories[y]['name'].includes('~') ?
+                    <div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    </div>
+                    :
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    }
+                    </Link>
+                  </div>
+                  :
+                  null
+                ))}
+              </div>
+
               {this.tags()}
+
+
+          {'interviewer' in summaries[this.ID]['metadata'] ?
+            this.returnAqpaurtet()
+            :
+            null
+          }
 
 
           {Object.keys(summaries[this.ID].summary).length !== 0 ?
@@ -1599,12 +1777,20 @@ class Video extends Component {
             null
           }
 
+          {console.log(summaries[this.ID])}
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
               {this.summaryTags(y,yindex)}
             </div>
           ))}
-
+                    <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+                        <div style={{cursor:'pointer',paddingBottom:'5px'}}>
+                        <Icon style={{color:'#a9a9a9',fontSize:'17px'}} name='exclamation circle' />
+                        <span style={{fontSize:'14px',color:'#9d9d9d',fontWeight:'400'}}>Report an Issue</span>
+                        </div>
+                      </a>
+                    </div>
 
 
             </Segment>

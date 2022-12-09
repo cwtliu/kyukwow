@@ -277,11 +277,12 @@ class Home extends Component {
 					null
 					:
 					<div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column',margin:'24px'}}>
-		        <Button basic style={{fontSize:16,fontFamily:"'Roboto',Arial, Helvetica"}} onClick={()=>{this.setState({showMoreElders:true})}}>
-			          <span style={{fontSize:16,lineHeight:'20px'}}>{"Allanek Tegganernek Nasvisnga"}</span>
-			          <Icon style={{float:'right',fontSize:16,marginLeft:'8px',marginRight:'0px'}} name='chevron down' />
-		        </Button>
 
+
+			        <Button basic style={{fontSize:16,display:'flex',flexDirection:'row',alignItems:'center'}} onClick={()=>{this.setState({showMoreElders:true})}}>
+			          <span style={{fontSize:16,lineHeight:'20px',marginRight:'10px'}}>{"Allanek Tegganernek Nasvisnga"}</span>
+			          <Icon style={{float:'right',fontSize:16}} name='chevron down' />
+			        </Button>	
 
 	              <Popup
 	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
@@ -359,6 +360,12 @@ class Home extends Component {
 		                content={<div style={{fontSize:'14px'}}>{'This work came into existence with love for our people in the Yukon Kuskokwim Delta.'}</div>}
 		                position='top left'
 		              />
+	                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+	                  <div style={{cursor:'pointer',paddingTop:'10px',paddingLeft:'8px'}}>
+	                  <Icon style={{color:'#a9a9a9',}} name='exclamation circle' />
+	                  <span style={{fontSize:'14px',color:'#9d9d9d',fontWeight:'400',lineHeight:'23px'}}>Report an Issue</span>
+	                  </div>
+	                </a>
 					</div>
 				</div>
 

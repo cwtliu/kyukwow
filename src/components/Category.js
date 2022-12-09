@@ -189,6 +189,14 @@ class Category extends Component {
 						<div style={{display:'flex',justifyContent:'center',textAlign:'center',fontSize:'22px',fontWeight:'bold',lineHeight:'35px',paddingTop:'10px',color:'#777777',maxWidth:'750px',marginLeft:'auto',marginRight:'auto',}}>{`"`+categories[this.state.currentCategory].name.split("--")[0].replace('~','-').trim()+`"`+' suuliaret nataqat wantut'}</div>
 						{categories[this.state.currentCategory].videoNumbers.map((x,xind)=><FeaturedVideos x={x} xind={xind} width={window.innerWidth} />)}
 						<div onClick={()=>{window.scrollTo({top: 0,behavior: 'smooth'})}}style={{cursor:'pointer',textDecoration:'underline',fontSize:'16px',display:'flex',justifyContent:'center',marginBottom:'10px'}}> Back to Top </div>
+						<div style={{display:'flex',justifyContent:'center'}}>
+			                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZDEwbmwVyfEawQe3T5wADEQpeMgWKdIsuQY-TPtEk2dVHaQ/viewform?usp=sf_link" target="_blank">
+			                  <div style={{cursor:'pointer',paddingTop:'10px',paddingLeft:'8px'}}>
+			                  <Icon style={{color:'#a9a9a9',}} name='exclamation circle' />
+			                  <span style={{fontSize:'14px',color:'#9d9d9d',fontWeight:'400',lineHeight:'23px'}}>Report an Issue</span>
+			                  </div>
+			                </a>
+		                </div>
 						</div>
 						:
 						null

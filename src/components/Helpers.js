@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Divider, List, Label, Loader, Dimmer, Popup, Icon,Grid,Image,Button } from 'semantic-ui-react';
+import { Container, Divider, List, Label, Loader, Dimmer, Popup, Icon,Grid,Image,Button,Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import {summaries} from './info/summaries.js';
 import {categories} from './info/categories.js';
@@ -27,7 +27,7 @@ import { API_URL, WEB_URL } from '../App.js';
     var innerWidth = props.width
     var stringLengthCounter = 0
     var upToIndex = 0
-    // console.log(Object.keys(summaries[x].summary).length)
+    console.log(props.x,Object.keys(summaries[x].summary).length)
     while (stringLengthCounter < 250 && upToIndex < Object.keys(summaries[x].summary).length) {
       stringLengthCounter += summaries[x].summary[Object.keys(summaries[x].summary)[upToIndex]][1].length
       upToIndex += 1
@@ -141,7 +141,12 @@ import { API_URL, WEB_URL } from '../App.js';
           <Popup
             trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
-            content={summaries[x].tags.map((y,yindex)=><div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}><span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span><span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}><span>{categories[y].name.split('--')[1]}</span></span></div>)}
+            content={
+                  <Segment vertical style={{maxHeight:300,overflow: 'auto',padding:0,margin:0}}>
+                  {summaries[x].tags.map((y,yindex)=>
+                    <div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}><span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span><span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}><span>{categories[y].name.split('--')[1]}</span></span></div>)}
+                  </Segment>
+                }
             position='bottom left'
           />
 
