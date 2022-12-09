@@ -81,6 +81,13 @@ Nunat Mer'et-llu Atrit -- Place Names For Land And Bodies Of Water
 		Qalirneq -- Kaliganek
 		Nakneq -- Naknek
 		Saguyaq -- Clark's Point
+		Nanvarnarrlak -- Nanvarnarrlak
+		Urucaraq -- Urucaraq
+		Nunacuaq -- Nunacuaq
+		Acacaryun -- Acacaryun
+		Anchorage -- Anchorage
+		Noatak -- Noatak
+		Kotzebue -- Kotzebue
 	Ingriq -- Mountain
 Ellavut -- Weather, Climate
 	Allrakum Ellalinqigutai -- Seasons
