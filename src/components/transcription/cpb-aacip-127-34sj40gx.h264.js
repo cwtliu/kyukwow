@@ -20,7 +20,7 @@ export const subtitles = {
     "4": {
         "startTime": 24.135,
         "endTime": 33.21,
-        "transcript": "Makut-qaa salmon berry atrit at'ngellruut wani-mi qaraliit salmon-aacetun?",
+        "transcript": "Makut-qaa salmon berry-t atrit at'ngellruut wani-mi qaraliit salmon-aacetun?",
         "translation": "Are salmon berry named from salmon due to color?"
     },
     "5": {
@@ -56,7 +56,7 @@ export const subtitles = {
     "10": {
         "startTime": 64.78,
         "endTime": 73.301,
-        "transcript": "Wall'u-qaa kiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit. Salmon berries... pilliit.",
+        "transcript": "Wall'u-qaa kiagmi salmon-aat nalliitni pilaata salmonberry-nek acillruit. Salmonberries... pilliit.",
         "translation": "Or, did they name them salmon berry because of the summer salmon fish.  Salmon berries ... maybe."
     },
     "11": {
@@ -80,7 +80,7 @@ export const subtitles = {
     "14": {
         "startTime": 115.086,
         "endTime": 123.065,
-        "transcript": "Unuakuarmi uterrlua assaliqcaaralalrianga. Icugg', Aanagka aatakall' neqiurlukek.",
+        "transcript": "Unuakuarmi uterrlua assaliqcaaralalrianga. Icugg', Aanagka aataka-ll' neqiurlukek.",
         "translation": "Early in the am I went home and made it.  You know, for my mom and dad's breakfast."
     },
     "15": {
@@ -116,7 +116,7 @@ export const subtitles = {
     "20": {
         "startTime": 173.619,
         "endTime": 184.029,
-        "transcript": "Tuani tua aquinaurtukut unugmi. Augna-wa Maktaali-gguq una aturcetaalria imkunek.",
+        "transcript": "Tuani tua aquinaurtukut unugmi. Au͡gna-wa Maktaali-gguq una aturcetaalria imkunek.",
         "translation": "We played there at night.  And there was Maklaali who would play some music."
     },
     "21": {
@@ -128,7 +128,7 @@ export const subtitles = {
     "22": {
         "startTime": 190.064,
         "endTime": 194.916,
-        "transcript": "Nalqiglimeg-am maligutellruukut three-aarluuta nasaurlullrauluta-ll'.",
+        "transcript": "Nalqiglimeg'-am maligutellruukut three-aarluta nasaurlullrauluta-ll'.",
         "translation": "From Nalqigliq three of us went along as girls."
     },
     "23": {
@@ -200,7 +200,7 @@ export const subtitles = {
     "34": {
         "startTime": 328.138,
         "endTime": 347.009,
-        "transcript": "Nalluyagutelaarqeka-tang TV-news-aryuitellrat. Ii-i. Imumi maantellemteńi unuaquaqan TV-iitgun news-arturalallruamta. Maa-i allakaungan radio-t-ggun pilaamta?",
+        "transcript": "Nalluyagutela'arqeka-tang TV-news-aryuitellrat. Ii-i. Imumi maantellemteńi unuaquaqan TV-iitgun news-arturalallruamta. Maa-i allakaungan kiingan radio-t-ggun pilaamta?",
         "translation": "I forget that that there is no TV news.  Yes...When we lived here we always had TV news every day.  It's different now with radio only."
     },
     "35": {
@@ -212,7 +212,7 @@ export const subtitles = {
     "36": {
         "startTime": 387.773,
         "endTime": 396.452,
-        "transcript": "Arnaq-wam akwaugaq jam-miqcaaralria call-allemteńi.",
+        "transcript": "Arnaq-wam akwaugaq jam-iqcaaralria call-allemteńi.",
         "translation": "Marie was making jam yesterday when we called her."
     },
     "37": {
@@ -236,7 +236,7 @@ export const subtitles = {
     "40": {
         "startTime": 437.571,
         "endTime": 447.956,
-        "transcript": "(Are you worried?) Kiimi-llu angutnguami maan kiiryullill'.",
+        "transcript": "(Are you worried?) Kiimi-llu angutnguami maan' kiiryullill'.",
         "translation": "Penggartuten-qaa? (at camera guy). He is the only guy here, so maybe that's why he's hot."
     },
     "41": {
@@ -248,7 +248,7 @@ export const subtitles = {
     "42": {
         "startTime": 485.48,
         "endTime": 496.246,
-        "transcript": "(Tumaglinek-qaa iqvalartut maani?) Naamelliin. Tuar-tang piksailnguut. Aren, naamell.",
+        "transcript": "(Tumaglinek-qaa iqvalartut maani?) Naamelliin. Tuar-tang piksailnguut. Aren, naamell'.",
         "translation": "Do they pick cranberries here?  I do not know.  Maybe they haven't.  Or, I don't know."
     },
     "43": {
@@ -260,7 +260,7 @@ export const subtitles = {
     "44": {
         "startTime": 506.873,
         "endTime": 517.63,
-        "transcript": "Ripe-assiyaanrilengraata walluq' ripe-arqata? Ripe-arqata. Atsiarnek piaqluki.",
+        "transcript": "Ripe-assiyaanrilengraata wall'u-q' ripe-arqata? Ripe-arqata. Atsiarnek piaqluki.",
         "translation": "Are they not quite rip or when they're ripe?  When they're ripe.  They call them cooked berry.  Yes"
     },
     "45": {
@@ -278,7 +278,7 @@ export const subtitles = {
     "47": {
         "startTime": 551.96,
         "endTime": 555.519,
-        "transcript": "Tua-iugg tuaten piss... piqataryuklua.",
+        "transcript": "Tua-i-w' tuaten piss... piqataryuklua.",
         "translation": "I thought you were going to do that."
     },
     "48": {
@@ -338,7 +338,7 @@ export const subtitles = {
     "57": {
         "startTime": 806.92,
         "endTime": 831.808,
-        "transcript": "Ikegkut-qaa apartment-aat yungqelartut? Yaa. Yungqerturatuut. Erenrani calilaryugnarqut. Tua-i-ugg akitulalliata. Yaa akituut-gguq, $800 a month, tuaten-wa kina qanellrull'. Tua-lli-ugg tua-i yungqerturatulriit.",
+        "transcript": "Ikegkut-qaa apartment-aat yungqelartut? Yaa. Yungqerturatuut. Erenrani calilaryugnarqut. Tua-i-ugg akitulalliata. Yaa akituut-gguq, $800 a month, tuaten-wa kina qanellrull'. Tua-lli-w' tua-i yungqerturatulriit.",
         "translation": "Do those apartments have people staying in them?  Yes.  They're always occupied. In the day I think they work.  They must be expensive.  Yes, they are expensive, $800 down is what someone said. And, there are people in them all the time."
     },
     "58": {
@@ -350,13 +350,13 @@ export const subtitles = {
     "59": {
         "startTime": 866.378,
         "endTime": 904.496,
-        "transcript": "Saaralirluk... yuurqaqitek. (I wanna try.) ... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii? Yaa",
+        "transcript": "Saarralirluk... yuurqaqitek. (I wanna try.) ... Puqlanirluteng atem aspiartut. Saskirlii? Saskirlii? Yaa",
         "translation": "Sugar them up, have some tea.  (Great-granddaughter says, 'naspaayugtua') They are excellent hot.  Can I get a tea cups.  Can I set cups?  yes"
     },
     "60": {
         "startTime": 905.489,
         "endTime": 934.87,
-        "transcript": "Saskirluten, qallanguq. Calingnaquuryaaquq. Aspiaq. Akmani-wa akiitpialriit calilriit. Uksuq nutaan nallunriqenka. Akiitelalliniut calilriit. Maani-llu-wa cat...",
+        "transcript": "Saskirluten, qallanguq. Calingnaqu'uryaaquq. Aspiaq. Akmani-wa akiitpialriit calilriit. Uksuq nutaan nallunriqenka. Akiitelalliniut calilriit. Maani-llu-wa cat...",
         "translation": "Get yourself a cup, it boiled.  (question unclear) She (Ana?) is looking for work.  Very good (fried bread just finished). Wages are very low for lower 48.  I found that out last winter.  They have lower wages.  Maybe here, things (incomplete due to editing)"
     }
 };

@@ -11,6 +11,7 @@ export const categories = {
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-010p2r15.h264",
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-0644j324.h264",
             "cpb-aacip-127-06g1jzz6.h264",
             "cpb-aacip-127-06g1k008.h264",
             "cpb-aacip-127-09w0vx3c.h264",
@@ -28,10 +29,14 @@ export const categories = {
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-81jhb5w6.h264",
             "cpb-aacip-127-85n8pw5n.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-945qg6jq.h264"
         ]
     },
     "1.1": {
@@ -109,7 +114,8 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "1.2.1": {
@@ -229,8 +235,9 @@ export const categories = {
         "name": "Mer'et Atrit -- Place Names For Bodies Of Water",
         "url": "Meret-Atrit",
         "images": [],
-        "children": 2,
+        "children": 3,
         "videoNumbers": [
+            "cpb-aacip-127-59q2c3zn.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264",
@@ -247,6 +254,15 @@ export const categories = {
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-87pnw7r9.h264"
+        ]
+    },
+    "2.1.3": {
+        "name": "Kiillaralliin -- Heart Lake",
+        "url": "Kiillaralliin",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-59q2c3zn.h264"
         ]
     },
     "2.2": {
@@ -490,6 +506,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-37hqc4tk.h264",
             "cpb-aacip-127-440rz436.h264",
             "cpb-aacip-127-48ffbpfx.h264",
@@ -522,7 +539,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-10jsxpvr.h264"
+            "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "2.2.30": {
@@ -548,7 +566,8 @@ export const categories = {
             "cpb-aacip-127-773txm5v.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264",
-            "cpb-aacip-127-85n8pw5n.h264"
+            "cpb-aacip-127-85n8pw5n.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "2.2.31": {
@@ -567,6 +586,7 @@ export const categories = {
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264",
             "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
@@ -595,7 +615,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-35t76q2k.h264"
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "2.2.34": {
@@ -735,6 +756,15 @@ export const categories = {
             "cpb-aacip-127-74qjqbsc.h264"
         ]
     },
+    "2.2.48": {
+        "name": "Kuinerraq -- Quinhagak",
+        "url": "Kuinerraq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
     "2.3": {
         "name": "Ingriq -- Mountain",
         "url": "Ingriq",
@@ -754,23 +784,30 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-009w0z0q.h264",
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-032282mq.h264",
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-15p8d31m.h264",
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-26xwdh7k.h264",
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-773txm5v.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "3.1": {
@@ -780,10 +817,12 @@ export const categories = {
         "children": 4,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-032282mq.h264",
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-33rv1b2m.h264",
-            "cpb-aacip-127-63fxpxg0.h264"
+            "cpb-aacip-127-63fxpxg0.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
         ]
     },
     "3.1.1": {
@@ -804,7 +843,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
-            "cpb-aacip-127-33rv1b2m.h264"
+            "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
         ]
     },
     "3.1.3": {
@@ -843,6 +883,7 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-440rz436.h264",
             "cpb-aacip-127-752fr7q2.h264"
         ]
     },
@@ -862,6 +903,7 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-09w0vx3c.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-752fr7q2.h264"
@@ -892,6 +934,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264"
         ]
@@ -910,7 +954,8 @@ export const categories = {
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-26xwdh7k.h264",
             "cpb-aacip-127-74qjqbsc.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "3.9.1": {
@@ -923,7 +968,8 @@ export const categories = {
             "cpb-aacip-127-15p8d31m.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-25x69tk3.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "3.9.1.1": {
@@ -932,7 +978,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "3.9.2": {
@@ -942,7 +989,8 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-74qjqbsc.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "3.9.2.1": {
@@ -1016,9 +1064,16 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-25k98x78.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdf8m.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "4.1": {
@@ -1028,7 +1083,10 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
-            "cpb-aacip-127-25k98x78.h264"
+            "cpb-aacip-127-25k98x78.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264"
         ]
     },
     "4.2": {
@@ -1038,6 +1096,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
             "cpb-aacip-127-65h9w88k.h264"
         ]
     },
@@ -1048,7 +1107,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-14nk9d19.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89r22kjv.h264"
         ]
     },
     "4.4": {
@@ -1066,7 +1126,9 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-719kdf8m.h264"
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-719kdf8m.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "5": {
@@ -1078,34 +1140,47 @@ export const categories = {
         "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-032282mq.h264",
             "cpb-aacip-127-03cz8zdq.h264",
             "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "5.1": {
         "name": "Neqa, Neqet -- Fish",
         "url": "Neqa-Neqet",
         "images": [],
-        "children": 3,
+        "children": 4,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "5.1.1": {
@@ -1115,6 +1190,8 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-719kdfjd.h264"
         ]
@@ -1135,7 +1212,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-65h9w88k.h264",
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "5.2": {
@@ -1144,6 +1222,7 @@ export const categories = {
         "images": [],
         "children": 2,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-719kdfjd.h264",
@@ -1182,9 +1261,11 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-66vx0v02.h264",
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "5.3.1": {
@@ -1205,7 +1286,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-00ns1t6z.h264"
+            "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-23612qck.h264"
         ]
     },
     "5.3.3": {
@@ -1223,7 +1305,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-00ns1t6z.h264"
+            "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-23612qck.h264"
         ]
     },
     "5.3.6": {
@@ -1232,7 +1315,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-06g1k008.h264"
+            "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "5.3.7": {
@@ -1276,8 +1360,10 @@ export const categories = {
         "name": "Imarpigmiutaat, Unkumiutaat, Mermiutaat -- Marine Animals",
         "url": "Imarpigmiutaat-Unkumiutaat-Mermiutaat",
         "images": [],
-        "children": 4,
+        "children": 5,
         "videoNumbers": [
+            "cpb-aacip-127-032282mq.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-20fttjr7.h264",
             "cpb-aacip-127-63fxpxg0.h264",
@@ -1319,6 +1405,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-752fr7q2.h264"
         ]
@@ -1344,13 +1431,17 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-42n5thvk.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-76f1vspw.h264",
-            "cpb-aacip-127-805x6mnx.h264"
+            "cpb-aacip-127-805x6mnx.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "6.1": {
@@ -1360,23 +1451,47 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-18rbp380.h264",
-            "cpb-aacip-127-27zkh5wz.h264"
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-27zkh5wz.h264",
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "6.2": {
         "name": "Naunraat -- Plants",
         "url": "Naunraat",
         "images": [],
+        "children": 3,
+        "videoNumbers": [
+            "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-42n5thvk.h264"
+        ]
+    },
+    "6.2.2": {
+        "name": "Quagciq -- Sourdock",
+        "url": "Quagciq",
+        "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-18rbp380.h264"
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-42n5thvk.h264"
+        ]
+    },
+    "6.2.3": {
+        "name": "Uqviit, Enrilnguat -- Willows",
+        "url": "Uqviit-Enrilnguat",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-42n5thvk.h264"
         ]
     },
     "6.3": {
         "name": "Canek, Can'get, Caranglluk, Evek -- Grass",
         "url": "Canek-Canget-Caranglluk-Evek",
         "images": [],
-        "children": 8,
+        "children": 9,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-33rv1b2m.h264",
@@ -1459,12 +1574,16 @@ export const categories = {
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-386hdxkk.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdfjd.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "7.2": {
@@ -1480,11 +1599,12 @@ export const categories = {
         "name": "Amiq, Qecik -- Skin, Hide",
         "url": "Amiq-Qecik",
         "images": [],
-        "children": 1,
+        "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-65v6x4wh.h264",
-            "cpb-aacip-127-66vx0v02.h264"
+            "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
         ]
     },
     "7.4.1": {
@@ -1493,7 +1613,26 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-66vx0v02.h264"
+            "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
+        ]
+    },
+    "7.4.2": {
+        "name": "Amirak, Amiraq -- Waterproof Fish Skin Boots",
+        "url": "Amirak-Amiraq",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-67wm3hhj.h264"
+        ]
+    },
+    "7.4.2.1": {
+        "name": "Neqairiyaraq -- Preparing Fish Skin for Use",
+        "url": "Neqairiyaraq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-67wm3hhj.h264"
         ]
     },
     "7.5": {
@@ -1527,11 +1666,24 @@ export const categories = {
         "children": 6,
         "videoNumbers": [
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-06g1jzz6.h264",
             "cpb-aacip-127-06g1k008.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-15p8d31m.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-37hqc4tk.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-386hdz1p.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-52j6qcr2.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-57np5s39.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdfjd.h264",
@@ -1547,16 +1699,27 @@ export const categories = {
             "cpb-aacip-127-84mkm6tr.h264",
             "cpb-aacip-127-86nzsk0r.h264",
             "cpb-aacip-127-87brvbt5.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-91sf7xm0.h264",
+            "cpb-aacip-127-956djvkd.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "8.1": {
         "name": "Agayumayaraq, Agayumaciq -- Christianity",
         "url": "Agayumayaraq-Agayumaciq",
         "images": [],
-        "children": 4,
+        "children": 5,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-74cnpfr2.h264",
@@ -1567,7 +1730,39 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-81jhb5w6.h264",
             "cpb-aacip-127-84mkm6tr.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-91sf7xm0.h264",
+            "cpb-aacip-127-956djvkd.h264"
+        ]
+    },
+    "8.1.1": {
+        "name": "Agayuviit -- Churches",
+        "url": "Agayuviit",
+        "images": [],
+        "children": 2,
+        "videoNumbers": [
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "8.1.1.1": {
+        "name": "Moravian -- Moravian",
+        "url": "Moravian",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "8.1.1.2": {
+        "name": "Kass'alugpiaq -- Russian Orthodox",
+        "url": "Kassalugpiaq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-35t76q2k.h264"
         ]
     },
     "8.1.2": {
@@ -1576,6 +1771,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
             "cpb-aacip-127-74cnpfr2.h264",
             "cpb-aacip-127-81jhb5w6.h264"
         ]
@@ -1587,6 +1784,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-784j17vw.h264",
@@ -1603,6 +1801,18 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-76f1vspw.h264"
+        ]
+    },
+    "8.1.5": {
+        "name": "Piicak -- Prayer",
+        "url": "Piicak",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-956djvkd.h264"
         ]
     },
     "8.2": {
@@ -1627,6 +1837,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
     },
@@ -1638,13 +1849,19 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-03cz8zdq.h264",
             "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-257d81m9.h264",
+            "cpb-aacip-127-37hqc4tk.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-52j6qcr2.h264",
+            "cpb-aacip-127-57np5s39.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-74cnpfr2.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-79h44thw.h264",
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "8.4.2": {
@@ -1653,6 +1870,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-52j6qcr2.h264",
             "cpb-aacip-127-87brvbt5.h264"
         ]
     },
@@ -1662,6 +1880,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-52j6qcr2.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -1709,7 +1928,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-15p8d31m.h264"
+            "cpb-aacip-127-15p8d31m.h264",
+            "cpb-aacip-127-57np5s39.h264"
         ]
     },
     "9": {
@@ -1718,10 +1938,12 @@ export const categories = {
         "images": [
             "NerangnaqsaraqYuungnaqsaraq.jpg"
         ],
-        "children": 12,
+        "children": 13,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-0644j37r.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
@@ -1729,8 +1951,19 @@ export const categories = {
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
+            "cpb-aacip-127-59q2c3zn.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-65v6x4wh.h264",
@@ -1747,7 +1980,11 @@ export const categories = {
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-86nzsk0r.h264",
             "cpb-aacip-127-87brvbt5.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-945qg6jq.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "9.1": {
@@ -1757,11 +1994,16 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-257d81m9.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-59q2c3zn.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-85n8pw5n.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "9.1.1": {
@@ -1797,10 +2039,12 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-20fttjr7.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-65v6x4wh.h264",
-            "cpb-aacip-127-752fr7q2.h264"
+            "cpb-aacip-127-752fr7q2.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "9.3": {
@@ -1809,6 +2053,7 @@ export const categories = {
         "images": [],
         "children": 3,
         "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
@@ -1865,14 +2110,38 @@ export const categories = {
         "name": "Makirayaraq -- Gathering",
         "url": "Makirayaraq",
         "images": [],
-        "children": 6,
+        "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "9.5.1": {
+        "name": "Iqvaryaraq -- Picking Berries",
+        "url": "Iqvaryaraq",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-10jsxpwg.h264",
+            "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-27zkh5wz.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "9.5.1.1": {
+        "name": "Tutmarpek'nani -- Do Not Step on Them",
+        "url": "Tutmarpeknani",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "9.5.2": {
@@ -1896,17 +2165,6 @@ export const categories = {
         ]
     },
     "9.5.3": {
-        "name": "Iqvaryaraq -- Picking Berries",
-        "url": "Iqvaryaraq",
-        "images": [],
-        "children": 0,
-        "videoNumbers": [
-            "cpb-aacip-127-10jsxpwg.h264",
-            "cpb-aacip-127-18rbp380.h264",
-            "cpb-aacip-127-27zkh5wz.h264"
-        ]
-    },
-    "9.5.4": {
         "name": "Pakissaagyaraq -- Gathering from Vole Caches",
         "url": "Pakissaagyaraq",
         "images": [],
@@ -1917,13 +2175,27 @@ export const categories = {
             "cpb-aacip-127-87brvbt5.h264"
         ]
     },
+    "9.5.4": {
+        "name": "Naumalriit Inerquutngulriit -- Plants Warned Against",
+        "url": "Naumalriit-Inerquutngulriit",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
     "9.6": {
         "name": "Calirpagyaraq -- Hard Work",
         "url": "Calirpagyaraq",
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-752fr7q2.h264",
@@ -1937,10 +2209,14 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-28ncjzpp.h264",
-            "cpb-aacip-127-66vx0v02.h264"
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-945qg6jq.h264"
         ]
     },
     "9.8": {
@@ -1961,6 +2237,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-773txm5v.h264"
         ]
@@ -1971,9 +2248,11 @@ export const categories = {
         "images": [],
         "children": 2,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-66vx0v02.h264",
-            "cpb-aacip-127-86nzsk0r.h264"
+            "cpb-aacip-127-86nzsk0r.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "9.10.1": {
@@ -1985,13 +2264,42 @@ export const categories = {
             "cpb-aacip-127-86nzsk0r.h264"
         ]
     },
+    "9.10.2": {
+        "name": "Ilakuat Neqerrluut Qimugtet Neqkait -- Leftover Dried Fish as Dog Food",
+        "url": "Ilakuat-Neqerrluut-Qimugtet-Neqkait",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
     "9.11": {
         "name": "Upaketaaryaraq -- Nomadic Lifestyle",
         "url": "Upaketaaryaraq",
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-87pnw7r9.h264"
+        ]
+    },
+    "9.12": {
+        "name": "Caanguararkanek Avuusqevkenaki -- Do Not Gather What Will Be Wasted",
+        "url": "Caanguararkanek-Avuusqevkenaki",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-59c5b6f6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "9.13": {
+        "name": "Tekitarkaq Umyuaqerrlainallruat -- They Always Prepared for the Future",
+        "url": "Tekitarkaq-Umyuaqerrlainallruat",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264"
         ]
     },
     "10": {
@@ -2000,10 +2308,16 @@ export const categories = {
         "images": [
             "Neqkiuryaraq.jpg"
         ],
-        "children": 12,
+        "children": 13,
         "videoNumbers": [
             "cpb-aacip-127-09w0vx3c.h264",
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-27zkh5wz.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-57np5s39.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
@@ -2013,16 +2327,28 @@ export const categories = {
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-773txm5v.h264",
             "cpb-aacip-127-784j17vw.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "10.1": {
         "name": "Keniryaraq, Egayaraq -- Cooking",
         "url": "Keniryaraq-Egayaraq",
         "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-57np5s39.h264",
+            "cpb-aacip-127-63fxpxg0.h264"
+        ]
+    },
+    "10.1.1": {
+        "name": "Assaliaq -- Frybread, Pancake",
+        "url": "Assaliaq",
+        "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-63fxpxg0.h264"
+            "cpb-aacip-127-34sj40gx.h264"
         ]
     },
     "10.2": {
@@ -2032,7 +2358,8 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-66vx0v02.h264",
-            "cpb-aacip-127-69m37zr9.h264"
+            "cpb-aacip-127-69m37zr9.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "10.2.1": {
@@ -2042,6 +2369,15 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-66vx0v02.h264"
+        ]
+    },
+    "10.2.2": {
+        "name": "Piqertuutarpek'naki -- Do Not Chop Them with an Axe",
+        "url": "Piqertuutarpeknaki",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "10.3": {
@@ -2117,6 +2453,7 @@ export const categories = {
         "images": [],
         "children": 4,
         "videoNumbers": [
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264"
@@ -2137,6 +2474,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-27zkh5wz.h264"
         ]
     },
@@ -2146,6 +2484,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-784j17vw.h264"
         ]
     },
@@ -2164,6 +2503,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
@@ -2175,7 +2516,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-69m37zr9.h264",
-            "cpb-aacip-127-74cnpfqb.h264"
+            "cpb-aacip-127-74cnpfqb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "10.12": {
@@ -2184,6 +2526,7 @@ export const categories = {
         "images": [],
         "children": 3,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-74cnpfqb.h264",
             "cpb-aacip-127-773txm5v.h264",
@@ -2210,15 +2553,23 @@ export const categories = {
         ],
         "children": 10,
         "videoNumbers": [
+            "cpb-aacip-127-032282mq.h264",
             "cpb-aacip-127-06g1jzz6.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-322bvwfr.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-74cnpfr2.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264",
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "11.1": {
@@ -2227,7 +2578,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-28ncjzpp.h264"
+            "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-42n5thvk.h264"
         ]
     },
     "11.2": {
@@ -2236,9 +2588,20 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-33rv1b2m.h264",
             "cpb-aacip-127-63fxpxg0.h264",
-            "cpb-aacip-127-74cnpfr2.h264"
+            "cpb-aacip-127-74cnpfr2.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "11.2.1": {
+        "name": "Pugtassuutet, Kit'essuutet -- Floatation Devices, Life Jackets",
+        "url": "Pugtassuutet-Kitessuutet",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "11.3": {
@@ -2247,7 +2610,9 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-440rz436.h264",
             "cpb-aacip-127-63fxpxg0.h264"
         ]
     },
@@ -2257,6 +2622,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-63fxpxg0.h264"
         ]
     },
@@ -2266,6 +2632,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-63fxpxg0.h264"
         ]
     },
@@ -2275,8 +2642,12 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-032282mq.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-66vx0v02.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "11.6.1": {
@@ -2285,6 +2656,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -2314,6 +2686,7 @@ export const categories = {
         "images": [],
         "children": 5,
         "videoNumbers": [
+            "cpb-aacip-127-46254fdx.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-81jhb5w6.h264"
@@ -2325,6 +2698,7 @@ export const categories = {
         "images": [],
         "children": 2,
         "videoNumbers": [
+            "cpb-aacip-127-46254fdx.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -2344,6 +2718,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-46254fdx.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -2417,7 +2792,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "12": {
@@ -2432,7 +2808,8 @@ export const categories = {
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
-            "cpb-aacip-127-74cnpfr2.h264"
+            "cpb-aacip-127-74cnpfr2.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "12.1": {
@@ -2444,7 +2821,8 @@ export const categories = {
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
-            "cpb-aacip-127-74cnpfr2.h264"
+            "cpb-aacip-127-74cnpfr2.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "12.1.1": {
@@ -2462,7 +2840,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "12.1.3": {
@@ -2482,14 +2861,20 @@ export const categories = {
         ],
         "children": 4,
         "videoNumbers": [
+            "cpb-aacip-127-032282mq.h264",
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-805x6mnx.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "13.1": {
@@ -2534,10 +2919,13 @@ export const categories = {
         "images": [],
         "children": 6,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-784j17vw.h264"
+            "cpb-aacip-127-784j17vw.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "13.3.1": {
@@ -2546,8 +2934,10 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-085hqfqk.h264",
             "cpb-aacip-127-719kdfjd.h264",
-            "cpb-aacip-127-752fr7q2.h264"
+            "cpb-aacip-127-752fr7q2.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "13.3.2": {
@@ -2613,12 +3003,24 @@ export const categories = {
         "children": 7,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-386hdxkk.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-52j6qcr2.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-7634tx89.h264",
             "cpb-aacip-127-816m99hb.h264",
-            "cpb-aacip-127-86nzsk0r.h264"
+            "cpb-aacip-127-86nzsk0r.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "14.1": {
@@ -2627,6 +3029,8 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-7634tx89.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -2646,6 +3050,8 @@ export const categories = {
         "images": [],
         "children": 2,
         "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-7634tx89.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -2659,14 +3065,28 @@ export const categories = {
             "cpb-aacip-127-7634tx89.h264"
         ]
     },
+    "14.2.2": {
+        "name": "Ukurricaraq -- Wife Marrying Into Another Village",
+        "url": "Ukurricaraq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264"
+        ]
+    },
     "14.3": {
         "name": "Aipangyaraq -- Getting A Spouse",
         "url": "Aipangyaraq",
         "images": [],
-        "children": 1,
+        "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-7634tx89.h264",
@@ -2680,9 +3100,22 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-257d81m9.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-7634tx89.h264"
+        ]
+    },
+    "14.3.2": {
+        "name": "Umyuallguteklutek -- Being in Harmony",
+        "url": "Umyuallguteklutek",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-34fn33pp.h264"
         ]
     },
     "14.4": {
@@ -2691,6 +3124,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-225b014v.h264",
             "cpb-aacip-127-28ncjzpp.h264"
         ]
     },
@@ -2709,16 +3143,18 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
-            "cpb-aacip-127-7634tx89.h264"
+            "cpb-aacip-127-7634tx89.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "14.6.1": {
         "name": "Irniyaraq -- Childbirth",
         "url": "Irniyaraq",
         "images": [],
-        "children": 0,
+        "children": 1,
         "videoNumbers": [
-            "cpb-aacip-127-7634tx89.h264"
+            "cpb-aacip-127-7634tx89.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "14.7": {
@@ -2731,22 +3167,28 @@ export const categories = {
         ]
     },
     "15": {
-        "name": "Qulirat & Qanemcit -- Legends & Stories",
-        "url": "Qulirat-Qanemcit",
+        "name": "Qulirat, Quliraat & Qanemcit -- Legends & Stories",
+        "url": "Qulirat-Quliraat-Qanemcit",
         "images": [
-            "QuliratQanemcit.jpg"
+            "QuliratQuliraatQanemcit.jpg"
         ],
-        "children": 3,
+        "children": 4,
         "videoNumbers": [
             "cpb-aacip-127-010p2r15.h264",
             "cpb-aacip-127-06g1jzz6.h264",
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-27zkh5wz.h264",
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
+            "cpb-aacip-127-386hdz1p.h264",
+            "cpb-aacip-127-59q2c3zn.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-784j17vw.h264",
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "15.1": {
@@ -2755,7 +3197,9 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
-            "cpb-aacip-127-14nk9d19.h264"
+            "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-257d81m9.h264",
+            "cpb-aacip-127-386hdz1p.h264"
         ]
     },
     "15.1.1": {
@@ -2777,7 +3221,9 @@ export const categories = {
             "cpb-aacip-127-06g1jzz6.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-27zkh5wz.h264",
-            "cpb-aacip-127-81jhb5w6.h264"
+            "cpb-aacip-127-34sj40gx.h264",
+            "cpb-aacip-127-81jhb5w6.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "15.2.1": {
@@ -2799,11 +3245,13 @@ export const categories = {
         ]
     },
     "15.3": {
-        "name": "Qulirat -- Legends",
-        "url": "Qulirat",
+        "name": "Qulirat, Quliraat -- Legends",
+        "url": "Qulirat-Quliraat",
         "images": [],
         "children": 3,
         "videoNumbers": [
+            "cpb-aacip-127-257d81m9.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-784j17vw.h264"
@@ -2815,6 +3263,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-784j17vw.h264"
         ]
@@ -2825,6 +3274,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-784j17vw.h264"
         ]
     },
@@ -2837,8 +3287,17 @@ export const categories = {
             "cpb-aacip-127-66vx0v02.h264"
         ]
     },
+    "15.4": {
+        "name": "Carayiit -- Strange Creatures",
+        "url": "Carayiit",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-59q2c3zn.h264"
+        ]
+    },
     "16": {
-        "name": "Kass'artaat -- Manufactured Items,  Western Things",
+        "name": "Kass'artaat -- Manufactured Items, Western Things",
         "url": "Kassartaat",
         "images": [
             "Kassartaat.jpg"
@@ -2846,10 +3305,21 @@ export const categories = {
         "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-10jsxpx6.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-16pzgr3f.h264",
+            "cpb-aacip-127-225b014v.h264",
             "cpb-aacip-127-25k98x78.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-37hqc4tk.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-74cnpfqb.h264",
@@ -2862,7 +3332,9 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-945qg6jq.h264"
         ]
     },
     "16.1": {
@@ -2871,6 +3343,9 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-752fr7q2.h264",
@@ -2885,6 +3360,8 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-53wstz0s.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-76f1vspw.h264",
@@ -2912,13 +3389,20 @@ export const categories = {
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-25k98x78.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-37hqc4tk.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-74cnpfqb.h264",
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-945qg6jq.h264"
         ]
     },
     "16.2.1": {
@@ -2936,9 +3420,11 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-48ffbpfx.h264",
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89r22kjv.h264"
         ]
     },
     "16.2.2.1": {
@@ -2966,7 +3452,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-10jsxpx6.h264"
+            "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-37hqc4tk.h264"
         ]
     },
     "16.2.5": {
@@ -2984,6 +3471,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264",
             "cpb-aacip-127-752fr7q2.h264"
         ]
     },
@@ -2994,6 +3482,9 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-7634tx89.h264",
             "cpb-aacip-127-76f1vspw.h264",
@@ -3009,6 +3500,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-85n8pw5n.h264"
         ]
     },
@@ -3018,6 +3510,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-773txm5v.h264"
         ]
@@ -3028,7 +3521,7 @@ export const categories = {
         "images": [
             "PissuutetCassuutetPiliatSaskutAyagassuutet.jpg"
         ],
-        "children": 7,
+        "children": 8,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-03cz8zdq.h264",
@@ -3038,16 +3531,25 @@ export const categories = {
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-76f1vspw.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "17.1": {
@@ -3062,10 +3564,18 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "17.1.1": {
@@ -3079,6 +3589,7 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-14nk9d19.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -3090,6 +3601,9 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -3115,10 +3629,33 @@ export const categories = {
         "name": "Taluyaq -- Fish Trap",
         "url": "Taluyaq",
         "images": [],
-        "children": 0,
+        "children": 3,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
-            "cpb-aacip-127-10jsxpvr.h264"
+            "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "17.1.6.1": {
+        "name": "Can'giircuun -- Blackfish Trap",
+        "url": "Cangiircuun",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
+        ]
+    },
+    "17.1.6.3": {
+        "name": "Cuignilngurcuun -- Land Otter Trap",
+        "url": "Cuignilngurcuun",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264"
         ]
     },
     "17.1.7": {
@@ -3127,6 +3664,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -3155,12 +3693,15 @@ export const categories = {
         "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-06g1jzz6.h264",
+            "cpb-aacip-127-257d81kk.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-719kdf8m.h264",
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "17.4.1": {
@@ -3196,9 +3737,12 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-257d81kk.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65v6x4wh.h264",
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "17.4.4": {
@@ -3216,7 +3760,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-719kdf8m.h264"
+            "cpb-aacip-127-719kdf8m.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "17.5": {
@@ -3225,6 +3770,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-76f1vspw.h264"
@@ -3237,7 +3783,9 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-00ns1t6z.h264",
-            "cpb-aacip-127-66vx0v02.h264"
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264"
         ]
     },
     "17.6.2": {
@@ -3246,6 +3794,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-66vx0v02.h264"
         ]
     },
@@ -3258,6 +3807,15 @@ export const categories = {
             "cpb-aacip-127-66vx0v02.h264"
         ]
     },
+    "17.8": {
+        "name": "Teq'icilleq, Teq'iciraq -- Aged Urine",
+        "url": "Teqicilleq-Teqiciraq",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264"
+        ]
+    },
     "18": {
         "name": "Naanguat Aquiyarat-llu -- Toys & Games",
         "url": "Naanguat-Aquiyarat-llu",
@@ -3267,6 +3825,7 @@ export const categories = {
         "children": 4,
         "videoNumbers": [
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-66vx0v02.h264"
         ]
     },
@@ -3277,6 +3836,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-66vx0v02.h264"
         ]
     },
@@ -3321,22 +3881,46 @@ export const categories = {
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-010p2r15.h264",
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-0644j324.h264",
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-149p8hcz.h264",
             "cpb-aacip-127-15p8d31m.h264",
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-26xwdh7k.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-386hdxkk.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-719kdfjd.h264",
@@ -3355,7 +3939,14 @@ export const categories = {
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-86nzsk0r.h264",
             "cpb-aacip-127-87brvbt5.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-945qg6jq.h264",
+            "cpb-aacip-127-956djvkd.h264",
+            "cpb-aacip-127-988gtvzp.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "19.2": {
@@ -3373,6 +3964,10 @@ export const categories = {
         "images": [],
         "children": 9,
         "videoNumbers": [
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
@@ -3383,7 +3978,8 @@ export const categories = {
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.3.1": {
@@ -3404,6 +4000,8 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-87brvbt5.h264"
@@ -3415,6 +4013,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-149p8hcz.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-87brvbt5.h264"
         ]
@@ -3425,6 +4024,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-87brvbt5.h264"
         ]
@@ -3435,6 +4035,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-34fn33pp.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-76f1vspw.h264"
         ]
@@ -3445,6 +4046,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-34fn33pp.h264",
             "cpb-aacip-127-76f1vspw.h264"
         ]
     },
@@ -3486,6 +4088,24 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
+    "19.3.9": {
+        "name": "Nakriarucaraq -- Losing Hunting Prowess",
+        "url": "Nakriarucaraq",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "19.3.9.1": {
+        "name": "Angutet Iqairarkait Allakarluki -- Separate Men's Laundry",
+        "url": "Angutet-Iqairarkait-Allakarluki",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
     "19.4": {
         "name": "Piciryaraput -- Customs",
         "url": "Piciryaraput",
@@ -3510,14 +4130,28 @@ export const categories = {
         "name": "Qanruyutet, Qaneryarat -- Traditional Wisdom, Wise Words",
         "url": "Qanruyutet-Qaneryarat",
         "images": [],
-        "children": 7,
+        "children": 8,
         "videoNumbers": [
             "cpb-aacip-127-009w0z0q.h264",
             "cpb-aacip-127-00ns1t6z.h264",
+            "cpb-aacip-127-0644j324.h264",
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-10jsxpx6.h264",
             "cpb-aacip-127-15p8d31m.h264",
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-20fttjr7.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-386hdxkk.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-69m37zr9.h264",
@@ -3530,7 +4164,10 @@ export const categories = {
             "cpb-aacip-127-84mkm6tr.h264",
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-87brvbt5.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-956djvkd.h264"
         ]
     },
     "19.5.1": {
@@ -3550,7 +4187,8 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.5.2.1": {
@@ -3575,8 +4213,9 @@ export const categories = {
         "name": "Maligtaqustiin Yuunertutucia -- Those Who Heed Advice Live Long",
         "url": "Maligtaqustiin-Yuunertutucia",
         "images": [],
-        "children": 3,
+        "children": 4,
         "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264",
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-79h44thw.h264",
             "cpb-aacip-127-84mkm6tr.h264",
@@ -3610,6 +4249,15 @@ export const categories = {
             "cpb-aacip-127-85n8pw5n.h264"
         ]
     },
+    "19.5.4.4": {
+        "name": "Elluarrluni Yuuciquq -- One Will Live Well",
+        "url": "Elluarrluni-Yuuciquq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264"
+        ]
+    },
     "19.5.5": {
         "name": "Qaskuit Ayuquciit-llu -- Appearance and Nature",
         "url": "Qaskuit-Ayuquciit-llu",
@@ -3619,18 +4267,47 @@ export const categories = {
             "cpb-aacip-127-773txm5v.h264"
         ]
     },
+    "19.5.7": {
+        "name": "Cuqyucirluteng Qanruciaqluteng -- Teaching Through Metaphors",
+        "url": "Cuqyucirluteng-Qanruciaqluteng",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
+    "19.5.8": {
+        "name": "Qalarutesteteng Murilkelluki -- Observe Instructors Intently",
+        "url": "Qalarutesteteng-Murilkelluki",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-35gb5sdj.h264"
+        ]
+    },
     "19.6": {
         "name": "Alerquutet, Ayuqucirtuutet -- Instructions",
         "url": "Alerquutet-Ayuqucirtuutet",
         "images": [],
-        "children": 13,
+        "children": 14,
         "videoNumbers": [
             "cpb-aacip-127-009w0z0q.h264",
             "cpb-aacip-127-010p2r15.h264",
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-10jsxpwg.h264",
+            "cpb-aacip-127-149p8hcz.h264",
             "cpb-aacip-127-15p8d31m.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-65h9w88k.h264",
@@ -3647,7 +4324,10 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-81jhb5w6.h264",
             "cpb-aacip-127-85n8pw5n.h264",
-            "cpb-aacip-127-86nzsk0r.h264"
+            "cpb-aacip-127-86nzsk0r.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "19.6.1": {
@@ -3657,9 +4337,13 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-85n8pw5n.h264"
+            "cpb-aacip-127-85n8pw5n.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.6.2": {
@@ -3669,6 +4353,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-010p2r15.h264",
+            "cpb-aacip-127-42n5thvk.h264",
             "cpb-aacip-127-63fxpxg0.h264"
         ]
     },
@@ -3678,7 +4363,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-18rbp380.h264"
+            "cpb-aacip-127-18rbp380.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.6.4": {
@@ -3687,6 +4373,9 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
     },
@@ -3696,6 +4385,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-773txm5v.h264"
         ]
@@ -3724,6 +4414,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-35gb5sdj.h264",
             "cpb-aacip-127-7634tx89.h264",
             "cpb-aacip-127-81jhb5w6.h264"
         ]
@@ -3734,6 +4426,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264",
             "cpb-aacip-127-773txm5v.h264"
         ]
     },
@@ -3761,6 +4454,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-149p8hcz.h264",
             "cpb-aacip-127-85n8pw5n.h264"
         ]
     },
@@ -3773,6 +4467,37 @@ export const categories = {
             "cpb-aacip-127-86nzsk0r.h264"
         ]
     },
+    "19.6.12": {
+        "name": "Piqrartanrilnguut Ikayurluki -- Help the Decrepit",
+        "url": "Piqrartanrilnguut-Ikayurluki",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264"
+        ]
+    },
+    "19.6.13": {
+        "name": "Ikayuqengyaraq -- Helping Others",
+        "url": "Ikayuqengyaraq",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
+        ]
+    },
+    "19.6.13.1": {
+        "name": "Erneq Aipirluku -- Living Another Day",
+        "url": "Erneq-Aipirluku",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-881jx4d6.h264"
+        ]
+    },
     "19.7": {
         "name": "Eyagyaraq -- Abstinence Practices, Taboos",
         "url": "Eyagyaraq",
@@ -3780,7 +4505,10 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-74cnpfqb.h264",
@@ -3794,6 +4522,9 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-59c5b6f6.h264",
             "cpb-aacip-127-65v6x4wh.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-74cnpfqb.h264"
@@ -3826,10 +4557,12 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
             "cpb-aacip-127-16pzgr3f.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-26xwdh7k.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-74cnpfqb.h264",
             "cpb-aacip-127-784j17vw.h264",
@@ -3843,6 +4576,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-0644j37r.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-86nzsk0r.h264"
         ]
@@ -3857,6 +4592,7 @@ export const categories = {
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-10jsxpx6.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
             "cpb-aacip-127-63fxpxg0.h264",
             "cpb-aacip-127-66vx0v02.h264",
             "cpb-aacip-127-74cnpfqb.h264",
@@ -3869,6 +4605,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-37vmd1rq.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -3879,10 +4616,16 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-010p2r15.h264",
+            "cpb-aacip-127-149p8hcz.h264",
+            "cpb-aacip-127-23612qck.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-988gtvzp.h264"
         ]
     },
     "19.10.1": {
@@ -3891,8 +4634,10 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-69m37zr9.h264",
-            "cpb-aacip-127-719kdf8m.h264"
+            "cpb-aacip-127-719kdf8m.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.11": {
@@ -3902,6 +4647,7 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-009w0z0q.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-773txm5v.h264"
@@ -3913,6 +4659,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-47rn8x0g.h264",
             "cpb-aacip-127-74qjqbsc.h264"
         ]
     },
@@ -3940,14 +4687,25 @@ export const categories = {
         "name": "Inerquutet -- Admonishments",
         "url": "Inerquutet",
         "images": [],
-        "children": 17,
+        "children": 18,
         "videoNumbers": [
             "cpb-aacip-127-009w0z0q.h264",
             "cpb-aacip-127-00ns1t6z.h264",
             "cpb-aacip-127-03cz8zdq.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25x69tk3.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-386hdxkk.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65h9w88k.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-719kdfjd.h264",
@@ -3958,7 +4716,10 @@ export const categories = {
             "cpb-aacip-127-773txm5v.h264",
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-84mkm6tr.h264",
-            "cpb-aacip-127-86nzsk0r.h264"
+            "cpb-aacip-127-86nzsk0r.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-945qg6jq.h264",
+            "cpb-aacip-127-988gtvzp.h264"
         ]
     },
     "19.13.1": {
@@ -3972,7 +4733,8 @@ export const categories = {
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdf8m.h264",
-            "cpb-aacip-127-84mkm6tr.h264"
+            "cpb-aacip-127-84mkm6tr.h264",
+            "cpb-aacip-127-881jx4d6.h264"
         ]
     },
     "19.13.2": {
@@ -3999,6 +4761,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwqvx.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
     },
@@ -4082,6 +4846,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-440rz436.h264",
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-773txm5v.h264"
         ]
@@ -4092,6 +4857,9 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-53wstz0s.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -4101,6 +4869,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-386hdxkk.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
     },
@@ -4137,7 +4906,18 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-53wstz0s.h264",
             "cpb-aacip-127-86nzsk0r.h264"
+        ]
+    },
+    "19.13.18": {
+        "name": "Yuilqumi Neplirasqevkenaki -- Do Not Be Noisy in the Wilderness",
+        "url": "Yuilqumi-Neplirasqevkenaki",
+        "images": [],
+        "children": 1,
+        "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264"
         ]
     },
     "19.14": {
@@ -4147,6 +4927,7 @@ export const categories = {
         "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-225b014v.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-85n8pw5n.h264",
             "cpb-aacip-127-87brvbt5.h264"
@@ -4158,6 +4939,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-225b014v.h264",
             "cpb-aacip-127-87brvbt5.h264"
         ]
     },
@@ -4169,7 +4951,8 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-719kdfjd.h264",
-            "cpb-aacip-127-76f1vspw.h264"
+            "cpb-aacip-127-76f1vspw.h264",
+            "cpb-aacip-127-988gtvzp.h264"
         ]
     },
     "19.15.1": {
@@ -4187,7 +4970,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-719kdfjd.h264"
+            "cpb-aacip-127-719kdfjd.h264",
+            "cpb-aacip-127-988gtvzp.h264"
         ]
     },
     "19.16": {
@@ -4216,15 +5000,23 @@ export const categories = {
         ],
         "children": 9,
         "videoNumbers": [
+            "cpb-aacip-127-0644j324.h264",
             "cpb-aacip-127-06g1k008.h264",
             "cpb-aacip-127-09w0vx3c.h264",
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
+            "cpb-aacip-127-57np5s39.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264",
-            "cpb-aacip-127-87pnw7r9.h264"
+            "cpb-aacip-127-87pnw7r9.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "20.1": {
@@ -4233,6 +5025,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-322bvwfr.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264"
         ]
@@ -4253,10 +5046,22 @@ export const categories = {
         "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-14nk9d19.h264",
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-322bvwfr.h264",
+            "cpb-aacip-127-57np5s39.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264"
+        ]
+    },
+    "20.2.1": {
+        "name": "Yurarpalriit -- Dance Festivals",
+        "url": "Yurarpalriit",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-322bvwfr.h264"
         ]
     },
     "20.2.2": {
@@ -4265,6 +5070,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-257d81m9.h264",
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-784j17vw.h264",
             "cpb-aacip-127-816m99hb.h264"
@@ -4285,7 +5091,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-25k98x78.h264"
+            "cpb-aacip-127-25k98x78.h264",
+            "cpb-aacip-127-57np5s39.h264"
         ]
     },
     "20.2.4": {
@@ -4324,7 +5131,8 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
-            "cpb-aacip-127-06g1k008.h264"
+            "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "20.3.1": {
@@ -4333,7 +5141,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-06g1k008.h264"
+            "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "20.4": {
@@ -4351,7 +5160,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-27zkh5wz.h264"
+            "cpb-aacip-127-27zkh5wz.h264",
+            "cpb-aacip-127-322bvwfr.h264"
         ]
     },
     "20.6": {
@@ -4387,8 +5197,11 @@ export const categories = {
         "name": "Kass'artaat -- Western Holidays",
         "url": "Kassartaat",
         "images": [],
-        "children": 3,
+        "children": 4,
         "videoNumbers": [
+            "cpb-aacip-127-35t76q2k.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-47rn8x0g.h264",
             "cpb-aacip-127-87pnw7r9.h264"
         ]
     },
@@ -4398,7 +5211,26 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-35t76q2k.h264",
             "cpb-aacip-127-87pnw7r9.h264"
+        ]
+    },
+    "20.9.2": {
+        "name": "Alussistuaq -- Christmas",
+        "url": "Alussistuaq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-47rn8x0g.h264"
+        ]
+    },
+    "20.9.3": {
+        "name": "Quyayaraq -- Thanksgiving",
+        "url": "Quyayaraq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-440rz436.h264"
         ]
     },
     "21": {
@@ -4407,7 +5239,7 @@ export const categories = {
         "images": [
             "Ilaliuryaraq.jpg"
         ],
-        "children": 6,
+        "children": 7,
         "videoNumbers": [
             "cpb-aacip-127-03cz8zdq.h264",
             "cpb-aacip-127-10jsxpx6.h264",
@@ -4415,6 +5247,14 @@ export const categories = {
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-2908kvc9.h264",
+            "cpb-aacip-127-37vmd1rq.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-46254fdx.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-74cnpfr2.h264",
@@ -4424,7 +5264,10 @@ export const categories = {
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-773txm5v.h264",
             "cpb-aacip-127-784j17vw.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-89r22kjv.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "21.1": {
@@ -4433,7 +5276,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-69m37zr9.h264"
+            "cpb-aacip-127-69m37zr9.h264",
+            "cpb-aacip-127-89r22kjv.h264"
         ]
     },
     "21.2": {
@@ -4448,12 +5292,16 @@ export const categories = {
             "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-27zkh5wz.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
+            "cpb-aacip-127-623bkbxr.h264",
             "cpb-aacip-127-719kdf8m.h264",
             "cpb-aacip-127-74cnpfr2.h264",
             "cpb-aacip-127-74qjqbsc.h264",
             "cpb-aacip-127-76f1vspw.h264",
             "cpb-aacip-127-784j17vw.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "21.2.1": {
@@ -4464,7 +5312,8 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-784j17vw.h264",
-            "cpb-aacip-127-816m99hb.h264"
+            "cpb-aacip-127-816m99hb.h264",
+            "cpb-aacip-127-91sf7xm0.h264"
         ]
     },
     "21.3": {
@@ -4473,18 +5322,30 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-28ncjzpp.h264"
+            "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-38w9gpk2.h264"
         ]
     },
     "21.4": {
         "name": "Ilakucaraq, Ilakellriit, Ilakelriit -- Family",
         "url": "Ilakucaraq-Ilakellriit-Ilakelriit",
         "images": [],
-        "children": 0,
+        "children": 1,
         "videoNumbers": [
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-46254fdx.h264",
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-7634tx89.h264"
+            "cpb-aacip-127-7634tx89.h264",
+            "cpb-aacip-127-89280sv6.h264"
+        ]
+    },
+    "21.4.1": {
+        "name": "Tungayiit, Tungelqut -- Relatives",
+        "url": "Tungayiit-Tungelqut",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "21.5": {
@@ -4502,7 +5363,17 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-53wstz0s.h264",
             "cpb-aacip-127-773txm5v.h264"
+        ]
+    },
+    "21.7": {
+        "name": "Nunat Ancitullratnek -- How Villages Exiled Members",
+        "url": "Nunat-Ancitullratnek",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-2908kvc9.h264"
         ]
     },
     "22": {
@@ -4518,12 +5389,26 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-28ncjzpp.h264",
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-386hdz1p.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-68kd59ft.h264",
             "cpb-aacip-127-69m37zr9.h264",
             "cpb-aacip-127-719kdf8m.h264",
@@ -4537,7 +5422,12 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-84mkm6tr.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-89280sv6.h264",
+            "cpb-aacip-127-956djvkd.h264",
+            "cpb-aacip-127-96wwq9xv.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "22.1": {
@@ -4547,7 +5437,8 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-010p2r15.h264",
-            "cpb-aacip-127-10jsxpvr.h264"
+            "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-54kkwrd6.h264"
         ]
     },
     "22.1.1": {
@@ -4577,9 +5468,14 @@ export const categories = {
             "cpb-aacip-127-009w0z0q.h264",
             "cpb-aacip-127-010p2r15.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-38w9gpk2.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-440rz436.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-69m37zr9.h264",
-            "cpb-aacip-127-86nzsk0r.h264"
+            "cpb-aacip-127-86nzsk0r.h264",
+            "cpb-aacip-127-89280sv6.h264"
         ]
     },
     "22.2.1": {
@@ -4588,6 +5484,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-54kkwrd6.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
     },
@@ -4597,6 +5494,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-440rz436.h264",
             "cpb-aacip-127-69m37zr9.h264"
         ]
     },
@@ -4615,7 +5513,8 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-10jsxpwg.h264"
+            "cpb-aacip-127-10jsxpwg.h264",
+            "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
     "22.4": {
@@ -4625,6 +5524,7 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
+            "cpb-aacip-127-53wstz0s.h264",
             "cpb-aacip-127-65h9w88k.h264"
         ]
     },
@@ -4636,8 +5536,17 @@ export const categories = {
         "videoNumbers": [
             "cpb-aacip-127-10jsxpvr.h264",
             "cpb-aacip-127-10jsxpx6.h264",
+            "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-28ncjzpp.h264",
+            "cpb-aacip-127-34fn33pp.h264",
+            "cpb-aacip-127-41mgqv1k.h264",
+            "cpb-aacip-127-48ffbpfx.h264",
+            "cpb-aacip-127-53wstz0s.h264",
+            "cpb-aacip-127-54kkwrd6.h264",
+            "cpb-aacip-127-59c5b6gx.h264",
+            "cpb-aacip-127-60qrfsqn.h264",
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-66vx0v02.h264",
@@ -4649,7 +5558,9 @@ export const categories = {
             "cpb-aacip-127-816m99hb.h264",
             "cpb-aacip-127-84mkm6tr.h264",
             "cpb-aacip-127-86nzsk0r.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-881jx4d6.h264",
+            "cpb-aacip-127-956djvkd.h264"
         ]
     },
     "22.6": {
@@ -4677,6 +5588,7 @@ export const categories = {
         "images": [],
         "children": 0,
         "videoNumbers": [
+            "cpb-aacip-127-23612qck.h264",
             "cpb-aacip-127-65h9w88k.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-84mkm6tr.h264",
@@ -4746,9 +5658,13 @@ export const categories = {
         "children": 2,
         "videoNumbers": [
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-386hdz1p.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-805x6mnx.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "22.12.1": {
@@ -4757,6 +5673,7 @@ export const categories = {
         "images": [],
         "children": 1,
         "videoNumbers": [
+            "cpb-aacip-127-386hdz1p.h264",
             "cpb-aacip-127-805x6mnx.h264"
         ]
     },
@@ -4773,12 +5690,16 @@ export const categories = {
         "name": "Yugtaat -- Yup'ik Remedies",
         "url": "Yugtaat",
         "images": [],
-        "children": 4,
+        "children": 5,
         "videoNumbers": [
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-386hdz1p.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-752fr7q2.h264",
             "cpb-aacip-127-805x6mnx.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "22.12.2.1": {
@@ -4788,6 +5709,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-33rv1b2m.h264",
+            "cpb-aacip-127-42n5thvk.h264",
+            "cpb-aacip-127-67wm3hhj.h264",
             "cpb-aacip-127-752fr7q2.h264"
         ]
     },
@@ -4798,7 +5721,8 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-752fr7q2.h264",
-            "cpb-aacip-127-87brvbt5.h264"
+            "cpb-aacip-127-87brvbt5.h264",
+            "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
     "22.12.2.3": {
@@ -4819,6 +5743,15 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-805x6mnx.h264"
+        ]
+    },
+    "22.12.2.5": {
+        "name": "Caiggluk, Qanganaruaq, Naunerrluk -- Wormwood",
+        "url": "Caiggluk-Qanganaruaq-Naunerrluk",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-386hdz1p.h264"
         ]
     },
     "23": {

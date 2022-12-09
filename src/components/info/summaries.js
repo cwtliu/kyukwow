@@ -731,7 +731,7 @@ export const summaries = {
             "19.9",
             "3.9",
             "5.3",
-            "9.5.3",
+            "9.5.1",
             "22.3",
             "5.2",
             "17.1.3",
@@ -1103,11 +1103,11 @@ export const summaries = {
             "3.9.1",
             "9.10",
             "19.6.3",
-            "9.5.3",
+            "9.5.1",
             "6.1",
             "9.5",
             "6.2",
-            "9.5.4"
+            "9.5.3"
         ]
     },
     "cpb-aacip-127-20fttjr7.h264": {
@@ -1408,7 +1408,7 @@ export const summaries = {
         "tags": [
             "2.2.38",
             "1.1.1",
-            "9.5.3",
+            "9.5.1",
             "6.1",
             "10.9",
             "21.2",
@@ -1694,7 +1694,12 @@ export const summaries = {
         ],
         "tags": [
             "2.2.10",
-            "2.2.9"
+            "2.2.9",
+            "11.6",
+            "13",
+            "3.1",
+            "3",
+            "5.4"
         ]
     },
     "cpb-aacip-127-0644j37r.h264": {
@@ -1723,6 +1728,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -1753,7 +1759,16 @@ export const summaries = {
             "23.80"
         ],
         "tags": [
-            "2.2.34"
+            "2.2.34",
+            "19.8.1",
+            "9.2",
+            "9",
+            "9.6",
+            "19.5",
+            "19.6.4",
+            "16.5",
+            "16",
+            "8.1.5"
         ]
     },
     "cpb-aacip-127-149p8hcz.h264": {
@@ -1773,6 +1788,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Uquuviar Olinka \"Ollie\" Andrew"
             ]
@@ -1813,7 +1829,14 @@ export const summaries = {
             "23.63"
         ],
         "tags": [
-            "2.2.30"
+            "2.2.30",
+            "14",
+            "14.3.2",
+            "19.3.2.1",
+            "19.3.2",
+            "19.10",
+            "19.6.10",
+            "19.7.1"
         ]
     },
     "cpb-aacip-127-225b014v.h264": {
@@ -1836,6 +1859,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Qang’allugaq Hazel Lincoln"
             ]
@@ -1876,7 +1900,14 @@ export const summaries = {
             "23.58"
         ],
         "tags": [
-            "2.2.38"
+            "2.2.38",
+            "14.3.1",
+            "14",
+            "14.1",
+            "14.4",
+            "22.5",
+            "19.14.1",
+            "16.4"
         ]
     },
     "cpb-aacip-127-257d81kk.h264": {
@@ -1898,6 +1929,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Inaanavr Carpenter",
                 "Anastasia Cooke Hoffman"
@@ -1934,7 +1966,14 @@ export const summaries = {
             "23.61"
         ],
         "tags": [
-            "2.2.35"
+            "2.2.35",
+            "10.9",
+            "6.1",
+            "9.5.1",
+            "10.9.3",
+            "10.9.2",
+            "17.4.3",
+            "6.2.2"
         ]
     },
     "cpb-aacip-127-257d81m9.h264": {
@@ -2007,7 +2046,16 @@ export const summaries = {
             "23.15"
         ],
         "tags": [
-            "2.2.28"
+            "2.2.28",
+            "14.3.1",
+            "9.7",
+            "15.3.1",
+            "15.3.1.1",
+            "15.1",
+            "20.2.2",
+            "8.4",
+            "2.2.27",
+            "9.1"
         ]
     },
     "cpb-aacip-127-2908kvc9.h264": {
@@ -2029,6 +2077,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -2084,7 +2133,14 @@ export const summaries = {
             "23.61"
         ],
         "tags": [
-            "2.2.35"
+            "19.6.7",
+            "2.2.35",
+            "16.4",
+            "16.3",
+            "19.6.5",
+            "14.2",
+            "19.6.8",
+            "21.7"
         ]
     },
     "cpb-aacip-127-322bvwfr.h264": {
@@ -2103,7 +2159,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -2147,7 +2204,19 @@ export const summaries = {
         ],
         "tags": [
             "2.2.38",
-            "2.2.36"
+            "2.2.36",
+            "7",
+            "10.10",
+            "14",
+            "11.6",
+            "9.6",
+            "20",
+            "20.2.1",
+            "20.1",
+            "20.5",
+            "16.2",
+            "9.7",
+            "19.13.17"
         ]
     },
     "cpb-aacip-127-35gb5sdj.h264": {
@@ -2180,6 +2249,7 @@ export const summaries = {
                 "Subjects"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Sophie Evan"
             ]
@@ -2205,7 +2275,10 @@ export const summaries = {
             "23.24"
         ],
         "tags": [
-            "2.2.21"
+            "2.2.21",
+            "15.3",
+            "19.5.8",
+            "19.6.7"
         ]
     },
     "cpb-aacip-127-35t76q2k.h264": {
@@ -2229,6 +2302,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -2259,7 +2333,11 @@ export const summaries = {
             "23.10"
         ],
         "tags": [
-            "2.2.33"
+            "2.2.33",
+            "20.9.1",
+            "8.1",
+            "8.1.1.2",
+            "8.1.2"
         ]
     },
     "cpb-aacip-127-37hqc4tk.h264": {
@@ -2280,6 +2358,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Uquuviar Olinka Andrew"
             ]
@@ -2320,7 +2399,10 @@ export const summaries = {
             "23.12"
         ],
         "tags": [
-            "2.2.27"
+            "2.2.27",
+            "8.4",
+            "16",
+            "16.2.4"
         ]
     },
     "cpb-aacip-127-37vmd1rq.h264": {
@@ -2339,7 +2421,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -2363,7 +2446,13 @@ export const summaries = {
         ],
         "tags": [
             "2.2.31",
-            "2.2.30"
+            "2.2.30",
+            "4.2",
+            "19.5",
+            "19.9.1",
+            "21",
+            "8",
+            "19.10"
         ]
     },
     "cpb-aacip-127-386hdxkk.h264": {
@@ -2389,6 +2478,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -2455,8 +2545,13 @@ export const summaries = {
             "23.13"
         ],
         "tags": [
+            "2.2.36",
             "2.2.37",
-            "2.2.36"
+            "19.13",
+            "19.5",
+            "14",
+            "7",
+            "19.13.14"
         ]
     },
     "cpb-aacip-127-386hdz1p.h264": {
@@ -2579,7 +2674,13 @@ export const summaries = {
             "23.74"
         ],
         "tags": [
-            "2.2.11"
+            "2.2.11",
+            "22.12.2",
+            "22.12.2.5",
+            "22.12.1",
+            "22",
+            "8",
+            "15.1"
         ]
     },
     "cpb-aacip-127-38w9gpk2.h264": {
@@ -2603,6 +2704,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Upay'aq Elena Miller Ulroan"
             ]
@@ -2653,7 +2755,17 @@ export const summaries = {
             "23.66"
         ],
         "tags": [
-            "2.2.32"
+            "2.2.32",
+            "19.8.1",
+            "9.3",
+            "19.5.4.4",
+            "19.13.13",
+            "21.3",
+            "22.2",
+            "16.2",
+            "16.1.1",
+            "9.6",
+            "19.3.2"
         ]
     },
     "cpb-aacip-127-41mgqv1k.h264": {
@@ -2677,6 +2789,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -2723,7 +2836,15 @@ export const summaries = {
         ],
         "tags": [
             "2.2.10",
-            "2.2.9"
+            "2.2.9",
+            "22.5",
+            "19.6",
+            "19.6.4",
+            "19.13.13",
+            "8.1.5",
+            "8",
+            "19.5",
+            "22.2"
         ]
     },
     "cpb-aacip-127-42n5thvk.h264": {
@@ -2742,7 +2863,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -2785,7 +2907,12 @@ export const summaries = {
             "23.83"
         ],
         "tags": [
-            "2.2.38"
+            "2.2.38",
+            "22.12.2.1",
+            "19.6.2",
+            "6.2.3",
+            "11.1",
+            "6.2.2"
         ]
     },
     "cpb-aacip-127-440rz436.h264": {
@@ -2810,6 +2937,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Martha Scott"
             ]
@@ -2886,7 +3014,16 @@ export const summaries = {
             "2.2.27",
             "2.2.18",
             "2.2.11",
-            "2.2.9"
+            "2.2.9",
+            "17.1.2",
+            "3.4",
+            "11.3",
+            "20.9.3",
+            "19.13.12",
+            "19.5",
+            "22.2.2",
+            "4.5",
+            "9"
         ]
     },
     "cpb-aacip-127-46254fdx.h264": {
@@ -2905,7 +3042,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -2953,7 +3091,12 @@ export const summaries = {
             "23.4"
         ],
         "tags": [
-            "2.2.30"
+            "2.2.30",
+            "17.1.2",
+            "11.8",
+            "11.8.1.2",
+            "21.4",
+            "14"
         ]
     },
     "cpb-aacip-127-47rn8x0g.h264": {
@@ -2972,7 +3115,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -3011,7 +3155,12 @@ export const summaries = {
         ],
         "tags": [
             "2.2.32",
-            "2.2.31"
+            "2.2.31",
+            "19.6.12",
+            "20.9.2",
+            "8.1.2",
+            "8.1",
+            "19.11.1"
         ]
     },
     "cpb-aacip-127-48ffbpfx.h264": {
@@ -3031,6 +3180,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Uquuviar Olinka \"Ollie\" Andrew",
                 "John MacDonald",
@@ -3148,7 +3298,17 @@ export const summaries = {
             "2.2.39",
             "2.2.31",
             "2.2.30",
-            "2.2.27"
+            "2.2.27",
+            "19.5",
+            "21.2",
+            "16.2.2",
+            "19.6.4",
+            "8.4",
+            "10.10",
+            "9.1",
+            "22.5",
+            "3.8",
+            "19.6"
         ]
     },
     "cpb-aacip-127-53wstz0s.h264": {
@@ -3238,7 +3398,19 @@ export const summaries = {
         ],
         "tags": [
             "2.2.42",
-            "2.2.39"
+            "2.2.39",
+            "16.1.1",
+            "19.5",
+            "19.13.17",
+            "19.13.13",
+            "1",
+            "8.1",
+            "22.5",
+            "21.6",
+            "4.1",
+            "19.6.1",
+            "22.4",
+            "8.1.5"
         ]
     },
     "cpb-aacip-127-54kkwqvx.h264": {
@@ -3258,7 +3430,8 @@ export const summaries = {
             "Genre 4 (Location):": [],
             "Name 1:": [],
             "Role 1:": [],
-            "Name 2:": []
+            "Name 2:": [],
+            "Role 2:": []
         },
         "summary": {
             "1": [
@@ -3296,7 +3469,13 @@ export const summaries = {
             "23.15"
         ],
         "tags": [
-            "2.2.28"
+            "2.2.28",
+            "4.1",
+            "19.6.1",
+            "19.5",
+            "19.13.4",
+            "8.3",
+            "8.1.3"
         ]
     },
     "cpb-aacip-127-54kkwrd6.h264": {
@@ -3317,6 +3496,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)",
                 "Uquviar Olinka Andrew",
@@ -3461,7 +3641,37 @@ export const summaries = {
             "2.2.35",
             "2.2.30",
             "2.2.22",
-            "2.2.17"
+            "2.2.17",
+            "14",
+            "14.1",
+            "14.2.2",
+            "22.1",
+            "22.2",
+            "22.5",
+            "9.11",
+            "17.6.2",
+            "17.4.3",
+            "17.1",
+            "17.1.6",
+            "9.9",
+            "19.5",
+            "19.13.4",
+            "9.6",
+            "17.5",
+            "10",
+            "10.12",
+            "13",
+            "22.2.1",
+            "9.13",
+            "17.8",
+            "5.1.1",
+            "17.1.6.3",
+            "19.13.18",
+            "11.6.1",
+            "4.1",
+            "16.1",
+            "16.2",
+            "22.5"
         ]
     },
     "cpb-aacip-127-558czhn9.h264": {
@@ -3537,6 +3747,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Peter Tuluk"
             ]
@@ -3582,7 +3793,11 @@ export const summaries = {
             "23.62"
         ],
         "tags": [
-            "2.2.18"
+            "2.2.18",
+            "10.1",
+            "8.4",
+            "20.2.3",
+            "8.6"
         ]
     },
     "cpb-aacip-127-59c5b6f6.h264": {
@@ -3607,6 +3822,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Aqumgaciq John Active"
             ]
@@ -3663,7 +3879,13 @@ export const summaries = {
             "23.77"
         ],
         "tags": [
-            "2.2.39"
+            "2.2.39",
+            "14.3.1",
+            "19.3.3",
+            "19.7.1",
+            "18.1",
+            "9.12",
+            "19.5"
         ]
     },
     "cpb-aacip-127-59c5b6gx.h264": {
@@ -3688,6 +3910,7 @@ export const summaries = {
                 "Interviewee"
             ],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
@@ -3744,7 +3967,12 @@ export const summaries = {
             "23.1"
         ],
         "tags": [
-            "2.2.40"
+            "2.2.40",
+            "9.6",
+            "22.5",
+            "19.13",
+            "3.8",
+            "19.10.1"
         ]
     },
     "cpb-aacip-127-59q2c3zn.h264": {
@@ -3765,6 +3993,7 @@ export const summaries = {
             "Name 1:": [],
             "Role 1:": [],
             "Name 2:": [],
+            "Role 2:": [],
             "interviewer": [
                 "John MacDonald"
             ]
@@ -3803,7 +4032,11 @@ export const summaries = {
         "tags": [
             "2.2.42",
             "2.2.39",
-            "2.2.27"
+            "2.2.27",
+            "2.1.3",
+            "9.1",
+            "15.4",
+            "9"
         ]
     },
     "cpb-aacip-127-60qrfsqn.h264": {
@@ -3895,7 +4128,13 @@ export const summaries = {
             "23.52"
         ],
         "tags": [
-            "2.2.39"
+            "2.2.39",
+            "16.4.1",
+            "1",
+            "21.2",
+            "17.1.1",
+            "19.5",
+            "22.5"
         ]
     },
     "cpb-aacip-127-6341p189.h264": {
@@ -5329,7 +5568,7 @@ export const summaries = {
             "8.5.1",
             "9.1.2",
             "9.2",
-            "9.5.4",
+            "9.5.3",
             "9.6",
             "9.8",
             "10.3.1",
@@ -6329,7 +6568,7 @@ export const summaries = {
             "2.2.18",
             "2.2.17",
             "8.4.2",
-            "9.5.4",
+            "9.5.3",
             "13.2.1",
             "19.3.2.1",
             "19.3.3",
@@ -6431,10 +6670,19 @@ export const summaries = {
         "videoID": "cpb-aacip-127-0644j324.h264",
         "title": "Andrew Paukan, Benedict Ketcheak, Nauciralrea Joseph Friday - # 6",
         "time": "21:05",
-        "metadata": {
-            "Date": "Unknown"
+        "metadata": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Wangkutnun taug͡aam atauq man'a maani Yugtun piciryaraq eglerutellerkaa.\"",
+                "\"It is upon us to continue the Yup'ik culture here.\""
+            ],
+            "27": [
+                "03:18",
+                "\"Au͡gkut qaneryaraqegtaaraat, civumni qanellret qaneryarait pegtenritniaraput\",",
+                "\"Let's not abandon those wonder pieces of wisdom, the wisdom of the ones who spoke before me\""
+            ]
         },
-        "summary": {},
         "elderTags": [
             "23.8",
             "23.19",
@@ -6442,25 +6690,10 @@ export const summaries = {
         ],
         "tags": [
             "2.2.18",
-            "2.2.10"
-        ]
-    },
-    "cpb-aacip-127-085hqfqk.h264": {
-        "videoID": "cpb-aacip-127-085hqfqk.h264",
-        "title": "Ackiar Nick Lupie - # 10",
-        "time": "31:54",
-        "metadata": {
-            "Date": "Unknown",
-            "interviewer": [
-                "Uquuviar Olinka \"Ollie\" Andrew"
-            ]
-        },
-        "summary": {},
-        "elderTags": [
-            "23.4"
-        ],
-        "tags": [
-            "2.2.30"
+            "2.2.10",
+            "1",
+            "20",
+            "19.5"
         ]
     },
     "cpb-aacip-127-23612qck.h264": {
@@ -6468,7 +6701,6 @@ export const summaries = {
         "title": "Yuk 03 Unidentified, Anguyaluk Taac'aq Olinka Pavilla, Alciq Maxie Altsik - # 22",
         "time": "1:01:44",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)",
                 "Uquuviar Olinka Andrew",
@@ -6476,7 +6708,48 @@ export const summaries = {
                 "Atmak Lillian Michaels"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Tua-i tamakut pissuryarat alerquutai piyaurcama tua-i aturturluki.\"",
+                "\"When I started, I followed his instructions on hunting.\""
+            ],
+            "100": [
+                "14:15",
+                "\"Atauciq tauna tuunrituli Qupanuarmek pilallrat\"",
+                "\"That one who had shamanistic powers whom they called Qupanuaq.\""
+            ],
+            "133": [
+                "18:40",
+                "\"Ullagluku nutaan niicugnisqelluku inerquutnek qalartellria.\"",
+                "\"They told me to go and listen to the one speaking about admonishments.\""
+            ],
+            "228": [
+                "34:15",
+                "\"Arnat-llu makut enemi agleraqata qanrutnaurait\"",
+                "\"And when these women menstruate at home, they'd tell them.\""
+            ],
+            "277": [
+                "39:56",
+                "\"Inerquutet makut wani assiitellriit atuqsaileng'erpeciki ayagyuani.\"",
+                "\"You young people shouldn't do these bad things that are admonished against.\""
+            ],
+            "325": [
+                "46:27",
+                "\"Kenka atunrilkumteggu maani unguvallemteńi qaill' piluta anirtuumaciqceta?\"",
+                "\"If we don't practice love as we live here, how will we be saved?\""
+            ],
+            "360": [
+                "51:42",
+                "\"Qanikcaq tangerrluku yullret imkut pitullruut.\"",
+                "\"People back then would look at the snow.\""
+            ],
+            "423": [
+                "59:29",
+                "\"Makut maa-i qanruyutektuaput.\"",
+                "\"This is the traditional knowledge we pass down.\""
+            ]
+        },
         "elderTags": [
             "23.89",
             "23.13",
@@ -6486,7 +6759,18 @@ export const summaries = {
             "2.2.37",
             "2.2.36",
             "2.2.31",
-            "2.2.23"
+            "2.2.23",
+            "5.3.2",
+            "5.3.4",
+            "17.1.6.1",
+            "9.1",
+            "19.13",
+            "19.7.1",
+            "22.7",
+            "22.5",
+            "3.5",
+            "2",
+            "19.10"
         ]
     },
     "cpb-aacip-127-34fn33pp.h264": {
@@ -6494,17 +6778,39 @@ export const summaries = {
         "title": "Aqesgirpak Mary Worm - # 33",
         "time": "22:23",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
-        "summary": {},
+        "summary": {
+            "6": [
+                "00:53",
+                "\"Tayima una wani qanrucunailnguq. Qanrucunailnguut qaillun tamaani tangerrluki ciunerkait nallunrit'lallruitki?\"",
+                "\"There are those who are hard to talk to.  How did they know by observation their journey ahead?\""
+            ],
+            "51": [
+                "10:17",
+                "\"Cali man'a akusrarun maa-i ilaitnek yuut allurkengelriatun ayuqelartuq atu'urkaatnek.\"",
+                "\"And on using (recreational drugs) nowadays it takes away from some people what they would have provided.\""
+            ],
+            "80": [
+                "16:32",
+                "\"Tangerrluk wiingaurluq-llu waniwa aiparma imum tungiinun camek umyuarniurutaitellemnek quyapialalrianga watqapik. Quyatmek tau͡gaam.\"",
+                "\"You see, my poor self is thankful having no regrets towards my previous partner.  Only gratefulness.\""
+            ]
+        },
         "elderTags": [
             "23.15"
         ],
         "tags": [
-            "2.2.28"
+            "2.2.28",
+            "19.3.4",
+            "19.3.4.1",
+            "19.6.1",
+            "22.5",
+            "14",
+            "14.3.2",
+            "13"
         ]
     },
     "cpb-aacip-127-34sj40gx.h264": {
@@ -6512,51 +6818,259 @@ export const summaries = {
         "title": "Narullgiar Elena Nick - # 34",
         "time": "15:34",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Inaanavr Carpenter",
                 "Anastasia Cooke Hoffman"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "Assalialiluni Qalamciluni-llu",
+                "Making Frybread and Storytelling"
+            ]
+        },
         "elderTags": [
             "23.61"
         ],
         "tags": [
-            "2.2.35"
+            "2.2.35",
+            "6.1",
+            "10.1.1",
+            "15.2"
         ]
     },
-    "cpb-aacip-127-52j6qcr2.h264": {
-        "videoID": "cpb-aacip-127-52j6qcr2.h264",
-        "title": "Aqesgirpak Mary Worm - # 48",
-        "time": "1:03:36",
+    "cpb-aacip-127-085hqfqk.h264": {
+        "videoID": "cpb-aacip-127-085hqfqk.h264",
+        "title": "Ackiar Nick Lupie - # 10",
+        "time": "31:54",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
-                "Kakianeq Adolph Lewis (Kuigilnguq)"
+                "Uquuviar Olinka \"Ollie\" Andrew"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Imarpigmiutaat, makut-llu cali yaqulget... enurnaringut.\"",
+                "\"Marine animals, and these birds... are getting scarce.\""
+            ],
+            "77": [
+                "10:19",
+                "\"Iciw' pellaalliaqa wall'u-q' qaill' piaqata kaingaqameng canek nertullruat yuilqumi?\"",
+                "\"You know, if they happened to get lost or something happened, what would they eat in the wilderness if they got hungry?\""
+            ],
+            "121": [
+                "16:07",
+                "\"Maani tau͡gken nunam qaingani tua-i arenqiallugeskuni wall'u kiskuni\"",
+                "\"However, if one gets into misfortune or sinks into water here on the land\""
+            ]
+        },
         "elderTags": [
-            "23.15"
+            "23.4"
         ],
         "tags": [
-            "2.2.28"
+            "2.2.30",
+            "13.3.1",
+            "9.7",
+            "5.2",
+            "5.4",
+            "9.10",
+            "5.1",
+            "5.4.4",
+            "11.3",
+            "11.4",
+            "11.5",
+            "11.2"
         ]
     },
     "cpb-aacip-127-623bkbxr.h264": {
         "videoID": "cpb-aacip-127-623bkbxr.h264",
         "title": "Kumkaq Noel Polty - # 59",
         "time": "8:26",
-        "metadata": {
-            "Date": "Unknown"
+        "metadata": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Tua-i wangkuta imumi qasgimi, tan'gaurlurni qasgimi uitauratullruukut\"",
+                "\"A long time ago in the qasgiq, young men like us stayed in the qasgiq\""
+            ],
+            "14": [
+                "01:43",
+                "\"Angenqaa anrutam qam'um imaunani nangtequtekellra.\"",
+                "\"Nothing compares to the pain of an empty stomach.\""
+            ],
+            "24": [
+                "02:59",
+                "\"Tau͡gken neqaicuilnguut aperturluki cali.\"",
+                "\"Also to know which lakes and rivers always have food.\""
+            ],
+            "42": [
+                "05:44",
+                "\"Tua-i-ll' neqairutaqan uitavkenata cali can'giilegnun ayagluta, can'giirturyaranun.\"",
+                "\"And then when there is no more fish, they told us not to stay but to go to places that have black fish, places where black fish traps are set.\""
+            ]
         },
-        "summary": {},
         "elderTags": [
             "23.47"
         ],
         "tags": [
-            "2.2.11"
+            "2.2.11",
+            "21.2",
+            "13.3",
+            "17.1.2",
+            "17.1.7",
+            "5.1.1",
+            "2"
+        ]
+    },
+    "cpb-aacip-127-881jx4d6.h264": {
+        "videoID": "cpb-aacip-127-881jx4d6.h264",
+        "title": "Kumluilnguq Matthew Frye - # 87",
+        "time": "51:26",
+        "metadata": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Akluit-llu eru'urqamteki angutet akluit allakarcetetullruit aanamta\"",
+                "\"And when we washed their clothes, our mothers would have us separate the men's clothes\""
+            ],
+            "14": [
+                "01:28",
+                "\"Tua-i-llu wangkuta arnani neqnek aulukilriani tua-i qigcikluki angutet unangkengait.\"",
+                "\"Then we women who took care of food would treat what the men obtained with respect.\""
+            ],
+            "28": [
+                "03:02",
+                "\"Qigcikluku yuum pivianun, yuum piyaraanun pisqumamayuitellruukut.\"",
+                "\"Out of respect, we would be told not to go to a person's place, a person's gathering place.\""
+            ],
+            "32": [
+                "03:38",
+                "\"Tauna-gguq kuvyiryaraq neqem aruvikellrukani, allrakuani nurciarkauguq neqmek.\"",
+                "\"They said that if a fish spoils in that drift netting spot, the fish will be low the next year.\""
+            ],
+            "43": [
+                "05:01",
+                "\"Ca tamalkuan au͡gkut yuut qigcikellruat, yuilqurrungraan nunaungraan-llu.\"",
+                "\"People back then respected everything, even the wilderness and even the land.\""
+            ],
+            "82": [
+                "10:28",
+                "\"Neqet wangkuta piqertuutamek aturluta kepuusqevkenaki, tau͡gaam uluamek aturluta kepluki urumakata.\"",
+                "\"We were told not to cut fish with axes, but to cut them with ulus if they're thawed.\""
+            ],
+            "102": [
+                "12:39",
+                "\"Leftover-aarqamta qimugtelegnun tua-i tuntuaput, taumun qimugtelilriamun yugmun.\"",
+                "\"When we have leftovers, we give them to someone with dogs, a person with many dogs.\""
+            ],
+            "106": [
+                "13:01",
+                "\"Cat tua-i ayuqenrilnguut naunraat, au͡gkut-llu berries-aat\"",
+                "\"Various plants, and those berries\""
+            ],
+            "150": [
+                "17:32",
+                "\"Tau͡gaam tua-i engelqerrluta cumertecetullruitkut tua-i egtarkaunrilngurmek nang'arkamteńek.\"",
+                "\"They would only have us gather what was suitable for us, what wouldn't be thrown away, and that we would finish.\""
+            ],
+            "163": [
+                "19:04",
+                "\"Tan'gaurlurni nasaurlurni-llu niicugnisqelluci alerquutek'lallemteńek miklemteńi, wiinga-llu tan'gaurlullraullemni.\"",
+                "\"Boys and girls, I want you to listen to our traditional instructions when we were small, and when I was a little boy.\""
+            ],
+            "205": [
+                "24:36",
+                "\"Quyavkangnaqu'urluki, quyavkangnaqu'urluki tau͡gaam pisqelluki.\"",
+                "\"They were told to try to make them feel only gratitude.\""
+            ],
+            "218": [
+                "26:15",
+                "\"Tang cuqyucirluteng-llu qalartelallruut, canek imkunek makunek nallunrilkemteńek cuqyucirluteng.\"",
+                "\"You see, they also used to speak in metaphors, using these things we know as metaphors.\""
+            ],
+            "250": [
+                "31:07",
+                "\"Ekvicuarmiunek kitak' anglillerpenek cali qanemciteqerkut qaillun tamaani ayuq[ellratnek].\"",
+                "\"Please tell us about growing up in Eek, what they were like back then.\""
+            ],
+            "274": [
+                "34:36",
+                "\"Ellangellemni yugyaggallruuq.\"",
+                "\"In my earliest memories, there were pretty many people.\""
+            ],
+            "294": [
+                "37:18",
+                "\"Umyuarteqlemni Agayutem, Agayutem erneq una tekicetaa.\"",
+                "\"In my opinion, God has brought this day.\""
+            ],
+            "302": [
+                "38:35",
+                "\"Taumek tamakut kit'essuutet tua-i qeleksunarqut.\"",
+                "\"That's why you should keep those life jackets.\""
+            ],
+            "322": [
+                "41:33",
+                "\"Tamaa-i, tamaa-i tamatum nalliini ayagassuutengqertut qayanek.\"",
+                "\"Back in that time, they traveled with kayaks.\""
+            ],
+            "354": [
+                "45:22",
+                "\"Man'a kitak' cali: waten maa-i niiqurangelriakut qanruyutmek, qanruyutet niitnaunrirniluki.\"",
+                "\"This one too: now, we always hear that traditional wisdom is not heard anymore.\""
+            ],
+            "384": [
+                "49:40",
+                "\"Camek paiciryarcikut?\"",
+                "\"What would you leave with us?\""
+            ]
+        },
+        "elderTags": [
+            "23.49"
+        ],
+        "tags": [
+            "7",
+            "19.3.9.1",
+            "19.6.3",
+            "19.5.2",
+            "5.1",
+            "10.11",
+            "17.1.6",
+            "3.9.1",
+            "3.9.2",
+            "3.9.1.1",
+            "10.2.2",
+            "11.10",
+            "9.10.2",
+            "6",
+            "6.1",
+            "9.5.1.1",
+            "9.5.4",
+            "9.12",
+            "15.2",
+            "19.5",
+            "19.6.1",
+            "19.10.1",
+            "19.13.1",
+            "19.6.12",
+            "19.6.13",
+            "19.6.13.1",
+            "19.5.7",
+            "2.2.29",
+            "1.2",
+            "8.1.1.1",
+            "2.2.31",
+            "2.2.30",
+            "2.2.48",
+            "2.2.33",
+            "2.2.32",
+            "11.6",
+            "11.2.1",
+            "17.4.3",
+            "12.1.2",
+            "17.4.5",
+            "22.5"
         ]
     },
     "cpb-aacip-127-67wm3hhj.h264": {
@@ -6564,125 +7078,134 @@ export const summaries = {
         "title": "Ackiar Nick Lupie - # 65",
         "time": "31:05",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Uquuviar Olinka \"Ollie\" Andrew"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Kitak' qaillun up'ngelallruat waten uksumi?\"",
+                "\"So, how did they prepare in the winter like this?\""
+            ],
+            "78": [
+                "11:25",
+                "\"Tau͡gken cali makut arnat allakarmeng waten cikuvailgan-llu uptenglallruit anguteteng.\"",
+                "\"However, women would work separately before it froze to prepare things for their men.\""
+            ],
+            "126": [
+                "19:34",
+                "\"Tua-i mat'um nalliini-w' tua-i umyuaqaqamki au͡gkut qaill'-wa tua-i yuullruciit\"",
+                "\"These days, when I remember how they used to live back then\""
+            ],
+            "137": [
+                "21:24",
+                "\"Qaillun-mi uksuarmi iciw' waten ayagaqata iciw' inerquutek'lallrit angutet?\"",
+                "\"What about the admonishments they had for men, you know, when they traveled in the fall like this?\""
+            ]
+        },
         "elderTags": [
             "23.4"
         ],
         "tags": [
-            "2.2.30"
+            "2.2.30",
+            "17.6",
+            "7.4.2.1",
+            "3.1.2",
+            "22.12.2.1",
+            "7.4.1",
+            "17.1.6.1",
+            "19.13",
+            "16"
         ]
     },
-    "cpb-aacip-127-881jx4d6.h264": {
-        "videoID": "cpb-aacip-127-881jx4d6.h264",
-        "title": "Kumluilnguq Matthew Frye - # 87",
-        "time": "51:26",
+    "cpb-aacip-127-52j6qcr2.h264": {
+        "videoID": "cpb-aacip-127-52j6qcr2.h264",
+        "title": "Aqesgirpak Mary Worm - # 48",
+        "time": "1:03:36",
         "metadata": {
-            "Date": "Unknown"
-        },
-        "summary": {},
-        "elderTags": [
-            "23.49"
-        ],
-        "tags": [
-            "2.2.32"
-        ]
-    },
-    "cpb-aacip-127-89280sv6.h264": {
-        "videoID": "cpb-aacip-127-89280sv6.h264",
-        "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver - # 88",
-        "time": "1:04:11",
-        "metadata": {
-            "Date": "Unknown",
-            "interviewer": [
-                "Sophie Alexie"
-            ]
-        },
-        "summary": {},
-        "elderTags": [
-            "23.43",
-            "23.83"
-        ],
-        "tags": [
-            "2.2.38"
-        ]
-    },
-    "cpb-aacip-127-89r22kjv.h264": {
-        "videoID": "cpb-aacip-127-89r22kjv.h264",
-        "title": "Quriciq Nickolai K. Nicolai, Angut'aq Olinka Nickolai - # 89",
-        "time": "21:45",
-        "metadata": {
-            "Date": "Unknown",
-            "interviewer": [
-                "Aqumgaciq John Active"
-            ]
-        },
-        "summary": {},
-        "elderTags": [
-            "23.77",
-            "23.11"
-        ],
-        "tags": [
-            "2.2.39"
-        ]
-    },
-    "cpb-aacip-127-91sf7xm0.h264": {
-        "videoID": "cpb-aacip-127-91sf7xm0.h264",
-        "title": "Tuunralek Jimmy Chimegalrea - # 91",
-        "time": "29:55",
-        "metadata": {
-            "Date": "Unknown",
-            "interviewer": [
-                "Qang’allugaq Hazel Lincoln"
-            ]
-        },
-        "summary": {},
-        "elderTags": [
-            "23.81"
-        ],
-        "tags": [
-            "2.2.32",
-            "2.2.31"
-        ]
-    },
-    "cpb-aacip-127-945qg6jq.h264": {
-        "videoID": "cpb-aacip-127-945qg6jq.h264",
-        "title": "Liguaq Annabelle Olik - # 92",
-        "time": "22:07",
-        "metadata": {
-            "Date": "Unknown",
-            "interviewer": [
-                "Aqumgaciq John Active"
-            ]
-        },
-        "summary": {},
-        "elderTags": [
-            "23.51"
-        ],
-        "tags": [
-            "2.2.39"
-        ]
-    },
-    "cpb-aacip-127-956djvkd.h264": {
-        "videoID": "cpb-aacip-127-956djvkd.h264",
-        "title": "Oscar Anvil (?) - # 93",
-        "time": "22:10",
-        "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Kakianeq Adolph Lewis (Kuigilnguq)"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Aipangellruunga taumek, aipangellrulliniunga.\"",
+                "\"He became my husband or had become my husband.\""
+            ],
+            "10": [
+                "02:24",
+                "\"Nateqsigta tauna Isrimiu, Isrimiut Sevv'arnermiut natiitni?\"",
+                "\"Where exactly is Isriq, where were the people of Isriq from Chefornak?\""
+            ],
+            "24": [
+                "05:05",
+                "\"Aren, kiituani-tang yuarutii-llu elitarput.  Waten tang atuutullrulria tauna uurcaq tangvaurluku.\",",
+                "\"My, we even learned his song.  He sang like this with his eyes on that gaff holder.\""
+            ],
+            "42": [
+                "09:30",
+                "\"Tangerrluku ilungarluan wiinga-llu angalkurtellrulrianga.  Tang.\"",
+                "\"You see, my dear cousin I also was visited by a medicine man.  See.\""
+            ],
+            "95": [
+                "22:35",
+                "\"Kitak, kitak makut wani assilriit qanernailnguut angalkuut canek calilallruat?\"",
+                "\"Ok, ok, what did the good quiet shamans work on?\""
+            ],
+            "109": [
+                "25:47",
+                "\"Qalarucestemta imkut qalarutetullrukaitkut tuartang nunulriit.\"",
+                "\"Our speakers spoke to us like they were scolding.\""
+            ],
+            "120": [
+                "28:27",
+                "\"Tua-i taumek cali imna makunek call maa-i waten-llu imkulrianek makunek-wa qaneryariurtet ilaitnek yugnek.\"",
+                "\"So, now we have speakers of the good word (bible) who are our own people.\""
+            ],
+            "133": [
+                "31:37",
+                "\"Tauna tua-i qanemcitlallruakut cali taum Maurlumta ayuqucillminek.  Uingyaaqellruuq-gguq taumek angutet iliitnek angalkugmek-llu-gguq aprumaluni. Uini-gguq tauna tua-i murilkellrunritaa. Tua-i canianun-llu-gguq inarcuunani.  Itraqan-llu-gguq unugmi unitaqluku.\"",
+                "\"That one told us stories our Grandmother and how she was.  She got married to one of the men who was known as a medicine man.  She didn't watch her husband.  She didn't sleep by him.  When he came in at night, she left.\""
+            ]
+        },
         "elderTags": [
-            "23.69"
+            "23.15"
         ],
         "tags": [
-            "2.2.38"
+            "2.2.28",
+            "8.4",
+            "8.4.2",
+            "8.4.3",
+            "14"
+        ]
+    },
+    "cpb-aacip-127-988gtvzp.h264": {
+        "videoID": "cpb-aacip-127-988gtvzp.h264",
+        "title": "Wasky Walters - # 95",
+        "time": "3:28",
+        "metadata": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Usviilkelluki-llu, usviilkelluki-llu piksaunaki, cali acirturluki canek atqenrilkaitnek.\"",
+                "\"Don't tell them that they are crazy, also don't call them names, names that aren't theirs.\""
+            ],
+            "10": [
+                "01:30",
+                "\"Ca tamarmi-wa cimirtuq.\"",
+                "\"Everything is changing.\""
+            ]
+        },
+        "elderTags": [
+            "23.84"
+        ],
+        "tags": [
+            "2.2.9",
+            "19.13",
+            "19.15.2",
+            "19.10"
         ]
     },
     "cpb-aacip-127-96wwq9xv.h264": {
@@ -6690,12 +7213,42 @@ export const summaries = {
         "title": "Guy Mann, Cimiciaq Natalisia Smith, Jonathan Johnson, Jane Green - # 94",
         "time": "22:22",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Sophie Kusak"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Makut civuqliit pingnatullrat nalluku\"",
+                "\"They don't know how these ancestors worked hard to survive\""
+            ],
+            "19": [
+                "01:44",
+                "\"Imumi makuneng pingvailemta yuut assiq'apiarallruut tamalkurmeng.\"",
+                "\"A long time ago, before we had this these, every single person was extremely good.\""
+            ],
+            "52": [
+                "05:28",
+                "\"Maa-i takaitqapigtellriakut wangkuta taqestemteńun, Agayutmun taqestemteńun.\"",
+                "\"Now, we have absolutely no respect to our creator, God our creator.\""
+            ],
+            "75": [
+                "08:02",
+                "\"Cimiciaq.\"",
+                "\"Cimiciaq.\""
+            ],
+            "94": [
+                "09:21",
+                "\"Makut maa-i, makut maa-i medicine-aqlernaaput civuliamteńeng ayagluteng caqlat.\"",
+                "\"These are the medicine that we've always had starting from our ancestors, rosewort roots.\""
+            ],
+            "151": [
+                "14:39",
+                "\"Cali ukut nunat teggneqsagullua.\"",
+                "\"I am also now the elder of this village.\""
+            ]
+        },
         "elderTags": [
             "23.34",
             "23.27",
@@ -6703,22 +7256,205 @@ export const summaries = {
             "23.39"
         ],
         "tags": [
-            "2.2.17"
+            "2.2.17",
+            "13.3.1",
+            "8",
+            "22.12",
+            "22.12.2.2"
         ]
     },
-    "cpb-aacip-127-988gtvzp.h264": {
-        "videoID": "cpb-aacip-127-988gtvzp.h264",
-        "title": "Wasky Walters - # 95",
-        "time": "3:28",
+    "cpb-aacip-127-956djvkd.h264": {
+        "videoID": "cpb-aacip-127-956djvkd.h264",
+        "title": "Oscar Anvil (?) - # 93",
+        "time": "22:10",
         "metadata": {
-            "Date": "Unknown"
+            "interviewer": [
+                "Kakianeq Adolph Lewis (Kuigilnguq)"
+            ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Ava-i election-aallratni taangam tungiinun piciurtevkenani ayuqucimitun maa-i ayuqluni.\"",
+                "\"When they had an election about alcohol, it didn't pass, and it's how it has been.\""
+            ],
+            "45": [
+                "05:54",
+                "\"Wangkuta, wangkuta alerquuteput nalqapiararait ayagyuat\"",
+                "\"The young people know nothing about our traditional instructions\""
+            ],
+            "68": [
+                "08:46",
+                "\"Piicagyaraq pegcaqunaku.\"",
+                "\"Do not give up praying.\""
+            ],
+            "93": [
+                "11:53",
+                "\"Cali-llu makut mer'atunge'rmeng Kass'at alerquuteseng uniurrluku piyuilameng anguyagteńi\"",
+                "\"Also, though these Caucasians drink, because they don't break their rules in the army\""
+            ],
+            "105": [
+                "13:35",
+                "\"Ataucirqumek maligutellruunga, maligutellruunga kalikiulriamun.\"",
+                "\"One time, I went with the mail delivery.\""
+            ]
+        },
         "elderTags": [
-            "23.84"
+            "23.69"
         ],
         "tags": [
-            "2.2.9"
+            "2.2.38",
+            "22.5",
+            "19.5",
+            "8.1.5"
+        ]
+    },
+    "cpb-aacip-127-945qg6jq.h264": {
+        "videoID": "cpb-aacip-127-945qg6jq.h264",
+        "title": "Liguaq Annabelle Olik - # 92",
+        "time": "22:07",
+        "metadata": {
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Kitak' tamakunek qalamciarteqernga ak'allarnek nasaurluullevni up'nerkiyalallevnek.\"",
+                "\"Now, please tell me old stories of when you when to spring camp when you were a girl.\""
+            ],
+            "59": [
+                "06:15",
+                "\"Arnat-llu pingnaquratullruut tamaani murilkeqarraallemni.\"",
+                "\"Women would also subsist back when I first became observant.\""
+            ],
+            "72": [
+                "07:46",
+                "\"Tua-ll' qanerturallerpeni ava-i qanqallruuten Nanvarnarrlagmi, Nanvarnarrlagmiungullruniluten.\"",
+                "\"So, as you just spoke, you said that you were from Nanvarnarrlak.\""
+            ],
+            "121": [
+                "13:15",
+                "\"Kass'at amllellrunritut uani Mamterillerni.\"",
+                "\"There weren't a lot of Caucasians downriver in Bethel.\""
+            ],
+            "148": [
+                "16:40",
+                "\"Tan'gaurlurnun-llu caumateksaunata pilaasqelluta.\"",
+                "\"They also told us not to gravitate to boys.\""
+            ],
+            "165": [
+                "18:46",
+                "\"Yugtun qanruteqtarturalaryaaqanka.\"",
+                "\"I always speak to them in Yup'ik.\""
+            ]
+        },
+        "elderTags": [
+            "23.51"
+        ],
+        "tags": [
+            "2.2.39",
+            "16.2",
+            "9.7",
+            "9",
+            "1",
+            "19.13"
+        ]
+    },
+    "cpb-aacip-127-91sf7xm0.h264": {
+        "videoID": "cpb-aacip-127-91sf7xm0.h264",
+        "title": "Tuunralek Jimmy Chimegalrea - # 91",
+        "time": "29:55",
+        "metadata": {
+            "interviewer": [
+                "Qang’allugaq Hazel Lincoln"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Waten qanerluni Philippianes tayima 2:12\"",
+                "\"It says in Philippians 2:12\""
+            ],
+            "33": [
+                "04:04",
+                "\"Atam wiinga tua-i avani ella iqukluku qantullratni, anguanka au͡gkut ella iqukluku qantulriit.\"",
+                "\"You see, when they used to speak about the end of the world, I was born in time to see the ones who spoke about the end of the world.\""
+            ],
+            "41": [
+                "05:13",
+                "\"Ilait tegularluki qasgimek anulluki maqilallruut\"",
+                "\"They would carry some out of the community house to take sweat baths\""
+            ],
+            "79": [
+                "09:29",
+                "\"Meluk-gguq man'a tua-i allrakurtaaryaaqeciquq nunam iluani. Tua-i-gguq cangaringaituq.\"",
+                "\"They said that fish roe would be in the land year after year. They said it wouldn't spoil.\""
+            ],
+            "125": [
+                "14:27",
+                "\"Taukut tua-i kuimallratni yuk piyugngakan qaategtevkenaku piyugngataciatun tamaaken tegutesqelluku.\"",
+                "\"While those are swimming, if a person is able, he should not be lazy, but take as much as he can from them.\""
+            ]
+        },
+        "elderTags": [
+            "23.81"
+        ],
+        "tags": [
+            "2.2.32",
+            "2.2.31",
+            "8.1",
+            "21.2.1",
+            "5.1.3"
+        ]
+    },
+    "cpb-aacip-127-89r22kjv.h264": {
+        "videoID": "cpb-aacip-127-89r22kjv.h264",
+        "title": "Quriciq Nickolai K. Nicolai, Angut'aq Olinka Nickolai - # 89",
+        "time": "21:45",
+        "metadata": {
+            "interviewer": [
+                "Aqumgaciq John Active"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Makunek tua-ll' ak'alla'arnek apqauriukut maavet Kuigglugmun tailuta.\"",
+                "\"So, we came here to Kwethluk to ask about things of old.\""
+            ],
+            "53": [
+                "06:50",
+                "\"Kass'amek tangerqerraallruunga, elitnauckallruyaaqua.\"",
+                "\"I first saw a Caucasian, I went to school for a very short time.\""
+            ],
+            "76": [
+                "10:00",
+                "\"Wiinga-llu nukalpiarurrlua anglirilua.\"",
+                "\"And I grew up to be in my prime.\""
+            ],
+            "102": [
+                "14:29",
+                "\"Kuigglugmiunguniama atam uitauraqerluni maktell' ingleminek.\"",
+                "\"When I said I was from Kwethluk, you see, he stayed still then got up from his bed.\""
+            ],
+            "147": [
+                "20:16",
+                "\"Ilumun niicuirutut qanruyutnek.\"",
+                "\"Indeed, they don't hear about traditional wisdom anymore.\""
+            ]
+        },
+        "elderTags": [
+            "23.77",
+            "23.11"
+        ],
+        "tags": [
+            "16.2.2",
+            "4.3",
+            "2.2.39",
+            "19.5",
+            "21.1"
         ]
     },
     "cpb-aacip-127-98mcvs0p.h264": {
@@ -6726,18 +7462,141 @@ export const summaries = {
         "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver - # 96",
         "time": "22:23",
         "metadata": {
-            "Date": "Unknown",
             "interviewer": [
                 "Sophie Alexie"
             ]
         },
-        "summary": {},
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Mat'ukun wangkuta yuilqurmiutarmun kuigmiutarmun-llu neqnek-llu unangengnaqtullruukut.\"",
+                "\"Through this, we used to try to get land and river animals, and fish.\""
+            ],
+            "7": [
+                "00:48",
+                "\"Cali-llu elliraat\"",
+                "\"And orphans\""
+            ],
+            "23": [
+                "02:50",
+                "\"Iliini unuakumi wiinga imum aanama tamaani ayagyuarlua pilaqiinga maktaqama\"",
+                "\"Some mornings when I was young back then, my mother would tell me when I got up\""
+            ],
+            "50": [
+                "06:21",
+                "\"Wiinga-llu ellma angucuayaallruaqa tamana tuaten uitalallrat enepigni marayani.\"",
+                "\"I was also born on the cusp of that time, when they lived in traditional sod houses.\""
+            ],
+            "100": [
+                "13:01",
+                "\"Ikayuutektullruaput tua-i\"",
+                "\"That's how we helped others\""
+            ]
+        },
         "elderTags": [
             "23.43",
             "23.83"
         ],
         "tags": [
-            "2.2.38"
+            "2.2.38",
+            "9.2",
+            "4.5",
+            "22.3",
+            "19.6.13"
+        ]
+    },
+    "cpb-aacip-127-89280sv6.h264": {
+        "videoID": "cpb-aacip-127-89280sv6.h264",
+        "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver - # 88",
+        "time": "1:04:11",
+        "metadata": {
+            "interviewer": [
+                "Sophie Alexie"
+            ]
+        },
+        "summary": {
+            "1": [
+                "00:00",
+                "\"Mat'ukun wangkuta yuilqurmiutarmun, kuigmiutarmun-llu, neqnek-llu unangengnaqtullruukut.\"",
+                "\"With this, we'd try to catch wilderness animals, riverine animals, and fish.\""
+            ],
+            "26": [
+                "03:09",
+                "\"Kitaki qakemkut yuut paqeski.\"",
+                "\"Now, go out there and check on the people.\""
+            ],
+            "85": [
+                "10:30",
+                "\"Tua-i-gguq tamakut tungelququtellriit ilateng ikayuapiatullruit cakneq.\"",
+                "\"She said those families helped their relatives a lot.\""
+            ],
+            "187": [
+                "23:37",
+                "\"Kenkut'seng mikelngurnun tua-i qanrutkeqerniaran nallunritetacirpegun.\"",
+                "\"Talk about how much you know about their love for children.\""
+            ],
+            "241": [
+                "28:42",
+                "\"Qurrellranun teq'urranun uqlautevkayuitellruat.\"",
+                "\"They never let them be soiled by their urine.\""
+            ],
+            "273": [
+                "31:57",
+                "\"Inerqulaqiu erinan tapirpek'naku.\"",
+                "\"Admonish them without adding to your voice.\""
+            ],
+            "315": [
+                "36:11",
+                "\"Tangvallruamku aanaka ciuqlirmek irnillemni aulukillra.\"",
+                "\"Since I watched my mother taking care of me in my first childbirth.\""
+            ],
+            "343": [
+                "39:12",
+                "\"Tua-ll' cali mikelnguut kenciyaraatnek\"",
+                "\"Then also, watching over children respectfully\""
+            ],
+            "398": [
+                "45:22",
+                "\"Makunek alingnarqellrianek pitaqamta qavani, taqukanek-llu, tan'gerlinek-llu\"",
+                "\"When we catch those dangerous things upriver, including grizzly bears, and black bears\""
+            ],
+            "425": [
+                "48:14",
+                "\"Tua-i anernera tauna tuantelalliuq nakacuani. Tuancukluku pilarngatait.\"",
+                "\"Its spirit might be there in its bladder. I think they say it's in the bladder.\""
+            ],
+            "437": [
+                "49:28",
+                "\"Tua-i taum angalkum tuaten pivkarluku tamakunun ungavalriat nuniitnun.\"",
+                "\"The shaman did that, [sending] him to the place of those living beings.\""
+            ],
+            "468": [
+                "52:24",
+                "\"Taqesqenrilengraiciteng tau͡ga tamana tamaa-i aturnanrillruat.\"",
+                "\"Though they weren't told to stop, they stopped practicing that.\""
+            ],
+            "511": [
+                "56:48",
+                "\"Tamakut-llu piyagauluki pisqevkenaki, mikelnguuluki.\"",
+                "\"And never to [hunt] them when they're chicks, when they're small.\""
+            ]
+        },
+        "elderTags": [
+            "23.43",
+            "23.83"
+        ],
+        "tags": [
+            "2.2.38",
+            "19.6.12",
+            "19.6.13",
+            "21.4.1",
+            "22.2",
+            "14.6.1",
+            "5.3.6",
+            "20.3.1",
+            "8.4",
+            "8.1",
+            "9.1"
         ]
     }
 };

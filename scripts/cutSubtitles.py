@@ -128,8 +128,7 @@ def restructureJson(jsonFilename, summariesFile, categoriesFile, jsonFilenameNew
 									'nextAudioKey': '',
 									'content': { 
 										'type':'interview',
-										'source': 'KYUK',
-										'collection': 'Waves of Wisdom',
+										'source': 'KYUK - Ciuliamta Paiciutait',
 										'link':link,
 										'startTime': str(jsonFile[subtitle]['startTime']),
 										'endTime': str(jsonFile[subtitle]['endTime']),

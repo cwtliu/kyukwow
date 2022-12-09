@@ -1,440 +1,436 @@
-1
+﻿1
 00:00:00,000 --> 00:00:09,051
-Aa, wiingaug' iinga atauciikan aipaqngailkeka. 
+Aa, wiinga-w' iinga atauciukan aipaqngailkeka.
 
 2
 00:00:09,270 --> 00:00:22,220
-Aren tuai cunaug tang qanruskeng... qanruskengaini tamalkumta umyuarteqlallinilr iakut. 
+Aren tua-i cunaw' tang qanruskeng... qanruskengaini tamalkumta umyuarteq'lallrullinilriakut.
 
 3
 00:00:22,939 --> 00:00:31,463
-Ukut-llu iluraanka cali taui tuaten umyuangqelallrulliniut wangtun.
+Ukut-llu iluraanka cali tua-i tuaten umyuangqelallrulliniut wangtun.
 
 4
 00:00:32,567 --> 00:00:39,567
-Aren tuai, tuaten tuai ayuqurlulallruukut.
+Aren tua-i, tuaten tua-i ayuqu'rlulallruukut.
 
 5
 00:00:39,999 --> 00:00:50,729
-Tuai tamakut qanrucetemta qanrutkellrit asgurakvakarpeknaki, taugaam ukvekluki. ,
+Tua-i tamakut qanrucetemta qanrutkellrit asgurakvakarpek'naki, tau͡gaam ukvekluki.
 
 6
 00:00:53,632 --> 00:01:07,162
-Tayima una wani qanrucuunailnguq.  Qanrucunailnguut qaillun tamaani tangerrluki ciunerkait nallunritlallruitki?
+Tayima una wani qanrucunailnguq. Qanrucunailnguut qaillun tamaani tangerrluki ciunerkait nallunrit’lallruitki?
 
 7
 00:01:07,683 --> 00:01:20,054
-Qanrucuunailnguut qanrucaaqerraarluki qanruyutseng atunritaqatgu waten pilallruit imkut qalartetullret.
+Qanrucunailnguut qanrucaaqerraarluki qanruyutseng atunritaqatgu waten pilallruit imkut qalartetullret.
 
 8
 00:01:20,754 --> 00:01:24,054
-Aa, tuai tuaten ayuquraa.
+Aa, tua-i tuaten ayuquraa.
 
 9
 00:01:25,178 --> 00:01:31,930
 Umyuarpet assikekngaa tekiskuvgu angiciyaaqelarniartuten qanruyutevnek.
 
 10
-00:01:32,937 --> 00:01:32,950
-empty
+00:01:32,950 --> 00:01:45,512
+Niitengerpet maligtaqutellrunriten elpenek qessanayularyaaqniartuten.
 
 11
-00:01:32,950 --> 00:01:45,512
-Niiteng'erpet  maligtaqutellrunriten elpenek qessanayularyaaqniartuten.
+00:01:45,804 --> 00:01:52,162
+Ca, camek, kitek ayuqeltassiigucirluku tangllerpenek tauna cali qanrutkeqerru.
 
 12
-00:01:45,804 --> 00:01:52,162
-Ca, camek, kitek ayuqestassiigucirluku tangllerpenek tauna cali qanrutkeqerr'u.
-
-13
 00:01:52,476 --> 00:01:56,312
 Ca tangellren elpet, tangellren
 
-14
+13
 00:01:56,750 --> 00:01:59,940
-tamakut qanruteklallrat elpet niilluki;
+tamakut qanrutek’lallrat elpet niilluki;
+
+14
+00:02:01,337 --> 00:02:05,003
+cauga tauna wani, ayuqeltassiiguciqerluten?
 
 15
-00:02:01,337 --> 00:02:05,003
-cauga tauna wani, ayuqestassiiguciqerrluten?
+00:02:06,447 --> 00:02:10,340
+Tua-i-wa, tauna-qaa qanrucunailnguq?
 
 16
-00:02:06,447 --> 00:02:10,340
-Tuai-wa, tauna-qaa qanrucunailnguq?
+00:02:10,431 --> 00:02:12,971
+Ii, qanrucunailnguq tuaten qanrutek’lallrat.
 
 17
-00:02:10,431 --> 00:02:12,971
-Ii, qanrucuunailnguq tuaten qanruteklallrat.
+00:02:13,463 --> 00:02:17,268
+Elpet iivkun tangerrluku tuatnalleq.
 
 18
-00:02:13,463 --> 00:02:17,268
-Elpet iigpegun tangerrluku tuatnalleq.
+00:02:17,507 --> 00:02:22,268
+Ca imna angi...ca taum angicugyaaqelallrua?
 
 19
-00:02:17,507 --> 00:02:22,268
-Ca ima angi...ca taum angicugyaaqelallrua?
+00:02:22,907 --> 00:02:33,317
+Tua qanrucunailkelallrit tamaaggun tua-i niiteksaitelallratgun tangvalallruanka.
 
 20
-00:02:22,907 --> 00:02:33,317
-Tua qanrucuunailkelallrit tam'aaggun tuai niiteksaitelallratgun tangvalallruanka.
+00:02:33,736 --> 00:02:48,500
+Nallunritellruanka yuk’egtauvkenateng ilameggnek ayuqniarluteng catulrianek pitulrianek ayuqniarluteng anrutamegteggun wall' qaimegteggun.
 
 21
-00:02:33,736 --> 00:02:48,500
-Nallunritellruanka yukegtauvkenateng ilameggnek ayuqniarluteng catulrianek pitulrianek ayuqniarluteng anrutamegteggun wall' qaimegteggun.
+00:02:48,887 --> 00:03:01,700
+Yuulallruut tamakut qanruyutem artuqai. Tamakut ellmegnek maligtaqutenrilnguut qanruyutmeggnun.
 
 22
-00:02:48,887 --> 00:03:01,700
-Yuulallruut tamakut qanru, qanruyutem artuqai.  Tamakut ellmegnek maligtaqutenrilnguut qanruyutmeggnun.
+00:03:02,100 --> 00:03:18,166
+Nangteqluteng yuulallruut elluamiuvkenateng tua-i imkurluteng camek nuuqiuterluteng. Ca tamalkuan nuuqiutekluku.
 
 23
-00:03:02,100 --> 00:03:18,166
-Nangteqluteng yuulallruut elluamiuvkenateng tuai imkurluteng camek nuuqiuterluteng. Ca tamalkuan nuuqiutekluku.
+00:03:18,800 --> 00:03:29,533
+Tua-i, waten ak'anun-llu yuuyuunateng. Ak'anun unguvayuunateng tuaten umyuarteng aturluku yuulriit.
 
 24
-00:03:18,800 --> 00:03:29,533
-Tuai, waten ak'anun'llu yuuyuunateng. Ak'anun unguvayuunateng tuaten umyuarteng aturluku yuulriit.
+00:03:30,319 --> 00:03:46,833
+Ak'anun unguvayuunateng. Tang ilumun tua-i piciutacia au͡gkut qanrutkelallrat. Ak'anun unguvayuunateng. Tua-i naullungualukarluteng yuunriqerraqluteng catairtaqluteng.
 
 25
-00:03:30,319 --> 00:03:46,833
-Ak'anun unguvayuunateng.  Tang ilumun tuai piciutacia augkut qanrutkelallrat.  Ak'anun unguvayuunateng.  Tuai naullungualukarluteng yunriqerraqluteng catairtaqluteng.
+00:03:47,798 --> 00:03:59,766
+Maa-i, maa-i ernerput, ernerput wani, ernerput tekitan, una wani tekitan. Kitak ernemteńi maa-i
 
 26
-00:03:47,798 --> 00:03:59,766
-Maai, maai ernerput ernerput wani-a ernerput tekitan unawani tekitan. Kitak ernemteni maai
+00:04:00,268 --> 00:04:15,399
+murilkellerpeni ak'a avani, tayima yuunertunruqalalliut. Qaillun cangallrua elpeni qanrucunailnguq ernemteńi yuullra?
 
 27
-00:04:00,268 --> 00:04:15,399
-murilkellerpeni ak'a avani, tayima yuunertunruqalalliut.  Qaillun cangallrua elpeni qanrucuunailnguq ernemteni yuullra?
+00:04:17,233 --> 00:04:28,750
+Ernemteńi-qaa? Ya, ernemteńi waniwa wangkuta elpet wiinga ernemegni, cukanruutqaa catairutellrat wall'u-qaa qaill’ ayuqa?
 
 28
-00:04:17,233 --> 00:04:28,750
-Ernemteni-qaa?  Ya, ernemteni waniwa wangkuta elpet wiinga ernemegni, cukanruutqaa catairutellrat wall'uqaa qaill ayuqa?
+00:04:28,834 --> 00:04:39,800
+Tua-i cukanruluteng tamakut qanrucunailnguut imkuni qanruyutmeggnun maligtaqutellriani cukanruluteng.
 
 29
-00:04:28,834 --> 00:04:39,800
-Tuai cukanruluteng tamakut qanrucunailnguut imkuni qanruyutmeggnun maligtaqutellriani cukanruluteng.
+00:04:40,242 --> 00:04:56,100
+Cukanruluteng. Man'a-llu yuugurallrat cukanruluni. Arnat arnaurteturnirluteng wall'u angutait-llu angutngurteturnirluteng. Tangrriu.
 
 30
-00:04:40,242 --> 00:04:56,100
-Cukanruluteng.  Man'a-llu yuugurallrat cukanruluni.  Arnat arnaurteturnirluteng wall'u angutait-llu angutngurteturnirluteng.  Tangriu.
+00:04:57,846 --> 00:05:06,567
+Tua-i waten ayuquq man'a. Tuaten tua-i... cukatatkevkenateng.
 
 31
-00:04:57,846 --> 00:05:06,567
-Tuai waten ayuquq man'a.   Tuaten tuai... cukatatkevkenateng.
+00:05:06,791 --> 00:05:23,066
+Tau͡gken imkut qanruyutmeggnun maligtaququrautellriit yuullrat man'a cukavkenani tuar ayuqelria. Cukavkenani ayuqelriarulriatun ayuqluni.
 
 32
-00:05:06,791 --> 00:05:23,066
-Taugken imkut qanruyutmeggnun maligtaququrautellriit yuullrat man'a cukavkenani tuar ayuqelria.  Cukavkenani ayuqelriarulriatun ayuqluni.
+00:05:23,493 --> 00:05:39,033
+Tangerrluku. Tua-i waniwa tua-i. Icivaq-llam ing'um ataurlurpeci-am piicaucarturturalaraanga tekiartaqami Kangirnamun.
 
 33
-00:05:23,493 --> 00:05:39,033
-Tangerrluku.  Tuai waniwa tuai. Icivaqlam ing'um ataurlurpeci-am piicaucarturturalar'aanga tekiartaqami Kang'irnamun.
+00:05:39,951 --> 00:06:01,300
+Tua-i piicaucarturlua-am itlermini tua-i quyaurlulria cakneq. "Aling ilungaurluuq quyanaqvaa tanem tangellren tauna tua-i umyuarpenek-am tuar tua-i utumaluten yuulalriaten. Tangellren quyanaqluni." Pilaraanga-am.
 
 34
-00:05:39,951 --> 00:06:01,300
-Tuai piicaucarturlua-am itlermini tuai quyaurlulria cakneq.  "Aling ilungaurluuq quyanaqvaatanem tangellren tauna tuai umyuarpenek-am tuar tuai utumaluten yuulalriaten.  Tangellren quyanaqluni."  Pilaraangaa-am.
+00:06:01,818 --> 00:06:22,966
+Pila’arqa, "Tua-i niitelalqa aturluku waniwa ayuqeqcaaralarnilua. Wiinga-llu aliayulqa maliggluku yuukuma, tua-i wangnek pingaitelliniama. Imkut tau͡gaam ayagcianka nangtarkaulliniamki."
 
 35
-00:06:01,818 --> 00:06:22,966
-Pilaarqa, "Tuai niitelalqa aturluku waniwa ayuqeqcaaralarnilua.  Wiinga-llu aliayulqa maliggluku yuukuma, tuai wangnek pingaitelliniama. Imkut taugaam ayagcianka nangtarkaulliniamki."  
+00:06:23,603 --> 00:06:37,466
+Waten nangteqelqa maliggluku yuukuma nangtarkaulliniamki. Waniw’ tua-i waten canrilngurnun ugglua umyuameggnek utumalrianek.
 
 36
-00:06:23,603 --> 00:06:37,466
-Waten nangteqelqa maliggluku yuukuma nangtarkaulliniamki.  Waniug tuai waten canrilngurnun ugglua umyuameggnek utumalrianek.
+00:06:37,869 --> 00:06:46,466
+Utumalriit uggvikluki. Waniw’ tua-i ayuquralarnilua waten elliryaaqengerma naparma.
 
 37
-00:06:37,869 --> 00:06:46,466
-Utumalriit uggvekluki. Waniug tuai ayuquralarnilua waten elliryaaqeng'erma naparma.  
+00:06:47,124 --> 00:06:59,533
+Tua-i-gguq, ilumun. Yuum ayuqucia tua-i ava-i maniqerniluku-am qanertuq. Yuum-gguq ayuqucia ilumun manian.
 
 38
-00:06:47,124 --> 00:06:59,533
-Tua-i-gguq, ilumun.  Yuum ayuqucia tuai avai maniqerniluku-am qanertuq.  Yuum-gguq ayuqucia ilumun manian.
+00:06:59,824 --> 00:07:11,333
+Ilii-gguq man'a yuum waten tua-i umyuami aliayullra maligtaquurpakarluku yuulria
 
 39
-00:06:59,824 --> 00:07:11,333
-Ilii-gguq man'a yuum waten tuai umyuami aliayullra maligtaquurpakarluku yuulria
+00:07:11,706 --> 00:07:26,466
+aliayullni maligtaquurpakarluku yuulria egilrallra-llu cukalartuq. Ilumun tua-i ayuqucianek qanqaurlurtuq. Mikelnguuyaaqluni ingna.
 
 40
-00:07:11,706 --> 00:07:26,466
-aliayullni maligtaquurpakarluku yuulria egilrallraallu cukalartuq.  Ilumun tuai ayuqucianek qanqaurlurtuq.  Mikelnguuyaaqluni ingna.
+00:07:27,054 --> 00:07:36,799
+Wangni mikelnguuyaaqluni tan'gaurluullra canimelnguq, canimecaaqelria. Piaqa-am, "Tangerrluku,
 
 41
-00:07:27,054 --> 00:07:36,799
-Wangni mikelnguuyaaqluni tan'gaurrluullra canimelnguq, canimecaaqelria.  Piaqaa'am, " Tangerrluku,
+00:07:37,520 --> 00:07:46,566
+Tua-i wani-w' tangerqevnga. Caunricaaqelriaten-llu elpet. Cayaqlirluten-llu yuurtellruavet.
 
 42
-00:07:37,520 --> 00:07:46,566
-Tuai waniug tangerqevnga.  Caunricaqelriaten-llu elpet.  Cayaqlirluten-llu yuurtellruavet.
+00:07:47,030 --> 00:07:59,999
+Tua-i man'a maa-i qanruyukar waten taringecurlanrilngurmi uitaarkaucia-am waten neq'aqercet’laqen waten qanraqavet.
 
 43
-00:07:47,030 --> 00:07:59,999
-Tuai man'a maai qanruyukar waten taringecurlanrilngurmi uitaarkaucia-am waten neq'aqercetlaqen waten qanraqavet.
+00:08:00,268 --> 00:08:11,499
+Atauwauguten. Kiirrarpet-llu napacin cali una napangucin angurrluk uuruteksaqunaku, ilungaurluu." pila’arqa-am.
 
 44
-00:08:00,268 --> 00:08:11,499
-Atauwauguten.  Kiirrarpet-llu napacin cali una napangucin angurrluk uurruteksaqunaku, ilungaurluu."  pilaarqaa-am.
+00:08:12,387 --> 00:08:25,699
+"Uuruteksaqunaku. Iqua tekicungkumteggu tua-i tekiskumteggu kingunrat-ggun imkut maligciiqapuk." Tua-i-am angqaurlulartuq qaill’ pivkenani.
 
 45
-00:08:12,387 --> 00:08:25,699
-"Uuruteksaqunaku.  Iqua tekicungkumteggu tuai tekiskumteggu kingunrat-ggun imkut maligciiqapuk."  Tua-i-am angqaurlulartuq qailpivkenani.  
+00:08:41,417 --> 00:08:55,458
+Atauciq tayima elpet paiciucukngan wangkutnun kingunerpenun ca arcaqerluku elpet paiciucukngan qanrutkeqerru.
 
 46
-00:08:41,417 --> 00:08:55,458
-Atauciq tayima elpet paiciucukngan wangkutnun kingunerpenun ca arcaqerluku elpet paiciucukngan qanrutkeqerr'u.
+00:08:56,288 --> 00:09:08,083
+Tua-i waniwa au͡gkut ava-i qanrutkellrenka paiciutekpigainalriatun waniwa ayuqanka.
 
 47
-00:08:56,288 --> 00:09:08,083
-Tua-i waniwa augkut avai qanrutkellrenka paiciutekpigainalriatun waniwa ayuqanka.
+00:09:08,658 --> 00:09:29,749
+Tua-i niisnganrilnguq qanruyutminun tua-i tuaten au͡gkucicetun ava-i niisnganrilngurtun ayuqeciquq. Niisnganrilngurtun ayuqeciquq cam nurluku, atu’urkaan nurluku
 
 48
-00:09:08,658 --> 00:09:29,749
-Tua-i niisnganrilnguq qanruyutminun tua-i tuaten augkucicetun avani niisnganrilngurtun ayuqeciquq.  Niisnganrilngurtun ayuqeciquq cam nurluku, atuurkaan nurluku
+00:09:30,952 --> 00:09:46,374
+Tua-i taugken imna nutaan qanrucunarqelria tua-i cali pik'a ciunrani paivngaqaaqluni. Ciunrani paivngaqaaqluni ayagpakarluni tekitaqluku.
 
 49
-00:09:30,952 --> 00:09:46,374
-Tua-i taugken imna nutaan qanrucunarqelria tuai cali pik'a ciunrani paivngaqaaqluni.  Ciunrani paivngaqaaqluni ayagpakarluni tekitaqluku.
+00:09:47,040 --> 00:09:55,916
+Tuaten ayuqeciquq. Asgurtanrilnguq.
 
 50
-00:09:47,040 --> 00:09:55,916
-Tuaten ayuqeciquq.  Asgur...asgurtanrilnguq.
+00:09:56,716 --> 00:10:17,541
+Asgurtalriit tau͡gaam qanruyutmeggnek tua-i tuaten ayuqelartut cam nurluki. Cam nurluki camek piicugluteng tua-i piilutiit piluni paivngayugpagluni.
 
 51
-00:09:56,716 --> 00:10:17,541
-Asgurtalriit taugaam qanruyutmeggnek tua-i tuaten ayuqelartut cam nurluki.  Cam nurluki camek piicugluteng tua-i piilutiit piluni paivngayugpagluni.
+00:10:17,993 --> 00:10:27,416
+Cali man'a akusrarun maa-i ilaitnek yuut allurkengelriatun ayuqelartuq atu’urkaatnek.
 
 52
-00:10:17,993 --> 00:10:27,416
-Cali man'a akusrarun maai ilaitnek yuut allurkengelriatun ayuqelartuq atuurkaatnek.
+00:10:28,229 --> 00:10:40,791
+Tuar atuurkarteng akusrarcullermeggnun navrutaqluku. Navrulluku tua-i atu’urkarugateng imkut akusrarcullermeggnun tun'aqluki.
 
 53
-00:10:28,229 --> 00:10:40,791
-Tuar atuurkarteng akusrarcullermeggnun navrutaqluku.  Navrulluku tuai atuurkarugateng imkut akusrarcullermeggnun tun'aqluki.
+00:10:41,259 --> 00:10:59,499
+Akleng, cali maa-i akusrarculriit mat'umek apqiitnek taangamek mat'umek-llu kuingillermek, tuarpiaq tang imna tamatum imum aturyukngaata anguyakai.
 
 54
-00:10:41,259 --> 00:10:59,499
-Akleng, cali maai akusrarculriit mat'umek apqiitnek taang'amek mat'umek-llu kuingillermek, tuarpiaq tang imna tamatum imum aturyukngaata anguyakai.
+00:11:00,169 --> 00:11:12,124
+Tua-i ellmeggnek anernerteng-llu tunelriatun ayuqaqluku tamaaggun. Tua-i pillerkaa nurr’ ukatairrluku tayim nalluyagutaqluteng.
 
 55
-00:11:00,169 --> 00:11:12,124
-Tuai ellmeggnek anernerteng-llu tunelriatun ayuqaqluku tam'aaggun.  Tuai pillerkaa nurr ukatairrluku tayim nalluyagutaqluteng.
+00:11:14,354 --> 00:11:36,124
+Maa-i tua-i yuut ayuquciqsaguskiit man'a, man'a maa-i taangaq kuingillermek-llu mat'umek aipirluku. Umyugaitnarqelria man'a atungnaqu’urluku. Ayuqelriit tua-i anernerteng kep’laqiit tamaaggun-llu.
 
 56
-00:11:14,354 --> 00:11:36,124
-Maai tuai yuut ayuquciqsaguskiit man'a, man'a maai taang'aq kuingillermek'llu mat'umek aipirluku.  Umyugaitnarqelria man'a atungnaquurluku.  Ayuqelriit tuai anernerteng keplaqiit tamaggun-llu.
+00:11:36,457 --> 00:11:48,999
+Imutun kepelriatun ayuqelaqiit. Qununaqsaaqaqluteng cakneq kingunrulriani. Qununaqsaaqaqluteng angtuamek.
 
 57
-00:11:36,457 --> 00:11:48,999
-Imutun kepelriatun ayuqelaqiit.  Qununaq qununaqsaaqaqluteng cakneq kingunrulriani.  Qununaqsaaqaqluteng angtuamek.
+00:11:49,944 --> 00:12:05,874
+Tua-i waniw' maa-i mat'um nalliini mat'um atuqengamta nalliini yuut ayuquciqsaguskiit tamarmeng nunat yuita.
 
 58
-00:11:49,944 --> 00:12:05,874
-Tuai waniug maai mat'um nalliini mat'um atuqengamta nalliini yuut ayuquciqsaguskiit tamarmeng nunat yuita.
+00:12:06,423 --> 00:12:15,124
+Tamarmeng ellarpiim yuan atungnaqengluku man'a maa-i wagg’uq man' taangaq.
 
 59
-00:12:06,423 --> 00:12:15,124
-Tamarmeng ellarpiim yuan atunglu.. atungnaqengluku man'a maai wag'uq man' taangaq.
+00:12:16,001 --> 00:12:21,958
+Wangkuta call' imumi ciungatni imumi taangatullruyaqukut arulatanek.
 
 60
-00:12:16,001 --> 00:12:21,958
-Wangkuta call' imum ciungatni imumi taangatullruyaqukut arulatanek.
+00:12:23,003 --> 00:12:39,333
+Arulatanek taangatullruyaaqukut. Imna-llu wii aipaqa kass'anun ayaggaarluni-ll' tekitnaurtuq missuugmek uumek missuugpallermek tekiulluni papinek imalegmek.
 
 61
-00:12:23,003 --> 00:12:39,333
-Arulatanek taangatullruyaaqukut. Imna-llu wii aipaqa kass'anun ayagaarrlunill' tekitnaurtuq missuugmek uumek miss'ugpallermek tekiulluni papinek imalegnek.
+00:12:40,663 --> 00:12:53,833
+Una-w’, ukugnek-llu cali missuugegnek malrugnek saarralarpallraagnek imkugnek tekiutnaurtuq. Aipaa tuavet atuugarkauluni papinun.
 
 62
-00:12:40,663 --> 00:12:53,833
-Unaug, ukugnek-llu cali miss'uugegnek malrugnek saarralarpallraagnek imkugnun tekiutnaurtuq.  Aipaa una atuugarkauluni papinun.
+00:12:55,146 --> 00:13:06,958
+Aren, wiinga-llu ciunrani wani kenirraarluki papit passiluki. Passirraarluki puckar’ au͡g’ imi’irqamku
 
 63
-00:12:55,146 --> 00:13:06,958
-Aren, wiinga-llu ciunranri wani keniraarluki papit passiluki.  Passiiraarluki puckar aug imiirqamku
+00:13:07,541 --> 00:13:18,666
+tua-i tuaten tua-i ayuqucirkaat nallunrirluku. Yuurqaaraat imkut umyuaqurluki imiraqluku puckaq imna.
 
 64
-00:13:07,541 --> 00:13:18,666
-tuai tuaten tuai ayuqucirkaat nallunrirluku.  Yuurqaaraat imkut umyuaqurluki imiraqluku puckaq imna.
+00:13:19,952 --> 00:13:27,124
+Ayivrem-llu anrutaanek patuluku. Ketrirluku tua-i cagnilluku.
 
 65
-00:13:19,952 --> 00:13:27,124
-Ayivrem-llu anrutaanek patuluku.  Ketrirluku tuai cagnilluku.
+00:13:28,021 --> 00:13:37,416
+Ketrirluku. Tua-i-ll’ piqerluni imna puckam imna patua qerruryarturluni.
 
 66
-00:13:28,021 --> 00:13:37,416
-Ketrirluku.  Tua-ill piqerluni imna puckam-imna patua qerr'uryarturluni.
+00:13:38,678 --> 00:13:46,374
+Qerruumaluni-ll’ erenregni malrugni. Pingayurkaagni-ll’ atraqanirluni.
 
 67
-00:13:38,678 --> 00:13:46,374
-Qerr'uumalunill erenregni malrugni.  Pingayurkaagnill atraqanirluni.
+00:13:47,300 --> 00:14:01,749
+Tua-i atrarluni atraan ikirrnaurput, ikirrnaurput kit’elliinilriit imkut tayim papit. Mana-w’ painga ecuitepiaq.
 
 68
-00:13:47,300 --> 00:14:01,749
-Tuai atrarluni atraan ikirnaurput ikirpaurput kitelliinilriit imkut tayim papit.  Manaugg painga ecuitepiaq.
+00:14:03,374 --> 00:14:16,208
+Aren, qaluuricirluku tua-i cat makut imirluki. Saaniiget-llu imirluki. Sanigpiit wall'u egatet imirluki. Patulget imirluki.
 
 69
-00:14:03,374 --> 00:14:16,208
-Aren, qal'uuricirluki tuai cat makut imirluki.  Essaaniiget-llu imirluki.  Ess'anigpiit wall'u eg'atet imirluki.  Patulget imirluki.
+00:14:17,104 --> 00:14:25,708
+Kingunra-ll’ cali kan'a qalutnermek saarralirluku arulaarrluku. Ayagarrluni-llu.
 
 70
-00:14:17,104 --> 00:14:25,708
-Kingunrall cali kan' qalutnermek saaralirluku arulaarrluku.  Ayagarrluni-llu.
+00:14:26,464 --> 00:14:40,708
+Tamana tamakut-llu imkut aturluki tua-i aturluki arenqianateng tau͡gaam tua-i tuaten tua-i waten makucetun pitaluteng piksaitelallruut.
 
 71
-00:14:26,464 --> 00:14:40,708
-Tamana tamakut-llu imkut aturluki tuai aturluki arenqianateng taugaam tuai tuaten tuai waten makucetun pitaluteng piksaitelallruut.
+00:14:41,355 --> 00:14:52,833
+Kenkutellrat cakaniutevkenani pilallruut. Equkutevkenateng. Assikluteng tau͡gaam. Assikulluteng.
 
 72
-00:14:41,355 --> 00:14:52,833
-Kenkutellrat cakaniutevkenani pilallruut.  Equkutevkenateng.  Assikluteng taugaam.  Assikulluteng.
+00:14:55,208 --> 00:15:10,708
+Tua-i arulacinanri-ll’... caqerlua tua-i kia ua cakmani nunapigmi neqliuratullruamta. Caqerlua piaqa imna Acill'aq.
 
 73
-00:14:55,208 --> 00:15:10,708
-Tuai arulaciinanrill...caqerlua tuai kia ua cakmani nunapigmigmi neqliuratullruamta.  Caqerlua piaqa imna Acill'aq.
+00:15:11,580 --> 00:15:21,708
+"Tua-i wii waniw’ kelengraatnga taangatulriit niisngairutua. Tua-i taqeqatartua. Amlleriuq atullra au͡g’um taangam.
 
 74
-00:15:11,580 --> 00:15:21,708
-"Tua-i wii waniug kelengraatnga taangatulriit niisngairutua.  Tuai taqeq'atartua.  Amlleriuq atullra augum taangam.
+00:15:22,659 --> 00:15:35,458
+Tua-ll' pianga, "Taqkuma-gguq ellii-ll' taqciquq." Tua-i taqlunuk tuani qanruyullunuk.
 
 75
-00:15:22,659 --> 00:15:35,458
-Tuall pianga, " Taqkuma-gguq ell'iill taqciquq."  Tuai taqlunuk tuani qanruyullunuk.
+00:15:35,916 --> 00:15:46,541
+Tua-i kelengraitkuk-llu qakemkut ilangcinanrirluki. Catuqatalriit au͡gkut Caninermiut. Tua-i
 
 76
-00:15:35,916 --> 00:15:46,541
-Tuai kelengraitkuk-llu qakemkut ilangcinanrirluki.  Catuqatalriit augkut Caninermiut.  Tua-i
+00:15:47,846 --> 00:15:57,958
+Wii tamaaken tua-i taqellruunga tua-i. Ak’aurtuq taqucilqa. Tamaani pinirpaglua yuullemni, yuullma nalliini.
 
 77
-00:15:47,846 --> 00:15:57,958
-Wii tam'aken tuai taqellruunga tuai.  Akaurtuq taqucilqa.  Tam'aani pinirpaglua yuullemni, yuullma nalliini.
+00:15:59,078 --> 00:16:11,791
+Tua-i taqelqa ak'aqucu’urtuq tayima. Tua-i taqlunuk tamamegnuk. Tua-i tamatumek tua-i taqlunuk pitateklunuk.
 
 78
-00:15:59,078 --> 00:16:11,791
-Tuai taqelqa ak'aquucuurtuq tayima.  Tuai taqlunuk tamamegnuk.  Tuai tamatumek tuai taqlunuk pitateklunuk.
+00:16:12,622 --> 00:16:25,458
+Arenqiapakar, ilungaurluun pitsaqevkenak arnaarmek aipangkuvet. Umyuallgutekluni atam tau͡gaam uitauralleq, nutaan atam.
 
 79
-00:16:12,622 --> 00:16:25,458
-Arenpiapakar, ilungaurluun pitsaqevkenak arnaarmek aipangkuvet.  Umyuallgutekluni atam taugaam uitauralleq, nutaan atam.
-
-80
 00:16:26,420 --> 00:16:31,041
 Umyuallguteksagulluni aipaqutelleq, nutaan atam.
 
-81
+80
 00:16:32,376 --> 00:16:47,791
-Tangerrluk wiingaurluq-llu waniwa aiparma imum tungiinun camek umyuarniurutaitellnek quyapialalrianga watqapik.  Quyatmek taugaam.
+Tangerrluk wiingaurluq-llu waniwa aiparma imum tungiinun camek umyuarniurutaitellemnek quyapialalrianga watqapik. Quyatmek tau͡gaam.
+
+81
+00:16:48,372 --> 00:17:00,958
+Umyuarteqaqlua-llu anirta maaten ciullegaanga anirta wii pisqutiinek narurtellrunritlemnek quyatengqelartua.
 
 82
-00:16:48,372 --> 00:17:00,958
-Umyuarteqaqlua-llu anirta maaten ciullegaanga anirta wii pisquciinek narurtellrunritlemnek quyatengqelartua.
+00:17:01,860 --> 00:17:08,999
+Anirta wii pisqutiinek narurtaarpek’naku aipaqellrulliniaqa tangvallemni.
 
 83
-00:17:01,860 --> 00:17:08,999
-Anirta wii pisqutiinek narurtaarpeknaku aipaqellrulliniaqa tangvallemni.
+00:17:10,061 --> 00:17:19,666
+Tamana tamaa-i quyatekluku narurtaarutevkenanuk ayuqellerpuk quyatekluku.
 
 84
-00:17:10,061 --> 00:17:19,666
-Tamana tamai quyatekluku narurtaarutevkenanuk ayuqellerpuk quyatekluku.
+00:17:20,132 --> 00:17:30,208
+Ellin-llu cali waniw’, imumi waniw’ cunaw’ anerneriqatarluni. Wii qaill’ piciinaku tangvangramku.
 
 85
-00:17:20,132 --> 00:17:30,208
-Ellin-llu cali waniug, imumi waniug cunaugg anerneriqatarluni.  Wii qailpicinaku tangvangramku.
+00:17:31,115 --> 00:17:40,291
+Waten pianga. "Akitai-gguq ingkut kitugteqerlaki. Qavarningami-gguq tua-i waniw' qavaqatartuq."
 
 86
-00:17:31,115 --> 00:17:40,291
-Waten pianga. "Akitaigguq ingkut kitugteqerlaki.  Qavarningami-gguq tuai waniug qavaqatartuq."
+00:17:41,247 --> 00:17:49,291
+Waniw’ akwaugaq atakuuluku pagaani qanrutkelaryaaqaa Jesus-aaq.
 
 87
-00:17:41,247 --> 00:17:49,291
-Waniug akwauvaq atakuluku pagaani qanrutkelaryaaqaa Jesus-aaq.
+00:17:50,160 --> 00:18:00,791
+Yuk-gguq pag’ pamaaranrilnguularpagta. Pagaa-i-gguq-am ayagtu’rtuq. Aciliurturluni. Una tua-i takuyarluku ayaagaraqlluni.
 
 88
-00:17:50,160 --> 00:18:00,791
-Yuk-gguq pag pam'aranrilnguularpagta.  Pagai-gguq-am ayagturtuq.  Aciliurturluni.  Una tuai takuyarluku ay'aagaraqlluni.
+00:18:01,998 --> 00:18:13,333
+Yuk-gguq pag’ pamaqcuaranrilnguularpagta. Atakuuluku tuani una-am qanertuq, "Jesus-aaq-gguq man'a itqatartuq."
 
 89
-00:18:01,998 --> 00:18:13,333
-Yuk-gguq pag pamaqcuaranrilnguularpagta.  Atakuluku tuani una-am qanertuq, "Jesus-aaq-gguq man'a itqatartuq."
+00:18:13,842 --> 00:18:31,124
+"Itertuq-gguq". Tua-i itran qalaruskii angnirluni cakneq Jesus-aaq. Tua-i tangvagluku qalaruskii tua-i. Piqerluni-ll’ qanerluni, "Ava-i-gguq-am tua-i an'uq."
 
 90
-00:18:13,842 --> 00:18:31,124
-"Itertuq-gguq".  Tuai itran qalaruskii angnirluni cakneq Jesus-aaq.  Tuai tangvagluku qalaruskii tuai.  Piqerlunill qanerluni, "avai-gguq-am tuai an'uq." 
+00:18:33,598 --> 00:18:50,041
+Aren tuani tua-i unuakumi anernerillruuq. Inarrluku. Inarqaarluku-ll’ iquanun wii wavet aqumqerlua. Uligluku-llu inarcuan. Qavarningami-gguq waniw' qavaqatartuq.
 
 91
-00:18:33,598 --> 00:18:50,041
-Aren tuani tuai unuakumi anernerillruuq.  Inarrluku.  Inarqaarlukull iquanun wii wavet aqumqerlua.  Uligluku-llu inarcuan.  Qavarningami-gguq waniug qavaqatartuq.
+00:18:50,758 --> 00:19:07,333
+Uyaquni mak'arrluki pianga. "Tua-i usuurluuq, nalliini imumi aipaqsugluten aipaqsagutellruyaaqamken tau͡gaam-gguq tua-i waniw' qavarnigami qavaqatartuq.
 
 92
-00:18:50,758 --> 00:19:07,333
-Uyaquni mak'arrluki pianga.  "Tuai usuurluuq, nalliini imumi aipaqsugluten aipaqsagutellruyaaqamken taugaam-gguq tuai waniug qavarnigami qavaqatartuq.
+00:19:08,212 --> 00:19:21,291
+Qaillun-llu piqatallminek qaneqsaunani. Umyuarteqnaurtua waniw’ aling aren unugpak-ggem qavallrungatuq. Piluku, kelluqurluku qavalaama.
 
 93
-00:19:08,212 --> 00:19:21,291
-Qaillun-llu piqatallminek qaneqsaunani.  Umyuarteqnaurtua waniug aling aren unugpak-ggem qavallrungatuq.  Piluku, kelluqurluku qavalaama.  
+00:19:22,775 --> 00:19:38,083
+Tua-i-tang anernerilria tua-i anernera qaskelliinaryartulria. Anerneni nucuggaarluku ancaaqnauraa. Igyaraani-llu watqapik nuagglugmek-lli cataitelar.
 
 94
-00:19:22,775 --> 00:19:38,083
-Tua-i-tang anernerilria tuai anernera qaskelliinaryartulria. Anernen'i nucugaarluku ancaaqnauraa. Igyaraani-llu watqapik nuagglugmek-lli cataitellar.
+00:19:39,216 --> 00:19:43,958
+Aren tuar ilumun qavaryartulria tua-i qavaqerluni-llu.
 
 95
-00:19:39,216 --> 00:19:43,958
-Aren tuar ilumun qavaryartulria tuai qavaqerlunillu. 
+00:19:44,937 --> 00:19:52,708
+Cunaw’ im’ tangvaurtelluni call' yug’ im’ ayagyuallminun uterrnaluni kegginaa.
 
 96
-00:19:44,937 --> 00:19:52,708
-Cunuag im tangvaurtelluni call' yug im ayagyuallminun uternaluni kegg'inaa. 
+00:19:53,458 --> 00:20:07,999
+Kegginaqegtaari assipiaq. Tuar wani angukara’urluurrluni pinrilnguq. Kegginaqegtaari aspiaq. Tuar wani ayagyuaraq taklalria.
 
 97
-00:19:53,458 --> 00:20:07,999
-Kegg'iinaqertaarii assipiaq.  Tuar wani angukaraurluurrluni pinrilnguq.  Kegginaqertaarii aspiaq.  Tuar wani ayagyuaraq taklalria. 
+00:20:12,037 --> 00:20:25,333
+Cali imum ilungaurlurpet atani imna tua tum'artaa. Tuarpiaq atakumi waten pingayuni ernerni uani nem'i uitavkaatni.
 
 98
-00:20:12,037 --> 00:20:25,333
-Cali imum ilungaurlurpet ataani imna tua tum'artaa.  Tuarpiaq ataakumi waten pingayuni ernerni uani nem'i uitavkaatni. 
+00:20:26,105 --> 00:20:31,958
+Wani-ll’ pingayuagnek atakuyartuan man'a agayuvigmun tagulluku.
 
 99
-00:20:26,105 --> 00:20:31,958
-Waniug pingayuagnek atakuyartuan man'a agayuvigmun tagulluku.
+00:20:32,749 --> 00:20:45,541
+Unuaquan tagngamta tangrraqa. Aren, ilungaurluun imna ayagyuaqapiarallminun irniangeksaitellminun utertellinilria.
 
 100
-00:20:32,749 --> 00:20:45,541
-Unuaquan tagngamta tangraqa.  Aren, ilungaurluun imna ayagyuaqapiarallminun irniangeksaitellminun utertellinilria. 
+00:20:46,114 --> 00:20:56,833
+Nem'i-ll’ uiallran assinerpaksagulluku. Ayagyuakaca... kia-kiq tayim’ ayagyuakenritau tangertiin ayagyuakluku.
 
 101
-00:20:46,114 --> 00:20:56,833
-Nem'ill uiallran assinerpaksagulluku.  Ayagyuakaca...kiakiq tayim ayagyuakenritau tangertiin ayagyuakluku.
+00:20:57,458 --> 00:21:11,874
+Tuar-gguq waniw’ irniangeksaitellria-gguq tuar wani. Kegginaqegtaari tuar ilumun irniangeksaitellminum avavet utertellinilria. Assipiaq tangvallra.
 
 102
-00:20:57,458 --> 00:21:11,874
-Tuarrguq waniug irniangeksaitellria-gguq tuar wani.  Kegginaqegtaarii tuar ilumun irniangeksaitellminum awavet utertellinilria.  Assipiaq tangvallra. 
+00:21:12,527 --> 00:21:17,374
+Tua-i tang tauna-ll' qaill' caqatauciinani ayuqellrullria.
 
 103
-00:21:12,527 --> 00:21:17,374
-Tuai tang taunall' qaill caqatauciinani ayuqellrullria. 
+00:21:17,887 --> 00:21:28,124
+Irniani-ll’ ukut agayussuutnek, Agayunermi-ll’ piami, agayussuutnek atuavkarluki waniw’ cikiutell'uni.
 
 104
-00:21:17,887 --> 00:21:28,124
-Irnianill ukut agayussuutnek, agayunermill piami, agayussuutnek atuavkarluki waniug cikyutell'uni. 
+00:21:29,214 --> 00:21:35,958
+Ug’um-wa ilungaurlurpet itgaikun cali tegumiaqurqii kanan’ ketiini.
 
 105
-00:21:29,214 --> 00:21:35,958
-Ugum-wa ilungaurlurpet itgaikun cali tegumiaqurqii kanan ket'iini. 
+00:21:36,916 --> 00:21:42,749
+Ukut-wa irniarin cali cikiulluku agayussuutnek cali atualriit.
 
 106
-00:21:36,916 --> 00:21:42,749
-Ukut-wa irniarin cali cikyulluku agayussuutnek cali atualriit. 
+00:21:43,472 --> 00:21:55,291
+Tua-i-ll’ taqluteng-am uitaqallratni waten pii. Arulaingqaqallratni. Imumek 'Aaliluyaamek' atuqerci.
 
 107
-00:21:43,472 --> 00:21:55,291
-Tua-ill taqluteng-am uitaqallratni waten pii. Arulaingqaqallratni.  Imumek 'Aaliluyaamek' atuqerci. 
+00:21:56,074 --> 00:22:03,916
+Tua-i nallunrilamegteggu-am aturluku ugkut irniarin. Aturluku tua-i.
 
 108
-00:21:56,074 --> 00:22:03,916
-Tuai nallunrilamegteggu-am aturluku ugkut irniarin.  Aturluku tuai.
+00:22:05,045 --> 00:22:16,166
+Iliit-am uyaqurrikun qes'arrluku waten pingnaurluq Apac’aaq. Maani irniartuumauq. Apac’aaq irniarin iliit.
 
 109
-00:22:05,045 --> 00:22:16,166
-Iliit-am uyaqurrikun qes'arluku waten pingnaurluq Ap'acaaq.  Maani irniyartuumauq. Ap'acaaq irniarin iliit. 
-
-110
 00:22:17,040 --> 00:22:23,416
-Uyaqurr'iikun qes'arluku.  Cayukanirluku-am kegginaa igvartuq quuyuakacagaum...
+Uyaqurrikun qes'arrluku. Cayukanirluku-am kegginaa igvartuq quuyuakacagaum...
 

@@ -490,6 +490,75 @@ def parseCoreySummaries(files):
 
 	return data
 			
+def parseEgalSummaries(filename):
+	data = defaultdict(dict)
+
+	def convertTimestamp(time):
+		seconds = int(float(time))
+
+		min, sec = divmod(seconds, 60)
+		hour, min = divmod(min, 60)
+		if hour == 0:
+			return '%02d:%02d' % (min, sec)
+		else:
+			return '%d:%02d:%02d' % (hour, min, sec)
+
+	with open(filename, 'r', encoding='utf-8-sig') as file_object:
+		videoNumber = ''
+		line = file_object.readline()
+		while line:
+			if line.strip() == "":
+				line = file_object.readline()
+				continue
+			if line.strip() == "###":
+				break
+
+			if "# cpb" in line:
+				videoNumber = line.strip().replace("# ",'')
+				data[videoNumber]['videoID'] = videoNumber
+				data[videoNumber]['title'] = "Ciuliamta Paiciutait"
+				data[videoNumber]['time'] = videoNumAndDuration[videoNumber][1]
+				data[videoNumber]['metadata'] = {}
+				line = file_object.readline()
+				continue
+
+			elif "## Summaries" in line:
+				line = file_object.readline()
+				summaries = []
+				while True:
+					if line[0] == '#':
+						break
+					elif line[0].isdigit():
+						timestamp = convertTimestamp(line.strip())
+						line = file_object.readline()
+						yugtun = line.strip()
+						line = file_object.readline()
+						english = line.strip()
+						summaries.append([timestamp,yugtun,english])
+						line = file_object.readline()
+						continue
+					elif line.strip() == "":
+						line = file_object.readline()
+						continue
+				data[videoNumber]['summary'] = summaries
+
+			elif "## Keywords" in line:
+				line = file_object.readline()
+				keywords = []
+				while True:
+					if line[0] == '#':
+						break
+					elif line.strip() == "":
+						line = file_object.readline()
+						continue
+					else:
+						keywords.append(line.strip())
+						line = file_object.readline()
+						continue
+				data[videoNumber]['elderTags'] = []
+				data[videoNumber]['tags'] = keywords
+
+	return data
 
 
 def categoriesXML(filename, elderNames):
@@ -817,6 +886,7 @@ def mixCategoriesSummaries(summaries, categories, elderCat2Images):
 if __name__ == '__main__':
 	categoriesFilename = '../data/categories.txt'
 	summariesFilename = '../data/summaries.txt'
+	egalFilename = "../data/Summarizing Ourselves.txt"
 	elderIdentifierFilename = '../data/Elder Identification - Sheet1.tsv'
 	coreyfolder = '../data/WoW-Corey'
 	coreyfiles = sorted(glob.glob('../data/WoW-Corey/*.docx'))
@@ -831,9 +901,14 @@ if __name__ == '__main__':
 	print(f'importing {coreyfolder}')
 	coreyDict = parseCoreySummaries(coreyfiles)
 	with open('coreysummaries.json', 'w', encoding='utf-8') as out:
-		out.write(json.dumps(coreyDict, indent=4, ensure_ascii=False))
+		out.write(json.dumps(coreyDict, indent=4, ensure_ascii=False))	
 
-	summariesDict = lonnyDict | coreyDict
+	print(f'importing {egalFilename}')
+	egalDict = parseEgalSummaries(egalFilename)
+	with open('egalsummaries.json', 'w', encoding='utf-8') as out:
+		out.write(json.dumps(egalDict, indent=4, ensure_ascii=False))	
+
+	summariesDict = lonnyDict | coreyDict | egalDict
 	# add in empty summaries
 	for vid in videoNumAndDuration:
 		if vid not in summariesDict and vid not in skipVideos:

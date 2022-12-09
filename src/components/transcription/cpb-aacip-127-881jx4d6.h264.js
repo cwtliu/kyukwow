@@ -1023,7 +1023,7 @@ export const subtitles = {
         "startTime": 1193.814,
         "endTime": 1199.627,
         "transcript": "Una wani, nuu tegunrilengraan, canrituq. Uum wani tarenrairitem pissuu[tekaa].",
-        "translation": "This, no, don't take it, it's okay. It's for the camer here."
+        "translation": "This, no, don't take it, it's okay. It's for the camera here."
     },
     "172": {
         "startTime": 1200.302,
@@ -1167,7 +1167,7 @@ export const subtitles = {
         "startTime": 1389.124,
         "endTime": 1398.774,
         "transcript": "Tau͡gken tuaten maligtaquurautellria, qanruyutminek-llu umyuaqilria tuaten piyuitaat.",
-        "translation": "However, they don't do that to an obedient person, and one who remembers their traditioanl wisdom."
+        "translation": "However, they don't do that to an obedient person, and one who remembers their traditional wisdom."
     },
     "196": {
         "startTime": 1398.781,
