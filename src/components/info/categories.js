@@ -367,6 +367,15 @@ export const categories = {
             "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
+    "2.2.3": {
+        "name": "Tapraq -- Stebbins",
+        "url": "Tapraq",
+        "images": [],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-0644j324.h264"
+        ]
+    },
     "2.2.8": {
         "name": "Nunam Iqua -- Nunam Iqua [Sheldon's Point]",
         "url": "Nunam-Iqua",
@@ -683,6 +692,7 @@ export const categories = {
             "cpb-aacip-127-10jsxpx6.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-225b014v.h264",
+            "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-25x69tk3.h264",
             "cpb-aacip-127-26xwdh7k.h264",
             "cpb-aacip-127-27zkh5wz.h264",
@@ -5956,17 +5966,6 @@ export const categories = {
         ]
     },
     "23.8": {
-        "name": "Andrew Paukan -- St. Mary's",
-        "url": "Andrew-Paukan",
-        "images": [
-            "elder141.png"
-        ],
-        "children": 0,
-        "videoNumbers": [
-            "cpb-aacip-127-0644j324.h264"
-        ]
-    },
-    "23.9": {
         "name": "Anesia Hoover (?) -- Kasigluk",
         "url": "Anesia-Hoover-(?)",
         "images": [
@@ -5975,6 +5974,17 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-65h9w88k.h264"
+        ]
+    },
+    "23.9": {
+        "name": "Anglaraq (?) ~ Andrew Paukan -- St. Mary's",
+        "url": "Anglaraq-(?)-Andrew-Paukan",
+        "images": [
+            "elder141.png"
+        ],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-0644j324.h264"
         ]
     },
     "23.10": {
@@ -6028,21 +6038,30 @@ export const categories = {
         ]
     },
     "23.14": {
+        "name": "Apaqutaq ~ Dick Andrew -- Bethel, Kayalivik",
+        "url": "Apaqutaq-Dick-Andrew",
+        "images": [
+            "elder30.png"
+        ],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-25k98x78.h264"
+        ]
+    },
+    "23.15": {
         "name": "Apaqutaq ~ Dick Andrew -- Kayalivik",
         "url": "Apaqutaq-Dick-Andrew",
         "images": [
-            "elder30.png",
             "elder98.png"
         ],
         "children": 0,
         "videoNumbers": [
-            "cpb-aacip-127-25k98x78.h264",
             "cpb-aacip-127-74cnpfr2.h264"
         ]
     },
-    "23.15": {
-        "name": "Aqesgirpak ~ Mary Worm -- Kongiganak",
-        "url": "Aqesgirpak-Mary-Worm",
+    "23.16": {
+        "name": "Arnaaquq Aqesgirpak ~ Mary Worm -- Kongiganak",
+        "url": "Arnaaquq-Aqesgirpak-Mary-Worm",
         "images": [
             "elder31.png",
             "elder49.png",
@@ -6065,9 +6084,9 @@ export const categories = {
             "cpb-aacip-127-79h44thw.h264"
         ]
     },
-    "23.16": {
-        "name": "Ayagina'ar ~ Nicholas Charles -- Bethel",
-        "url": "Ayaginaar-Nicholas-Charles",
+    "23.17": {
+        "name": "Ayagina'ar ~ Nicholas Charles Sr. -- Bethel",
+        "url": "Ayaginaar-Nicholas-Charles-Sr.",
         "images": [
             "elder36.png",
             "elder48.png",
@@ -6080,11 +6099,11 @@ export const categories = {
             "cpb-aacip-127-440rz436.h264"
         ]
     },
-    "23.17": {
+    "23.18": {
         "name": "Ayagkaq ~ Wassillie B. Evan -- Napakiak",
         "url": "Ayagkaq-Wassillie-B.-Evan",
         "images": [
-            "cali4.png",
+            "elder26.png",
             "elder26.png"
         ],
         "children": 0,
@@ -6093,7 +6112,7 @@ export const categories = {
             "cpb-aacip-127-16pzgr3f.h264"
         ]
     },
-    "23.18": {
+    "23.19": {
         "name": "Ayaprun ~ James Peter Sr. -- Kipnuk, Bethel",
         "url": "Ayaprun-James-Peter-Sr.",
         "images": [
@@ -6104,8 +6123,8 @@ export const categories = {
             "cpb-aacip-127-06g1jzz6.h264"
         ]
     },
-    "23.19": {
-        "name": "Benedict Ketcheak -- Tapraq/Stebbins",
+    "23.20": {
+        "name": "Benedict Ketcheak -- Tapraq, Stebbins",
         "url": "Benedict-Ketcheak",
         "images": [
             "elder142.png"
@@ -6115,7 +6134,7 @@ export const categories = {
             "cpb-aacip-127-0644j324.h264"
         ]
     },
-    "23.20": {
+    "23.21": {
         "name": "Betty Guy -- Akiak",
         "url": "Betty-Guy",
         "images": [
@@ -6126,7 +6145,7 @@ export const categories = {
             "cpb-aacip-127-68kd59ft.h264"
         ]
     },
-    "23.21": {
+    "23.22": {
         "name": "Billy Lincoln Sr. -- Toksook Bay",
         "url": "Billy-Lincoln-Sr.",
         "images": [
@@ -6137,7 +6156,7 @@ export const categories = {
             "cpb-aacip-127-28ncjzpp.h264"
         ]
     },
-    "23.22": {
+    "23.23": {
         "name": "Caingilnguq ~ Albert Therchik",
         "url": "Caingilnguq-Albert-Therchik",
         "images": [
@@ -6148,7 +6167,7 @@ export const categories = {
             "cpb-aacip-127-28ncjzpp.h264"
         ]
     },
-    "23.23": {
+    "23.24": {
         "name": "Caller'kuaq ~ William Lomack -- Akiachak (?)",
         "url": "Callerkuaq-William-Lomack",
         "images": [
@@ -6161,11 +6180,11 @@ export const categories = {
             "cpb-aacip-127-59c5b6gx.h264"
         ]
     },
-    "23.24": {
+    "23.25": {
         "name": "Carl Flynn -- Tununak",
         "url": "Carl-Flynn",
         "images": [
-            "cali9.png",
+            "elder51.png",
             "elder51.png"
         ],
         "children": 0,
@@ -6174,7 +6193,7 @@ export const categories = {
             "cpb-aacip-127-35gb5sdj.h264"
         ]
     },
-    "23.25": {
+    "23.26": {
         "name": "Cialuq ~ Paul G. Nicolai -- Kwethluk",
         "url": "Cialuq-Paul-G.-Nicolai",
         "images": [
@@ -6185,7 +6204,7 @@ export const categories = {
             "cpb-aacip-127-10jsxpvr.h264"
         ]
     },
-    "23.26": {
+    "23.27": {
         "name": "Cikiraq ~ Jane Green -- Hooper Bay",
         "url": "Cikiraq-Jane-Green",
         "images": [
@@ -6196,7 +6215,7 @@ export const categories = {
             "cpb-aacip-127-87brvbt5.h264"
         ]
     },
-    "23.27": {
+    "23.28": {
         "name": "Cimiciaq ~ Natalisia Smith -- Hooper Bay",
         "url": "Cimiciaq-Natalisia-Smith",
         "images": [
@@ -6207,7 +6226,7 @@ export const categories = {
             "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
-    "23.28": {
+    "23.29": {
         "name": "Cingliaq ~ Paul Gregory -- Bethel",
         "url": "Cingliaq-Paul-Gregory",
         "images": [
@@ -6218,7 +6237,7 @@ export const categories = {
             "cpb-aacip-127-06g1jzz6.h264"
         ]
     },
-    "23.29": {
+    "23.30": {
         "name": "Cungauyar ~ Wassllie Andrew -- Kwethluk",
         "url": "Cungauyar-Wassllie-Andrew",
         "images": [
@@ -6229,7 +6248,7 @@ export const categories = {
             "cpb-aacip-127-59q2c3zn.h264"
         ]
     },
-    "23.30": {
+    "23.31": {
         "name": "Cuukvak ~ Mary Neck -- Bethel",
         "url": "Cuukvak-Mary-Neck",
         "images": [
@@ -6240,7 +6259,7 @@ export const categories = {
             "cpb-aacip-127-27zkh5wz.h264"
         ]
     },
-    "23.31": {
+    "23.32": {
         "name": "Emma Phillip (?) -- Kwigillingok, Tuluksak",
         "url": "Emma-Phillip-(?)",
         "images": [
@@ -6253,7 +6272,7 @@ export const categories = {
             "cpb-aacip-127-59q2c3zn.h264"
         ]
     },
-    "23.32": {
+    "23.33": {
         "name": "Fred Pavilla -- Atmautluak",
         "url": "Fred-Pavilla",
         "images": [
@@ -6264,7 +6283,7 @@ export const categories = {
             "cpb-aacip-127-386hdxkk.h264"
         ]
     },
-    "23.33": {
+    "23.34": {
         "name": "Freda Beaver -- Kwigillingok",
         "url": "Freda-Beaver",
         "images": [
@@ -6275,7 +6294,7 @@ export const categories = {
             "cpb-aacip-127-86nzsk0r.h264"
         ]
     },
-    "23.34": {
+    "23.35": {
         "name": "Guy Mann -- Hooper Bay",
         "url": "Guy-Mann",
         "images": [
@@ -6288,7 +6307,7 @@ export const categories = {
             "cpb-aacip-127-96wwq9xv.h264"
         ]
     },
-    "23.35": {
+    "23.36": {
         "name": "Ilanaq ~ Theresa Moses -- Toksook Bay",
         "url": "Ilanaq-Theresa-Moses",
         "images": [
@@ -6299,7 +6318,7 @@ export const categories = {
             "cpb-aacip-127-28ncjzpp.h264"
         ]
     },
-    "23.36": {
+    "23.37": {
         "name": "Imguuq ~ Martha H. Jackson -- Tuulkessaaq, Kuiggluk",
         "url": "Imguuq-Martha-H.-Jackson",
         "images": [
@@ -6310,7 +6329,7 @@ export const categories = {
             "cpb-aacip-127-53wstz0s.h264"
         ]
     },
-    "23.37": {
+    "23.38": {
         "name": "Ingallak ~ George Keene -- Kasigluk",
         "url": "Ingallak-George-Keene",
         "images": [
@@ -6321,7 +6340,7 @@ export const categories = {
             "cpb-aacip-127-15p8d31m.h264"
         ]
     },
-    "23.38": {
+    "23.39": {
         "name": "James Guy -- Kwethluk",
         "url": "James-Guy",
         "images": [
@@ -6334,7 +6353,7 @@ export const categories = {
             "cpb-aacip-127-60qrfsqn.h264"
         ]
     },
-    "23.39": {
+    "23.40": {
         "name": "Jane Green -- Hooper Bay",
         "url": "Jane-Green",
         "images": [
@@ -6343,17 +6362,6 @@ export const categories = {
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-96wwq9xv.h264"
-        ]
-    },
-    "23.40": {
-        "name": "Joe Andrew -- Bethel",
-        "url": "Joe-Andrew",
-        "images": [
-            "cali2.png"
-        ],
-        "children": 0,
-        "videoNumbers": [
-            "cpb-aacip-127-06g1k008.h264"
         ]
     },
     "23.41": {
@@ -6381,25 +6389,51 @@ export const categories = {
         ]
     },
     "23.43": {
+        "name": "Kamluq ~ Kirt Bell -- Hooper Bay",
+        "url": "Kamluq-Kirt-Bell",
+        "images": [
+            "cali3.png",
+            "cali6.png"
+        ],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-06g1k008.h264",
+            "cpb-aacip-127-10jsxpwg.h264"
+        ]
+    },
+    "23.44": {
+        "name": "Kangrilnguq ~ Paul John -- Toksook Bay",
+        "url": "Kangrilnguq-Paul-John",
+        "images": [
+            "elder43.png"
+        ],
+        "children": 0,
+        "videoNumbers": [
+            "cpb-aacip-127-28ncjzpp.h264"
+        ]
+    },
+    "23.45": {
         "name": "Kelucaq ~ Joe Andrew -- Bethel",
         "url": "Kelucaq-Joe-Andrew",
         "images": [
-            "elder17.png",
-            "elder21.png",
-            "cali7.png",
-            "elder119.png",
+            "elder170.png",
+            "elder170.png",
+            "elder170.png",
+            "elder170.png",
+            "elder170.png",
             "elder170.png"
         ],
         "children": 0,
         "videoNumbers": [
             "cpb-aacip-127-010p2r15.h264",
+            "cpb-aacip-127-06g1k008.h264",
             "cpb-aacip-127-10jsxpwg.h264",
             "cpb-aacip-127-18rbp380.h264",
             "cpb-aacip-127-89280sv6.h264",
             "cpb-aacip-127-98mcvs0p.h264"
         ]
     },
-    "23.44": {
+    "23.46": {
         "name": "Ketacik (?) Ket'aq ~ Fannie Nicori -- Kwethluk",
         "url": "Ketacik-(?)-Ketaq-Fannie-Nicori",
         "images": [
@@ -6410,7 +6444,7 @@ export const categories = {
             "cpb-aacip-127-440rz436.h264"
         ]
     },
-    "23.45": {
+    "23.47": {
         "name": "Kukuyar ~ Henry Frank -- Kwethluk",
         "url": "Kukuyar-Henry-Frank",
         "images": [
@@ -6421,7 +6455,7 @@ export const categories = {
             "cpb-aacip-127-60qrfsqn.h264"
         ]
     },
-    "23.46": {
+    "23.48": {
         "name": "Kumangulria ~ Matthew Bean -- Mountain Village (?), Bethel, Acacaryun",
         "url": "Kumangulria-Matthew-Bean",
         "images": [
@@ -6436,12 +6470,12 @@ export const categories = {
             "cpb-aacip-127-28ncjzpp.h264"
         ]
     },
-    "23.47": {
+    "23.49": {
         "name": "Kumkaq ~ Noel Polty -- Pilot Station",
         "url": "Kumkaq-Noel-Polty",
         "images": [
-            "elder128.png",
-            "elder136.png",
+            "elder139.png",
+            "elder139.png",
             "elder139.png"
         ],
         "children": 0,
@@ -6451,18 +6485,7 @@ export const categories = {
             "cpb-aacip-127-623bkbxr.h264"
         ]
     },
-    "23.48": {
-        "name": "Kumluilnguq (?) ~ Paul John (?) -- Toksook Bay (?)",
-        "url": "Kumluilnguq-(?)-Paul-John-(?)",
-        "images": [
-            "elder43.png"
-        ],
-        "children": 0,
-        "videoNumbers": [
-            "cpb-aacip-127-28ncjzpp.h264"
-        ]
-    },
-    "23.49": {
+    "23.50": {
         "name": "Kumluilnguq ~ Matthew Frye -- Napakiak",
         "url": "Kumluilnguq-Matthew-Frye",
         "images": [
@@ -6475,19 +6498,6 @@ export const categories = {
             "cpb-aacip-127-6341p189.h264",
             "cpb-aacip-127-719kdfjd.h264",
             "cpb-aacip-127-881jx4d6.h264"
-        ]
-    },
-    "23.50": {
-        "name": "Kurt Bell -- Hooper Bay (?)",
-        "url": "Kurt-Bell",
-        "images": [
-            "cali3.png",
-            "cali6.png"
-        ],
-        "children": 0,
-        "videoNumbers": [
-            "cpb-aacip-127-06g1k008.h264",
-            "cpb-aacip-127-10jsxpwg.h264"
         ]
     },
     "23.51": {
@@ -6556,8 +6566,8 @@ export const categories = {
         ]
     },
     "23.56": {
-        "name": "Margaret Smart/Bell (?) -- Hooper Bay (?)",
-        "url": "Margaret-Smart/Bell-(?)",
+        "name": "Margaret Smart - Bell (?) -- Hooper Bay (?)",
+        "url": "Margaret-Smart---Bell-(?)",
         "images": [
             "elder109.png"
         ],
@@ -6583,11 +6593,11 @@ export const categories = {
         "name": "Mikngayaq Mik'aq ~ Eliza Chase -- Bethel",
         "url": "Mikngayaq-Mikaq-Eliza-Chase",
         "images": [
-            "elder9.png",
-            "cali8.png",
             "elder38.png",
-            "elder122.png",
-            "elder137.png"
+            "elder38.png",
+            "elder38.png",
+            "elder38.png",
+            "elder38.png"
         ],
         "children": 0,
         "videoNumbers": [
@@ -6624,7 +6634,7 @@ export const categories = {
         "name": "Narullgiar ~ Elena Nick -- Nunapitchuk",
         "url": "Narullgiar-Elena-Nick",
         "images": [
-            "elder50.png",
+            "elder68.png",
             "elder68.png",
             "elder123.png",
             "elder152.png",
@@ -6802,8 +6812,8 @@ export const categories = {
         ]
     },
     "23.74": {
-        "name": "Putyuk sometimes spelled Puyuk (Inupiaq) ~ Della Keats -- Noatak, Kotzebue",
-        "url": "Putyuk-sometimes-spelled-Puyuk-(Inupiaq)-Della-Keats",
+        "name": "Putyuk Puyuk ~ Della Keats -- Noatak, Kotzebue",
+        "url": "Putyuk-Puyuk-Della-Keats",
         "images": [
             "elder129.png"
         ],

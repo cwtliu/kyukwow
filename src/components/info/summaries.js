@@ -230,7 +230,7 @@ export const summaries = {
         },
         "elderTags": [
             "23.83",
-            "23.43"
+            "23.45"
         ],
         "tags": [
             "2.2.38",
@@ -303,7 +303,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.38"
+            "23.39"
         ],
         "tags": [
             "2.2.39",
@@ -367,9 +367,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.28",
+            "23.29",
             "23.72",
-            "23.18",
+            "23.19",
             "23.60",
             "23.71"
         ],
@@ -388,7 +388,7 @@ export const summaries = {
     },
     "cpb-aacip-127-06g1k008.h264": {
         "videoID": "cpb-aacip-127-06g1k008.h264",
-        "title": "Yuk 01 Unidentified, Joe Andrew, Kurt Bell, Mikngayaq Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq Wassillie B. Evan, Phillip Moses, Urutaq Lucy Beaver - # 9",
+        "title": "Yuk 01 Unidentified, Kelucaq Joe Andrew, Kamluq Kirt Bell, Mikngayaq Mik'aq Eliza Chase, Maqarualek Edward Wise, Ayagkaq Wassillie B. Evan, Phillip Moses, Urutaq Lucy Beaver - # 9",
         "time": "22:42",
         "metadata": {
             "Date": "Unknown",
@@ -448,11 +448,11 @@ export const summaries = {
         },
         "elderTags": [
             "23.87",
-            "23.40",
-            "23.50",
+            "23.45",
+            "23.43",
             "23.58",
             "23.53",
-            "23.17",
+            "23.18",
             "23.73",
             "23.83"
         ],
@@ -534,7 +534,7 @@ export const summaries = {
         },
         "elderTags": [
             "23.82",
-            "23.46"
+            "23.48"
         ],
         "tags": [
             "2.2.38",
@@ -625,7 +625,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.25",
+            "23.26",
             "23.65"
         ],
         "tags": [
@@ -659,7 +659,7 @@ export const summaries = {
     },
     "cpb-aacip-127-10jsxpwg.h264": {
         "videoID": "cpb-aacip-127-10jsxpwg.h264",
-        "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver, Kurt Bell - # 13",
+        "title": "Kelucaq Joe Andrew, Urutaq Lucy Beaver, Kamluq Kirt Bell - # 13",
         "time": "22:27",
         "metadata": {
             "Date": "Unknown",
@@ -718,9 +718,9 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.43",
+            "23.45",
             "23.83",
-            "23.50"
+            "23.43"
         ],
         "tags": [
             "2.2.38",
@@ -969,7 +969,7 @@ export const summaries = {
         },
         "elderTags": [
             "23.54",
-            "23.37",
+            "23.38",
             "23.6"
         ],
         "tags": [
@@ -1022,7 +1022,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.17"
+            "23.18"
         ],
         "tags": [
             "2.2.32",
@@ -1092,9 +1092,9 @@ export const summaries = {
         },
         "elderTags": [
             "23.83",
-            "23.43",
+            "23.45",
             "23.58",
-            "23.24"
+            "23.25"
         ],
         "tags": [
             "2.2.38",
@@ -1245,6 +1245,7 @@ export const summaries = {
             "23.14"
         ],
         "tags": [
+            "2.2.38",
             "1.1.1",
             "2.2.20",
             "15.2",
@@ -1259,7 +1260,7 @@ export const summaries = {
     },
     "cpb-aacip-127-25x69tk3.h264": {
         "videoID": "cpb-aacip-127-25x69tk3.h264",
-        "title": "Aqesgirpak Mary Worm, Kumangulria Matthew Bean, Allranitailnguq Allran'aq Joe Chief Sr. - # 26",
+        "title": "Arnaaquq Aqesgirpak Mary Worm, Kumangulria Matthew Bean, Allranitailnguq Allran'aq Joe Chief Sr. - # 26",
         "time": "22:26",
         "metadata": {
             "Date": "Unknown",
@@ -1290,8 +1291,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15",
-            "23.46",
+            "23.16",
+            "23.48",
             "23.7"
         ],
         "tags": [
@@ -1403,7 +1404,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.30"
+            "23.31"
         ],
         "tags": [
             "2.2.38",
@@ -1420,7 +1421,7 @@ export const summaries = {
     },
     "cpb-aacip-127-28ncjzpp.h264": {
         "videoID": "cpb-aacip-127-28ncjzpp.h264",
-        "title": "Ayagina'ar Nicholas Charles, Nengqerralria Nengeq'aq Elena Charles, Mikngayaq Mik'aq Eliza Chase, Nauyaq Anna Andrew, Nauciralrea Joseph Friday, Allranitailnguq Allran'aq Joe Chief Sr., Ilanaq Theresa Moses, Kumluilnguq (?) Paul John (?), Billy Lincoln Sr., Caingilnguq Albert Therchik, Uliggaq Martha Oscar Sara, Kumangulria Matthew Bean - # 29",
+        "title": "Ayagina'ar Nicholas Charles Sr., Nengqerralria Nengeq'aq Elena Charles, Mikngayaq Mik'aq Eliza Chase, Nauyaq Anna Andrew, Nauciralrea Joseph Friday, Allranitailnguq Allran'aq Joe Chief Sr., Ilanaq Theresa Moses, Kangrilnguq Paul John, Billy Lincoln Sr., Caingilnguq Albert Therchik, Uliggaq Martha Oscar Sara, Kumangulria Matthew Bean - # 29",
         "time": "50:28",
         "metadata": {
             "Date": "Unknown",
@@ -1536,18 +1537,18 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.16",
+            "23.17",
             "23.64",
             "23.58",
             "23.63",
             "23.62",
             "23.7",
-            "23.35",
-            "23.48",
-            "23.21",
+            "23.36",
+            "23.44",
             "23.22",
+            "23.23",
             "23.82",
-            "23.46"
+            "23.48"
         ],
         "tags": [
             "2.2.36",
@@ -1586,7 +1587,7 @@ export const summaries = {
     },
     "cpb-aacip-127-33rv1b2m.h264": {
         "videoID": "cpb-aacip-127-33rv1b2m.h264",
-        "title": "Ayagina'ar Nicholas Charles - # 32",
+        "title": "Ayagina'ar Nicholas Charles Sr. - # 32",
         "time": "10:11",
         "metadata": {
             "Date": "Unknown",
@@ -1625,7 +1626,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.16"
+            "23.17"
         ],
         "tags": [
             "2.2.38",
@@ -1978,7 +1979,7 @@ export const summaries = {
     },
     "cpb-aacip-127-257d81m9.h264": {
         "videoID": "cpb-aacip-127-257d81m9.h264",
-        "title": "Aqesgirpak Mary Worm - # 24",
+        "title": "Arnaaquq Aqesgirpak Mary Worm - # 24",
         "time": "22:06",
         "metadata": {
             "Date": [],
@@ -2043,7 +2044,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.16"
         ],
         "tags": [
             "2.2.28",
@@ -2272,7 +2273,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.24"
+            "23.25"
         ],
         "tags": [
             "2.2.21",
@@ -2541,7 +2542,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.32",
+            "23.33",
             "23.13"
         ],
         "tags": [
@@ -2556,7 +2557,7 @@ export const summaries = {
     },
     "cpb-aacip-127-386hdz1p.h264": {
         "videoID": "cpb-aacip-127-386hdz1p.h264",
-        "title": "Kumkaq Noel Polty, Putyuk sometimes spelled Puyuk (Inupiaq) Della Keats - # 40",
+        "title": "Kumkaq Noel Polty, Putyuk Puyuk Della Keats - # 40",
         "time": "1:01:44",
         "metadata": {
             "Date": [],
@@ -2670,7 +2671,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.47",
+            "23.49",
             "23.74"
         ],
         "tags": [
@@ -2917,7 +2918,7 @@ export const summaries = {
     },
     "cpb-aacip-127-440rz436.h264": {
         "videoID": "cpb-aacip-127-440rz436.h264",
-        "title": "Ayagina'ar Nicholas Charles, Nauciralrea Joseph Friday, Miisaq Milton Lewis, Nirraralria Ulric Nayamin, Wasky Walters, Ketacik (?) Ket'aq Fannie Nicori, Kumkaq Noel Polty - # 44",
+        "title": "Ayagina'ar Nicholas Charles Sr., Nauciralrea Joseph Friday, Miisaq Milton Lewis, Nirraralria Ulric Nayamin, Wasky Walters, Ketacik (?) Ket'aq Fannie Nicori, Kumkaq Noel Polty - # 44",
         "time": "31:25",
         "metadata": {
             "Date": [],
@@ -3000,13 +3001,13 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.16",
+            "23.17",
             "23.62",
             "23.57",
             "23.67",
             "23.84",
-            "23.44",
-            "23.47"
+            "23.46",
+            "23.49"
         ],
         "tags": [
             "2.2.39",
@@ -3288,8 +3289,8 @@ export const summaries = {
             "23.55",
             "23.70",
             "23.85",
-            "23.31",
-            "23.23",
+            "23.32",
+            "23.24",
             "23.1"
         ],
         "tags": [
@@ -3394,7 +3395,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.36"
+            "23.37"
         ],
         "tags": [
             "2.2.42",
@@ -3415,7 +3416,7 @@ export const summaries = {
     },
     "cpb-aacip-127-54kkwqvx.h264": {
         "videoID": "cpb-aacip-127-54kkwqvx.h264",
-        "title": "Aqesgirpak Mary Worm - # 50",
+        "title": "Arnaaquq Aqesgirpak Mary Worm - # 50",
         "time": "22:07",
         "metadata": {
             "Date": [],
@@ -3466,7 +3467,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.16"
         ],
         "tags": [
             "2.2.28",
@@ -3635,7 +3636,7 @@ export const summaries = {
             "23.4",
             "23.78",
             "23.79",
-            "23.34"
+            "23.35"
         ],
         "tags": [
             "2.2.35",
@@ -3963,7 +3964,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.23",
+            "23.24",
             "23.1"
         ],
         "tags": [
@@ -4026,8 +4027,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.29",
-            "23.31"
+            "23.30",
+            "23.32"
         ],
         "tags": [
             "2.2.42",
@@ -4123,8 +4124,8 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.38",
-            "23.45",
+            "23.39",
+            "23.47",
             "23.52"
         ],
         "tags": [
@@ -4188,7 +4189,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.49"
+            "23.50"
         ],
         "tags": [
             "2.2.32",
@@ -4336,7 +4337,7 @@ export const summaries = {
     },
     "cpb-aacip-127-65h9w88k.h264": {
         "videoID": "cpb-aacip-127-65h9w88k.h264",
-        "title": "Nauciralrea Joseph Friday, Winifred Beans, Jonathan Johnson, Anesia Hoover (?), Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
+        "title": "Nauciralrea Joseph Friday, Winifred Beans, Jonathan Johnson, Anesia Hoover (?), Arnaaquq Aqesgirpak Mary Worm, Tuunralek Jimmy Chimegalrea, Nauyaq Anna Andrew, Nauyaq Anna Andrew - # 62",
         "time": "1:00:49",
         "metadata": {
             "Date": [],
@@ -4502,8 +4503,8 @@ export const summaries = {
             "23.62",
             "23.86",
             "23.41",
-            "23.9",
-            "23.15",
+            "23.8",
+            "23.16",
             "23.81",
             "23.63",
             "23.63"
@@ -4816,7 +4817,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.20"
+            "23.21"
         ],
         "tags": [
             "2.2.41",
@@ -5010,7 +5011,7 @@ export const summaries = {
     },
     "cpb-aacip-127-719kdfjd.h264": {
         "videoID": "cpb-aacip-127-719kdfjd.h264",
-        "title": "Allranitailnguq Allran'aq Joe Chief Sr., Aqesgirpak Mary Worm, Nauyaq Anna Andrew, Winifred Beans, Joseph Evans (?), Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
+        "title": "Allranitailnguq Allran'aq Joe Chief Sr., Arnaaquq Aqesgirpak Mary Worm, Nauyaq Anna Andrew, Winifred Beans, Joseph Evans (?), Kumluilnguq Matthew Frye, Nauyaq Anna Andrew, Narullgiar Elena Nick - # 69",
         "time": "1:02:28",
         "metadata": {
             "Date": [],
@@ -5149,11 +5150,11 @@ export const summaries = {
         },
         "elderTags": [
             "23.7",
-            "23.15",
+            "23.16",
             "23.63",
             "23.86",
             "23.42",
-            "23.49",
+            "23.50",
             "23.63",
             "23.61"
         ],
@@ -5315,7 +5316,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.14"
+            "23.15"
         ],
         "tags": [
             "2.2.20",
@@ -5952,7 +5953,7 @@ export const summaries = {
     },
     "cpb-aacip-127-79h44thw.h264": {
         "videoID": "cpb-aacip-127-79h44thw.h264",
-        "title": "Aqesgirpak Mary Worm - # 78",
+        "title": "Arnaaquq Aqesgirpak Mary Worm - # 78",
         "time": "22:21",
         "metadata": {
             "Date": [],
@@ -6010,7 +6011,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.16"
         ],
         "tags": [
             "2.2.28",
@@ -6489,7 +6490,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.33"
+            "23.34"
         ],
         "tags": [
             "2.2.27",
@@ -6510,7 +6511,7 @@ export const summaries = {
     },
     "cpb-aacip-127-87brvbt5.h264": {
         "videoID": "cpb-aacip-127-87brvbt5.h264",
-        "title": "Cikiraq Jane Green, Acacungaqa Clotilda Stone, Margaret Smart/Bell (?) - # 85",
+        "title": "Cikiraq Jane Green, Acacungaqa Clotilda Stone, Margaret Smart - Bell (?) - # 85",
         "time": "14:30",
         "metadata": {
             "Date": [],
@@ -6560,7 +6561,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.26",
+            "23.27",
             "23.3",
             "23.56"
         ],
@@ -6668,7 +6669,7 @@ export const summaries = {
     },
     "cpb-aacip-127-0644j324.h264": {
         "videoID": "cpb-aacip-127-0644j324.h264",
-        "title": "Andrew Paukan, Benedict Ketcheak, Nauciralrea Joseph Friday - # 6",
+        "title": "Anglaraq (?) Andrew Paukan, Benedict Ketcheak, Nauciralrea Joseph Friday - # 6",
         "time": "21:05",
         "metadata": {},
         "summary": {
@@ -6684,13 +6685,14 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.8",
-            "23.19",
+            "23.9",
+            "23.20",
             "23.62"
         ],
         "tags": [
             "2.2.18",
             "2.2.10",
+            "2.2.3",
             "1",
             "20",
             "19.5"
@@ -6775,7 +6777,7 @@ export const summaries = {
     },
     "cpb-aacip-127-34fn33pp.h264": {
         "videoID": "cpb-aacip-127-34fn33pp.h264",
-        "title": "Aqesgirpak Mary Worm - # 33",
+        "title": "Arnaaquq Aqesgirpak Mary Worm - # 33",
         "time": "22:23",
         "metadata": {
             "interviewer": [
@@ -6800,7 +6802,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.16"
         ],
         "tags": [
             "2.2.28",
@@ -6912,7 +6914,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.47"
+            "23.49"
         ],
         "tags": [
             "2.2.11",
@@ -7027,7 +7029,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.49"
+            "23.50"
         ],
         "tags": [
             "7",
@@ -7121,7 +7123,7 @@ export const summaries = {
     },
     "cpb-aacip-127-52j6qcr2.h264": {
         "videoID": "cpb-aacip-127-52j6qcr2.h264",
-        "title": "Aqesgirpak Mary Worm - # 48",
+        "title": "Arnaaquq Aqesgirpak Mary Worm - # 48",
         "time": "1:03:36",
         "metadata": {
             "interviewer": [
@@ -7171,7 +7173,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.15"
+            "23.16"
         ],
         "tags": [
             "2.2.28",
@@ -7250,10 +7252,10 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.34",
-            "23.27",
+            "23.35",
+            "23.28",
             "23.41",
-            "23.39"
+            "23.40"
         ],
         "tags": [
             "2.2.17",
@@ -7494,7 +7496,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.43",
+            "23.45",
             "23.83"
         ],
         "tags": [
@@ -7582,7 +7584,7 @@ export const summaries = {
             ]
         },
         "elderTags": [
-            "23.43",
+            "23.45",
             "23.83"
         ],
         "tags": [
