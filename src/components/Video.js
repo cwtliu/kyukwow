@@ -29,7 +29,7 @@ class Video extends Component {
     this.state = {
       show: false,
       // audioURL: "https://yupikmodulesweb.s3.amazonaws.com/static/exercise1/"+this.videoID+".mp3",
-      audioURL: WEB_URL + "/KyukAudioLibrary/" + this.videoID + ".mp3",
+      audioURL: API_URL + "/kyukaudiolibrary/" + this.videoID,
       videoURL: YouTubeLinks[this.videoID],
       isPlaying: false,
       currentSection: null,
@@ -732,7 +732,7 @@ class Video extends Component {
                 :
                 null
               ))}
-              <Popup
+              <Popup hideOnScroll
                 trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px',fontSize:'25px'}} link name='comment alternate outline'>{'\n'}</Icon>}
                 on='click'
                 style={{zIndex:9999}}
@@ -984,12 +984,13 @@ class Video extends Component {
             // style={{position:'fixed','right':'3%','bottom':10,width:'94%',zIndex:10}}
             style={{width:'100%',zIndex:10}}
             ref={(element)=>{this.rap=element;}}
-            onEnded={()=>{console.log('ended'); this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
+            onEnded={()=>{console.log('onEnded'); this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
             onPlay={()=>{
+              console.log('onPlay'); 
               this.setState({audioPlayerPlaying:true})
               // this.checkIfScrollNeeded()
           }}
-            onPause={()=>{this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
+            onPause={()=>{console.log('onPause'); this.setState({audioPlayerPlaying:false}); this.resetTimer()}}
           />
         </div>
 
@@ -1530,7 +1531,6 @@ class Video extends Component {
           }
 
 
-          {console.log(summaries[this.ID])}
           {Object.keys(summaries[this.ID].summary).map((y,yindex) => (
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
               {this.summaryTags(y,yindex)}

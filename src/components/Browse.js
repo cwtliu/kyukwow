@@ -115,7 +115,7 @@ class Browse extends Component {
 
 				<div style={{display:'flex',justifyContent:'center',textAlign:'center',marginTop:'30px',marginBottom:'20px'}}>
 					<div>{'Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.'}
-		              <Popup
+		              <Popup hideOnScroll
 		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 		                on='click'
 		                content={<div style={{fontSize:'14px'}}>{'This work came into existence with love for our people in the Yukon Kuskokwim Delta.'}</div>}

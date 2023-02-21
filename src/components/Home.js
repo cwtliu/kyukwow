@@ -284,7 +284,7 @@ class Home extends Component {
 			          <Icon style={{float:'right',fontSize:16}} name='chevron down' />
 			        </Button>	
 
-	              <Popup
+	              <Popup hideOnScroll
 	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 	                on='click'
 	                content={<div style={{fontSize:'16px'}}>{'Show me more elders'}</div>}
@@ -320,7 +320,7 @@ class Home extends Component {
 			          <Icon style={{float:'right',fontSize:16}} name='chevron right' />
 			        </Button>			        
 		        </Link>
-	              <Popup
+	              <Popup hideOnScroll
 	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 	                on='click'
 	                content={<div style={{fontSize:'16px'}}>{'See All Categories'}</div>}
@@ -342,7 +342,7 @@ class Home extends Component {
 			          <Icon style={{float:'right',fontSize:16}} name='chevron right' />
 			        </Button>
 		        </Link>
-	              <Popup
+	              <Popup hideOnScroll
 	                trigger={<Icon style={{fontSize:'22px',color:'#d4d4d4',width:'22px',marginTop:'8px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 	                on='click'
 	                content={<div style={{fontSize:'16px'}}>{'Browse All Videos'}</div>}
@@ -354,7 +354,7 @@ class Home extends Component {
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',textAlign:'center',marginTop:'30px',marginBottom:'20px'}}>
 					<div>{'Man’a caliaq piurcimallruuq kenkekun Kuigpiim Kuskuqviim-llu yui pitekluki.'}
-		              <Popup
+		              <Popup hideOnScroll
 		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 		                on='click'
 		                content={<div style={{fontSize:'14px'}}>{'This work came into existence with love for our people in the Yukon Kuskokwim Delta.'}</div>}

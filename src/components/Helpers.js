@@ -83,12 +83,20 @@ import { API_URL, WEB_URL } from '../App.js';
             :
             null
           ))}
+
           <Popup
+            hideOnScroll
             trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
-            content={summaries[x].tags.map((y)=><div style={{fontSize:'16px'}}>{y}</div>)}
-            position='bottom left'
+            content={
+                  <Segment vertical style={{maxHeight:300,overflow: 'auto',padding:0,margin:0}}>
+                  {summaries[x].tags.map((y,yindex)=>
+                    <div style={{display:'flex',fontSize:'14px',paddingTop:(yindex !== 0 ? '3px' : ''),marginTop:(yindex !== 0 ? '4px' : ''),borderTop:(yindex !== 0 ? '1px solid #f4f3f3' : '')}}><span style={{flex:1,color:'#00000099'}}>{categories[y].name.split('--')[0]}</span><span style={{flex:1,display:'flex',alignItems:'center',marginLeft:'5px'}}><span>{categories[y].name.split('--')[1]}</span></span></div>)}
+                  </Segment>
+                }
+            position='bottom center'
           />
+
           </div>
           </Grid.Row>
         </Grid>
@@ -139,6 +147,7 @@ import { API_URL, WEB_URL } from '../App.js';
           ))}
 
           <Popup
+            hideOnScroll
             trigger={<Icon size='large' style={{color:'#d4d4d4',paddingLeft:'3px'}} link name='comment alternate outline'>{'\n'}</Icon>}
             on='click'
             content={

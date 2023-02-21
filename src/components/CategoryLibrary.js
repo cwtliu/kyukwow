@@ -68,7 +68,7 @@ class CategoryLibrary extends Component {
 				<Divider style={{marginTop:'24px'}} />
 				<div style={{display:'flex',justifyContent:'center',marginTop:'30px',marginBottom:'20px'}}>
 					<div>Tarenrairat piyunarivkaumaut KYUK-mek</div>
-		              <Popup
+		              <Popup hideOnScroll
 		                trigger={<Icon style={{fontSize:'18px',color:'#d4d4d4',width:'22px',marginLeft:'6px'}} link name='comment alternate outline'>{'\n'}</Icon>}
 		                on='click'
 		                content={<div style={{fontSize:'16px'}}>{'Photos provided by KYUK'}</div>}
