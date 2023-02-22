@@ -1055,7 +1055,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top: this.state.mobileAudioOffset+30, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-25),}}><Icon style={{top:'15px', cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1193,7 +1193,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'25px', left:(this.props.innerWidth/2-25), zIndex:1000}}><Icon style={{cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1299,7 +1299,7 @@ class Video extends Component {
             <div class='reader' style={{fontSize:'17px',lineHeight:'24px'}}>
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-15),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{top:this.state.videoHeight+10, position:'fixed',zIndex:1000,left:(this.props.innerWidth/2-25),}}><Icon style={{top:'15px', cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
                 :
               null
             }
@@ -1439,7 +1439,7 @@ class Video extends Component {
 
 
       {this.state.activeElementLocation === 'below' ?
-        <span style={{position:'sticky',fontSize:'17px', bottom:'15px', left:(this.props.innerWidth/2-15), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+        <span style={{position:'sticky',fontSize:'17px', bottom:'25px', left:(this.props.innerWidth/2-25), zIndex:1000}}><Icon style={{cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
         :
         null
       }
@@ -1557,7 +1557,7 @@ class Video extends Component {
             
 
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1681,7 +1681,7 @@ class Video extends Component {
 
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
@@ -1803,7 +1803,7 @@ class Video extends Component {
           <Segment onScroll={this.handleScroll} vertical id='readerelement' style={{padding:0,maxHeight:this.props.innerHeight-this.state.topOffset,overflow: 'auto',borderBottom:'#f6f6f6 1px solid',borderTop:'#f6f6f6 1px solid'}}>
             
             {this.state.activeElementLocation === 'above' ?
-              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
+              <span style={{position:'fixed',zIndex:1000,right:(this.state.readerElementWidth/2),}}><Icon style={{top:'15px', cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron up' /></span>
               :
               null
             }
@@ -1922,7 +1922,7 @@ class Video extends Component {
             )}
 
             {this.state.activeElementLocation === 'below' ?
-              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
+              <span style={{position:'sticky', bottom:'15px', right:(this.state.readerElementWidth/2-30), zIndex:1000}}><Icon style={{cursor:'pointer'}} size='large' color='blue' onClick={()=>{document.getElementById('sentence'+(this.state.currentSentence)).scrollIntoView({behavior: "smooth", block: "center"}) }} inverted circular name='chevron down' /></span>
               :
               null
             }
