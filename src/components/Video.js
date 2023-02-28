@@ -942,7 +942,7 @@ class Video extends Component {
         {this.state.subtitles[this.state.differentStartIndex].translation}
         </div>
         <div style={{marginTop:'10px'}}>
-        {(Math.floor(this.state.subtitles[this.state.differentStartIndex].startTime/60)).toString()+'min '+(this.state.subtitles[this.state.differentStartIndex].startTime%60).toString()+'sec'}
+        {(Math.floor(this.state.subtitles[this.state.differentStartIndex].startTime/60)).toString()+'min '+(Math.floor(this.state.subtitles[this.state.differentStartIndex].startTime%60)).toString()+'sec'}
         </div>
       </Modal.Content>
       <Modal.Actions style={{textAlign:'center'}}>
