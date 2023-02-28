@@ -1107,7 +1107,7 @@ export const subtitles = {
         "startTime": 1051.608,
         "endTime": 1062.108,
         "transcript": "Waniw' tang wiinga-llu ak'a tamaani tamatum nalliini yuarutait nallunritanka any time ilait carralriit, carraulriit.",
-        "translation": "Noy, you see, I know the songs from a long time ago [and can sing] some of them anytime, a few of them."
+        "translation": "Now, you see, I know the songs from a long time ago [and can sing] some of them anytime, a few of them."
     },
     "186": {
         "startTime": 1063.299,
@@ -1116,10 +1116,10 @@ export const subtitles = {
         "translation": "\"Angaa-yii-yaa agiyaa-ii-yaa.\" Then their dance movements."
     },
     "187": {
-        "startTime": 1068.715,
+        "startTime": 1068.72,
         "endTime": 1070.885,
         "transcript": "Qasgirpagmiut-qaa.",
-        "translation": ""
+        "translation": "Qasgirpagmiut?"
     },
     "188": {
         "startTime": 1071.313,

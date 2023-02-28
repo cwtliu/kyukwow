@@ -199,7 +199,7 @@ if __name__ == '__main__':
 	# "cpb-aacip-127-16pzgr3f.h264.srt",
 	# "cpb-aacip-127-18rbp380.h264.srt",
 	# "cpb-aacip-127-20fttjr7.h264.srt",
-	# "cpb-aacip-127-25k98x78.h264.srt",
+	"cpb-aacip-127-25k98x78.h264.srt",
 	]
 
 	# subtitleFiles = sorted([f for f in os.listdir(subtitleFolder) if f[0] == 'c'])
