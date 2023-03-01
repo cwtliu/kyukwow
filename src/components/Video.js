@@ -1013,11 +1013,11 @@ class Video extends Component {
                       <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                       {categories[y]['name'].includes('~') ?
                       <div>
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                       </div>
                       :
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                       }
                       </Link>
                     </div>
@@ -1257,11 +1257,11 @@ class Video extends Component {
                     <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
@@ -1495,11 +1495,11 @@ class Video extends Component {
                     <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
@@ -1740,11 +1740,11 @@ class Video extends Component {
                     <Image style={{borderRadius:'10px'}} src={WEB_URL +'/images/EldersPhotos/'+categories[y]['images'][0]} />
                     {categories[y]['name'].includes('~') ?
                     <div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'16px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'16px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
