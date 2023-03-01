@@ -1014,10 +1014,10 @@ class Video extends Component {
                       {categories[y]['name'].includes('~') ?
                       <div>
                       <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                       </div>
                       :
-                      <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
+                      <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                       }
                       </Link>
                     </div>
@@ -1258,10 +1258,10 @@ class Video extends Component {
                     {categories[y]['name'].includes('~') ?
                     <div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
@@ -1496,10 +1496,10 @@ class Video extends Component {
                     {categories[y]['name'].includes('~') ?
                     <div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
@@ -1741,10 +1741,10 @@ class Video extends Component {
                     {categories[y]['name'].includes('~') ?
                     <div>
                     <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px',fontWeight:'bold'}}>{categories[y]['name'].split('--')[0].split('~')[0]}</div>
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0].split('~')[1]}</div>
                     </div>
                     :
-                    <div style={{color:'#333333',display:'flex',justifyContent:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
+                    <div style={{color:'#333333',display:'flex',justifyContent:'center',textAlign:'center',fontSize:'14px'}}>{categories[y]['name'].split('--')[0]}</div>
                     }
                     </Link>
                   </div>
