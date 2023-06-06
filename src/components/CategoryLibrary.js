@@ -7,6 +7,8 @@ import {categories} from './info/categories.js';
 import { API_URL, WEB_URL } from '../App.js';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-JZB9CXH4GJ")
 
 class CategoryLibrary extends Component {
 	constructor(props) {

@@ -15,6 +15,8 @@ import {YouTubeLinks} from './info/YouTubeLinks.js';
 
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-JZB9CXH4GJ")
 
 const YUGTUNDOTCOM_URL = "https://www.yugtun.com/";
 

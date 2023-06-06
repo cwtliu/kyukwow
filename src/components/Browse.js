@@ -7,6 +7,8 @@ import {categories} from './info/categories.js';
 import { API_URL, WEB_URL } from '../App.js';
 import { FeaturedVideos } from './Helpers.js';
 import {videoNum2cpb} from './info/videoNum2cpb.js';
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-JZB9CXH4GJ")
 
 let converter = {
 	1:1,
