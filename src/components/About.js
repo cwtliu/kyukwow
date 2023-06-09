@@ -35,7 +35,10 @@ class About extends Component {
 						We also want to thank Maklak (Barbara Liu) for translating and transcribing. Quyana Pikaniralria (Vernon Chimegalrea) and Kaligtuq (Colleen Laraux) for translations of website terms. 
 					</div>
 					<div style={{marginTop:'30px'}}>
-						This website was made possible through partnership with KYUK and funding by the 2021 Alaska Humanities Forum Annual Grants Program. 
+						This website was made possible through partnership with KYUK. 
+					</div>
+					<div style={{marginTop:'30px'}}>
+						This project is supported in part by a grant from the Alaska Humanities Forum and the National Endowment for the Humanities, a federal agency. Any views, findings, conclusions or recommendations expressed in this (publication) (program) (website) (etc.) do not necessarily represent those of the National Endowment for the Humanities.					
 					</div>
 				</div>		
 			</div>
